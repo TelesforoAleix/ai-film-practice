@@ -68,3 +68,43 @@ def test_unknown_is_not_empty_value():
     rows[0]["value"] = ""
     with pytest.raises(ValueError):
         case_check.validate(rows, definitions, "1.0")
+
+
+def scope_fixture():
+    """Entirely invented film, job and field partitions."""
+    rows, _ = fixture()
+    rows[0].update(film_id="synthetic-film", entity_ids="synthetic-film/generation:job")
+    profile = dict(
+        film_id="synthetic-film",
+        row_counts={"generations": 2},
+        reading_register=[dict(generation_id="job", reasons=["model coverage"])],
+        field_states={
+            "generations": {"prompt": dict(unavailable=1, empty=0, nonempty=1)}
+        },
+        generations={"model": [dict(value="example", count=2)]},
+    )
+    edges = dict(film_id="synthetic-film", edges=[])
+    return profile, rows, edges
+
+
+def test_profile_scope_and_partitions():
+    case_check.validate_profile(*scope_fixture())
+
+
+@pytest.mark.parametrize(
+    "mutation", ["film", "duplicate", "partition", "scope", "edge"]
+)
+def test_rejects_inconsistent_scope(mutation):
+    profile, rows, edges = scope_fixture()
+    if mutation == "film":
+        edges["film_id"] = "other-film"
+    elif mutation == "duplicate":
+        profile["reading_register"] *= 2
+    elif mutation == "partition":
+        profile["field_states"]["generations"]["prompt"]["empty"] = 1
+    elif mutation == "scope":
+        rows[0]["entity_ids"] = "synthetic-film/generation:unread-job"
+    else:
+        edges["edges"] = [dict(producer="job", consumer="job", usages=[])]
+    with pytest.raises(ValueError):
+        case_check.validate_profile(profile, rows, edges)
