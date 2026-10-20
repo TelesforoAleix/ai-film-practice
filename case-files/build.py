@@ -13,6 +13,8 @@ from profile import ROOT, SLUGS, profile, records
 from batch2 import detour, fallen, finalise, lost, transmission
 from batch3 import birthdays, harmony, kagerou, kiss
 from batch3 import finalise as finalise_batch3
+from batch4 import finalise as finalise_batch4
+from batch4 import ivy, prophecy, ram, snap
 
 from film_practice import TABLES, connect
 
@@ -432,8 +434,12 @@ class Case:
             ),
         )
 
-    def common(self, organisation):
-        g = min(self.jobs.values(), key=lambda g: g["generation_id"])
+    def common(self, organisation, primary_prefix=None):
+        g = (
+            self.find(primary_prefix)
+            if primary_prefix
+            else min(self.jobs.values(), key=lambda g: g["generation_id"])
+        )
         prefix = g["generation_id"]
         e = self.job(prefix)
         primary = [
@@ -1659,7 +1665,9 @@ def apeirophobia(c):
 
 def main():
     with (ROOT.parent / "studies/01-corpus/outputs/panel.csv").open() as stream:
-        panel = [r for r in csv.DictReader(stream) if r["batch"] in {"1", "2", "3"}]
+        panel = [
+            r for r in csv.DictReader(stream) if r["batch"] in {"1", "2", "3", "4"}
+        ]
     with (ROOT.parent / "studies/01-corpus/outputs/codebook.csv").open() as stream:
         codebook = list(csv.DictReader(stream))
     with connect("data") as db:
@@ -1668,6 +1676,10 @@ def main():
             profile(db, film)
             c = Case(db, film, codebook)
             {
+                "Prophecy in 2047": prophecy,
+                "SNAP": snap,
+                "Don't Poison Ivy": ivy,
+                "Random Access Memories": ram,
                 "Harmony ": harmony,
                 "Birthdays": birthdays,
                 "KAGEROU": kagerou,
@@ -1685,6 +1697,8 @@ def main():
                 finalise(c)
             if film["batch"] == "3":
                 finalise_batch3(c)
+            if film["batch"] == "4":
+                finalise_batch4(c)
             c.write()
     files = sorted(
         p

@@ -1,7 +1,7 @@
-# Panel case files — batches 1–3
+# Panel case files — complete 16-film index
 
 These are case-level evidence files for Studies 02–10, not corpus-wide findings.
-All twelve registered films in batches 1–3 support technical case files; none was
+All sixteen registered films in batches 1–4 support technical case files; none was
 replaced. Nothing was watched. The release is `data-2026-10-20`, freshly fetched
 and verified against all 28 asset checksums. Only this release was opened; no
 source site, media link or authenticated library was retrieved.
@@ -9,8 +9,8 @@ source site, media link or authenticated library was retrieved.
 Only the selected cohort has detailed production records. These cases cannot
 establish what separates top films from other films, estimate prevalence, or
 establish a tested best practice. The 157 priority histories remain separate
-from the supplemental pilot; every film here is primary. Batch 4 and semantic
-prompt labels at scale remain outside this slice.
+from the supplemental pilot; every film here is primary. The panel case-file pass is complete. Semantic
+prompt labels at scale and corpus-wide Studies 02–10 remain separate slices.
 
 ## Index and inspected scope
 
@@ -21,18 +21,22 @@ Each linked ledger contains 49 rows in the calibration's exact column order.
 
 | Film / ID / cohort | Code states: coded / unknown / other | Scripted profile | Technical reading |
 | --- | --- | --- | --- |
+| [Fallen Leaves](fallen-leaves/CASE.md) · `6659c520-c88e-4ac7-a2c9-f28d8a40c954` · both | 44 / 5 / 0 | All 356 jobs and all film-scoped records in all 14 tables | 356/356 job contexts, technical text windows, controls/usages; visible brief, two folders, ten elements |
+| [The Kiss](the-kiss/CASE.md) · `655325cc-46d9-4b0b-b03d-d177defa4b3f` · both | 46 / 3 / 0 | All 391 jobs and all film-scoped records in all 14 tables | 391/391 job contexts, technical text windows, controls/usages; mixed brief, all 13 folders and 26 reference records |
+| [Lost](lost/CASE.md) · `e5ce8a79-9375-4e31-84a8-620bd4f07550` · shortlist only | 46 / 3 / 0 | All 350 jobs and all film-scoped records in all 14 tables | 350/350 job contexts, technical text windows, controls/usages; visible brief, six folders, 26 elements |
+| [Don't Poison Ivy](dont-poison-ivy/CASE.md) · `d305f6e5-b906-49a1-a0c6-75ef7f653ad8` · both | 49 / 0 / 0 | All 553 jobs and all film-scoped records in all 14 tables | 553/553 job contexts, complete technical text-window/control/usage pass; substantive brief, all 27 folders and 117 reference metadata records |
 | [APEIROPHOBIA](apeirophobia/CASE.md) · `c3d8ee5e-b119-4654-99f9-c6545f650635` · both | 43 / 6 / 0 | All 6,862 jobs and all film-scoped records in all 14 tables | 63/6,862 jobs, purposive; complete folder and one-element metadata registers; no sample-negative labels |
-| [The Staff](the-staff/CASE.md) · `3b09c7c2-3f0c-48e3-8304-fad569bf50ce` · shortlist only | 43 / 6 / 0 | All 82 jobs and all film-scoped records in all 14 tables | 82/82 job contexts, technical prompt sections and controls/usages; visible brief, 28 folders, 23 reference records |
+| [Detour](detour/CASE.md) · `d90fe8bd-3329-40b3-963c-d9b33075aec1` · both | 48 / 1 / 0 | All 6,162 jobs and all film-scoped records in all 14 tables | 219/6,162 jobs, purposive; complete 114-folder and 132-element registers; three nested enhanced/source text fields |
+| [KAGEROU](kagerou/CASE.md) · `51d2c0b2-d692-42b4-b66f-daf87cac1eb3` · shortlist only | 43 / 6 / 0 | All 489 jobs and all film-scoped records in all 14 tables | 489/489 job contexts, technical text windows, controls/usages; unavailable brief, all 227 folders and 20 reference records |
+| [Random Access Memories](random-access-memories/CASE.md) · `e99b5ad2-8f58-4ef8-a13c-4441cfdd5205` · shortlist only | 49 / 0 / 0 | All 482 jobs and all film-scoped records in all 14 tables | 482/482 job contexts, complete technical text-window/control/usage pass; substantive brief, all 24 folders and 29 reference metadata records |
+| [Birthdays](birthdays/CASE.md) · `d51d6821-d191-40f7-949b-1086750a2e93` · shortlist only | 47 / 2 / 0 | All 1,003 jobs and all film-scoped records in all 14 tables | 170/1,003 jobs, purposive; visible brief, all 60 folders and 177 reference metadata records |
+| [SNAP](snap/CASE.md) · `aed4098b-3278-4e5d-a347-24fad9cfb9ae` · most watched only | 47 / 2 / 0 | All 1,034 jobs and all film-scoped records in all 14 tables | 68/1,034 job contexts, purposive; unavailable brief, all 2 folders and 0 reference metadata records |
 | [Dry Aged Dreams](dry-aged-dreams/CASE.md) · `3777eda4-c15e-4531-9f04-4c02a900f3c3` · most watched only | 19 / 29 / 1 | All 11 jobs and all film-scoped records in all 14 tables | 11/11 jobs, all primary text/controls/usages; two-folder register; unavailable brief |
 | [A Tales Before Titanic Tragedy](a-tales-before-titanic-tragedy/CASE.md) · `3f6e509b-f3da-4324-a746-b9d35f0b9845` · most watched only | 27 / 13 / 9 | All four jobs and all film-scoped records in all 14 tables | 4/4 jobs, all primary text/controls/usages; exact repeated text read once with each job's context inspected; unavailable brief |
-| [Detour](detour/CASE.md) · `d90fe8bd-3329-40b3-963c-d9b33075aec1` · both | 48 / 1 / 0 | All 6,162 jobs and all film-scoped records in all 14 tables | 219/6,162 jobs, purposive; complete 114-folder and 132-element registers; three nested enhanced/source text fields |
-| [Fallen Leaves](fallen-leaves/CASE.md) · `6659c520-c88e-4ac7-a2c9-f28d8a40c954` · both | 44 / 5 / 0 | All 356 jobs and all film-scoped records in all 14 tables | 356/356 job contexts, technical text windows, controls/usages; visible brief, two folders, ten elements |
-| [Lost](lost/CASE.md) · `e5ce8a79-9375-4e31-84a8-620bd4f07550` · shortlist only | 46 / 3 / 0 | All 350 jobs and all film-scoped records in all 14 tables | 350/350 job contexts, technical text windows, controls/usages; visible brief, six folders, 26 elements |
+| [The Staff](the-staff/CASE.md) · `3b09c7c2-3f0c-48e3-8304-fad569bf50ce` · shortlist only | 43 / 6 / 0 | All 82 jobs and all film-scoped records in all 14 tables | 82/82 job contexts, technical prompt sections and controls/usages; visible brief, 28 folders, 23 reference records |
 | [THE LAST TRANSMISSION](the-last-transmission/CASE.md) · `03f596b0-23da-4312-9e58-2e1cc4582348` · shortlist only | 37 / 6 / 6 | All 66 jobs and all film-scoped records in all 14 tables | 66/66 job contexts, technical text windows, controls/usages; visible brief, two folders, zero disclosed elements |
 | [Harmony](harmony/CASE.md) · `2fd725ab-2604-4220-8cca-d332e9de53a2` · both | 47 / 2 / 0 | All 1,543 jobs and all film-scoped records in all 14 tables | 233/1,543 jobs, purposive; visible brief, all 11 folders and 51 reference metadata records; separate negative field |
-| [Birthdays](birthdays/CASE.md) · `d51d6821-d191-40f7-949b-1086750a2e93` · shortlist only | 47 / 2 / 0 | All 1,003 jobs and all film-scoped records in all 14 tables | 170/1,003 jobs, purposive; visible brief, all 60 folders and 177 reference metadata records |
-| [KAGEROU](kagerou/CASE.md) · `51d2c0b2-d692-42b4-b66f-daf87cac1eb3` · shortlist only | 43 / 6 / 0 | All 489 jobs and all film-scoped records in all 14 tables | 489/489 job contexts, technical text windows, controls/usages; unavailable brief, all 227 folders and 20 reference records |
-| [The Kiss](the-kiss/CASE.md) · `655325cc-46d9-4b0b-b03d-d177defa4b3f` · both | 46 / 3 / 0 | All 391 jobs and all film-scoped records in all 14 tables | 391/391 job contexts, technical text windows, controls/usages; mixed brief, all 13 folders and 26 reference records |
+| [Prophecy in 2047](prophecy-in-2047/CASE.md) · `9b38b885-bf92-484e-8f36-a890e4e10d61` · most watched only | 49 / 0 / 0 | All 1,054 jobs and all film-scoped records in all 14 tables | 184/1,054 job contexts, purposive; substantive brief, all 19 folders and 166 reference metadata records |
 
 Dry Aged Dreams' other state is one `not_observed_in_scope` for exact repetition
 and multiple placements in the full exported history (10.4). Titanic's other
@@ -47,7 +51,7 @@ states remain supported by the validator.
 [CODEBOOK.md](../studies/01-corpus/CODEBOOK.md) version **1.0**, all 49 codes,
 is unchanged. No definition proved inapplicable in a way requiring revision;
 there are no new codes, calibration changes or replacements. The four calibration
-films retain their original assignments. Fallen Leaves and The Kiss also have separate
+films retain their original assignments. Fallen Leaves, The Kiss and Don't Poison Ivy also have separate
 full case files; their calibration rows have not been silently replaced.
 
 The reading covers technical instructions, not the narrative or aesthetic merit
@@ -171,27 +175,25 @@ uv run pytest
 uv run python scripts/check_repository.py
 ```
 
-`build.py` profiles completed batches 1–3 and transcribes the fixed manual assignments, asserting
+`build.py` profiles completed batches 1–4 and transcribes the fixed manual assignments, asserting
 all quoted spans against source fields and checking the named input/producer
 relationships. It does not infer labels automatically. `reproduction.json` hashes
 all generated CSV/JSON case artifacts (excluding itself); CASE.md files are human
 reports. Full local reading packets stay in ignored `data/af2a/`, `data/af2b/` and
-`data/af2c/`. No full prompt
+`data/af2c/` and `data/af2d/`. No full prompt
 text is committed, and every case artifact is below 1 MB, so no release asset is
 needed for this slice. The original data, loader and Study 01 outputs are unchanged.
 
 `check.py` validates every `*/codes.csv`, complete current-code coverage, one row
 per code, current version, study mapping, five states, allowed coded values and
 all evidence fields. CI invokes it through an artifact-contract test; its unit
-fixtures are synthetic and never copy released records. Artifacts are discovered by glob; later slices must also extend the explicit
-completed-batch set in build.py, profile.py and check.py.
+fixtures are synthetic and never copy released records. Artifacts are discovered by glob; the explicit completed-batch sets in build.py,
+profile.py and check.py now cover all four registered batches.
 
-Batch 4 should retain version 1.0 and the panel as registered unless their own
-reading requires a documented revision or replacement. Unknowns are scoped
+All four batches retained version 1.0 and the panel as registered. Unknowns are scoped
 uncertainties, not missing rows to fill by assumption. If the codebook changes,
 reapply it to all completed cases and all four calibration films, including the
-supplemental pilot, and reproduce Study 01's outputs. Matched comparisons await
-the other member's case file. Corpus-wide rates, complete semantic prompt labels,
+supplemental pilot, and reproduce Study 01's outputs. Both members of every matched pair now have a case file. Corpus-wide rates, complete semantic prompt labels,
 full lineage/alias resolution, versions, actual build order and independent
 adjudication remain later work. No policy, architecture or programme change was
 needed here.
@@ -277,7 +279,7 @@ platform's architecture nor establish a tested best practice.
 | 09: Lost 09.3; Detour 09.3 | Deltas need supported membership | Keep linked correction distinct from unordered comparison | No timestamps-only revision order or inferred approval |
 | 10: Lost 10.4; Detour 10.5 | Occurrences and declared durations need provenance | Display placements separately; retain brief and catalogue duration | Duplicated placements cannot change job count; denominator change stays explicit |
 
-Batches 3–4 should retain codebook 1.0 and the registered panel. Fallen Leaves'
+Batches 3–4 subsequently retained codebook 1.0 and the registered panel. Fallen Leaves'
 calibration remains a separate sample ledger; its five case-file unknowns are not
 instructions to rewrite calibration. Detour's brief says seven minutes while its
 catalogue duration is 678.375 seconds; the resource proxy explicitly uses the
@@ -285,7 +287,7 @@ latter. THE LAST TRANSMISSION's brief includes anecdotes about filters, tests an
 failures, but the completed-job export cannot estimate their rates or independently
 establish experimental support. Lost's creator credit statement is not monetary
 cost. Keep these boundaries in later corpus-wide studies. No programme or
-architecture change was needed, and batches 3–4 remain uncoded.
+architecture change was needed; batches 3–4 are now also complete.
 
 The extended check now requires exact completed-batch panel membership, profile
 film consistency, reading-register uniqueness/reasons, complete field-state and
@@ -386,16 +388,10 @@ as observed creator systems or tested best practice.
 | KAGEROU 07.5; The Kiss 09.3 | Reachability and revision deltas answer different questions | Store review candidates separately from changed instructions and acceptance | A downstream editor without text is reviewable but cannot generate a semantic delta or approval |
 | All 10.1–10.5 | Labels, entity counts and occurrence counts need separate denominators | Preserve literal titles/folder IDs and show measured coverage | Synthetic trailing-space title, duplicated placement and unavailable brief survive round-trip without extra jobs or invented planning |
 
-Batch 4 should extend the explicit completed-batch sets and retain **1.0** unless
-its reading needs a documented revision. No revision occurred in batch 3, so none
-requires reapplication. If a future revision is made, reapply it to all twelve
-completed cases and all four calibration films, including the separate pilot,
-and reproduce Study 01. Do not infer semantic absence from these purposive sets.
-Harmony/Prophecy, Birthdays/SNAP and KAGEROU/Random Access Memories matched
-comparisons await batch 4; this slice does not code their partners. The Kiss and
-Fallen Leaves now each have a complete case file, but corpus-wide findings and
-semantic labels at scale remain later slices. Full alias/version resolution,
-actual build order, independent adjudication and approval states remain unresolved.
+Batch 3 retained codebook 1.0. Batch 4 has now completed the three then-pending
+pairs and Ivy/Lost, also without revision or replacement. Full alias/version
+resolution, actual build order, independent adjudication and approval states
+remain unresolved even where a named unit has a coded value.
 
 The batch-three build asserts every named excerpt and explicit edge. Checks also
 validate literal registered titles and entity counts, film scope of compound keys,
@@ -403,3 +399,152 @@ prompt-state/role/control denominators, current-code coverage and the reproducti
 manifest. Synthetic tests exercise those invariants without copying source records.
 Batches 1 and 2 reproduce byte for byte; no prior case file was rewritten. Each
 case artifact remains below 1 MB, so no derived release asset is required.
+
+
+## Batch 4 reading scope and closure
+
+Batch 4 adds four ledgers (196 assignments) and closes the registered panel at
+16 case files / 784 assignments. Codebook **1.0** is unchanged; there are no
+revisions, additions, calibration changes or replacements to reapply. Batches
+1–3 reproduce byte for byte, including all twelve narratives and evidence files.
+Ivy's calibration remains historical sample evidence beside its new full case.
+All generated case artifacts remain under 1 MB; no derived release asset is needed.
+
+The script profiles every field of all 14 film-scoped source tables, regardless
+of reading selection. Ivy and Random Access Memories have all 553/553 and 482/482
+job contexts inspected: technical opening/closing windows, instruction sections,
+controls and input usages, with fuller reading of named examples. Exact repeated
+text was cross-referenced with each job's context retained. This is a complete
+record-context pass, not exhaustive word-by-word semantic annotation. The
+available briefs and complete folder/reference metadata registers were read.
+No linked script, media or external library was opened.
+
+The large-film union uses the established deterministic selection in profile.py:
+first job by generation ID in each type/model, occupied folder, job-type/input-role
+set, model/control/value, attached reference and producer-model/consumer-model/role
+stratum; both endpoints of selected resolved edges; shortest and longest primary
+text; and every separately exported non-primary/non-language nested-text job.
+The reading registers retain all selected IDs and reasons. No further convenience
+sample was substituted. The purpose is to cover disclosed operations and topology,
+not estimate semantic prevalence, saturation, causal benefit or probability weights.
+Sample absence always remains unknown.
+
+| Selection coverage | Prophecy in 2047 | SNAP |
+| --- | --- | --- |
+| In-depth jobs / all jobs | 184 / 1,054 | 68 / 1,034 |
+| Every literal model / model-type combination | All 23 models | All 10 models |
+| Occupied folders / all folder entities | All 14 / 19 | All 1 / 2 |
+| Complete reference metadata register | 166 | 0 |
+| Invalid parameter records retained, never repaired | 0 / 1,054 | 9 / 1,034 |
+
+SNAP's nine invalid strings are the released defects already documented by
+Study 01. Independently exported prompts/usages remain usable. Literal control
+distributions use the valid-JSON jobs per model as their denominator; invalid
+jobs are counted separately by model. Missing keys, null, false and empty values
+remain different states. SNAP's empty upscale primary text is not an unavailable
+field or absent finishing operation. Preset input_asset usages are not assumed
+to contain media frames. No data was changed to make coding easier.
+
+## Registered matched contrasts, side by side
+
+This table closes the frozen sampling register; these are comparison questions,
+not corpus-wide findings or matched causal estimates. The two complete case ledgers
+and their scoped unknowns must accompany any later comparison. Cohort differences,
+creator dependence and unequal reading scopes remain possible explanations.
+
+| Pair | First registered case | Matched case | Registered contrast to carry forward |
+| --- | --- | --- | --- |
+| P1 | [Fallen Leaves](fallen-leaves/CASE.md) | [The Kiss](the-kiss/CASE.md) | Both cohort; 356 versus 391 jobs; Film-led narrow/flat versus image-led broad/partitioned; two existing primary cases |
+| P2 | [Lost](lost/CASE.md) | [Don't Poison Ivy](dont-poison-ivy/CASE.md) | Medium scale and narrow-to-moderate model breadth; Existing Ivy case: many references, multiple recorded authors, film-led; Lost: fewer references, one author, mixed; cohort differs |
+| P3 | [APEIROPHOBIA](apeirophobia/CASE.md) | [Detour](detour/CASE.md) | Both cohort; two largest histories; image-led; Sparse disclosed reference elements versus many; folder and model breadth differ |
+| P4 | [KAGEROU](kagerou/CASE.md) | [Random Access Memories](random-access-memories/CASE.md) | Shortlist only; 489 versus 482 jobs; mixed, broad models; 227 versus 24 folders; tests organisation proxy at comparable scale |
+| P5 | [Birthdays](birthdays/CASE.md) | [SNAP](snap/CASE.md) | About 1000 jobs; mixed and broad models; 177 versus zero exported reference elements, 60 versus two folders; cohort differs |
+| P6 | [Dry Aged Dreams](dry-aged-dreams/CASE.md) | [A Tales Before Titanic Tragedy](a-tales-before-titanic-tragedy/CASE.md) | Most watched only; very small, narrow/flat, no exported reference elements; Image-led versus film-led; completeness does not mean a full film's production was captured |
+| P7 | [The Staff](the-staff/CASE.md) | [THE LAST TRANSMISSION](the-last-transmission/CASE.md) | Shortlist only; small, film-led and narrow models; Two versus 28 folders; zero versus 23 exported reference elements |
+| P8 | [Harmony](harmony/CASE.md) | [Prophecy in 2047](prophecy-in-2047/CASE.md) | Large scale; mixed; very broad literal model stacks; 23 versus 24 models; 166 versus 51 references and two versus one authors; cohort differs |
+
+## Recurring unknowns in the assignment register
+
+These counts audit coding states across **16 case files**, not the prevalence
+of a production practice. Codes attach to different named units, reading scopes
+differ, and a coded example elsewhere cannot resolve another film's unknown.
+The table includes every code unknown in at least two case files. Row-level
+scope, competing explanation and confidence in codes.csv remain authoritative.
+
+| Code | Unknown assignments / 16 cases | Unresolved dimension |
+| --- | --- | --- |
+| 02.1 | 6 / 16 | Brief intent |
+| 02.3 | 2 / 16 | Scene and shot planning |
+| 02.4 | 2 / 16 | Plan to task |
+| 02.5 | 5 / 16 | Build order |
+| 02.6 | 5 / 16 | Template content |
+| 03.2 | 2 / 16 | Identity and variation |
+| 03.5 | 10 / 16 | Element versions |
+| 03.6 | 7 / 16 | Canonical declaration |
+| 04.6 | 7 / 16 | Context conflict |
+| 05.2 | 2 / 16 | Image convergence |
+| 05.3 | 2 / 16 | Integration instructions |
+| 06.7 | 3 / 16 | Shot revision |
+| 07.5 | 3 / 16 | Downstream review scope |
+| 08.5 | 4 / 16 | Audio and finishing visibility |
+| 09.3 | 8 / 16 | Revision delta |
+| 09.4 | 3 / 16 | Downstream adoption |
+
+No unknown is a film-wide negative finding. The final batch's coded units do
+not close project-wide version intent, alias identity, actual build order,
+canonical approval, achieved output, final editing, costs, labour or failures.
+There is no second-coder agreement estimate. The supplemental pilot remains
+outside this primary panel, including when its calibration is consulted.
+
+## Batch 4 traced patterns and evidence limits
+
+Every row joins the linked ledger for exact compound IDs, paths, short excerpts,
+evidence labels, alternatives, denominators and confidence. Prefix IDs are local
+to the named film. These illustrate application of the codebook, not benefits.
+
+| Case / problem | Inputs and sequence | Evidence, tradeoff and applicability |
+| --- | --- | --- |
+| Prophecy: reference derivative | Machine sheet `4aa39556` → `7ef74efa`, requesting changed age, power state and palette | [03.5, 09.3](prophecy-in-2047/codes.csv): explicit edge plus changed properties supports an inferred derivative, not explicit version approval; useful where IDs support the relationship, not for version-like names alone |
+| Ivy: object placement | Room `4ebd698e` + plant `c16ce530` → `5bc1268c`, with scale, position, viewing-angle and lighting permissions | [05.2–05.4](dont-poison-ivy/codes.csv): two producer inputs and inpaint=false; conditioning and stated transformations, without layers or verified integration |
+| Random Access Memories: worn reference derivative | Commodore package `a5620e3d` → `d0efc423`, requesting wear, tape and scratches | [03.5, 09.3](random-access-memories/codes.csv): inferred derivative with one explicit source, not successful editing or approved replacement |
+| SNAP: outfit revision | `3894fc5f` video + an outfit image → `795abb74`, seedance_2_5 → hf_mult_replace_object | [06.7, 07.1, 08.3](snap/codes.csv): linked correction intent and further-work use; no defect, success or acceptance assessment |
+| Counterexample to elements/folders as a complete reference proxy | SNAP has zero disclosed elements and two folders, yet `16536627` requests a same-person multi-view package and `0c0903da` consumes three inputs | [03.1–03.3, 05.2, 10.1](snap/codes.csv): those exported counts cannot stand for all reference preparation or attached context; this case is not a corpus-wide association |
+
+Failure modes in this table concern overstating evidence: treating names as
+versions, requests as achieved outcomes, controls as output semantics, or folder
+counts as a full workflow. They are not observed generation failure rates.
+
+## Final handoff to prompt labels and Studies 02–10
+
+Prompt labels at scale are the next separate slice: use the programme's stratified
+sample, balanced by film and operation, and independently checked gold subset.
+The purposive case reading is neither a representative prompt sample nor an
+accuracy estimate. Keep repeated text and primary/nested crosswalks from becoming
+independent observations. A reference/control token or instruction does not verify
+media content. SNAP's invalid JSON cannot supply controls; video-typed music-only
+requests in Random Access Memories cannot silently become audio-type job counts.
+Prophecy's failure log remains creator-stated, not experimental evidence, a causal
+rule or a measurable failure denominator. Ivy's linked derivatives and split
+request extend calibration without overwriting it.
+
+Studies 02–10 must still run corpus-wide over the 157 primary histories with
+question-specific eligibility, per-film denominators, uncertainty and the full
+nine-item output contract; all sixteen case files are now available for traced
+examples and contrasts. Do not extrapolate their assignment counts to practice
+prevalence. The four calibration films, including the supplemental pilot, remain
+separate calibration evidence. Proposed behaviours below await validation.
+
+| Evidence | Requirement or hypothesis | Proposed behaviour | Validation test |
+| --- | --- | --- | --- |
+| SNAP 02.1/02.6 versus 03.3/05.2 | Brief, element disclosure and direct attachments need independent coverage | Retain null brief and direct asset package/input records | Synthetic null-brief, zero-element, three-input project must preserve all three facts |
+| Prophecy/Ivy/Random Access Memories 03.5 | Derivative intent needs ID linkage and named property change | Separate inferred derivatives from explicit versions and approval | A name ending v2 adds no edge; changed property plus source ID adds only an inferred derivative |
+| All four 04.6 | Text duration and literal controls can have different scopes | Display paired evidence and alternatives for adjudication | Independent coders review timing/container examples without assuming achieved timing |
+| SNAP profile / 08.5 | Invalid JSON and empty text differ from missing operations | Keep parse-error counts per model; retain typed finishing jobs with empty text | Synthetic malformed parameters cannot contribute control values; empty text does not erase its job |
+| Ivy 06.7; all four 07.5 | Requested revisions, reachability and visible impact differ | Store requested split and bounded review sets separately from approval | Synthetic source/consumer cut change creates request delta; reachability alone creates no quality or acceptance event |
+| Random Access Memories 04.6/08.5; Prophecy brief | Job type and creator claims need independent provenance | Preserve literal type, music intent, external statements and failure-log attribution | A video-type score request stays video; a creator failure account creates no observed failure rate or causal conclusion |
+
+The build source asserts every named excerpt and explicit edge. Validation now
+requires all four batches, all 784 assignments, scope/registration partitions,
+valid-JSON control denominators and reproduction hashes. Tests use synthetic
+fixtures; no released records are copied into them. Nothing requires fetching
+Higgsfield or any media, changing Study 01 outputs or revising PROGRAMME.md.
