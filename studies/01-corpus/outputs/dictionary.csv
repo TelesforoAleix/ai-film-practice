@@ -1,0 +1,173 @@
+table,column,derived_type,rows,nulls_unavailable,empty_strings,invalid_casts,handling,key_member
+films,in_priority_scope,BOOLEAN,6224,0,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+films,most_watched_rank_top100,BIGINT,6224,6124,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+films,views,BIGINT,6224,6060,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+films,likes,BIGINT,6224,6060,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+films,comments,BIGINT,6224,6124,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+films,audience_votes,BIGINT,6224,6124,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+films,editorial_selection,VARCHAR,6224,6098,0,0,Retain raw and empty text; NULL remains unavailable,False
+films,film_id,VARCHAR,6224,0,0,0,Retain raw and empty text; NULL remains unavailable,True
+films,title,VARCHAR,6224,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+films,creator,VARCHAR,6224,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+films,creator_profile_url,VARCHAR,6224,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+films,project_url,VARCHAR,6224,1172,0,0,Retain raw and empty text; NULL remains unavailable,False
+films,description,VARCHAR,6224,4,29,0,Retain raw and empty text; NULL remains unavailable,False
+films,duration,DOUBLE,6224,16,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+films,submitted_at,TIMESTAMPTZ,6224,1330,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+films,category,JSON,6224,0,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+films,shortlist_status,JSON,6224,0,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+films,film_url,VARCHAR,6224,151,0,0,Retain raw and empty text; NULL remains unavailable,False
+films,thumbnail_url,VARCHAR,6224,8,0,0,Retain raw and empty text; NULL remains unavailable,False
+films,project_brief,VARCHAR,6224,6105,0,0,Retain raw and empty text; NULL remains unavailable,False
+films,production_notes,VARCHAR,6224,6224,0,0,Retain raw and empty text; NULL remains unavailable,False
+films,model_usage_summary,JSON,6224,6061,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+films,extraction_status,VARCHAR,6224,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+films,is_open_source,BOOLEAN,6224,0,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+films,show_prompts,BOOLEAN,6224,0,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+films,snapshot_folder_id,VARCHAR,6224,1423,0,0,Retain raw and empty text; NULL remains unavailable,False
+films,root_folder_id,VARCHAR,6224,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+films,reported_generations,BIGINT,6224,6060,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+films,authors_json,JSON,6224,0,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+films,source_url,VARCHAR,6224,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+films,source_record_file,VARCHAR,6224,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+films,project_metadata_source_url,VARCHAR,6224,6060,0,0,Retain raw and empty text; NULL remains unavailable,False
+priority_films,in_priority_scope,BOOLEAN,186,0,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+priority_films,most_watched_rank_top100,BIGINT,186,86,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+priority_films,views,BIGINT,186,23,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+priority_films,likes,BIGINT,186,23,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+priority_films,comments,BIGINT,186,86,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+priority_films,audience_votes,BIGINT,186,86,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+priority_films,editorial_selection,VARCHAR,186,60,0,0,Retain raw and empty text; NULL remains unavailable,False
+priority_films,film_id,VARCHAR,186,0,0,0,Retain raw and empty text; NULL remains unavailable,True
+priority_films,title,VARCHAR,186,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+priority_films,creator,VARCHAR,186,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+priority_films,creator_profile_url,VARCHAR,186,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+priority_films,project_url,VARCHAR,186,20,0,0,Retain raw and empty text; NULL remains unavailable,False
+priority_films,description,VARCHAR,186,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+priority_films,duration,DOUBLE,186,0,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+priority_films,submitted_at,TIMESTAMPTZ,186,4,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+priority_films,category,JSON,186,0,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+priority_films,shortlist_status,JSON,186,0,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+priority_films,film_url,VARCHAR,186,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+priority_films,thumbnail_url,VARCHAR,186,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+priority_films,project_brief,VARCHAR,186,68,0,0,Retain raw and empty text; NULL remains unavailable,False
+priority_films,production_notes,VARCHAR,186,186,0,0,Retain raw and empty text; NULL remains unavailable,False
+priority_films,model_usage_summary,JSON,186,24,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+priority_films,extraction_status,VARCHAR,186,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+priority_films,is_open_source,BOOLEAN,186,0,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+priority_films,show_prompts,BOOLEAN,186,0,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+priority_films,snapshot_folder_id,VARCHAR,186,6,0,0,Retain raw and empty text; NULL remains unavailable,False
+priority_films,root_folder_id,VARCHAR,186,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+priority_films,reported_generations,BIGINT,186,23,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+priority_films,authors_json,JSON,186,0,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+priority_films,source_url,VARCHAR,186,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+priority_films,source_record_file,VARCHAR,186,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+priority_films,project_metadata_source_url,VARCHAR,186,23,0,0,Retain raw and empty text; NULL remains unavailable,False
+folders,film_id,VARCHAR,3246,0,0,0,Retain raw and empty text; NULL remains unavailable,True
+folders,folder_id,VARCHAR,3246,0,0,0,Retain raw and empty text; NULL remains unavailable,True
+folders,parent_folder_id,VARCHAR,3246,158,0,0,Retain raw and empty text; NULL remains unavailable,False
+folders,folder_name,VARCHAR,3246,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+folders,folder_path,VARCHAR,3246,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+folders,source_folder_path,VARCHAR,3246,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+folders,folder_type,VARCHAR,3246,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+folders,item_count,BIGINT,3246,0,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+folders,subfolders_count,BIGINT,3246,0,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+folders,source_url,VARCHAR,3246,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+generations,film_id,VARCHAR,130899,0,0,0,Retain raw and empty text; NULL remains unavailable,True
+generations,folder_id,VARCHAR,130899,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+generations,generation_id,VARCHAR,130899,0,0,0,Retain raw and empty text; NULL remains unavailable,True
+generations,generation_batch_id,VARCHAR,130899,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+generations,generation_type,VARCHAR,130899,4,0,0,Retain raw and empty text; NULL remains unavailable,False
+generations,model_provider,VARCHAR,130899,130899,0,0,Retain raw and empty text; NULL remains unavailable,False
+generations,model_name,VARCHAR,130899,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+generations,model_identifier,VARCHAR,130899,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+generations,prompt,VARCHAR,130899,5174,1083,0,Retain raw and empty text; NULL remains unavailable,False
+generations,prompt_source_path,VARCHAR,130899,5174,0,0,Retain raw and empty text; NULL remains unavailable,False
+generations,negative_prompt,VARCHAR,130899,130897,0,0,Retain raw and empty text; NULL remains unavailable,False
+generations,parameters_json,JSON,130899,0,0,9,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+generations,created_at,TIMESTAMPTZ,130899,0,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+generations,source_url,VARCHAR,130899,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+generations,extraction_status,VARCHAR,130899,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+generations,generation_status,VARCHAR,130899,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+generations,author_user_id,VARCHAR,130899,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+generations,author_username,VARCHAR,130899,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+generations,source_record_file,VARCHAR,130899,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+generations,source_provenance_method,VARCHAR,130899,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+generation_prompts,film_id,VARCHAR,161836,0,0,0,Retain raw and empty text; NULL remains unavailable,True
+generation_prompts,generation_id,VARCHAR,161836,0,0,0,Retain raw and empty text; NULL remains unavailable,True
+generation_prompts,field_path,VARCHAR,161836,0,0,0,Retain raw and empty text; NULL remains unavailable,True
+generation_prompts,prompt_role,VARCHAR,161836,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+generation_prompts,text,VARCHAR,161836,0,1083,0,Retain raw and empty text; NULL remains unavailable,False
+assets,film_id,VARCHAR,163184,0,0,0,Retain raw and empty text; NULL remains unavailable,True
+assets,generation_id,VARCHAR,163184,32290,0,0,Retain raw and empty text; NULL remains unavailable,False
+assets,asset_id,VARCHAR,163184,0,0,0,Retain raw and empty text; NULL remains unavailable,True
+assets,asset_type,VARCHAR,163184,483,0,0,Retain raw and empty text; NULL remains unavailable,False
+assets,asset_role,VARCHAR,163184,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+assets,asset_url,VARCHAR,163184,1,0,0,Retain raw and empty text; NULL remains unavailable,False
+assets,source_asset_id,VARCHAR,163184,163184,0,0,Retain raw and empty text; NULL remains unavailable,False
+assets,folder_id,VARCHAR,163184,26623,0,0,Retain raw and empty text; NULL remains unavailable,False
+assets,metadata_json,JSON,163184,0,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+asset_usages,film_id,VARCHAR,469242,0,0,0,Retain raw and empty text; NULL remains unavailable,True
+asset_usages,generation_id,VARCHAR,469242,0,0,0,Retain raw and empty text; NULL remains unavailable,True
+asset_usages,asset_id,VARCHAR,469242,0,0,0,Retain raw and empty text; NULL remains unavailable,True
+asset_usages,asset_role,VARCHAR,469242,0,0,0,Retain raw and empty text; NULL remains unavailable,True
+asset_usages,asset_url,VARCHAR,469242,103,0,0,Retain raw and empty text; NULL remains unavailable,False
+asset_usages,metadata_json,JSON,469242,0,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+asset_usages,parameter_role,VARCHAR,469242,338154,0,0,Retain raw and empty text; NULL remains unavailable,False
+asset_usages,parameter_path,VARCHAR,469242,0,0,0,Retain raw and empty text; NULL remains unavailable,True
+asset_usages,reference_element_id,VARCHAR,469242,336334,0,0,Retain raw and empty text; NULL remains unavailable,False
+asset_folders,film_id,VARCHAR,142513,0,0,0,Retain raw and empty text; NULL remains unavailable,True
+asset_folders,asset_id,VARCHAR,142513,0,0,0,Retain raw and empty text; NULL remains unavailable,True
+asset_folders,folder_id,VARCHAR,142513,0,0,0,Retain raw and empty text; NULL remains unavailable,True
+generation_folders,film_id,VARCHAR,136313,0,0,0,Retain raw and empty text; NULL remains unavailable,True
+generation_folders,generation_id,VARCHAR,136313,0,0,0,Retain raw and empty text; NULL remains unavailable,True
+generation_folders,folder_id,VARCHAR,136313,0,0,0,Retain raw and empty text; NULL remains unavailable,True
+generation_folders,folder_job_id,VARCHAR,136313,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+reference_elements,film_id,VARCHAR,5223,0,0,0,Retain raw and empty text; NULL remains unavailable,True
+reference_elements,reference_element_id,VARCHAR,5223,0,0,0,Retain raw and empty text; NULL remains unavailable,True
+reference_elements,name,VARCHAR,5223,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+reference_elements,category,VARCHAR,5223,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+reference_elements,description,VARCHAR,5223,4184,491,0,Retain raw and empty text; NULL remains unavailable,False
+reference_elements,metadata_json,JSON,5223,0,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+brief_assets,film_id,VARCHAR,456,0,0,0,Retain raw and empty text; NULL remains unavailable,True
+brief_assets,embedding_id,VARCHAR,456,0,0,0,Retain raw and empty text; NULL remains unavailable,True
+brief_assets,document_path,VARCHAR,456,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+brief_assets,reference_id,VARCHAR,456,12,0,0,Retain raw and empty text; NULL remains unavailable,False
+brief_assets,reference_kind,VARCHAR,456,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+brief_assets,media_kind,VARCHAR,456,353,0,0,Retain raw and empty text; NULL remains unavailable,False
+brief_assets,asset_url,VARCHAR,456,205,0,0,Retain raw and empty text; NULL remains unavailable,False
+brief_assets,filename,VARCHAR,456,205,0,0,Retain raw and empty text; NULL remains unavailable,False
+brief_assets,description,VARCHAR,456,447,0,0,Retain raw and empty text; NULL remains unavailable,False
+brief_assets,prompt,VARCHAR,456,373,0,0,Retain raw and empty text; NULL remains unavailable,False
+brief_assets,prompt_hidden,BOOLEAN,456,0,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+brief_assets,metadata_json,JSON,456,0,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+model_usage,film_id,VARCHAR,1495,0,0,0,Retain raw and empty text; NULL remains unavailable,True
+model_usage,model_name,VARCHAR,1495,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+model_usage,model_identifier,VARCHAR,1495,0,0,0,Retain raw and empty text; NULL remains unavailable,True
+model_usage,provider,VARCHAR,1495,1495,0,0,Retain raw and empty text; NULL remains unavailable,False
+model_usage,usage_count,BIGINT,1495,0,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+model_usage,usage_percentage,DOUBLE,1495,0,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+model_usage,source_type,VARCHAR,1495,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+model_usage,source_url,VARCHAR,1495,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+extraction_log,film_id,VARCHAR,6224,0,0,0,Retain raw and empty text; NULL remains unavailable,True
+extraction_log,project_url,VARCHAR,6224,1172,0,0,Retain raw and empty text; NULL remains unavailable,False
+extraction_log,extraction_timestamp,TIMESTAMPTZ,6224,6060,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+extraction_log,extraction_status,VARCHAR,6224,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+extraction_log,folders_found,BIGINT,6224,0,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+extraction_log,generations_found,BIGINT,6224,0,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+extraction_log,assets_found,BIGINT,6224,0,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+extraction_log,missing_fields,JSON,6224,0,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+extraction_log,errors,JSON,6224,0,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+extraction_log,items_received,BIGINT,6224,0,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+extraction_log,items_complete,BOOLEAN,6224,6060,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+extraction_log,folders_complete,BOOLEAN,6224,6060,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+extraction_log,reported_generations,BIGINT,6224,6060,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+extraction_log,generation_count_reconciles,BOOLEAN,6224,6066,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+extraction_log,brief_complete,BOOLEAN,6224,6105,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+extraction_log,leaf_recovery_complete,BOOLEAN,6224,6066,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+extraction_log,leaf_recovery_errors,JSON,6224,0,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+other_items,film_id,VARCHAR,0,0,0,0,Retain raw and empty text; NULL remains unavailable,True
+other_items,record_hash,VARCHAR,0,0,0,0,Retain raw and empty text; NULL remains unavailable,True
+other_items,item_type,VARCHAR,0,0,0,0,Retain raw and empty text; NULL remains unavailable,False
+other_items,metadata_json,JSON,0,0,0,0,Retain raw; derived empty=>NULL with explicit empty flag; invalid=>NULL with invalid flag,False
+other_items,source_record_file,VARCHAR,0,0,0,0,Retain raw and empty text; NULL remains unavailable,False

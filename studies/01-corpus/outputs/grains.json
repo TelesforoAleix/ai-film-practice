@@ -1,0 +1,145 @@
+[
+  {
+    "table": "films",
+    "rows": 6224,
+    "candidate_key": [
+      "film_id"
+    ],
+    "distinct_candidate_keys": 6224,
+    "grain_note": "Snapshot candidate key; retain film scope"
+  },
+  {
+    "table": "priority_films",
+    "rows": 186,
+    "candidate_key": [
+      "film_id"
+    ],
+    "distinct_candidate_keys": 186,
+    "grain_note": "Snapshot candidate key; retain film scope"
+  },
+  {
+    "table": "folders",
+    "rows": 3246,
+    "candidate_key": [
+      "film_id",
+      "folder_id"
+    ],
+    "distinct_candidate_keys": 3246,
+    "grain_note": "Snapshot candidate key; retain film scope"
+  },
+  {
+    "table": "generations",
+    "rows": 130899,
+    "candidate_key": [
+      "film_id",
+      "generation_id"
+    ],
+    "distinct_candidate_keys": 130899,
+    "grain_note": "Snapshot candidate key; retain film scope"
+  },
+  {
+    "table": "generation_prompts",
+    "rows": 161836,
+    "candidate_key": [
+      "film_id",
+      "generation_id",
+      "field_path"
+    ],
+    "distinct_candidate_keys": 161836,
+    "grain_note": "Snapshot candidate key; retain film scope"
+  },
+  {
+    "table": "assets",
+    "rows": 163184,
+    "candidate_key": [
+      "film_id",
+      "asset_id"
+    ],
+    "distinct_candidate_keys": 163184,
+    "grain_note": "Snapshot candidate key; retain film scope"
+  },
+  {
+    "table": "asset_usages",
+    "rows": 469242,
+    "candidate_key": [
+      "film_id",
+      "generation_id",
+      "asset_id",
+      "asset_role",
+      "parameter_path"
+    ],
+    "distinct_candidate_keys": 469242,
+    "grain_note": "Occurrence grain; not an entity key"
+  },
+  {
+    "table": "asset_folders",
+    "rows": 142513,
+    "candidate_key": [
+      "film_id",
+      "asset_id",
+      "folder_id"
+    ],
+    "distinct_candidate_keys": 142513,
+    "grain_note": "Snapshot candidate key; retain film scope"
+  },
+  {
+    "table": "generation_folders",
+    "rows": 136313,
+    "candidate_key": [
+      "film_id",
+      "generation_id",
+      "folder_id"
+    ],
+    "distinct_candidate_keys": 136313,
+    "grain_note": "Snapshot candidate key; retain film scope"
+  },
+  {
+    "table": "reference_elements",
+    "rows": 5223,
+    "candidate_key": [
+      "film_id",
+      "reference_element_id"
+    ],
+    "distinct_candidate_keys": 5223,
+    "grain_note": "Snapshot candidate key; retain film scope"
+  },
+  {
+    "table": "brief_assets",
+    "rows": 456,
+    "candidate_key": [
+      "film_id",
+      "embedding_id"
+    ],
+    "distinct_candidate_keys": 456,
+    "grain_note": "Snapshot candidate key; retain film scope"
+  },
+  {
+    "table": "model_usage",
+    "rows": 1495,
+    "candidate_key": [
+      "film_id",
+      "model_identifier"
+    ],
+    "distinct_candidate_keys": 1495,
+    "grain_note": "Snapshot candidate key; retain film scope"
+  },
+  {
+    "table": "extraction_log",
+    "rows": 6224,
+    "candidate_key": [
+      "film_id"
+    ],
+    "distinct_candidate_keys": 6224,
+    "grain_note": "Snapshot candidate key; retain film scope"
+  },
+  {
+    "table": "other_items",
+    "rows": 0,
+    "candidate_key": [
+      "film_id",
+      "record_hash"
+    ],
+    "distinct_candidate_keys": 0,
+    "grain_note": "Snapshot candidate key; retain film scope"
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "release": "data-2026-10-20",
+  "table_rows": {
+    "films": 6224,
+    "priority_films": 186,
+    "folders": 3246,
+    "generations": 130899,
+    "generation_prompts": 161836,
+    "assets": 163184,
+    "asset_usages": 469242,
+    "asset_folders": 142513,
+    "generation_folders": 136313,
+    "reference_elements": 5223,
+    "brief_assets": 456,
+    "model_usage": 1495,
+    "extraction_log": 6224,
+    "other_items": 0
+  },
+  "primary_prompts_all_158": {
+    "nonempty": 124642,
+    "distinct_nonempty": 61479,
+    "empty": 1083,
+    "unavailable": 5174
+  },
+  "generation_types_all_158": [
+    {
+      "generation_type": "audio",
+      "jobs": 133
+    },
+    {
+      "generation_type": "image",
+      "jobs": 92216
+    },
+    {
+      "generation_type": "image_3d",
+      "jobs": 1
+    },
+    {
+      "generation_type": "text",
+      "jobs": 1
+    },
+    {
+      "generation_type": "video",
+      "jobs": 38544
+    },
+    {
+      "generation_type": NaN,
+      "jobs": 4
+    }
+  ],
+  "generation_statuses_all_158": [
+    {
+      "generation_status": "completed",
+      "jobs": 130899
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "catalogue": 6224,
+  "priority": 186,
+  "shortlisted": 126,
+  "most_watched": 100,
+  "populations": {
+    "excluded": 23,
+    "primary": 157,
+    "supplemental": 1,
+    "unavailable": 6
+  },
+  "cohorts_by_population": [
+    {
+      "population": "excluded",
+      "cohort_group": "shortlist_only",
+      "films": 23
+    },
+    {
+      "population": "primary",
+      "cohort_group": "both",
+      "films": 40
+    },
+    {
+      "population": "primary",
+      "cohort_group": "most_watched_only",
+      "films": 55
+    },
+    {
+      "population": "primary",
+      "cohort_group": "shortlist_only",
+      "films": 62
+    },
+    {
+      "population": "supplemental",
+      "cohort_group": "supplemental",
+      "films": 1
+    },
+    {
+      "population": "unavailable",
+      "cohort_group": "most_watched_only",
+      "films": 5
+    },
+    {
+      "population": "unavailable",
+      "cohort_group": "shortlist_only",
+      "films": 1
+    }
+  ],
+  "generations_all": 130899,
+  "generation_films": 158
+}
