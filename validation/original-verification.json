@@ -1,0 +1,50 @@
+{
+  "source-README.md": {
+    "source_bytes": 2873,
+    "published_bytes": 2873,
+    "email_occurrences_redacted": 0,
+    "local_path_occurrences_redacted": 0,
+    "phone_occurrences_redacted": 0,
+    "published_sha256": "e627fa83abc63a70d4971005747bd6b4ef44c10e9987a3c298aabe4ae82af398"
+  },
+  "RESEARCH_HANDOVER.md": {
+    "source_bytes": 22229,
+    "published_bytes": 22229,
+    "email_occurrences_redacted": 0,
+    "local_path_occurrences_redacted": 0,
+    "phone_occurrences_redacted": 0,
+    "published_sha256": "94960ca6e02bc18553cb3be39b7f0f6f2e9a4615c7841b52340a984de4218b50"
+  },
+  "validation_report.md": {
+    "source_bytes": 5188,
+    "published_bytes": 5188,
+    "email_occurrences_redacted": 0,
+    "local_path_occurrences_redacted": 0,
+    "phone_occurrences_redacted": 0,
+    "published_sha256": "08ff5998b58c37400530aacc482f74183e568339547899f59bbb25c891512438"
+  },
+  "four_film_case_studies.md": {
+    "source_bytes": 7362,
+    "published_bytes": 7362,
+    "email_occurrences_redacted": 0,
+    "local_path_occurrences_redacted": 0,
+    "phone_occurrences_redacted": 0,
+    "published_sha256": "5fb04e29d6a4a3914b713c6e0037a882d06617df0933131d7061866801ef2f33"
+  },
+  "FILE_DOWNLOADS.md": {
+    "source_bytes": 1167848,
+    "published_bytes": 1167848,
+    "email_occurrences_redacted": 0,
+    "local_path_occurrences_redacted": 0,
+    "phone_occurrences_redacted": 0,
+    "published_sha256": "ad04471afed73190b397f8e5c78e9976fc7b228f4ed9b9452e466e03137c6ca8"
+  },
+  "Studio_Research_Programme.md": {
+    "source_bytes": 42443,
+    "published_bytes": 42309,
+    "email_occurrences_redacted": 0,
+    "local_path_occurrences_redacted": 0,
+    "phone_occurrences_redacted": 0,
+    "published_sha256": "4923a147b0aed54c6e2b165c3a00712f4bdbecefd3f8b41d5b3a85b165685984"
+  }
+}

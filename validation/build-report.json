@@ -1,0 +1,1803 @@
+{
+  "snapshot": "data-2026-10-20",
+  "tables": {
+    "films": {
+      "csv_rows": 6224,
+      "parquet_rows": 6224,
+      "all_values_equal_after_redaction": true,
+      "columns": {
+        "in_priority_scope": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "most_watched_rank_top100": {
+          "csv_null": 6124,
+          "parquet_null": 6124,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "views": {
+          "csv_null": 6060,
+          "parquet_null": 6060,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "likes": {
+          "csv_null": 6060,
+          "parquet_null": 6060,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "comments": {
+          "csv_null": 6124,
+          "parquet_null": 6124,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "audience_votes": {
+          "csv_null": 6124,
+          "parquet_null": 6124,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "editorial_selection": {
+          "csv_null": 6098,
+          "parquet_null": 6098,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "film_id": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "title": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "creator": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "creator_profile_url": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "project_url": {
+          "csv_null": 1172,
+          "parquet_null": 1172,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "description": {
+          "csv_null": 4,
+          "parquet_null": 4,
+          "csv_empty": 29,
+          "parquet_empty": 29,
+          "email_occurrences_redacted": 1,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "duration": {
+          "csv_null": 16,
+          "parquet_null": 16,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "submitted_at": {
+          "csv_null": 1330,
+          "parquet_null": 1330,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "category": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "shortlist_status": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "film_url": {
+          "csv_null": 151,
+          "parquet_null": 151,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "thumbnail_url": {
+          "csv_null": 8,
+          "parquet_null": 8,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "project_brief": {
+          "csv_null": 6105,
+          "parquet_null": 6105,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 1,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "production_notes": {
+          "csv_null": 6224,
+          "parquet_null": 6224,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "model_usage_summary": {
+          "csv_null": 6061,
+          "parquet_null": 6061,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "extraction_status": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "is_open_source": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "show_prompts": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "snapshot_folder_id": {
+          "csv_null": 1423,
+          "parquet_null": 1423,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "root_folder_id": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "reported_generations": {
+          "csv_null": 6060,
+          "parquet_null": 6060,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "authors_json": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "source_url": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "source_record_file": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "project_metadata_source_url": {
+          "csv_null": 6060,
+          "parquet_null": 6060,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        }
+      },
+      "redacted_csv_sha256": "74c7fbda6f2d2c7ed27c549117edb0d755e1dca6965a8b73573e102eeadf14ae",
+      "gzip_decompression_verified": true
+    },
+    "priority_films": {
+      "csv_rows": 186,
+      "parquet_rows": 186,
+      "all_values_equal_after_redaction": true,
+      "columns": {
+        "in_priority_scope": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "most_watched_rank_top100": {
+          "csv_null": 86,
+          "parquet_null": 86,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "views": {
+          "csv_null": 23,
+          "parquet_null": 23,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "likes": {
+          "csv_null": 23,
+          "parquet_null": 23,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "comments": {
+          "csv_null": 86,
+          "parquet_null": 86,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "audience_votes": {
+          "csv_null": 86,
+          "parquet_null": 86,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "editorial_selection": {
+          "csv_null": 60,
+          "parquet_null": 60,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "film_id": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "title": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "creator": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "creator_profile_url": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "project_url": {
+          "csv_null": 20,
+          "parquet_null": 20,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "description": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "duration": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "submitted_at": {
+          "csv_null": 4,
+          "parquet_null": 4,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "category": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "shortlist_status": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "film_url": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "thumbnail_url": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "project_brief": {
+          "csv_null": 68,
+          "parquet_null": 68,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 1,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "production_notes": {
+          "csv_null": 186,
+          "parquet_null": 186,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "model_usage_summary": {
+          "csv_null": 24,
+          "parquet_null": 24,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "extraction_status": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "is_open_source": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "show_prompts": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "snapshot_folder_id": {
+          "csv_null": 6,
+          "parquet_null": 6,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "root_folder_id": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "reported_generations": {
+          "csv_null": 23,
+          "parquet_null": 23,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "authors_json": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "source_url": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "source_record_file": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "project_metadata_source_url": {
+          "csv_null": 23,
+          "parquet_null": 23,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        }
+      },
+      "redacted_csv_sha256": "98b0bd7e2c4bbb92df96fcd83e06dbf46837ced791afd350279a94b9bea5265d",
+      "gzip_decompression_verified": true
+    },
+    "folders": {
+      "csv_rows": 3246,
+      "parquet_rows": 3246,
+      "all_values_equal_after_redaction": true,
+      "columns": {
+        "film_id": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "folder_id": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "parent_folder_id": {
+          "csv_null": 158,
+          "parquet_null": 158,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "folder_name": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "folder_path": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "source_folder_path": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "folder_type": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "item_count": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "subfolders_count": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "source_url": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        }
+      },
+      "redacted_csv_sha256": "e7de97505a79ebd0e4471996939813601e01ede5387bbcdb62bb028e3bdb9f45",
+      "gzip_decompression_verified": true
+    },
+    "generations": {
+      "csv_rows": 130899,
+      "parquet_rows": 130899,
+      "all_values_equal_after_redaction": true,
+      "columns": {
+        "film_id": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "folder_id": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "generation_id": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "generation_batch_id": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "generation_type": {
+          "csv_null": 4,
+          "parquet_null": 4,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "model_provider": {
+          "csv_null": 130899,
+          "parquet_null": 130899,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "model_name": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "model_identifier": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "prompt": {
+          "csv_null": 5174,
+          "parquet_null": 5174,
+          "csv_empty": 1083,
+          "parquet_empty": 1083,
+          "email_occurrences_redacted": 15,
+          "local_path_occurrences_redacted": 4,
+          "phone_occurrences_redacted": 0
+        },
+        "prompt_source_path": {
+          "csv_null": 5174,
+          "parquet_null": 5174,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "negative_prompt": {
+          "csv_null": 130897,
+          "parquet_null": 130897,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "parameters_json": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 24,
+          "local_path_occurrences_redacted": 4,
+          "phone_occurrences_redacted": 0
+        },
+        "created_at": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "source_url": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "extraction_status": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "generation_status": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "author_user_id": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "author_username": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "source_record_file": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "source_provenance_method": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        }
+      },
+      "generations": {
+        "distinct_compound_keys": 130899,
+        "distinct_film_ids": 158,
+        "nonempty_primary_prompts": 124642,
+        "distinct_nonempty_primary_prompts_source": 61479,
+        "distinct_nonempty_primary_prompts_published": 61479,
+        "explicitly_empty_primary_prompts": 1083,
+        "ordered_redacted_csv_prompt_sha256": "3a113b330c80f5e48b9b157f1ad652ec2a87bbb021ca7e209039779af073b1a5",
+        "ordered_parquet_prompt_sha256": "3a113b330c80f5e48b9b157f1ad652ec2a87bbb021ca7e209039779af073b1a5"
+      },
+      "redacted_csv_sha256": "cb3db1076923b1d799c65173b0b9ffab6fc70c9d254679cc27282d5dab2ff069",
+      "gzip_decompression_verified": true
+    },
+    "generation_prompts": {
+      "csv_rows": 161836,
+      "parquet_rows": 161836,
+      "all_values_equal_after_redaction": true,
+      "columns": {
+        "film_id": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "generation_id": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "field_path": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "prompt_role": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "text": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 1083,
+          "parquet_empty": 1083,
+          "email_occurrences_redacted": 15,
+          "local_path_occurrences_redacted": 4,
+          "phone_occurrences_redacted": 0
+        }
+      },
+      "redacted_csv_sha256": "29d9b6688ae374202912e9e38356b179f1c5e21f5467aa044f83ee92d587dec4",
+      "gzip_decompression_verified": true
+    },
+    "assets": {
+      "csv_rows": 163184,
+      "parquet_rows": 163184,
+      "all_values_equal_after_redaction": true,
+      "columns": {
+        "film_id": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "generation_id": {
+          "csv_null": 32290,
+          "parquet_null": 32290,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "asset_id": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "asset_type": {
+          "csv_null": 483,
+          "parquet_null": 483,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "asset_role": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "asset_url": {
+          "csv_null": 1,
+          "parquet_null": 1,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "source_asset_id": {
+          "csv_null": 163184,
+          "parquet_null": 163184,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "folder_id": {
+          "csv_null": 26623,
+          "parquet_null": 26623,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "metadata_json": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        }
+      },
+      "redacted_csv_sha256": "e1c4530520b20856f21343cc426424a2583da8f699cc4d91aee02359810cca55",
+      "gzip_decompression_verified": true
+    },
+    "asset_usages": {
+      "csv_rows": 469242,
+      "parquet_rows": 469242,
+      "all_values_equal_after_redaction": true,
+      "columns": {
+        "film_id": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "generation_id": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "asset_id": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "asset_role": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "asset_url": {
+          "csv_null": 103,
+          "parquet_null": 103,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "metadata_json": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "parameter_role": {
+          "csv_null": 338154,
+          "parquet_null": 338154,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "parameter_path": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "reference_element_id": {
+          "csv_null": 336334,
+          "parquet_null": 336334,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        }
+      },
+      "redacted_csv_sha256": "5907c021c32dfa2d93aac82588be5a8d7c6ad5714777d278e153195374f6348b",
+      "gzip_decompression_verified": true
+    },
+    "asset_folders": {
+      "csv_rows": 142513,
+      "parquet_rows": 142513,
+      "all_values_equal_after_redaction": true,
+      "columns": {
+        "film_id": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "asset_id": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "folder_id": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        }
+      },
+      "redacted_csv_sha256": "fb145ecfc002aa01d9f3cd9830cd7ac9cc4066b38e74f611f6a48189e78b95af",
+      "gzip_decompression_verified": true
+    },
+    "generation_folders": {
+      "csv_rows": 136313,
+      "parquet_rows": 136313,
+      "all_values_equal_after_redaction": true,
+      "columns": {
+        "film_id": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "generation_id": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "folder_id": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "folder_job_id": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        }
+      },
+      "redacted_csv_sha256": "a40d9f97f2237068ba8ef4a7c1bef6e5bb48fb63ff1b31f2cca0bcd0dad1421b",
+      "gzip_decompression_verified": true
+    },
+    "reference_elements": {
+      "csv_rows": 5223,
+      "parquet_rows": 5223,
+      "all_values_equal_after_redaction": true,
+      "columns": {
+        "film_id": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "reference_element_id": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "name": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "category": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "description": {
+          "csv_null": 4184,
+          "parquet_null": 4184,
+          "csv_empty": 491,
+          "parquet_empty": 491,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "metadata_json": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        }
+      },
+      "redacted_csv_sha256": "1bccda23a60ee6d309fd809c6b91e7f2a89caee0a881813b73358a93a88990be",
+      "gzip_decompression_verified": true
+    },
+    "brief_assets": {
+      "csv_rows": 456,
+      "parquet_rows": 456,
+      "all_values_equal_after_redaction": true,
+      "columns": {
+        "film_id": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "embedding_id": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "document_path": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "reference_id": {
+          "csv_null": 12,
+          "parquet_null": 12,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "reference_kind": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "media_kind": {
+          "csv_null": 353,
+          "parquet_null": 353,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "asset_url": {
+          "csv_null": 205,
+          "parquet_null": 205,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "filename": {
+          "csv_null": 205,
+          "parquet_null": 205,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "description": {
+          "csv_null": 447,
+          "parquet_null": 447,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "prompt": {
+          "csv_null": 373,
+          "parquet_null": 373,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "prompt_hidden": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "metadata_json": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        }
+      },
+      "redacted_csv_sha256": "7ca7dc58fed51eb9c11fd7aac41270a7ea6a6f2fed8f0a5afe526123849732c1",
+      "gzip_decompression_verified": true
+    },
+    "model_usage": {
+      "csv_rows": 1495,
+      "parquet_rows": 1495,
+      "all_values_equal_after_redaction": true,
+      "columns": {
+        "film_id": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "model_name": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "model_identifier": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "provider": {
+          "csv_null": 1495,
+          "parquet_null": 1495,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "usage_count": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "usage_percentage": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "source_type": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "source_url": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        }
+      },
+      "redacted_csv_sha256": "055a005c896af141c74dd0e87e093b8f142705c74ce158d43834c54b17f16422",
+      "gzip_decompression_verified": true
+    },
+    "extraction_log": {
+      "csv_rows": 6224,
+      "parquet_rows": 6224,
+      "all_values_equal_after_redaction": true,
+      "columns": {
+        "film_id": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "project_url": {
+          "csv_null": 1172,
+          "parquet_null": 1172,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "extraction_timestamp": {
+          "csv_null": 6060,
+          "parquet_null": 6060,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "extraction_status": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "folders_found": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "generations_found": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "assets_found": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "missing_fields": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "errors": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "items_received": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "items_complete": {
+          "csv_null": 6060,
+          "parquet_null": 6060,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "folders_complete": {
+          "csv_null": 6060,
+          "parquet_null": 6060,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "reported_generations": {
+          "csv_null": 6060,
+          "parquet_null": 6060,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "generation_count_reconciles": {
+          "csv_null": 6066,
+          "parquet_null": 6066,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "brief_complete": {
+          "csv_null": 6105,
+          "parquet_null": 6105,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "leaf_recovery_complete": {
+          "csv_null": 6066,
+          "parquet_null": 6066,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "leaf_recovery_errors": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        }
+      },
+      "redacted_csv_sha256": "b20e80d4d89aa117242b1b72d60d7018775a83995c5e2ba40fc2d5e5024689a9",
+      "gzip_decompression_verified": true
+    },
+    "other_items": {
+      "csv_rows": 0,
+      "parquet_rows": 0,
+      "all_values_equal_after_redaction": true,
+      "columns": {
+        "film_id": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "record_hash": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "item_type": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "metadata_json": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        },
+        "source_record_file": {
+          "csv_null": 0,
+          "parquet_null": 0,
+          "csv_empty": 0,
+          "parquet_empty": 0,
+          "email_occurrences_redacted": 0,
+          "local_path_occurrences_redacted": 0,
+          "phone_occurrences_redacted": 0
+        }
+      },
+      "redacted_csv_sha256": "2da1622c0fb66802023e54d33ff66c2779e11160f2940a94bc0c05a30ea93715",
+      "gzip_decompression_verified": true
+    }
+  },
+  "assets": {
+    "films.parquet": {
+      "bytes": 2450743,
+      "sha256": "2ff85501aaa0b3c4c82758be0668cae486e350ed1961a73d3a813b5b03b680db"
+    },
+    "films.csv.gz": {
+      "bytes": 2342896,
+      "sha256": "0038a9d89c3b951c3205f1cc3411760c7c7eb19ef410f043470349c725c6f75c"
+    },
+    "priority_films.parquet": {
+      "bytes": 358402,
+      "sha256": "6ec6df64b905da388f060fc76da1d80a266453ab829c545be8b366399f65ee09"
+    },
+    "priority_films.csv.gz": {
+      "bytes": 328158,
+      "sha256": "8a99fb703da345f47685f1ca830f7538b7450880e32d64eced66e2758a583480"
+    },
+    "folders.parquet": {
+      "bytes": 302154,
+      "sha256": "e4dfaef57356017afd00b3df5b49c13cd95eb759187957959a3508875e913280"
+    },
+    "folders.csv.gz": {
+      "bytes": 164261,
+      "sha256": "620b054f8a89ed4c188cac746c24e3c95c2727a0c3cce3bd125fbbeaae822503"
+    },
+    "generations.parquet": {
+      "bytes": 169652968,
+      "sha256": "99df0c16c4e2ddd34a8ea9f86339694d6e8fce22b9ccf7fee94fe4a16da1617d"
+    },
+    "generations.csv.gz": {
+      "bytes": 172887873,
+      "sha256": "50923bd7aeea7ff673172ff9c6c1cc2a692778cb219d8e5a8267ac5d476d1074"
+    },
+    "generation_prompts.parquet": {
+      "bytes": 79157394,
+      "sha256": "bc61d3eee46c71c321a85338f23cf99628cc07ccfb52aa9d33e9205e4cd6282d"
+    },
+    "generation_prompts.csv.gz": {
+      "bytes": 109736943,
+      "sha256": "a5bad1b734d6c0547ffafdb6feeb1f12de46bb77eb01cda21297fbb431e90a5f"
+    },
+    "assets.parquet": {
+      "bytes": 18536411,
+      "sha256": "225b472e2554be768faa2eb83f2caf4c75573f7ec433f98d45e1817ba4a3b798"
+    },
+    "assets.csv.gz": {
+      "bytes": 9460702,
+      "sha256": "3a9085a429ccdf1313d087824e3e6de825e3ab48cd4cf43a0573b4af0b54891b"
+    },
+    "asset_usages.parquet": {
+      "bytes": 20994415,
+      "sha256": "8bf399d488f6cba46afb24e1c9966898496753d97c12abacf00510f335e0863e"
+    },
+    "asset_usages.csv.gz": {
+      "bytes": 13832671,
+      "sha256": "1f55396c63882f074e98b966374d726c64decc28cb7e770c49b59b04ea1b9e1a"
+    },
+    "asset_folders.parquet": {
+      "bytes": 3201350,
+      "sha256": "2c22729a1b5007f572414a6c2e99020f4d4ba8186931068e1089cb1ed3f19bf5"
+    },
+    "asset_folders.csv.gz": {
+      "bytes": 3403832,
+      "sha256": "221196e70049611d46e626decaa987b7c3a24b388e50a666a4ffcc466595d05e"
+    },
+    "generation_folders.parquet": {
+      "bytes": 5941430,
+      "sha256": "34e362e23ff8ee9df0431c8a03d41e0717c84033dc1033b9b38c33d2f2fbe1d6"
+    },
+    "generation_folders.csv.gz": {
+      "bytes": 6337484,
+      "sha256": "1cbdc3ad2666c61177b4e8bd9ad5cb35bd0761305e4f08bc1662ca8debb629c6"
+    },
+    "reference_elements.parquet": {
+      "bytes": 746812,
+      "sha256": "2aab9c56227a534c3c28bb525853530d3393f8e59c2a8f14117a1496029950ef"
+    },
+    "reference_elements.csv.gz": {
+      "bytes": 520751,
+      "sha256": "946944a237d2f443a2ca74b50b7dc69683be740aa899cabc80076d4be0a55835"
+    },
+    "brief_assets.parquet": {
+      "bytes": 232686,
+      "sha256": "6700a74831bfc5743764bdb61242da23bcaaf0f1051b2bd3ba28feaecd7396e3"
+    },
+    "brief_assets.csv.gz": {
+      "bytes": 140568,
+      "sha256": "aac1271ac9601b395c7738427a7d366bc705fec1f8684934b2f82bf45123f33a"
+    },
+    "model_usage.parquet": {
+      "bytes": 32534,
+      "sha256": "437e2bd5be44ecbe178f4916492c3d7f8216b1d002537d1fe0f8bd5a8d3c14b5"
+    },
+    "model_usage.csv.gz": {
+      "bytes": 28204,
+      "sha256": "0d44df2162fe5a50992998bc3f304f25954f2666508c6051e8308895d10e2ce6"
+    },
+    "extraction_log.parquet": {
+      "bytes": 271077,
+      "sha256": "08d2f730f407289acc093d9d04b3458c5edd95c5532fd52869b4e243a153846b"
+    },
+    "extraction_log.csv.gz": {
+      "bytes": 259755,
+      "sha256": "a712c797eeee7816f623a35ef8af83af4d10875d4d6fddd7c63f776e19c5bc2c"
+    },
+    "other_items.parquet": {
+      "bytes": 668,
+      "sha256": "9bf590c951c179a573995a2ac64342a6e5a96a8830abd92032eb795c0d8f4aed"
+    },
+    "other_items.csv.gz": {
+      "bytes": 78,
+      "sha256": "91c8587a41ce93342d862c8c344000f07aebc8af673fc22edc401b5fa496d128"
+    }
+  }
+}
