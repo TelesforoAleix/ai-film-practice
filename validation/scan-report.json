@@ -1,0 +1,193 @@
+{
+  "method": "Full CSV-aware pattern and URL scan; no matched content retained. Phone screening also covered all CSV fields during conversion and all six source documents; only counts were retained.",
+  "limits": "Pattern scanning is not proof of absence of every kind of secret.",
+  "files": {
+    "films.csv": {
+      "rows_scanned": 6224
+    },
+    "priority_films.csv": {
+      "rows_scanned": 186
+    },
+    "folders.csv": {
+      "rows_scanned": 3246
+    },
+    "generations.csv": {
+      "rows_scanned": 130899
+    },
+    "generation_prompts.csv": {
+      "rows_scanned": 161836
+    },
+    "assets.csv": {
+      "rows_scanned": 163184
+    },
+    "asset_usages.csv": {
+      "rows_scanned": 469242
+    },
+    "asset_folders.csv": {
+      "rows_scanned": 142513
+    },
+    "generation_folders.csv": {
+      "rows_scanned": 136313
+    },
+    "reference_elements.csv": {
+      "rows_scanned": 5223
+    },
+    "brief_assets.csv": {
+      "rows_scanned": 456
+    },
+    "model_usage.csv": {
+      "rows_scanned": 1495
+    },
+    "extraction_log.csv": {
+      "rows_scanned": 6224
+    },
+    "other_items.csv": {
+      "rows_scanned": 0
+    },
+    "README.md": {
+      "bytes_scanned": 2873
+    },
+    "RESEARCH_HANDOVER.md": {
+      "bytes_scanned": 22229
+    },
+    "validation_report.md": {
+      "bytes_scanned": 5188
+    },
+    "four_film_case_studies.md": {
+      "bytes_scanned": 7362
+    },
+    "FILE_DOWNLOADS.md": {
+      "bytes_scanned": 1167848
+    },
+    "Studio_Research_Programme.md": {
+      "bytes_scanned": 42443
+    }
+  },
+  "category_occurrences": {
+    "email": 57,
+    "local_posix_path": 12,
+    "local_windows_path": 0,
+    "phone": 0,
+    "secret_pattern": 0,
+    "private_or_authenticated_url": 0,
+    "unparseable_url": 0
+  },
+  "locations": [
+    {
+      "file": "films.csv",
+      "column": "description",
+      "category": "email",
+      "occurrences": 1,
+      "cells": 1,
+      "example_data_rows": [
+        557
+      ],
+      "example": "[email removed]"
+    },
+    {
+      "file": "films.csv",
+      "column": "project_brief",
+      "category": "email",
+      "occurrences": 1,
+      "cells": 1,
+      "example_data_rows": [
+        41
+      ],
+      "example": "[email removed]"
+    },
+    {
+      "file": "generation_prompts.csv",
+      "column": "text",
+      "category": "email",
+      "occurrences": 15,
+      "cells": 15,
+      "example_data_rows": [
+        75313,
+        75532,
+        75565
+      ],
+      "example": "[email removed]"
+    },
+    {
+      "file": "generation_prompts.csv",
+      "column": "text",
+      "category": "local_posix_path",
+      "occurrences": 4,
+      "cells": 4,
+      "example_data_rows": [
+        109894,
+        109904,
+        128082
+      ],
+      "example": "[redacted candidate]"
+    },
+    {
+      "file": "generations.csv",
+      "column": "parameters_json",
+      "category": "email",
+      "occurrences": 24,
+      "cells": 24,
+      "example_data_rows": [
+        62034,
+        62169,
+        62188
+      ],
+      "example": "[email removed]"
+    },
+    {
+      "file": "generations.csv",
+      "column": "parameters_json",
+      "category": "local_posix_path",
+      "occurrences": 4,
+      "cells": 4,
+      "example_data_rows": [
+        89333,
+        89338,
+        104956
+      ],
+      "example": "[redacted candidate]"
+    },
+    {
+      "file": "generations.csv",
+      "column": "prompt",
+      "category": "email",
+      "occurrences": 15,
+      "cells": 15,
+      "example_data_rows": [
+        62034,
+        62169,
+        62188
+      ],
+      "example": "[email removed]"
+    },
+    {
+      "file": "generations.csv",
+      "column": "prompt",
+      "category": "local_posix_path",
+      "occurrences": 4,
+      "cells": 4,
+      "example_data_rows": [
+        89333,
+        89338,
+        104956
+      ],
+      "example": "[redacted candidate]"
+    },
+    {
+      "file": "priority_films.csv",
+      "column": "project_brief",
+      "category": "email",
+      "occurrences": 1,
+      "cells": 1,
+      "example_data_rows": [
+        39
+      ],
+      "example": "[email removed]"
+    }
+  ],
+  "redaction_status": {
+    "email": "57 replaced with [email removed]",
+    "local_path": "12 replaced with [local path removed]",
+    "phone": "0 detected; standing rule uses [phone removed]"
+  }
+}

@@ -1,0 +1,34 @@
+[project]
+name = "film-practice"
+version = "0.1.0"
+description = "Query the public AI film practice research snapshot"
+requires-python = ">=3.11"
+dependencies = [
+    "duckdb>=1.4,<2",
+    "pyarrow>=21,<25",
+    "pandas>=2.2,<4",
+    "phonenumbers>=9,<10",
+]
+license = "MIT"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/film_practice"]
+
+[dependency-groups]
+dev = ["pytest>=8,<10", "ruff>=0.12,<1"]
+
+[tool.ruff]
+extend-exclude = ["original", "PROGRAMME.md"]
+target-version = "py311"
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
