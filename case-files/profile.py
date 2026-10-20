@@ -1,4 +1,4 @@
-"""Batch-one exhaustive profiles and deterministic purposive reading register.
+"""Panel exhaustive profiles and deterministic purposive reading register.
 
 Run from the repository root. No network calls or semantic labels; source views
 stay strings. Local reading packets (full fields) stay under ignored data/.
@@ -13,6 +13,10 @@ from film_practice import TABLES, connect
 
 ROOT = Path(__file__).resolve().parent
 SLUGS = {
+    "Detour": "detour",
+    "Fallen Leaves": "fallen-leaves",
+    "Lost": "lost",
+    "THE LAST TRANSMISSION": "the-last-transmission",
     "Dry Aged Dreams": "dry-aged-dreams",
     "The Staff": "the-staff",
     "A Tales Before Titanic Tragedy": "a-tales-before-titanic-tragedy",
@@ -72,7 +76,7 @@ def profile(db, panel):
         for key, group in sorted(groups.items(), key=lambda x: str(x[0])):
             choose(group, f"{prefix}:{key}")
 
-    if len(jobs) < 100:
+    if len(jobs) < (500 if panel["batch"] == "2" else 100):
         for g in jobs:
             selected[g["generation_id"]].add("exhaustive_small_history")
     else:
@@ -137,6 +141,10 @@ def profile(db, panel):
             sorted(texts, key=lambda g: (-len(g["prompt"]), g["generation_id"])),
             "longest_prompt",
         )
+    if panel["batch"] == "2":
+        for text in tables["generation_prompts"]:
+            if text["field_path"] not in {"params.prompt", "params.prompt_language"}:
+                selected[text["generation_id"]].add("nested_text:" + text["field_path"])
     invalid = []
     params = Counter()
     for g in jobs:
@@ -272,8 +280,11 @@ def profile(db, panel):
         "brief_assets": tables["brief_assets"],
         "jobs": [byid[gid] | {"usages": usages[gid]} for gid in sorted(selected)],
         "edges": edges,
+        "text_fields": [
+            r for r in tables["generation_prompts"] if r["generation_id"] in selected
+        ],
     }
-    local = Path("data/af2a")
+    local = Path("data/af2b" if panel["batch"] == "2" else "data/af2a")
     local.mkdir(exist_ok=True)
     (local / (SLUGS[panel["title"]] + ".json")).write_text(
         json.dumps(packet, ensure_ascii=False, indent=2) + "\n"
@@ -291,7 +302,7 @@ def profile(db, panel):
 
 def main():
     with (ROOT.parent / "studies/01-corpus/outputs/panel.csv").open() as stream:
-        panel = [r for r in csv.DictReader(stream) if r["batch"] == "1"]
+        panel = [r for r in csv.DictReader(stream) if r["batch"] in {"1", "2"}]
     with connect("data") as db:
         for film in panel:
             profile(db, film)

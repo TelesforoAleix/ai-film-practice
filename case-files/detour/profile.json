@@ -1,0 +1,5115 @@
+{
+  "release": "data-2026-10-20",
+  "film_id": "d90fe8bd-3329-40b3-963c-d9b33075aec1",
+  "title": "Detour",
+  "cohort_group": "both",
+  "row_counts": {
+    "films": 1,
+    "priority_films": 1,
+    "folders": 114,
+    "generations": 6162,
+    "generation_prompts": 7871,
+    "assets": 6417,
+    "asset_usages": 24844,
+    "asset_folders": 6238,
+    "generation_folders": 6164,
+    "reference_elements": 132,
+    "brief_assets": 0,
+    "model_usage": 16,
+    "extraction_log": 1,
+    "other_items": 0
+  },
+  "measure_provenance": {
+    "films": {
+      "study": "02-10 case-file preparation",
+      "film_id": "d90fe8bd-3329-40b3-963c-d9b33075aec1",
+      "entity_ids": "d90fe8bd-3329-40b3-963c-d9b33075aec1/films: all film-scoped source rows",
+      "source_path": "films.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=1",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "1 exported films rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "priority_films": {
+      "study": "02-10 case-file preparation",
+      "film_id": "d90fe8bd-3329-40b3-963c-d9b33075aec1",
+      "entity_ids": "d90fe8bd-3329-40b3-963c-d9b33075aec1/priority_films: all film-scoped source rows",
+      "source_path": "priority_films.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=1",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "1 exported priority_films rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "folders": {
+      "study": "02-10 case-file preparation",
+      "film_id": "d90fe8bd-3329-40b3-963c-d9b33075aec1",
+      "entity_ids": "d90fe8bd-3329-40b3-963c-d9b33075aec1/folders: all film-scoped source rows",
+      "source_path": "folders.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=114",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "114 exported folders rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "generations": {
+      "study": "02-10 case-file preparation",
+      "film_id": "d90fe8bd-3329-40b3-963c-d9b33075aec1",
+      "entity_ids": "d90fe8bd-3329-40b3-963c-d9b33075aec1/generations: all film-scoped source rows",
+      "source_path": "generations.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=6162",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "6162 exported generations rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "generation_prompts": {
+      "study": "02-10 case-file preparation",
+      "film_id": "d90fe8bd-3329-40b3-963c-d9b33075aec1",
+      "entity_ids": "d90fe8bd-3329-40b3-963c-d9b33075aec1/generation_prompts: all film-scoped source rows",
+      "source_path": "generation_prompts.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=7871",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "7871 exported generation_prompts rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "assets": {
+      "study": "02-10 case-file preparation",
+      "film_id": "d90fe8bd-3329-40b3-963c-d9b33075aec1",
+      "entity_ids": "d90fe8bd-3329-40b3-963c-d9b33075aec1/assets: all film-scoped source rows",
+      "source_path": "assets.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=6417",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "6417 exported assets rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "asset_usages": {
+      "study": "02-10 case-file preparation",
+      "film_id": "d90fe8bd-3329-40b3-963c-d9b33075aec1",
+      "entity_ids": "d90fe8bd-3329-40b3-963c-d9b33075aec1/asset_usages: all film-scoped source rows",
+      "source_path": "asset_usages.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=24844",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "24844 exported asset_usages rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "asset_folders": {
+      "study": "02-10 case-file preparation",
+      "film_id": "d90fe8bd-3329-40b3-963c-d9b33075aec1",
+      "entity_ids": "d90fe8bd-3329-40b3-963c-d9b33075aec1/asset_folders: all film-scoped source rows",
+      "source_path": "asset_folders.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=6238",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "6238 exported asset_folders rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "generation_folders": {
+      "study": "02-10 case-file preparation",
+      "film_id": "d90fe8bd-3329-40b3-963c-d9b33075aec1",
+      "entity_ids": "d90fe8bd-3329-40b3-963c-d9b33075aec1/generation_folders: all film-scoped source rows",
+      "source_path": "generation_folders.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=6164",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "6164 exported generation_folders rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "reference_elements": {
+      "study": "02-10 case-file preparation",
+      "film_id": "d90fe8bd-3329-40b3-963c-d9b33075aec1",
+      "entity_ids": "d90fe8bd-3329-40b3-963c-d9b33075aec1/reference_elements: all film-scoped source rows",
+      "source_path": "reference_elements.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=132",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "132 exported reference_elements rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "brief_assets": {
+      "study": "02-10 case-file preparation",
+      "film_id": "d90fe8bd-3329-40b3-963c-d9b33075aec1",
+      "entity_ids": "d90fe8bd-3329-40b3-963c-d9b33075aec1/brief_assets: all film-scoped source rows",
+      "source_path": "brief_assets.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=0",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "0 exported brief_assets rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "model_usage": {
+      "study": "02-10 case-file preparation",
+      "film_id": "d90fe8bd-3329-40b3-963c-d9b33075aec1",
+      "entity_ids": "d90fe8bd-3329-40b3-963c-d9b33075aec1/model_usage: all film-scoped source rows",
+      "source_path": "model_usage.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=16",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "16 exported model_usage rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "extraction_log": {
+      "study": "02-10 case-file preparation",
+      "film_id": "d90fe8bd-3329-40b3-963c-d9b33075aec1",
+      "entity_ids": "d90fe8bd-3329-40b3-963c-d9b33075aec1/extraction_log: all film-scoped source rows",
+      "source_path": "extraction_log.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=1",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "1 exported extraction_log rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "other_items": {
+      "study": "02-10 case-file preparation",
+      "film_id": "d90fe8bd-3329-40b3-963c-d9b33075aec1",
+      "entity_ids": "d90fe8bd-3329-40b3-963c-d9b33075aec1/other_items: all film-scoped source rows",
+      "source_path": "other_items.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=0",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "0 exported other_items rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    }
+  },
+  "field_states": {
+    "films": {
+      "in_priority_scope": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "most_watched_rank_top100": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "views": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "likes": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "comments": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "audience_votes": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "editorial_selection": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "title": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "creator": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "creator_profile_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "project_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "description": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "duration": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "submitted_at": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "category": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "shortlist_status": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "film_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "thumbnail_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "project_brief": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "production_notes": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "model_usage_summary": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "extraction_status": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "is_open_source": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "show_prompts": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "snapshot_folder_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "root_folder_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "reported_generations": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "authors_json": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "source_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "source_record_file": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "project_metadata_source_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      }
+    },
+    "priority_films": {
+      "in_priority_scope": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "most_watched_rank_top100": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "views": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "likes": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "comments": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "audience_votes": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "editorial_selection": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "title": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "creator": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "creator_profile_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "project_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "description": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "duration": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "submitted_at": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "category": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "shortlist_status": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "film_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "thumbnail_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "project_brief": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "production_notes": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "model_usage_summary": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "extraction_status": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "is_open_source": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "show_prompts": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "snapshot_folder_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "root_folder_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "reported_generations": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "authors_json": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "source_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "source_record_file": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "project_metadata_source_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      }
+    },
+    "folders": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 114
+      },
+      "folder_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 114
+      },
+      "parent_folder_id": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 113
+      },
+      "folder_name": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 114
+      },
+      "folder_path": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 114
+      },
+      "source_folder_path": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 114
+      },
+      "folder_type": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 114
+      },
+      "item_count": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 114
+      },
+      "subfolders_count": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 114
+      },
+      "source_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 114
+      }
+    },
+    "generations": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6162
+      },
+      "folder_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6162
+      },
+      "generation_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6162
+      },
+      "generation_batch_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6162
+      },
+      "generation_type": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6162
+      },
+      "model_provider": {
+        "unavailable": 6162,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "model_name": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6162
+      },
+      "model_identifier": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6162
+      },
+      "prompt": {
+        "unavailable": 1,
+        "empty": 4,
+        "nonempty": 6157
+      },
+      "prompt_source_path": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 6161
+      },
+      "negative_prompt": {
+        "unavailable": 6162,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "parameters_json": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6162
+      },
+      "created_at": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6162
+      },
+      "source_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6162
+      },
+      "extraction_status": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6162
+      },
+      "generation_status": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6162
+      },
+      "author_user_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6162
+      },
+      "author_username": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6162
+      },
+      "source_record_file": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6162
+      },
+      "source_provenance_method": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6162
+      }
+    },
+    "generation_prompts": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 7871
+      },
+      "generation_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 7871
+      },
+      "field_path": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 7871
+      },
+      "prompt_role": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 7871
+      },
+      "text": {
+        "unavailable": 0,
+        "empty": 4,
+        "nonempty": 7867
+      }
+    },
+    "assets": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6417
+      },
+      "generation_id": {
+        "unavailable": 255,
+        "empty": 0,
+        "nonempty": 6162
+      },
+      "asset_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6417
+      },
+      "asset_type": {
+        "unavailable": 2,
+        "empty": 0,
+        "nonempty": 6415
+      },
+      "asset_role": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6417
+      },
+      "asset_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6417
+      },
+      "source_asset_id": {
+        "unavailable": 6417,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "folder_id": {
+        "unavailable": 218,
+        "empty": 0,
+        "nonempty": 6199
+      },
+      "metadata_json": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6417
+      }
+    },
+    "asset_usages": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 24844
+      },
+      "generation_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 24844
+      },
+      "asset_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 24844
+      },
+      "asset_role": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 24844
+      },
+      "asset_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 24844
+      },
+      "metadata_json": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 24844
+      },
+      "parameter_role": {
+        "unavailable": 19579,
+        "empty": 0,
+        "nonempty": 5265
+      },
+      "parameter_path": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 24844
+      },
+      "reference_element_id": {
+        "unavailable": 13008,
+        "empty": 0,
+        "nonempty": 11836
+      }
+    },
+    "asset_folders": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6238
+      },
+      "asset_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6238
+      },
+      "folder_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6238
+      }
+    },
+    "generation_folders": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6164
+      },
+      "generation_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6164
+      },
+      "folder_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6164
+      },
+      "folder_job_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6164
+      }
+    },
+    "reference_elements": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 132
+      },
+      "reference_element_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 132
+      },
+      "name": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 132
+      },
+      "category": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 132
+      },
+      "description": {
+        "unavailable": 110,
+        "empty": 22,
+        "nonempty": 0
+      },
+      "metadata_json": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 132
+      }
+    },
+    "brief_assets": {},
+    "model_usage": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 16
+      },
+      "model_name": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 16
+      },
+      "model_identifier": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 16
+      },
+      "provider": {
+        "unavailable": 16,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "usage_count": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 16
+      },
+      "usage_percentage": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 16
+      },
+      "source_type": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 16
+      },
+      "source_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 16
+      }
+    },
+    "extraction_log": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "project_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "extraction_timestamp": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "extraction_status": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "folders_found": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "generations_found": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "assets_found": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "missing_fields": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "errors": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "items_received": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "items_complete": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "folders_complete": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "reported_generations": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "generation_count_reconciles": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "brief_complete": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "leaf_recovery_complete": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "leaf_recovery_errors": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      }
+    },
+    "other_items": {}
+  },
+  "generations": {
+    "generation_type": [
+      {
+        "value": "image",
+        "count": 4447
+      },
+      {
+        "value": "video",
+        "count": 1715
+      }
+    ],
+    "model_identifier": [
+      {
+        "value": "cinematic_studio_video_4_0",
+        "count": 1
+      },
+      {
+        "value": "cinematic_video_editor",
+        "count": 1
+      },
+      {
+        "value": "cinematic_video_inpaint",
+        "count": 1
+      },
+      {
+        "value": "gpt_image_2",
+        "count": 900
+      },
+      {
+        "value": "hf_mult_replace_object",
+        "count": 2
+      },
+      {
+        "value": "kling3_0",
+        "count": 2
+      },
+      {
+        "value": "minimax_h3",
+        "count": 3
+      },
+      {
+        "value": "nano_banana_2",
+        "count": 1251
+      },
+      {
+        "value": "nano_banana_flash",
+        "count": 100
+      },
+      {
+        "value": "seedance_2_0",
+        "count": 23
+      },
+      {
+        "value": "seedance_2_5",
+        "count": 1682
+      },
+      {
+        "value": "seedream_v4_5",
+        "count": 3
+      },
+      {
+        "value": "seedream_v5_pro",
+        "count": 2060
+      },
+      {
+        "value": "soul_cinema_studio",
+        "count": 95
+      },
+      {
+        "value": "soul_cinematic",
+        "count": 35
+      },
+      {
+        "value": "text2image_soul_v2",
+        "count": 3
+      }
+    ],
+    "model_name": [
+      {
+        "value": "Cinema Studio 4.0",
+        "count": 1
+      },
+      {
+        "value": "Cinematic Video Editor",
+        "count": 1
+      },
+      {
+        "value": "Cinematic Video Inpaint",
+        "count": 1
+      },
+      {
+        "value": "GPT Image 2.0",
+        "count": 900
+      },
+      {
+        "value": "Higgsfield Genjutsu - Object Swap",
+        "count": 2
+      },
+      {
+        "value": "Higgsfield Soul V2",
+        "count": 3
+      },
+      {
+        "value": "Kling v3.0",
+        "count": 2
+      },
+      {
+        "value": "MiniMax H3",
+        "count": 3
+      },
+      {
+        "value": "Nano Banana 2",
+        "count": 100
+      },
+      {
+        "value": "Nano Banana Pro",
+        "count": 1251
+      },
+      {
+        "value": "Seedance 2.0",
+        "count": 23
+      },
+      {
+        "value": "Seedance 2.5",
+        "count": 1682
+      },
+      {
+        "value": "Seedream 4.5",
+        "count": 3
+      },
+      {
+        "value": "Seedream 5.0 Pro",
+        "count": 2060
+      },
+      {
+        "value": "Soul Cinema Studio",
+        "count": 95
+      },
+      {
+        "value": "Soul Cinematic",
+        "count": 35
+      }
+    ],
+    "author_user_id": [
+      {
+        "value": "user_2vOlZqHm9l70zjwiloUuTFoQts9",
+        "count": 3327
+      },
+      {
+        "value": "user_37CAqah1x5oCGMVs7EoN0xMBehr",
+        "count": 669
+      },
+      {
+        "value": "user_37CEuxTOp2FSLBU5inEPsSOLH8U",
+        "count": 968
+      },
+      {
+        "value": "user_39QgXCCwvCHvNOl5MZ3Yq3Utnbb",
+        "count": 1198
+      }
+    ],
+    "generation_status": [
+      {
+        "value": "completed",
+        "count": 6162
+      }
+    ]
+  },
+  "prompt_states": {
+    "unavailable": 1,
+    "empty": 4,
+    "nonempty": 6157,
+    "distinct_nonempty": 2070
+  },
+  "text_roles": [
+    {
+      "value": "prompt_or_text",
+      "count": 7871
+    }
+  ],
+  "usage_roles": [
+    {
+      "value": "input_asset",
+      "count": 1581
+    },
+    {
+      "value": "input_image",
+      "count": 5095
+    },
+    {
+      "value": "input_start_image",
+      "count": 4
+    },
+    {
+      "value": "input_video",
+      "count": 166
+    },
+    {
+      "value": "output",
+      "count": 6162
+    },
+    {
+      "value": "reference_image",
+      "count": 11836
+    }
+  ],
+  "parameter_controls": [
+    {
+      "model": "cinematic_studio_video_4_0",
+      "path": "aspect_ratio",
+      "value": "\"16:9\"",
+      "count": 1
+    },
+    {
+      "model": "cinematic_studio_video_4_0",
+      "path": "duration",
+      "value": "30",
+      "count": 1
+    },
+    {
+      "model": "cinematic_studio_video_4_0",
+      "path": "generate_audio",
+      "value": "true",
+      "count": 1
+    },
+    {
+      "model": "cinematic_studio_video_4_0",
+      "path": "is_inpaint",
+      "value": "<unavailable>",
+      "count": 1
+    },
+    {
+      "model": "cinematic_studio_video_4_0",
+      "path": "model",
+      "value": "\"default\"",
+      "count": 1
+    },
+    {
+      "model": "cinematic_studio_video_4_0",
+      "path": "multi_shots",
+      "value": "false",
+      "count": 1
+    },
+    {
+      "model": "cinematic_studio_video_4_0",
+      "path": "resolution",
+      "value": "\"720p\"",
+      "count": 1
+    },
+    {
+      "model": "cinematic_video_editor",
+      "path": "aspect_ratio",
+      "value": "<unavailable>",
+      "count": 1
+    },
+    {
+      "model": "cinematic_video_editor",
+      "path": "duration",
+      "value": "<unavailable>",
+      "count": 1
+    },
+    {
+      "model": "cinematic_video_editor",
+      "path": "generate_audio",
+      "value": "<unavailable>",
+      "count": 1
+    },
+    {
+      "model": "cinematic_video_editor",
+      "path": "is_inpaint",
+      "value": "<unavailable>",
+      "count": 1
+    },
+    {
+      "model": "cinematic_video_editor",
+      "path": "model",
+      "value": "<unavailable>",
+      "count": 1
+    },
+    {
+      "model": "cinematic_video_editor",
+      "path": "multi_shots",
+      "value": "<unavailable>",
+      "count": 1
+    },
+    {
+      "model": "cinematic_video_editor",
+      "path": "resolution",
+      "value": "<unavailable>",
+      "count": 1
+    },
+    {
+      "model": "cinematic_video_inpaint",
+      "path": "aspect_ratio",
+      "value": "\"16:9\"",
+      "count": 1
+    },
+    {
+      "model": "cinematic_video_inpaint",
+      "path": "duration",
+      "value": "16",
+      "count": 1
+    },
+    {
+      "model": "cinematic_video_inpaint",
+      "path": "generate_audio",
+      "value": "true",
+      "count": 1
+    },
+    {
+      "model": "cinematic_video_inpaint",
+      "path": "is_inpaint",
+      "value": "<unavailable>",
+      "count": 1
+    },
+    {
+      "model": "cinematic_video_inpaint",
+      "path": "model",
+      "value": "\"video_edit\"",
+      "count": 1
+    },
+    {
+      "model": "cinematic_video_inpaint",
+      "path": "multi_shots",
+      "value": "false",
+      "count": 1
+    },
+    {
+      "model": "cinematic_video_inpaint",
+      "path": "resolution",
+      "value": "\"720p\"",
+      "count": 1
+    },
+    {
+      "model": "gpt_image_2",
+      "path": "aspect_ratio",
+      "value": "\"16:9\"",
+      "count": 628
+    },
+    {
+      "model": "gpt_image_2",
+      "path": "aspect_ratio",
+      "value": "\"1:1\"",
+      "count": 34
+    },
+    {
+      "model": "gpt_image_2",
+      "path": "aspect_ratio",
+      "value": "\"21:9\"",
+      "count": 129
+    },
+    {
+      "model": "gpt_image_2",
+      "path": "aspect_ratio",
+      "value": "\"3:4\"",
+      "count": 2
+    },
+    {
+      "model": "gpt_image_2",
+      "path": "aspect_ratio",
+      "value": "\"4:3\"",
+      "count": 6
+    },
+    {
+      "model": "gpt_image_2",
+      "path": "aspect_ratio",
+      "value": "\"9:16\"",
+      "count": 75
+    },
+    {
+      "model": "gpt_image_2",
+      "path": "aspect_ratio",
+      "value": "\"auto\"",
+      "count": 26
+    },
+    {
+      "model": "gpt_image_2",
+      "path": "duration",
+      "value": "<unavailable>",
+      "count": 900
+    },
+    {
+      "model": "gpt_image_2",
+      "path": "generate_audio",
+      "value": "<unavailable>",
+      "count": 900
+    },
+    {
+      "model": "gpt_image_2",
+      "path": "is_inpaint",
+      "value": "<unavailable>",
+      "count": 900
+    },
+    {
+      "model": "gpt_image_2",
+      "path": "model",
+      "value": "\"videotape-alpha\"",
+      "count": 900
+    },
+    {
+      "model": "gpt_image_2",
+      "path": "multi_shots",
+      "value": "<unavailable>",
+      "count": 900
+    },
+    {
+      "model": "gpt_image_2",
+      "path": "resolution",
+      "value": "\"2k\"",
+      "count": 895
+    },
+    {
+      "model": "gpt_image_2",
+      "path": "resolution",
+      "value": "\"4k\"",
+      "count": 5
+    },
+    {
+      "model": "hf_mult_replace_object",
+      "path": "aspect_ratio",
+      "value": "\"auto\"",
+      "count": 2
+    },
+    {
+      "model": "hf_mult_replace_object",
+      "path": "duration",
+      "value": "6",
+      "count": 2
+    },
+    {
+      "model": "hf_mult_replace_object",
+      "path": "generate_audio",
+      "value": "false",
+      "count": 2
+    },
+    {
+      "model": "hf_mult_replace_object",
+      "path": "is_inpaint",
+      "value": "<unavailable>",
+      "count": 2
+    },
+    {
+      "model": "hf_mult_replace_object",
+      "path": "model",
+      "value": "<unavailable>",
+      "count": 2
+    },
+    {
+      "model": "hf_mult_replace_object",
+      "path": "multi_shots",
+      "value": "<unavailable>",
+      "count": 2
+    },
+    {
+      "model": "hf_mult_replace_object",
+      "path": "resolution",
+      "value": "\"1080p\"",
+      "count": 2
+    },
+    {
+      "model": "kling3_0",
+      "path": "aspect_ratio",
+      "value": "\"1:1\"",
+      "count": 2
+    },
+    {
+      "model": "kling3_0",
+      "path": "duration",
+      "value": "10",
+      "count": 2
+    },
+    {
+      "model": "kling3_0",
+      "path": "generate_audio",
+      "value": "<unavailable>",
+      "count": 2
+    },
+    {
+      "model": "kling3_0",
+      "path": "is_inpaint",
+      "value": "<unavailable>",
+      "count": 2
+    },
+    {
+      "model": "kling3_0",
+      "path": "model",
+      "value": "<unavailable>",
+      "count": 2
+    },
+    {
+      "model": "kling3_0",
+      "path": "multi_shots",
+      "value": "false",
+      "count": 2
+    },
+    {
+      "model": "kling3_0",
+      "path": "resolution",
+      "value": "<unavailable>",
+      "count": 2
+    },
+    {
+      "model": "minimax_h3",
+      "path": "aspect_ratio",
+      "value": "\"auto\"",
+      "count": 3
+    },
+    {
+      "model": "minimax_h3",
+      "path": "duration",
+      "value": "10",
+      "count": 3
+    },
+    {
+      "model": "minimax_h3",
+      "path": "generate_audio",
+      "value": "<unavailable>",
+      "count": 3
+    },
+    {
+      "model": "minimax_h3",
+      "path": "is_inpaint",
+      "value": "<unavailable>",
+      "count": 3
+    },
+    {
+      "model": "minimax_h3",
+      "path": "model",
+      "value": "<unavailable>",
+      "count": 3
+    },
+    {
+      "model": "minimax_h3",
+      "path": "multi_shots",
+      "value": "<unavailable>",
+      "count": 3
+    },
+    {
+      "model": "minimax_h3",
+      "path": "resolution",
+      "value": "\"2K\"",
+      "count": 3
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "aspect_ratio",
+      "value": "\"16:9\"",
+      "count": 996
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "aspect_ratio",
+      "value": "\"1:1\"",
+      "count": 23
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "aspect_ratio",
+      "value": "\"21:9\"",
+      "count": 57
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "aspect_ratio",
+      "value": "\"3:2\"",
+      "count": 2
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "aspect_ratio",
+      "value": "\"3:4\"",
+      "count": 11
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "aspect_ratio",
+      "value": "\"4:3\"",
+      "count": 23
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "aspect_ratio",
+      "value": "\"9:16\"",
+      "count": 139
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "duration",
+      "value": "<unavailable>",
+      "count": 1251
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "generate_audio",
+      "value": "<unavailable>",
+      "count": 1251
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "is_inpaint",
+      "value": "<unavailable>",
+      "count": 1251
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "model",
+      "value": "<unavailable>",
+      "count": 1251
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "multi_shots",
+      "value": "<unavailable>",
+      "count": 1251
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "resolution",
+      "value": "\"1k\"",
+      "count": 18
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "resolution",
+      "value": "\"2k\"",
+      "count": 1228
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "resolution",
+      "value": "\"4k\"",
+      "count": 5
+    },
+    {
+      "model": "nano_banana_flash",
+      "path": "aspect_ratio",
+      "value": "\"16:9\"",
+      "count": 69
+    },
+    {
+      "model": "nano_banana_flash",
+      "path": "aspect_ratio",
+      "value": "\"1:1\"",
+      "count": 2
+    },
+    {
+      "model": "nano_banana_flash",
+      "path": "aspect_ratio",
+      "value": "\"21:9\"",
+      "count": 11
+    },
+    {
+      "model": "nano_banana_flash",
+      "path": "aspect_ratio",
+      "value": "\"3:4\"",
+      "count": 7
+    },
+    {
+      "model": "nano_banana_flash",
+      "path": "aspect_ratio",
+      "value": "\"4:5\"",
+      "count": 8
+    },
+    {
+      "model": "nano_banana_flash",
+      "path": "aspect_ratio",
+      "value": "\"9:16\"",
+      "count": 3
+    },
+    {
+      "model": "nano_banana_flash",
+      "path": "duration",
+      "value": "<unavailable>",
+      "count": 100
+    },
+    {
+      "model": "nano_banana_flash",
+      "path": "generate_audio",
+      "value": "<unavailable>",
+      "count": 100
+    },
+    {
+      "model": "nano_banana_flash",
+      "path": "is_inpaint",
+      "value": "false",
+      "count": 100
+    },
+    {
+      "model": "nano_banana_flash",
+      "path": "model",
+      "value": "<unavailable>",
+      "count": 100
+    },
+    {
+      "model": "nano_banana_flash",
+      "path": "multi_shots",
+      "value": "<unavailable>",
+      "count": 100
+    },
+    {
+      "model": "nano_banana_flash",
+      "path": "resolution",
+      "value": "\"1k\"",
+      "count": 4
+    },
+    {
+      "model": "nano_banana_flash",
+      "path": "resolution",
+      "value": "\"2k\"",
+      "count": 94
+    },
+    {
+      "model": "nano_banana_flash",
+      "path": "resolution",
+      "value": "\"4k\"",
+      "count": 2
+    },
+    {
+      "model": "seedance_2_0",
+      "path": "aspect_ratio",
+      "value": "\"21:9\"",
+      "count": 21
+    },
+    {
+      "model": "seedance_2_0",
+      "path": "aspect_ratio",
+      "value": "\"auto\"",
+      "count": 2
+    },
+    {
+      "model": "seedance_2_0",
+      "path": "duration",
+      "value": "11",
+      "count": 2
+    },
+    {
+      "model": "seedance_2_0",
+      "path": "duration",
+      "value": "4",
+      "count": 6
+    },
+    {
+      "model": "seedance_2_0",
+      "path": "duration",
+      "value": "5",
+      "count": 2
+    },
+    {
+      "model": "seedance_2_0",
+      "path": "duration",
+      "value": "6",
+      "count": 4
+    },
+    {
+      "model": "seedance_2_0",
+      "path": "duration",
+      "value": "7",
+      "count": 8
+    },
+    {
+      "model": "seedance_2_0",
+      "path": "duration",
+      "value": "8",
+      "count": 1
+    },
+    {
+      "model": "seedance_2_0",
+      "path": "generate_audio",
+      "value": "true",
+      "count": 23
+    },
+    {
+      "model": "seedance_2_0",
+      "path": "is_inpaint",
+      "value": "<unavailable>",
+      "count": 23
+    },
+    {
+      "model": "seedance_2_0",
+      "path": "model",
+      "value": "\"seedance_2_0\"",
+      "count": 23
+    },
+    {
+      "model": "seedance_2_0",
+      "path": "multi_shots",
+      "value": "false",
+      "count": 23
+    },
+    {
+      "model": "seedance_2_0",
+      "path": "resolution",
+      "value": "\"1080p\"",
+      "count": 4
+    },
+    {
+      "model": "seedance_2_0",
+      "path": "resolution",
+      "value": "\"480p\"",
+      "count": 4
+    },
+    {
+      "model": "seedance_2_0",
+      "path": "resolution",
+      "value": "\"4k\"",
+      "count": 3
+    },
+    {
+      "model": "seedance_2_0",
+      "path": "resolution",
+      "value": "\"720p\"",
+      "count": 12
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "aspect_ratio",
+      "value": "\"16:9\"",
+      "count": 50
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "aspect_ratio",
+      "value": "\"21:9\"",
+      "count": 1628
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "aspect_ratio",
+      "value": "\"4:3\"",
+      "count": 4
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "10",
+      "count": 108
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "11",
+      "count": 45
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "12",
+      "count": 60
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "13",
+      "count": 48
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "14",
+      "count": 20
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "15",
+      "count": 113
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "16",
+      "count": 42
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "17",
+      "count": 37
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "18",
+      "count": 31
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "19",
+      "count": 15
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "20",
+      "count": 27
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "21",
+      "count": 28
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "22",
+      "count": 9
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "24",
+      "count": 38
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "25",
+      "count": 26
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "26",
+      "count": 27
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "27",
+      "count": 13
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "28",
+      "count": 54
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "29",
+      "count": 24
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "30",
+      "count": 354
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "4",
+      "count": 120
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "5",
+      "count": 120
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "6",
+      "count": 114
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "7",
+      "count": 55
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "8",
+      "count": 89
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "9",
+      "count": 65
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "generate_audio",
+      "value": "false",
+      "count": 5
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "generate_audio",
+      "value": "true",
+      "count": 1677
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "is_inpaint",
+      "value": "<unavailable>",
+      "count": 1682
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "model",
+      "value": "\"default\"",
+      "count": 1676
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "model",
+      "value": "\"video_edit\"",
+      "count": 6
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "multi_shots",
+      "value": "false",
+      "count": 1682
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "resolution",
+      "value": "\"1080p\"",
+      "count": 52
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "resolution",
+      "value": "\"480p\"",
+      "count": 154
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "resolution",
+      "value": "\"720p\"",
+      "count": 1476
+    },
+    {
+      "model": "seedream_v4_5",
+      "path": "aspect_ratio",
+      "value": "\"3:4\"",
+      "count": 3
+    },
+    {
+      "model": "seedream_v4_5",
+      "path": "duration",
+      "value": "<unavailable>",
+      "count": 3
+    },
+    {
+      "model": "seedream_v4_5",
+      "path": "generate_audio",
+      "value": "<unavailable>",
+      "count": 3
+    },
+    {
+      "model": "seedream_v4_5",
+      "path": "is_inpaint",
+      "value": "<unavailable>",
+      "count": 3
+    },
+    {
+      "model": "seedream_v4_5",
+      "path": "model",
+      "value": "<unavailable>",
+      "count": 3
+    },
+    {
+      "model": "seedream_v4_5",
+      "path": "multi_shots",
+      "value": "<unavailable>",
+      "count": 3
+    },
+    {
+      "model": "seedream_v4_5",
+      "path": "resolution",
+      "value": "<unavailable>",
+      "count": 3
+    },
+    {
+      "model": "seedream_v5_pro",
+      "path": "aspect_ratio",
+      "value": "\"16:9\"",
+      "count": 1614
+    },
+    {
+      "model": "seedream_v5_pro",
+      "path": "aspect_ratio",
+      "value": "\"1:1\"",
+      "count": 27
+    },
+    {
+      "model": "seedream_v5_pro",
+      "path": "aspect_ratio",
+      "value": "\"21:9\"",
+      "count": 291
+    },
+    {
+      "model": "seedream_v5_pro",
+      "path": "aspect_ratio",
+      "value": "\"3:4\"",
+      "count": 12
+    },
+    {
+      "model": "seedream_v5_pro",
+      "path": "aspect_ratio",
+      "value": "\"4:3\"",
+      "count": 28
+    },
+    {
+      "model": "seedream_v5_pro",
+      "path": "aspect_ratio",
+      "value": "\"9:16\"",
+      "count": 74
+    },
+    {
+      "model": "seedream_v5_pro",
+      "path": "aspect_ratio",
+      "value": "\"auto\"",
+      "count": 14
+    },
+    {
+      "model": "seedream_v5_pro",
+      "path": "duration",
+      "value": "<unavailable>",
+      "count": 2060
+    },
+    {
+      "model": "seedream_v5_pro",
+      "path": "generate_audio",
+      "value": "<unavailable>",
+      "count": 2060
+    },
+    {
+      "model": "seedream_v5_pro",
+      "path": "is_inpaint",
+      "value": "false",
+      "count": 2060
+    },
+    {
+      "model": "seedream_v5_pro",
+      "path": "model",
+      "value": "<unavailable>",
+      "count": 2060
+    },
+    {
+      "model": "seedream_v5_pro",
+      "path": "multi_shots",
+      "value": "<unavailable>",
+      "count": 2060
+    },
+    {
+      "model": "seedream_v5_pro",
+      "path": "resolution",
+      "value": "\"1k\"",
+      "count": 106
+    },
+    {
+      "model": "seedream_v5_pro",
+      "path": "resolution",
+      "value": "\"2k\"",
+      "count": 1954
+    },
+    {
+      "model": "soul_cinema_studio",
+      "path": "aspect_ratio",
+      "value": "<unavailable>",
+      "count": 95
+    },
+    {
+      "model": "soul_cinema_studio",
+      "path": "duration",
+      "value": "<unavailable>",
+      "count": 95
+    },
+    {
+      "model": "soul_cinema_studio",
+      "path": "generate_audio",
+      "value": "<unavailable>",
+      "count": 95
+    },
+    {
+      "model": "soul_cinema_studio",
+      "path": "is_inpaint",
+      "value": "<unavailable>",
+      "count": 95
+    },
+    {
+      "model": "soul_cinema_studio",
+      "path": "model",
+      "value": "<unavailable>",
+      "count": 95
+    },
+    {
+      "model": "soul_cinema_studio",
+      "path": "multi_shots",
+      "value": "<unavailable>",
+      "count": 95
+    },
+    {
+      "model": "soul_cinema_studio",
+      "path": "resolution",
+      "value": "<unavailable>",
+      "count": 95
+    },
+    {
+      "model": "soul_cinematic",
+      "path": "aspect_ratio",
+      "value": "<unavailable>",
+      "count": 35
+    },
+    {
+      "model": "soul_cinematic",
+      "path": "duration",
+      "value": "<unavailable>",
+      "count": 35
+    },
+    {
+      "model": "soul_cinematic",
+      "path": "generate_audio",
+      "value": "<unavailable>",
+      "count": 35
+    },
+    {
+      "model": "soul_cinematic",
+      "path": "is_inpaint",
+      "value": "<unavailable>",
+      "count": 35
+    },
+    {
+      "model": "soul_cinematic",
+      "path": "model",
+      "value": "<unavailable>",
+      "count": 35
+    },
+    {
+      "model": "soul_cinematic",
+      "path": "multi_shots",
+      "value": "<unavailable>",
+      "count": 35
+    },
+    {
+      "model": "soul_cinematic",
+      "path": "resolution",
+      "value": "<unavailable>",
+      "count": 35
+    },
+    {
+      "model": "text2image_soul_v2",
+      "path": "aspect_ratio",
+      "value": "<unavailable>",
+      "count": 3
+    },
+    {
+      "model": "text2image_soul_v2",
+      "path": "duration",
+      "value": "<unavailable>",
+      "count": 3
+    },
+    {
+      "model": "text2image_soul_v2",
+      "path": "generate_audio",
+      "value": "<unavailable>",
+      "count": 3
+    },
+    {
+      "model": "text2image_soul_v2",
+      "path": "is_inpaint",
+      "value": "<unavailable>",
+      "count": 3
+    },
+    {
+      "model": "text2image_soul_v2",
+      "path": "model",
+      "value": "<unavailable>",
+      "count": 3
+    },
+    {
+      "model": "text2image_soul_v2",
+      "path": "multi_shots",
+      "value": "<unavailable>",
+      "count": 3
+    },
+    {
+      "model": "text2image_soul_v2",
+      "path": "resolution",
+      "value": "<unavailable>",
+      "count": 3
+    }
+  ],
+  "invalid_parameters": [],
+  "folders": [
+    {
+      "folder_id": "004dadc3-e2e3-42e3-9e36-1234dbed8b3d",
+      "folder_name": "Gamer_real life",
+      "parent_folder_id": "c38417bb-1807-40ad-9b17-08bbc24b93c9",
+      "generation_placements": 1
+    },
+    {
+      "folder_id": "00a6bfb8-cea3-484a-b527-b9d342e08070",
+      "folder_name": "B7-6",
+      "parent_folder_id": "5373dc56-709a-48cf-8d32-695d23cdc7a2",
+      "generation_placements": 6
+    },
+    {
+      "folder_id": "026a7d21-1eb2-42fe-9e4b-6b8ac7bd18ef",
+      "folder_name": "B8-2",
+      "parent_folder_id": "d5fa4ca1-71ee-4e37-b44c-6d31494e986a",
+      "generation_placements": 7
+    },
+    {
+      "folder_id": "05da7af1-eae7-4f22-a609-67aa8b8b5d29",
+      "folder_name": "B3-2",
+      "parent_folder_id": "f88e2b1c-c42f-4d3b-b9a3-2e5ed487b142",
+      "generation_placements": 6
+    },
+    {
+      "folder_id": "087a6474-1e16-485c-b064-4873f8e9acc1",
+      "folder_name": "B4-2",
+      "parent_folder_id": "6cac34bc-220d-468b-836b-82d2935831b6",
+      "generation_placements": 24
+    },
+    {
+      "folder_id": "0cf42163-0953-40fe-979a-dab2e04c29bc",
+      "folder_name": "approved",
+      "parent_folder_id": "ea50a6d5-6625-422c-8dbc-1392935e376b",
+      "generation_placements": 9
+    },
+    {
+      "folder_id": "1016c625-53e4-4e87-bf5f-7b1d03610d22",
+      "folder_name": "final",
+      "parent_folder_id": "1b9abfdb-0376-423a-a297-6b1fcc4a779b",
+      "generation_placements": 28
+    },
+    {
+      "folder_id": "11ced0cc-7459-462d-a476-ce9ba7e0230b",
+      "folder_name": "B8-8",
+      "parent_folder_id": "d5fa4ca1-71ee-4e37-b44c-6d31494e986a",
+      "generation_placements": 14
+    },
+    {
+      "folder_id": "123365df-dbd1-4804-a4d2-e16838f35662",
+      "folder_name": "add",
+      "parent_folder_id": "d5fa4ca1-71ee-4e37-b44c-6d31494e986a",
+      "generation_placements": 95
+    },
+    {
+      "folder_id": "13613453-955d-43e9-bc9b-95f15eccf3f2",
+      "folder_name": "B7-8",
+      "parent_folder_id": "5373dc56-709a-48cf-8d32-695d23cdc7a2",
+      "generation_placements": 19
+    },
+    {
+      "folder_id": "147fe4da-1afc-4896-a8b5-29a36370210c",
+      "folder_name": "Demon_real life",
+      "parent_folder_id": "177326c2-cb8c-4c0e-bc7b-33db4fc45e94",
+      "generation_placements": 6
+    },
+    {
+      "folder_id": "15c606a4-e16d-49bd-ac41-afbfe0fb3381",
+      "folder_name": "Ryu’s bike",
+      "parent_folder_id": "b4cf5749-d4d9-4500-bf8f-17f674fd1403",
+      "generation_placements": 52
+    },
+    {
+      "folder_id": "15cfa624-95d9-4004-8c17-6a419216fa53",
+      "folder_name": "B8-11",
+      "parent_folder_id": "d5fa4ca1-71ee-4e37-b44c-6d31494e986a",
+      "generation_placements": 11
+    },
+    {
+      "folder_id": "177326c2-cb8c-4c0e-bc7b-33db4fc45e94",
+      "folder_name": "Demon on a motorcycle",
+      "parent_folder_id": "e1b9c74e-b9bb-4e79-9647-adf0cbdfca6a",
+      "generation_placements": 221
+    },
+    {
+      "folder_id": "17818890-f060-4abd-a0e8-d929731951ee",
+      "folder_name": "KEYS",
+      "parent_folder_id": "b4cf5749-d4d9-4500-bf8f-17f674fd1403",
+      "generation_placements": 11
+    },
+    {
+      "folder_id": "1b9abfdb-0376-423a-a297-6b1fcc4a779b",
+      "folder_name": "cover",
+      "parent_folder_id": "988e961f-0b33-4551-b09a-56b919bea860",
+      "generation_placements": 76
+    },
+    {
+      "folder_id": "1caa4494-0774-40c3-83ab-15fed9c2fbd2",
+      "folder_name": "Power up",
+      "parent_folder_id": "b4cf5749-d4d9-4500-bf8f-17f674fd1403",
+      "generation_placements": 166
+    },
+    {
+      "folder_id": "1e814480-18d4-4bf0-93a2-305e944f17cc",
+      "folder_name": "B6-1",
+      "parent_folder_id": "99c71a85-4460-46f4-b244-d21774e5f338",
+      "generation_placements": 10
+    },
+    {
+      "folder_id": "1ee2a095-07ac-4c90-9077-4a709f4cfc4d",
+      "folder_name": "B7-2",
+      "parent_folder_id": "5373dc56-709a-48cf-8d32-695d23cdc7a2",
+      "generation_placements": 8
+    },
+    {
+      "folder_id": "1efde2c2-2703-4500-b079-4a42c1aec5bc",
+      "folder_name": "Tests",
+      "parent_folder_id": "988e961f-0b33-4551-b09a-56b919bea860",
+      "generation_placements": 130
+    },
+    {
+      "folder_id": "22e703fd-ef8d-45a4-94da-2b47374e0b6c",
+      "folder_name": "B7-4",
+      "parent_folder_id": "5373dc56-709a-48cf-8d32-695d23cdc7a2",
+      "generation_placements": 16
+    },
+    {
+      "folder_id": "2370147b-8d57-4b5f-a81c-64712f44e594",
+      "folder_name": "Iphone_1",
+      "parent_folder_id": "b4cf5749-d4d9-4500-bf8f-17f674fd1403",
+      "generation_placements": 36
+    },
+    {
+      "folder_id": "23a83d74-e92d-4324-a8ae-32efa3aaffb4",
+      "folder_name": "Rider_real life",
+      "parent_folder_id": "a36d3a04-bf7f-4e40-b49e-5df34aad3cca",
+      "generation_placements": 6
+    },
+    {
+      "folder_id": "23adbba3-b795-41e6-8b25-5ba56b4d0636",
+      "folder_name": "B6-extra2",
+      "parent_folder_id": "99c71a85-4460-46f4-b244-d21774e5f338",
+      "generation_placements": 86
+    },
+    {
+      "folder_id": "285487ff-fc77-4b7b-beee-5267d9d88f21",
+      "folder_name": "B6-7",
+      "parent_folder_id": "99c71a85-4460-46f4-b244-d21774e5f338",
+      "generation_placements": 25
+    },
+    {
+      "folder_id": "29af9c1c-e666-46c2-a148-d97a5bba6c53",
+      "folder_name": "B7-5",
+      "parent_folder_id": "5373dc56-709a-48cf-8d32-695d23cdc7a2",
+      "generation_placements": 13
+    },
+    {
+      "folder_id": "29d51dfd-62b5-4c44-8035-78f0ae63e986",
+      "folder_name": "Scene 09",
+      "parent_folder_id": "64057b8e-a6ec-408b-9e4c-cd88932d7bdd",
+      "generation_placements": 248
+    },
+    {
+      "folder_id": "32a5a4e4-5d2f-4821-9aed-a955c0f78025",
+      "folder_name": "Watermarks",
+      "parent_folder_id": "988e961f-0b33-4551-b09a-56b919bea860",
+      "generation_placements": 0
+    },
+    {
+      "folder_id": "36dbc717-9bd9-4dc4-820e-c8bf780777d6",
+      "folder_name": "FINAL",
+      "parent_folder_id": "1caa4494-0774-40c3-83ab-15fed9c2fbd2",
+      "generation_placements": 35
+    },
+    {
+      "folder_id": "40394a1d-1309-4d44-b4f3-314fda603f11",
+      "folder_name": "FINAL",
+      "parent_folder_id": "41c27a1f-28cd-44e3-8eba-170aae76db84",
+      "generation_placements": 2
+    },
+    {
+      "folder_id": "415179ed-f856-4e0e-bd92-7c77e97ae631",
+      "folder_name": "B8-12",
+      "parent_folder_id": "d5fa4ca1-71ee-4e37-b44c-6d31494e986a",
+      "generation_placements": 34
+    },
+    {
+      "folder_id": "41c27a1f-28cd-44e3-8eba-170aae76db84",
+      "folder_name": "FINISH",
+      "parent_folder_id": "8aba260d-688b-4884-9d88-1f8932dd22b8",
+      "generation_placements": 83
+    },
+    {
+      "folder_id": "42425b9c-5deb-4e84-a5a0-65337c4d541d",
+      "folder_name": "B8-5",
+      "parent_folder_id": "d5fa4ca1-71ee-4e37-b44c-6d31494e986a",
+      "generation_placements": 0
+    },
+    {
+      "folder_id": "450fec6e-a736-460f-bc4d-44fc100b950e",
+      "folder_name": "character tests",
+      "parent_folder_id": "1efde2c2-2703-4500-b079-4a42c1aec5bc",
+      "generation_placements": 10
+    },
+    {
+      "folder_id": "483aafdc-ab77-418d-b108-3e963bfa0716",
+      "folder_name": "B8-1",
+      "parent_folder_id": "d5fa4ca1-71ee-4e37-b44c-6d31494e986a",
+      "generation_placements": 14
+    },
+    {
+      "folder_id": "484c3858-0e31-4b86-9ae2-cd5cf41cf387",
+      "folder_name": "Elevated Roadway",
+      "parent_folder_id": "8aba260d-688b-4884-9d88-1f8932dd22b8",
+      "generation_placements": 723
+    },
+    {
+      "folder_id": "49679d3c-2b9d-4d8b-92c9-2e8d6905f54a",
+      "folder_name": "FINAL",
+      "parent_folder_id": "177326c2-cb8c-4c0e-bc7b-33db4fc45e94",
+      "generation_placements": 5
+    },
+    {
+      "folder_id": "4adc0857-ee29-4620-ad09-710e4ab7a8da",
+      "folder_name": "B4-1",
+      "parent_folder_id": "6cac34bc-220d-468b-836b-82d2935831b6",
+      "generation_placements": 12
+    },
+    {
+      "folder_id": "4f117a75-79cf-47e3-a035-7dacdba831b9",
+      "folder_name": "Industrial zone",
+      "parent_folder_id": "8aba260d-688b-4884-9d88-1f8932dd22b8",
+      "generation_placements": 37
+    },
+    {
+      "folder_id": "4fd8a753-0080-4349-a5af-3106ac8b7b25",
+      "folder_name": "Audio",
+      "parent_folder_id": "64057b8e-a6ec-408b-9e4c-cd88932d7bdd",
+      "generation_placements": 0
+    },
+    {
+      "folder_id": "518a6fc6-8fc6-4084-b6e4-b501aa2b667b",
+      "folder_name": "B7-9",
+      "parent_folder_id": "5373dc56-709a-48cf-8d32-695d23cdc7a2",
+      "generation_placements": 16
+    },
+    {
+      "folder_id": "5373dc56-709a-48cf-8d32-695d23cdc7a2",
+      "folder_name": "Scene 07",
+      "parent_folder_id": "64057b8e-a6ec-408b-9e4c-cd88932d7bdd",
+      "generation_placements": 0
+    },
+    {
+      "folder_id": "55d953a1-96ea-46ba-afba-f76f14364ce7",
+      "folder_name": "Left turn",
+      "parent_folder_id": "484c3858-0e31-4b86-9ae2-cd5cf41cf387",
+      "generation_placements": 470
+    },
+    {
+      "folder_id": "5831d13f-9602-4462-85ac-3f6b3a091ec2",
+      "folder_name": "B3-4",
+      "parent_folder_id": "f88e2b1c-c42f-4d3b-b9a3-2e5ed487b142",
+      "generation_placements": 130
+    },
+    {
+      "folder_id": "5ad9326a-d261-4b95-a8a0-39e1c7aa04e5",
+      "folder_name": "B7-1",
+      "parent_folder_id": "5373dc56-709a-48cf-8d32-695d23cdc7a2",
+      "generation_placements": 18
+    },
+    {
+      "folder_id": "605ce89d-c8b5-4b3a-a4c0-46a2496c7f66",
+      "folder_name": "Yakuza",
+      "parent_folder_id": "e1b9c74e-b9bb-4e79-9647-adf0cbdfca6a",
+      "generation_placements": 34
+    },
+    {
+      "folder_id": "64057b8e-a6ec-408b-9e4c-cd88932d7bdd",
+      "folder_name": "Animation",
+      "parent_folder_id": "988e961f-0b33-4551-b09a-56b919bea860",
+      "generation_placements": 11
+    },
+    {
+      "folder_id": "64ea1918-304f-4264-93fe-0ab402a54b9f",
+      "folder_name": "B8-6",
+      "parent_folder_id": "d5fa4ca1-71ee-4e37-b44c-6d31494e986a",
+      "generation_placements": 4
+    },
+    {
+      "folder_id": "679f338a-50a1-4e93-adaf-0674c1e7459a",
+      "folder_name": "B6-6",
+      "parent_folder_id": "99c71a85-4460-46f4-b244-d21774e5f338",
+      "generation_placements": 36
+    },
+    {
+      "folder_id": "6bf96e25-37dd-47e8-88d7-34556fcd406e",
+      "folder_name": "B3-5",
+      "parent_folder_id": "f88e2b1c-c42f-4d3b-b9a3-2e5ed487b142",
+      "generation_placements": 24
+    },
+    {
+      "folder_id": "6cac34bc-220d-468b-836b-82d2935831b6",
+      "folder_name": "Scene 04",
+      "parent_folder_id": "64057b8e-a6ec-408b-9e4c-cd88932d7bdd",
+      "generation_placements": 0
+    },
+    {
+      "folder_id": "6cc0c243-c464-40e2-8f2b-acca4ddb8063",
+      "folder_name": "B1-1",
+      "parent_folder_id": "e6dfe0d9-da85-41c6-a436-3775f18bb998",
+      "generation_placements": 33
+    },
+    {
+      "folder_id": "6d0b4fa6-aca2-434c-881c-4d9fdada2b47",
+      "folder_name": "FINAL",
+      "parent_folder_id": "484c3858-0e31-4b86-9ae2-cd5cf41cf387",
+      "generation_placements": 5
+    },
+    {
+      "folder_id": "72240937-da5f-4add-9035-9a902306fa57",
+      "folder_name": "Ryu’s dad",
+      "parent_folder_id": "e1b9c74e-b9bb-4e79-9647-adf0cbdfca6a",
+      "generation_placements": 12
+    },
+    {
+      "folder_id": "78261301-7688-463f-a425-aeb94c100598",
+      "folder_name": "B8-13",
+      "parent_folder_id": "d5fa4ca1-71ee-4e37-b44c-6d31494e986a",
+      "generation_placements": 24
+    },
+    {
+      "folder_id": "7d8aca29-c6fd-4779-9ad6-c20c54affb72",
+      "folder_name": "add",
+      "parent_folder_id": "6cac34bc-220d-468b-836b-82d2935831b6",
+      "generation_placements": 13
+    },
+    {
+      "folder_id": "7fdedc7a-807b-4a93-896d-c0df4b148cb5",
+      "folder_name": "B1-2",
+      "parent_folder_id": "e6dfe0d9-da85-41c6-a436-3775f18bb998",
+      "generation_placements": 72
+    },
+    {
+      "folder_id": "827b3693-e0d9-4158-b798-0b027642bfd9",
+      "folder_name": "FINAL",
+      "parent_folder_id": "15c606a4-e16d-49bd-ac41-afbfe0fb3381",
+      "generation_placements": 7
+    },
+    {
+      "folder_id": "843153e5-977d-4ba7-85f6-4628ab6dd914",
+      "folder_name": "B7-3",
+      "parent_folder_id": "5373dc56-709a-48cf-8d32-695d23cdc7a2",
+      "generation_placements": 4
+    },
+    {
+      "folder_id": "8aba260d-688b-4884-9d88-1f8932dd22b8",
+      "folder_name": "Locations",
+      "parent_folder_id": "988e961f-0b33-4551-b09a-56b919bea860",
+      "generation_placements": 35
+    },
+    {
+      "folder_id": "8ccf5f7e-b7f4-4a87-9389-f4c010e9eb89",
+      "folder_name": "B8-7",
+      "parent_folder_id": "d5fa4ca1-71ee-4e37-b44c-6d31494e986a",
+      "generation_placements": 6
+    },
+    {
+      "folder_id": "913f07f6-bde4-4d41-8797-34724c6a6b92",
+      "folder_name": "Lisa’s bike",
+      "parent_folder_id": "b4cf5749-d4d9-4500-bf8f-17f674fd1403",
+      "generation_placements": 22
+    },
+    {
+      "folder_id": "93fee9ba-03f5-42fc-b7b7-ded754e23d90",
+      "folder_name": "B6-extra",
+      "parent_folder_id": "99c71a85-4460-46f4-b244-d21774e5f338",
+      "generation_placements": 18
+    },
+    {
+      "folder_id": "966bb296-c7f5-4a51-a7a4-a9e17331292a",
+      "folder_name": "B6-8",
+      "parent_folder_id": "99c71a85-4460-46f4-b244-d21774e5f338",
+      "generation_placements": 98
+    },
+    {
+      "folder_id": "9692d4ef-8ab1-4dde-bbf7-2257eb155308",
+      "folder_name": "B8-4",
+      "parent_folder_id": "d5fa4ca1-71ee-4e37-b44c-6d31494e986a",
+      "generation_placements": 10
+    },
+    {
+      "folder_id": "9883dc15-31a6-4fa2-9aba-5044ba1a4922",
+      "folder_name": "sign",
+      "parent_folder_id": "b4cf5749-d4d9-4500-bf8f-17f674fd1403",
+      "generation_placements": 1
+    },
+    {
+      "folder_id": "988e961f-0b33-4551-b09a-56b919bea860",
+      "folder_name": "Detour",
+      "parent_folder_id": null,
+      "generation_placements": 728
+    },
+    {
+      "folder_id": "9977eb08-81c4-4e35-9264-ddf655a1d817",
+      "folder_name": "FINAL",
+      "parent_folder_id": "f5cd3f61-1470-47f8-a6e6-d351fe3e7d61",
+      "generation_placements": 5
+    },
+    {
+      "folder_id": "99c71a85-4460-46f4-b244-d21774e5f338",
+      "folder_name": "Scene 06",
+      "parent_folder_id": "64057b8e-a6ec-408b-9e4c-cd88932d7bdd",
+      "generation_placements": 9
+    },
+    {
+      "folder_id": "9bdfbe4b-f11e-45df-aae6-0cbbcea4a663",
+      "folder_name": "B7-7",
+      "parent_folder_id": "5373dc56-709a-48cf-8d32-695d23cdc7a2",
+      "generation_placements": 8
+    },
+    {
+      "folder_id": "a0a16a55-57ba-4155-bc5f-f2f7cf56d10c",
+      "folder_name": "Traffic jam",
+      "parent_folder_id": "8aba260d-688b-4884-9d88-1f8932dd22b8",
+      "generation_placements": 150
+    },
+    {
+      "folder_id": "a36d3a04-bf7f-4e40-b49e-5df34aad3cca",
+      "folder_name": "Apocalypse rider",
+      "parent_folder_id": "e1b9c74e-b9bb-4e79-9647-adf0cbdfca6a",
+      "generation_placements": 73
+    },
+    {
+      "folder_id": "a9ccd784-5d63-4372-bf28-9aebbd8364ab",
+      "folder_name": "final",
+      "parent_folder_id": "a0a16a55-57ba-4155-bc5f-f2f7cf56d10c",
+      "generation_placements": 4
+    },
+    {
+      "folder_id": "a9d4d13b-8462-4f25-b3c1-c0a162643a09",
+      "folder_name": "Destroyed roadway",
+      "parent_folder_id": "8aba260d-688b-4884-9d88-1f8932dd22b8",
+      "generation_placements": 7
+    },
+    {
+      "folder_id": "acad5b3c-1560-4764-80a6-66e008b8cac8",
+      "folder_name": "Ryu",
+      "parent_folder_id": "e1b9c74e-b9bb-4e79-9647-adf0cbdfca6a",
+      "generation_placements": 18
+    },
+    {
+      "folder_id": "ae15da09-c8af-4e30-bcbe-c5faf0213e8b",
+      "folder_name": "B8-9",
+      "parent_folder_id": "d5fa4ca1-71ee-4e37-b44c-6d31494e986a",
+      "generation_placements": 4
+    },
+    {
+      "folder_id": "ae28929e-3536-4aa2-9fb4-ef604c61423f",
+      "folder_name": "FINAL",
+      "parent_folder_id": "ebc485e4-dcf3-4405-be00-3c8c7389ee4f",
+      "generation_placements": 9
+    },
+    {
+      "folder_id": "afa9600a-956b-49f2-b794-28806ea065d4",
+      "folder_name": "Scene 10",
+      "parent_folder_id": "64057b8e-a6ec-408b-9e4c-cd88932d7bdd",
+      "generation_placements": 235
+    },
+    {
+      "folder_id": "b0a47620-b26a-48d8-8e66-1b884d5c15ba",
+      "folder_name": "B7-10",
+      "parent_folder_id": "5373dc56-709a-48cf-8d32-695d23cdc7a2",
+      "generation_placements": 12
+    },
+    {
+      "folder_id": "b4cf5749-d4d9-4500-bf8f-17f674fd1403",
+      "folder_name": "Props",
+      "parent_folder_id": "988e961f-0b33-4551-b09a-56b919bea860",
+      "generation_placements": 24
+    },
+    {
+      "folder_id": "b8eef699-adc7-4c7e-bd64-fb0940cf6fa6",
+      "folder_name": "B8-3",
+      "parent_folder_id": "d5fa4ca1-71ee-4e37-b44c-6d31494e986a",
+      "generation_placements": 9
+    },
+    {
+      "folder_id": "b95babff-4169-4af9-92dc-0c6a83cb491d",
+      "folder_name": "t_audio",
+      "parent_folder_id": "988e961f-0b33-4551-b09a-56b919bea860",
+      "generation_placements": 0
+    },
+    {
+      "folder_id": "babec507-97e0-4fd4-b3ab-deed34a79b16",
+      "folder_name": "5-1",
+      "parent_folder_id": "c158d9e2-059b-4a04-93b6-82fe929b3afb",
+      "generation_placements": 78
+    },
+    {
+      "folder_id": "bb0537f4-0a63-49df-98b3-3b5583bfbe5f",
+      "folder_name": "Scene 11",
+      "parent_folder_id": "64057b8e-a6ec-408b-9e4c-cd88932d7bdd",
+      "generation_placements": 0
+    },
+    {
+      "folder_id": "be518336-49b2-4a9b-b08c-34c207f99d09",
+      "folder_name": "B6-3",
+      "parent_folder_id": "99c71a85-4460-46f4-b244-d21774e5f338",
+      "generation_placements": 26
+    },
+    {
+      "folder_id": "c114b5ac-18dc-4cf8-b4ff-fa2d79d6b2e1",
+      "folder_name": "B6-4",
+      "parent_folder_id": "99c71a85-4460-46f4-b244-d21774e5f338",
+      "generation_placements": 11
+    },
+    {
+      "folder_id": "c158d9e2-059b-4a04-93b6-82fe929b3afb",
+      "folder_name": "Scene 05",
+      "parent_folder_id": "64057b8e-a6ec-408b-9e4c-cd88932d7bdd",
+      "generation_placements": 4
+    },
+    {
+      "folder_id": "c336b7ba-d615-4588-868d-a301a3c81618",
+      "folder_name": "Mad woman_real",
+      "parent_folder_id": "ebc485e4-dcf3-4405-be00-3c8c7389ee4f",
+      "generation_placements": 12
+    },
+    {
+      "folder_id": "c38417bb-1807-40ad-9b17-08bbc24b93c9",
+      "folder_name": "Gamer",
+      "parent_folder_id": "e1b9c74e-b9bb-4e79-9647-adf0cbdfca6a",
+      "generation_placements": 147
+    },
+    {
+      "folder_id": "c631832a-f886-4704-903c-f6d26d9986e4",
+      "folder_name": "B3-1",
+      "parent_folder_id": "f88e2b1c-c42f-4d3b-b9a3-2e5ed487b142",
+      "generation_placements": 6
+    },
+    {
+      "folder_id": "cab53871-b6b8-45e1-8f90-19198a284072",
+      "folder_name": "B2-2",
+      "parent_folder_id": "f2c5c030-cd57-4a5a-b26b-25499d06f303",
+      "generation_placements": 12
+    },
+    {
+      "folder_id": "cc619316-d5fb-4277-8d3e-cee5f26feb7b",
+      "folder_name": "B6-5",
+      "parent_folder_id": "99c71a85-4460-46f4-b244-d21774e5f338",
+      "generation_placements": 22
+    },
+    {
+      "folder_id": "cff97562-5bfa-46ca-a923-456e226cf7d6",
+      "folder_name": "Ryu’s mom",
+      "parent_folder_id": "e1b9c74e-b9bb-4e79-9647-adf0cbdfca6a",
+      "generation_placements": 0
+    },
+    {
+      "folder_id": "d5fa4ca1-71ee-4e37-b44c-6d31494e986a",
+      "folder_name": "Scene 08",
+      "parent_folder_id": "64057b8e-a6ec-408b-9e4c-cd88932d7bdd",
+      "generation_placements": 0
+    },
+    {
+      "folder_id": "da4facb7-9408-46ee-9932-48a8aa52842e",
+      "folder_name": "pizza",
+      "parent_folder_id": "b4cf5749-d4d9-4500-bf8f-17f674fd1403",
+      "generation_placements": 32
+    },
+    {
+      "folder_id": "dd094958-c566-4cfa-ba39-9d63adc3cec1",
+      "folder_name": "B3-3",
+      "parent_folder_id": "f88e2b1c-c42f-4d3b-b9a3-2e5ed487b142",
+      "generation_placements": 6
+    },
+    {
+      "folder_id": "de612814-4d23-4945-938d-4b9a1011d322",
+      "folder_name": "FINAL",
+      "parent_folder_id": "c38417bb-1807-40ad-9b17-08bbc24b93c9",
+      "generation_placements": 7
+    },
+    {
+      "folder_id": "e1b9c74e-b9bb-4e79-9647-adf0cbdfca6a",
+      "folder_name": "Characters",
+      "parent_folder_id": "988e961f-0b33-4551-b09a-56b919bea860",
+      "generation_placements": 22
+    },
+    {
+      "folder_id": "e1e95e8e-3baf-41d0-b808-3bddda5b71d6",
+      "folder_name": "Demon's bike",
+      "parent_folder_id": "b4cf5749-d4d9-4500-bf8f-17f674fd1403",
+      "generation_placements": 9
+    },
+    {
+      "folder_id": "e311a0cc-0232-484e-b2b5-fb66e63c1e70",
+      "folder_name": "Scene 12",
+      "parent_folder_id": "64057b8e-a6ec-408b-9e4c-cd88932d7bdd",
+      "generation_placements": 0
+    },
+    {
+      "folder_id": "e6dfe0d9-da85-41c6-a436-3775f18bb998",
+      "folder_name": "Scene 01",
+      "parent_folder_id": "64057b8e-a6ec-408b-9e4c-cd88932d7bdd",
+      "generation_placements": 0
+    },
+    {
+      "folder_id": "e7593444-ee01-4118-b002-eba33f4526aa",
+      "folder_name": "5-2",
+      "parent_folder_id": "c158d9e2-059b-4a04-93b6-82fe929b3afb",
+      "generation_placements": 115
+    },
+    {
+      "folder_id": "ea50a6d5-6625-422c-8dbc-1392935e376b",
+      "folder_name": "Pizzeria interior",
+      "parent_folder_id": "8aba260d-688b-4884-9d88-1f8932dd22b8",
+      "generation_placements": 149
+    },
+    {
+      "folder_id": "ebc485e4-dcf3-4405-be00-3c8c7389ee4f",
+      "folder_name": "Mad woman",
+      "parent_folder_id": "e1b9c74e-b9bb-4e79-9647-adf0cbdfca6a",
+      "generation_placements": 325
+    },
+    {
+      "folder_id": "eee245de-4010-40b3-a71d-e57ee1a53c4e",
+      "folder_name": "FINAL",
+      "parent_folder_id": "55d953a1-96ea-46ba-afba-f76f14364ce7",
+      "generation_placements": 2
+    },
+    {
+      "folder_id": "f2c5c030-cd57-4a5a-b26b-25499d06f303",
+      "folder_name": "Scene 02",
+      "parent_folder_id": "64057b8e-a6ec-408b-9e4c-cd88932d7bdd",
+      "generation_placements": 0
+    },
+    {
+      "folder_id": "f5b22191-25b8-4b61-b52b-fc1a4d0cf465",
+      "folder_name": "Group picture",
+      "parent_folder_id": "e1b9c74e-b9bb-4e79-9647-adf0cbdfca6a",
+      "generation_placements": 15
+    },
+    {
+      "folder_id": "f5cd3f61-1470-47f8-a6e6-d351fe3e7d61",
+      "folder_name": "Lisa",
+      "parent_folder_id": "e1b9c74e-b9bb-4e79-9647-adf0cbdfca6a",
+      "generation_placements": 184
+    },
+    {
+      "folder_id": "f8227dbb-45f7-4db7-a29c-abe970936442",
+      "folder_name": "B2-1",
+      "parent_folder_id": "f2c5c030-cd57-4a5a-b26b-25499d06f303",
+      "generation_placements": 37
+    },
+    {
+      "folder_id": "f836c6ef-62a0-4343-a33b-0f0249a80a72",
+      "folder_name": "B6-2",
+      "parent_folder_id": "99c71a85-4460-46f4-b244-d21774e5f338",
+      "generation_placements": 12
+    },
+    {
+      "folder_id": "f88351f3-fdcf-4960-bc63-c5de924b3446",
+      "folder_name": "trash",
+      "parent_folder_id": "988e961f-0b33-4551-b09a-56b919bea860",
+      "generation_placements": 224
+    },
+    {
+      "folder_id": "f88e2b1c-c42f-4d3b-b9a3-2e5ed487b142",
+      "folder_name": "Scene 03",
+      "parent_folder_id": "64057b8e-a6ec-408b-9e4c-cd88932d7bdd",
+      "generation_placements": 12
+    },
+    {
+      "folder_id": "fa7ec91e-0cfe-40ad-9aff-f3afe1df844f",
+      "folder_name": "B8-10",
+      "parent_folder_id": "d5fa4ca1-71ee-4e37-b44c-6d31494e986a",
+      "generation_placements": 8
+    },
+    {
+      "folder_id": "fe1590e2-f9a6-4deb-9925-f17c10b11ee3",
+      "folder_name": "FINAL",
+      "parent_folder_id": "a36d3a04-bf7f-4e40-b49e-5df34aad3cca",
+      "generation_placements": 4
+    }
+  ],
+  "references": [
+    {
+      "reference_element_id": "01826a00-519a-484f-8edc-3744b7e15204",
+      "name": "ryu-ketchup",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "02fa4510-3626-40ab-9d12-2a31262bae4c",
+      "name": "sign_cleaners",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "036332c0-866a-4e20-9e07-553f97f70498",
+      "name": "loc_highway9-2",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "056e8c5b-b2ae-4a19-b47e-5a496e60ceda",
+      "name": "negi-onions",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "06ba47c8-7e85-47c0-bc8c-13c58d31f96e",
+      "name": "power-up_jump_01",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "07708160-14ac-48fd-bc82-af645551c279",
+      "name": "sc03-first_frame",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "07a773ad-06a6-4878-bba0-30c82a12cf36",
+      "name": "prop_burger",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "0a949dc9-d97b-45f0-a165-ade9abfe8677",
+      "name": "prop_pizza-cooked",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "0c6c180e-9598-4966-8e68-7e23de71c0c2",
+      "name": "prop_pizza_back",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "0e925032-74b5-4efa-8521-ed160db515db",
+      "name": "Ryu's-mom",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "0edc2070-0b40-4a0e-8547-28e9d0b47a05",
+      "name": "burger",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "0f286171-bb88-4d96-bdd9-6768b74d9a6a",
+      "name": "Lisa-1",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "10baed50-4de0-4c76-b077-c8d142e7da7d",
+      "name": "prop_demon-s-bike-lights",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "14d3422f-2804-451b-8899-4faf04001428",
+      "name": "Traffic-jam-lights",
+      "category": "auto:environment"
+    },
+    {
+      "reference_element_id": "19dd2865-5d71-4474-9290-88199a5d988d",
+      "name": "Ryu's-phone-traffic-jam",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "1b331399-dd63-4dec-bf9f-e0af1c4ed545",
+      "name": "Traffic-jam",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "1f0c289d-87bf-4339-bc3b-c0bb8b34deb6",
+      "name": "prop_sign_leave",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "1f519073-927f-4373-a696-956b434220e9",
+      "name": "loc_finish_far",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "204ca99d-c529-4315-81d5-2a37d50c4d7b",
+      "name": "pizzeria-main-room",
+      "category": "auto:environment"
+    },
+    {
+      "reference_element_id": "209198d1-b841-4b09-aa1f-b425ea3e8520",
+      "name": "traffic-jam-main",
+      "category": "auto:environment"
+    },
+    {
+      "reference_element_id": "21515e45-24c4-4501-85a5-f461990e56fb",
+      "name": "power-up_jump",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "256e5f10-902b-4f89-a918-572c39e04ff5",
+      "name": "loc_road_rain_sign_view",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "294ad07d-e31c-4313-b7a0-9efc1ffce862",
+      "name": "image_5",
+      "category": "auto:environment"
+    },
+    {
+      "reference_element_id": "2a420c0d-d72b-4dd1-b7f6-5114589ccd50",
+      "name": "crazy-girl",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "2a64cdaf-af06-48ec-b086-c4937660fb3a",
+      "name": "Lisa-2",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "2da29baa-3de3-450c-875a-0e6928bdd72a",
+      "name": "prop_ryu-s-bike-lights_iphone",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "2e3a1baf-2838-48a0-9ea1-f76e695724c1",
+      "name": "prop_crazy-girl-car-1",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "31bc1eb5-b2f9-4299-8f11-fe6bccf8eaf5",
+      "name": "loc_rain_inside",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "36137ad2-4960-44bc-9896-3c88a953afc8",
+      "name": "prop_crazy-girl-cart-lights",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "363d8a6a-75a9-4727-acfa-82dd6ade2a81",
+      "name": "loc_b3-road-straight-wide-clean_final",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "36999f6f-8f70-4111-a45c-ae73966c8e30",
+      "name": "traffic-jam-2",
+      "category": "auto:environment"
+    },
+    {
+      "reference_element_id": "37ff3cf5-f1ee-402b-b26b-3aebf2ab134b",
+      "name": "lisa-s-bike-lights",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "3a9180bb-27b7-4636-a9d9-f66509aab862",
+      "name": "ryu-s-bike-speedometer",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "3b8d7bd2-37d8-4276-b495-abec6aa145e0",
+      "name": "loc_9_reverse",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "3d202196-d7ab-4565-bf88-4eea2344b9c8",
+      "name": "loc_road_opposite_nomoon_2",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "3da9a1c8-23dd-4e6b-8ecd-49afbbb93d59",
+      "name": "TEST_crazy-girl",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "41899fbc-17b9-430a-a3df-70e10117e720",
+      "name": "demon",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "43b78f93-593f-4848-8db6-13bc1f273f36",
+      "name": "oil_test",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "442dd0b1-1af2-42e4-b05d-cbe661ca7b38",
+      "name": "pizzaphone",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "4644ba37-7745-41d4-a909-082c4f7b086d",
+      "name": "TEST_demon's-bike",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "486a2531-8e4d-42ca-af34-33135d5f61d6",
+      "name": "keys",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "486bc729-fcb5-494d-9b08-672cae5e63c4",
+      "name": "ryu-dirty",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "4d002070-9935-4030-9e4d-8136cb39a733",
+      "name": "destroyed_traffic-jam",
+      "category": "auto:environment"
+    },
+    {
+      "reference_element_id": "4dc92fe7-fc7d-44be-9e23-f84f4a01d29a",
+      "name": "Lisa",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "54301361-5d24-45a6-ada8-e0bcf670b48d",
+      "name": "char_pizhon_1",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "57689196-3a41-4f8d-96b5-f77bd3bf7529",
+      "name": "gamer_no-bed",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "5bb263c3-038d-4219-9c99-f1ac7082c7f6",
+      "name": "image_11",
+      "category": "auto:environment"
+    },
+    {
+      "reference_element_id": "5f0ab856-d8aa-46a2-9fb6-2654d5647a19",
+      "name": "pizzeria_main-room-01",
+      "category": "auto:environment"
+    },
+    {
+      "reference_element_id": "62236692-d5dc-47f3-a0f7-1099ce8ccb23",
+      "name": "power-up_increase",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "63e45639-fa3d-43bd-ac87-24f61639dcfa",
+      "name": "loc_finish",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "6568e2ac-46be-4b09-a193-498a8f68d157",
+      "name": "prop_demon-s-bike",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "6639d5fc-db51-4b30-975d-1f0cc58bad53",
+      "name": "Mother",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "6675c0cd-e05a-47a0-880e-ffaf1928bfa9",
+      "name": "game",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "67aa764d-09e8-43e0-a047-1363437686ab",
+      "name": "demon_only",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "6886d8da-3185-4d9c-9bb7-ec6bfce19804",
+      "name": "prop_rain_sign",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "694e01bc-98a9-4813-9a1a-7de56e60d868",
+      "name": "signal",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "69681177-0230-4a40-b68e-8d7e1d0413c3",
+      "name": "crazy-girl_real-life-dead",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "6a644a8e-a358-4570-9f11-f101999fcbf3",
+      "name": "iphone_1",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "6af209b3-aa13-40f3-a8e2-96c85cc7d123",
+      "name": "pizza-reverse",
+      "category": "auto:environment"
+    },
+    {
+      "reference_element_id": "6be949e3-e09d-40d2-bcf0-1d471590ccd7",
+      "name": "prop_x4",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "6cee4bc1-de43-40ff-b0d6-114aca239db2",
+      "name": "image_10",
+      "category": "auto:environment"
+    },
+    {
+      "reference_element_id": "6d624f2b-62aa-42bc-9e99-79d73974b317",
+      "name": "loc_aroows_on_the_road_left",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "70ce1f55-64ed-45e5-8caf-4affd73bfc68",
+      "name": "Lisa's-Byke",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "7a00f92e-df5b-4612-b349-e30c952a441d",
+      "name": "loc_road_towards_moon_random_1",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "7bf5f9b5-b503-4f9a-ad94-6e1bdf0a3c98",
+      "name": "Elevated-road",
+      "category": "auto:environment"
+    },
+    {
+      "reference_element_id": "7cb1a4bf-7e9a-4a39-bae0-636e011e775a",
+      "name": "loc_crossroads_01",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "7d289e15-0b25-4acf-912b-d803dcbe16ce",
+      "name": "lisa-s-bike-broken",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "7d80ccac-a84f-4e73-af41-0f14ca9cceef",
+      "name": "apocalypse-rider-s-bike-lights",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "7e133f88-a413-49ef-a9a8-73d5b1f4546e",
+      "name": "lisa-s-bike_lights",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "7e84c0ff-5ed1-4c0d-9204-3170f0a38977",
+      "name": "demon-test",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "7fa5b44c-3180-4923-935f-e4df61fa60c1",
+      "name": "loc_arrows_on_the_road_left_2",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "834bbb09-4693-4918-a1fd-44d3937dcfdb",
+      "name": "apocalypse-rider_real-life",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "8a0bf194-e62e-420a-8cdb-056f5f552ca4",
+      "name": "Industrial-zone",
+      "category": "auto:environment"
+    },
+    {
+      "reference_element_id": "8baea0e3-e71a-4029-a89e-4aee8507cfca",
+      "name": "neutral-light_elevated-road",
+      "category": "auto:environment"
+    },
+    {
+      "reference_element_id": "8e00ae66-876e-4bed-8178-b256fef05353",
+      "name": "lineup-race-participants",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "8f223261-e505-420c-893b-4170913595ad",
+      "name": "Ryu's-phone-holder",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "93832fcc-0b83-4147-b335-6d6e630aa767",
+      "name": "prop_right_arrows",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "93886426-a4c6-4a5e-b981-6c11328be136",
+      "name": "pizza-box",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "9639eea1-382d-4766-8b80-aed44d4360a1",
+      "name": "ryu-s-phone-new-way",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "9a6db96a-f077-437b-bf9d-c0b377e3da03",
+      "name": "Lisa-6",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "a1abe404-789b-4f1a-86e4-45fd4439e4e4",
+      "name": "char_demon",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "a45239d6-6aa8-4969-a141-4e084ea0552b",
+      "name": "char_gamer",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "a4d7530b-50a2-4b5f-b09b-57920734623a",
+      "name": "loc_traffic_jam_2",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "a7d8dae2-57cb-420a-b876-17b26fb1c24f",
+      "name": "joypad",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "a865ea03-1802-468e-b6c8-91fd534143a9",
+      "name": "prop_sign_cleaners",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "ac01cb91-539e-4c15-9534-f94b579a8ab7",
+      "name": "Ryu's-dad",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "acf6f28e-732f-4921-a796-1d52656644eb",
+      "name": "loc_aroows_on_the_road_left_01",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "af793a57-d428-45ce-bebf-ffe3c4fb18d4",
+      "name": "Ryu's-bike-basic",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "afd208d0-9c5d-4096-b16e-a2cc0bf343d0",
+      "name": "prop_crazy-girl-s-cart_lights",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "aff03114-28f6-46d0-915a-d87fd21123b5",
+      "name": "Lisa's-bike",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "b0d634fe-2bb2-4d57-80f9-fe48e681c78b",
+      "name": "apocalypse-rider",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "b3a46979-a202-4123-bdab-6dcba729cc05",
+      "name": "prop_lisa-s-garlands",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "b624bdef-d681-4cd7-afdf-34baef94bd7b",
+      "name": "elevated-road_warm",
+      "category": "auto:environment"
+    },
+    {
+      "reference_element_id": "b8395254-7a4a-4ca4-8838-97590c671960",
+      "name": "loc_rain_entrance",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "ba5301ac-c9d1-4ac6-90ef-0476bc10d43c",
+      "name": "traffic-jam-main-end-v3",
+      "category": "auto:environment"
+    },
+    {
+      "reference_element_id": "bb1b5420-d428-4c19-bd5c-2f501c703529",
+      "name": "ryu-s-phone-turn-right",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "bb57b850-0d2d-446a-84da-ba59a8dba6c3",
+      "name": "cage_gamer",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "bbbbb090-c689-45fc-8677-287e9c25ac9d",
+      "name": "loc_crossroads_02",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "bcebffd0-1511-4327-b651-07ea075121a0",
+      "name": "ryu-s-phone-new-way-2",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "bf835d64-7e73-4f41-a2e3-b9aea6abb3d8",
+      "name": "char_demon_real",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "c0edacc7-361a-47aa-a33c-5cadd3afb875",
+      "name": "pizzeria-kitchen",
+      "category": "auto:environment"
+    },
+    {
+      "reference_element_id": "c2c99d1f-1729-4222-925e-c913508e2ade",
+      "name": "TEST_girl's-cart",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "c384a54f-2001-4c38-9e89-582e54dc10a1",
+      "name": "loc_arrows_on_the_road_right",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "c3f8c627-6b4c-49c9-8b35-268261f78351",
+      "name": "loc_road_opposite_nomoon",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "c5d30835-5066-4f62-8941-b7199be6fe57",
+      "name": "power-up_turn-right",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "c5fcf67d-a079-4060-b4fa-1ca4c71a7064",
+      "name": "Lisa-pink",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "c970a892-4cba-4a95-90d3-eb162ea912ed",
+      "name": "test-apocalypse-rider",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "d21c2c83-d358-491e-9d30-1544cc3c23a3",
+      "name": "pizza",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "d400689d-7377-4c55-b31d-32b752d03a89",
+      "name": "pizza-stages",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "d4adce6a-1bd4-4da5-a6f6-59a3355dabb3",
+      "name": "lisa-4",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "d4ae53ec-ec32-4d9d-bdd8-2ec0087e9585",
+      "name": "x2_power_up_size",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "dc0e30bc-b825-4f5e-8c39-38c81fbc2465",
+      "name": "Yakuza",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "dcc68254-3ce6-4f03-989e-ba782b87150c",
+      "name": "lisa-died",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "dcfe3a23-fab3-4491-a8d8-b2e0c64c28ab",
+      "name": "char_crazy-girl",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "de041bcf-2a01-4b74-a364-12dab0f5513b",
+      "name": "ryu-s-bike-lights",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "e012417e-0a12-4073-ad31-24b924064f1b",
+      "name": "char_s06-four-racers-relative-scale_s1",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "e041c981-9a6b-44b6-abad-8e6a63a9f62e",
+      "name": "power-up_grenade",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "e07fc24b-3ef8-4b69-9c4e-55ea6919c73c",
+      "name": "loc_9_moon",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "e334308f-5638-47f4-86c8-68b5eb5b2d7d",
+      "name": "Ryu_basic",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "e4e87392-4622-46e3-9661-45616abcad0f",
+      "name": "prop_left_arrows",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "e5622b9b-1795-4a43-93f1-74a3087514b0",
+      "name": "loc_interval_1",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "e92e7c70-d398-4933-a588-6ff09b39ef5f",
+      "name": "test_gamer",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "ed42346d-1679-40f4-a23b-6cd8aabc4963",
+      "name": "prop_money",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "f18f8fc9-fd81-4190-9ebc-49cdde2e86d3",
+      "name": "traffic-jam-main-end",
+      "category": "auto:environment"
+    },
+    {
+      "reference_element_id": "f34d12d0-868c-44d0-949e-1d0d82e96cec",
+      "name": "power-up-speed_x2_test-2",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "f3973069-d7d8-43c1-8859-3d1174f30ea3",
+      "name": "apocalypse-rider-s-bike",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "f416c255-d4a2-4aa1-81f3-bd8d10ff0091",
+      "name": "lisa-5",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "f48f2b11-f941-4de3-8909-3eaf5264c9ea",
+      "name": "loc_rain_exit",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "f69ba82c-4032-493a-a90b-de14c3ee616b",
+      "name": "sc03-first_frame2",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "f7409c79-feca-4bbe-9b1a-7a868dbed516",
+      "name": "loc_b3-road-fork-close-clean_final",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "fc823a38-f1d3-4ad4-990e-66c7ef3b382e",
+      "name": "test",
+      "category": "auto:environment"
+    },
+    {
+      "reference_element_id": "fe1a0a03-3650-4a0d-9488-263a9bcab4af",
+      "name": "Lisa3",
+      "category": "auto:character"
+    }
+  ],
+  "graph": {
+    "explicit_distinct_producer_consumer_asset_role_path_edges": 13757,
+    "distinct_input_assets": 645,
+    "alias_policy": "Exact asset IDs only; no URL or visual alias merging"
+  },
+  "reading_register": [
+    {
+      "generation_id": "0012f641-c0c4-4b1e-9cdc-01647a5afea2",
+      "reasons": [
+        "control_or_reference:('seedream_v5_pro', 'is_inpaint', 'False')",
+        "folder:a9d4d13b-8462-4f25-b3c1-c0a162643a09",
+        "input_role_set:('image', ('input_image',))",
+        "type_model:('image', 'seedream_v5_pro')"
+      ]
+    },
+    {
+      "generation_id": "002329f3-025a-4ffb-b019-62fdf7b73fda",
+      "reasons": [
+        "control_or_reference:('gpt_image_2', 'model', 'videotape-alpha')",
+        "folder:ea50a6d5-6625-422c-8dbc-1392935e376b",
+        "type_model:('image', 'gpt_image_2')"
+      ]
+    },
+    {
+      "generation_id": "0035e939-2a5f-4bd7-9e5f-ea9db16dd62a",
+      "reasons": [
+        "folder:988e961f-0b33-4551-b09a-56b919bea860",
+        "input_role_set:('image', ())",
+        "type_model:('image', 'nano_banana_2')"
+      ]
+    },
+    {
+      "generation_id": "00406410-315c-4041-b23f-9513cfe2434f",
+      "reasons": [
+        "control_or_reference:('reference', 'e4e87392-4622-46e3-9661-45616abcad0f')",
+        "input_role_set:('image', ('input_image', 'reference_image'))"
+      ]
+    },
+    {
+      "generation_id": "00448706-1b57-4941-b311-91f6878065a8",
+      "reasons": [
+        "folder:da4facb7-9408-46ee-9932-48a8aa52842e"
+      ]
+    },
+    {
+      "generation_id": "006b3086-a924-4722-bab7-8b3db6fe61ea",
+      "reasons": [
+        "control_or_reference:('reference', '3a9180bb-27b7-4636-a9d9-f66509aab862')",
+        "control_or_reference:('reference', '4dc92fe7-fc7d-44be-9e23-f84f4a01d29a')",
+        "control_or_reference:('reference', '7e133f88-a413-49ef-a9a8-73d5b1f4546e')",
+        "control_or_reference:('reference', '8f223261-e505-420c-893b-4170913595ad')",
+        "control_or_reference:('reference', 'de041bcf-2a01-4b74-a364-12dab0f5513b')",
+        "control_or_reference:('reference', 'e334308f-5638-47f4-86c8-68b5eb5b2d7d')",
+        "control_or_reference:('seedance_2_5', 'generate_audio', 'True')",
+        "control_or_reference:('seedance_2_5', 'model', 'default')",
+        "control_or_reference:('seedance_2_5', 'multi_shots', 'False')",
+        "edge_consumer:('seedream_v5_pro', 'seedance_2_5', 'reference_image')",
+        "folder:babec507-97e0-4fd4-b3ab-deed34a79b16",
+        "input_role_set:('video', ('input_image', 'reference_image'))",
+        "type_model:('video', 'seedance_2_5')"
+      ]
+    },
+    {
+      "generation_id": "006dcc36-ec37-490f-9890-9524e3ed0ddd",
+      "reasons": [
+        "edge_producer:('seedream_v5_pro', 'cinematic_studio_video_4_0', 'reference_image')",
+        "edge_producer:('seedream_v5_pro', 'gpt_image_2', 'input_image')",
+        "edge_producer:('seedream_v5_pro', 'gpt_image_2', 'reference_image')",
+        "edge_producer:('seedream_v5_pro', 'nano_banana_2', 'reference_image')",
+        "edge_producer:('seedream_v5_pro', 'seedance_2_0', 'reference_image')",
+        "edge_producer:('seedream_v5_pro', 'seedance_2_5', 'reference_image')",
+        "edge_producer:('seedream_v5_pro', 'seedream_v5_pro', 'reference_image')",
+        "folder:acad5b3c-1560-4764-80a6-66e008b8cac8"
+      ]
+    },
+    {
+      "generation_id": "006f3bdc-25a9-4177-aaa1-3e98339b39be",
+      "reasons": [
+        "folder:55d953a1-96ea-46ba-afba-f76f14364ce7",
+        "input_role_set:('image', ('input_asset',))"
+      ]
+    },
+    {
+      "generation_id": "0096fb4f-8946-4564-bbaa-a3c0bb0c25ec",
+      "reasons": [
+        "folder:1caa4494-0774-40c3-83ab-15fed9c2fbd2"
+      ]
+    },
+    {
+      "generation_id": "00a1ec1d-2d28-4900-940c-a331ff94ff99",
+      "reasons": [
+        "control_or_reference:('reference', '8baea0e3-e71a-4029-a89e-4aee8507cfca')",
+        "folder:484c3858-0e31-4b86-9ae2-cd5cf41cf387",
+        "input_role_set:('image', ('input_asset', 'reference_image'))"
+      ]
+    },
+    {
+      "generation_id": "00b465c5-82a5-471a-87d2-661402f3dc72",
+      "reasons": [
+        "control_or_reference:('reference', '31bc1eb5-b2f9-4299-8f11-fe6bccf8eaf5')",
+        "folder:123365df-dbd1-4804-a4d2-e16838f35662"
+      ]
+    },
+    {
+      "generation_id": "00c2f0e0-e721-4fdd-84f8-e34cbc58c7fc",
+      "reasons": [
+        "folder:a0a16a55-57ba-4155-bc5f-f2f7cf56d10c"
+      ]
+    },
+    {
+      "generation_id": "00e97b41-a1bc-419d-ad91-765a334f78e0",
+      "reasons": [
+        "folder:f88351f3-fdcf-4960-bc63-c5de924b3446",
+        "type_model:('image', 'soul_cinema_studio')"
+      ]
+    },
+    {
+      "generation_id": "0102ac1d-45bf-436f-846e-511ae2e2cbbd",
+      "reasons": [
+        "control_or_reference:('reference', '1b331399-dd63-4dec-bf9f-e0af1c4ed545')",
+        "folder:4f117a75-79cf-47e3-a035-7dacdba831b9",
+        "input_role_set:('image', ('reference_image',))"
+      ]
+    },
+    {
+      "generation_id": "010625de-b90f-4623-a511-b8c676f32a5a",
+      "reasons": [
+        "control_or_reference:('reference', '486bc729-fcb5-494d-9b08-672cae5e63c4')",
+        "control_or_reference:('reference', '4d002070-9935-4030-9e4d-8136cb39a733')",
+        "control_or_reference:('reference', '57689196-3a41-4f8d-96b5-f77bd3bf7529')",
+        "folder:afa9600a-956b-49f2-b794-28806ea065d4"
+      ]
+    },
+    {
+      "generation_id": "0106d708-2634-4c76-820c-709a39c6b996",
+      "reasons": [
+        "control_or_reference:('seedance_2_5', 'model', 'video_edit')",
+        "folder:966bb296-c7f5-4a51-a7a4-a9e17331292a",
+        "input_role_set:('video', ('input_video', 'reference_image'))"
+      ]
+    },
+    {
+      "generation_id": "010baa6b-32e5-4fc5-b2f2-683b0d10a4e5",
+      "reasons": [
+        "control_or_reference:('reference', '6d624f2b-62aa-42bc-9e99-79d73974b317')",
+        "control_or_reference:('reference', '7d80ccac-a84f-4e73-af41-0f14ca9cceef')",
+        "control_or_reference:('reference', 'b0d634fe-2bb2-4d57-80f9-fe48e681c78b')",
+        "folder:285487ff-fc77-4b7b-beee-5267d9d88f21"
+      ]
+    },
+    {
+      "generation_id": "011fbb97-732a-416b-825f-a9635b313b86",
+      "reasons": [
+        "edge_consumer:('seedream_v5_pro', 'gpt_image_2', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "013755fe-8c69-4d54-9537-c48bb860700e",
+      "reasons": [
+        "edge_producer:('nano_banana_2', 'nano_banana_2', 'input_asset')",
+        "folder:ebc485e4-dcf3-4405-be00-3c8c7389ee4f"
+      ]
+    },
+    {
+      "generation_id": "013e8f51-9ed4-421c-9a39-0b24629e5166",
+      "reasons": [
+        "folder:f5cd3f61-1470-47f8-a6e6-d351fe3e7d61"
+      ]
+    },
+    {
+      "generation_id": "014f8387-04c2-4c88-a8e7-8bcddfd7cc2b",
+      "reasons": [
+        "control_or_reference:('reference', '036332c0-866a-4e20-9e07-553f97f70498')",
+        "control_or_reference:('reference', '0c6c180e-9598-4966-8e68-7e23de71c0c2')",
+        "control_or_reference:('reference', '10baed50-4de0-4c76-b077-c8d142e7da7d')",
+        "control_or_reference:('reference', '2da29baa-3de3-450c-875a-0e6928bdd72a')",
+        "control_or_reference:('reference', '37ff3cf5-f1ee-402b-b26b-3aebf2ab134b')",
+        "control_or_reference:('reference', '3b8d7bd2-37d8-4276-b495-abec6aa145e0')",
+        "control_or_reference:('reference', '62236692-d5dc-47f3-a0f7-1099ce8ccb23')",
+        "control_or_reference:('reference', 'bf835d64-7e73-4f41-a2e3-b9aea6abb3d8')",
+        "folder:29d51dfd-62b5-4c44-8035-78f0ae63e986"
+      ]
+    },
+    {
+      "generation_id": "017a57fa-af26-4d2f-9032-5cb8869375c0",
+      "reasons": [
+        "control_or_reference:('reference', 'b624bdef-d681-4cd7-afdf-34baef94bd7b')",
+        "folder:e7593444-ee01-4118-b002-eba33f4526aa"
+      ]
+    },
+    {
+      "generation_id": "01823211-9a14-47a9-a5a5-b008f02f29f9",
+      "reasons": [
+        "folder:177326c2-cb8c-4c0e-bc7b-33db4fc45e94",
+        "type_model:('image', 'soul_cinematic')"
+      ]
+    },
+    {
+      "generation_id": "019f8cf5-1f7d-4ef3-a5c2-ae99e34e7464",
+      "reasons": [
+        "control_or_reference:('reference', '2a420c0d-d72b-4dd1-b7f6-5114589ccd50')",
+        "control_or_reference:('reference', '67aa764d-09e8-43e0-a047-1363437686ab')",
+        "control_or_reference:('reference', '694e01bc-98a9-4813-9a1a-7de56e60d868')",
+        "control_or_reference:('reference', '8e00ae66-876e-4bed-8178-b256fef05353')",
+        "control_or_reference:('reference', 'afd208d0-9c5d-4096-b16e-a2cc0bf343d0')",
+        "control_or_reference:('reference', 'bb57b850-0d2d-446a-84da-ba59a8dba6c3')",
+        "input_role_set:('video', ('reference_image',))"
+      ]
+    },
+    {
+      "generation_id": "01a15bb7-0ec4-4455-a2f0-d4850f59f875",
+      "reasons": [
+        "input_role_set:('video', ('input_image',))"
+      ]
+    },
+    {
+      "generation_id": "01aff476-1adf-4a2d-a69a-474780cda364",
+      "reasons": [
+        "edge_producer:('gpt_image_2', 'seedance_2_0', 'reference_image')",
+        "edge_producer:('gpt_image_2', 'seedance_2_5', 'reference_image')",
+        "folder:ae28929e-3536-4aa2-9fb4-ef604c61423f"
+      ]
+    },
+    {
+      "generation_id": "021b1fa1-5b32-4277-b604-de6b71158e4f",
+      "reasons": [
+        "control_or_reference:('reference', '70ce1f55-64ed-45e5-8caf-4affd73bfc68')",
+        "control_or_reference:('reference', '9639eea1-382d-4766-8b80-aed44d4360a1')",
+        "control_or_reference:('reference', 'ba5301ac-c9d1-4ac6-90ef-0476bc10d43c')",
+        "control_or_reference:('reference', 'bcebffd0-1511-4327-b651-07ea075121a0')",
+        "folder:5831d13f-9602-4462-85ac-3f6b3a091ec2"
+      ]
+    },
+    {
+      "generation_id": "022b3651-07c9-4417-9dd0-e1208f1a4c26",
+      "reasons": [
+        "control_or_reference:('reference', '7bf5f9b5-b503-4f9a-ad94-6e1bdf0a3c98')",
+        "folder:a36d3a04-bf7f-4e40-b49e-5df34aad3cca"
+      ]
+    },
+    {
+      "generation_id": "022e1840-478b-48ae-83a9-bade023ae896",
+      "reasons": [
+        "control_or_reference:('reference', 'a45239d6-6aa8-4969-a141-4e084ea0552b')",
+        "control_or_reference:('reference', 'e07fc24b-3ef8-4b69-9c4e-55ea6919c73c')"
+      ]
+    },
+    {
+      "generation_id": "023cdd50-c0dc-45fb-9016-4d12e71c20da",
+      "reasons": [
+        "control_or_reference:('reference', '7fa5b44c-3180-4923-935f-e4df61fa60c1')",
+        "control_or_reference:('reference', 'e012417e-0a12-4073-ad31-24b924064f1b')",
+        "folder:679f338a-50a1-4e93-adaf-0674c1e7459a"
+      ]
+    },
+    {
+      "generation_id": "0247e26a-9c5c-47e1-a96c-64411c42ec02",
+      "reasons": [
+        "edge_producer:('seedream_v5_pro', 'seedream_v5_pro', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "0261772a-acd6-4943-af34-3600814b0141",
+      "reasons": [
+        "control_or_reference:('reference', '63e45639-fa3d-43bd-ac87-24f61639dcfa')"
+      ]
+    },
+    {
+      "generation_id": "028a3e87-9659-4a70-8efd-6933fead7f7f",
+      "reasons": [
+        "folder:c38417bb-1807-40ad-9b17-08bbc24b93c9"
+      ]
+    },
+    {
+      "generation_id": "02925ae8-bc60-4d32-85bd-82da26b157e3",
+      "reasons": [
+        "control_or_reference:('reference', '486a2531-8e4d-42ca-af34-33135d5f61d6')",
+        "control_or_reference:('reference', '69681177-0230-4a40-b68e-8d7e1d0413c3')",
+        "control_or_reference:('reference', '7d289e15-0b25-4acf-912b-d803dcbe16ce')",
+        "control_or_reference:('reference', '834bbb09-4693-4918-a1fd-44d3937dcfdb')",
+        "control_or_reference:('reference', 'b3a46979-a202-4123-bdab-6dcba729cc05')",
+        "control_or_reference:('reference', 'dcc68254-3ce6-4f03-989e-ba782b87150c')"
+      ]
+    },
+    {
+      "generation_id": "02a2aa5e-f819-4057-9a3d-720d695e3f93",
+      "reasons": [
+        "control_or_reference:('reference', 'f34d12d0-868c-44d0-949e-1d0d82e96cec')",
+        "folder:5ad9326a-d261-4b95-a8a0-39e1c7aa04e5"
+      ]
+    },
+    {
+      "generation_id": "02a7b409-3cae-4a39-ae59-607d10f37b24",
+      "reasons": [
+        "edge_consumer:('seedream_v5_pro', 'seedream_v5_pro', 'reference_image')",
+        "folder:1b9abfdb-0376-423a-a297-6b1fcc4a779b"
+      ]
+    },
+    {
+      "generation_id": "02b32127-4e09-4ada-8350-70d0d111c1af",
+      "reasons": [
+        "control_or_reference:('nano_banana_flash', 'is_inpaint', 'False')",
+        "type_model:('image', 'nano_banana_flash')"
+      ]
+    },
+    {
+      "generation_id": "02d5f8d9-f9ba-4e41-bf63-e52be45f3c23",
+      "reasons": [
+        "folder:c336b7ba-d615-4588-868d-a301a3c81618"
+      ]
+    },
+    {
+      "generation_id": "02db8288-783d-4891-8a6d-9ac023accdbd",
+      "reasons": [
+        "folder:147fe4da-1afc-4896-a8b5-29a36370210c"
+      ]
+    },
+    {
+      "generation_id": "031cea1d-485a-475e-917d-0a077b5f272c",
+      "reasons": [
+        "control_or_reference:('reference', '07a773ad-06a6-4878-bba0-30c82a12cf36')",
+        "control_or_reference:('reference', '209198d1-b841-4b09-aa1f-b425ea3e8520')",
+        "control_or_reference:('reference', '5bb263c3-038d-4219-9c99-f1ac7082c7f6')",
+        "control_or_reference:('reference', 'dc0e30bc-b825-4f5e-8c39-38c81fbc2465')"
+      ]
+    },
+    {
+      "generation_id": "032b2af5-ec55-46c1-a357-6d84d3237175",
+      "reasons": [
+        "folder:40394a1d-1309-4d44-b4f3-314fda603f11",
+        "folder:41c27a1f-28cd-44e3-8eba-170aae76db84"
+      ]
+    },
+    {
+      "generation_id": "03713f68-0a00-4378-9b35-9ea1071d8e36",
+      "reasons": [
+        "shortest_nonempty_prompt"
+      ]
+    },
+    {
+      "generation_id": "037baf7a-5459-4b6a-a6bb-4b69f629a09c",
+      "reasons": [
+        "control_or_reference:('reference', 'aff03114-28f6-46d0-915a-d87fd21123b5')",
+        "folder:b4cf5749-d4d9-4500-bf8f-17f674fd1403"
+      ]
+    },
+    {
+      "generation_id": "03a4d0b1-9537-4cdb-9e23-6cb69f2f37b9",
+      "reasons": [
+        "control_or_reference:('reference', '6675c0cd-e05a-47a0-880e-ffaf1928bfa9')",
+        "control_or_reference:('reference', 'a7d8dae2-57cb-420a-b876-17b26fb1c24f')",
+        "folder:7fdedc7a-807b-4a93-896d-c0df4b148cb5"
+      ]
+    },
+    {
+      "generation_id": "03cdec44-71cb-4786-8587-c6d2a83eca28",
+      "reasons": [
+        "control_or_reference:('reference', '36137ad2-4960-44bc-9896-3c88a953afc8')",
+        "control_or_reference:('reference', 'dcfe3a23-fab3-4491-a8d8-b2e0c64c28ab')",
+        "edge_consumer:('gpt_image_2', 'seedance_2_5', 'reference_image')"
+      ]
+    },
+    {
+      "generation_id": "041c3032-d16d-4094-b435-53e2c9d85e6c",
+      "reasons": [
+        "control_or_reference:('reference', 'c3f8c627-6b4c-49c9-8b35-268261f78351')",
+        "folder:1e814480-18d4-4bf0-93a2-305e944f17cc"
+      ]
+    },
+    {
+      "generation_id": "04471dce-3dc1-495d-ba47-170671b3ebad",
+      "reasons": [
+        "edge_consumer:('gpt_image_2', 'minimax_h3', 'input_image')",
+        "type_model:('video', 'minimax_h3')"
+      ]
+    },
+    {
+      "generation_id": "046ccc12-3a37-4324-9905-3d31d43806b6",
+      "reasons": [
+        "control_or_reference:('reference', '5f0ab856-d8aa-46a2-9fb6-2654d5647a19')"
+      ]
+    },
+    {
+      "generation_id": "0486e3a8-0713-4582-be73-04c69c9c6dcc",
+      "reasons": [
+        "edge_consumer:('soul_cinema_studio', 'nano_banana_2', 'input_asset')"
+      ]
+    },
+    {
+      "generation_id": "04fd1c79-79eb-4c24-8527-62a5e0bf9319",
+      "reasons": [
+        "control_or_reference:('reference', 'af793a57-d428-45ce-bebf-ffe3c4fb18d4')",
+        "folder:15c606a4-e16d-49bd-ac41-afbfe0fb3381"
+      ]
+    },
+    {
+      "generation_id": "050c7280-545c-4eb7-8f01-34b809d32dc7",
+      "reasons": [
+        "edge_producer:('nano_banana_2', 'gpt_image_2', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "05152e9f-32df-4553-8b61-095991bf2586",
+      "reasons": [
+        "control_or_reference:('reference', '056e8c5b-b2ae-4a19-b47e-5a496e60ceda')",
+        "control_or_reference:('reference', '6639d5fc-db51-4b30-975d-1f0cc58bad53')",
+        "control_or_reference:('reference', '6af209b3-aa13-40f3-a8e2-96c85cc7d123')",
+        "control_or_reference:('reference', '93886426-a4c6-4a5e-b981-6c11328be136')",
+        "control_or_reference:('reference', 'ac01cb91-539e-4c15-9534-f94b579a8ab7')",
+        "control_or_reference:('reference', 'ed42346d-1679-40f4-a23b-6cd8aabc4963')"
+      ]
+    },
+    {
+      "generation_id": "053b9e7c-34b4-4e56-af38-49c835eec6ba",
+      "reasons": [
+        "folder:17818890-f060-4abd-a0e8-d929731951ee"
+      ]
+    },
+    {
+      "generation_id": "05464280-4428-4ae6-acea-61e46a38b9ce",
+      "reasons": [
+        "edge_producer:('seedream_v5_pro', 'seedance_2_5', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "05637129-6fe1-4b3b-8013-397300c31b57",
+      "reasons": [
+        "folder:1efde2c2-2703-4500-b079-4a42c1aec5bc"
+      ]
+    },
+    {
+      "generation_id": "057fd821-e3d6-4dfb-9d67-73e73e76b91c",
+      "reasons": [
+        "control_or_reference:('reference', '14d3422f-2804-451b-8899-4faf04001428')",
+        "edge_consumer:('nano_banana_2', 'seedance_2_5', 'reference_image')",
+        "folder:f8227dbb-45f7-4db7-a29c-abe970936442"
+      ]
+    },
+    {
+      "generation_id": "058899a3-638b-4b9d-bc07-9f5c1d85214d",
+      "reasons": [
+        "folder:23adbba3-b795-41e6-8b25-5ba56b4d0636"
+      ]
+    },
+    {
+      "generation_id": "0597910d-31a1-4db1-a791-421d6f9ee529",
+      "reasons": [
+        "control_or_reference:('reference', 'c384a54f-2001-4c38-9e89-582e54dc10a1')"
+      ]
+    },
+    {
+      "generation_id": "05a34ccc-6cf4-451b-9551-48d1229ec110",
+      "reasons": [
+        "control_or_reference:('reference', '1f519073-927f-4373-a696-956b434220e9')"
+      ]
+    },
+    {
+      "generation_id": "05cf32af-218d-43fe-80d3-f115fd6b35ce",
+      "reasons": [
+        "input_role_set:('video', ('input_image', 'input_video'))"
+      ]
+    },
+    {
+      "generation_id": "05dfb7cf-c9ad-48b0-8aff-4966034b9c8b",
+      "reasons": [
+        "control_or_reference:('seedance_2_0', 'generate_audio', 'True')",
+        "control_or_reference:('seedance_2_0', 'model', 'seedance_2_0')",
+        "control_or_reference:('seedance_2_0', 'multi_shots', 'False')",
+        "edge_consumer:('seedream_v5_pro', 'seedance_2_0', 'reference_image')",
+        "folder:b0a47620-b26a-48d8-8e66-1b884d5c15ba",
+        "type_model:('video', 'seedance_2_0')"
+      ]
+    },
+    {
+      "generation_id": "05e56b5e-1e80-4fd4-aa72-f2acf7fc5351",
+      "reasons": [
+        "folder:9bdfbe4b-f11e-45df-aae6-0cbbcea4a663"
+      ]
+    },
+    {
+      "generation_id": "0628f0cd-3ef5-418e-8cf3-ffc6795fa3f8",
+      "reasons": [
+        "control_or_reference:('reference', '93832fcc-0b83-4147-b335-6d6e630aa767')",
+        "control_or_reference:('reference', 'f7409c79-feca-4bbe-9b1a-7a868dbed516')"
+      ]
+    },
+    {
+      "generation_id": "06357af5-e9d6-42ba-965c-3e123b78bac9",
+      "reasons": [
+        "edge_producer:('gpt_image_2', 'gpt_image_2', 'reference_image')",
+        "edge_producer:('gpt_image_2', 'seedream_v5_pro', 'reference_image')",
+        "folder:49679d3c-2b9d-4d8b-92c9-2e8d6905f54a"
+      ]
+    },
+    {
+      "generation_id": "06889b7c-47bf-43fc-a02b-adfb5a1cb882",
+      "reasons": [
+        "folder:8aba260d-688b-4884-9d88-1f8932dd22b8"
+      ]
+    },
+    {
+      "generation_id": "06b5c9f4-14cc-4f84-af5b-f1726d1de474",
+      "reasons": [
+        "folder:6bf96e25-37dd-47e8-88d7-34556fcd406e"
+      ]
+    },
+    {
+      "generation_id": "06db4dcc-8671-4668-9289-3070e8f61a44",
+      "reasons": [
+        "folder:36dbc717-9bd9-4dc4-820e-c8bf780777d6"
+      ]
+    },
+    {
+      "generation_id": "077c5cd2-949c-47e8-8709-4b84c80a7853",
+      "reasons": [
+        "folder:13613453-955d-43e9-bc9b-95f15eccf3f2"
+      ]
+    },
+    {
+      "generation_id": "078c2965-fb4e-439d-8142-e5a1aca62f40",
+      "reasons": [
+        "edge_consumer:('gpt_image_2', 'seedance_2_5', 'input_start_image')",
+        "input_role_set:('video', ('input_start_image', 'input_video'))"
+      ]
+    },
+    {
+      "generation_id": "078d1bac-e076-40e3-92bd-f1b2ad5fcbe6",
+      "reasons": [
+        "edge_consumer:('nano_banana_2', 'nano_banana_flash', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "07b4a460-cd40-47b2-8010-a89ce7d52000",
+      "reasons": [
+        "control_or_reference:('reference', '7a00f92e-df5b-4612-b349-e30c952a441d')",
+        "control_or_reference:('reference', 'f48f2b11-f941-4de3-8909-3eaf5264c9ea')",
+        "folder:9692d4ef-8ab1-4dde-bbf7-2257eb155308"
+      ]
+    },
+    {
+      "generation_id": "08359a0a-1714-42c3-b7c7-d70404a6ccf5",
+      "reasons": [
+        "control_or_reference:('reference', '3da9a1c8-23dd-4e6b-8ecd-49afbbb93d59')",
+        "control_or_reference:('reference', 'c2c99d1f-1729-4222-925e-c913508e2ade')",
+        "edge_producer:('gpt_image_2', 'gpt_image_2', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "0857951a-8a0b-4b07-bfe0-2057fb9417d4",
+      "reasons": [
+        "edge_producer:('seedream_v5_pro', 'nano_banana_2', 'input_asset')",
+        "folder:9883dc15-31a6-4fa2-9aba-5044ba1a4922"
+      ]
+    },
+    {
+      "generation_id": "086163b1-1bfe-4d8e-bb7c-8717a358a359",
+      "reasons": [
+        "control_or_reference:('reference', 'f69ba82c-4032-493a-a90b-de14c3ee616b')",
+        "folder:f88e2b1c-c42f-4d3b-b9a3-2e5ed487b142"
+      ]
+    },
+    {
+      "generation_id": "087b23e4-967c-4518-8b1a-b6f446fe49b5",
+      "reasons": [
+        "edge_consumer:('soul_cinema_studio', 'seedream_v5_pro', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "08a206f0-7ecb-40fa-bdb8-3292ad2644a9",
+      "reasons": [
+        "control_or_reference:('reference', 'd4ae53ec-ec32-4d9d-bdd8-2ec0087e9585')",
+        "folder:518a6fc6-8fc6-4084-b6e4-b501aa2b667b"
+      ]
+    },
+    {
+      "generation_id": "08ab1591-2cc8-4148-b7e5-05c7df5d9282",
+      "reasons": [
+        "edge_consumer:('seedream_v5_pro', 'gpt_image_2', 'reference_image')",
+        "folder:f5b22191-25b8-4b61-b52b-fc1a4d0cf465"
+      ]
+    },
+    {
+      "generation_id": "090619ca-4e1a-4df5-82ba-f9249f604118",
+      "reasons": [
+        "folder:e1b9c74e-b9bb-4e79-9647-adf0cbdfca6a"
+      ]
+    },
+    {
+      "generation_id": "093e4529-6ad2-4ab4-9703-12dbd79de477",
+      "reasons": [
+        "folder:450fec6e-a736-460f-bc4d-44fc100b950e"
+      ]
+    },
+    {
+      "generation_id": "0974a9ab-c291-43f3-88e0-56106959df1e",
+      "reasons": [
+        "folder:0cf42163-0953-40fe-979a-dab2e04c29bc"
+      ]
+    },
+    {
+      "generation_id": "09b1991a-244c-4508-8413-732ebb336ea4",
+      "reasons": [
+        "edge_producer:('nano_banana_2', 'gpt_image_2', 'reference_image')",
+        "edge_producer:('nano_banana_2', 'nano_banana_flash', 'reference_image')",
+        "edge_producer:('nano_banana_2', 'seedance_2_0', 'reference_image')",
+        "edge_producer:('nano_banana_2', 'seedance_2_5', 'reference_image')",
+        "edge_producer:('nano_banana_2', 'seedream_v5_pro', 'reference_image')"
+      ]
+    },
+    {
+      "generation_id": "09ef51cd-7ba8-418f-92eb-95085f7b4f41",
+      "reasons": [
+        "input_role_set:('video', ('input_video',))"
+      ]
+    },
+    {
+      "generation_id": "09f8fb17-69cc-420c-8aa8-bb3887de1125",
+      "reasons": [
+        "folder:913f07f6-bde4-4d41-8797-34724c6a6b92"
+      ]
+    },
+    {
+      "generation_id": "0a658b19-c64c-42e1-9541-e28544d3003c",
+      "reasons": [
+        "control_or_reference:('reference', '1f0c289d-87bf-4339-bc3b-c0bb8b34deb6')",
+        "control_or_reference:('reference', '8a0bf194-e62e-420a-8cdb-056f5f552ca4')",
+        "control_or_reference:('reference', 'a865ea03-1802-468e-b6c8-91fd534143a9')",
+        "folder:087a6474-1e16-485c-b064-4873f8e9acc1"
+      ]
+    },
+    {
+      "generation_id": "0a7f7082-2ef3-4c73-a203-ec012396f178",
+      "reasons": [
+        "control_or_reference:('reference', '19dd2865-5d71-4474-9290-88199a5d988d')",
+        "control_or_reference:('reference', 'a4d7530b-50a2-4b5f-b09b-57920734623a')",
+        "folder:c631832a-f886-4704-903c-f6d26d9986e4"
+      ]
+    },
+    {
+      "generation_id": "0aa60963-743a-4852-9f3e-54442ec8ed8c",
+      "reasons": [
+        "edge_consumer:('gpt_image_2', 'gpt_image_2', 'reference_image')"
+      ]
+    },
+    {
+      "generation_id": "0ac8c26a-24f2-4f8d-95f3-1c2002040f22",
+      "reasons": [
+        "control_or_reference:('reference', '54301361-5d24-45a6-ada8-e0bcf670b48d')"
+      ]
+    },
+    {
+      "generation_id": "0ad4e9af-6635-408e-81a3-4a2052677a72",
+      "reasons": [
+        "control_or_reference:('reference', '6be949e3-e09d-40d2-bcf0-1d471590ccd7')"
+      ]
+    },
+    {
+      "generation_id": "0af221cd-8b84-45a9-8a24-a64a6d3a0277",
+      "reasons": [
+        "edge_consumer:('seedream_v5_pro', 'nano_banana_2', 'reference_image')"
+      ]
+    },
+    {
+      "generation_id": "0b2b28c2-9466-48ec-af50-8a1575512c76",
+      "reasons": [
+        "folder:605ce89d-c8b5-4b3a-a4c0-46a2496c7f66"
+      ]
+    },
+    {
+      "generation_id": "0b92ad18-2f1a-4be4-8fb8-7f82f6c524da",
+      "reasons": [
+        "control_or_reference:('reference', '43b78f93-593f-4848-8db6-13bc1f273f36')",
+        "folder:11ced0cc-7459-462d-a476-ce9ba7e0230b"
+      ]
+    },
+    {
+      "generation_id": "0be71b73-ea55-4cc9-bc03-9e82209003bc",
+      "reasons": [
+        "edge_producer:('gpt_image_2', 'seedance_2_5', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "0bed9ad8-40e0-490c-8a79-91e98a2989c6",
+      "reasons": [
+        "control_or_reference:('reference', 'a1abe404-789b-4f1a-86e4-45fd4439e4e4')"
+      ]
+    },
+    {
+      "generation_id": "0c681662-0080-4176-8200-201e97793667",
+      "reasons": [
+        "control_or_reference:('reference', '7e84c0ff-5ed1-4c0d-9204-3170f0a38977')"
+      ]
+    },
+    {
+      "generation_id": "0c7dd082-a43c-4737-aaef-604c69b85c48",
+      "reasons": [
+        "input_role_set:('video', ('input_image', 'input_video', 'reference_image'))"
+      ]
+    },
+    {
+      "generation_id": "0c8f9eb9-f32d-4219-9a6b-e1ddc141b7ed",
+      "reasons": [
+        "edge_producer:('soul_cinema_studio', 'gpt_image_2', 'input_image')",
+        "edge_producer:('soul_cinema_studio', 'nano_banana_2', 'input_asset')",
+        "edge_producer:('soul_cinema_studio', 'seedream_v5_pro', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "0ce603f6-607f-4139-8235-b138a911220d",
+      "reasons": [
+        "edge_consumer:('nano_banana_2', 'seedance_2_0', 'reference_image')"
+      ]
+    },
+    {
+      "generation_id": "0d1fb4fa-ecc4-43a2-add5-f892b323e7fb",
+      "reasons": [
+        "control_or_reference:('reference', '442dd0b1-1af2-42e4-b05d-cbe661ca7b38')",
+        "control_or_reference:('reference', 'c0edacc7-361a-47aa-a33c-5cadd3afb875')",
+        "control_or_reference:('reference', 'd400689d-7377-4c55-b31d-32b752d03a89')",
+        "folder:6cc0c243-c464-40e2-8f2b-acca4ddb8063"
+      ]
+    },
+    {
+      "generation_id": "0d41b4af-10b3-48d9-a581-d14f96715190",
+      "reasons": [
+        "control_or_reference:('reference', '0a949dc9-d97b-45f0-a165-ade9abfe8677')"
+      ]
+    },
+    {
+      "generation_id": "0d4673c0-0bd3-4fac-9128-46efe876faf9",
+      "reasons": [
+        "control_or_reference:('reference', '01826a00-519a-484f-8edc-3744b7e15204')"
+      ]
+    },
+    {
+      "generation_id": "0d51b286-3935-4a26-91eb-3dfb54facc7b",
+      "reasons": [
+        "control_or_reference:('reference', '294ad07d-e31c-4313-b7a0-9efc1ffce862')",
+        "control_or_reference:('reference', '6cee4bc1-de43-40ff-b0d6-114aca239db2')"
+      ]
+    },
+    {
+      "generation_id": "0e034b5f-e37e-48ac-ab32-fd0d1abfa40c",
+      "reasons": [
+        "edge_consumer:('seedream_v5_pro', 'nano_banana_2', 'input_asset')"
+      ]
+    },
+    {
+      "generation_id": "0f720a31-df9d-47b7-8c16-ede0584719b6",
+      "reasons": [
+        "control_or_reference:('reference', 'bbbbb090-c689-45fc-8677-287e9c25ac9d')",
+        "folder:fa7ec91e-0cfe-40ad-9aff-f3afe1df844f"
+      ]
+    },
+    {
+      "generation_id": "0faf3305-ce5b-4f59-9c5b-b5846aa8ca60",
+      "reasons": [
+        "folder:15cfa624-95d9-4004-8c17-6a419216fa53"
+      ]
+    },
+    {
+      "generation_id": "10117873-f24b-4a39-b536-46ae726ac8d3",
+      "reasons": [
+        "control_or_reference:('reference', 'e041c981-9a6b-44b6-abad-8e6a63a9f62e')",
+        "folder:78261301-7688-463f-a425-aeb94c100598"
+      ]
+    },
+    {
+      "generation_id": "105f1c5e-db5e-4187-bf26-d5d18677c8f6",
+      "reasons": [
+        "folder:00a6bfb8-cea3-484a-b527-b9d342e08070"
+      ]
+    },
+    {
+      "generation_id": "1080ebf5-8fb6-4897-8625-4a5e5660fa13",
+      "reasons": [
+        "control_or_reference:('reference', '6a644a8e-a358-4570-9f11-f101999fcbf3')"
+      ]
+    },
+    {
+      "generation_id": "108de82e-55e4-4abf-9213-dfaa1ef90143",
+      "reasons": [
+        "folder:2370147b-8d57-4b5f-a81c-64712f44e594"
+      ]
+    },
+    {
+      "generation_id": "11b1746f-b6cb-47f6-b7d0-dbba44aa21af",
+      "reasons": [
+        "folder:415179ed-f856-4e0e-bd92-7c77e97ae631"
+      ]
+    },
+    {
+      "generation_id": "11e595f7-984d-4332-a1db-0da63e41bebf",
+      "reasons": [
+        "edge_consumer:('soul_cinematic', 'gpt_image_2', 'input_image')",
+        "edge_producer:('gpt_image_2', 'nano_banana_2', 'input_asset')"
+      ]
+    },
+    {
+      "generation_id": "12ada4fd-ab6e-4296-b7ff-8c01e17c4526",
+      "reasons": [
+        "folder:7d8aca29-c6fd-4779-9ad6-c20c54affb72"
+      ]
+    },
+    {
+      "generation_id": "13220d91-17de-4f62-bee0-39734ffa2921",
+      "reasons": [
+        "edge_producer:('gpt_image_2', 'seedream_v5_pro', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "13b2c30b-379a-40e4-9a1e-78ff0bf69b71",
+      "reasons": [
+        "folder:be518336-49b2-4a9b-b08c-34c207f99d09"
+      ]
+    },
+    {
+      "generation_id": "1455f6d2-edcb-43e1-b009-5d4ba8c662b8",
+      "reasons": [
+        "edge_consumer:('seedance_2_5', 'seedance_2_5', 'input_video')"
+      ]
+    },
+    {
+      "generation_id": "1461ae13-8932-4e0e-9b04-0738bcc4c27f",
+      "reasons": [
+        "folder:22e703fd-ef8d-45a4-94da-2b47374e0b6c"
+      ]
+    },
+    {
+      "generation_id": "14acc02a-4ed5-4495-9b83-0987a93be2c8",
+      "reasons": [
+        "control_or_reference:('reference', 'c5d30835-5066-4f62-8941-b7199be6fe57')",
+        "folder:cc619316-d5fb-4277-8d3e-cee5f26feb7b"
+      ]
+    },
+    {
+      "generation_id": "1527cc27-2adf-4d6d-9cc8-b05c185d32a0",
+      "reasons": [
+        "edge_producer:('soul_cinematic', 'gpt_image_2', 'input_image')",
+        "edge_producer:('soul_cinematic', 'nano_banana_2', 'input_asset')"
+      ]
+    },
+    {
+      "generation_id": "1700f449-cbda-4491-bc1d-97f6b72bd17f",
+      "reasons": [
+        "folder:1016c625-53e4-4e87-bf5f-7b1d03610d22"
+      ]
+    },
+    {
+      "generation_id": "17351348-9ad0-4f5e-9d09-589179248214",
+      "reasons": [
+        "folder:9977eb08-81c4-4e35-9264-ddf655a1d817"
+      ]
+    },
+    {
+      "generation_id": "17413543-7174-4c56-9a34-9b91b111022e",
+      "reasons": [
+        "edge_producer:('nano_banana_2', 'nano_banana_flash', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "1769c052-5b03-484c-bd9e-d285ab59e630",
+      "reasons": [
+        "edge_producer:('seedance_2_5', 'seedance_2_5', 'input_video')"
+      ]
+    },
+    {
+      "generation_id": "183f3be9-cc13-43e7-89cd-48f764aa1999",
+      "reasons": [
+        "control_or_reference:('reference', '02fa4510-3626-40ab-9d12-2a31262bae4c')",
+        "control_or_reference:('reference', 'bb1b5420-d428-4c19-bd5c-2f501c703529')",
+        "folder:4adc0857-ee29-4620-ad09-710e4ab7a8da"
+      ]
+    },
+    {
+      "generation_id": "18516d14-e9b2-44b9-8690-0b8abd3b7b6d",
+      "reasons": [
+        "folder:29af9c1c-e666-46c2-a148-d97a5bba6c53"
+      ]
+    },
+    {
+      "generation_id": "19c1b071-ac9c-44d3-a7b4-33754431bcdf",
+      "reasons": [
+        "control_or_reference:('reference', 'f18f8fc9-fd81-4190-9ebc-49cdde2e86d3')"
+      ]
+    },
+    {
+      "generation_id": "1a2f8b4c-049d-499f-b8a7-5d6100be7f5f",
+      "reasons": [
+        "edge_producer:('nano_banana_flash', 'gpt_image_2', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "1b5a8801-5b45-4ff6-919a-e2f229c8f792",
+      "reasons": [
+        "control_or_reference:('reference', 'e5622b9b-1795-4a43-93f1-74a3087514b0')",
+        "folder:dd094958-c566-4cfa-ba39-9d63adc3cec1"
+      ]
+    },
+    {
+      "generation_id": "1bd92b3e-729e-400f-9989-e392a94a5c6a",
+      "reasons": [
+        "folder:c114b5ac-18dc-4cf8-b4ff-fa2d79d6b2e1"
+      ]
+    },
+    {
+      "generation_id": "1c48101c-3676-427d-94f7-268c46f4c8aa",
+      "reasons": [
+        "folder:fe1590e2-f9a6-4deb-9925-f17c10b11ee3"
+      ]
+    },
+    {
+      "generation_id": "1de2410a-74d8-44be-b962-aef34afa4811",
+      "reasons": [
+        "edge_consumer:('gpt_image_2', 'nano_banana_2', 'input_asset')",
+        "edge_consumer:('nano_banana_2', 'nano_banana_2', 'input_asset')"
+      ]
+    },
+    {
+      "generation_id": "1ec1272a-a7f4-4e35-b17b-24cc7dea3ebe",
+      "reasons": [
+        "folder:23a83d74-e92d-4324-a8ae-32efa3aaffb4"
+      ]
+    },
+    {
+      "generation_id": "1eeb788c-d663-45d0-8e2d-19ffc49f8be5",
+      "reasons": [
+        "folder:843153e5-977d-4ba7-85f6-4628ab6dd914"
+      ]
+    },
+    {
+      "generation_id": "1f292a0e-c89b-4c2f-aaa3-23a551f09bf9",
+      "reasons": [
+        "control_or_reference:('hf_mult_replace_object', 'generate_audio', 'False')",
+        "edge_consumer:('gpt_image_2', 'hf_mult_replace_object', 'input_image')",
+        "edge_consumer:('seedream_v5_pro', 'hf_mult_replace_object', 'input_image')",
+        "nested_text:params.enhanced_prompt",
+        "type_model:('video', 'hf_mult_replace_object')"
+      ]
+    },
+    {
+      "generation_id": "1f979e5a-5a97-4fd6-8a38-0e853d5920e2",
+      "reasons": [
+        "control_or_reference:('reference', '256e5f10-902b-4f89-a918-572c39e04ff5')",
+        "control_or_reference:('reference', '6886d8da-3185-4d9c-9bb7-ec6bfce19804')",
+        "folder:483aafdc-ab77-418d-b108-3e963bfa0716"
+      ]
+    },
+    {
+      "generation_id": "2016c28a-565e-4696-b861-75fd236e1b22",
+      "reasons": [
+        "folder:c158d9e2-059b-4a04-93b6-82fe929b3afb"
+      ]
+    },
+    {
+      "generation_id": "214a7492-dd31-4ee1-9cc2-51070c4eaada",
+      "reasons": [
+        "control_or_reference:('reference', '07708160-14ac-48fd-bc82-af645551c279')"
+      ]
+    },
+    {
+      "generation_id": "2219ec14-457f-4502-b407-238705980969",
+      "reasons": [
+        "edge_producer:('gpt_image_2', 'nano_banana_2', 'reference_image')",
+        "folder:de612814-4d23-4945-938d-4b9a1011d322"
+      ]
+    },
+    {
+      "generation_id": "22a10c3f-dca4-4319-974c-b1a543389121",
+      "reasons": [
+        "control_or_reference:('reference', '6568e2ac-46be-4b09-a193-498a8f68d157')",
+        "control_or_reference:('reference', 'e92e7c70-d398-4933-a588-6ff09b39ef5f')"
+      ]
+    },
+    {
+      "generation_id": "22d59bcc-1bc8-4f85-bbe4-001b0d938e8c",
+      "reasons": [
+        "folder:93fee9ba-03f5-42fc-b7b7-ded754e23d90"
+      ]
+    },
+    {
+      "generation_id": "23317357-4f3b-45ca-a275-4da5ee3a61f4",
+      "reasons": [
+        "folder:f836c6ef-62a0-4343-a33b-0f0249a80a72"
+      ]
+    },
+    {
+      "generation_id": "23427fce-441e-471b-ac6c-46ca5b742fb7",
+      "reasons": [
+        "folder:827b3693-e0d9-4158-b798-0b027642bfd9"
+      ]
+    },
+    {
+      "generation_id": "23700c61-cea4-4a55-8e99-24388b3e6ce6",
+      "reasons": [
+        "folder:64057b8e-a6ec-408b-9e4c-cd88932d7bdd"
+      ]
+    },
+    {
+      "generation_id": "24a82b41-c4a2-4e93-8b19-8b1f8c153aa6",
+      "reasons": [
+        "edge_consumer:('nano_banana_2', 'seedream_v5_pro', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "25b39a18-44f8-4b96-b9d5-c797093acb3b",
+      "reasons": [
+        "folder:99c71a85-4460-46f4-b244-d21774e5f338"
+      ]
+    },
+    {
+      "generation_id": "25caa28e-2c98-40d5-b529-e48dd5285c7a",
+      "reasons": [
+        "edge_consumer:('nano_banana_2', 'nano_banana_2', 'reference_image')"
+      ]
+    },
+    {
+      "generation_id": "261ba15b-f8b0-4dd7-aee7-6676b2aa1d83",
+      "reasons": [
+        "control_or_reference:('reference', '36999f6f-8f70-4111-a45c-ae73966c8e30')"
+      ]
+    },
+    {
+      "generation_id": "26826471-316d-4c98-b5b7-b87a1d9222b5",
+      "reasons": [
+        "control_or_reference:('reference', '06ba47c8-7e85-47c0-bc8c-13c58d31f96e')",
+        "control_or_reference:('reference', '21515e45-24c4-4501-85a5-f461990e56fb')",
+        "control_or_reference:('reference', '7cb1a4bf-7e9a-4a39-bae0-636e011e775a')",
+        "folder:ae15da09-c8af-4e30-bcbe-c5faf0213e8b"
+      ]
+    },
+    {
+      "generation_id": "2762b5a2-dba8-4099-a045-a38027a277d0",
+      "reasons": [
+        "edge_consumer:('nano_banana_flash', 'gpt_image_2', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "283ffcb9-1e44-4a53-917e-249411dbb490",
+      "reasons": [
+        "edge_producer:('nano_banana_2', 'seedream_v5_pro', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "2863dbda-b849-4737-91a0-0e633dc0649e",
+      "reasons": [
+        "edge_producer:('nano_banana_2', 'seedance_2_5', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "28d22e02-4052-46ee-878d-39fa6b8d7a38",
+      "reasons": [
+        "control_or_reference:('reference', 'c5fcf67d-a079-4060-b4fa-1ca4c71a7064')"
+      ]
+    },
+    {
+      "generation_id": "2929ba0b-16b4-47b8-9a81-8f6ed7b42118",
+      "reasons": [
+        "edge_consumer:('gpt_image_2', 'nano_banana_2', 'reference_image')"
+      ]
+    },
+    {
+      "generation_id": "2a030f24-08b9-4ec3-a987-4b056a7ede0c",
+      "reasons": [
+        "control_or_reference:('reference', '2a64cdaf-af06-48ec-b086-c4937660fb3a')"
+      ]
+    },
+    {
+      "generation_id": "2a0a4c54-110c-4705-9169-e4c2887e2521",
+      "reasons": [
+        "folder:e1e95e8e-3baf-41d0-b808-3bddda5b71d6"
+      ]
+    },
+    {
+      "generation_id": "2a3a8d2c-65d0-4923-8787-ff31d3480c78",
+      "reasons": [
+        "folder:72240937-da5f-4add-9035-9a902306fa57"
+      ]
+    },
+    {
+      "generation_id": "2c0fcbc4-5d6f-459f-878f-77ce74fae635",
+      "reasons": [
+        "folder:64ea1918-304f-4264-93fe-0ab402a54b9f"
+      ]
+    },
+    {
+      "generation_id": "2dbfecf8-a667-4190-82be-f43dd8c2790a",
+      "reasons": [
+        "edge_consumer:('seedream_v5_pro', 'seedream_v5_pro', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "2f5749ed-337a-4826-9d96-e0fbd7cb02b5",
+      "reasons": [
+        "control_or_reference:('reference', '3d202196-d7ab-4565-bf88-4eea2344b9c8')",
+        "control_or_reference:('reference', 'b8395254-7a4a-4ca4-8838-97590c671960')",
+        "folder:026a7d21-1eb2-42fe-9e4b-6b8ac7bd18ef"
+      ]
+    },
+    {
+      "generation_id": "2fc01f76-ec5c-4ad6-a6a8-8ce6d00703ca",
+      "reasons": [
+        "control_or_reference:('reference', '363d8a6a-75a9-4727-acfa-82dd6ade2a81')"
+      ]
+    },
+    {
+      "generation_id": "3188d25a-ec18-4b06-8a3f-d2934782db8d",
+      "reasons": [
+        "folder:1ee2a095-07ac-4c90-9077-4a709f4cfc4d"
+      ]
+    },
+    {
+      "generation_id": "31b2de1a-2d4a-45d0-9481-3a2fac5643d5",
+      "reasons": [
+        "nested_text:params.enhanced_prompt"
+      ]
+    },
+    {
+      "generation_id": "32db0152-d01a-42ad-ba65-5f000fd168be",
+      "reasons": [
+        "edge_consumer:('nano_banana_2', 'seedream_v5_pro', 'reference_image')"
+      ]
+    },
+    {
+      "generation_id": "331dc66d-2f93-4720-9050-076e2f5b9fb2",
+      "reasons": [
+        "folder:cab53871-b6b8-45e1-8f90-19198a284072"
+      ]
+    },
+    {
+      "generation_id": "3327d753-499b-4be3-9009-6888bf3ddce5",
+      "reasons": [
+        "control_or_reference:('reference', 'acf6f28e-732f-4921-a796-1d52656644eb')",
+        "edge_consumer:('gpt_image_2', 'seedance_2_0', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "333c290d-3ac0-4387-8f33-d67692d56f2b",
+      "reasons": [
+        "control_or_reference:('reference', '204ca99d-c529-4315-81d5-2a37d50c4d7b')",
+        "edge_consumer:('nano_banana_flash', 'seedance_2_5', 'reference_image')"
+      ]
+    },
+    {
+      "generation_id": "34e2687b-2812-46ed-863b-f44519eeb4d1",
+      "reasons": [
+        "edge_consumer:('gpt_image_2', 'seedance_2_0', 'reference_image')",
+        "folder:8ccf5f7e-b7f4-4a87-9389-f4c010e9eb89"
+      ]
+    },
+    {
+      "generation_id": "36f83c32-c8c4-4ec3-a57c-7c9efa7ec0c0",
+      "reasons": [
+        "edge_producer:('gpt_image_2', 'seedance_2_0', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "3762c800-8eb1-4d83-8522-cf51f50e5c86",
+      "reasons": [
+        "folder:b8eef699-adc7-4c7e-bd64-fb0940cf6fa6"
+      ]
+    },
+    {
+      "generation_id": "3bcd7e79-61f8-4ead-8495-749d1103268e",
+      "reasons": [
+        "control_or_reference:('reference', '0edc2070-0b40-4a0e-8547-28e9d0b47a05')"
+      ]
+    },
+    {
+      "generation_id": "3c144c91-9a3e-4b39-b43e-77f31b07df8f",
+      "reasons": [
+        "edge_consumer:('soul_cinematic', 'nano_banana_2', 'input_asset')"
+      ]
+    },
+    {
+      "generation_id": "408730d7-c732-4bbd-95be-773e4c04baef",
+      "reasons": [
+        "folder:a9ccd784-5d63-4372-bf28-9aebbd8364ab"
+      ]
+    },
+    {
+      "generation_id": "40eb3092-a203-4a55-9903-8105ea42ee5f",
+      "reasons": [
+        "longest_prompt"
+      ]
+    },
+    {
+      "generation_id": "41cd49f0-48ab-4364-a576-21d6b5bd5d40",
+      "reasons": [
+        "control_or_reference:('reference', 'f416c255-d4a2-4aa1-81f3-bd8d10ff0091')"
+      ]
+    },
+    {
+      "generation_id": "4201ebd6-f45c-4267-8685-8a93c467c4a1",
+      "reasons": [
+        "edge_consumer:('nano_banana_flash', 'seedance_2_5', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "4529aaf4-1197-4924-af2b-ac60f270aa0f",
+      "reasons": [
+        "edge_consumer:('soul_cinema_studio', 'gpt_image_2', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "460c8730-be44-4127-9e2f-66c7cd87c25b",
+      "reasons": [
+        "control_or_reference:('reference', '0f286171-bb88-4d96-bdd9-6768b74d9a6a')"
+      ]
+    },
+    {
+      "generation_id": "463a66c0-bb82-429a-9482-5c2ecd3f95a4",
+      "reasons": [
+        "edge_producer:('gpt_image_2', 'minimax_h3', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "4969bc9b-83a3-45a7-a818-30e4534c41b3",
+      "reasons": [
+        "control_or_reference:('reference', '41899fbc-17b9-430a-a3df-70e10117e720')",
+        "edge_producer:('seedance_2_5', 'cinematic_video_inpaint', 'input_video')"
+      ]
+    },
+    {
+      "generation_id": "4cbdd838-5b7b-484d-bc1b-6654e6226e11",
+      "reasons": [
+        "edge_consumer:('text2image_soul_v2', 'gpt_image_2', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "4d9c5645-d595-469f-b684-e650340d5a4f",
+      "reasons": [
+        "edge_consumer:('nano_banana_2', 'gpt_image_2', 'reference_image')"
+      ]
+    },
+    {
+      "generation_id": "52b2e1d3-a2e1-4738-802e-ddcd59a8ddb6",
+      "reasons": [
+        "edge_consumer:('gpt_image_2', 'nano_banana_flash', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "52e7c9d7-68fa-44bf-ab56-a2b827cce7f7",
+      "reasons": [
+        "edge_producer:('gpt_image_2', 'nano_banana_flash', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "55a4849e-5461-4ea6-b830-49f04cc83a1e",
+      "reasons": [
+        "folder:6d0b4fa6-aca2-434c-881c-4d9fdada2b47"
+      ]
+    },
+    {
+      "generation_id": "5861f88e-18a0-4648-9c83-08785d19d77b",
+      "reasons": [
+        "control_or_reference:('reference', '0e925032-74b5-4efa-8521-ed160db515db')"
+      ]
+    },
+    {
+      "generation_id": "58b50f4e-a7d2-41a2-8a06-59e859cbc727",
+      "reasons": [
+        "edge_consumer:('gpt_image_2', 'seedream_v5_pro', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "590b2b1e-fa37-4d7d-b558-d7342a5e628e",
+      "reasons": [
+        "control_or_reference:('cinematic_video_inpaint', 'generate_audio', 'True')",
+        "control_or_reference:('cinematic_video_inpaint', 'model', 'video_edit')",
+        "control_or_reference:('cinematic_video_inpaint', 'multi_shots', 'False')",
+        "edge_consumer:('seedance_2_5', 'cinematic_video_inpaint', 'input_video')",
+        "nested_text:params.source_prompt",
+        "type_model:('video', 'cinematic_video_inpaint')"
+      ]
+    },
+    {
+      "generation_id": "59d91ed2-3237-46f1-8e07-bdb50268feb0",
+      "reasons": [
+        "folder:eee245de-4010-40b3-a71d-e57ee1a53c4e"
+      ]
+    },
+    {
+      "generation_id": "5c6e7961-13f8-492b-b161-ac79a5bdca8a",
+      "reasons": [
+        "control_or_reference:('reference', 'd21c2c83-d358-491e-9d30-1544cc3c23a3')"
+      ]
+    },
+    {
+      "generation_id": "5ca0892a-d96b-4cff-9216-a290b4e7c480",
+      "reasons": [
+        "edge_consumer:('nano_banana_2', 'seedance_2_5', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "5cdb27d2-a821-4500-9ac2-23845a938d9a",
+      "reasons": [
+        "control_or_reference:('seedance_2_5', 'generate_audio', 'False')"
+      ]
+    },
+    {
+      "generation_id": "5ee123c4-8636-4c4c-b27a-31fc084c6a71",
+      "reasons": [
+        "folder:05da7af1-eae7-4f22-a609-67aa8b8b5d29"
+      ]
+    },
+    {
+      "generation_id": "5eecfa86-9e67-4d30-98a8-9ce5d5edbfc7",
+      "reasons": [
+        "edge_producer:('text2image_soul_v2', 'gpt_image_2', 'input_image')",
+        "type_model:('image', 'text2image_soul_v2')"
+      ]
+    },
+    {
+      "generation_id": "62dfbe72-5560-4f5b-bb6c-c2b8065818ba",
+      "reasons": [
+        "control_or_reference:('reference', 'fe1a0a03-3650-4a0d-9488-263a9bcab4af')"
+      ]
+    },
+    {
+      "generation_id": "6354dd61-e871-4814-b178-523ebbadaebe",
+      "reasons": [
+        "edge_producer:('seedance_2_5', 'cinematic_video_editor', 'input_video')"
+      ]
+    },
+    {
+      "generation_id": "728e38ed-63b8-431e-b121-0e884ee9aaf5",
+      "reasons": [
+        "edge_consumer:('gpt_image_2', 'seedream_v5_pro', 'reference_image')"
+      ]
+    },
+    {
+      "generation_id": "77cf6dc6-1794-4b03-b749-6cda7442a9b4",
+      "reasons": [
+        "edge_producer:('nano_banana_2', 'nano_banana_2', 'reference_image')"
+      ]
+    },
+    {
+      "generation_id": "7b6ce458-6e5d-4187-b10e-a228c74f6990",
+      "reasons": [
+        "type_model:('image', 'seedream_v4_5')"
+      ]
+    },
+    {
+      "generation_id": "85d604db-39c0-47f9-ae31-77f71586ab1b",
+      "reasons": [
+        "edge_producer:('nano_banana_flash', 'seedance_2_5', 'reference_image')"
+      ]
+    },
+    {
+      "generation_id": "86e35ec6-8912-4536-8a5a-7cd32e6762c7",
+      "reasons": [
+        "control_or_reference:('reference', '4644ba37-7745-41d4-a909-082c4f7b086d')"
+      ]
+    },
+    {
+      "generation_id": "87095725-f43e-4cd0-aac4-fcc798e4d713",
+      "reasons": [
+        "edge_producer:('gpt_image_2', 'seedance_2_5', 'input_start_image')"
+      ]
+    },
+    {
+      "generation_id": "8cac608b-314c-40eb-8f99-ad61e9ff1a86",
+      "reasons": [
+        "edge_consumer:('nano_banana_2', 'nano_banana_flash', 'reference_image')"
+      ]
+    },
+    {
+      "generation_id": "9bd3d146-9643-46c2-b3ea-eaca8abfc341",
+      "reasons": [
+        "edge_consumer:('seedream_v5_pro', 'seedance_2_5', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "a20171a3-aa6b-471b-9172-86f69fe4fdc9",
+      "reasons": [
+        "edge_producer:('nano_banana_flash', 'seedance_2_5', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "a3e459e4-9230-4fe2-bc0b-d98b62c5cf89",
+      "reasons": [
+        "control_or_reference:('cinematic_studio_video_4_0', 'generate_audio', 'True')",
+        "control_or_reference:('cinematic_studio_video_4_0', 'model', 'default')",
+        "control_or_reference:('cinematic_studio_video_4_0', 'multi_shots', 'False')",
+        "edge_consumer:('nano_banana_2', 'cinematic_studio_video_4_0', 'reference_image')",
+        "edge_consumer:('seedream_v5_pro', 'cinematic_studio_video_4_0', 'reference_image')",
+        "type_model:('video', 'cinematic_studio_video_4_0')"
+      ]
+    },
+    {
+      "generation_id": "acba08a6-275d-43ee-ae6e-c3da28bbc4c5",
+      "reasons": [
+        "edge_consumer:('nano_banana_2', 'gpt_image_2', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "b21c278a-3f4d-41e5-b037-810da012b2c5",
+      "reasons": [
+        "control_or_reference:('reference', 'd4adce6a-1bd4-4da5-a6f6-59a3355dabb3')"
+      ]
+    },
+    {
+      "generation_id": "b989b445-2309-4082-b77b-e38d257b5d0a",
+      "reasons": [
+        "edge_consumer:('gpt_image_2', 'gpt_image_2', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "bbceb05c-c26d-474b-9571-d8dda5564081",
+      "reasons": [
+        "control_or_reference:('reference', 'fc823a38-f1d3-4ad4-990e-66c7ef3b382e')"
+      ]
+    },
+    {
+      "generation_id": "bee8b12e-97c9-4d83-a19e-3ac5296af564",
+      "reasons": [
+        "edge_consumer:('nano_banana_flash', 'seedream_v5_pro', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "c430fa55-2065-4ca3-8114-7698cbcb36c3",
+      "reasons": [
+        "control_or_reference:('reference', '2e3a1baf-2838-48a0-9ea1-f76e695724c1')"
+      ]
+    },
+    {
+      "generation_id": "c4625d5e-3558-485d-8de4-e1ec087ecf99",
+      "reasons": [
+        "edge_consumer:('seedance_2_5', 'cinematic_video_editor', 'input_video')",
+        "type_model:('video', 'cinematic_video_editor')"
+      ]
+    },
+    {
+      "generation_id": "c7a78b64-9ebc-46ae-9cd9-85eb4e825ccd",
+      "reasons": [
+        "control_or_reference:('kling3_0', 'multi_shots', 'False')",
+        "input_role_set:('video', ('input_start_image',))",
+        "type_model:('video', 'kling3_0')"
+      ]
+    },
+    {
+      "generation_id": "d1372fe7-42ab-4b59-9da7-10d8d3df85fe",
+      "reasons": [
+        "control_or_reference:('reference', '9a6db96a-f077-437b-bf9d-c0b377e3da03')"
+      ]
+    },
+    {
+      "generation_id": "d8e472da-f0bd-4019-813e-4adced9b2558",
+      "reasons": [
+        "edge_producer:('nano_banana_2', 'cinematic_studio_video_4_0', 'reference_image')"
+      ]
+    },
+    {
+      "generation_id": "ec0889bb-9cf1-4fba-8904-7c4038b9d024",
+      "reasons": [
+        "control_or_reference:('reference', 'c970a892-4cba-4a95-90d3-eb162ea912ed')",
+        "control_or_reference:('reference', 'f3973069-d7d8-43c1-8859-3d1174f30ea3')"
+      ]
+    },
+    {
+      "generation_id": "ec3ebcb4-d3ed-4a80-b3ac-75049e6d7c4a",
+      "reasons": [
+        "edge_producer:('gpt_image_2', 'hf_mult_replace_object', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "ecc1545b-e6b2-4104-87d0-4a0376f32486",
+      "reasons": [
+        "edge_producer:('seedream_v5_pro', 'hf_mult_replace_object', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "f626b27c-39f3-4615-b443-d47a8e4de373",
+      "reasons": [
+        "folder:004dadc3-e2e3-42e3-9e36-1234dbed8b3d"
+      ]
+    },
+    {
+      "generation_id": "f8fc0302-56b8-470e-bbb7-a09946b43425",
+      "reasons": [
+        "edge_consumer:('gpt_image_2', 'seedance_2_5', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "fd345c2e-42a0-4853-97b9-5f066532b80c",
+      "reasons": [
+        "edge_producer:('nano_banana_flash', 'seedream_v5_pro', 'input_image')"
+      ]
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-"""Reproduce batch-one manual coding, checking excerpts against the frozen release.
+"""Reproduce completed panel coding with frozen-release excerpt checks.
 
 This is a single-coder evidence transcription, not a semantic labeler. The hand
 assignments are functions below. Full source text is never written to outputs.
@@ -9,6 +9,8 @@ import hashlib
 import json
 from collections import Counter, defaultdict
 from profile import ROOT, SLUGS, profile, records
+
+from batch2 import detour, fallen, finalise, lost, transmission
 
 from film_practice import TABLES, connect
 
@@ -1655,7 +1657,7 @@ def apeirophobia(c):
 
 def main():
     with (ROOT.parent / "studies/01-corpus/outputs/panel.csv").open() as stream:
-        panel = [r for r in csv.DictReader(stream) if r["batch"] == "1"]
+        panel = [r for r in csv.DictReader(stream) if r["batch"] in {"1", "2"}]
     with (ROOT.parent / "studies/01-corpus/outputs/codebook.csv").open() as stream:
         codebook = list(csv.DictReader(stream))
     with connect("data") as db:
@@ -1664,11 +1666,17 @@ def main():
             profile(db, film)
             c = Case(db, film, codebook)
             {
+                "Detour": detour,
+                "Fallen Leaves": fallen,
+                "Lost": lost,
+                "THE LAST TRANSMISSION": transmission,
                 "Dry Aged Dreams": dry,
                 "The Staff": staff,
                 "A Tales Before Titanic Tragedy": titanic,
                 "APEIROPHOBIA": apeirophobia,
             }[film["title"]](c)
+            if film["batch"] == "2":
+                finalise(c)
             c.write()
     files = sorted(
         p

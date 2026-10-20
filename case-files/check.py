@@ -1,6 +1,8 @@
 """Validate every case file against the current shared codebook (no data needed)."""
 
 import csv
+import hashlib
+import json
 import re
 from collections import Counter
 from pathlib import Path
@@ -65,6 +67,40 @@ def validate(rows, definitions, version):
             )
 
 
+def validate_profile(profile, rows, edges):
+    """Check scope and partition invariants without opening the source snapshot."""
+    fid = rows[0]["film_id"]
+    if profile["film_id"] != fid or edges["film_id"] != fid:
+        raise ValueError("Profile/edge film mismatch")
+    counts = profile["row_counts"]
+    n = counts["generations"]
+    register = profile["reading_register"]
+    ids = [r["generation_id"] for r in register]
+    if not ids or len(set(ids)) != len(ids) or len(ids) > n:
+        raise ValueError("Invalid reading register")
+    if any(not r["reasons"] for r in register):
+        raise ValueError("Reading selection needs reasons")
+    for table, fields in profile["field_states"].items():
+        for states in fields.values():
+            if (
+                set(states) != {"unavailable", "empty", "nonempty"}
+                or any(v < 0 for v in states.values())
+                or sum(states.values()) != counts[table]
+            ):
+                raise ValueError("Field states must partition table rows")
+    for values in profile["generations"].values():
+        if sum(v["count"] for v in values) != n:
+            raise ValueError("Generation distribution denominator mismatch")
+    for row in rows:
+        for generation in re.findall(r"/generation:([^; ]+)", row["entity_ids"]):
+            # Descendant enumeration deliberately searches the complete graph.
+            if row["code_id"] != "07.5" and generation not in ids:
+                raise ValueError("Named evidence job outside reading register")
+    for edge in edges["edges"]:
+        if not edge["usages"]:
+            raise ValueError("Traced edge needs usage provenance")
+
+
 def main():
     corpus = ROOT.parent / "studies/01-corpus"
     version = re.search(
@@ -77,6 +113,11 @@ def main():
     paths = sorted(ROOT.glob("*/codes.csv"))
     if not paths:
         raise ValueError("No case files")
+    with (corpus / "outputs/panel.csv").open() as stream:
+        panel = {r["film_id"]: r for r in csv.DictReader(stream)}
+    expected = {fid for fid, r in panel.items() if r["batch"] in {"1", "2"}}
+    actual = set()
+    manifest = json.loads((ROOT / "reproduction.json").read_text())
     total = 0
     for path in paths:
         if path.stat().st_size >= 1_000_000:
@@ -87,7 +128,30 @@ def main():
                 raise ValueError("Calibration column contract changed")
             rows = list(reader)
         validate(rows, definitions, version)
+        profile = json.loads((path.parent / "profile.json").read_text())
+        edges = json.loads((path.parent / "traced-edges.json").read_text())
+        validate_profile(profile, rows, edges)
+        fid = rows[0]["film_id"]
+        if fid in actual or fid not in panel:
+            raise ValueError("Duplicate or unregistered panel film")
+        actual.add(fid)
+        if profile["row_counts"]["generations"] != int(panel[fid]["generations"]):
+            raise ValueError("Registered job count mismatch")
+        if not (path.parent / "CASE.md").is_file():
+            raise ValueError("Missing narrative")
         total += len(rows)
+    if actual != expected:
+        raise ValueError("Completed batches must match panel membership exactly")
+    artifacts = {
+        str(p.relative_to(ROOT))
+        for p in ROOT.glob("*/*")
+        if p.suffix in {".csv", ".json"}
+    }
+    if set(manifest) != artifacts:
+        raise ValueError("Reproduction manifest coverage mismatch")
+    for name, digest in manifest.items():
+        if hashlib.sha256((ROOT / name).read_bytes()).hexdigest() != digest:
+            raise ValueError("Reproduction hash mismatch")
     for path in ROOT.rglob("*"):
         if path.is_file() and path.suffix in {".csv", ".json", ".md", ".py"}:
             if path.stat().st_size >= 1_000_000:

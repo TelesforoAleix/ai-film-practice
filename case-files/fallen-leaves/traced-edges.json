@@ -1,0 +1,280 @@
+{
+  "film_id": "6659c520-c88e-4ac7-a2c9-f28d8a40c954",
+  "edges": [
+    {
+      "producer": "dc2e911c-3ffc-40af-911b-d4fb2b955c9c",
+      "consumer": "330764cc-eb0b-4028-bbca-e45ce5037641",
+      "usages": [
+        {
+          "asset_id": "dc2e911c-3ffc-40af-911b-d4fb2b955c9c",
+          "asset_role": "input_image",
+          "parameter_path": "params.medias[0].data"
+        }
+      ]
+    },
+    {
+      "producer": "1cba062c-b6c5-456d-929d-b958859ae105",
+      "consumer": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+      "usages": [
+        {
+          "asset_id": "1cba062c-b6c5-456d-929d-b958859ae105",
+          "asset_role": "reference_image",
+          "parameter_path": "params.reference_elements[0].medias[0]"
+        }
+      ]
+    },
+    {
+      "producer": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+      "consumer": "aa8a5c34-415f-4371-aca9-777f976cfed5",
+      "usages": [
+        {
+          "asset_id": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+          "asset_role": "input_video",
+          "parameter_path": "params.medias[0].data"
+        }
+      ]
+    },
+    {
+      "producer": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+      "consumer": "0b1305a7-adea-4c2a-94f4-7da418bc7c13",
+      "usages": [
+        {
+          "asset_id": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+          "asset_role": "input_video",
+          "parameter_path": "params.medias[0].data"
+        }
+      ]
+    },
+    {
+      "producer": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+      "consumer": "0f900e0b-4743-4a9a-9f4b-6b422712d370",
+      "usages": [
+        {
+          "asset_id": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+          "asset_role": "input_video",
+          "parameter_path": "params.medias[0].data"
+        }
+      ]
+    },
+    {
+      "producer": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+      "consumer": "1002082d-40e3-43fb-b6d8-deaf797ec9ce",
+      "usages": [
+        {
+          "asset_id": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+          "asset_role": "input_video",
+          "parameter_path": "params.medias[0].data"
+        }
+      ]
+    },
+    {
+      "producer": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+      "consumer": "13254c77-0ad1-4c4d-a165-5eb0fa10f30c",
+      "usages": [
+        {
+          "asset_id": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+          "asset_role": "input_video",
+          "parameter_path": "params.medias[0].data"
+        }
+      ]
+    },
+    {
+      "producer": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+      "consumer": "1dc2d861-5aa9-4ea3-a25b-ca904f8ef060",
+      "usages": [
+        {
+          "asset_id": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+          "asset_role": "input_video",
+          "parameter_path": "params.medias[0].data"
+        }
+      ]
+    },
+    {
+      "producer": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+      "consumer": "2c21fda1-8db6-486a-b8e3-6a3a6ffb04e3",
+      "usages": [
+        {
+          "asset_id": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+          "asset_role": "input_video",
+          "parameter_path": "params.medias[0].data"
+        }
+      ]
+    },
+    {
+      "producer": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+      "consumer": "442cd148-8601-46bc-8088-a596a4d0ad4e",
+      "usages": [
+        {
+          "asset_id": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+          "asset_role": "input_video",
+          "parameter_path": "params.medias[0].data"
+        }
+      ]
+    },
+    {
+      "producer": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+      "consumer": "48317af1-ec9b-453a-b005-874110455435",
+      "usages": [
+        {
+          "asset_id": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+          "asset_role": "input_video",
+          "parameter_path": "params.medias[0].data"
+        }
+      ]
+    },
+    {
+      "producer": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+      "consumer": "5d724bb3-b618-4d6d-b059-a7d81ba8aa12",
+      "usages": [
+        {
+          "asset_id": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+          "asset_role": "input_video",
+          "parameter_path": "params.medias[0].data"
+        }
+      ]
+    },
+    {
+      "producer": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+      "consumer": "63adfd3d-d928-4918-9c08-59502f6a5a90",
+      "usages": [
+        {
+          "asset_id": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+          "asset_role": "input_video",
+          "parameter_path": "params.medias[0].data"
+        }
+      ]
+    },
+    {
+      "producer": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+      "consumer": "72973cba-5e69-460d-9159-22f778035df1",
+      "usages": [
+        {
+          "asset_id": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+          "asset_role": "input_video",
+          "parameter_path": "params.medias[0].data"
+        }
+      ]
+    },
+    {
+      "producer": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+      "consumer": "890d9a08-050e-45f9-b4a1-3031a37a7bb3",
+      "usages": [
+        {
+          "asset_id": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+          "asset_role": "input_video",
+          "parameter_path": "params.medias[0].data"
+        }
+      ]
+    },
+    {
+      "producer": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+      "consumer": "8d80ca68-4e68-4dbd-addb-50f053dcce5e",
+      "usages": [
+        {
+          "asset_id": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+          "asset_role": "input_video",
+          "parameter_path": "params.medias[0].data"
+        }
+      ]
+    },
+    {
+      "producer": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+      "consumer": "a5270ab7-aa7a-4883-bd85-1f7be8ef7884",
+      "usages": [
+        {
+          "asset_id": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+          "asset_role": "input_video",
+          "parameter_path": "params.medias[0].data"
+        }
+      ]
+    },
+    {
+      "producer": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+      "consumer": "a532796b-1696-4177-b88e-a8cf3e8145d9",
+      "usages": [
+        {
+          "asset_id": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+          "asset_role": "input_video",
+          "parameter_path": "params.medias[0].data"
+        }
+      ]
+    },
+    {
+      "producer": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+      "consumer": "b0831e66-ef2d-45c7-89f7-79a960181507",
+      "usages": [
+        {
+          "asset_id": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+          "asset_role": "input_video",
+          "parameter_path": "params.medias[0].data"
+        }
+      ]
+    },
+    {
+      "producer": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+      "consumer": "be1a48f3-a0e2-43fe-9001-729a3ac09165",
+      "usages": [
+        {
+          "asset_id": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+          "asset_role": "input_video",
+          "parameter_path": "params.medias[0].data"
+        }
+      ]
+    },
+    {
+      "producer": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+      "consumer": "c8d5f807-04a0-43ad-975e-543040a9450c",
+      "usages": [
+        {
+          "asset_id": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+          "asset_role": "input_video",
+          "parameter_path": "params.medias[0].data"
+        }
+      ]
+    },
+    {
+      "producer": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+      "consumer": "c9e1fd43-bbc6-4f33-aa73-e7a509726b19",
+      "usages": [
+        {
+          "asset_id": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+          "asset_role": "input_video",
+          "parameter_path": "params.medias[0].data"
+        }
+      ]
+    },
+    {
+      "producer": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+      "consumer": "caa7a93c-ce48-4e56-a906-8d11690b9867",
+      "usages": [
+        {
+          "asset_id": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+          "asset_role": "input_video",
+          "parameter_path": "params.medias[0].data"
+        }
+      ]
+    },
+    {
+      "producer": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+      "consumer": "f091d51f-fb32-4141-8a0c-d4c69d5b5c13",
+      "usages": [
+        {
+          "asset_id": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+          "asset_role": "input_video",
+          "parameter_path": "params.medias[0].data"
+        }
+      ]
+    },
+    {
+      "producer": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+      "consumer": "fb8adb12-de85-46c9-b8a2-edd806b86cf8",
+      "usages": [
+        {
+          "asset_id": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+          "asset_role": "input_video",
+          "parameter_path": "params.medias[0].data"
+        }
+      ]
+    }
+  ]
+}

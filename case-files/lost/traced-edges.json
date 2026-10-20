@@ -1,0 +1,126 @@
+{
+  "film_id": "e5ce8a79-9375-4e31-84a8-620bd4f07550",
+  "edges": [
+    {
+      "producer": "02e53a47-a7ab-4d3c-9071-3efe42c3a88d",
+      "consumer": "044604ad-88c8-442e-8452-162d1cd60d13",
+      "usages": [
+        {
+          "asset_id": "02e53a47-a7ab-4d3c-9071-3efe42c3a88d",
+          "asset_role": "input_asset",
+          "parameter_path": "params.input_images[0]"
+        }
+      ]
+    },
+    {
+      "producer": "66411159-7e3c-4216-8031-e096668d53a1",
+      "consumer": "09925f84-295d-42ac-a3f2-d8dbf98a1740",
+      "usages": [
+        {
+          "asset_id": "66411159-7e3c-4216-8031-e096668d53a1",
+          "asset_role": "reference_image",
+          "parameter_path": "params.reference_elements[0].medias[0]"
+        }
+      ]
+    },
+    {
+      "producer": "4e117e2d-14cf-46f3-8466-69d0306101ff",
+      "consumer": "09925f84-295d-42ac-a3f2-d8dbf98a1740",
+      "usages": [
+        {
+          "asset_id": "4e117e2d-14cf-46f3-8466-69d0306101ff",
+          "asset_role": "input_video",
+          "parameter_path": "params.medias[0].data"
+        }
+      ]
+    },
+    {
+      "producer": "4e117e2d-14cf-46f3-8466-69d0306101ff",
+      "consumer": "0be5818e-0dd2-4386-851b-7affbfe126b8",
+      "usages": [
+        {
+          "asset_id": "4e117e2d-14cf-46f3-8466-69d0306101ff",
+          "asset_role": "input_video",
+          "parameter_path": "params.medias[0].data"
+        }
+      ]
+    },
+    {
+      "producer": "4e117e2d-14cf-46f3-8466-69d0306101ff",
+      "consumer": "493810f1-34ce-40c0-b8dc-e9ab0c2b11fc",
+      "usages": [
+        {
+          "asset_id": "4e117e2d-14cf-46f3-8466-69d0306101ff",
+          "asset_role": "input_video",
+          "parameter_path": "params.medias[0].data"
+        }
+      ]
+    },
+    {
+      "producer": "4e117e2d-14cf-46f3-8466-69d0306101ff",
+      "consumer": "4b5fe3e2-9d68-4154-b077-18d7cbda745c",
+      "usages": [
+        {
+          "asset_id": "4e117e2d-14cf-46f3-8466-69d0306101ff",
+          "asset_role": "input_video",
+          "parameter_path": "params.medias[0].data"
+        }
+      ]
+    },
+    {
+      "producer": "4e117e2d-14cf-46f3-8466-69d0306101ff",
+      "consumer": "80bb0a66-e6d9-4824-a9ae-a617af578a5d",
+      "usages": [
+        {
+          "asset_id": "4e117e2d-14cf-46f3-8466-69d0306101ff",
+          "asset_role": "input_video",
+          "parameter_path": "params.medias[0].data"
+        }
+      ]
+    },
+    {
+      "producer": "4e117e2d-14cf-46f3-8466-69d0306101ff",
+      "consumer": "8e23ecb5-09df-405c-8ec3-512d05391150",
+      "usages": [
+        {
+          "asset_id": "4e117e2d-14cf-46f3-8466-69d0306101ff",
+          "asset_role": "input_video",
+          "parameter_path": "params.medias[0].data"
+        }
+      ]
+    },
+    {
+      "producer": "4e117e2d-14cf-46f3-8466-69d0306101ff",
+      "consumer": "acf31054-47b6-4a92-a4dd-fc5b8051a0e3",
+      "usages": [
+        {
+          "asset_id": "4e117e2d-14cf-46f3-8466-69d0306101ff",
+          "asset_role": "input_video",
+          "parameter_path": "params.medias[0].data"
+        }
+      ]
+    },
+    {
+      "producer": "4e117e2d-14cf-46f3-8466-69d0306101ff",
+      "consumer": "ce9d2487-add1-40fc-8103-fe9f3b8ce2c4",
+      "usages": [
+        {
+          "asset_id": "4e117e2d-14cf-46f3-8466-69d0306101ff",
+          "asset_role": "input_video",
+          "parameter_path": "params.medias[0].data"
+        }
+      ]
+    },
+    {
+      "producer": "4e117e2d-14cf-46f3-8466-69d0306101ff",
+      "consumer": "d7765b77-7121-45bd-9c68-4ba599d31612",
+      "usages": [
+        {
+          "asset_id": "4e117e2d-14cf-46f3-8466-69d0306101ff",
+          "asset_role": "input_video",
+          "parameter_path": "params.medias[0].data"
+        }
+      ]
+    }
+  ]
+}
