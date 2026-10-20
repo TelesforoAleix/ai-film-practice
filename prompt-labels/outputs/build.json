@@ -1,0 +1,55 @@
+{
+  "all_primary_distinct": 61479,
+  "all_text_distinct": 61542,
+  "eligible_occupied_strata": 481,
+  "field_states": {
+    "empty": 1083,
+    "nonempty": 160753,
+    "unavailable": 5174
+  },
+  "gold": 300,
+  "gold_characters": 904769,
+  "gold_films": 157,
+  "gold_occupied_strata": 298,
+  "gold_per_film": {
+    "1": 14,
+    "2": 143
+  },
+  "gold_roles": {
+    "other_text": 13,
+    "primary": 287
+  },
+  "long_all_distinct": 5929,
+  "long_primary_distinct": 5922,
+  "max_characters": 12000,
+  "nonempty_field_occurrences": 160753,
+  "primary_all_roles_distinct": 61422,
+  "primary_primary_distinct": 61359,
+  "primary_role_rows": {
+    "negative": 2,
+    "other_text": 36056,
+    "primary": 124449,
+    "shot_prompt": 19
+  },
+  "sample": 5000,
+  "sample_characters": 16762297,
+  "sample_films": 157,
+  "sample_occupied_strata": 338,
+  "sample_per_film": {
+    "1": 1,
+    "11": 1,
+    "15": 2,
+    "22": 1,
+    "32": 80,
+    "33": 72
+  },
+  "sample_roles": {
+    "negative": 2,
+    "other_text": 38,
+    "primary": 4948,
+    "shot_prompt": 12
+  },
+  "seed": "AF3a-v1-20261020",
+  "snapshot_manifest_sha256": "cdd2c8cd936f497564b33cff86fd01f8fc5dd5e30896609edbe0da63ba6f91a6",
+  "supplemental_all_roles_distinct": 122
+}

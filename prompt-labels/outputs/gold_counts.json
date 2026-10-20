@@ -1,0 +1,16 @@
+{
+  "subject": 278,
+  "identity": 220,
+  "action": 219,
+  "environment": 190,
+  "spatial": 240,
+  "composition": 232,
+  "lens_framing": 212,
+  "camera_motion": 131,
+  "lighting": 226,
+  "material": 213,
+  "aesthetic_intent": 238,
+  "timing": 150,
+  "exclusion": 237,
+  "preservation": 200
+}

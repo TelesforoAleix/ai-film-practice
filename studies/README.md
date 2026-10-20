@@ -11,3 +11,5 @@ git. Apply the programme's evidence labels and full nine-item output contract.
 
 [Panel case files — complete index](../case-files/README.md) records all sixteen
 registered films across all 49 shared codes for Studies 02–10, with scoped evidence and reproducible profiles.
+
+[Provisional prompt-label infrastructure — AF3a](../prompt-labels/README.md) supplies structural features, the balanced sample, single-agent gold and the local labelling/agreement harness; the real model run and assessment follow separately.
