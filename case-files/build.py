@@ -11,6 +11,8 @@ from collections import Counter, defaultdict
 from profile import ROOT, SLUGS, profile, records
 
 from batch2 import detour, fallen, finalise, lost, transmission
+from batch3 import birthdays, harmony, kagerou, kiss
+from batch3 import finalise as finalise_batch3
 
 from film_practice import TABLES, connect
 
@@ -1657,7 +1659,7 @@ def apeirophobia(c):
 
 def main():
     with (ROOT.parent / "studies/01-corpus/outputs/panel.csv").open() as stream:
-        panel = [r for r in csv.DictReader(stream) if r["batch"] in {"1", "2"}]
+        panel = [r for r in csv.DictReader(stream) if r["batch"] in {"1", "2", "3"}]
     with (ROOT.parent / "studies/01-corpus/outputs/codebook.csv").open() as stream:
         codebook = list(csv.DictReader(stream))
     with connect("data") as db:
@@ -1666,6 +1668,10 @@ def main():
             profile(db, film)
             c = Case(db, film, codebook)
             {
+                "Harmony ": harmony,
+                "Birthdays": birthdays,
+                "KAGEROU": kagerou,
+                "The Kiss": kiss,
                 "Detour": detour,
                 "Fallen Leaves": fallen,
                 "Lost": lost,
@@ -1677,6 +1683,8 @@ def main():
             }[film["title"]](c)
             if film["batch"] == "2":
                 finalise(c)
+            if film["batch"] == "3":
+                finalise_batch3(c)
             c.write()
     files = sorted(
         p

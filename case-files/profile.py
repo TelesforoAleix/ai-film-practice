@@ -13,6 +13,10 @@ from film_practice import TABLES, connect
 
 ROOT = Path(__file__).resolve().parent
 SLUGS = {
+    "Harmony ": "harmony",
+    "Birthdays": "birthdays",
+    "KAGEROU": "kagerou",
+    "The Kiss": "the-kiss",
     "Detour": "detour",
     "Fallen Leaves": "fallen-leaves",
     "Lost": "lost",
@@ -76,7 +80,7 @@ def profile(db, panel):
         for key, group in sorted(groups.items(), key=lambda x: str(x[0])):
             choose(group, f"{prefix}:{key}")
 
-    if len(jobs) < (500 if panel["batch"] == "2" else 100):
+    if len(jobs) < (500 if panel["batch"] in {"2", "3"} else 100):
         for g in jobs:
             selected[g["generation_id"]].add("exhaustive_small_history")
     else:
@@ -141,7 +145,7 @@ def profile(db, panel):
             sorted(texts, key=lambda g: (-len(g["prompt"]), g["generation_id"])),
             "longest_prompt",
         )
-    if panel["batch"] == "2":
+    if panel["batch"] in {"2", "3"}:
         for text in tables["generation_prompts"]:
             if text["field_path"] not in {"params.prompt", "params.prompt_language"}:
                 selected[text["generation_id"]].add("nested_text:" + text["field_path"])
@@ -284,7 +288,7 @@ def profile(db, panel):
             r for r in tables["generation_prompts"] if r["generation_id"] in selected
         ],
     }
-    local = Path("data/af2b" if panel["batch"] == "2" else "data/af2a")
+    local = Path({"1": "data/af2a", "2": "data/af2b", "3": "data/af2c"}[panel["batch"]])
     local.mkdir(exist_ok=True)
     (local / (SLUGS[panel["title"]] + ".json")).write_text(
         json.dumps(packet, ensure_ascii=False, indent=2) + "\n"
@@ -302,7 +306,7 @@ def profile(db, panel):
 
 def main():
     with (ROOT.parent / "studies/01-corpus/outputs/panel.csv").open() as stream:
-        panel = [r for r in csv.DictReader(stream) if r["batch"] in {"1", "2"}]
+        panel = [r for r in csv.DictReader(stream) if r["batch"] in {"1", "2", "3"}]
     with connect("data") as db:
         for film in panel:
             profile(db, film)

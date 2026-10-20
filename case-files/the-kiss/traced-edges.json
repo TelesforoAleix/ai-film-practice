@@ -1,0 +1,49 @@
+{
+  "film_id": "655325cc-46d9-4b0b-b03d-d177defa4b3f",
+  "edges": [
+    {
+      "producer": "1430c7a7-73ef-4b50-a789-ac8a305a8a88",
+      "consumer": "03055fdc-3f48-4e47-860c-c011a0e5d8c3",
+      "usages": [
+        {
+          "asset_id": "1430c7a7-73ef-4b50-a789-ac8a305a8a88",
+          "asset_role": "reference_image",
+          "parameter_path": "params.reference_elements[0].medias[0]"
+        }
+      ]
+    },
+    {
+      "producer": "0035469c-1e6e-4c3f-aad6-bb3ab0bb05ce",
+      "consumer": "122382c3-e873-4845-8a14-89ff9dfa215e",
+      "usages": [
+        {
+          "asset_id": "0035469c-1e6e-4c3f-aad6-bb3ab0bb05ce",
+          "asset_role": "reference_image",
+          "parameter_path": "params.reference_elements[0].medias[0]"
+        }
+      ]
+    },
+    {
+      "producer": "2807fc31-5eb6-4bdb-a6ea-cd5e49a58b48",
+      "consumer": "14948b7d-5d8f-4783-987d-b87f68bc0a3d",
+      "usages": [
+        {
+          "asset_id": "2807fc31-5eb6-4bdb-a6ea-cd5e49a58b48",
+          "asset_role": "input_video",
+          "parameter_path": "params.medias[0].data"
+        }
+      ]
+    },
+    {
+      "producer": "6672ee33-d850-4db4-b78f-667905814400",
+      "consumer": "19f73675-b69e-4314-b3a1-f74802df1da2",
+      "usages": [
+        {
+          "asset_id": "6672ee33-d850-4db4-b78f-667905814400",
+          "asset_role": "input_asset",
+          "parameter_path": "params.input_images[0]"
+        }
+      ]
+    }
+  ]
+}

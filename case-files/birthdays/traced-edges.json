@@ -1,0 +1,76 @@
+{
+  "film_id": "d51d6821-d191-40f7-949b-1086750a2e93",
+  "edges": [
+    {
+      "producer": "37f689e1-04da-473c-9778-97b61732ec90",
+      "consumer": "372eae81-9e4e-4264-adac-febf9565667e",
+      "usages": [
+        {
+          "asset_id": "37f689e1-04da-473c-9778-97b61732ec90",
+          "asset_role": "input_image",
+          "parameter_path": "params.medias[0].data"
+        }
+      ]
+    },
+    {
+      "producer": "071dab16-5053-487f-a48f-8f1f8de7614c",
+      "consumer": "42dc451c-5af3-4c70-b36a-34991ef86754",
+      "usages": [
+        {
+          "asset_id": "071dab16-5053-487f-a48f-8f1f8de7614c",
+          "asset_role": "input_image",
+          "parameter_path": "params.medias[0].data"
+        },
+        {
+          "asset_id": "071dab16-5053-487f-a48f-8f1f8de7614c",
+          "asset_role": "reference_image",
+          "parameter_path": "params.reference_elements[1].medias[0]"
+        }
+      ]
+    },
+    {
+      "producer": "37f689e1-04da-473c-9778-97b61732ec90",
+      "consumer": "5ae461d1-3762-4374-98b3-f852be9fcb66",
+      "usages": [
+        {
+          "asset_id": "37f689e1-04da-473c-9778-97b61732ec90",
+          "asset_role": "input_asset",
+          "parameter_path": "params.input_images[0]"
+        }
+      ]
+    },
+    {
+      "producer": "37f689e1-04da-473c-9778-97b61732ec90",
+      "consumer": "6829901e-d160-4a7e-83dc-794c6b036b1e",
+      "usages": [
+        {
+          "asset_id": "37f689e1-04da-473c-9778-97b61732ec90",
+          "asset_role": "reference_image",
+          "parameter_path": "params.reference_elements[0].medias[0]"
+        }
+      ]
+    },
+    {
+      "producer": "37f689e1-04da-473c-9778-97b61732ec90",
+      "consumer": "bb128e66-94db-4379-a455-1459ebf5d856",
+      "usages": [
+        {
+          "asset_id": "37f689e1-04da-473c-9778-97b61732ec90",
+          "asset_role": "input_asset",
+          "parameter_path": "params.input_images[0]"
+        }
+      ]
+    },
+    {
+      "producer": "bb128e66-94db-4379-a455-1459ebf5d856",
+      "consumer": "dd0a811f-8e21-43cb-be20-d11a4907d7b4",
+      "usages": [
+        {
+          "asset_id": "bb128e66-94db-4379-a455-1459ebf5d856",
+          "asset_role": "reference_image",
+          "parameter_path": "params.reference_elements[0].medias[0]"
+        }
+      ]
+    }
+  ]
+}
