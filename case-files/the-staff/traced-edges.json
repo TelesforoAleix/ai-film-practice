@@ -1,0 +1,16 @@
+{
+  "film_id": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce",
+  "edges": [
+    {
+      "producer": "0e619b88-43ef-4a45-84c3-b7b86ac96fe4",
+      "consumer": "1d963033-bc45-495d-9bfa-a05e4d0cf918",
+      "usages": [
+        {
+          "asset_id": "0e619b88-43ef-4a45-84c3-b7b86ac96fe4",
+          "asset_role": "input_video",
+          "parameter_path": "params.medias[1].data"
+        }
+      ]
+    }
+  ]
+}

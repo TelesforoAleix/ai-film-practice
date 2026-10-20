@@ -1,0 +1,1095 @@
+{
+  "release": "data-2026-10-20",
+  "film_id": "3f6e509b-f3da-4324-a746-b9d35f0b9845",
+  "title": "A Tales Before Titanic Tragedy",
+  "cohort_group": "most_watched_only",
+  "row_counts": {
+    "films": 1,
+    "priority_films": 1,
+    "folders": 2,
+    "generations": 4,
+    "generation_prompts": 4,
+    "assets": 201,
+    "asset_usages": 12,
+    "asset_folders": 197,
+    "generation_folders": 4,
+    "reference_elements": 0,
+    "brief_assets": 0,
+    "model_usage": 1,
+    "extraction_log": 1,
+    "other_items": 0
+  },
+  "measure_provenance": {
+    "films": {
+      "study": "02-10 case-file preparation",
+      "film_id": "3f6e509b-f3da-4324-a746-b9d35f0b9845",
+      "entity_ids": "3f6e509b-f3da-4324-a746-b9d35f0b9845/films: all film-scoped source rows",
+      "source_path": "films.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=1",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "1 exported films rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "priority_films": {
+      "study": "02-10 case-file preparation",
+      "film_id": "3f6e509b-f3da-4324-a746-b9d35f0b9845",
+      "entity_ids": "3f6e509b-f3da-4324-a746-b9d35f0b9845/priority_films: all film-scoped source rows",
+      "source_path": "priority_films.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=1",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "1 exported priority_films rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "folders": {
+      "study": "02-10 case-file preparation",
+      "film_id": "3f6e509b-f3da-4324-a746-b9d35f0b9845",
+      "entity_ids": "3f6e509b-f3da-4324-a746-b9d35f0b9845/folders: all film-scoped source rows",
+      "source_path": "folders.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=2",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "2 exported folders rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "generations": {
+      "study": "02-10 case-file preparation",
+      "film_id": "3f6e509b-f3da-4324-a746-b9d35f0b9845",
+      "entity_ids": "3f6e509b-f3da-4324-a746-b9d35f0b9845/generations: all film-scoped source rows",
+      "source_path": "generations.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=4",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "4 exported generations rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "generation_prompts": {
+      "study": "02-10 case-file preparation",
+      "film_id": "3f6e509b-f3da-4324-a746-b9d35f0b9845",
+      "entity_ids": "3f6e509b-f3da-4324-a746-b9d35f0b9845/generation_prompts: all film-scoped source rows",
+      "source_path": "generation_prompts.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=4",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "4 exported generation_prompts rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "assets": {
+      "study": "02-10 case-file preparation",
+      "film_id": "3f6e509b-f3da-4324-a746-b9d35f0b9845",
+      "entity_ids": "3f6e509b-f3da-4324-a746-b9d35f0b9845/assets: all film-scoped source rows",
+      "source_path": "assets.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=201",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "201 exported assets rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "asset_usages": {
+      "study": "02-10 case-file preparation",
+      "film_id": "3f6e509b-f3da-4324-a746-b9d35f0b9845",
+      "entity_ids": "3f6e509b-f3da-4324-a746-b9d35f0b9845/asset_usages: all film-scoped source rows",
+      "source_path": "asset_usages.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=12",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "12 exported asset_usages rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "asset_folders": {
+      "study": "02-10 case-file preparation",
+      "film_id": "3f6e509b-f3da-4324-a746-b9d35f0b9845",
+      "entity_ids": "3f6e509b-f3da-4324-a746-b9d35f0b9845/asset_folders: all film-scoped source rows",
+      "source_path": "asset_folders.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=197",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "197 exported asset_folders rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "generation_folders": {
+      "study": "02-10 case-file preparation",
+      "film_id": "3f6e509b-f3da-4324-a746-b9d35f0b9845",
+      "entity_ids": "3f6e509b-f3da-4324-a746-b9d35f0b9845/generation_folders: all film-scoped source rows",
+      "source_path": "generation_folders.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=4",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "4 exported generation_folders rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "reference_elements": {
+      "study": "02-10 case-file preparation",
+      "film_id": "3f6e509b-f3da-4324-a746-b9d35f0b9845",
+      "entity_ids": "3f6e509b-f3da-4324-a746-b9d35f0b9845/reference_elements: all film-scoped source rows",
+      "source_path": "reference_elements.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=0",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "0 exported reference_elements rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "brief_assets": {
+      "study": "02-10 case-file preparation",
+      "film_id": "3f6e509b-f3da-4324-a746-b9d35f0b9845",
+      "entity_ids": "3f6e509b-f3da-4324-a746-b9d35f0b9845/brief_assets: all film-scoped source rows",
+      "source_path": "brief_assets.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=0",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "0 exported brief_assets rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "model_usage": {
+      "study": "02-10 case-file preparation",
+      "film_id": "3f6e509b-f3da-4324-a746-b9d35f0b9845",
+      "entity_ids": "3f6e509b-f3da-4324-a746-b9d35f0b9845/model_usage: all film-scoped source rows",
+      "source_path": "model_usage.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=1",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "1 exported model_usage rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "extraction_log": {
+      "study": "02-10 case-file preparation",
+      "film_id": "3f6e509b-f3da-4324-a746-b9d35f0b9845",
+      "entity_ids": "3f6e509b-f3da-4324-a746-b9d35f0b9845/extraction_log: all film-scoped source rows",
+      "source_path": "extraction_log.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=1",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "1 exported extraction_log rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "other_items": {
+      "study": "02-10 case-file preparation",
+      "film_id": "3f6e509b-f3da-4324-a746-b9d35f0b9845",
+      "entity_ids": "3f6e509b-f3da-4324-a746-b9d35f0b9845/other_items: all film-scoped source rows",
+      "source_path": "other_items.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=0",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "0 exported other_items rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    }
+  },
+  "field_states": {
+    "films": {
+      "in_priority_scope": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "most_watched_rank_top100": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "views": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "likes": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "comments": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "audience_votes": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "editorial_selection": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "title": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "creator": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "creator_profile_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "project_url": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "description": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "duration": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "submitted_at": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "category": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "shortlist_status": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "film_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "thumbnail_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "project_brief": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "production_notes": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "model_usage_summary": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "extraction_status": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "is_open_source": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "show_prompts": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "snapshot_folder_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "root_folder_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "reported_generations": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "authors_json": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "source_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "source_record_file": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "project_metadata_source_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      }
+    },
+    "priority_films": {
+      "in_priority_scope": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "most_watched_rank_top100": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "views": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "likes": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "comments": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "audience_votes": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "editorial_selection": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "title": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "creator": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "creator_profile_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "project_url": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "description": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "duration": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "submitted_at": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "category": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "shortlist_status": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "film_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "thumbnail_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "project_brief": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "production_notes": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "model_usage_summary": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "extraction_status": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "is_open_source": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "show_prompts": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "snapshot_folder_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "root_folder_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "reported_generations": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "authors_json": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "source_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "source_record_file": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "project_metadata_source_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      }
+    },
+    "folders": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 2
+      },
+      "folder_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 2
+      },
+      "parent_folder_id": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "folder_name": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 2
+      },
+      "folder_path": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 2
+      },
+      "source_folder_path": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 2
+      },
+      "folder_type": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 2
+      },
+      "item_count": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 2
+      },
+      "subfolders_count": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 2
+      },
+      "source_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 2
+      }
+    },
+    "generations": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 4
+      },
+      "folder_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 4
+      },
+      "generation_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 4
+      },
+      "generation_batch_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 4
+      },
+      "generation_type": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 4
+      },
+      "model_provider": {
+        "unavailable": 4,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "model_name": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 4
+      },
+      "model_identifier": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 4
+      },
+      "prompt": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 4
+      },
+      "prompt_source_path": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 4
+      },
+      "negative_prompt": {
+        "unavailable": 4,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "parameters_json": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 4
+      },
+      "created_at": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 4
+      },
+      "source_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 4
+      },
+      "extraction_status": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 4
+      },
+      "generation_status": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 4
+      },
+      "author_user_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 4
+      },
+      "author_username": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 4
+      },
+      "source_record_file": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 4
+      },
+      "source_provenance_method": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 4
+      }
+    },
+    "generation_prompts": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 4
+      },
+      "generation_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 4
+      },
+      "field_path": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 4
+      },
+      "prompt_role": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 4
+      },
+      "text": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 4
+      }
+    },
+    "assets": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 201
+      },
+      "generation_id": {
+        "unavailable": 197,
+        "empty": 0,
+        "nonempty": 4
+      },
+      "asset_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 201
+      },
+      "asset_type": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 201
+      },
+      "asset_role": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 201
+      },
+      "asset_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 201
+      },
+      "source_asset_id": {
+        "unavailable": 201,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "folder_id": {
+        "unavailable": 4,
+        "empty": 0,
+        "nonempty": 197
+      },
+      "metadata_json": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 201
+      }
+    },
+    "asset_usages": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 12
+      },
+      "generation_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 12
+      },
+      "asset_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 12
+      },
+      "asset_role": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 12
+      },
+      "asset_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 12
+      },
+      "metadata_json": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 12
+      },
+      "parameter_role": {
+        "unavailable": 12,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "parameter_path": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 12
+      },
+      "reference_element_id": {
+        "unavailable": 12,
+        "empty": 0,
+        "nonempty": 0
+      }
+    },
+    "asset_folders": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 197
+      },
+      "asset_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 197
+      },
+      "folder_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 197
+      }
+    },
+    "generation_folders": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 4
+      },
+      "generation_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 4
+      },
+      "folder_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 4
+      },
+      "folder_job_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 4
+      }
+    },
+    "reference_elements": {},
+    "brief_assets": {},
+    "model_usage": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "model_name": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "model_identifier": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "provider": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "usage_count": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "usage_percentage": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "source_type": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "source_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      }
+    },
+    "extraction_log": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "project_url": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "extraction_timestamp": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "extraction_status": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "folders_found": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "generations_found": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "assets_found": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "missing_fields": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "errors": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "items_received": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "items_complete": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "folders_complete": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "reported_generations": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "generation_count_reconciles": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "brief_complete": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "leaf_recovery_complete": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "leaf_recovery_errors": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      }
+    },
+    "other_items": {}
+  },
+  "generations": {
+    "generation_type": [
+      {
+        "value": "image",
+        "count": 4
+      }
+    ],
+    "model_identifier": [
+      {
+        "value": "nano_banana_2",
+        "count": 4
+      }
+    ],
+    "model_name": [
+      {
+        "value": "Nano Banana Pro",
+        "count": 4
+      }
+    ],
+    "author_user_id": [
+      {
+        "value": "user_2wwyhbh8lDpmH1mP1OxCginF8pU",
+        "count": 4
+      }
+    ],
+    "generation_status": [
+      {
+        "value": "completed",
+        "count": 4
+      }
+    ]
+  },
+  "prompt_states": {
+    "unavailable": 0,
+    "empty": 0,
+    "nonempty": 4,
+    "distinct_nonempty": 1
+  },
+  "text_roles": [
+    {
+      "value": "prompt_or_text",
+      "count": 4
+    }
+  ],
+  "usage_roles": [
+    {
+      "value": "input_asset",
+      "count": 8
+    },
+    {
+      "value": "output",
+      "count": 4
+    }
+  ],
+  "parameter_controls": [
+    {
+      "model": "nano_banana_2",
+      "path": "aspect_ratio",
+      "value": "\"21:9\"",
+      "count": 4
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "duration",
+      "value": "<unavailable>",
+      "count": 4
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "generate_audio",
+      "value": "<unavailable>",
+      "count": 4
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "is_inpaint",
+      "value": "<unavailable>",
+      "count": 4
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "model",
+      "value": "<unavailable>",
+      "count": 4
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "multi_shots",
+      "value": "<unavailable>",
+      "count": 4
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "resolution",
+      "value": "\"2k\"",
+      "count": 4
+    }
+  ],
+  "invalid_parameters": [],
+  "folders": [
+    {
+      "folder_id": "2229f4c9-38f5-4d50-9471-089d4d8bf93a",
+      "folder_name": "A Tales Before Titanic Tragedy",
+      "parent_folder_id": null,
+      "generation_placements": 4
+    },
+    {
+      "folder_id": "c430bad9-9fff-44a7-8a7d-e607d37ad6d9",
+      "folder_name": "Watermarks",
+      "parent_folder_id": "2229f4c9-38f5-4d50-9471-089d4d8bf93a",
+      "generation_placements": 0
+    }
+  ],
+  "references": [],
+  "graph": {
+    "explicit_distinct_producer_consumer_asset_role_path_edges": 0,
+    "distinct_input_assets": 2,
+    "alias_policy": "Exact asset IDs only; no URL or visual alias merging"
+  },
+  "reading_register": [
+    {
+      "generation_id": "416eb299-5a02-4dd1-99c1-8a11d9de0b04",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "6e4ad139-8170-444a-9063-2b01b69444f9",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "7277e1f4-4d8a-4120-b001-9a651fc36c2f",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "a1d84f68-04f9-4894-b9f8-65e7f6eafa2d",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    }
+  ]
+}
