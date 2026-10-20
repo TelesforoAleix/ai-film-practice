@@ -4,7 +4,7 @@ import csv
 import hashlib
 import json
 import re
-from collections import Counter
+from collections import Counter, defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
@@ -91,7 +91,40 @@ def validate_profile(profile, rows, edges):
     for values in profile["generations"].values():
         if sum(v["count"] for v in values) != n:
             raise ValueError("Generation distribution denominator mismatch")
+    if "prompt_states" in profile:
+        states = profile["prompt_states"]
+        exported = profile["field_states"]["generations"]["prompt"]
+        if any(states[k] != exported[k] for k in exported) or not (
+            0 <= states["distinct_nonempty"] <= states["nonempty"]
+        ):
+            raise ValueError("Prompt state denominator mismatch")
+    for field, table in [
+        ("text_roles", "generation_prompts"),
+        ("usage_roles", "asset_usages"),
+    ]:
+        if field in profile and (
+            any(v["count"] < 0 for v in profile[field])
+            or sum(v["count"] for v in profile[field]) != counts[table]
+        ):
+            raise ValueError("Role distribution denominator mismatch")
+    if "parameter_controls" in profile and not profile["invalid_parameters"]:
+        models = {
+            r["value"]: r["count"] for r in profile["generations"]["model_identifier"]
+        }
+        controls = defaultdict(int)
+        for value in profile["parameter_controls"]:
+            if value["count"] < 0:
+                raise ValueError("Negative control count")
+            controls[value["model"], value["path"]] += value["count"]
+        if any(count != models.get(model) for (model, _), count in controls.items()):
+            raise ValueError("Control distribution denominator mismatch")
     for row in rows:
+        scopes = re.findall(
+            r"([^; ]+)/(?:generation|asset|reference|folder|author|film):",
+            row["entity_ids"],
+        )
+        if any(scope != fid for scope in scopes):
+            raise ValueError("Evidence compound key crosses film scope")
         for generation in re.findall(r"/generation:([^; ]+)", row["entity_ids"]):
             # Descendant enumeration deliberately searches the complete graph.
             if row["code_id"] != "07.5" and generation not in ids:
@@ -99,6 +132,21 @@ def validate_profile(profile, rows, edges):
     for edge in edges["edges"]:
         if not edge["usages"]:
             raise ValueError("Traced edge needs usage provenance")
+
+
+def validate_registration(rows, profile, registered):
+    """Preserve literal panel titles, including significant whitespace."""
+    if any(r["title"] != registered["title"] for r in rows):
+        raise ValueError("Literal registered title mismatch")
+    if profile["title"] != registered["title"]:
+        raise ValueError("Literal profile title mismatch")
+    for table, field in [
+        ("generations", "generations"),
+        ("folders", "folders"),
+        ("reference_elements", "reference_elements"),
+    ]:
+        if profile["row_counts"][table] != int(registered[field]):
+            raise ValueError("Registered entity count mismatch")
 
 
 def main():
@@ -115,7 +163,7 @@ def main():
         raise ValueError("No case files")
     with (corpus / "outputs/panel.csv").open() as stream:
         panel = {r["film_id"]: r for r in csv.DictReader(stream)}
-    expected = {fid for fid, r in panel.items() if r["batch"] in {"1", "2"}}
+    expected = {fid for fid, r in panel.items() if r["batch"] in {"1", "2", "3"}}
     actual = set()
     manifest = json.loads((ROOT / "reproduction.json").read_text())
     total = 0
@@ -135,8 +183,7 @@ def main():
         if fid in actual or fid not in panel:
             raise ValueError("Duplicate or unregistered panel film")
         actual.add(fid)
-        if profile["row_counts"]["generations"] != int(panel[fid]["generations"]):
-            raise ValueError("Registered job count mismatch")
+        validate_registration(rows, profile, panel[fid])
         if not (path.parent / "CASE.md").is_file():
             raise ValueError("Missing narrative")
         total += len(rows)

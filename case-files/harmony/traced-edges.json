@@ -1,0 +1,38 @@
+{
+  "film_id": "2fd725ab-2604-4220-8cca-d332e9de53a2",
+  "edges": [
+    {
+      "producer": "52b4e96b-5ab6-406c-ab3e-54234dbf0961",
+      "consumer": "1674aeae-dc7c-4605-a504-c048f028d51e",
+      "usages": [
+        {
+          "asset_id": "52b4e96b-5ab6-406c-ab3e-54234dbf0961",
+          "asset_role": "reference_image",
+          "parameter_path": "params.reference_elements[2].medias[0]"
+        }
+      ]
+    },
+    {
+      "producer": "001321d4-59f6-4087-868a-41e299e99923",
+      "consumer": "eb1e92f8-203d-4767-94e8-22c4062a2572",
+      "usages": [
+        {
+          "asset_id": "001321d4-59f6-4087-868a-41e299e99923",
+          "asset_role": "input_video",
+          "parameter_path": "params.medias[1].data"
+        }
+      ]
+    },
+    {
+      "producer": "16ffcdb7-484b-460d-9f01-0b4d29d0e467",
+      "consumer": "0fd1d135-9f48-4e0f-beb5-af2a9108a23c",
+      "usages": [
+        {
+          "asset_id": "16ffcdb7-484b-460d-9f01-0b4d29d0e467",
+          "asset_role": "input_video",
+          "parameter_path": "params.medias[1].data"
+        }
+      ]
+    }
+  ]
+}

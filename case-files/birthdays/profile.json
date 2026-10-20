@@ -1,0 +1,4242 @@
+{
+  "release": "data-2026-10-20",
+  "film_id": "d51d6821-d191-40f7-949b-1086750a2e93",
+  "title": "Birthdays",
+  "cohort_group": "shortlist_only",
+  "row_counts": {
+    "films": 1,
+    "priority_films": 1,
+    "folders": 60,
+    "generations": 1003,
+    "generation_prompts": 1298,
+    "assets": 1076,
+    "asset_usages": 3608,
+    "asset_folders": 1019,
+    "generation_folders": 1005,
+    "reference_elements": 177,
+    "brief_assets": 0,
+    "model_usage": 12,
+    "extraction_log": 1,
+    "other_items": 0
+  },
+  "measure_provenance": {
+    "films": {
+      "study": "02-10 case-file preparation",
+      "film_id": "d51d6821-d191-40f7-949b-1086750a2e93",
+      "entity_ids": "d51d6821-d191-40f7-949b-1086750a2e93/films: all film-scoped source rows",
+      "source_path": "films.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=1",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "1 exported films rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "priority_films": {
+      "study": "02-10 case-file preparation",
+      "film_id": "d51d6821-d191-40f7-949b-1086750a2e93",
+      "entity_ids": "d51d6821-d191-40f7-949b-1086750a2e93/priority_films: all film-scoped source rows",
+      "source_path": "priority_films.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=1",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "1 exported priority_films rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "folders": {
+      "study": "02-10 case-file preparation",
+      "film_id": "d51d6821-d191-40f7-949b-1086750a2e93",
+      "entity_ids": "d51d6821-d191-40f7-949b-1086750a2e93/folders: all film-scoped source rows",
+      "source_path": "folders.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=60",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "60 exported folders rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "generations": {
+      "study": "02-10 case-file preparation",
+      "film_id": "d51d6821-d191-40f7-949b-1086750a2e93",
+      "entity_ids": "d51d6821-d191-40f7-949b-1086750a2e93/generations: all film-scoped source rows",
+      "source_path": "generations.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=1003",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "1003 exported generations rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "generation_prompts": {
+      "study": "02-10 case-file preparation",
+      "film_id": "d51d6821-d191-40f7-949b-1086750a2e93",
+      "entity_ids": "d51d6821-d191-40f7-949b-1086750a2e93/generation_prompts: all film-scoped source rows",
+      "source_path": "generation_prompts.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=1298",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "1298 exported generation_prompts rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "assets": {
+      "study": "02-10 case-file preparation",
+      "film_id": "d51d6821-d191-40f7-949b-1086750a2e93",
+      "entity_ids": "d51d6821-d191-40f7-949b-1086750a2e93/assets: all film-scoped source rows",
+      "source_path": "assets.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=1076",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "1076 exported assets rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "asset_usages": {
+      "study": "02-10 case-file preparation",
+      "film_id": "d51d6821-d191-40f7-949b-1086750a2e93",
+      "entity_ids": "d51d6821-d191-40f7-949b-1086750a2e93/asset_usages: all film-scoped source rows",
+      "source_path": "asset_usages.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=3608",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "3608 exported asset_usages rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "asset_folders": {
+      "study": "02-10 case-file preparation",
+      "film_id": "d51d6821-d191-40f7-949b-1086750a2e93",
+      "entity_ids": "d51d6821-d191-40f7-949b-1086750a2e93/asset_folders: all film-scoped source rows",
+      "source_path": "asset_folders.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=1019",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "1019 exported asset_folders rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "generation_folders": {
+      "study": "02-10 case-file preparation",
+      "film_id": "d51d6821-d191-40f7-949b-1086750a2e93",
+      "entity_ids": "d51d6821-d191-40f7-949b-1086750a2e93/generation_folders: all film-scoped source rows",
+      "source_path": "generation_folders.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=1005",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "1005 exported generation_folders rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "reference_elements": {
+      "study": "02-10 case-file preparation",
+      "film_id": "d51d6821-d191-40f7-949b-1086750a2e93",
+      "entity_ids": "d51d6821-d191-40f7-949b-1086750a2e93/reference_elements: all film-scoped source rows",
+      "source_path": "reference_elements.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=177",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "177 exported reference_elements rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "brief_assets": {
+      "study": "02-10 case-file preparation",
+      "film_id": "d51d6821-d191-40f7-949b-1086750a2e93",
+      "entity_ids": "d51d6821-d191-40f7-949b-1086750a2e93/brief_assets: all film-scoped source rows",
+      "source_path": "brief_assets.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=0",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "0 exported brief_assets rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "model_usage": {
+      "study": "02-10 case-file preparation",
+      "film_id": "d51d6821-d191-40f7-949b-1086750a2e93",
+      "entity_ids": "d51d6821-d191-40f7-949b-1086750a2e93/model_usage: all film-scoped source rows",
+      "source_path": "model_usage.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=12",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "12 exported model_usage rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "extraction_log": {
+      "study": "02-10 case-file preparation",
+      "film_id": "d51d6821-d191-40f7-949b-1086750a2e93",
+      "entity_ids": "d51d6821-d191-40f7-949b-1086750a2e93/extraction_log: all film-scoped source rows",
+      "source_path": "extraction_log.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=1",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "1 exported extraction_log rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "other_items": {
+      "study": "02-10 case-file preparation",
+      "film_id": "d51d6821-d191-40f7-949b-1086750a2e93",
+      "entity_ids": "d51d6821-d191-40f7-949b-1086750a2e93/other_items: all film-scoped source rows",
+      "source_path": "other_items.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=0",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "0 exported other_items rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    }
+  },
+  "field_states": {
+    "films": {
+      "in_priority_scope": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "most_watched_rank_top100": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "views": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "likes": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "comments": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "audience_votes": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "editorial_selection": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "title": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "creator": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "creator_profile_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "project_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "description": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "duration": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "submitted_at": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "category": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "shortlist_status": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "film_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "thumbnail_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "project_brief": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "production_notes": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "model_usage_summary": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "extraction_status": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "is_open_source": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "show_prompts": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "snapshot_folder_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "root_folder_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "reported_generations": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "authors_json": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "source_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "source_record_file": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "project_metadata_source_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      }
+    },
+    "priority_films": {
+      "in_priority_scope": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "most_watched_rank_top100": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "views": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "likes": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "comments": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "audience_votes": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "editorial_selection": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "title": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "creator": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "creator_profile_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "project_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "description": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "duration": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "submitted_at": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "category": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "shortlist_status": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "film_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "thumbnail_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "project_brief": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "production_notes": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "model_usage_summary": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "extraction_status": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "is_open_source": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "show_prompts": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "snapshot_folder_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "root_folder_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "reported_generations": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "authors_json": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "source_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "source_record_file": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "project_metadata_source_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      }
+    },
+    "folders": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 60
+      },
+      "folder_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 60
+      },
+      "parent_folder_id": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 59
+      },
+      "folder_name": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 60
+      },
+      "folder_path": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 60
+      },
+      "source_folder_path": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 60
+      },
+      "folder_type": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 60
+      },
+      "item_count": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 60
+      },
+      "subfolders_count": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 60
+      },
+      "source_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 60
+      }
+    },
+    "generations": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1003
+      },
+      "folder_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1003
+      },
+      "generation_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1003
+      },
+      "generation_batch_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1003
+      },
+      "generation_type": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1003
+      },
+      "model_provider": {
+        "unavailable": 1003,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "model_name": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1003
+      },
+      "model_identifier": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1003
+      },
+      "prompt": {
+        "unavailable": 16,
+        "empty": 1,
+        "nonempty": 986
+      },
+      "prompt_source_path": {
+        "unavailable": 16,
+        "empty": 0,
+        "nonempty": 987
+      },
+      "negative_prompt": {
+        "unavailable": 1003,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "parameters_json": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1003
+      },
+      "created_at": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1003
+      },
+      "source_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1003
+      },
+      "extraction_status": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1003
+      },
+      "generation_status": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1003
+      },
+      "author_user_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1003
+      },
+      "author_username": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1003
+      },
+      "source_record_file": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1003
+      },
+      "source_provenance_method": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1003
+      }
+    },
+    "generation_prompts": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1298
+      },
+      "generation_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1298
+      },
+      "field_path": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1298
+      },
+      "prompt_role": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1298
+      },
+      "text": {
+        "unavailable": 0,
+        "empty": 1,
+        "nonempty": 1297
+      }
+    },
+    "assets": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1076
+      },
+      "generation_id": {
+        "unavailable": 73,
+        "empty": 0,
+        "nonempty": 1003
+      },
+      "asset_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1076
+      },
+      "asset_type": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1076
+      },
+      "asset_role": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1076
+      },
+      "asset_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1076
+      },
+      "source_asset_id": {
+        "unavailable": 1076,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "folder_id": {
+        "unavailable": 59,
+        "empty": 0,
+        "nonempty": 1017
+      },
+      "metadata_json": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1076
+      }
+    },
+    "asset_usages": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 3608
+      },
+      "generation_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 3608
+      },
+      "asset_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 3608
+      },
+      "asset_role": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 3608
+      },
+      "asset_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 3608
+      },
+      "metadata_json": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 3608
+      },
+      "parameter_role": {
+        "unavailable": 3148,
+        "empty": 0,
+        "nonempty": 460
+      },
+      "parameter_path": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 3608
+      },
+      "reference_element_id": {
+        "unavailable": 1807,
+        "empty": 0,
+        "nonempty": 1801
+      }
+    },
+    "asset_folders": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1019
+      },
+      "asset_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1019
+      },
+      "folder_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1019
+      }
+    },
+    "generation_folders": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1005
+      },
+      "generation_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1005
+      },
+      "folder_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1005
+      },
+      "folder_job_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1005
+      }
+    },
+    "reference_elements": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 177
+      },
+      "reference_element_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 177
+      },
+      "name": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 177
+      },
+      "category": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 177
+      },
+      "description": {
+        "unavailable": 168,
+        "empty": 9,
+        "nonempty": 0
+      },
+      "metadata_json": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 177
+      }
+    },
+    "brief_assets": {},
+    "model_usage": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 12
+      },
+      "model_name": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 12
+      },
+      "model_identifier": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 12
+      },
+      "provider": {
+        "unavailable": 12,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "usage_count": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 12
+      },
+      "usage_percentage": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 12
+      },
+      "source_type": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 12
+      },
+      "source_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 12
+      }
+    },
+    "extraction_log": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "project_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "extraction_timestamp": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "extraction_status": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "folders_found": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "generations_found": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "assets_found": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "missing_fields": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "errors": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "items_received": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "items_complete": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "folders_complete": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "reported_generations": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "generation_count_reconciles": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "brief_complete": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "leaf_recovery_complete": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "leaf_recovery_errors": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      }
+    },
+    "other_items": {}
+  },
+  "generations": {
+    "generation_type": [
+      {
+        "value": "image",
+        "count": 675
+      },
+      {
+        "value": "video",
+        "count": 328
+      }
+    ],
+    "model_identifier": [
+      {
+        "value": "bytedance_video_upscale",
+        "count": 4
+      },
+      {
+        "value": "cinematic_video_editor",
+        "count": 2
+      },
+      {
+        "value": "flux_2",
+        "count": 2
+      },
+      {
+        "value": "image_auto",
+        "count": 320
+      },
+      {
+        "value": "kling_omni_image",
+        "count": 1
+      },
+      {
+        "value": "nano_banana_2",
+        "count": 74
+      },
+      {
+        "value": "seedance_2_5",
+        "count": 311
+      },
+      {
+        "value": "seedream_v4_5",
+        "count": 219
+      },
+      {
+        "value": "seedream_v5_lite",
+        "count": 58
+      },
+      {
+        "value": "seedream_v5_pro",
+        "count": 1
+      },
+      {
+        "value": "topaz_video",
+        "count": 7
+      },
+      {
+        "value": "voice_change_merge",
+        "count": 4
+      }
+    ],
+    "model_name": [
+      {
+        "value": "Bytedance Video Upscale",
+        "count": 4
+      },
+      {
+        "value": "Cinematic Video Editor",
+        "count": 2
+      },
+      {
+        "value": "FLUX.2",
+        "count": 2
+      },
+      {
+        "value": "Image Auto",
+        "count": 320
+      },
+      {
+        "value": "Kling O1 Image",
+        "count": 1
+      },
+      {
+        "value": "Nano Banana Pro",
+        "count": 74
+      },
+      {
+        "value": "Seedance 2.5",
+        "count": 311
+      },
+      {
+        "value": "Seedream 4.5",
+        "count": 219
+      },
+      {
+        "value": "Seedream 5.0 Lite",
+        "count": 58
+      },
+      {
+        "value": "Seedream 5.0 Pro",
+        "count": 1
+      },
+      {
+        "value": "Topaz Video",
+        "count": 7
+      },
+      {
+        "value": "Voice Change",
+        "count": 4
+      }
+    ],
+    "author_user_id": [
+      {
+        "value": "user_35BJ9zqHXLIFPAH9VwL2Xv9OXoL",
+        "count": 1003
+      }
+    ],
+    "generation_status": [
+      {
+        "value": "completed",
+        "count": 1003
+      }
+    ]
+  },
+  "prompt_states": {
+    "unavailable": 16,
+    "empty": 1,
+    "nonempty": 986,
+    "distinct_nonempty": 892
+  },
+  "text_roles": [
+    {
+      "value": "prompt_or_text",
+      "count": 1298
+    }
+  ],
+  "usage_roles": [
+    {
+      "value": "input_asset",
+      "count": 344
+    },
+    {
+      "value": "input_image",
+      "count": 406
+    },
+    {
+      "value": "input_start_image",
+      "count": 2
+    },
+    {
+      "value": "input_video",
+      "count": 52
+    },
+    {
+      "value": "output",
+      "count": 1003
+    },
+    {
+      "value": "reference_image",
+      "count": 1801
+    }
+  ],
+  "parameter_controls": [
+    {
+      "model": "bytedance_video_upscale",
+      "path": "aspect_ratio",
+      "value": "<unavailable>",
+      "count": 4
+    },
+    {
+      "model": "bytedance_video_upscale",
+      "path": "duration",
+      "value": "<unavailable>",
+      "count": 4
+    },
+    {
+      "model": "bytedance_video_upscale",
+      "path": "generate_audio",
+      "value": "<unavailable>",
+      "count": 4
+    },
+    {
+      "model": "bytedance_video_upscale",
+      "path": "is_inpaint",
+      "value": "<unavailable>",
+      "count": 4
+    },
+    {
+      "model": "bytedance_video_upscale",
+      "path": "model",
+      "value": "<unavailable>",
+      "count": 4
+    },
+    {
+      "model": "bytedance_video_upscale",
+      "path": "multi_shots",
+      "value": "<unavailable>",
+      "count": 4
+    },
+    {
+      "model": "bytedance_video_upscale",
+      "path": "resolution",
+      "value": "\"1080p\"",
+      "count": 4
+    },
+    {
+      "model": "cinematic_video_editor",
+      "path": "aspect_ratio",
+      "value": "\"16:9\"",
+      "count": 1
+    },
+    {
+      "model": "cinematic_video_editor",
+      "path": "aspect_ratio",
+      "value": "<unavailable>",
+      "count": 1
+    },
+    {
+      "model": "cinematic_video_editor",
+      "path": "duration",
+      "value": "8",
+      "count": 1
+    },
+    {
+      "model": "cinematic_video_editor",
+      "path": "duration",
+      "value": "<unavailable>",
+      "count": 1
+    },
+    {
+      "model": "cinematic_video_editor",
+      "path": "generate_audio",
+      "value": "<unavailable>",
+      "count": 2
+    },
+    {
+      "model": "cinematic_video_editor",
+      "path": "is_inpaint",
+      "value": "<unavailable>",
+      "count": 2
+    },
+    {
+      "model": "cinematic_video_editor",
+      "path": "model",
+      "value": "<unavailable>",
+      "count": 2
+    },
+    {
+      "model": "cinematic_video_editor",
+      "path": "multi_shots",
+      "value": "<unavailable>",
+      "count": 2
+    },
+    {
+      "model": "cinematic_video_editor",
+      "path": "resolution",
+      "value": "\"1080p\"",
+      "count": 1
+    },
+    {
+      "model": "cinematic_video_editor",
+      "path": "resolution",
+      "value": "<unavailable>",
+      "count": 1
+    },
+    {
+      "model": "flux_2",
+      "path": "aspect_ratio",
+      "value": "\"16:9\"",
+      "count": 2
+    },
+    {
+      "model": "flux_2",
+      "path": "duration",
+      "value": "<unavailable>",
+      "count": 2
+    },
+    {
+      "model": "flux_2",
+      "path": "generate_audio",
+      "value": "<unavailable>",
+      "count": 2
+    },
+    {
+      "model": "flux_2",
+      "path": "is_inpaint",
+      "value": "<unavailable>",
+      "count": 2
+    },
+    {
+      "model": "flux_2",
+      "path": "model",
+      "value": "\"pro\"",
+      "count": 2
+    },
+    {
+      "model": "flux_2",
+      "path": "multi_shots",
+      "value": "<unavailable>",
+      "count": 2
+    },
+    {
+      "model": "flux_2",
+      "path": "resolution",
+      "value": "\"1k\"",
+      "count": 2
+    },
+    {
+      "model": "image_auto",
+      "path": "aspect_ratio",
+      "value": "\"16:9\"",
+      "count": 320
+    },
+    {
+      "model": "image_auto",
+      "path": "duration",
+      "value": "<unavailable>",
+      "count": 320
+    },
+    {
+      "model": "image_auto",
+      "path": "generate_audio",
+      "value": "<unavailable>",
+      "count": 320
+    },
+    {
+      "model": "image_auto",
+      "path": "is_inpaint",
+      "value": "<unavailable>",
+      "count": 320
+    },
+    {
+      "model": "image_auto",
+      "path": "model",
+      "value": "<unavailable>",
+      "count": 320
+    },
+    {
+      "model": "image_auto",
+      "path": "multi_shots",
+      "value": "<unavailable>",
+      "count": 320
+    },
+    {
+      "model": "image_auto",
+      "path": "resolution",
+      "value": "\"2k\"",
+      "count": 320
+    },
+    {
+      "model": "kling_omni_image",
+      "path": "aspect_ratio",
+      "value": "\"16:9\"",
+      "count": 1
+    },
+    {
+      "model": "kling_omni_image",
+      "path": "duration",
+      "value": "<unavailable>",
+      "count": 1
+    },
+    {
+      "model": "kling_omni_image",
+      "path": "generate_audio",
+      "value": "<unavailable>",
+      "count": 1
+    },
+    {
+      "model": "kling_omni_image",
+      "path": "is_inpaint",
+      "value": "<unavailable>",
+      "count": 1
+    },
+    {
+      "model": "kling_omni_image",
+      "path": "model",
+      "value": "<unavailable>",
+      "count": 1
+    },
+    {
+      "model": "kling_omni_image",
+      "path": "multi_shots",
+      "value": "<unavailable>",
+      "count": 1
+    },
+    {
+      "model": "kling_omni_image",
+      "path": "resolution",
+      "value": "\"1k\"",
+      "count": 1
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "aspect_ratio",
+      "value": "\"16:9\"",
+      "count": 73
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "aspect_ratio",
+      "value": "\"9:16\"",
+      "count": 1
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "duration",
+      "value": "<unavailable>",
+      "count": 74
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "generate_audio",
+      "value": "<unavailable>",
+      "count": 74
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "is_inpaint",
+      "value": "<unavailable>",
+      "count": 74
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "model",
+      "value": "<unavailable>",
+      "count": 74
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "multi_shots",
+      "value": "<unavailable>",
+      "count": 74
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "resolution",
+      "value": "\"1k\"",
+      "count": 1
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "resolution",
+      "value": "\"2k\"",
+      "count": 73
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "aspect_ratio",
+      "value": "\"16:9\"",
+      "count": 311
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "10",
+      "count": 30
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "11",
+      "count": 3
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "12",
+      "count": 25
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "13",
+      "count": 14
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "14",
+      "count": 7
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "15",
+      "count": 20
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "16",
+      "count": 18
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "17",
+      "count": 8
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "18",
+      "count": 7
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "20",
+      "count": 115
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "21",
+      "count": 1
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "5",
+      "count": 10
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "6",
+      "count": 12
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "7",
+      "count": 4
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "8",
+      "count": 30
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "9",
+      "count": 7
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "generate_audio",
+      "value": "true",
+      "count": 311
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "is_inpaint",
+      "value": "<unavailable>",
+      "count": 311
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "model",
+      "value": "\"default\"",
+      "count": 302
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "model",
+      "value": "\"video_edit\"",
+      "count": 9
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "multi_shots",
+      "value": "false",
+      "count": 311
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "resolution",
+      "value": "\"720p\"",
+      "count": 311
+    },
+    {
+      "model": "seedream_v4_5",
+      "path": "aspect_ratio",
+      "value": "\"16:9\"",
+      "count": 214
+    },
+    {
+      "model": "seedream_v4_5",
+      "path": "aspect_ratio",
+      "value": "\"3:4\"",
+      "count": 2
+    },
+    {
+      "model": "seedream_v4_5",
+      "path": "aspect_ratio",
+      "value": "\"4:3\"",
+      "count": 3
+    },
+    {
+      "model": "seedream_v4_5",
+      "path": "duration",
+      "value": "<unavailable>",
+      "count": 219
+    },
+    {
+      "model": "seedream_v4_5",
+      "path": "generate_audio",
+      "value": "<unavailable>",
+      "count": 219
+    },
+    {
+      "model": "seedream_v4_5",
+      "path": "is_inpaint",
+      "value": "<unavailable>",
+      "count": 219
+    },
+    {
+      "model": "seedream_v4_5",
+      "path": "model",
+      "value": "<unavailable>",
+      "count": 219
+    },
+    {
+      "model": "seedream_v4_5",
+      "path": "multi_shots",
+      "value": "<unavailable>",
+      "count": 219
+    },
+    {
+      "model": "seedream_v4_5",
+      "path": "resolution",
+      "value": "<unavailable>",
+      "count": 219
+    },
+    {
+      "model": "seedream_v5_lite",
+      "path": "aspect_ratio",
+      "value": "\"16:9\"",
+      "count": 58
+    },
+    {
+      "model": "seedream_v5_lite",
+      "path": "duration",
+      "value": "<unavailable>",
+      "count": 58
+    },
+    {
+      "model": "seedream_v5_lite",
+      "path": "generate_audio",
+      "value": "<unavailable>",
+      "count": 58
+    },
+    {
+      "model": "seedream_v5_lite",
+      "path": "is_inpaint",
+      "value": "<unavailable>",
+      "count": 58
+    },
+    {
+      "model": "seedream_v5_lite",
+      "path": "model",
+      "value": "<unavailable>",
+      "count": 58
+    },
+    {
+      "model": "seedream_v5_lite",
+      "path": "multi_shots",
+      "value": "<unavailable>",
+      "count": 58
+    },
+    {
+      "model": "seedream_v5_lite",
+      "path": "resolution",
+      "value": "<unavailable>",
+      "count": 58
+    },
+    {
+      "model": "seedream_v5_pro",
+      "path": "aspect_ratio",
+      "value": "\"16:9\"",
+      "count": 1
+    },
+    {
+      "model": "seedream_v5_pro",
+      "path": "duration",
+      "value": "<unavailable>",
+      "count": 1
+    },
+    {
+      "model": "seedream_v5_pro",
+      "path": "generate_audio",
+      "value": "<unavailable>",
+      "count": 1
+    },
+    {
+      "model": "seedream_v5_pro",
+      "path": "is_inpaint",
+      "value": "false",
+      "count": 1
+    },
+    {
+      "model": "seedream_v5_pro",
+      "path": "model",
+      "value": "<unavailable>",
+      "count": 1
+    },
+    {
+      "model": "seedream_v5_pro",
+      "path": "multi_shots",
+      "value": "<unavailable>",
+      "count": 1
+    },
+    {
+      "model": "seedream_v5_pro",
+      "path": "resolution",
+      "value": "\"1k\"",
+      "count": 1
+    },
+    {
+      "model": "topaz_video",
+      "path": "aspect_ratio",
+      "value": "<unavailable>",
+      "count": 7
+    },
+    {
+      "model": "topaz_video",
+      "path": "duration",
+      "value": "<unavailable>",
+      "count": 7
+    },
+    {
+      "model": "topaz_video",
+      "path": "generate_audio",
+      "value": "<unavailable>",
+      "count": 7
+    },
+    {
+      "model": "topaz_video",
+      "path": "is_inpaint",
+      "value": "<unavailable>",
+      "count": 7
+    },
+    {
+      "model": "topaz_video",
+      "path": "model",
+      "value": "<unavailable>",
+      "count": 7
+    },
+    {
+      "model": "topaz_video",
+      "path": "multi_shots",
+      "value": "<unavailable>",
+      "count": 7
+    },
+    {
+      "model": "topaz_video",
+      "path": "resolution",
+      "value": "<unavailable>",
+      "count": 7
+    },
+    {
+      "model": "voice_change_merge",
+      "path": "aspect_ratio",
+      "value": "<unavailable>",
+      "count": 4
+    },
+    {
+      "model": "voice_change_merge",
+      "path": "duration",
+      "value": "<unavailable>",
+      "count": 4
+    },
+    {
+      "model": "voice_change_merge",
+      "path": "generate_audio",
+      "value": "<unavailable>",
+      "count": 4
+    },
+    {
+      "model": "voice_change_merge",
+      "path": "is_inpaint",
+      "value": "<unavailable>",
+      "count": 4
+    },
+    {
+      "model": "voice_change_merge",
+      "path": "model",
+      "value": "<unavailable>",
+      "count": 4
+    },
+    {
+      "model": "voice_change_merge",
+      "path": "multi_shots",
+      "value": "<unavailable>",
+      "count": 4
+    },
+    {
+      "model": "voice_change_merge",
+      "path": "resolution",
+      "value": "<unavailable>",
+      "count": 4
+    }
+  ],
+  "invalid_parameters": [],
+  "folders": [
+    {
+      "folder_id": "014763b3-9808-41dc-882c-2804f9c83c03",
+      "folder_name": "Marc 40-50",
+      "parent_folder_id": "65a48157-a191-47d2-933d-1e86b929f8dd",
+      "generation_placements": 15
+    },
+    {
+      "folder_id": "06372cb0-519d-4e49-8f59-0a93bcd2b233",
+      "folder_name": "4 The Verdict Birthday · 1970s",
+      "parent_folder_id": "13ee3c91-bb3c-4087-8f2f-267c509d5971",
+      "generation_placements": 31
+    },
+    {
+      "folder_id": "06e98e5a-8f12-4f98-ade3-d856eec6bb5a",
+      "folder_name": "7  Mother's Funeral · early 90s",
+      "parent_folder_id": "13ee3c91-bb3c-4087-8f2f-267c509d5971",
+      "generation_placements": 6
+    },
+    {
+      "folder_id": "08243654-03f4-43b5-bcab-5a816647ea22",
+      "folder_name": "Mom's House",
+      "parent_folder_id": "7f39e9c2-bd3f-433c-a568-765d8c9d614b",
+      "generation_placements": 22
+    },
+    {
+      "folder_id": "13ee3c91-bb3c-4087-8f2f-267c509d5971",
+      "folder_name": "Scenes",
+      "parent_folder_id": "eff438d3-c082-451b-bf75-0af8a824a016",
+      "generation_placements": 2
+    },
+    {
+      "folder_id": "15b4dc8c-5658-41b9-adac-e46ae63512bc",
+      "folder_name": "June 70-80",
+      "parent_folder_id": "e6553a91-860a-45c7-a7bc-80aad8412928",
+      "generation_placements": 8
+    },
+    {
+      "folder_id": "165741ce-f2d3-4b57-943f-c5b13306bc4b",
+      "folder_name": "10 The Collapse · 2010s",
+      "parent_folder_id": "13ee3c91-bb3c-4087-8f2f-267c509d5971",
+      "generation_placements": 33
+    },
+    {
+      "folder_id": "183f3af3-7d10-4906-973b-0904d3eda92f",
+      "folder_name": "Bookstore",
+      "parent_folder_id": "47622321-3355-4cc0-8405-f3a763d4fa89",
+      "generation_placements": 6
+    },
+    {
+      "folder_id": "1df1a91e-4bef-455d-a661-e9a4fb47ae76",
+      "folder_name": "80s outfit",
+      "parent_folder_id": "9c20e215-7462-468c-be06-18342d0faa22",
+      "generation_placements": 10
+    },
+    {
+      "folder_id": "2680fa3a-376c-48a6-a655-b3958c1dbd59",
+      "folder_name": "Props",
+      "parent_folder_id": "eff438d3-c082-451b-bf75-0af8a824a016",
+      "generation_placements": 75
+    },
+    {
+      "folder_id": "29bd5f4e-f696-4ae1-9eeb-75af95aa102f",
+      "folder_name": "June 40-50",
+      "parent_folder_id": "e6553a91-860a-45c7-a7bc-80aad8412928",
+      "generation_placements": 14
+    },
+    {
+      "folder_id": "2bacdc93-2e0e-43c6-b53e-7b905422dd00",
+      "folder_name": "Opening",
+      "parent_folder_id": "13ee3c91-bb3c-4087-8f2f-267c509d5971",
+      "generation_placements": 11
+    },
+    {
+      "folder_id": "2dfa1a93-2629-4a1c-987e-b9656e51f4bb",
+      "folder_name": "Hike",
+      "parent_folder_id": "7f39e9c2-bd3f-433c-a568-765d8c9d614b",
+      "generation_placements": 33
+    },
+    {
+      "folder_id": "2eaf0a3f-4b9d-4454-a50a-9a8c29013aa5",
+      "folder_name": "70s outfit",
+      "parent_folder_id": "9c20e215-7462-468c-be06-18342d0faa22",
+      "generation_placements": 53
+    },
+    {
+      "folder_id": "3102d75b-60e8-4bd2-8040-fbf8605f433d",
+      "folder_name": "The Bookstore",
+      "parent_folder_id": "7f39e9c2-bd3f-433c-a568-765d8c9d614b",
+      "generation_placements": 40
+    },
+    {
+      "folder_id": "3302d776-58b6-41da-b0be-368b45002140",
+      "folder_name": "Montage places",
+      "parent_folder_id": "7f39e9c2-bd3f-433c-a568-765d8c9d614b",
+      "generation_placements": 37
+    },
+    {
+      "folder_id": "34185e35-9ebb-4e51-a612-81e93f9c7191",
+      "folder_name": "AI Film Festival",
+      "parent_folder_id": null,
+      "generation_placements": 3
+    },
+    {
+      "folder_id": "341d4eee-0925-4b34-a790-254a33c1d6fb",
+      "folder_name": "60s outfit",
+      "parent_folder_id": "9c20e215-7462-468c-be06-18342d0faa22",
+      "generation_placements": 0
+    },
+    {
+      "folder_id": "35ade46b-a844-4342-9645-0afbe22b5c75",
+      "folder_name": "Marc 30-40",
+      "parent_folder_id": "65a48157-a191-47d2-933d-1e86b929f8dd",
+      "generation_placements": 11
+    },
+    {
+      "folder_id": "36bfc7b5-40e8-490f-bbb5-ad70fc517c69",
+      "folder_name": "University",
+      "parent_folder_id": "7f39e9c2-bd3f-433c-a568-765d8c9d614b",
+      "generation_placements": 10
+    },
+    {
+      "folder_id": "37d0e040-7129-40b2-ae0c-6c12f2e0a3fc",
+      "folder_name": "June 60-70",
+      "parent_folder_id": "e6553a91-860a-45c7-a7bc-80aad8412928",
+      "generation_placements": 9
+    },
+    {
+      "folder_id": "3a1e51b2-1821-4f48-a44d-7001d22895ac",
+      "folder_name": "Wedding",
+      "parent_folder_id": "7f39e9c2-bd3f-433c-a568-765d8c9d614b",
+      "generation_placements": 1
+    },
+    {
+      "folder_id": "3a2f0832-93ab-46c9-b0ae-e9ffade79a1d",
+      "folder_name": "12 Flashback",
+      "parent_folder_id": "13ee3c91-bb3c-4087-8f2f-267c509d5971",
+      "generation_placements": 15
+    },
+    {
+      "folder_id": "437cf34b-4c29-436c-ada5-9f2359a1f91f",
+      "folder_name": "June 20-30",
+      "parent_folder_id": "e6553a91-860a-45c7-a7bc-80aad8412928",
+      "generation_placements": 21
+    },
+    {
+      "folder_id": "47622321-3355-4cc0-8405-f3a763d4fa89",
+      "folder_name": "Characters",
+      "parent_folder_id": "eff438d3-c082-451b-bf75-0af8a824a016",
+      "generation_placements": 0
+    },
+    {
+      "folder_id": "4922ef5a-5371-442f-8086-80d64134f07c",
+      "folder_name": "Audio",
+      "parent_folder_id": "eff438d3-c082-451b-bf75-0af8a824a016",
+      "generation_placements": 0
+    },
+    {
+      "folder_id": "4aa1a61c-88e5-4ec4-9d68-6b29800fabea",
+      "folder_name": "9 The Hike · early 2000s",
+      "parent_folder_id": "13ee3c91-bb3c-4087-8f2f-267c509d5971",
+      "generation_placements": 19
+    },
+    {
+      "folder_id": "50c204c2-db71-4b13-89f3-dc39b18cae9b",
+      "folder_name": "June 30-40",
+      "parent_folder_id": "e6553a91-860a-45c7-a7bc-80aad8412928",
+      "generation_placements": 11
+    },
+    {
+      "folder_id": "5178213b-08dd-4c13-bcf2-83742045a81c",
+      "folder_name": "11 Ending",
+      "parent_folder_id": "13ee3c91-bb3c-4087-8f2f-267c509d5971",
+      "generation_placements": 35
+    },
+    {
+      "folder_id": "5856d8fe-8b81-46ab-9f3c-bde76604ebcc",
+      "folder_name": "2010s outfit",
+      "parent_folder_id": "9c20e215-7462-468c-be06-18342d0faa22",
+      "generation_placements": 25
+    },
+    {
+      "folder_id": "5b963b8f-afc2-4f3d-9a9a-272e16f1f69b",
+      "folder_name": "Hospital",
+      "parent_folder_id": "47622321-3355-4cc0-8405-f3a763d4fa89",
+      "generation_placements": 3
+    },
+    {
+      "folder_id": "5fdce85d-5107-494e-8ee8-18bf68452a16",
+      "folder_name": "1 The Corkboard · 1970s",
+      "parent_folder_id": "13ee3c91-bb3c-4087-8f2f-267c509d5971",
+      "generation_placements": 50
+    },
+    {
+      "folder_id": "65a48157-a191-47d2-933d-1e86b929f8dd",
+      "folder_name": "Marc",
+      "parent_folder_id": "47622321-3355-4cc0-8405-f3a763d4fa89",
+      "generation_placements": 4
+    },
+    {
+      "folder_id": "6c7a7aaf-5cb0-402b-83a9-81af6abd37a0",
+      "folder_name": "Hospital",
+      "parent_folder_id": "7f39e9c2-bd3f-433c-a568-765d8c9d614b",
+      "generation_placements": 21
+    },
+    {
+      "folder_id": "70854f83-7c3b-4100-a16a-50004fb8d8aa",
+      "folder_name": "Marc 70-80",
+      "parent_folder_id": "65a48157-a191-47d2-933d-1e86b929f8dd",
+      "generation_placements": 7
+    },
+    {
+      "folder_id": "7c6c51a1-0b18-4202-ab87-1b34e15e84b7",
+      "folder_name": "June 50-60",
+      "parent_folder_id": "e6553a91-860a-45c7-a7bc-80aad8412928",
+      "generation_placements": 10
+    },
+    {
+      "folder_id": "7f39e9c2-bd3f-433c-a568-765d8c9d614b",
+      "folder_name": "Locations",
+      "parent_folder_id": "eff438d3-c082-451b-bf75-0af8a824a016",
+      "generation_placements": 0
+    },
+    {
+      "folder_id": "804e6af0-e6df-4fa7-8a5d-76c8a97f90f2",
+      "folder_name": "Hikers",
+      "parent_folder_id": "47622321-3355-4cc0-8405-f3a763d4fa89",
+      "generation_placements": 8
+    },
+    {
+      "folder_id": "960d5635-c0b6-4380-a857-e6d7226e81a8",
+      "folder_name": "Marc 60-70",
+      "parent_folder_id": "65a48157-a191-47d2-933d-1e86b929f8dd",
+      "generation_placements": 12
+    },
+    {
+      "folder_id": "9c20e215-7462-468c-be06-18342d0faa22",
+      "folder_name": "Wardrobe",
+      "parent_folder_id": "eff438d3-c082-451b-bf75-0af8a824a016",
+      "generation_placements": 0
+    },
+    {
+      "folder_id": "9f457112-ee53-42e8-b6ee-d2e431c9d693",
+      "folder_name": "Final outfit",
+      "parent_folder_id": "9c20e215-7462-468c-be06-18342d0faa22",
+      "generation_placements": 14
+    },
+    {
+      "folder_id": "a0ff831c-5f4f-415f-b3ec-a9cbef26a14b",
+      "folder_name": "2 The Transformation · 1970s",
+      "parent_folder_id": "13ee3c91-bb3c-4087-8f2f-267c509d5971",
+      "generation_placements": 18
+    },
+    {
+      "folder_id": "a6ce1ae4-ac10-47a9-8e33-46e7680855fa",
+      "folder_name": "Ruth",
+      "parent_folder_id": "47622321-3355-4cc0-8405-f3a763d4fa89",
+      "generation_placements": 10
+    },
+    {
+      "folder_id": "a7c18d25-9e25-4fdc-bec6-51ddb9522b04",
+      "folder_name": "90s outfit",
+      "parent_folder_id": "9c20e215-7462-468c-be06-18342d0faa22",
+      "generation_placements": 18
+    },
+    {
+      "folder_id": "b7e0b7e5-2ea9-4316-9836-34d0ba461056",
+      "folder_name": "Funeral",
+      "parent_folder_id": "7f39e9c2-bd3f-433c-a568-765d8c9d614b",
+      "generation_placements": 13
+    },
+    {
+      "folder_id": "bd10a326-9b9d-4d60-8ae8-597596695bde",
+      "folder_name": "Cover",
+      "parent_folder_id": "eff438d3-c082-451b-bf75-0af8a824a016",
+      "generation_placements": 12
+    },
+    {
+      "folder_id": "befeba90-11b9-44bf-9005-885905ae9e53",
+      "folder_name": "childhood",
+      "parent_folder_id": "7f39e9c2-bd3f-433c-a568-765d8c9d614b",
+      "generation_placements": 10
+    },
+    {
+      "folder_id": "c3722faa-ff06-4685-954f-12255789d069",
+      "folder_name": "8 The Book · 90s",
+      "parent_folder_id": "13ee3c91-bb3c-4087-8f2f-267c509d5971",
+      "generation_placements": 40
+    },
+    {
+      "folder_id": "c5d32e71-357d-423f-a442-98222b811cee",
+      "folder_name": "6 Moving Day · early 80s",
+      "parent_folder_id": "13ee3c91-bb3c-4087-8f2f-267c509d5971",
+      "generation_placements": 24
+    },
+    {
+      "folder_id": "c812a7fe-68e0-4ba3-9631-4adde5c0ec1f",
+      "folder_name": "Marc 50-60",
+      "parent_folder_id": "65a48157-a191-47d2-933d-1e86b929f8dd",
+      "generation_placements": 19
+    },
+    {
+      "folder_id": "c9edb8f5-c485-4408-a97a-a60075ff7097",
+      "folder_name": "5 The Wedding · 1979",
+      "parent_folder_id": "13ee3c91-bb3c-4087-8f2f-267c509d5971",
+      "generation_placements": 22
+    },
+    {
+      "folder_id": "cd4e2f46-4fd2-48fd-82c3-29033b7f77be",
+      "folder_name": "New House",
+      "parent_folder_id": "7f39e9c2-bd3f-433c-a568-765d8c9d614b",
+      "generation_placements": 49
+    },
+    {
+      "folder_id": "cd5f05ed-ab89-4861-b666-82c611aab1b7",
+      "folder_name": "Watermarks",
+      "parent_folder_id": "34185e35-9ebb-4e51-a612-81e93f9c7191",
+      "generation_placements": 0
+    },
+    {
+      "folder_id": "d5203f1a-c9fb-4a4e-8e90-a89f2315730b",
+      "folder_name": "under 20",
+      "parent_folder_id": "65a48157-a191-47d2-933d-1e86b929f8dd",
+      "generation_placements": 9
+    },
+    {
+      "folder_id": "d556176d-11de-4e8d-80ed-6c182f0c56a7",
+      "folder_name": "Final",
+      "parent_folder_id": "7f39e9c2-bd3f-433c-a568-765d8c9d614b",
+      "generation_placements": 12
+    },
+    {
+      "folder_id": "e6553a91-860a-45c7-a7bc-80aad8412928",
+      "folder_name": "June",
+      "parent_folder_id": "47622321-3355-4cc0-8405-f3a763d4fa89",
+      "generation_placements": 1
+    },
+    {
+      "folder_id": "e690c537-bf15-4710-9f47-c707ebda3a0f",
+      "folder_name": "Marc 20-30",
+      "parent_folder_id": "65a48157-a191-47d2-933d-1e86b929f8dd",
+      "generation_placements": 13
+    },
+    {
+      "folder_id": "e7bb11bb-18f9-49a2-bb7d-afb97c6526bf",
+      "folder_name": "3 Matched Year · 1970s",
+      "parent_folder_id": "13ee3c91-bb3c-4087-8f2f-267c509d5971",
+      "generation_placements": 25
+    },
+    {
+      "folder_id": "ef7ca8d1-cc60-406b-a411-53095a1c45d5",
+      "folder_name": "00s outfit",
+      "parent_folder_id": "9c20e215-7462-468c-be06-18342d0faa22",
+      "generation_placements": 25
+    },
+    {
+      "folder_id": "eff438d3-c082-451b-bf75-0af8a824a016",
+      "folder_name": "Birthdays",
+      "parent_folder_id": "34185e35-9ebb-4e51-a612-81e93f9c7191",
+      "generation_placements": 0
+    }
+  ],
+  "references": [
+    {
+      "reference_element_id": "0081efc8-e424-4661-be51-98fb89dfbf10",
+      "name": "prop_marc-outfit-moving2",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "01b8954c-3a94-4275-b07a-31bc6aa1f64b",
+      "name": "date2-park",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "0325047c-7c86-44cb-be43-f20081a75479",
+      "name": "Marc-outfit-date1",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "037d1dc5-007c-4de0-8292-8f872d0b6814",
+      "name": "Marc-outfit-home",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "04ec823a-562d-40c9-9d3f-fa91f8a3bca0",
+      "name": "loc_date3-wig-store",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "06bd806c-5c3a-4d1a-9cde-ef6e26a6ab2b",
+      "name": "prop_june-outfit-funeral",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "0780d883-2575-4c60-be7e-23d851d2e7ed",
+      "name": "char_marc-25",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "0898b3d0-868d-4d08-9c12-8ead89221b6d",
+      "name": "Library",
+      "category": "auto:environment"
+    },
+    {
+      "reference_element_id": "0a319cc4-787a-47b3-a3aa-3e3f21ff6992",
+      "name": "Marc-body-70",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "0d4325b0-6214-4c84-ac9f-9dfd36e35d84",
+      "name": "prop_june-outfit-collapse",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "0ed43e5c-27fe-4b94-bf85-db52256f7a47",
+      "name": "prop_tablet",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "0f97cbc0-458d-45a0-a9e7-7536fbc41c08",
+      "name": "char_marc-50-70s",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "126b680a-9a47-43c8-ab7c-facf7052f42e",
+      "name": "marc-outfit-home2000",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "12920982-c059-4cfd-9cff-73c15fba60d7",
+      "name": "loc_gym",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "12f94cdc-8574-45d4-9c2b-a4396e7ee8b6",
+      "name": "char_marc-6",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "16aba480-0c03-43f3-b22d-bb9f6b822bf9",
+      "name": "june-moving",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "1750105a-6dcd-4014-a35c-341f7146f9e2",
+      "name": "char_marc-78",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "1b0ac1dc-9159-49ef-8a14-b941d378b93e",
+      "name": "Ruth-50-1970",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "1cfeb056-f16b-40fc-a42d-2efe0d205bed",
+      "name": "loc_snowy-street",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "25a82124-a941-401f-a8dd-d77efe0eaa83",
+      "name": "prop_june-outfit-final",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "27711cf4-364e-4903-9578-7a73ac269eb2",
+      "name": "loc_mom-s-home-corridor-night",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "28b7bb79-ffb0-4e98-8817-485cde7f0ce9",
+      "name": "char_hiker3",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "2c5264c2-3dcd-46a0-8697-de9ad778a5fd",
+      "name": "prop_june-outfit-2000s-2",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "2d5e8dc5-fde4-41f0-8d4e-467a26034c18",
+      "name": "loc_gym2",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "2dd0b27b-5688-4a81-98ef-ebc183a1dd0f",
+      "name": "june-22-school-look",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "32974b43-b627-44c8-80c3-3f479980a3f3",
+      "name": "moving-man",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "336d56fc-6f54-409d-a2f1-b30783d50e5c",
+      "name": "Marc-22-1970s-School",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "33a46325-54c4-4e3f-82f3-75005b7051c4",
+      "name": "june-50",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "33b68fb4-4e3b-4e00-be31-cc18eecef6c7",
+      "name": "loc_paint-store",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "347ed3ee-f823-4956-9a90-5b772ef548a9",
+      "name": "date3-gig",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "34d6faf4-ae0b-4d98-a7e9-531593402004",
+      "name": "prop_june-outfit-moving2",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "35d644a9-39f6-4443-83ba-3b0cb2394611",
+      "name": "Marc-55-70s",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "3641d2bd-c82c-42a7-9887-34e6dc250a85",
+      "name": "prop_june-outfit-bday1",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "3731800d-d8ec-4e79-aa33-75d30b40a824",
+      "name": "polaroid-camera",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "3857966f-b59d-4a62-b483-a6fb8221453d",
+      "name": "char_marc-36",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "38d11ffc-8e0e-41f6-92e4-d816212d9ecf",
+      "name": "loc_date5-picnic",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "3a57e444-d8a1-4548-a591-64b4cc87d829",
+      "name": "char_manager",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "3b5f46d1-8c3e-498b-b90a-cfadad18520e",
+      "name": "marc-bag",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "3d0a39a7-211d-4e5f-a688-a02c3b221532",
+      "name": "prop_marc-outfit-2000s",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "3d3347e1-203d-4957-89cf-aed972e427d9",
+      "name": "Marc-outfit-70-bday",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "3e0bced4-2d59-4067-a346-e7adb28e0bf8",
+      "name": "prop_marc-outfit-final2",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "3e1526b1-d75f-44dd-b83a-3e1a10bf9858",
+      "name": "char_june-wedding",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "3f834c5e-7924-4879-8c87-a973489e862f",
+      "name": "prop_marc-outfit-2010-park",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "404fa42f-ec00-4ce3-bcb9-896478da1bc5",
+      "name": "June-bag",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "42d08c7e-522f-4f4a-b4b5-aed2acad240e",
+      "name": "Marc-wed2-1976",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "489ad234-e1ba-43c5-a0f8-603db43171e7",
+      "name": "prop_map",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "4942fe23-4f48-4b3a-978d-836c12c867de",
+      "name": "june-outfit-moving3",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "4aa6954f-d972-40df-b6f0-eeee6b45ce19",
+      "name": "loc_new-home-exterior",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "50c044cd-9dab-4d61-ac24-80a0c01692af",
+      "name": "char_june-60",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "53b95fbb-455c-4100-9f8d-aaa50cd6829e",
+      "name": "prop_marc-outfit-date5",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "5560cb3f-5565-477c-ab9b-d08d7cc93a9b",
+      "name": "prop_june-outfit-date5",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "56422ec4-ad7b-4a0d-a2bf-5669f09f406c",
+      "name": "prop_married-photo2",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "56b511e6-f884-4a19-b765-b91320815423",
+      "name": "char_bookstore-staff",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "576b1a2b-2c4d-4e0a-b8e7-f10a5d53acef",
+      "name": "loc_hiking-scene",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "585a5193-8a7d-47cf-91b7-08084cc0568b",
+      "name": "loc_mom-s-home-night",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "597d05ec-efb2-4116-bbac-7eee03845616",
+      "name": "prop_marc-outfit-final",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "59ad8419-d5c0-459e-ac3c-bd4501626be3",
+      "name": "loc_bookstore-90s",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "5b33f98f-e669-4aee-b7db-51707968aee1",
+      "name": "loc_park-bench",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "5b4d7c20-41d5-4352-892d-926c379615e8",
+      "name": "prop_hotdog",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "5cb0dbb1-a6e3-480e-9e0e-8fe7373b7fde",
+      "name": "June-cafe-outfit",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "616f58c4-3411-48eb-8caf-b8813933465b",
+      "name": "date4-lake-side",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "6318e74f-3af8-4f90-a560-3422ed10d5cf",
+      "name": "university-outdoor",
+      "category": "auto:environment"
+    },
+    {
+      "reference_element_id": "6370a861-a235-4285-abe5-e6922e6fab13",
+      "name": "char_boss-wife",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "6599ea85-2626-4bad-bc95-986a78fb455e",
+      "name": "char_june-22-2",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "692e087b-8387-4a5d-9850-a21c4f1627e2",
+      "name": "char_doctor",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "6b11e4f1-f6d0-4df7-800f-b324b4b49d9a",
+      "name": "prop_marc-outfit-2000s-2",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "6b731d4a-647d-443b-a231-2ce1a048ef39",
+      "name": "Marc-outfit-date2",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "6c6acc33-79b8-4748-a010-75046825182c",
+      "name": "popcorn",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "6d3bc240-2d37-4775-ae28-4f14ca398c9a",
+      "name": "prop_hiker-stick",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "6e3901e2-bf6a-4678-9e0b-4e0f3c91b3bb",
+      "name": "prop_ruth-outfit-home2",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "710d4923-3ad2-49a6-b112-5f89e690d8bb",
+      "name": "Marc-outfit-date3",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "7154b8c5-f2e7-4f6a-a40d-161e8b4e823c",
+      "name": "char_hiker2",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "72c96582-8bbf-4f7a-b9ee-80f27288fa0b",
+      "name": "loc_mom-home-dining-day",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "753050c5-1650-4a85-b05e-6cea31746548",
+      "name": "marc-outfit-school2",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "75afa587-7de5-48fc-be1c-ea9777d77649",
+      "name": "marc-polaroid-18",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "77b95b61-02c4-447d-9a7c-5c3e015f76dc",
+      "name": "loc_new-home-moving",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "7ab15e6b-d02f-4c9b-aa3a-33c1b4f1b3f9",
+      "name": "Marc-70-70s-school",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "7bf13a77-585c-40ef-926c-d30de9806f25",
+      "name": "prop_stick-elderly",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "7c60777f-4ae1-442e-865c-50aa863813cb",
+      "name": "char_boss",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "7d400b27-ebfc-4b66-92de-6994d9fd9980",
+      "name": "char_waitress",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "7d740dcf-dda0-4394-b5c2-b754ddbc82b4",
+      "name": "prop_book",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "7ef108fc-061f-4655-85b2-da18fa70853c",
+      "name": "char_june-78",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "7ffc8428-9bab-4de2-846c-4b56e5ceebaf",
+      "name": "June-outfit-date2",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "822ada3e-90bc-4d7d-b96d-78ef8cd6faa2",
+      "name": "marc-outfit-school3",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "8495b3e8-77ee-483e-901c-799e50887cb2",
+      "name": "marc-outfit-70s-school",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "84ac0caa-8688-4f81-ac6f-cb0f82570e6d",
+      "name": "prop_june-outfit-passing",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "84f9c805-37ba-4e85-a01c-d3674040a256",
+      "name": "prop_marc-gym",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "871fd653-f508-4d01-90c6-9c5c83a39b67",
+      "name": "june-headband",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "879d349b-f360-4113-b159-222257dc44a5",
+      "name": "loc_new-home-study-90s2",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "87e30111-6bf2-460e-b063-64e6dac0fdc3",
+      "name": "prop_marc-outfit-home-collapse",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "8ad7ce9b-0a8c-471f-8a41-a4b399d57633",
+      "name": "date2-rollerskating",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "8c69f962-aef5-4248-8dee-d43ebff6f8c2",
+      "name": "prop_water-bottle",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "8d04077d-65c3-4e7a-a523-4f8ccfd3fca9",
+      "name": "marc-polaroid-19",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "8d0ff015-1231-4e34-b978-0aa667968815",
+      "name": "date4-ice-skating",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "91f7a43f-bd97-4240-b060-0b3a4961c76f",
+      "name": "Marc-cafe-outfit-2",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "927fc92a-9eeb-4286-93a3-6ba2f29e2d96",
+      "name": "prop_marc-outfit-bday1",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "941ce687-d029-4b12-b005-d4990c74c892",
+      "name": "prop_marc-outfit-kid",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "95f48f1e-e8fa-4b89-b7f8-50bd031a4cab",
+      "name": "moms-home",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "960ec469-0a34-471c-a6b6-d83aeb5fec64",
+      "name": "june-outfit-date1",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "96a38714-dbf6-4241-8301-6c7e5942de3d",
+      "name": "marc-70-school",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "97d62340-8455-4450-988f-b307009d602a",
+      "name": "loc_moms-home-living-room",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "9918cdeb-f4d2-45b1-b791-a4b5266e48aa",
+      "name": "Marc-body-21",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "9e4891a5-1f91-4923-a5f3-14f9ad65784c",
+      "name": "date1-bookstore",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "9ef1afb1-eeb9-43d4-ba3b-39d644a882cf",
+      "name": "marc-52",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "9f95f0fa-5cd4-4b64-b956-47333c2d047a",
+      "name": "June-outfit-date4",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "9f965987-06f2-42c9-8970-352791067d26",
+      "name": "char_hiker1",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "a16cc33e-78e0-4b9e-9d3c-b99fcecb2a0b",
+      "name": "prop_marc-outfit-funeral",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "a993f0c1-7832-433e-9ba0-17091776e59c",
+      "name": "prop_married-photo",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "a9e97e5a-193e-418d-9750-41e714fee321",
+      "name": "loc_mom-home-dining",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "aa18e9e0-a61f-4193-be20-54f4daa2fca9",
+      "name": "Marc-outfit2-school",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "ac04561f-0678-4183-84b7-3d59c97527db",
+      "name": "June-22",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "ad81c040-cc1c-47d4-9345-d34398fff5c4",
+      "name": "loc_classroom",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "af687a52-bb6f-4097-8092-dd186c8b2e6d",
+      "name": "loc_date4-diners-spot",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "af9d59cb-b2a1-4dec-9b33-3f75517d7748",
+      "name": "Marc-outfit-date4",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "b0e6294a-4a9d-49aa-936e-db2c01e0ac59",
+      "name": "char_june-42-1997",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "b14d5cca-1df8-483b-9107-ad56d04cdf38",
+      "name": "Lecture-hall",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "b43f37e0-a483-40d7-8f99-d0db5f4cc6b9",
+      "name": "prop_marc-outfit-90s-3",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "b4d4ba78-5cc1-4584-92bc-16dbbb17dd92",
+      "name": "char_marc-moving",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "b83e32fa-0221-4914-8d2e-f2d871212008",
+      "name": "prop_phone",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "b9a2cc35-db3c-4168-8ca7-9fc6a2db8979",
+      "name": "prop_marc-outfit-hike",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "ba754cec-6db4-4842-9f8d-db265595ad78",
+      "name": "char_june-ending",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "bac0b142-3238-43bb-aca5-d4524403c3b9",
+      "name": "prop_june-outfit-90s-2",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "bb090012-4275-416b-a351-0cace6fa1cfd",
+      "name": "marc-17",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "bb2f3fda-2868-4f8a-90fd-b09ebb6298fd",
+      "name": "june-outfit-home-2000",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "c0128b71-3ae4-48b1-948a-fb38405236b5",
+      "name": "char_june-moving3",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "c23db041-f225-4684-8fa4-a99140da0a04",
+      "name": "wedding-ring",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "c665bc0f-13c0-498a-8312-bb089b8a1706",
+      "name": "prop_marc-outfit-home3",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "c70da6ca-cfd6-43d5-9521-0a6ffaed31c1",
+      "name": "Marc-moving-1982",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "c8749eb1-8336-4d07-9d3a-7f689dd504f0",
+      "name": "prop_june-outfit-home3",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "cb3ee08f-8de6-4286-bc22-65f50f83f47e",
+      "name": "corkboard",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "cbafaece-d200-4154-a554-2b8e85e2e4c3",
+      "name": "char_manager-wife",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "cbfb93d5-c40c-4ef0-b613-4b2661d7171f",
+      "name": "moms-home-corridor",
+      "category": "auto:environment"
+    },
+    {
+      "reference_element_id": "cca67dd8-0016-4bb6-99dc-1f94226c0df9",
+      "name": "prop_june-outfit-hiking",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "cd487e78-0e31-42c2-8dc0-b35d39d95a0c",
+      "name": "marc-schoolbag",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "d24b6cbe-f0a8-4d3c-8d30-4df41bfb0578",
+      "name": "loc_hiking-path",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "d5b53d93-2060-4681-b2ff-fbae175921d1",
+      "name": "prop_paint-can",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "d5f363be-bb5d-4f47-b401-4bb60a8ad48e",
+      "name": "prop_cake-22",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "d631af74-6204-45fb-b415-ae0dde7f16b5",
+      "name": "char_marc-10",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "d70c2e8d-4415-4a13-b389-53da437c7d44",
+      "name": "Marc-polaroid-20",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "d8807922-678e-40d5-9741-375bf0b1fb5b",
+      "name": "new-home-2020s",
+      "category": "auto:environment"
+    },
+    {
+      "reference_element_id": "d9308dfd-a4ca-486a-afcd-e52692161577",
+      "name": "prop_june-outfit-dinner",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "d9b26670-ac8d-470c-a87b-d22351298111",
+      "name": "char_june-42",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "da5d3912-d1cc-4fd9-ba2e-66cc762bcf3f",
+      "name": "prop_marc-outfit-25-suit",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "db42cb6f-7686-4cfa-aebe-34362edefadb",
+      "name": "prop_june-outfit-90s",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "db8f793a-a71b-4aaa-83fd-9fa3d23f72c4",
+      "name": "june-moving2",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "de1c2a10-b8f6-43fa-b2e6-865a3d76527e",
+      "name": "June-outfit-date3",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "def68c8e-5591-4fc8-8b95-eb9d549e482f",
+      "name": "Marc-cake-21",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "df4f9e93-b543-45d4-8163-4b95b61e7911",
+      "name": "prop_marc-outfit-17",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "e0b9adc2-9c7d-48b4-a61d-8102c9bddea6",
+      "name": "prop_marc-outfit-80s",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "e125891e-4be3-4ccd-a6ad-a596f456fa33",
+      "name": "prop_marc-outfit-90s",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "e228cf86-d743-4429-a7cb-e24db6067785",
+      "name": "prop_marc-outfit-gym",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "e30f16d6-7415-4329-93e0-f846cfe095d6",
+      "name": "Marc-room",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "e37be4d3-87b9-45a1-afcf-37bcc8841cce",
+      "name": "Marc-cafe-outfit",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "e630c486-9414-438a-b762-d7ecfd9e544e",
+      "name": "prop_marc-polaroid-20-2",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "e6503e1f-cfa3-400b-9865-0f73e765df5c",
+      "name": "June-school-look-2",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "e6c8f3a0-724f-4b52-acf5-d846b785e8b1",
+      "name": "School-cafe",
+      "category": "auto:environment"
+    },
+    {
+      "reference_element_id": "e723fbbd-5c3c-4b1d-882c-52829aa6fee6",
+      "name": "people-queue",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "eb3b4ea6-2108-4cc2-a343-46e482405293",
+      "name": "loc_park",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "ebc8f4c9-d015-4cb8-b59b-ff763e662f7c",
+      "name": "char_marc-48-funeral",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "ebf1cdb2-5a6b-47de-8bfc-dfdf801d4cbd",
+      "name": "moms-home-bathroom",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "ec2b8a22-c080-4570-9d82-f83f707dd150",
+      "name": "char_june-50-2",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "ed2f67ff-de75-46b9-9c83-69182cf96beb",
+      "name": "loc_hospital-room",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "ed8a772d-32be-42e1-b1da-5ca3618e23bd",
+      "name": "char_june-funeral-35",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "ee018f68-ab46-4326-bb21-09d00731ec03",
+      "name": "loc_restaurant-business-dinner",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "ee14e276-47b0-4fb3-a973-29230175eb3d",
+      "name": "char_ruth-funeral-photo",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "f10ca08f-a8aa-464b-a562-2e813af4bb71",
+      "name": "prop_june-outfit-2010-park",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "f2c39ed6-37d4-48ae-87cf-16ab564d862b",
+      "name": "loc_hospital",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "f2c4b213-e209-4735-b186-106070e10a88",
+      "name": "prop_smartphone",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "f5aefa5f-20e4-45fb-9cea-8711903dd895",
+      "name": "loc_hospital-corridor",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "f68574d8-b008-4093-a876-2068ea70a5fd",
+      "name": "loc_marc-room-night",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "f7832bbe-82f8-40d5-9224-85007484a121",
+      "name": "loc_funeral-room",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "f8c8c8e2-c21d-4df2-8c39-fa18edbdd715",
+      "name": "prop_ruth-outfit-wedding",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "f9d49ca6-f805-477d-abd0-e49b951a34db",
+      "name": "ruth-outfit-home",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "fad9b0ee-edae-457b-b807-7fe140d19d55",
+      "name": "date2-rollerskating2",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "faedbe2c-5618-46d3-9500-95018602c521",
+      "name": "Marc-polaroid-20",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "fec4242f-510f-4469-8d10-29e95f621189",
+      "name": "loc_moms-home-bathroom2",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "ff413698-9502-4d86-b75d-efddfed8a1a8",
+      "name": "prop_june-outfit-80s2",
+      "category": "prop"
+    }
+  ],
+  "graph": {
+    "explicit_distinct_producer_consumer_asset_role_path_edges": 2506,
+    "distinct_input_assets": 433,
+    "alias_policy": "Exact asset IDs only; no URL or visual alias merging"
+  },
+  "reading_register": [
+    {
+      "generation_id": "0014cfd5-e8f9-4b5a-8ab3-f2f5b93d2452",
+      "reasons": [
+        "control_or_reference:('reference', '2dd0b27b-5688-4a81-98ef-ebc183a1dd0f')",
+        "control_or_reference:('reference', '35d644a9-39f6-4443-83ba-3b0cb2394611')",
+        "control_or_reference:('reference', '3b5f46d1-8c3e-498b-b90a-cfadad18520e')",
+        "control_or_reference:('reference', '8495b3e8-77ee-483e-901c-799e50887cb2')",
+        "control_or_reference:('reference', 'b14d5cca-1df8-483b-9107-ad56d04cdf38')",
+        "control_or_reference:('seedance_2_5', 'generate_audio', 'True')",
+        "control_or_reference:('seedance_2_5', 'model', 'default')",
+        "control_or_reference:('seedance_2_5', 'multi_shots', 'False')",
+        "folder:5fdce85d-5107-494e-8ee8-18bf68452a16",
+        "input_role_set:('video', ('reference_image',))",
+        "type_model:('video', 'seedance_2_5')"
+      ]
+    },
+    {
+      "generation_id": "00788b4b-209a-4dbb-93bb-480dd0c031ef",
+      "reasons": [
+        "folder:5b963b8f-afc2-4f3d-9a9a-272e16f1f69b",
+        "input_role_set:('image', ('input_asset',))",
+        "type_model:('image', 'seedream_v4_5')"
+      ]
+    },
+    {
+      "generation_id": "009ca8dd-381b-44d6-8ce6-dfc3966f494d",
+      "reasons": [
+        "control_or_reference:('reference', '0780d883-2575-4c60-be7e-23d851d2e7ed')",
+        "control_or_reference:('reference', '33a46325-54c4-4e3f-82f3-75005b7051c4')",
+        "control_or_reference:('reference', '7d400b27-ebfc-4b66-92de-6994d9fd9980')",
+        "control_or_reference:('reference', 'da5d3912-d1cc-4fd9-ba2e-66cc762bcf3f')",
+        "control_or_reference:('reference', 'ee018f68-ab46-4326-bb21-09d00731ec03')",
+        "folder:4aa1a61c-88e5-4ec4-9d68-6b29800fabea"
+      ]
+    },
+    {
+      "generation_id": "00afd995-33cf-406c-a752-a7b054e27f29",
+      "reasons": [
+        "edge_producer:('seedream_v4_5', 'seedance_2_5', 'reference_image')",
+        "folder:5856d8fe-8b81-46ab-9f3c-bde76604ebcc"
+      ]
+    },
+    {
+      "generation_id": "00d478e5-5194-4988-88b7-f6e3db38b22a",
+      "reasons": [
+        "control_or_reference:('reference', '0a319cc4-787a-47b3-a3aa-3e3f21ff6992')",
+        "control_or_reference:('reference', '9918cdeb-f4d2-45b1-b791-a4b5266e48aa')",
+        "control_or_reference:('reference', 'ac04561f-0678-4183-84b7-3d59c97527db')",
+        "edge_consumer:('image_auto', 'nano_banana_2', 'reference_image')",
+        "folder:bd10a326-9b9d-4d60-8ae8-597596695bde",
+        "input_role_set:('image', ('input_asset', 'reference_image'))",
+        "type_model:('image', 'nano_banana_2')"
+      ]
+    },
+    {
+      "generation_id": "00d85fec-7ffa-4330-baac-0102762eee9f",
+      "reasons": [
+        "folder:2680fa3a-376c-48a6-a655-b3958c1dbd59"
+      ]
+    },
+    {
+      "generation_id": "00f09130-a8d5-474a-8eef-37c9d68f3fcd",
+      "reasons": [
+        "edge_producer:('seedream_v5_lite', 'seedance_2_5', 'reference_image')",
+        "folder:a7c18d25-9e25-4fdc-bec6-51ddb9522b04",
+        "input_role_set:('image', ('input_image',))",
+        "type_model:('image', 'seedream_v5_lite')"
+      ]
+    },
+    {
+      "generation_id": "01306558-17ce-4617-90f5-0094af2db62a",
+      "reasons": [
+        "edge_producer:('seedream_v4_5', 'nano_banana_2', 'input_asset')",
+        "folder:15b4dc8c-5658-41b9-adac-e46ae63512bc"
+      ]
+    },
+    {
+      "generation_id": "019860f5-2ca0-4a0f-9d80-f34a22bc3054",
+      "reasons": [
+        "edge_producer:('image_auto', 'seedance_2_5', 'reference_image')",
+        "edge_producer:('image_auto', 'seedream_v4_5', 'input_asset')",
+        "edge_producer:('image_auto', 'seedream_v4_5', 'reference_image')",
+        "folder:a6ce1ae4-ac10-47a9-8e33-46e7680855fa",
+        "type_model:('image', 'image_auto')"
+      ]
+    },
+    {
+      "generation_id": "01cd3b64-752d-4697-8249-9abddeb543f1",
+      "reasons": [
+        "edge_producer:('seedream_v4_5', 'seedream_v4_5', 'input_asset')",
+        "folder:ef7ca8d1-cc60-406b-a411-53095a1c45d5",
+        "input_role_set:('image', ())"
+      ]
+    },
+    {
+      "generation_id": "02af602f-d217-4d47-add6-7720623f57a6",
+      "reasons": [
+        "control_or_reference:('reference', '1b0ac1dc-9159-49ef-8a14-b941d378b93e')",
+        "control_or_reference:('reference', '6e3901e2-bf6a-4678-9e0b-4e0f3c91b3bb')",
+        "control_or_reference:('reference', 'a9e97e5a-193e-418d-9750-41e714fee321')",
+        "control_or_reference:('reference', 'd5f363be-bb5d-4f47-b401-4bb60a8ad48e')",
+        "folder:06372cb0-519d-4e49-8f59-0a93bcd2b233"
+      ]
+    },
+    {
+      "generation_id": "02c4e729-53e6-42df-b73a-42d90fc2c872",
+      "reasons": [
+        "control_or_reference:('reference', 'ad81c040-cc1c-47d4-9345-d34398fff5c4')",
+        "control_or_reference:('reference', 'bb090012-4275-416b-a351-0cace6fa1cfd')",
+        "control_or_reference:('reference', 'df4f9e93-b543-45d4-8163-4b95b61e7911')",
+        "edge_producer:('seedance_2_5', 'seedance_2_5', 'input_video')",
+        "folder:3a2f0832-93ab-46c9-b0ae-e9ffade79a1d"
+      ]
+    },
+    {
+      "generation_id": "02ea441e-e8ac-43a7-9efb-d37fac02b2b2",
+      "reasons": [
+        "control_or_reference:('reference', '126b680a-9a47-43c8-ab7c-facf7052f42e')",
+        "control_or_reference:('reference', '879d349b-f360-4113-b159-222257dc44a5')",
+        "control_or_reference:('reference', 'c23db041-f225-4684-8fa4-a99140da0a04')",
+        "control_or_reference:('reference', 'ebc8f4c9-d015-4cb8-b59b-ff763e662f7c')",
+        "folder:c3722faa-ff06-4685-954f-12255789d069"
+      ]
+    },
+    {
+      "generation_id": "031962cc-6e38-4a95-9a8e-a22016a10018",
+      "reasons": [
+        "control_or_reference:('reference', '3641d2bd-c82c-42a7-9887-34e6dc250a85')",
+        "control_or_reference:('reference', '6599ea85-2626-4bad-bc95-986a78fb455e')",
+        "control_or_reference:('reference', '927fc92a-9eeb-4286-93a3-6ba2f29e2d96')",
+        "input_role_set:('video', ('input_video', 'reference_image'))"
+      ]
+    },
+    {
+      "generation_id": "0361f8d5-8fdc-46a0-a00f-d043b613bb7a",
+      "reasons": [
+        "control_or_reference:('reference', '404fa42f-ec00-4ce3-bcb9-896478da1bc5')",
+        "control_or_reference:('reference', '7ab15e6b-d02f-4c9b-aa3a-33c1b4f1b3f9')",
+        "control_or_reference:('reference', '96a38714-dbf6-4241-8301-6c7e5942de3d')"
+      ]
+    },
+    {
+      "generation_id": "0389a43d-04d7-45a0-8bf9-a9da9c2ca22d",
+      "reasons": [
+        "folder:437cf34b-4c29-436c-ada5-9f2359a1f91f"
+      ]
+    },
+    {
+      "generation_id": "03ebb335-4369-42c9-a022-a2cf4bb255b8",
+      "reasons": [
+        "control_or_reference:('reference', '7d740dcf-dda0-4394-b5c2-b754ddbc82b4')",
+        "edge_consumer:('flux_2', 'seedream_v4_5', 'reference_image')",
+        "folder:3102d75b-60e8-4bd2-8040-fbf8605f433d"
+      ]
+    },
+    {
+      "generation_id": "03fbd60d-dffd-487c-af38-1c192ca4496a",
+      "reasons": [
+        "folder:c812a7fe-68e0-4ba3-9631-4adde5c0ec1f"
+      ]
+    },
+    {
+      "generation_id": "04d6ab99-f06f-434b-ad60-c09128378336",
+      "reasons": [
+        "edge_producer:('image_auto', 'image_auto', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "04f25937-8d3e-47f3-810d-70cec1ed0932",
+      "reasons": [
+        "control_or_reference:('reference', '0d4325b0-6214-4c84-ac9f-9dfd36e35d84')",
+        "control_or_reference:('reference', '3857966f-b59d-4a62-b483-a6fb8221453d')",
+        "control_or_reference:('reference', '50c044cd-9dab-4d61-ac24-80a0c01692af')",
+        "control_or_reference:('reference', '87e30111-6bf2-460e-b063-64e6dac0fdc3')",
+        "control_or_reference:('reference', 'c665bc0f-13c0-498a-8312-bb089b8a1706')",
+        "control_or_reference:('reference', 'c8749eb1-8336-4d07-9d3a-7f689dd504f0')",
+        "control_or_reference:('reference', 'd8807922-678e-40d5-9741-375bf0b1fb5b')",
+        "edge_consumer:('seedream_v4_5', 'seedance_2_5', 'reference_image')",
+        "folder:165741ce-f2d3-4b57-943f-c5b13306bc4b"
+      ]
+    },
+    {
+      "generation_id": "0500b4f1-1f91-409b-8544-3ca98b32a193",
+      "reasons": [
+        "edge_producer:('nano_banana_2', 'seedance_2_5', 'input_image')",
+        "folder:a0ff831c-5f4f-415f-b3ec-a9cbef26a14b"
+      ]
+    },
+    {
+      "generation_id": "051a4506-8116-47ae-b557-da72e0d4eaaf",
+      "reasons": [
+        "folder:014763b3-9808-41dc-882c-2804f9c83c03"
+      ]
+    },
+    {
+      "generation_id": "056a9b56-8668-4684-9d4d-f76e587944e3",
+      "reasons": [
+        "folder:2eaf0a3f-4b9d-4454-a50a-9a8c29013aa5"
+      ]
+    },
+    {
+      "generation_id": "0597bf24-0c72-4112-a58b-25f3e9fb16b5",
+      "reasons": [
+        "control_or_reference:('reference', '32974b43-b627-44c8-80c3-3f479980a3f3')",
+        "control_or_reference:('reference', '34d6faf4-ae0b-4d98-a7e9-531593402004')",
+        "control_or_reference:('reference', '77b95b61-02c4-447d-9a7c-5c3e015f76dc')",
+        "control_or_reference:('reference', 'b4d4ba78-5cc1-4584-92bc-16dbbb17dd92')",
+        "control_or_reference:('reference', 'c0128b71-3ae4-48b1-948a-fb38405236b5')",
+        "control_or_reference:('reference', 'c70da6ca-cfd6-43d5-9521-0a6ffaed31c1')",
+        "folder:c5d32e71-357d-423f-a442-98222b811cee"
+      ]
+    },
+    {
+      "generation_id": "059d0609-8ecd-47d9-a22b-ee7c29917cda",
+      "reasons": [
+        "folder:50c204c2-db71-4b13-89f3-dc39b18cae9b"
+      ]
+    },
+    {
+      "generation_id": "066905c7-34b7-4938-aceb-7de23a038530",
+      "reasons": [
+        "folder:3302d776-58b6-41da-b0be-368b45002140"
+      ]
+    },
+    {
+      "generation_id": "0699cb53-1aca-420d-b212-95c13707caaa",
+      "reasons": [
+        "folder:cd4e2f46-4fd2-48fd-82c3-29033b7f77be"
+      ]
+    },
+    {
+      "generation_id": "071dab16-5053-487f-a48f-8f1f8de7614c",
+      "reasons": [
+        "edge_producer:('image_auto', 'nano_banana_2', 'reference_image')",
+        "edge_producer:('image_auto', 'seedance_2_5', 'input_image')",
+        "folder:e690c537-bf15-4710-9f47-c707ebda3a0f"
+      ]
+    },
+    {
+      "generation_id": "077cafcb-0562-48e3-91e7-50609efaad9a",
+      "reasons": [
+        "folder:29bd5f4e-f696-4ae1-9eeb-75af95aa102f"
+      ]
+    },
+    {
+      "generation_id": "077fd643-b54b-46f3-847a-0b331b8fc98f",
+      "reasons": [
+        "folder:183f3af3-7d10-4906-973b-0904d3eda92f"
+      ]
+    },
+    {
+      "generation_id": "07bdad63-4545-4a3c-b9b6-448181f20819",
+      "reasons": [
+        "folder:7c6c51a1-0b18-4202-ab87-1b34e15e84b7"
+      ]
+    },
+    {
+      "generation_id": "08590362-d368-4a89-832e-9b242208d64d",
+      "reasons": [
+        "control_or_reference:('seedance_2_5', 'model', 'video_edit')",
+        "input_role_set:('video', ('input_video',))"
+      ]
+    },
+    {
+      "generation_id": "085c702c-cdf2-4372-9e38-3aeeabcf874e",
+      "reasons": [
+        "folder:c9edb8f5-c485-4408-a97a-a60075ff7097",
+        "type_model:('video', 'bytedance_video_upscale')"
+      ]
+    },
+    {
+      "generation_id": "08a3af2d-3609-4a23-a6d3-3ccd6dae0aa3",
+      "reasons": [
+        "control_or_reference:('reference', '5b33f98f-e669-4aee-b7db-51707968aee1')",
+        "control_or_reference:('reference', 'b43f37e0-a483-40d7-8f99-d0db5f4cc6b9')",
+        "control_or_reference:('reference', 'bac0b142-3238-43bb-aca5-d4524403c3b9')",
+        "control_or_reference:('reference', 'd9b26670-ac8d-470c-a87b-d22351298111')",
+        "edge_consumer:('flux_2', 'seedance_2_5', 'reference_image')",
+        "edge_consumer:('seedream_v5_lite', 'seedance_2_5', 'reference_image')",
+        "folder:5178213b-08dd-4c13-bcf2-83742045a81c"
+      ]
+    },
+    {
+      "generation_id": "09249104-b35a-4828-ac92-e3ddbc9c5b13",
+      "reasons": [
+        "control_or_reference:('reference', '9ef1afb1-eeb9-43d4-ba3b-39d644a882cf')"
+      ]
+    },
+    {
+      "generation_id": "09726f37-3fa6-4891-9e0b-c171cce20278",
+      "reasons": [
+        "control_or_reference:('reference', '1cfeb056-f16b-40fc-a42d-2efe0d205bed')"
+      ]
+    },
+    {
+      "generation_id": "09e1971b-d73d-4abb-82bc-c88fa9b692c9",
+      "reasons": [
+        "control_or_reference:('reference', '2d5e8dc5-fde4-41f0-8d4e-467a26034c18')",
+        "control_or_reference:('reference', 'd631af74-6204-45fb-b415-ae0dde7f16b5')",
+        "control_or_reference:('reference', 'e228cf86-d743-4429-a7cb-e24db6067785')",
+        "edge_consumer:('seedream_v5_pro', 'seedance_2_5', 'reference_image')"
+      ]
+    },
+    {
+      "generation_id": "09ededbd-33ba-4dfc-b132-068e59843af7",
+      "reasons": [
+        "control_or_reference:('reference', 'f68574d8-b008-4093-a876-2068ea70a5fd')"
+      ]
+    },
+    {
+      "generation_id": "0a7c3b5e-fc9e-485c-9b62-c2fefea3b4c9",
+      "reasons": [
+        "folder:d556176d-11de-4e8d-80ed-6c182f0c56a7"
+      ]
+    },
+    {
+      "generation_id": "0b1446e7-7c30-4bd7-8326-09c5bc98527d",
+      "reasons": [
+        "edge_producer:('nano_banana_2', 'seedance_2_5', 'reference_image')"
+      ]
+    },
+    {
+      "generation_id": "0bb5f32f-2832-4f2b-9c7f-c910e15cb416",
+      "reasons": [
+        "edge_producer:('nano_banana_2', 'seedream_v4_5', 'input_asset')",
+        "folder:d5203f1a-c9fb-4a4e-8e90-a89f2315730b"
+      ]
+    },
+    {
+      "generation_id": "0c0f23d7-d31f-46e2-882f-ee5fd785fdc5",
+      "reasons": [
+        "control_or_reference:('reference', '3731800d-d8ec-4e79-aa33-75d30b40a824')"
+      ]
+    },
+    {
+      "generation_id": "0d624725-eb7e-4172-914f-401dad7375fc",
+      "reasons": [
+        "folder:35ade46b-a844-4342-9645-0afbe22b5c75"
+      ]
+    },
+    {
+      "generation_id": "0ded8101-0544-4270-8895-e89cec942adf",
+      "reasons": [
+        "control_or_reference:('reference', '489ad234-e1ba-43c5-a0f8-603db43171e7')",
+        "control_or_reference:('reference', '576b1a2b-2c4d-4e0a-b8e7-f10a5d53acef')",
+        "control_or_reference:('reference', '6d3bc240-2d37-4775-ae28-4f14ca398c9a')",
+        "control_or_reference:('reference', '8c69f962-aef5-4248-8dee-d43ebff6f8c2')",
+        "control_or_reference:('reference', 'b9a2cc35-db3c-4168-8ca7-9fc6a2db8979')",
+        "control_or_reference:('reference', 'cca67dd8-0016-4bb6-99dc-1f94226c0df9')",
+        "control_or_reference:('reference', 'ec2b8a22-c080-4570-9d82-f83f707dd150')",
+        "edge_consumer:('nano_banana_2', 'seedance_2_5', 'reference_image')",
+        "folder:13ee3c91-bb3c-4087-8f2f-267c509d5971"
+      ]
+    },
+    {
+      "generation_id": "0e619f9f-aecb-4687-9648-bb44a8e7b206",
+      "reasons": [
+        "folder:9f457112-ee53-42e8-b6ee-d2e431c9d693"
+      ]
+    },
+    {
+      "generation_id": "0e65cc4d-aa76-4dff-aa5a-303a182f9564",
+      "reasons": [
+        "control_or_reference:('reference', 'fec4242f-510f-4469-8d10-29e95f621189')",
+        "input_role_set:('video', ('input_image', 'reference_image'))"
+      ]
+    },
+    {
+      "generation_id": "0fe8d3c9-6bb6-4819-a908-bcdf72cc0f5a",
+      "reasons": [
+        "edge_producer:('seedream_v5_lite', 'image_auto', 'input_image')",
+        "edge_producer:('seedream_v5_lite', 'seedream_v5_lite', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "115db5e3-6638-430b-86ca-4aded499fe6d",
+      "reasons": [
+        "control_or_reference:('flux_2', 'model', 'pro')",
+        "edge_consumer:('image_auto', 'flux_2', 'input_asset')",
+        "type_model:('image', 'flux_2')"
+      ]
+    },
+    {
+      "generation_id": "119d6187-c87e-4239-bc5c-d11e52f6be33",
+      "reasons": [
+        "control_or_reference:('reference', '75afa587-7de5-48fc-be1c-ea9777d77649')",
+        "control_or_reference:('reference', '8d04077d-65c3-4e7a-a523-4f8ccfd3fca9')",
+        "control_or_reference:('reference', 'cb3ee08f-8de6-4286-bc22-65f50f83f47e')",
+        "control_or_reference:('reference', 'faedbe2c-5618-46d3-9500-95018602c521')"
+      ]
+    },
+    {
+      "generation_id": "11b454cf-ec89-4542-bd12-ccb575bf4dda",
+      "reasons": [
+        "control_or_reference:('reference', 'db42cb6f-7686-4cfa-aebe-34362edefadb')",
+        "control_or_reference:('reference', 'e125891e-4be3-4ccd-a6ad-a596f456fa33')"
+      ]
+    },
+    {
+      "generation_id": "11b5468a-dee8-4b18-a0cc-06d031e1c57b",
+      "reasons": [
+        "folder:08243654-03f4-43b5-bcab-5a816647ea22"
+      ]
+    },
+    {
+      "generation_id": "11bd1aca-027c-400c-bb97-b734722521f0",
+      "reasons": [
+        "folder:befeba90-11b9-44bf-9005-885905ae9e53"
+      ]
+    },
+    {
+      "generation_id": "11ddc668-c80e-486c-8211-ca390cb0a896",
+      "reasons": [
+        "folder:b7e0b7e5-2ea9-4316-9836-34d0ba461056"
+      ]
+    },
+    {
+      "generation_id": "127baa0e-6794-4f4b-bfaf-67e9ce1babad",
+      "reasons": [
+        "edge_consumer:('seedream_v5_lite', 'seedream_v5_lite', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "13e749d1-8f2c-4e5f-bd11-50a4ae068f18",
+      "reasons": [
+        "input_role_set:('video', ('input_image',))"
+      ]
+    },
+    {
+      "generation_id": "13ff4d33-23b0-410e-a48c-6dc23e5d9149",
+      "reasons": [
+        "edge_producer:('image_auto', 'cinematic_video_editor', 'input_start_image')",
+        "edge_producer:('image_auto', 'nano_banana_2', 'input_asset')",
+        "edge_producer:('image_auto', 'seedream_v5_lite', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "144f4ed7-eb9a-4f21-a021-7f7ecda92ac9",
+      "reasons": [
+        "edge_producer:('nano_banana_2', 'nano_banana_2', 'input_asset')",
+        "edge_producer:('nano_banana_2', 'seedream_v5_lite', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "164f5ea2-ef5a-4c49-9c9f-450f6a3c1fdd",
+      "reasons": [
+        "edge_consumer:('image_auto', 'seedream_v4_5', 'input_asset')"
+      ]
+    },
+    {
+      "generation_id": "171a4b83-22c9-492b-9d70-aef20f26b803",
+      "reasons": [
+        "control_or_reference:('reference', '336d56fc-6f54-409d-a2f1-b30783d50e5c')",
+        "control_or_reference:('reference', '91f7a43f-bd97-4240-b060-0b3a4961c76f')",
+        "control_or_reference:('reference', 'e6c8f3a0-724f-4b52-acf5-d846b785e8b1')",
+        "folder:e7bb11bb-18f9-49a2-bb7d-afb97c6526bf"
+      ]
+    },
+    {
+      "generation_id": "1737262d-44d1-46d9-9bc4-b1f1f2cfd064",
+      "reasons": [
+        "control_or_reference:('reference', 'aa18e9e0-a61f-4193-be20-54f4daa2fca9')",
+        "control_or_reference:('reference', 'e6503e1f-cfa3-400b-9865-0f73e765df5c')"
+      ]
+    },
+    {
+      "generation_id": "173ef103-63e7-4907-a6f7-8617d741bf20",
+      "reasons": [
+        "edge_producer:('seedance_2_5', 'bytedance_video_upscale', 'input_video')"
+      ]
+    },
+    {
+      "generation_id": "178379f5-3bae-45f3-9adb-2b170543c9f8",
+      "reasons": [
+        "control_or_reference:('reference', '56b511e6-f884-4a19-b765-b91320815423')",
+        "control_or_reference:('reference', '59ad8419-d5c0-459e-ac3c-bd4501626be3')"
+      ]
+    },
+    {
+      "generation_id": "1788649b-362c-46dc-9ded-34e1dfc16e4a",
+      "reasons": [
+        "edge_consumer:('seedream_v5_lite', 'nano_banana_2', 'reference_image')"
+      ]
+    },
+    {
+      "generation_id": "19ffabf0-d016-48bc-bd3c-d80ac5c6862a",
+      "reasons": [
+        "control_or_reference:('reference', '3d3347e1-203d-4957-89cf-aed972e427d9')",
+        "control_or_reference:('reference', 'def68c8e-5591-4fc8-8b95-eb9d549e482f')"
+      ]
+    },
+    {
+      "generation_id": "1a664c20-16a9-4e75-8aa5-62ebf372cd9f",
+      "reasons": [
+        "control_or_reference:('reference', 'd5b53d93-2060-4681-b2ff-fbae175921d1')",
+        "edge_consumer:('nano_banana_2', 'seedream_v4_5', 'reference_image')",
+        "edge_consumer:('seedream_v4_5', 'seedream_v4_5', 'reference_image')"
+      ]
+    },
+    {
+      "generation_id": "1aa33432-b6f8-43ad-9fe5-e3197767fd05",
+      "reasons": [
+        "control_or_reference:('reference', '72c96582-8bbf-4f7a-b9ee-80f27288fa0b')",
+        "control_or_reference:('reference', '97d62340-8455-4450-988f-b307009d602a')"
+      ]
+    },
+    {
+      "generation_id": "1ad9ff9b-0ad3-44ce-8af0-b9c65fa8f00c",
+      "reasons": [
+        "control_or_reference:('reference', '12920982-c059-4cfd-9cff-73c15fba60d7')"
+      ]
+    },
+    {
+      "generation_id": "1b250d45-2bd2-481d-bc17-ea2e4a18d552",
+      "reasons": [
+        "folder:1df1a91e-4bef-455d-a661-e9a4fb47ae76"
+      ]
+    },
+    {
+      "generation_id": "1b944691-7964-4329-bf3b-f86a4c9a55db",
+      "reasons": [
+        "folder:2dfa1a93-2629-4a1c-987e-b9656e51f4bb"
+      ]
+    },
+    {
+      "generation_id": "1dce7a3c-ef4f-4b62-b3ff-27bff30246b9",
+      "reasons": [
+        "control_or_reference:('reference', '53b95fbb-455c-4100-9f8d-aaa50cd6829e')",
+        "control_or_reference:('reference', '5560cb3f-5565-477c-ab9b-d08d7cc93a9b')"
+      ]
+    },
+    {
+      "generation_id": "1eabba8e-e2c3-48bc-a2de-cb8f88476be8",
+      "reasons": [
+        "control_or_reference:('reference', '1750105a-6dcd-4014-a35c-341f7146f9e2')",
+        "control_or_reference:('reference', '3e0bced4-2d59-4067-a346-e7adb28e0bf8')",
+        "control_or_reference:('reference', '84ac0caa-8688-4f81-ac6f-cb0f82570e6d')",
+        "control_or_reference:('reference', 'ba754cec-6db4-4842-9f8d-db265595ad78')",
+        "control_or_reference:('reference', 'ed2f67ff-de75-46b9-9c83-69182cf96beb')",
+        "control_or_reference:('reference', 'f5aefa5f-20e4-45fb-9cea-8711903dd895')"
+      ]
+    },
+    {
+      "generation_id": "1f58b10f-1316-44d1-88a4-01c4d0972343",
+      "reasons": [
+        "control_or_reference:('reference', 'e30f16d6-7415-4329-93e0-f846cfe095d6')"
+      ]
+    },
+    {
+      "generation_id": "20026e50-3147-4b9e-b6df-b5a8960abe49",
+      "reasons": [
+        "folder:960d5635-c0b6-4380-a857-e6d7226e81a8"
+      ]
+    },
+    {
+      "generation_id": "20d40b84-cbdc-431d-917e-55f79a68e987",
+      "reasons": [
+        "folder:6c7a7aaf-5cb0-402b-83a9-81af6abd37a0"
+      ]
+    },
+    {
+      "generation_id": "22caf1c1-1041-4994-9894-123cd7bfb7ec",
+      "reasons": [
+        "control_or_reference:('reference', '5cb0dbb1-a6e3-480e-9e0e-8fe7373b7fde')",
+        "control_or_reference:('reference', 'e37be4d3-87b9-45a1-afcf-37bcc8841cce')"
+      ]
+    },
+    {
+      "generation_id": "22d1c16b-0051-4098-9fa5-4b4b79ef77fc",
+      "reasons": [
+        "control_or_reference:('reference', '16aba480-0c03-43f3-b22d-bb9f6b822bf9')"
+      ]
+    },
+    {
+      "generation_id": "26cfaa76-101d-459a-81fd-88675507b15d",
+      "reasons": [
+        "folder:37d0e040-7129-40b2-ae0c-6c12f2e0a3fc"
+      ]
+    },
+    {
+      "generation_id": "284d30e5-6c17-4a28-9acc-f8b0feafff90",
+      "reasons": [
+        "control_or_reference:('reference', 'd24b6cbe-f0a8-4d3c-8d30-4df41bfb0578')"
+      ]
+    },
+    {
+      "generation_id": "28a46ef5-0615-429f-9c0f-f041cd4c087c",
+      "reasons": [
+        "type_model:('image', 'kling_omni_image')"
+      ]
+    },
+    {
+      "generation_id": "29205ff3-1fb5-4812-86dd-aa2d481ca225",
+      "reasons": [
+        "control_or_reference:('reference', 'cd487e78-0e31-42c2-8dc0-b35d39d95a0c')",
+        "edge_producer:('seedance_2_5', 'topaz_video', 'input_asset')",
+        "folder:2bacdc93-2e0e-43c6-b53e-7b905422dd00"
+      ]
+    },
+    {
+      "generation_id": "2953e2c0-4d30-4cf9-bb76-4dafa0a14da9",
+      "reasons": [
+        "input_role_set:('video', ('input_asset',))",
+        "type_model:('video', 'topaz_video')"
+      ]
+    },
+    {
+      "generation_id": "29a2ae40-1b3b-47f8-a678-e97590e12dae",
+      "reasons": [
+        "folder:804e6af0-e6df-4fa7-8a5d-76c8a97f90f2"
+      ]
+    },
+    {
+      "generation_id": "2a227cb5-aee2-4e4c-8e34-89014701cbf5",
+      "reasons": [
+        "edge_consumer:('image_auto', 'cinematic_video_editor', 'input_start_image')",
+        "input_role_set:('video', ('input_start_image', 'input_video'))",
+        "type_model:('video', 'cinematic_video_editor')"
+      ]
+    },
+    {
+      "generation_id": "2cc5962c-845c-4a9f-8105-647ed14044e4",
+      "reasons": [
+        "control_or_reference:('reference', '25a82124-a941-401f-a8dd-d77efe0eaa83')",
+        "control_or_reference:('reference', '597d05ec-efb2-4116-bbac-7eee03845616')",
+        "control_or_reference:('reference', '7bf13a77-585c-40ef-926c-d30de9806f25')",
+        "control_or_reference:('reference', '7ef108fc-061f-4655-85b2-da18fa70853c')",
+        "control_or_reference:('reference', 'eb3b4ea6-2108-4cc2-a343-46e482405293')"
+      ]
+    },
+    {
+      "generation_id": "2d6cc464-e0ca-4ebf-a6d1-d6375bfd8178",
+      "reasons": [
+        "edge_consumer:('seedance_2_5', 'topaz_video', 'input_asset')"
+      ]
+    },
+    {
+      "generation_id": "2ddca514-5c4e-4aeb-bf06-74fed177ced2",
+      "reasons": [
+        "folder:70854f83-7c3b-4100-a16a-50004fb8d8aa"
+      ]
+    },
+    {
+      "generation_id": "2e975f93-f0c1-4116-b29c-2130c57f6e3a",
+      "reasons": [
+        "control_or_reference:('reference', '42d08c7e-522f-4f4a-b4b5-aed2acad240e')"
+      ]
+    },
+    {
+      "generation_id": "2f7ae0d0-daf0-47b8-a16c-0414f16301b9",
+      "reasons": [
+        "edge_producer:('seedance_2_5', 'voice_change_merge', 'input_asset')"
+      ]
+    },
+    {
+      "generation_id": "2fc3b79e-f4ac-4a79-9dc8-c9ac744babb9",
+      "reasons": [
+        "control_or_reference:('reference', '0898b3d0-868d-4d08-9c12-8ead89221b6d')",
+        "control_or_reference:('reference', '6318e74f-3af8-4f90-a560-3422ed10d5cf')",
+        "control_or_reference:('reference', '753050c5-1650-4a85-b05e-6cea31746548')",
+        "control_or_reference:('reference', '822ada3e-90bc-4d7d-b96d-78ef8cd6faa2')"
+      ]
+    },
+    {
+      "generation_id": "3035914f-e296-487b-aad5-e0cf561a64f6",
+      "reasons": [
+        "control_or_reference:('reference', '95f48f1e-e8fa-4b89-b7f8-50bd031a4cab')",
+        "edge_producer:('seedance_2_5', 'cinematic_video_editor', 'input_video')"
+      ]
+    },
+    {
+      "generation_id": "30ebc7ea-5a94-442d-9fa4-524ec16e6faf",
+      "reasons": [
+        "edge_producer:('seedream_v4_5', 'nano_banana_2', 'reference_image')",
+        "edge_producer:('seedream_v4_5', 'seedream_v4_5', 'reference_image')"
+      ]
+    },
+    {
+      "generation_id": "345fc7f4-dca5-4508-a2e8-ec4c3309057c",
+      "reasons": [
+        "edge_consumer:('seedream_v4_5', 'seedream_v4_5', 'input_asset')"
+      ]
+    },
+    {
+      "generation_id": "35b3345e-4fe2-4d81-bb65-e771fc5d54a0",
+      "reasons": [
+        "control_or_reference:('reference', 'e630c486-9414-438a-b762-d7ecfd9e544e')"
+      ]
+    },
+    {
+      "generation_id": "362a72ac-9fdb-48c5-9815-10a94c687abd",
+      "reasons": [
+        "edge_producer:('nano_banana_2', 'image_auto', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "3669c202-918e-4116-be0b-2dc3ffcbc246",
+      "reasons": [
+        "edge_producer:('seedream_v5_lite', 'seedream_v4_5', 'input_asset')"
+      ]
+    },
+    {
+      "generation_id": "372eae81-9e4e-4264-adac-febf9565667e",
+      "reasons": [
+        "edge_consumer:('seedream_v4_5', 'seedream_v5_lite', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "37f689e1-04da-473c-9778-97b61732ec90",
+      "reasons": [
+        "edge_producer:('seedream_v4_5', 'seedream_v5_lite', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "3881a0ad-3dc1-4b0d-a7c4-14d8e54f3a05",
+      "reasons": [
+        "control_or_reference:('reference', 'b0e6294a-4a9d-49aa-936e-db2c01e0ac59')"
+      ]
+    },
+    {
+      "generation_id": "3e006d47-1f4a-478f-9393-d96aa3b1ad7b",
+      "reasons": [
+        "control_or_reference:('reference', '27711cf4-364e-4903-9578-7a73ac269eb2')"
+      ]
+    },
+    {
+      "generation_id": "3ea26d4a-e1b8-44ed-ad8b-c1a148b3226e",
+      "reasons": [
+        "control_or_reference:('reference', '28b7bb79-ffb0-4e98-8817-485cde7f0ce9')",
+        "control_or_reference:('reference', '7154b8c5-f2e7-4f6a-a40d-161e8b4e823c')",
+        "control_or_reference:('reference', '9f965987-06f2-42c9-8970-352791067d26')"
+      ]
+    },
+    {
+      "generation_id": "4144a656-d357-4341-9542-2457f4832a4c",
+      "reasons": [
+        "control_or_reference:('reference', '06bd806c-5c3a-4d1a-9cde-ef6e26a6ab2b')",
+        "control_or_reference:('reference', 'a16cc33e-78e0-4b9e-9d3c-b99fcecb2a0b')",
+        "control_or_reference:('reference', 'ed8a772d-32be-42e1-b1da-5ca3618e23bd')"
+      ]
+    },
+    {
+      "generation_id": "423c0f37-a6fd-4220-ba13-1ca5d1acc4a5",
+      "reasons": [
+        "control_or_reference:('reference', 'f8c8c8e2-c21d-4df2-8c39-fa18edbdd715')"
+      ]
+    },
+    {
+      "generation_id": "42b6ef3d-35e5-4101-8ad1-2ff73f9a241d",
+      "reasons": [
+        "control_or_reference:('reference', '0325047c-7c86-44cb-be43-f20081a75479')",
+        "control_or_reference:('reference', '6c6acc33-79b8-4748-a010-75046825182c')",
+        "control_or_reference:('reference', '960ec469-0a34-471c-a6b6-d83aeb5fec64')",
+        "control_or_reference:('reference', '9e4891a5-1f91-4923-a5f3-14f9ad65784c')"
+      ]
+    },
+    {
+      "generation_id": "42dc451c-5af3-4c70-b36a-34991ef86754",
+      "reasons": [
+        "edge_consumer:('image_auto', 'seedance_2_5', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "42ff5619-b52c-4649-b266-10f26617368e",
+      "reasons": [
+        "control_or_reference:('reference', '0f97cbc0-458d-45a0-a9e7-7536fbc41c08')",
+        "control_or_reference:('reference', '3e1526b1-d75f-44dd-b83a-3e1a10bf9858')"
+      ]
+    },
+    {
+      "generation_id": "44b55235-77a6-464f-97f6-d69ab756f8f2",
+      "reasons": [
+        "folder:65a48157-a191-47d2-933d-1e86b929f8dd"
+      ]
+    },
+    {
+      "generation_id": "47013463-fbdc-490b-bae0-399c1d06d0cb",
+      "reasons": [
+        "edge_consumer:('image_auto', 'nano_banana_2', 'input_asset')"
+      ]
+    },
+    {
+      "generation_id": "47268161-b186-41af-aa5f-0b6c0174702a",
+      "reasons": [
+        "edge_consumer:('seedream_v4_5', 'nano_banana_2', 'input_asset')"
+      ]
+    },
+    {
+      "generation_id": "48abcbea-c6c0-4fd6-935e-6ac166c04d1e",
+      "reasons": [
+        "edge_consumer:('seedream_v5_lite', 'image_auto', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "4a150143-65db-431f-8241-ec0256b4bc27",
+      "reasons": [
+        "control_or_reference:('reference', 'cbfb93d5-c40c-4ef0-b613-4b2661d7171f')"
+      ]
+    },
+    {
+      "generation_id": "4b3909a0-9758-4e0b-b694-b1a40c5c0ffc",
+      "reasons": [
+        "control_or_reference:('reference', '33b68fb4-4e3b-4e00-be31-cc18eecef6c7')",
+        "control_or_reference:('reference', 'af687a52-bb6f-4097-8092-dd186c8b2e6d')"
+      ]
+    },
+    {
+      "generation_id": "4b955bf8-e99b-4c8c-98a7-39f340999305",
+      "reasons": [
+        "edge_producer:('nano_banana_2', 'nano_banana_2', 'reference_image')",
+        "edge_producer:('nano_banana_2', 'seedream_v4_5', 'reference_image')",
+        "input_role_set:('image', ('reference_image',))"
+      ]
+    },
+    {
+      "generation_id": "4c8def20-7fb3-4fe2-b35c-6d606a7ca6fc",
+      "reasons": [
+        "control_or_reference:('reference', 'bb2f3fda-2868-4f8a-90fd-b09ebb6298fd')"
+      ]
+    },
+    {
+      "generation_id": "4e4d0ba0-1ca1-4649-a4a6-6fd7146d5127",
+      "reasons": [
+        "control_or_reference:('reference', '692e087b-8387-4a5d-9850-a21c4f1627e2')",
+        "control_or_reference:('reference', 'f2c39ed6-37d4-48ae-87cf-16ab564d862b')"
+      ]
+    },
+    {
+      "generation_id": "4fc98885-8834-445d-9dc6-a675c11a5955",
+      "reasons": [
+        "folder:36bfc7b5-40e8-490f-bbb5-ad70fc517c69"
+      ]
+    },
+    {
+      "generation_id": "506589ee-9b52-44f3-b518-768ea7beed1e",
+      "reasons": [
+        "control_or_reference:('reference', 'e723fbbd-5c3c-4b1d-882c-52829aa6fee6')"
+      ]
+    },
+    {
+      "generation_id": "51af35d5-b642-45a3-9a44-7b11ea1927b6",
+      "reasons": [
+        "control_or_reference:('reference', 'e0b9adc2-9c7d-48b4-a61d-8102c9bddea6')",
+        "control_or_reference:('reference', 'ff413698-9502-4d86-b75d-efddfed8a1a8')"
+      ]
+    },
+    {
+      "generation_id": "558a0737-c617-4ba7-9d57-8972918c7c88",
+      "reasons": [
+        "edge_consumer:('nano_banana_2', 'nano_banana_2', 'reference_image')",
+        "edge_consumer:('seedream_v4_5', 'nano_banana_2', 'reference_image')",
+        "edge_consumer:('seedream_v5_lite', 'nano_banana_2', 'input_asset')"
+      ]
+    },
+    {
+      "generation_id": "5a9253d3-018e-49b6-a761-2950a79de4ae",
+      "reasons": [
+        "edge_consumer:('seedance_2_5', 'seedance_2_5', 'input_video')"
+      ]
+    },
+    {
+      "generation_id": "5dce0b56-6efc-4635-9bf1-ac9c572ae35d",
+      "reasons": [
+        "control_or_reference:('reference', '0081efc8-e424-4661-be51-98fb89dfbf10')"
+      ]
+    },
+    {
+      "generation_id": "5ff530ed-f95e-4172-9a55-c2a0b42891b4",
+      "reasons": [
+        "control_or_reference:('reference', 'ee14e276-47b0-4fb3-a973-29230175eb3d')",
+        "control_or_reference:('reference', 'f7832bbe-82f8-40d5-9224-85007484a121')",
+        "edge_consumer:('image_auto', 'seedance_2_5', 'reference_image')",
+        "folder:06e98e5a-8f12-4f98-ade3-d856eec6bb5a"
+      ]
+    },
+    {
+      "generation_id": "6158f4d6-20c4-4f28-9517-c1c23e73b893",
+      "reasons": [
+        "control_or_reference:('seedream_v5_pro', 'is_inpaint', 'False')",
+        "edge_producer:('seedream_v5_pro', 'seedance_2_5', 'reference_image')",
+        "type_model:('image', 'seedream_v5_pro')"
+      ]
+    },
+    {
+      "generation_id": "61f3f600-168a-4ab8-ba5d-1862b76a6077",
+      "reasons": [
+        "control_or_reference:('reference', '585a5193-8a7d-47cf-91b7-08084cc0568b')"
+      ]
+    },
+    {
+      "generation_id": "6238e620-a582-4272-b441-2bb654eefd58",
+      "reasons": [
+        "control_or_reference:('reference', '2c5264c2-3dcd-46a0-8697-de9ad778a5fd')",
+        "control_or_reference:('reference', '5b4d7c20-41d5-4352-892d-926c379615e8')",
+        "control_or_reference:('reference', '6b11e4f1-f6d0-4df7-800f-b324b4b49d9a')"
+      ]
+    },
+    {
+      "generation_id": "62aaa734-7b9d-4157-9c1f-9327ca38cc06",
+      "reasons": [
+        "edge_producer:('seedream_v5_lite', 'nano_banana_2', 'reference_image')",
+        "edge_producer:('seedream_v5_lite', 'seedream_v4_5', 'reference_image')",
+        "edge_producer:('seedream_v5_lite', 'seedream_v5_lite', 'reference_image')"
+      ]
+    },
+    {
+      "generation_id": "65967e4e-ebca-4eae-a46e-f162f656bf87",
+      "reasons": [
+        "edge_consumer:('image_auto', 'image_auto', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "662c19da-ce8f-46bd-bab7-acb7f9881bd6",
+      "reasons": [
+        "control_or_reference:('reference', '037d1dc5-007c-4de0-8292-8f872d0b6814')",
+        "control_or_reference:('reference', 'ebf1cdb2-5a6b-47de-8bfc-dfdf801d4cbd')"
+      ]
+    },
+    {
+      "generation_id": "6829901e-d160-4a7e-83dc-794c6b036b1e",
+      "reasons": [
+        "control_or_reference:('reference', '0ed43e5c-27fe-4b94-bf85-db52256f7a47')",
+        "control_or_reference:('reference', '3f834c5e-7924-4879-8c87-a973489e862f')",
+        "control_or_reference:('reference', 'f10ca08f-a8aa-464b-a562-2e813af4bb71')"
+      ]
+    },
+    {
+      "generation_id": "6d16d03b-c0b8-4b8d-8bc0-b496eae16fbc",
+      "reasons": [
+        "control_or_reference:('reference', 'd70c2e8d-4415-4a13-b389-53da437c7d44')"
+      ]
+    },
+    {
+      "generation_id": "72c1d2fb-c25f-4b7e-a102-8693e368e3ab",
+      "reasons": [
+        "control_or_reference:('reference', '01b8954c-3a94-4275-b07a-31bc6aa1f64b')",
+        "control_or_reference:('reference', '6b731d4a-647d-443b-a231-2ce1a048ef39')",
+        "control_or_reference:('reference', '7ffc8428-9bab-4de2-846c-4b56e5ceebaf')",
+        "control_or_reference:('reference', '871fd653-f508-4d01-90c6-9c5c83a39b67')",
+        "control_or_reference:('reference', 'fad9b0ee-edae-457b-b807-7fe140d19d55')"
+      ]
+    },
+    {
+      "generation_id": "74257447-975b-43a0-8064-eddcc34c0dc6",
+      "reasons": [
+        "control_or_reference:('reference', '4942fe23-4f48-4b3a-978d-836c12c867de')"
+      ]
+    },
+    {
+      "generation_id": "74d49d41-eb1b-4989-befa-3d931f3ac820",
+      "reasons": [
+        "edge_consumer:('image_auto', 'seedream_v5_lite', 'input_image')",
+        "edge_consumer:('seedream_v5_lite', 'seedream_v5_lite', 'reference_image')",
+        "input_role_set:('image', ('input_image', 'reference_image'))"
+      ]
+    },
+    {
+      "generation_id": "767658a3-31a0-4e5e-bc35-83bb8ee1e626",
+      "reasons": [
+        "control_or_reference:('reference', '3a57e444-d8a1-4548-a591-64b4cc87d829')",
+        "control_or_reference:('reference', '3d0a39a7-211d-4e5f-a688-a02c3b221532')",
+        "control_or_reference:('reference', '6370a861-a235-4285-abe5-e6922e6fab13')",
+        "control_or_reference:('reference', '7c60777f-4ae1-442e-865c-50aa863813cb')",
+        "control_or_reference:('reference', 'cbafaece-d200-4154-a554-2b8e85e2e4c3')",
+        "control_or_reference:('reference', 'd9308dfd-a4ca-486a-afcd-e52692161577')"
+      ]
+    },
+    {
+      "generation_id": "793ed033-88b4-472b-a8ba-55bc753f5e70",
+      "reasons": [
+        "control_or_reference:('reference', 'f9d49ca6-f805-477d-abd0-e49b951a34db')"
+      ]
+    },
+    {
+      "generation_id": "7bf0a5c8-58ba-49fa-a710-d8e4ba62a9ba",
+      "reasons": [
+        "control_or_reference:('reference', '8ad7ce9b-0a8c-471f-8a41-a4b399d57633')"
+      ]
+    },
+    {
+      "generation_id": "7f5c42bf-cb05-433b-8480-bc0e8dcf0379",
+      "reasons": [
+        "control_or_reference:('reference', '941ce687-d029-4b12-b005-d4990c74c892')"
+      ]
+    },
+    {
+      "generation_id": "804e0657-3c84-4e8d-abaa-80dc50192985",
+      "reasons": [
+        "input_role_set:('video', ('input_image', 'input_video', 'reference_image'))"
+      ]
+    },
+    {
+      "generation_id": "80efc718-dc1b-42f5-8842-f9ea9d976cba",
+      "reasons": [
+        "edge_consumer:('nano_banana_2', 'seedance_2_5', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "817ec7b0-4226-45f0-8af5-631709f86e99",
+      "reasons": [
+        "folder:34185e35-9ebb-4e51-a612-81e93f9c7191"
+      ]
+    },
+    {
+      "generation_id": "848b13d9-9d87-4f3c-b211-1b80c56f7ad8",
+      "reasons": [
+        "control_or_reference:('reference', '347ed3ee-f823-4956-9a90-5b772ef548a9')",
+        "control_or_reference:('reference', '710d4923-3ad2-49a6-b112-5f89e690d8bb')",
+        "control_or_reference:('reference', 'de1c2a10-b8f6-43fa-b2e6-865a3d76527e')"
+      ]
+    },
+    {
+      "generation_id": "84c8ab1d-0d84-456c-88e5-2d76c8445bae",
+      "reasons": [
+        "control_or_reference:('reference', '38d11ffc-8e0e-41f6-92e4-d816212d9ecf')"
+      ]
+    },
+    {
+      "generation_id": "867f01b0-95e3-46af-bdae-6121ef20d35c",
+      "reasons": [
+        "folder:e6553a91-860a-45c7-a7bc-80aad8412928"
+      ]
+    },
+    {
+      "generation_id": "8ea3d8f0-8666-43f4-a933-5685c674a41c",
+      "reasons": [
+        "control_or_reference:('reference', '12f94cdc-8574-45d4-9c2b-a4396e7ee8b6')"
+      ]
+    },
+    {
+      "generation_id": "9253df79-c66a-430d-a779-cf42217fad09",
+      "reasons": [
+        "type_model:('video', 'voice_change_merge')"
+      ]
+    },
+    {
+      "generation_id": "93609efd-e3ef-40ed-9458-96a59fe7f84b",
+      "reasons": [
+        "folder:3a1e51b2-1821-4f48-a44d-7001d22895ac"
+      ]
+    },
+    {
+      "generation_id": "96185e88-cc8b-4761-996b-e12e1c0189d4",
+      "reasons": [
+        "edge_consumer:('nano_banana_2', 'seedream_v5_lite', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "97dff71e-98b6-458f-8076-b84f285ee9d6",
+      "reasons": [
+        "edge_consumer:('nano_banana_2', 'image_auto', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "9e2ae44f-7aff-4924-ba3c-03039060d4f2",
+      "reasons": [
+        "edge_consumer:('image_auto', 'seedream_v4_5', 'reference_image')"
+      ]
+    },
+    {
+      "generation_id": "a1ce0e9c-a0d7-4ff7-aba8-387dfe26db37",
+      "reasons": [
+        "control_or_reference:('reference', '56422ec4-ad7b-4a0d-a2bf-5669f09f406c')",
+        "control_or_reference:('reference', 'a993f0c1-7832-433e-9ba0-17091776e59c')"
+      ]
+    },
+    {
+      "generation_id": "a43cff59-cfe3-41a8-96b5-28c95f664e4a",
+      "reasons": [
+        "edge_consumer:('nano_banana_2', 'nano_banana_2', 'input_asset')"
+      ]
+    },
+    {
+      "generation_id": "a58dc32f-f644-4738-ac79-cb9021cbb201",
+      "reasons": [
+        "edge_consumer:('seedance_2_5', 'cinematic_video_editor', 'input_video')",
+        "edge_consumer:('seedream_v4_5', 'cinematic_video_editor', 'input_start_image')"
+      ]
+    },
+    {
+      "generation_id": "adb28d17-6d46-444e-8884-cf800b6f1ea2",
+      "reasons": [
+        "edge_producer:('flux_2', 'seedance_2_5', 'reference_image')",
+        "edge_producer:('flux_2', 'seedream_v4_5', 'reference_image')"
+      ]
+    },
+    {
+      "generation_id": "b1a275c0-ea98-40d0-9162-516acc47b467",
+      "reasons": [
+        "control_or_reference:('reference', '4aa6954f-d972-40df-b6f0-eeee6b45ce19')"
+      ]
+    },
+    {
+      "generation_id": "b5269bf6-7144-4c3c-b0c0-a97dde11997a",
+      "reasons": [
+        "shortest_nonempty_prompt"
+      ]
+    },
+    {
+      "generation_id": "b8f950ad-f4ff-4982-9ba4-b4789c94a163",
+      "reasons": [
+        "edge_producer:('seedream_v4_5', 'cinematic_video_editor', 'input_start_image')"
+      ]
+    },
+    {
+      "generation_id": "b8fa32f2-99c5-4440-8b72-7eef95df60f9",
+      "reasons": [
+        "control_or_reference:('reference', '616f58c4-3411-48eb-8caf-b8813933465b')",
+        "control_or_reference:('reference', '9f95f0fa-5cd4-4b64-b956-47333c2d047a')",
+        "control_or_reference:('reference', 'af9d59cb-b2a1-4dec-9b33-3f75517d7748')"
+      ]
+    },
+    {
+      "generation_id": "b91a9ccd-2fd1-4e9f-ae5e-efe5e41d5f79",
+      "reasons": [
+        "control_or_reference:('reference', '8d0ff015-1231-4e34-b978-0aa667968815')"
+      ]
+    },
+    {
+      "generation_id": "c11d9c30-f0ef-4de8-8639-e63a4ce5fa60",
+      "reasons": [
+        "edge_consumer:('nano_banana_2', 'seedream_v4_5', 'input_asset')"
+      ]
+    },
+    {
+      "generation_id": "c2e11ee9-7185-4060-9577-a91cfdf544ed",
+      "reasons": [
+        "control_or_reference:('reference', '04ec823a-562d-40c9-9d3f-fa91f8a3bca0')"
+      ]
+    },
+    {
+      "generation_id": "c4ce4abe-4c39-4aa0-a965-d129e9abf45f",
+      "reasons": [
+        "control_or_reference:('reference', 'f2c4b213-e209-4735-b186-106070e10a88')"
+      ]
+    },
+    {
+      "generation_id": "c51bff27-aeac-4126-b6c7-bdc34d6fd9be",
+      "reasons": [
+        "control_or_reference:('reference', 'b83e32fa-0221-4914-8d2e-f2d871212008')"
+      ]
+    },
+    {
+      "generation_id": "c9476ff3-9a85-4072-a0c9-da2de5e1f9aa",
+      "reasons": [
+        "edge_consumer:('seedream_v5_lite', 'seedance_2_5', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "cdc31d0f-bd25-4657-a4fe-094caa2d07e6",
+      "reasons": [
+        "edge_consumer:('seedance_2_5', 'voice_change_merge', 'input_asset')"
+      ]
+    },
+    {
+      "generation_id": "d196796a-99c3-4186-a1b2-54b20dbf08ba",
+      "reasons": [
+        "control_or_reference:('reference', '84f9c805-37ba-4e85-a01c-d3674040a256')"
+      ]
+    },
+    {
+      "generation_id": "d397f7ba-9cee-4c37-a5dc-64661ea1d673",
+      "reasons": [
+        "longest_prompt"
+      ]
+    },
+    {
+      "generation_id": "da8896ce-d08d-43bb-b987-6db13bd2c32e",
+      "reasons": [
+        "edge_producer:('image_auto', 'flux_2', 'input_asset')"
+      ]
+    },
+    {
+      "generation_id": "ebb5049e-11ec-4121-a818-9777ebe8b61e",
+      "reasons": [
+        "edge_consumer:('seedream_v5_lite', 'seedream_v4_5', 'input_asset')"
+      ]
+    },
+    {
+      "generation_id": "ec8a7f3c-8467-42d2-989d-e2472925122a",
+      "reasons": [
+        "control_or_reference:('reference', 'db8f793a-a71b-4aaa-83fd-9fa3d23f72c4')",
+        "edge_consumer:('seedream_v5_lite', 'seedream_v4_5', 'reference_image')"
+      ]
+    },
+    {
+      "generation_id": "fe57af9d-f19d-41e9-8e2b-05f3489b2199",
+      "reasons": [
+        "edge_consumer:('seedance_2_5', 'bytedance_video_upscale', 'input_video')"
+      ]
+    },
+    {
+      "generation_id": "ff9dbc4e-2359-4b38-8339-b46057a4a2cf",
+      "reasons": [
+        "edge_producer:('seedream_v5_lite', 'nano_banana_2', 'input_asset')",
+        "edge_producer:('seedream_v5_lite', 'seedance_2_5', 'input_image')"
+      ]
+    }
+  ]
+}

@@ -76,12 +76,17 @@ def scope_fixture():
     rows[0].update(film_id="synthetic-film", entity_ids="synthetic-film/generation:job")
     profile = dict(
         film_id="synthetic-film",
-        row_counts={"generations": 2},
+        row_counts={"generations": 2, "generation_prompts": 3, "asset_usages": 2},
         reading_register=[dict(generation_id="job", reasons=["model coverage"])],
         field_states={
             "generations": {"prompt": dict(unavailable=1, empty=0, nonempty=1)}
         },
-        generations={"model": [dict(value="example", count=2)]},
+        generations={"model_identifier": [dict(value="example", count=2)]},
+        prompt_states=dict(unavailable=1, empty=0, nonempty=1, distinct_nonempty=1),
+        text_roles=[dict(value="primary", count=3)],
+        usage_roles=[dict(value="output", count=2)],
+        parameter_controls=[dict(model="example", path="duration", value="5", count=2)],
+        invalid_parameters=[],
     )
     edges = dict(film_id="synthetic-film", edges=[])
     return profile, rows, edges
@@ -108,3 +113,58 @@ def test_rejects_inconsistent_scope(mutation):
         edges["edges"] = [dict(producer="job", consumer="job", usages=[])]
     with pytest.raises(ValueError):
         case_check.validate_profile(profile, rows, edges)
+
+
+@pytest.mark.parametrize(
+    "mutation", ["prompt", "distinct", "text_role", "usage_role", "control", "compound"]
+)
+def test_rejects_measure_denominator_or_compound_key_mismatch(mutation):
+    profile, rows, edges = scope_fixture()
+    if mutation == "prompt":
+        profile["prompt_states"]["empty"] = 1
+    elif mutation == "distinct":
+        profile["prompt_states"]["distinct_nonempty"] = 2
+    elif mutation == "text_role":
+        profile["text_roles"][0]["count"] = 2
+    elif mutation == "usage_role":
+        profile["usage_roles"][0]["count"] = 3
+    elif mutation == "control":
+        profile["parameter_controls"][0]["count"] = 1
+    else:
+        rows[0]["entity_ids"] += "; other-film/asset:example"
+    with pytest.raises(ValueError):
+        case_check.validate_profile(profile, rows, edges)
+
+
+def registration_fixture():
+    title = "Invented title "
+    counts = dict(generations=2, folders=3, reference_elements=4)
+    return (
+        [dict(title=title)],
+        dict(title=title, row_counts=counts),
+        dict(title=title, **{k: str(v) for k, v in counts.items()}),
+    )
+
+
+def test_preserves_literal_registered_title():
+    case_check.validate_registration(*registration_fixture())
+
+
+@pytest.mark.parametrize(
+    "mutation", ["row_title", "profile_title", "jobs", "folders", "references"]
+)
+def test_rejects_registration_mismatch(mutation):
+    rows, profile, registered = registration_fixture()
+    if mutation == "row_title":
+        rows[0]["title"] = rows[0]["title"].strip()
+    elif mutation == "profile_title":
+        profile["title"] = profile["title"].strip()
+    else:
+        field = {
+            "jobs": "generations",
+            "folders": "folders",
+            "references": "reference_elements",
+        }[mutation]
+        profile["row_counts"][field] += 1
+    with pytest.raises(ValueError):
+        case_check.validate_registration(rows, profile, registered)
