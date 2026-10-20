@@ -1,0 +1,43 @@
+{
+  "inputs": {
+    "PROGRAMME.md": "764872ce4c27f218c332c1d0d5a31d2cdcda3724e5e1af03e5fd5919b1cc3248",
+    "case-files/a-tales-before-titanic-tragedy/codes.csv": "8fe077569676ece210ad9ac75c96457cf1212a43e50cc9603130c8969a09e09a",
+    "case-files/apeirophobia/codes.csv": "6b9b007acb90160daf313e7ce26f6433d61daf7af446cbdcd0d080b6fe9f32fa",
+    "case-files/birthdays/codes.csv": "e6004ea66a83dc7c874f9ff5c1f3416d691870d387559ebf5140929afabfc196",
+    "case-files/detour/codes.csv": "628bf31c1fa5d896f2b032e578c92fdba357b0e48fae2b30d2a4ef5bfee28085",
+    "case-files/dont-poison-ivy/codes.csv": "05a47deb2adf38d8e2a18c0b63121351faabd819668258dc2e33bbef4d30b82c",
+    "case-files/dry-aged-dreams/codes.csv": "3c1e6feb98c510ceb1925b338ddbb8374bbd25951ac765623ff94c717cb58d99",
+    "case-files/fallen-leaves/codes.csv": "c029527c607f7070ee3144b21dbb4220467f76cb01fd81dcb05625d63eed8cdb",
+    "case-files/harmony/codes.csv": "6cb4204de322be28f53a237aa40f6338a66276b06788d87244f633d7b5342648",
+    "case-files/kagerou/codes.csv": "fd35afaa39f0bb0d14357afd308fbd8359e06981366cd16fe1bd87397b5afbc7",
+    "case-files/lost/codes.csv": "82031c5c7c45c3eb4678a451f1788a35b7106b9e5c523891c7192ca24484eab6",
+    "case-files/prophecy-in-2047/codes.csv": "9359b1278bba27172b97aed2a56db2492414b0cb6a88e9eb13d0b965a6e69a9e",
+    "case-files/random-access-memories/codes.csv": "92272247c614deefe7ebe8bb94ba073b976ad6f85b35b025a8d8f7dba8636dcd",
+    "case-files/snap/codes.csv": "1488294b959f93355984b9830a3f6c33dbdc82bf39e30358fdd71e64d2351734",
+    "case-files/the-kiss/codes.csv": "2f582e59145949f8ce14796f208dd122bab1283207013215e93c20766f0c5398",
+    "case-files/the-last-transmission/codes.csv": "76574da7611abf98f99c0253f8c00a53cd859cef8e226708ac972f073b44fc12",
+    "case-files/the-staff/codes.csv": "ae19df05b2e49cbf2b92ff2ac57b20e06997876a466d563d2f5c7ee1b910dbc3",
+    "studies/01-corpus/outputs/eligibility.csv": "967d494a5fc145c3d4f0fddf5cc5c9c1e7041ad28becf272968f8215a6cf757e",
+    "studies/01-corpus/outputs/film_metrics.csv": "a5bb4cd2c19960abe7a00edbb651e2496562a9a44a9a283bb840cc0a4237109e",
+    "studies/01-corpus/outputs/panel.csv": "6d7463993012bc9c8e15eb6927e6021eadc8e733cd98dd40c8729d5cc6f1860f",
+    "studies/01-corpus/outputs/taxonomy.csv": "a1b56043d15f856a20f10c54c43d19360fc098b1297f7d895a2997b4f867ed28",
+    "studies/01-corpus/outputs/unusual_projects.csv": "923c2308cfc6ee4c62775af7c00911b181bf3bfc8319b60336240cd72c8f8b50",
+    "studies/10-organisation/build.py": "e65cf38edaa5f8948a75917acc639e70bf60afebfd189d0b2a2a2ee8dbcb60a8",
+    "studies/10-organisation/measures.sql": "da3ec5168852387bd573c37d403ff059dcda7f1b344af688a2683006e834b7ad"
+  },
+  "outputs": {
+    "author_operations.csv": "71ff2364675800514c97d45e75f0c21d5ac2d74eb9e51ff846ddf39d8e3d3db3",
+    "by_generation_type.csv": "2592bce9273c47de7f40f14b9a00c2bb491202772cafa6f5bf1240339a182e31",
+    "by_model_identifier.csv": "731d57a413b2f1e0bcc9f03032198be0b949626a32d92748572023be1902cbd6",
+    "case_evidence.csv": "c4c4383e2facfae1c146f56535acddf39b2a7fcb287383305a43da4ba8b91d93",
+    "cross_author_examples.csv": "42c2baf42811833c665d047a963ac886d4346d77afb5de20c1571e9268b2c15c",
+    "film_metrics.csv": "69cb4cad3b48e158f42b810800e9e0ebbd87419d272d67bf0ac4b5b5076dd54c",
+    "metric_evidence.csv": "827d05b618adf0ec0da474efa0cd75e70f1d6721fb8722b74d87ed6abaa67910",
+    "panel_comparison.csv": "25f3e934c98360cea0cbab3aa2d728cd5b33a2e5a32aa5ffdd8b6382f05a1a1e",
+    "summaries.csv": "1de4d66aae0b027ba3d5a4a846b056b12f53bde8f4e1ed0005bb36ed8d6c38e5",
+    "summary_generation_type.csv": "f215d89a169dd66cce8f0ad3e80695706fcefab89175e21cfdb611bf219dc101",
+    "summary_model_identifier.csv": "d97252e845d8beb902a96051bf9df5e39692006ba5754fa909c8c760eb48826c"
+  },
+  "release": "data-2026-10-20",
+  "source_manifest_sha256": "cdd2c8cd936f497564b33cff86fd01f8fc5dd5e30896609edbe0da63ba6f91a6"
+}

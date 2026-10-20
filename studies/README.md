@@ -13,3 +13,5 @@ git. Apply the programme's evidence labels and full nine-item output contract.
 registered films across all 49 shared codes for Studies 02–10, with scoped evidence and reproducible profiles.
 
 [Provisional prompt-label infrastructure — AF3a](../prompt-labels/README.md) supplies structural features, the balanced sample, single-agent gold and the local labelling/agreement harness; the real model run and assessment follow separately.
+
+[Study 10 — Organisation and production economics](10-organisation/README.md) measures public workspace organisation, author and owner records, event windows, repetition, placements and raw input reuse across 157 primary histories, with a resource-visibility audit and proposed operating requirements; labour, costs and comparable-format productivity remain unmeasurable.
