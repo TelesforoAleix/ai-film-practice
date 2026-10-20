@@ -1,0 +1,84 @@
+{
+  "study": "03",
+  "evidence_label": "proposed",
+  "version": "1.0",
+  "denominator": "11 programme entity classes; examples scoped to named panel assignments, not a semantic census",
+  "source_path": "PROGRAMME.md: Study 03; case-files/*/codes.csv: 03.x",
+  "competing_explanation": "A property can be text-only or task-specific rather than an independently reusable element.",
+  "confidence_rationale": "Proposed ontology grounded in bounded case evidence; no semantic label agreement or complete library.",
+  "categories": [
+    {
+      "kind": "character",
+      "definition": "Persistent subject identity; names/appearance alone never merge IDs.",
+      "evidence_id": "birthdays:03.2",
+      "boundary": "Age is a variant axis; preserve declared facial identifiers."
+    },
+    {
+      "kind": "outfit",
+      "definition": "Garment/footwear identity independently bound to a wearer.",
+      "evidence_id": "a-tales-before-titanic-tragedy:03.1",
+      "boundary": "Changing wardrobe need not create a new character."
+    },
+    {
+      "kind": "pose",
+      "definition": "Reusable articulation/expression instruction, independently scoped.",
+      "evidence_id": "the-staff:03.3",
+      "boundary": "Pose state differs from subject identity; package fulfilment unknown."
+    },
+    {
+      "kind": "location",
+      "definition": "Persistent setting identity; literal environment metadata mapped only with evidence.",
+      "evidence_id": "fallen-leaves:03.1",
+      "boundary": "Time/weather/lighting are state axes, not automatically new locations."
+    },
+    {
+      "kind": "layout",
+      "definition": "Spatial arrangement or blockout binding distinct from surface treatment.",
+      "evidence_id": "the-kiss:03.4",
+      "boundary": "Input described as blockout; media geometry remains unobservable."
+    },
+    {
+      "kind": "prop",
+      "definition": "Persistent object identity, with changed-property derivatives kept separate.",
+      "evidence_id": "birthdays:03.5",
+      "boundary": "Logo/panel changes infer a derivative, not approval."
+    },
+    {
+      "kind": "material",
+      "definition": "Surface/substance/wear specification attachable to an entity.",
+      "evidence_id": "random-access-memories:03.5",
+      "boundary": "Wear/tape are named changes, not verified image contents."
+    },
+    {
+      "kind": "palette",
+      "definition": "Scoped colour specification or reference role.",
+      "evidence_id": "detour:03.6",
+      "boundary": "Colour authority can differ from composition authority."
+    },
+    {
+      "kind": "lighting",
+      "definition": "Scoped illumination constraints/reference role.",
+      "evidence_id": "detour:03.6",
+      "boundary": "Do not infer illumination from time of day or attached media."
+    },
+    {
+      "kind": "style_reference",
+      "definition": "Rendering/style constraint or explicitly assigned reference role.",
+      "evidence_id": "the-staff:03.2",
+      "boundary": "Preserved art-style wording does not establish an independent approved style asset."
+    },
+    {
+      "kind": "voice_reference",
+      "definition": "Disclosed speaker/voice identity and source recording, if evidenced.",
+      "evidence_id": null,
+      "boundary": "No scoped Study 03 panel voice-reference example established; do not infer one from audio jobs."
+    }
+  ],
+  "rules": [
+    "Identity is a film-scoped persistent key, not a category/name/URL match.",
+    "Variant describes a named state delta under an identity claim; version is a provenance-bearing representation revision.",
+    "Different outputs or v2 names alone establish neither variant equivalence nor a version edge.",
+    "Property roles can be independent elements or claims attached to an element/task; do not force every adjective into an entity.",
+    "Keep source category and interpreted kind separately; auto and ip_verified labels remain literal metadata."
+  ]
+}
