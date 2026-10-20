@@ -1,0 +1,336 @@
+[
+  {
+    "approval_state": "unknown",
+    "consumer": "372eae81-9e4e-4264-adac-febf9565667e",
+    "edges": [
+      {
+        "asset_id": "37f689e1-04da-473c-9778-97b61732ec90",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data"
+      }
+    ],
+    "endpoints": [
+      {
+        "film_id": "d51d6821-d191-40f7-949b-1086750a2e93",
+        "generation_id": "37f689e1-04da-473c-9778-97b61732ec90",
+        "generation_type": "image",
+        "model_identifier": "seedream_v4_5",
+        "prompt_source_path": "params.prompt"
+      },
+      {
+        "film_id": "d51d6821-d191-40f7-949b-1086750a2e93",
+        "generation_id": "372eae81-9e4e-4264-adac-febf9565667e",
+        "generation_type": "image",
+        "model_identifier": "seedream_v5_lite",
+        "prompt_source_path": "params.prompt"
+      }
+    ],
+    "evidence": {
+      "case_source": "case-files/birthdays/codes.csv",
+      "code_id": "03.5",
+      "codebook_version": "1.0",
+      "competing_explanation": "Published histories can omit external/private work; instructions do not establish achieved results, final acceptance or project-wide intent.",
+      "confidence_rationale": "Direct source paths/compound keys and exact excerpt or deterministic aggregate checked during reproduction; single-coder semantic interpretation, scoped to named evidence. No agreement or quality estimate.",
+      "denominator": "One named producer/consumer pair; exact asset IDs; all film assets/usages searched; raw/min metadata variants retained under their one asset entity [evidence boundary] One named job / 170 inspected / 1003 exported jobs; input rows are occurrences, not independent evidence",
+      "entity_ids": "d51d6821-d191-40f7-949b-1086750a2e93/generation:37f689e1-04da-473c-9778-97b61732ec90; d51d6821-d191-40f7-949b-1086750a2e93/generation:372eae81-9e4e-4264-adac-febf9565667e; d51d6821-d191-40f7-949b-1086750a2e93/asset:37f689e1-04da-473c-9778-97b61732ec90 [evidence boundary] d51d6821-d191-40f7-949b-1086750a2e93/generation:372eae81-9e4e-4264-adac-febf9565667e; d51d6821-d191-40f7-949b-1086750a2e93/asset:37f689e1-04da-473c-9778-97b61732ec90; d51d6821-d191-40f7-949b-1086750a2e93/asset:b38a38ab-607f-4228-93ee-f2d940fdb20f",
+      "evidence_id": "birthdays:03.5",
+      "evidence_label": "inferred",
+      "excerpt": "[producer model] seedream_v4_5 [consumer model] seedream_v5_lite [explicit usage] [{\"asset_id\": \"37f689e1-04da-473c-9778-97b61732ec90\", \"asset_role\": \"input_image\", \"parameter_path\": \"params.medias[0].data\"}] [evidence boundary] Embross the logo from <<<image_2>>> [excerpt boundary] on to the back of the electronic pad in <<<image_1>>> [excerpt boundary] Front, Side, 3/4 and back for the pad on grey background in 3 panels [excerpt boundary] [literal model_identifier] seedream_v5_lite [literal model_name] Seedream 5.0 Lite [excerpt boundary] [input usage role/path] [[\"37f689e1-04da-473c-9778-97b61732ec90\", \"input_image\", \"params.medias[0].data\", null], [\"b38a38ab-607f-4228-93ee-f2d940fdb20f\", \"input_image\", \"params.medias[1].data\", null]]",
+      "film_id": "d51d6821-d191-40f7-949b-1086750a2e93",
+      "later_study": "03",
+      "population": "primary",
+      "scope_note": "Exact tablet producer/input link and named logo/panel changes support a derivative reference version; not explicit version metadata or approval.",
+      "source_path": "assets.generation_id/asset_id -> generations; asset_usages.generation_id/asset_id/asset_role/parameter_path [evidence boundary] generations.prompt/model_identifier/model_name; asset_usages.asset_id/asset_role/parameter_path/reference_element_id; raw/projects/d51d6821-d191-40f7-949b-1086750a2e93/items_0009.json",
+      "status": "coded",
+      "study": "03",
+      "title": "Birthdays",
+      "value": "inferred_version"
+    },
+    "identity_basis": "the electronic pad in <<<image_1>>>",
+    "identity_limit": "Source linkage and case interpretation; no verified same-entity equivalence.",
+    "producer": "37f689e1-04da-473c-9778-97b61732ec90",
+    "relationship": "inferred_derivative",
+    "requested_changes": [
+      "Embross the logo from <<<image_2>>>",
+      "Front, Side, 3/4 and back for the pad"
+    ]
+  },
+  {
+    "approval_state": "unknown",
+    "consumer": "011fbb97-732a-416b-825f-a9635b313b86",
+    "edges": [
+      {
+        "asset_id": "006dcc36-ec37-490f-9890-9524e3ed0ddd",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data"
+      }
+    ],
+    "endpoints": [
+      {
+        "film_id": "d90fe8bd-3329-40b3-963c-d9b33075aec1",
+        "generation_id": "006dcc36-ec37-490f-9890-9524e3ed0ddd",
+        "generation_type": "image",
+        "model_identifier": "seedream_v5_pro",
+        "prompt_source_path": "params.prompt"
+      },
+      {
+        "film_id": "d90fe8bd-3329-40b3-963c-d9b33075aec1",
+        "generation_id": "011fbb97-732a-416b-825f-a9635b313b86",
+        "generation_type": "image",
+        "model_identifier": "gpt_image_2",
+        "prompt_source_path": "params.prompt"
+      }
+    ],
+    "evidence": {
+      "case_source": "case-files/detour/codes.csv",
+      "code_id": "03.5",
+      "codebook_version": "1.0",
+      "competing_explanation": "Published histories can omit external/private work; instructions do not establish achieved results, final acceptance or project-wide intent.",
+      "confidence_rationale": "Direct source paths/compound keys and exact excerpt or deterministic aggregate checked during reproduction; single-coder semantic interpretation, scoped to named evidence. No agreement or quality estimate.",
+      "denominator": "One named producer/consumer pair; exact asset IDs; all film assets/usages searched; raw/min metadata variants retained under their one asset entity",
+      "entity_ids": "d90fe8bd-3329-40b3-963c-d9b33075aec1/generation:006dcc36-ec37-490f-9890-9524e3ed0ddd; d90fe8bd-3329-40b3-963c-d9b33075aec1/generation:011fbb97-732a-416b-825f-a9635b313b86; d90fe8bd-3329-40b3-963c-d9b33075aec1/asset:006dcc36-ec37-490f-9890-9524e3ed0ddd",
+      "evidence_id": "detour:03.5",
+      "evidence_label": "inferred",
+      "excerpt": "[producer model] seedream_v5_pro [consumer model] gpt_image_2 [explicit usage] [{\"asset_id\": \"006dcc36-ec37-490f-9890-9524e3ed0ddd\", \"asset_role\": \"input_image\", \"parameter_path\": \"params.medias[0].data\"}] [changed property excerpt] The only change is a small mark of tomato ketchup on one side of his face",
+      "film_id": "d90fe8bd-3329-40b3-963c-d9b33075aec1",
+      "later_study": "03",
+      "population": "primary",
+      "scope_note": "Explicit input derivative plus named property delta supports an inferred sheet version; no version ID or approval event.",
+      "source_path": "assets.generation_id/asset_id -> generations; asset_usages.generation_id/asset_id/asset_role/parameter_path; generations.prompt",
+      "status": "coded",
+      "study": "03",
+      "title": "Detour",
+      "value": "inferred_version"
+    },
+    "identity_basis": "the same face, the same hair, the same helmet",
+    "identity_limit": "Source linkage and case interpretation; no verified same-entity equivalence.",
+    "producer": "006dcc36-ec37-490f-9890-9524e3ed0ddd",
+    "relationship": "inferred_derivative",
+    "requested_changes": [
+      "The only change is a small mark of tomato ketchup on one side of his face"
+    ]
+  },
+  {
+    "approval_state": "unknown",
+    "consumer": "d720b7d2-ac2c-4eb6-a6cd-4b9de385d4de",
+    "edges": [
+      {
+        "asset_id": "c16ce530-c7d1-461a-acc8-63b8d7de63b1",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[0]"
+      }
+    ],
+    "endpoints": [
+      {
+        "film_id": "d305f6e5-b906-49a1-a0c6-75ef7f653ad8",
+        "generation_id": "c16ce530-c7d1-461a-acc8-63b8d7de63b1",
+        "generation_type": "image",
+        "model_identifier": "nano_banana_2",
+        "prompt_source_path": "params.prompt"
+      },
+      {
+        "film_id": "d305f6e5-b906-49a1-a0c6-75ef7f653ad8",
+        "generation_id": "d720b7d2-ac2c-4eb6-a6cd-4b9de385d4de",
+        "generation_type": "image",
+        "model_identifier": "nano_banana_2",
+        "prompt_source_path": "params.prompt"
+      }
+    ],
+    "evidence": {
+      "case_source": "case-files/dont-poison-ivy/codes.csv",
+      "code_id": "03.5",
+      "codebook_version": "1.0",
+      "competing_explanation": "Published histories can omit external/private work; instructions do not establish achieved results, final acceptance or project-wide intent.",
+      "confidence_rationale": "Direct source paths/compound keys and exact excerpt or deterministic aggregate checked during reproduction; single-coder semantic interpretation, scoped to named evidence. No agreement or quality estimate.",
+      "denominator": "One named producer/consumer pair; exact asset IDs; all film assets/usages searched; raw/min metadata variants retained under their one asset entity [evidence boundary] One named job / 553 inspected / 553 exported jobs; input rows are occurrences, not independent evidence [evidence boundary] One named job / 553 inspected / 553 exported jobs; input rows are occurrences, not independent evidence",
+      "entity_ids": "d305f6e5-b906-49a1-a0c6-75ef7f653ad8/generation:c16ce530-c7d1-461a-acc8-63b8d7de63b1; d305f6e5-b906-49a1-a0c6-75ef7f653ad8/generation:d720b7d2-ac2c-4eb6-a6cd-4b9de385d4de; d305f6e5-b906-49a1-a0c6-75ef7f653ad8/asset:c16ce530-c7d1-461a-acc8-63b8d7de63b1 [evidence boundary] d305f6e5-b906-49a1-a0c6-75ef7f653ad8/generation:c16ce530-c7d1-461a-acc8-63b8d7de63b1 [evidence boundary] d305f6e5-b906-49a1-a0c6-75ef7f653ad8/generation:d720b7d2-ac2c-4eb6-a6cd-4b9de385d4de; d305f6e5-b906-49a1-a0c6-75ef7f653ad8/asset:c16ce530-c7d1-461a-acc8-63b8d7de63b1",
+      "evidence_id": "dont-poison-ivy:03.5",
+      "evidence_label": "inferred",
+      "excerpt": "[producer model] nano_banana_2 [consumer model] nano_banana_2 [explicit usage] [{\"asset_id\": \"c16ce530-c7d1-461a-acc8-63b8d7de63b1\", \"asset_role\": \"input_asset\", \"parameter_path\": \"params.input_images[0]\"}] [evidence boundary] bare clay with no decoration, no painting [excerpt boundary] [literal model_identifier] nano_banana_2 [literal model_name] Nano Banana Pro [evidence boundary] This is a paint addition to a single object, not a redesign. [excerpt boundary] [literal model_identifier] nano_banana_2 [literal model_name] Nano Banana Pro [excerpt boundary] [input usage role/path] [[\"c16ce530-c7d1-461a-acc8-63b8d7de63b1\", \"input_asset\", \"params.input_images[0]\", null]]",
+      "film_id": "d305f6e5-b906-49a1-a0c6-75ef7f653ad8",
+      "later_study": "03",
+      "population": "primary",
+      "scope_note": "Named reference producer/input link plus changed property supports a derivative interpretation; no explicit version ID or approval.",
+      "source_path": "assets.generation_id/asset_id -> generations; asset_usages.generation_id/asset_id/asset_role/parameter_path [evidence boundary] generations.prompt/model_identifier/model_name; raw/projects/d305f6e5-b906-49a1-a0c6-75ef7f653ad8/items_0001.json [evidence boundary] generations.prompt/model_identifier/model_name; asset_usages.asset_id/asset_role/parameter_path/reference_element_id; raw/projects/d305f6e5-b906-49a1-a0c6-75ef7f653ad8/items_0005.json",
+      "status": "coded",
+      "study": "03",
+      "title": "Don't Poison Ivy",
+      "value": "inferred_version"
+    },
+    "identity_basis": "THE PLANT IS COMPLETELY UNCHANGED",
+    "identity_limit": "Source linkage and case interpretation; no verified same-entity equivalence.",
+    "producer": "c16ce530-c7d1-461a-acc8-63b8d7de63b1",
+    "relationship": "inferred_derivative",
+    "requested_changes": [
+      "ADD ONLY the painted marks described below to the outside of the pot."
+    ]
+  },
+  {
+    "approval_state": "unknown",
+    "consumer": "7ef74efa-93a5-4f9b-93b7-520973ad2ac5",
+    "edges": [
+      {
+        "asset_id": "4aa39556-be8b-401a-98f1-031cd850cff5",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data"
+      }
+    ],
+    "endpoints": [
+      {
+        "film_id": "9b38b885-bf92-484e-8f36-a890e4e10d61",
+        "generation_id": "4aa39556-be8b-401a-98f1-031cd850cff5",
+        "generation_type": "image",
+        "model_identifier": "gpt_image_2",
+        "prompt_source_path": "params.prompt"
+      },
+      {
+        "film_id": "9b38b885-bf92-484e-8f36-a890e4e10d61",
+        "generation_id": "7ef74efa-93a5-4f9b-93b7-520973ad2ac5",
+        "generation_type": "image",
+        "model_identifier": "seedream_v5_pro",
+        "prompt_source_path": "params.prompt"
+      }
+    ],
+    "evidence": {
+      "case_source": "case-files/prophecy-in-2047/codes.csv",
+      "code_id": "03.5",
+      "codebook_version": "1.0",
+      "competing_explanation": "Published histories can omit external/private work; instructions do not establish achieved results, final acceptance or project-wide intent.",
+      "confidence_rationale": "Direct source paths/compound keys and exact excerpt or deterministic aggregate checked during reproduction; single-coder semantic interpretation, scoped to named evidence. No agreement or quality estimate.",
+      "denominator": "One named producer/consumer pair; exact asset IDs; all film assets/usages searched; raw/min metadata variants retained under their one asset entity [evidence boundary] One named job / 184 inspected / 1054 exported jobs; input rows are occurrences, not independent evidence [evidence boundary] One named job / 184 inspected / 1054 exported jobs; input rows are occurrences, not independent evidence",
+      "entity_ids": "9b38b885-bf92-484e-8f36-a890e4e10d61/generation:4aa39556-be8b-401a-98f1-031cd850cff5; 9b38b885-bf92-484e-8f36-a890e4e10d61/generation:7ef74efa-93a5-4f9b-93b7-520973ad2ac5; 9b38b885-bf92-484e-8f36-a890e4e10d61/asset:4aa39556-be8b-401a-98f1-031cd850cff5 [evidence boundary] 9b38b885-bf92-484e-8f36-a890e4e10d61/generation:4aa39556-be8b-401a-98f1-031cd850cff5 [evidence boundary] 9b38b885-bf92-484e-8f36-a890e4e10d61/generation:7ef74efa-93a5-4f9b-93b7-520973ad2ac5; 9b38b885-bf92-484e-8f36-a890e4e10d61/asset:4aa39556-be8b-401a-98f1-031cd850cff5",
+      "evidence_id": "prophecy-in-2047:03.5",
+      "evidence_label": "inferred",
+      "excerpt": "[producer model] gpt_image_2 [consumer model] seedream_v5_pro [explicit usage] [{\"asset_id\": \"4aa39556-be8b-401a-98f1-031cd850cff5\", \"asset_role\": \"input_image\", \"parameter_path\": \"params.medias[0].data\"}] [evidence boundary] Identical repeating segments [excerpt boundary] [literal model_identifier] gpt_image_2 [literal model_name] GPT Image 2.0 [evidence boundary] Only its age, its power state and its palette [excerpt boundary] [literal model_identifier] seedream_v5_pro [literal model_name] Seedream 5.0 Pro [excerpt boundary] [input usage role/path] [[\"4aa39556-be8b-401a-98f1-031cd850cff5\", \"input_image\", \"params.medias[0].data\", null]]",
+      "film_id": "9b38b885-bf92-484e-8f36-a890e4e10d61",
+      "later_study": "03",
+      "population": "primary",
+      "scope_note": "Named reference producer/input link plus changed property supports a derivative interpretation; no explicit version ID or approval.",
+      "source_path": "assets.generation_id/asset_id -> generations; asset_usages.generation_id/asset_id/asset_role/parameter_path [evidence boundary] generations.prompt/model_identifier/model_name; raw/projects/9b38b885-bf92-484e-8f36-a890e4e10d61/items_0002.json [evidence boundary] generations.prompt/model_identifier/model_name; asset_usages.asset_id/asset_role/parameter_path/reference_element_id; raw/projects/9b38b885-bf92-484e-8f36-a890e4e10d61/items_0002.json",
+      "status": "coded",
+      "study": "03",
+      "title": "Prophecy in 2047",
+      "value": "inferred_version"
+    },
+    "identity_basis": "DO NOT REDESIGN IT. The shapes are unchanged.",
+    "identity_limit": "Source linkage and case interpretation; no verified same-entity equivalence.",
+    "producer": "4aa39556-be8b-401a-98f1-031cd850cff5",
+    "relationship": "inferred_derivative",
+    "requested_changes": [
+      "Only its age, its power state and its palette",
+      "STRUCTURE CHANGE - REMOVE THE BASE:"
+    ]
+  },
+  {
+    "approval_state": "unknown",
+    "consumer": "d0efc423-f288-4e29-9665-e2bd10b23b29",
+    "edges": [
+      {
+        "asset_id": "a5620e3d-120b-4dd5-ad46-ccb087640437",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[0]"
+      }
+    ],
+    "endpoints": [
+      {
+        "film_id": "e99b5ad2-8f58-4ef8-a13c-4441cfdd5205",
+        "generation_id": "a5620e3d-120b-4dd5-ad46-ccb087640437",
+        "generation_type": "image",
+        "model_identifier": "gpt_image_2",
+        "prompt_source_path": "params.prompt"
+      },
+      {
+        "film_id": "e99b5ad2-8f58-4ef8-a13c-4441cfdd5205",
+        "generation_id": "d0efc423-f288-4e29-9665-e2bd10b23b29",
+        "generation_type": "image",
+        "model_identifier": "nano_banana_2",
+        "prompt_source_path": "params.prompt"
+      }
+    ],
+    "evidence": {
+      "case_source": "case-files/random-access-memories/codes.csv",
+      "code_id": "03.5",
+      "codebook_version": "1.0",
+      "competing_explanation": "Published histories can omit external/private work; instructions do not establish achieved results, final acceptance or project-wide intent.",
+      "confidence_rationale": "Direct source paths/compound keys and exact excerpt or deterministic aggregate checked during reproduction; single-coder semantic interpretation, scoped to named evidence. No agreement or quality estimate.",
+      "denominator": "One named producer/consumer pair; exact asset IDs; all film assets/usages searched; raw/min metadata variants retained under their one asset entity [evidence boundary] One named job / 482 inspected / 482 exported jobs; input rows are occurrences, not independent evidence [evidence boundary] One named job / 482 inspected / 482 exported jobs; input rows are occurrences, not independent evidence",
+      "entity_ids": "e99b5ad2-8f58-4ef8-a13c-4441cfdd5205/generation:a5620e3d-120b-4dd5-ad46-ccb087640437; e99b5ad2-8f58-4ef8-a13c-4441cfdd5205/generation:d0efc423-f288-4e29-9665-e2bd10b23b29; e99b5ad2-8f58-4ef8-a13c-4441cfdd5205/asset:a5620e3d-120b-4dd5-ad46-ccb087640437 [evidence boundary] e99b5ad2-8f58-4ef8-a13c-4441cfdd5205/generation:a5620e3d-120b-4dd5-ad46-ccb087640437 [evidence boundary] e99b5ad2-8f58-4ef8-a13c-4441cfdd5205/generation:d0efc423-f288-4e29-9665-e2bd10b23b29; e99b5ad2-8f58-4ef8-a13c-4441cfdd5205/asset:a5620e3d-120b-4dd5-ad46-ccb087640437",
+      "evidence_id": "random-access-memories:03.5",
+      "evidence_label": "inferred",
+      "excerpt": "[producer model] gpt_image_2 [consumer model] nano_banana_2 [explicit usage] [{\"asset_id\": \"a5620e3d-120b-4dd5-ad46-ccb087640437\", \"asset_role\": \"input_asset\", \"parameter_path\": \"params.input_images[0]\"}] [evidence boundary] make prop sheet of a Commodore 64 console [excerpt boundary] [literal model_identifier] gpt_image_2 [literal model_name] GPT Image 2.0 [evidence boundary] overused, tape around it [excerpt boundary] [literal model_identifier] nano_banana_2 [literal model_name] Nano Banana Pro [excerpt boundary] [input usage role/path] [[\"a5620e3d-120b-4dd5-ad46-ccb087640437\", \"input_asset\", \"params.input_images[0]\", null]]",
+      "film_id": "e99b5ad2-8f58-4ef8-a13c-4441cfdd5205",
+      "later_study": "03",
+      "population": "primary",
+      "scope_note": "Named reference producer/input link plus changed property supports a derivative interpretation; no explicit version ID or approval.",
+      "source_path": "assets.generation_id/asset_id -> generations; asset_usages.generation_id/asset_id/asset_role/parameter_path [evidence boundary] generations.prompt/model_identifier/model_name; raw/projects/e99b5ad2-8f58-4ef8-a13c-4441cfdd5205/items_0003.json [evidence boundary] generations.prompt/model_identifier/model_name; asset_usages.asset_id/asset_role/parameter_path/reference_element_id; raw/projects/e99b5ad2-8f58-4ef8-a13c-4441cfdd5205/items_0002.json",
+      "status": "coded",
+      "study": "03",
+      "title": "Random Access Memories",
+      "value": "inferred_version"
+    },
+    "identity_basis": null,
+    "identity_limit": "Source linkage and case interpretation; no verified same-entity equivalence.",
+    "producer": "a5620e3d-120b-4dd5-ad46-ccb087640437",
+    "relationship": "inferred_derivative",
+    "requested_changes": [
+      "run down and beat up",
+      "tape around it",
+      "some scratches and dents"
+    ]
+  },
+  {
+    "approval_state": "unknown",
+    "consumer": "b1e57fe3-968c-40fb-9417-20036906e9fa",
+    "edges": [
+      {
+        "asset_id": "0139b8bd-2e52-46e6-bd9e-2ca3dd73259e",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[0]"
+      }
+    ],
+    "endpoints": [
+      {
+        "film_id": "aed4098b-3278-4e5d-a347-24fad9cfb9ae",
+        "generation_id": "0139b8bd-2e52-46e6-bd9e-2ca3dd73259e",
+        "generation_type": "image",
+        "model_identifier": "nano_banana_2",
+        "prompt_source_path": "params.prompt"
+      },
+      {
+        "film_id": "aed4098b-3278-4e5d-a347-24fad9cfb9ae",
+        "generation_id": "b1e57fe3-968c-40fb-9417-20036906e9fa",
+        "generation_type": "image",
+        "model_identifier": "nano_banana_2",
+        "prompt_source_path": "params.prompt"
+      }
+    ],
+    "evidence": {
+      "case_source": "case-files/snap/codes.csv",
+      "code_id": "03.5",
+      "codebook_version": "1.0",
+      "competing_explanation": "Published histories can omit external/private work; instructions do not establish achieved results, final acceptance or project-wide intent.",
+      "confidence_rationale": "Direct source paths/compound keys and exact excerpt or deterministic aggregate checked during reproduction; single-coder semantic interpretation, scoped to named evidence. No agreement or quality estimate.",
+      "denominator": "One named producer/consumer pair; exact asset IDs; all film assets/usages searched; raw/min metadata variants retained under their one asset entity [evidence boundary] One named job / 68 inspected / 1034 exported jobs; input rows are occurrences, not independent evidence [evidence boundary] One named job / 68 inspected / 1034 exported jobs; input rows are occurrences, not independent evidence",
+      "entity_ids": "aed4098b-3278-4e5d-a347-24fad9cfb9ae/generation:0139b8bd-2e52-46e6-bd9e-2ca3dd73259e; aed4098b-3278-4e5d-a347-24fad9cfb9ae/generation:b1e57fe3-968c-40fb-9417-20036906e9fa; aed4098b-3278-4e5d-a347-24fad9cfb9ae/asset:0139b8bd-2e52-46e6-bd9e-2ca3dd73259e [evidence boundary] aed4098b-3278-4e5d-a347-24fad9cfb9ae/generation:0139b8bd-2e52-46e6-bd9e-2ca3dd73259e [evidence boundary] aed4098b-3278-4e5d-a347-24fad9cfb9ae/generation:b1e57fe3-968c-40fb-9417-20036906e9fa; aed4098b-3278-4e5d-a347-24fad9cfb9ae/asset:0139b8bd-2e52-46e6-bd9e-2ca3dd73259e",
+      "evidence_id": "snap:03.5",
+      "evidence_label": "inferred",
+      "excerpt": "[producer model] nano_banana_2 [consumer model] nano_banana_2 [explicit usage] [{\"asset_id\": \"0139b8bd-2e52-46e6-bd9e-2ca3dd73259e\", \"asset_role\": \"input_asset\", \"parameter_path\": \"params.input_images[0]\"}] [evidence boundary] only the box with the ball in it [excerpt boundary] [literal model_identifier] nano_banana_2 [literal model_name] Nano Banana Pro [evidence boundary] make the full photo the box [excerpt boundary] [literal model_identifier] nano_banana_2 [literal model_name] Nano Banana Pro [excerpt boundary] [input usage role/path] [[\"0139b8bd-2e52-46e6-bd9e-2ca3dd73259e\", \"input_asset\", \"params.input_images[0]\", null]]",
+      "film_id": "aed4098b-3278-4e5d-a347-24fad9cfb9ae",
+      "later_study": "03",
+      "population": "primary",
+      "scope_note": "Named reference producer/input link plus changed property supports a derivative interpretation; no explicit version ID or approval.",
+      "source_path": "assets.generation_id/asset_id -> generations; asset_usages.generation_id/asset_id/asset_role/parameter_path [evidence boundary] generations.prompt/model_identifier/model_name; raw/projects/aed4098b-3278-4e5d-a347-24fad9cfb9ae/items_0002.json [evidence boundary] generations.prompt/model_identifier/model_name; asset_usages.asset_id/asset_role/parameter_path/reference_element_id; raw/projects/aed4098b-3278-4e5d-a347-24fad9cfb9ae/items_0001.json",
+      "status": "coded",
+      "study": "03",
+      "title": "SNAP",
+      "value": "inferred_version"
+    },
+    "identity_basis": "Same sheet layout, same views in the same arrangement at the same scale",
+    "identity_limit": "Source linkage and case interpretation; no verified same-entity equivalence.",
+    "producer": "0139b8bd-2e52-46e6-bd9e-2ca3dd73259e",
+    "relationship": "inferred_derivative",
+    "requested_changes": [
+      "make the full photo the box"
+    ]
+  }
+]

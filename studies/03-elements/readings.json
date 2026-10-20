@@ -1,0 +1,26 @@
+{
+  "birthdays": {
+    "changed_properties": ["Embross the logo from <<<image_2>>>", "Front, Side, 3/4 and back for the pad"],
+    "identity_basis": "the electronic pad in <<<image_1>>>"
+  },
+  "detour": {
+    "changed_properties": ["The only change is a small mark of tomato ketchup on one side of his face"],
+    "identity_basis": "the same face, the same hair, the same helmet"
+  },
+  "dont-poison-ivy": {
+    "changed_properties": ["ADD ONLY the painted marks described below to the outside of the pot."],
+    "identity_basis": "THE PLANT IS COMPLETELY UNCHANGED"
+  },
+  "prophecy-in-2047": {
+    "changed_properties": ["Only its age, its power state and its palette", "STRUCTURE CHANGE - REMOVE THE BASE:"],
+    "identity_basis": "DO NOT REDESIGN IT. The shapes are unchanged."
+  },
+  "random-access-memories": {
+    "changed_properties": ["run down and beat up", "tape around it", "some scratches and dents"],
+    "identity_basis": null
+  },
+  "snap": {
+    "changed_properties": ["make the full photo the box"],
+    "identity_basis": "Same sheet layout, same views in the same arrangement at the same scale"
+  }
+}
