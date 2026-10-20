@@ -1,0 +1,2008 @@
+{
+  "release": "data-2026-10-20",
+  "film_id": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce",
+  "title": "The Staff",
+  "cohort_group": "shortlist_only",
+  "row_counts": {
+    "films": 1,
+    "priority_films": 1,
+    "folders": 28,
+    "generations": 82,
+    "generation_prompts": 163,
+    "assets": 121,
+    "asset_usages": 462,
+    "asset_folders": 85,
+    "generation_folders": 82,
+    "reference_elements": 23,
+    "brief_assets": 0,
+    "model_usage": 3,
+    "extraction_log": 1,
+    "other_items": 0
+  },
+  "measure_provenance": {
+    "films": {
+      "study": "02-10 case-file preparation",
+      "film_id": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce",
+      "entity_ids": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce/films: all film-scoped source rows",
+      "source_path": "films.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=1",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "1 exported films rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "priority_films": {
+      "study": "02-10 case-file preparation",
+      "film_id": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce",
+      "entity_ids": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce/priority_films: all film-scoped source rows",
+      "source_path": "priority_films.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=1",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "1 exported priority_films rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "folders": {
+      "study": "02-10 case-file preparation",
+      "film_id": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce",
+      "entity_ids": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce/folders: all film-scoped source rows",
+      "source_path": "folders.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=28",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "28 exported folders rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "generations": {
+      "study": "02-10 case-file preparation",
+      "film_id": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce",
+      "entity_ids": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce/generations: all film-scoped source rows",
+      "source_path": "generations.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=82",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "82 exported generations rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "generation_prompts": {
+      "study": "02-10 case-file preparation",
+      "film_id": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce",
+      "entity_ids": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce/generation_prompts: all film-scoped source rows",
+      "source_path": "generation_prompts.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=163",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "163 exported generation_prompts rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "assets": {
+      "study": "02-10 case-file preparation",
+      "film_id": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce",
+      "entity_ids": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce/assets: all film-scoped source rows",
+      "source_path": "assets.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=121",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "121 exported assets rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "asset_usages": {
+      "study": "02-10 case-file preparation",
+      "film_id": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce",
+      "entity_ids": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce/asset_usages: all film-scoped source rows",
+      "source_path": "asset_usages.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=462",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "462 exported asset_usages rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "asset_folders": {
+      "study": "02-10 case-file preparation",
+      "film_id": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce",
+      "entity_ids": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce/asset_folders: all film-scoped source rows",
+      "source_path": "asset_folders.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=85",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "85 exported asset_folders rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "generation_folders": {
+      "study": "02-10 case-file preparation",
+      "film_id": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce",
+      "entity_ids": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce/generation_folders: all film-scoped source rows",
+      "source_path": "generation_folders.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=82",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "82 exported generation_folders rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "reference_elements": {
+      "study": "02-10 case-file preparation",
+      "film_id": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce",
+      "entity_ids": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce/reference_elements: all film-scoped source rows",
+      "source_path": "reference_elements.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=23",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "23 exported reference_elements rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "brief_assets": {
+      "study": "02-10 case-file preparation",
+      "film_id": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce",
+      "entity_ids": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce/brief_assets: all film-scoped source rows",
+      "source_path": "brief_assets.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=0",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "0 exported brief_assets rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "model_usage": {
+      "study": "02-10 case-file preparation",
+      "film_id": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce",
+      "entity_ids": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce/model_usage: all film-scoped source rows",
+      "source_path": "model_usage.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=3",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "3 exported model_usage rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "extraction_log": {
+      "study": "02-10 case-file preparation",
+      "film_id": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce",
+      "entity_ids": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce/extraction_log: all film-scoped source rows",
+      "source_path": "extraction_log.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=1",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "1 exported extraction_log rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "other_items": {
+      "study": "02-10 case-file preparation",
+      "film_id": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce",
+      "entity_ids": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce/other_items: all film-scoped source rows",
+      "source_path": "other_items.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=0",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "0 exported other_items rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    }
+  },
+  "field_states": {
+    "films": {
+      "in_priority_scope": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "most_watched_rank_top100": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "views": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "likes": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "comments": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "audience_votes": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "editorial_selection": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "title": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "creator": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "creator_profile_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "project_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "description": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "duration": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "submitted_at": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "category": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "shortlist_status": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "film_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "thumbnail_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "project_brief": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "production_notes": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "model_usage_summary": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "extraction_status": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "is_open_source": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "show_prompts": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "snapshot_folder_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "root_folder_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "reported_generations": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "authors_json": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "source_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "source_record_file": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "project_metadata_source_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      }
+    },
+    "priority_films": {
+      "in_priority_scope": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "most_watched_rank_top100": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "views": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "likes": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "comments": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "audience_votes": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "editorial_selection": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "title": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "creator": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "creator_profile_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "project_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "description": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "duration": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "submitted_at": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "category": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "shortlist_status": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "film_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "thumbnail_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "project_brief": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "production_notes": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "model_usage_summary": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "extraction_status": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "is_open_source": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "show_prompts": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "snapshot_folder_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "root_folder_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "reported_generations": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "authors_json": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "source_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "source_record_file": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "project_metadata_source_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      }
+    },
+    "folders": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 28
+      },
+      "folder_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 28
+      },
+      "parent_folder_id": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 27
+      },
+      "folder_name": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 28
+      },
+      "folder_path": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 28
+      },
+      "source_folder_path": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 28
+      },
+      "folder_type": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 28
+      },
+      "item_count": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 28
+      },
+      "subfolders_count": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 28
+      },
+      "source_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 28
+      }
+    },
+    "generations": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 82
+      },
+      "folder_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 82
+      },
+      "generation_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 82
+      },
+      "generation_batch_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 82
+      },
+      "generation_type": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 82
+      },
+      "model_provider": {
+        "unavailable": 82,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "model_name": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 82
+      },
+      "model_identifier": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 82
+      },
+      "prompt": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 82
+      },
+      "prompt_source_path": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 82
+      },
+      "negative_prompt": {
+        "unavailable": 82,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "parameters_json": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 82
+      },
+      "created_at": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 82
+      },
+      "source_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 82
+      },
+      "extraction_status": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 82
+      },
+      "generation_status": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 82
+      },
+      "author_user_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 82
+      },
+      "author_username": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 82
+      },
+      "source_record_file": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 82
+      },
+      "source_provenance_method": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 82
+      }
+    },
+    "generation_prompts": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 163
+      },
+      "generation_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 163
+      },
+      "field_path": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 163
+      },
+      "prompt_role": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 163
+      },
+      "text": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 163
+      }
+    },
+    "assets": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 121
+      },
+      "generation_id": {
+        "unavailable": 39,
+        "empty": 0,
+        "nonempty": 82
+      },
+      "asset_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 121
+      },
+      "asset_type": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 121
+      },
+      "asset_role": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 121
+      },
+      "asset_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 121
+      },
+      "source_asset_id": {
+        "unavailable": 121,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "folder_id": {
+        "unavailable": 36,
+        "empty": 0,
+        "nonempty": 85
+      },
+      "metadata_json": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 121
+      }
+    },
+    "asset_usages": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 462
+      },
+      "generation_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 462
+      },
+      "asset_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 462
+      },
+      "asset_role": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 462
+      },
+      "asset_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 462
+      },
+      "metadata_json": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 462
+      },
+      "parameter_role": {
+        "unavailable": 390,
+        "empty": 0,
+        "nonempty": 72
+      },
+      "parameter_path": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 462
+      },
+      "reference_element_id": {
+        "unavailable": 154,
+        "empty": 0,
+        "nonempty": 308
+      }
+    },
+    "asset_folders": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 85
+      },
+      "asset_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 85
+      },
+      "folder_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 85
+      }
+    },
+    "generation_folders": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 82
+      },
+      "generation_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 82
+      },
+      "folder_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 82
+      },
+      "folder_job_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 82
+      }
+    },
+    "reference_elements": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 23
+      },
+      "reference_element_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 23
+      },
+      "name": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 23
+      },
+      "category": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 23
+      },
+      "description": {
+        "unavailable": 19,
+        "empty": 4,
+        "nonempty": 0
+      },
+      "metadata_json": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 23
+      }
+    },
+    "brief_assets": {},
+    "model_usage": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 3
+      },
+      "model_name": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 3
+      },
+      "model_identifier": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 3
+      },
+      "provider": {
+        "unavailable": 3,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "usage_count": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 3
+      },
+      "usage_percentage": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 3
+      },
+      "source_type": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 3
+      },
+      "source_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 3
+      }
+    },
+    "extraction_log": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "project_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "extraction_timestamp": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "extraction_status": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "folders_found": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "generations_found": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "assets_found": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "missing_fields": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "errors": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "items_received": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "items_complete": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "folders_complete": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "reported_generations": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "generation_count_reconciles": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "brief_complete": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "leaf_recovery_complete": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "leaf_recovery_errors": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      }
+    },
+    "other_items": {}
+  },
+  "generations": {
+    "generation_type": [
+      {
+        "value": "image",
+        "count": 1
+      },
+      {
+        "value": "video",
+        "count": 81
+      }
+    ],
+    "model_identifier": [
+      {
+        "value": "cinematic_studio_video_4_0",
+        "count": 6
+      },
+      {
+        "value": "seedance_2_5",
+        "count": 75
+      },
+      {
+        "value": "seedream_v5_pro",
+        "count": 1
+      }
+    ],
+    "model_name": [
+      {
+        "value": "Cinema Studio 4.0",
+        "count": 6
+      },
+      {
+        "value": "Seedance 2.5",
+        "count": 75
+      },
+      {
+        "value": "Seedream 5.0 Pro",
+        "count": 1
+      }
+    ],
+    "author_user_id": [
+      {
+        "value": "user_3GQbaO7pXndjNI9zVhYOeC1T5sp",
+        "count": 82
+      }
+    ],
+    "generation_status": [
+      {
+        "value": "completed",
+        "count": 82
+      }
+    ]
+  },
+  "prompt_states": {
+    "unavailable": 0,
+    "empty": 0,
+    "nonempty": 82,
+    "distinct_nonempty": 70
+  },
+  "text_roles": [
+    {
+      "value": "prompt_or_text",
+      "count": 163
+    }
+  ],
+  "usage_roles": [
+    {
+      "value": "input_image",
+      "count": 71
+    },
+    {
+      "value": "input_video",
+      "count": 1
+    },
+    {
+      "value": "output",
+      "count": 82
+    },
+    {
+      "value": "reference_image",
+      "count": 308
+    }
+  ],
+  "parameter_controls": [
+    {
+      "model": "cinematic_studio_video_4_0",
+      "path": "aspect_ratio",
+      "value": "\"16:9\"",
+      "count": 6
+    },
+    {
+      "model": "cinematic_studio_video_4_0",
+      "path": "duration",
+      "value": "15",
+      "count": 2
+    },
+    {
+      "model": "cinematic_studio_video_4_0",
+      "path": "duration",
+      "value": "20",
+      "count": 4
+    },
+    {
+      "model": "cinematic_studio_video_4_0",
+      "path": "generate_audio",
+      "value": "true",
+      "count": 6
+    },
+    {
+      "model": "cinematic_studio_video_4_0",
+      "path": "is_inpaint",
+      "value": "<unavailable>",
+      "count": 6
+    },
+    {
+      "model": "cinematic_studio_video_4_0",
+      "path": "model",
+      "value": "\"default\"",
+      "count": 6
+    },
+    {
+      "model": "cinematic_studio_video_4_0",
+      "path": "multi_shots",
+      "value": "false",
+      "count": 6
+    },
+    {
+      "model": "cinematic_studio_video_4_0",
+      "path": "resolution",
+      "value": "\"1080p\"",
+      "count": 5
+    },
+    {
+      "model": "cinematic_studio_video_4_0",
+      "path": "resolution",
+      "value": "\"720p\"",
+      "count": 1
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "aspect_ratio",
+      "value": "\"16:9\"",
+      "count": 75
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "15",
+      "count": 61
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "20",
+      "count": 11
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "30",
+      "count": 3
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "generate_audio",
+      "value": "true",
+      "count": 75
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "is_inpaint",
+      "value": "<unavailable>",
+      "count": 75
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "model",
+      "value": "\"default\"",
+      "count": 75
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "multi_shots",
+      "value": "false",
+      "count": 75
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "resolution",
+      "value": "\"1080p\"",
+      "count": 73
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "resolution",
+      "value": "\"720p\"",
+      "count": 2
+    },
+    {
+      "model": "seedream_v5_pro",
+      "path": "aspect_ratio",
+      "value": "\"16:9\"",
+      "count": 1
+    },
+    {
+      "model": "seedream_v5_pro",
+      "path": "duration",
+      "value": "<unavailable>",
+      "count": 1
+    },
+    {
+      "model": "seedream_v5_pro",
+      "path": "generate_audio",
+      "value": "<unavailable>",
+      "count": 1
+    },
+    {
+      "model": "seedream_v5_pro",
+      "path": "is_inpaint",
+      "value": "false",
+      "count": 1
+    },
+    {
+      "model": "seedream_v5_pro",
+      "path": "model",
+      "value": "<unavailable>",
+      "count": 1
+    },
+    {
+      "model": "seedream_v5_pro",
+      "path": "multi_shots",
+      "value": "<unavailable>",
+      "count": 1
+    },
+    {
+      "model": "seedream_v5_pro",
+      "path": "resolution",
+      "value": "\"2k\"",
+      "count": 1
+    }
+  ],
+  "invalid_parameters": [],
+  "folders": [
+    {
+      "folder_id": "0c8fb321-1b14-4656-a24e-780b03c8c92b",
+      "folder_name": "Scene 14",
+      "parent_folder_id": "c9be1f89-5d02-4060-ae3d-d6a81e64ab66",
+      "generation_placements": 1
+    },
+    {
+      "folder_id": "242f239d-579a-42af-87d2-214a8a40c033",
+      "folder_name": "Scene 5",
+      "parent_folder_id": "6fd624a8-6531-475d-955a-aae314a544a6",
+      "generation_placements": 3
+    },
+    {
+      "folder_id": "2566b630-5b4e-4bd8-9880-f91de7cdf620",
+      "folder_name": "Scene 6",
+      "parent_folder_id": "6fd624a8-6531-475d-955a-aae314a544a6",
+      "generation_placements": 4
+    },
+    {
+      "folder_id": "2e020f29-f976-439f-91e9-a56828b75c48",
+      "folder_name": "Scene 11",
+      "parent_folder_id": "c9be1f89-5d02-4060-ae3d-d6a81e64ab66",
+      "generation_placements": 3
+    },
+    {
+      "folder_id": "32459338-a9bc-4449-b950-94d9f9c2d39e",
+      "folder_name": "Scene 16",
+      "parent_folder_id": "af84547b-d380-4fef-ae43-05d5dffd387f",
+      "generation_placements": 2
+    },
+    {
+      "folder_id": "46e30d4d-f336-4b9a-a27e-6385f5414fd9",
+      "folder_name": "Ref",
+      "parent_folder_id": "cbe16820-aa74-4f9b-8cb1-cbd5b9b24683",
+      "generation_placements": 1
+    },
+    {
+      "folder_id": "57d6c58e-fda5-4d23-ae9b-912ece66591e",
+      "folder_name": "Scene 8",
+      "parent_folder_id": "6fd624a8-6531-475d-955a-aae314a544a6",
+      "generation_placements": 3
+    },
+    {
+      "folder_id": "65b0b175-9794-46a3-b00d-0cafc4cd251d",
+      "folder_name": "Watermarks",
+      "parent_folder_id": "cbe16820-aa74-4f9b-8cb1-cbd5b9b24683",
+      "generation_placements": 0
+    },
+    {
+      "folder_id": "65ca85e2-ceb7-4850-bcc3-28ddc4f95840",
+      "folder_name": "Scene 9",
+      "parent_folder_id": "6fd624a8-6531-475d-955a-aae314a544a6",
+      "generation_placements": 3
+    },
+    {
+      "folder_id": "6ea21032-4e4b-4fdd-a080-5af7fa6dc11d",
+      "folder_name": "Scene 19",
+      "parent_folder_id": "af84547b-d380-4fef-ae43-05d5dffd387f",
+      "generation_placements": 2
+    },
+    {
+      "folder_id": "6fd624a8-6531-475d-955a-aae314a544a6",
+      "folder_name": "ACT 1",
+      "parent_folder_id": "cbe16820-aa74-4f9b-8cb1-cbd5b9b24683",
+      "generation_placements": 0
+    },
+    {
+      "folder_id": "7209b0a3-c284-4799-be8a-ac05e76ae3a9",
+      "folder_name": "Scene 4",
+      "parent_folder_id": "6fd624a8-6531-475d-955a-aae314a544a6",
+      "generation_placements": 2
+    },
+    {
+      "folder_id": "8b5d44c5-2bc1-4d15-ab23-fa92afacf6f5",
+      "folder_name": "Scene 12",
+      "parent_folder_id": "c9be1f89-5d02-4060-ae3d-d6a81e64ab66",
+      "generation_placements": 2
+    },
+    {
+      "folder_id": "9be5adeb-6594-42d9-8307-cfcb4685f6cb",
+      "folder_name": "Scene 15",
+      "parent_folder_id": "af84547b-d380-4fef-ae43-05d5dffd387f",
+      "generation_placements": 8
+    },
+    {
+      "folder_id": "a01b6aeb-da12-404a-8762-502e52a794d2",
+      "folder_name": "ACT 4",
+      "parent_folder_id": "cbe16820-aa74-4f9b-8cb1-cbd5b9b24683",
+      "generation_placements": 0
+    },
+    {
+      "folder_id": "a9d50b59-9e9f-4d9c-bfdc-5f1e6e8d4d76",
+      "folder_name": "Scene 18",
+      "parent_folder_id": "af84547b-d380-4fef-ae43-05d5dffd387f",
+      "generation_placements": 9
+    },
+    {
+      "folder_id": "af84547b-d380-4fef-ae43-05d5dffd387f",
+      "folder_name": "ACT 3",
+      "parent_folder_id": "cbe16820-aa74-4f9b-8cb1-cbd5b9b24683",
+      "generation_placements": 0
+    },
+    {
+      "folder_id": "b89b510c-a081-49ce-9c4a-9bc9dcf76f81",
+      "folder_name": "Scene 17",
+      "parent_folder_id": "af84547b-d380-4fef-ae43-05d5dffd387f",
+      "generation_placements": 4
+    },
+    {
+      "folder_id": "ba05b3c5-e998-4865-80c9-817bed290614",
+      "folder_name": "Scene 13",
+      "parent_folder_id": "c9be1f89-5d02-4060-ae3d-d6a81e64ab66",
+      "generation_placements": 4
+    },
+    {
+      "folder_id": "c2c76799-d39b-4611-9a16-8282b857e410",
+      "folder_name": "Scene 20",
+      "parent_folder_id": "a01b6aeb-da12-404a-8762-502e52a794d2",
+      "generation_placements": 8
+    },
+    {
+      "folder_id": "c471b535-ebda-47fd-8180-0b4dfeddec93",
+      "folder_name": "Scene 3",
+      "parent_folder_id": "6fd624a8-6531-475d-955a-aae314a544a6",
+      "generation_placements": 2
+    },
+    {
+      "folder_id": "c9be1f89-5d02-4060-ae3d-d6a81e64ab66",
+      "folder_name": "ACT 2",
+      "parent_folder_id": "cbe16820-aa74-4f9b-8cb1-cbd5b9b24683",
+      "generation_placements": 0
+    },
+    {
+      "folder_id": "cbe16820-aa74-4f9b-8cb1-cbd5b9b24683",
+      "folder_name": "The Staff",
+      "parent_folder_id": null,
+      "generation_placements": 0
+    },
+    {
+      "folder_id": "d8dfdbe5-a07d-478b-a725-5918c6acba04",
+      "folder_name": "Scene 2",
+      "parent_folder_id": "6fd624a8-6531-475d-955a-aae314a544a6",
+      "generation_placements": 3
+    },
+    {
+      "folder_id": "e3011872-651f-4196-a13e-073adca2abf6",
+      "folder_name": "Scene 10",
+      "parent_folder_id": "6fd624a8-6531-475d-955a-aae314a544a6",
+      "generation_placements": 1
+    },
+    {
+      "folder_id": "e53839f4-3b8f-491a-838f-cb3eaf7a68f3",
+      "folder_name": "Scene 21",
+      "parent_folder_id": "a01b6aeb-da12-404a-8762-502e52a794d2",
+      "generation_placements": 6
+    },
+    {
+      "folder_id": "f53e99c2-6771-4fc5-afd1-dd1b3498ac30",
+      "folder_name": "Scene 7",
+      "parent_folder_id": "6fd624a8-6531-475d-955a-aae314a544a6",
+      "generation_placements": 3
+    },
+    {
+      "folder_id": "f92ce162-19e0-4e5c-ae60-22b094059a08",
+      "folder_name": "Scene 1",
+      "parent_folder_id": "6fd624a8-6531-475d-955a-aae314a544a6",
+      "generation_placements": 8
+    }
+  ],
+  "references": [
+    {
+      "reference_element_id": "0a1ee183-9fab-4006-a441-51de1e37f9c5",
+      "name": "raider-03",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "0a2f0a25-ad80-4e9c-a39c-daf60a28aa5e",
+      "name": "curved-dagger",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "1c8f1a07-2dd5-4087-aff1-bf29818a86ce",
+      "name": "salt-crust",
+      "category": "auto:environment"
+    },
+    {
+      "reference_element_id": "238604f2-27b6-4abe-835d-c0cc29e09040",
+      "name": "scrap-market",
+      "category": "auto:environment"
+    },
+    {
+      "reference_element_id": "26d1a31b-ad96-45ad-bcc1-5b2648e473f8",
+      "name": "raider-02",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "2780089c-176c-4a6a-932a-2068d4697592",
+      "name": "reema",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "3d0aaf07-cbd1-43f0-95f3-6bc21a5fdec4",
+      "name": "canteenraider",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "449630fa-d47a-4ef4-97a3-88ae9aba621e",
+      "name": "fuel-ingot",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "4e4fd145-5cd9-4768-a6ec-53d03b396356",
+      "name": "qahtani",
+      "category": "character"
+    },
+    {
+      "reference_element_id": "4eed9d09-914c-4abe-a32c-b25bafb528cc",
+      "name": "the-boy",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "4fbfe5c1-5758-4114-820f-5e0a98d2bfb7",
+      "name": "tribal-dress",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "556f53bb-e892-48bd-a3ee-1f2013bd50d9",
+      "name": "queue-woman",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "5f573678-8b90-4dff-8b20-96207e2907ca",
+      "name": "the_stick",
+      "category": "prop"
+    },
+    {
+      "reference_element_id": "762edf61-4968-4ad8-b94a-d66f84d8f2a3",
+      "name": "water-tender",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "79788a03-ec45-4f32-a973-c8c64e057ec7",
+      "name": "noura",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "8c33f5ea-59a7-48bb-840d-8cee18401b64",
+      "name": "the-cistern",
+      "category": "auto:environment"
+    },
+    {
+      "reference_element_id": "948bcc84-69e0-412a-a4ec-bd10190914d6",
+      "name": "sadeq",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "b4700982-c3a9-4734-a133-79661ea03f53",
+      "name": "vessel",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "b7abb014-9f39-42d0-ace7-c664659850d2",
+      "name": "refugee_mother_child",
+      "category": "auto:character"
+    },
+    {
+      "reference_element_id": "dfe796ce-6a4c-4b43-a08f-34d2d838ac9d",
+      "name": "sunken_city_desert",
+      "category": "environment"
+    },
+    {
+      "reference_element_id": "e6d25bb3-8937-4de4-845c-6e1415e4b763",
+      "name": "clay_water_pot",
+      "category": "auto:prop"
+    },
+    {
+      "reference_element_id": "f0b237a9-03e7-496f-bc54-eac09102d564",
+      "name": "salt-valley",
+      "category": "auto:environment"
+    },
+    {
+      "reference_element_id": "fbd95322-1f21-4fe5-8d06-66307d369caf",
+      "name": "raider-01",
+      "category": "auto:character"
+    }
+  ],
+  "graph": {
+    "explicit_distinct_producer_consumer_asset_role_path_edges": 1,
+    "distinct_input_assets": 35,
+    "alias_policy": "Exact asset IDs only; no URL or visual alias merging"
+  },
+  "reading_register": [
+    {
+      "generation_id": "04b90dc8-b9f9-48cf-858f-1cdcc2dceecb",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "0da24aca-28b9-40c1-8274-6c5622e6b67a",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "0dea228d-e813-46de-a2ae-fcf229b95216",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "0e619b88-43ef-4a45-84c3-b7b86ac96fe4",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "0eb18631-6dcc-4433-8ff7-95d170a55f27",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "1d963033-bc45-495d-9bfa-a05e4d0cf918",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "21f67c06-23c6-457b-baf6-172baf08ccff",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "22373adf-02e5-462c-b082-b5f85daf5b71",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "242c43a8-508e-4c49-8970-1da18b3199dd",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "27b6e7a0-3902-48de-b623-83f23a4c5919",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "27e11480-06e7-4b7a-8420-2be1c09b058a",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "2b000679-07ee-4eb7-a4eb-839786c5dbfb",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "2d094dc9-48f8-4a30-91e6-adff7b7c117c",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "2e6085d5-30ef-4310-8a2b-7653d7a7a786",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "2e96253d-ad01-4356-a8cd-a448f486903c",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "2f8f4f67-24b4-4b0e-8fc5-1cfee7bebd0f",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "3c0eac09-7746-49df-ab6e-e914ca4f4a2d",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "3e36a853-e4f0-4a24-aed4-19d8f6717c72",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "3e6fc513-2b42-47f3-94d1-a29b62b3bf30",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "40533c4e-31dc-456d-8535-08ff566cd259",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "4053aec1-8fdb-4273-8f88-f5dbed0511e4",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "40e4d326-d63e-484e-bc37-bef27e6641fc",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "4165b9df-a059-4a44-a956-b98ce87bb92f",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "43fd3067-b7d1-496e-97af-e765f75bc472",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "44661407-2fc0-4cc0-9c2d-1f79fc77a8b5",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "46e851da-ea8f-45ea-8602-88660f0885e3",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "49bff62a-b676-49b4-ad36-7cb60655839b",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "4b59d2f1-774b-488c-826c-8d895cce832d",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "50787098-85bc-4dc8-b199-392ba307056e",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "58188029-49f3-4f79-8724-f3715fc710e0",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "5cd570d9-5345-42da-b22a-f3f9810cbd28",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "601c8c68-0426-4d40-b9e5-729398460c9c",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "60e8dd19-2e94-471b-9478-dc79afe9898a",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "6253988b-afee-416a-84e4-97685bb897a8",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "6a4b80f1-26b6-4928-9494-562d16795199",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "6b52db9a-c463-4506-92e5-5248ee587121",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "6d514bd2-9aa3-4543-89a2-8f547a5385bb",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "722e5c57-3044-4447-8639-3f3c146a355b",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "7b25c274-8b4c-42e4-86fa-9a44b7ce286d",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "7d719ccc-0923-4228-800c-84ecd6c06787",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "8413fbb1-7c8a-4452-b654-2bddc5402e40",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "88c93bab-e594-4fd6-8923-66c25ea1f3d3",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "8b59683a-404b-4df1-a072-bb6e983ae7ee",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "8d06bc96-6dd0-4c17-9d3c-a02ab5fe3c1b",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "8d6bee1e-10c8-4a22-8651-c174db45ba7b",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "8f60f717-5a06-4164-9d2c-1abbd715dfa9",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "91f995c0-7ba4-476c-9d2f-8d2228eacc42",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "937f658d-6804-4ee0-8e3c-362618cdedfb",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "96737a84-0eb4-424c-8315-525840c485ce",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "9782cd36-6289-4f03-8909-abe3fceedf0a",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "97d66cd6-badb-4674-998d-5090e1641bd7",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "98b955d1-bd5c-4573-b9e4-ce933ff2147e",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "9e445de8-d73a-4371-b94a-9afdcd5c503d",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "9e57f264-c4d2-4745-a764-293f7c7668dc",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "9f233a94-a3b6-4468-93aa-1bb5883028c0",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "a2cbc69b-6596-4216-b102-b5cb863557ec",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "a4b21070-8c7d-4d01-a4cc-050479fb3427",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "a56b5b7d-305b-4a39-90b7-e06c89a75839",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "a59d2d98-0dcb-41de-8494-fd3404772a12",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "a602e599-24a7-423d-a5e6-42e64894d5d5",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "ab895d73-0891-4d49-a154-7ec4195154bd",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "b50bb07c-b8b1-4cef-83ad-0d31fa08942a",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "b5ff6369-6723-42f7-8739-b65cd81fabfe",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "c0f69ab9-e8b3-4749-b308-b88e8fef0b59",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "c6b3d863-fc71-4f1e-94f9-f27964299cfd",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "c6b5048a-47ff-48d5-8bcc-8246650fb3c5",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "cb2595cb-0f02-45ed-aea1-4ccf905b20ca",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "ce31ec4f-73af-4b6e-b31f-48efee9a4e9a",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "d0229256-708c-4003-a1c4-72f26a38a2f0",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "dcf4aebf-4616-4d68-a594-076363c047ee",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "de0a5c8b-0e36-4e20-97c5-9efbf0601099",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "e81179bc-3278-413b-826e-e1f8e076d275",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "ead474d2-4672-480e-b375-beba859bad68",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "ebbd34d0-a18e-47be-ab1c-676aaa1be9b2",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "ec163001-6ba3-4ebf-9155-b6c73e05a9b6",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "ec64808f-cba6-4516-9702-4b167e47f68e",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "edaa188d-f905-40f9-948f-da6f262d9a93",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "f019bace-df0a-4963-9f71-4a418835535d",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "f3e1e7f5-4751-4e4c-8086-c8e4893273bc",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "f48f7fbb-99cd-44f9-8723-995c2d1d1327",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "f77737af-18d4-45c5-9620-dc0032010558",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    },
+    {
+      "generation_id": "fce2d78d-1d5b-460a-b7fb-e8ee8c07f873",
+      "reasons": [
+        "exhaustive_small_history"
+      ]
+    }
+  ]
+}

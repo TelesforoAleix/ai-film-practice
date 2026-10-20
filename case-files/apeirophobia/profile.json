@@ -1,0 +1,2275 @@
+{
+  "release": "data-2026-10-20",
+  "film_id": "c3d8ee5e-b119-4654-99f9-c6545f650635",
+  "title": "APEIROPHOBIA",
+  "cohort_group": "both",
+  "row_counts": {
+    "films": 1,
+    "priority_films": 1,
+    "folders": 27,
+    "generations": 6862,
+    "generation_prompts": 7400,
+    "assets": 7550,
+    "asset_usages": 28411,
+    "asset_folders": 7457,
+    "generation_folders": 6948,
+    "reference_elements": 1,
+    "brief_assets": 0,
+    "model_usage": 7,
+    "extraction_log": 1,
+    "other_items": 0
+  },
+  "measure_provenance": {
+    "films": {
+      "study": "02-10 case-file preparation",
+      "film_id": "c3d8ee5e-b119-4654-99f9-c6545f650635",
+      "entity_ids": "c3d8ee5e-b119-4654-99f9-c6545f650635/films: all film-scoped source rows",
+      "source_path": "films.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=1",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "1 exported films rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "priority_films": {
+      "study": "02-10 case-file preparation",
+      "film_id": "c3d8ee5e-b119-4654-99f9-c6545f650635",
+      "entity_ids": "c3d8ee5e-b119-4654-99f9-c6545f650635/priority_films: all film-scoped source rows",
+      "source_path": "priority_films.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=1",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "1 exported priority_films rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "folders": {
+      "study": "02-10 case-file preparation",
+      "film_id": "c3d8ee5e-b119-4654-99f9-c6545f650635",
+      "entity_ids": "c3d8ee5e-b119-4654-99f9-c6545f650635/folders: all film-scoped source rows",
+      "source_path": "folders.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=27",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "27 exported folders rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "generations": {
+      "study": "02-10 case-file preparation",
+      "film_id": "c3d8ee5e-b119-4654-99f9-c6545f650635",
+      "entity_ids": "c3d8ee5e-b119-4654-99f9-c6545f650635/generations: all film-scoped source rows",
+      "source_path": "generations.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=6862",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "6862 exported generations rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "generation_prompts": {
+      "study": "02-10 case-file preparation",
+      "film_id": "c3d8ee5e-b119-4654-99f9-c6545f650635",
+      "entity_ids": "c3d8ee5e-b119-4654-99f9-c6545f650635/generation_prompts: all film-scoped source rows",
+      "source_path": "generation_prompts.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=7400",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "7400 exported generation_prompts rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "assets": {
+      "study": "02-10 case-file preparation",
+      "film_id": "c3d8ee5e-b119-4654-99f9-c6545f650635",
+      "entity_ids": "c3d8ee5e-b119-4654-99f9-c6545f650635/assets: all film-scoped source rows",
+      "source_path": "assets.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=7550",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "7550 exported assets rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "asset_usages": {
+      "study": "02-10 case-file preparation",
+      "film_id": "c3d8ee5e-b119-4654-99f9-c6545f650635",
+      "entity_ids": "c3d8ee5e-b119-4654-99f9-c6545f650635/asset_usages: all film-scoped source rows",
+      "source_path": "asset_usages.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=28411",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "28411 exported asset_usages rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "asset_folders": {
+      "study": "02-10 case-file preparation",
+      "film_id": "c3d8ee5e-b119-4654-99f9-c6545f650635",
+      "entity_ids": "c3d8ee5e-b119-4654-99f9-c6545f650635/asset_folders: all film-scoped source rows",
+      "source_path": "asset_folders.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=7457",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "7457 exported asset_folders rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "generation_folders": {
+      "study": "02-10 case-file preparation",
+      "film_id": "c3d8ee5e-b119-4654-99f9-c6545f650635",
+      "entity_ids": "c3d8ee5e-b119-4654-99f9-c6545f650635/generation_folders: all film-scoped source rows",
+      "source_path": "generation_folders.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=6948",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "6948 exported generation_folders rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "reference_elements": {
+      "study": "02-10 case-file preparation",
+      "film_id": "c3d8ee5e-b119-4654-99f9-c6545f650635",
+      "entity_ids": "c3d8ee5e-b119-4654-99f9-c6545f650635/reference_elements: all film-scoped source rows",
+      "source_path": "reference_elements.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=1",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "1 exported reference_elements rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "brief_assets": {
+      "study": "02-10 case-file preparation",
+      "film_id": "c3d8ee5e-b119-4654-99f9-c6545f650635",
+      "entity_ids": "c3d8ee5e-b119-4654-99f9-c6545f650635/brief_assets: all film-scoped source rows",
+      "source_path": "brief_assets.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=0",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "0 exported brief_assets rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "model_usage": {
+      "study": "02-10 case-file preparation",
+      "film_id": "c3d8ee5e-b119-4654-99f9-c6545f650635",
+      "entity_ids": "c3d8ee5e-b119-4654-99f9-c6545f650635/model_usage: all film-scoped source rows",
+      "source_path": "model_usage.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=7",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "7 exported model_usage rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "extraction_log": {
+      "study": "02-10 case-file preparation",
+      "film_id": "c3d8ee5e-b119-4654-99f9-c6545f650635",
+      "entity_ids": "c3d8ee5e-b119-4654-99f9-c6545f650635/extraction_log: all film-scoped source rows",
+      "source_path": "extraction_log.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=1",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "1 exported extraction_log rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    },
+    "other_items": {
+      "study": "02-10 case-file preparation",
+      "film_id": "c3d8ee5e-b119-4654-99f9-c6545f650635",
+      "entity_ids": "c3d8ee5e-b119-4654-99f9-c6545f650635/other_items: all film-scoped source rows",
+      "source_path": "other_items.*; case-files/profile.py:profile",
+      "excerpt": "exported rows=0",
+      "evidence_label": "observed",
+      "competing_explanation": "Public export can omit external/private work; these are record counts, not the whole production.",
+      "denominator": "0 exported other_items rows for this one film; field states and distributions partition those rows",
+      "confidence_rationale": "Exact film-key filter; all columns profiled; raw null and empty text separate. Grains follow Study 01. Graph count uses explicit asset producers and distinct usage tuples, not visual aliases. No semantic labels computed."
+    }
+  },
+  "field_states": {
+    "films": {
+      "in_priority_scope": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "most_watched_rank_top100": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "views": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "likes": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "comments": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "audience_votes": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "editorial_selection": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "title": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "creator": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "creator_profile_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "project_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "description": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "duration": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "submitted_at": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "category": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "shortlist_status": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "film_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "thumbnail_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "project_brief": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "production_notes": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "model_usage_summary": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "extraction_status": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "is_open_source": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "show_prompts": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "snapshot_folder_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "root_folder_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "reported_generations": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "authors_json": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "source_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "source_record_file": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "project_metadata_source_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      }
+    },
+    "priority_films": {
+      "in_priority_scope": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "most_watched_rank_top100": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "views": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "likes": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "comments": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "audience_votes": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "editorial_selection": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "title": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "creator": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "creator_profile_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "project_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "description": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "duration": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "submitted_at": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "category": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "shortlist_status": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "film_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "thumbnail_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "project_brief": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "production_notes": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "model_usage_summary": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "extraction_status": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "is_open_source": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "show_prompts": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "snapshot_folder_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "root_folder_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "reported_generations": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "authors_json": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "source_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "source_record_file": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "project_metadata_source_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      }
+    },
+    "folders": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 27
+      },
+      "folder_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 27
+      },
+      "parent_folder_id": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 26
+      },
+      "folder_name": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 27
+      },
+      "folder_path": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 27
+      },
+      "source_folder_path": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 27
+      },
+      "folder_type": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 27
+      },
+      "item_count": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 27
+      },
+      "subfolders_count": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 27
+      },
+      "source_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 27
+      }
+    },
+    "generations": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6862
+      },
+      "folder_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6862
+      },
+      "generation_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6862
+      },
+      "generation_batch_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6862
+      },
+      "generation_type": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6862
+      },
+      "model_provider": {
+        "unavailable": 6862,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "model_name": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6862
+      },
+      "model_identifier": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6862
+      },
+      "prompt": {
+        "unavailable": 0,
+        "empty": 4,
+        "nonempty": 6858
+      },
+      "prompt_source_path": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6862
+      },
+      "negative_prompt": {
+        "unavailable": 6862,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "parameters_json": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6862
+      },
+      "created_at": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6862
+      },
+      "source_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6862
+      },
+      "extraction_status": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6862
+      },
+      "generation_status": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6862
+      },
+      "author_user_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6862
+      },
+      "author_username": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6862
+      },
+      "source_record_file": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6862
+      },
+      "source_provenance_method": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6862
+      }
+    },
+    "generation_prompts": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 7400
+      },
+      "generation_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 7400
+      },
+      "field_path": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 7400
+      },
+      "prompt_role": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 7400
+      },
+      "text": {
+        "unavailable": 0,
+        "empty": 4,
+        "nonempty": 7396
+      }
+    },
+    "assets": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 7550
+      },
+      "generation_id": {
+        "unavailable": 688,
+        "empty": 0,
+        "nonempty": 6862
+      },
+      "asset_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 7550
+      },
+      "asset_type": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 7549
+      },
+      "asset_role": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 7550
+      },
+      "asset_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 7550
+      },
+      "source_asset_id": {
+        "unavailable": 7550,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "folder_id": {
+        "unavailable": 179,
+        "empty": 0,
+        "nonempty": 7371
+      },
+      "metadata_json": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 7550
+      }
+    },
+    "asset_usages": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 28411
+      },
+      "generation_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 28411
+      },
+      "asset_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 28411
+      },
+      "asset_role": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 28411
+      },
+      "asset_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 28411
+      },
+      "metadata_json": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 28411
+      },
+      "parameter_role": {
+        "unavailable": 24373,
+        "empty": 0,
+        "nonempty": 4038
+      },
+      "parameter_path": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 28411
+      },
+      "reference_element_id": {
+        "unavailable": 28407,
+        "empty": 0,
+        "nonempty": 4
+      }
+    },
+    "asset_folders": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 7457
+      },
+      "asset_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 7457
+      },
+      "folder_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 7457
+      }
+    },
+    "generation_folders": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6948
+      },
+      "generation_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6948
+      },
+      "folder_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6948
+      },
+      "folder_job_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 6948
+      }
+    },
+    "reference_elements": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "reference_element_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "name": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "category": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "description": {
+        "unavailable": 0,
+        "empty": 1,
+        "nonempty": 0
+      },
+      "metadata_json": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      }
+    },
+    "brief_assets": {},
+    "model_usage": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 7
+      },
+      "model_name": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 7
+      },
+      "model_identifier": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 7
+      },
+      "provider": {
+        "unavailable": 7,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "usage_count": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 7
+      },
+      "usage_percentage": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 7
+      },
+      "source_type": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 7
+      },
+      "source_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 7
+      }
+    },
+    "extraction_log": {
+      "film_id": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "project_url": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "extraction_timestamp": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "extraction_status": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "folders_found": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "generations_found": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "assets_found": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "missing_fields": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "errors": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "items_received": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "items_complete": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "folders_complete": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "reported_generations": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "generation_count_reconciles": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "brief_complete": {
+        "unavailable": 1,
+        "empty": 0,
+        "nonempty": 0
+      },
+      "leaf_recovery_complete": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      },
+      "leaf_recovery_errors": {
+        "unavailable": 0,
+        "empty": 0,
+        "nonempty": 1
+      }
+    },
+    "other_items": {}
+  },
+  "generations": {
+    "generation_type": [
+      {
+        "value": "image",
+        "count": 6259
+      },
+      {
+        "value": "video",
+        "count": 603
+      }
+    ],
+    "model_identifier": [
+      {
+        "value": "cinematic_video_editor",
+        "count": 2
+      },
+      {
+        "value": "gpt_image_2",
+        "count": 604
+      },
+      {
+        "value": "kling3_0",
+        "count": 63
+      },
+      {
+        "value": "nano_banana_2",
+        "count": 5632
+      },
+      {
+        "value": "seedance_2_5",
+        "count": 538
+      },
+      {
+        "value": "seedream_v5_pro",
+        "count": 21
+      },
+      {
+        "value": "soul_cinematic",
+        "count": 2
+      }
+    ],
+    "model_name": [
+      {
+        "value": "Cinematic Video Editor",
+        "count": 2
+      },
+      {
+        "value": "GPT Image 2.0",
+        "count": 604
+      },
+      {
+        "value": "Kling v3.0",
+        "count": 63
+      },
+      {
+        "value": "Nano Banana Pro",
+        "count": 5632
+      },
+      {
+        "value": "Seedance 2.5",
+        "count": 538
+      },
+      {
+        "value": "Seedream 5.0 Pro",
+        "count": 21
+      },
+      {
+        "value": "Soul Cinematic",
+        "count": 2
+      }
+    ],
+    "author_user_id": [
+      {
+        "value": "user_31n0NLIr1dkrN5DoEG0FF0aoOzh",
+        "count": 5887
+      },
+      {
+        "value": "user_37w2Fayp2GXBaNd1ozf0w0w6iKN",
+        "count": 975
+      }
+    ],
+    "generation_status": [
+      {
+        "value": "completed",
+        "count": 6862
+      }
+    ]
+  },
+  "prompt_states": {
+    "unavailable": 0,
+    "empty": 4,
+    "nonempty": 6858,
+    "distinct_nonempty": 1689
+  },
+  "text_roles": [
+    {
+      "value": "prompt_or_text",
+      "count": 7400
+    }
+  ],
+  "usage_roles": [
+    {
+      "value": "input_asset",
+      "count": 17507
+    },
+    {
+      "value": "input_audio",
+      "count": 164
+    },
+    {
+      "value": "input_end_image",
+      "count": 2
+    },
+    {
+      "value": "input_image",
+      "count": 3678
+    },
+    {
+      "value": "input_start_image",
+      "count": 166
+    },
+    {
+      "value": "input_video",
+      "count": 28
+    },
+    {
+      "value": "output",
+      "count": 6862
+    },
+    {
+      "value": "reference_image",
+      "count": 4
+    }
+  ],
+  "parameter_controls": [
+    {
+      "model": "cinematic_video_editor",
+      "path": "aspect_ratio",
+      "value": "\"16:9\"",
+      "count": 2
+    },
+    {
+      "model": "cinematic_video_editor",
+      "path": "duration",
+      "value": "7",
+      "count": 2
+    },
+    {
+      "model": "cinematic_video_editor",
+      "path": "generate_audio",
+      "value": "<unavailable>",
+      "count": 2
+    },
+    {
+      "model": "cinematic_video_editor",
+      "path": "is_inpaint",
+      "value": "<unavailable>",
+      "count": 2
+    },
+    {
+      "model": "cinematic_video_editor",
+      "path": "model",
+      "value": "<unavailable>",
+      "count": 2
+    },
+    {
+      "model": "cinematic_video_editor",
+      "path": "multi_shots",
+      "value": "<unavailable>",
+      "count": 2
+    },
+    {
+      "model": "cinematic_video_editor",
+      "path": "resolution",
+      "value": "\"1080p\"",
+      "count": 2
+    },
+    {
+      "model": "gpt_image_2",
+      "path": "aspect_ratio",
+      "value": "\"16:9\"",
+      "count": 533
+    },
+    {
+      "model": "gpt_image_2",
+      "path": "aspect_ratio",
+      "value": "\"3:4\"",
+      "count": 34
+    },
+    {
+      "model": "gpt_image_2",
+      "path": "aspect_ratio",
+      "value": "\"auto\"",
+      "count": 37
+    },
+    {
+      "model": "gpt_image_2",
+      "path": "duration",
+      "value": "<unavailable>",
+      "count": 604
+    },
+    {
+      "model": "gpt_image_2",
+      "path": "generate_audio",
+      "value": "<unavailable>",
+      "count": 604
+    },
+    {
+      "model": "gpt_image_2",
+      "path": "is_inpaint",
+      "value": "<unavailable>",
+      "count": 604
+    },
+    {
+      "model": "gpt_image_2",
+      "path": "model",
+      "value": "\"videotape-alpha\"",
+      "count": 604
+    },
+    {
+      "model": "gpt_image_2",
+      "path": "multi_shots",
+      "value": "<unavailable>",
+      "count": 604
+    },
+    {
+      "model": "gpt_image_2",
+      "path": "resolution",
+      "value": "\"2k\"",
+      "count": 108
+    },
+    {
+      "model": "gpt_image_2",
+      "path": "resolution",
+      "value": "\"4k\"",
+      "count": 496
+    },
+    {
+      "model": "kling3_0",
+      "path": "aspect_ratio",
+      "value": "\"16:9\"",
+      "count": 62
+    },
+    {
+      "model": "kling3_0",
+      "path": "aspect_ratio",
+      "value": "\"9:16\"",
+      "count": 1
+    },
+    {
+      "model": "kling3_0",
+      "path": "duration",
+      "value": "10",
+      "count": 1
+    },
+    {
+      "model": "kling3_0",
+      "path": "duration",
+      "value": "12",
+      "count": 1
+    },
+    {
+      "model": "kling3_0",
+      "path": "duration",
+      "value": "3",
+      "count": 2
+    },
+    {
+      "model": "kling3_0",
+      "path": "duration",
+      "value": "4",
+      "count": 8
+    },
+    {
+      "model": "kling3_0",
+      "path": "duration",
+      "value": "5",
+      "count": 4
+    },
+    {
+      "model": "kling3_0",
+      "path": "duration",
+      "value": "6",
+      "count": 31
+    },
+    {
+      "model": "kling3_0",
+      "path": "duration",
+      "value": "7",
+      "count": 9
+    },
+    {
+      "model": "kling3_0",
+      "path": "duration",
+      "value": "8",
+      "count": 2
+    },
+    {
+      "model": "kling3_0",
+      "path": "duration",
+      "value": "9",
+      "count": 5
+    },
+    {
+      "model": "kling3_0",
+      "path": "generate_audio",
+      "value": "<unavailable>",
+      "count": 63
+    },
+    {
+      "model": "kling3_0",
+      "path": "is_inpaint",
+      "value": "<unavailable>",
+      "count": 63
+    },
+    {
+      "model": "kling3_0",
+      "path": "model",
+      "value": "<unavailable>",
+      "count": 63
+    },
+    {
+      "model": "kling3_0",
+      "path": "multi_shots",
+      "value": "false",
+      "count": 63
+    },
+    {
+      "model": "kling3_0",
+      "path": "resolution",
+      "value": "<unavailable>",
+      "count": 63
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "aspect_ratio",
+      "value": "\"16:9\"",
+      "count": 5257
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "aspect_ratio",
+      "value": "\"3:4\"",
+      "count": 73
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "aspect_ratio",
+      "value": "\"4:5\"",
+      "count": 302
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "duration",
+      "value": "<unavailable>",
+      "count": 5632
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "generate_audio",
+      "value": "<unavailable>",
+      "count": 5632
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "is_inpaint",
+      "value": "<unavailable>",
+      "count": 5632
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "model",
+      "value": "<unavailable>",
+      "count": 5632
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "multi_shots",
+      "value": "<unavailable>",
+      "count": 5632
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "resolution",
+      "value": "\"1k\"",
+      "count": 299
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "resolution",
+      "value": "\"2k\"",
+      "count": 122
+    },
+    {
+      "model": "nano_banana_2",
+      "path": "resolution",
+      "value": "\"4k\"",
+      "count": 5211
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "aspect_ratio",
+      "value": "\"16:9\"",
+      "count": 536
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "aspect_ratio",
+      "value": "\"9:16\"",
+      "count": 2
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "10",
+      "count": 30
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "11",
+      "count": 23
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "12",
+      "count": 31
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "13",
+      "count": 18
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "14",
+      "count": 25
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "15",
+      "count": 22
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "16",
+      "count": 13
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "17",
+      "count": 10
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "18",
+      "count": 2
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "19",
+      "count": 2
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "20",
+      "count": 10
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "21",
+      "count": 4
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "22",
+      "count": 9
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "23",
+      "count": 14
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "24",
+      "count": 14
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "25",
+      "count": 9
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "26",
+      "count": 5
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "27",
+      "count": 6
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "28",
+      "count": 4
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "29",
+      "count": 1
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "30",
+      "count": 21
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "4",
+      "count": 18
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "5",
+      "count": 47
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "6",
+      "count": 55
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "7",
+      "count": 65
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "8",
+      "count": 36
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "duration",
+      "value": "9",
+      "count": 44
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "generate_audio",
+      "value": "true",
+      "count": 538
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "is_inpaint",
+      "value": "<unavailable>",
+      "count": 538
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "model",
+      "value": "\"default\"",
+      "count": 513
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "model",
+      "value": "\"video_edit\"",
+      "count": 22
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "model",
+      "value": "\"video_extension\"",
+      "count": 3
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "multi_shots",
+      "value": "false",
+      "count": 538
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "resolution",
+      "value": "\"1080p\"",
+      "count": 535
+    },
+    {
+      "model": "seedance_2_5",
+      "path": "resolution",
+      "value": "\"480p\"",
+      "count": 3
+    },
+    {
+      "model": "seedream_v5_pro",
+      "path": "aspect_ratio",
+      "value": "\"16:9\"",
+      "count": 16
+    },
+    {
+      "model": "seedream_v5_pro",
+      "path": "aspect_ratio",
+      "value": "\"3:4\"",
+      "count": 5
+    },
+    {
+      "model": "seedream_v5_pro",
+      "path": "duration",
+      "value": "<unavailable>",
+      "count": 21
+    },
+    {
+      "model": "seedream_v5_pro",
+      "path": "generate_audio",
+      "value": "<unavailable>",
+      "count": 21
+    },
+    {
+      "model": "seedream_v5_pro",
+      "path": "is_inpaint",
+      "value": "false",
+      "count": 21
+    },
+    {
+      "model": "seedream_v5_pro",
+      "path": "model",
+      "value": "<unavailable>",
+      "count": 21
+    },
+    {
+      "model": "seedream_v5_pro",
+      "path": "multi_shots",
+      "value": "<unavailable>",
+      "count": 21
+    },
+    {
+      "model": "seedream_v5_pro",
+      "path": "resolution",
+      "value": "\"2k\"",
+      "count": 21
+    },
+    {
+      "model": "soul_cinematic",
+      "path": "aspect_ratio",
+      "value": "<unavailable>",
+      "count": 2
+    },
+    {
+      "model": "soul_cinematic",
+      "path": "duration",
+      "value": "<unavailable>",
+      "count": 2
+    },
+    {
+      "model": "soul_cinematic",
+      "path": "generate_audio",
+      "value": "<unavailable>",
+      "count": 2
+    },
+    {
+      "model": "soul_cinematic",
+      "path": "is_inpaint",
+      "value": "<unavailable>",
+      "count": 2
+    },
+    {
+      "model": "soul_cinematic",
+      "path": "model",
+      "value": "<unavailable>",
+      "count": 2
+    },
+    {
+      "model": "soul_cinematic",
+      "path": "multi_shots",
+      "value": "<unavailable>",
+      "count": 2
+    },
+    {
+      "model": "soul_cinematic",
+      "path": "resolution",
+      "value": "<unavailable>",
+      "count": 2
+    }
+  ],
+  "invalid_parameters": [],
+  "folders": [
+    {
+      "folder_id": "07143588-6bbf-4896-89f1-beb860c49e6c",
+      "folder_name": "Funkturm",
+      "parent_folder_id": "803b582d-ad05-44ac-9c5d-3c1ad2eeb00d",
+      "generation_placements": 65
+    },
+    {
+      "folder_id": "09288c63-f76a-40a9-b4e0-54da1ea3eceb",
+      "folder_name": "Renser Beer",
+      "parent_folder_id": "803b582d-ad05-44ac-9c5d-3c1ad2eeb00d",
+      "generation_placements": 11
+    },
+    {
+      "folder_id": "0c51f400-605f-4fa1-ba61-81f2174970ac",
+      "folder_name": "Akt 1 Fotos",
+      "parent_folder_id": "803b582d-ad05-44ac-9c5d-3c1ad2eeb00d",
+      "generation_placements": 1
+    },
+    {
+      "folder_id": "0e491964-30b1-4833-924e-f407dd429af1",
+      "folder_name": "Watermarks",
+      "parent_folder_id": "803b582d-ad05-44ac-9c5d-3c1ad2eeb00d",
+      "generation_placements": 0
+    },
+    {
+      "folder_id": "2281805d-546e-4f72-8ea8-24365da31f14",
+      "folder_name": "Suffcamper",
+      "parent_folder_id": "803b582d-ad05-44ac-9c5d-3c1ad2eeb00d",
+      "generation_placements": 21
+    },
+    {
+      "folder_id": "32d9d514-02db-42de-a169-f0d2e3da33eb",
+      "folder_name": "Sicko",
+      "parent_folder_id": "803b582d-ad05-44ac-9c5d-3c1ad2eeb00d",
+      "generation_placements": 6
+    },
+    {
+      "folder_id": "352daccf-b313-4969-bee1-ee6ade3f34ac",
+      "folder_name": "car",
+      "parent_folder_id": "803b582d-ad05-44ac-9c5d-3c1ad2eeb00d",
+      "generation_placements": 6
+    },
+    {
+      "folder_id": "3a922109-5579-4496-b011-22375055e57f",
+      "folder_name": "Places",
+      "parent_folder_id": "803b582d-ad05-44ac-9c5d-3c1ad2eeb00d",
+      "generation_placements": 178
+    },
+    {
+      "folder_id": "491cabcd-e157-4a74-a2a0-c01ca448a7c6",
+      "folder_name": "Klohaus",
+      "parent_folder_id": "803b582d-ad05-44ac-9c5d-3c1ad2eeb00d",
+      "generation_placements": 28
+    },
+    {
+      "folder_id": "4b0f7a84-4454-4745-8faf-494f201bc35a",
+      "folder_name": "next morning",
+      "parent_folder_id": "803b582d-ad05-44ac-9c5d-3c1ad2eeb00d",
+      "generation_placements": 0
+    },
+    {
+      "folder_id": "5a381a4a-f9a5-4ddd-b812-d7ae1493b593",
+      "folder_name": "Audio",
+      "parent_folder_id": "803b582d-ad05-44ac-9c5d-3c1ad2eeb00d",
+      "generation_placements": 0
+    },
+    {
+      "folder_id": "5e2770e2-d698-4e0c-bda2-805a348c9e5c",
+      "folder_name": "strand",
+      "parent_folder_id": "803b582d-ad05-44ac-9c5d-3c1ad2eeb00d",
+      "generation_placements": 24
+    },
+    {
+      "folder_id": "5fb2203c-3203-4dbe-a65b-c8a75d5785b7",
+      "folder_name": "Adam",
+      "parent_folder_id": "803b582d-ad05-44ac-9c5d-3c1ad2eeb00d",
+      "generation_placements": 117
+    },
+    {
+      "folder_id": "625a910e-b392-4018-a1b9-b6db7d1edfc6",
+      "folder_name": "Rave DJ",
+      "parent_folder_id": "803b582d-ad05-44ac-9c5d-3c1ad2eeb00d",
+      "generation_placements": 2
+    },
+    {
+      "folder_id": "65e78879-b5fa-4042-af69-b1ab84a40c05",
+      "folder_name": "Stadion",
+      "parent_folder_id": "803b582d-ad05-44ac-9c5d-3c1ad2eeb00d",
+      "generation_placements": 12
+    },
+    {
+      "folder_id": "6bf17186-9e7f-41aa-97aa-4221d9a1cb16",
+      "folder_name": "Adam's caravan",
+      "parent_folder_id": "803b582d-ad05-44ac-9c5d-3c1ad2eeb00d",
+      "generation_placements": 3
+    },
+    {
+      "folder_id": "7f6d1610-67d2-43e7-86d3-343e7241b754",
+      "folder_name": "Akt 2 Videos",
+      "parent_folder_id": "803b582d-ad05-44ac-9c5d-3c1ad2eeb00d",
+      "generation_placements": 0
+    },
+    {
+      "folder_id": "803b582d-ad05-44ac-9c5d-3c1ad2eeb00d",
+      "folder_name": "APEIROPHOBIA",
+      "parent_folder_id": null,
+      "generation_placements": 6125
+    },
+    {
+      "folder_id": "92c828a8-c314-4253-a33e-f5e24814935a",
+      "folder_name": "Akt 2 Fotos",
+      "parent_folder_id": "803b582d-ad05-44ac-9c5d-3c1ad2eeb00d",
+      "generation_placements": 0
+    },
+    {
+      "folder_id": "9e2eea0d-008a-47b3-ad8c-587f5ef55dc1",
+      "folder_name": "cover",
+      "parent_folder_id": "803b582d-ad05-44ac-9c5d-3c1ad2eeb00d",
+      "generation_placements": 147
+    },
+    {
+      "folder_id": "a82bef79-b812-42f6-ba28-f41f206bf3ca",
+      "folder_name": "Akt 3 Fotos",
+      "parent_folder_id": "803b582d-ad05-44ac-9c5d-3c1ad2eeb00d",
+      "generation_placements": 0
+    },
+    {
+      "folder_id": "b4d55dc7-113b-4561-a7c5-5a95293bddc8",
+      "folder_name": "Sick man",
+      "parent_folder_id": "803b582d-ad05-44ac-9c5d-3c1ad2eeb00d",
+      "generation_placements": 97
+    },
+    {
+      "folder_id": "cc3b7b0d-32b1-415d-ac34-64374d6097a8",
+      "folder_name": "RAVE",
+      "parent_folder_id": "803b582d-ad05-44ac-9c5d-3c1ad2eeb00d",
+      "generation_placements": 72
+    },
+    {
+      "folder_id": "db4182a3-9f17-451a-8c70-0a941a671bb9",
+      "folder_name": "Maisfeld",
+      "parent_folder_id": "803b582d-ad05-44ac-9c5d-3c1ad2eeb00d",
+      "generation_placements": 20
+    },
+    {
+      "folder_id": "ddccbbe6-6526-494d-8e46-0bff33470e03",
+      "folder_name": "Akt 3 Videos",
+      "parent_folder_id": "803b582d-ad05-44ac-9c5d-3c1ad2eeb00d",
+      "generation_placements": 0
+    },
+    {
+      "folder_id": "dde4c3a3-9887-4437-bc01-1f0a7be87cec",
+      "folder_name": "Akt 1 Videos",
+      "parent_folder_id": "803b582d-ad05-44ac-9c5d-3c1ad2eeb00d",
+      "generation_placements": 1
+    },
+    {
+      "folder_id": "e6570fc6-900f-4199-b486-387320a83b10",
+      "folder_name": "Camperin",
+      "parent_folder_id": "803b582d-ad05-44ac-9c5d-3c1ad2eeb00d",
+      "generation_placements": 12
+    }
+  ],
+  "references": [
+    {
+      "reference_element_id": "454733be-56ec-4bff-a006-c346c271fd4b",
+      "name": "char_sicko",
+      "category": "character"
+    }
+  ],
+  "graph": {
+    "explicit_distinct_producer_consumer_asset_role_path_edges": 18662,
+    "distinct_input_assets": 670,
+    "alias_policy": "Exact asset IDs only; no URL or visual alias merging"
+  },
+  "reading_register": [
+    {
+      "generation_id": "0006c19c-a2f7-4464-b1f1-f3cc1dd1f706",
+      "reasons": [
+        "folder:3a922109-5579-4496-b011-22375055e57f",
+        "input_role_set:('image', ('input_asset',))",
+        "type_model:('image', 'nano_banana_2')"
+      ]
+    },
+    {
+      "generation_id": "0009df22-6a20-4695-b89b-4266e9201607",
+      "reasons": [
+        "folder:803b582d-ad05-44ac-9c5d-3c1ad2eeb00d"
+      ]
+    },
+    {
+      "generation_id": "000d490a-121b-4461-ba7a-ee8fe1bfb490",
+      "reasons": [
+        "control_or_reference:('seedance_2_5', 'generate_audio', 'True')",
+        "control_or_reference:('seedance_2_5', 'model', 'default')",
+        "control_or_reference:('seedance_2_5', 'multi_shots', 'False')",
+        "input_role_set:('video', ('input_image',))",
+        "type_model:('video', 'seedance_2_5')"
+      ]
+    },
+    {
+      "generation_id": "000daf46-f8ed-4519-97c9-c9b656d9c40b",
+      "reasons": [
+        "input_role_set:('video', ('input_audio', 'input_image', 'input_start_image'))"
+      ]
+    },
+    {
+      "generation_id": "000ee33e-0bb3-40fa-9bc7-d4b84e4965b3",
+      "reasons": [
+        "edge_producer:('nano_banana_2', 'nano_banana_2', 'input_asset')"
+      ]
+    },
+    {
+      "generation_id": "0011e2c3-3a2f-457b-a676-27caf34592e1",
+      "reasons": [
+        "edge_producer:('nano_banana_2', 'seedance_2_5', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "00465460-d7fe-4130-93bb-956edaf31ac4",
+      "reasons": [
+        "input_role_set:('image', ())"
+      ]
+    },
+    {
+      "generation_id": "00755b4e-28d5-4fc7-a067-d2f38651468e",
+      "reasons": [
+        "edge_consumer:('gpt_image_2', 'nano_banana_2', 'input_asset')"
+      ]
+    },
+    {
+      "generation_id": "008f23c1-4a4b-42d2-a9d4-ae3a8d1b1a32",
+      "reasons": [
+        "folder:07143588-6bbf-4896-89f1-beb860c49e6c"
+      ]
+    },
+    {
+      "generation_id": "00a18311-e6f3-4510-964b-3e927d90cdcb",
+      "reasons": [
+        "folder:cc3b7b0d-32b1-415d-ac34-64374d6097a8"
+      ]
+    },
+    {
+      "generation_id": "0102d6c3-8626-4d52-bc1d-7f8a0fbf597f",
+      "reasons": [
+        "input_role_set:('video', ('input_audio', 'input_image'))"
+      ]
+    },
+    {
+      "generation_id": "01072a5b-01e3-4277-a17a-b5559f98f789",
+      "reasons": [
+        "control_or_reference:('gpt_image_2', 'model', 'videotape-alpha')",
+        "input_role_set:('image', ('input_image',))",
+        "type_model:('image', 'gpt_image_2')"
+      ]
+    },
+    {
+      "generation_id": "0168082c-394b-4af9-9f67-75eef66a12bb",
+      "reasons": [
+        "control_or_reference:('seedance_2_5', 'model', 'video_edit')",
+        "edge_consumer:('seedance_2_5', 'seedance_2_5', 'input_video')",
+        "input_role_set:('video', ('input_video',))"
+      ]
+    },
+    {
+      "generation_id": "01ece7aa-3624-409c-bd67-a09e29240c38",
+      "reasons": [
+        "control_or_reference:('seedream_v5_pro', 'is_inpaint', 'False')",
+        "edge_consumer:('nano_banana_2', 'seedream_v5_pro', 'input_image')",
+        "type_model:('image', 'seedream_v5_pro')"
+      ]
+    },
+    {
+      "generation_id": "02fb03d9-dc28-447f-8641-7393505f3aa4",
+      "reasons": [
+        "edge_consumer:('gpt_image_2', 'gpt_image_2', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "0376b202-36db-4ff5-b12e-5846923cbf28",
+      "reasons": [
+        "folder:b4d55dc7-113b-4561-a7c5-5a95293bddc8"
+      ]
+    },
+    {
+      "generation_id": "03bfb560-f7cb-4a3a-b7bb-be6f6e397ce3",
+      "reasons": [
+        "folder:5e2770e2-d698-4e0c-bda2-805a348c9e5c"
+      ]
+    },
+    {
+      "generation_id": "03d02afd-fec7-47b4-b18f-faf9e1abb647",
+      "reasons": [
+        "folder:9e2eea0d-008a-47b3-ad8c-587f5ef55dc1"
+      ]
+    },
+    {
+      "generation_id": "0467bd79-de36-4f85-86b5-2de5862df198",
+      "reasons": [
+        "edge_producer:('nano_banana_2', 'kling3_0', 'input_start_image')"
+      ]
+    },
+    {
+      "generation_id": "047f34f5-d097-427d-a2d9-befeb60c1ecc",
+      "reasons": [
+        "folder:2281805d-546e-4f72-8ea8-24365da31f14"
+      ]
+    },
+    {
+      "generation_id": "058173b0-472f-4598-a740-74d9ff38b194",
+      "reasons": [
+        "edge_producer:('nano_banana_2', 'gpt_image_2', 'input_image')",
+        "edge_producer:('nano_banana_2', 'seedream_v5_pro', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "060e4b89-f582-4050-9f34-f5fca9e85190",
+      "reasons": [
+        "edge_producer:('gpt_image_2', 'nano_banana_2', 'input_asset')",
+        "edge_producer:('gpt_image_2', 'seedance_2_5', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "068b50a5-f1ad-4d35-b437-87fab7006e64",
+      "reasons": [
+        "edge_producer:('nano_banana_2', 'seedance_2_5', 'input_end_image')",
+        "folder:491cabcd-e157-4a74-a2a0-c01ca448a7c6"
+      ]
+    },
+    {
+      "generation_id": "06a1086f-d3db-43b2-b8aa-5da05b6ee331",
+      "reasons": [
+        "edge_consumer:('nano_banana_2', 'seedance_2_5', 'input_end_image')",
+        "input_role_set:('video', ('input_end_image', 'input_image', 'input_start_image'))"
+      ]
+    },
+    {
+      "generation_id": "08155c93-a9fa-4a22-b5ef-8df000106a32",
+      "reasons": [
+        "folder:09288c63-f76a-40a9-b4e0-54da1ea3eceb"
+      ]
+    },
+    {
+      "generation_id": "0839dfb7-be3b-4ff5-b32d-147a41957c26",
+      "reasons": [
+        "folder:5fb2203c-3203-4dbe-a65b-c8a75d5785b7"
+      ]
+    },
+    {
+      "generation_id": "09d55206-62e5-42ea-aaa6-192ea6dc6ec8",
+      "reasons": [
+        "control_or_reference:('kling3_0', 'multi_shots', 'False')",
+        "input_role_set:('video', ('input_start_image',))",
+        "type_model:('video', 'kling3_0')"
+      ]
+    },
+    {
+      "generation_id": "09de967e-a70d-4d30-b6f5-58195a3d87a8",
+      "reasons": [
+        "input_role_set:('video', ('input_image', 'input_start_image'))"
+      ]
+    },
+    {
+      "generation_id": "0a8dca0d-a050-4d30-ba25-81fbd9209ef3",
+      "reasons": [
+        "edge_consumer:('nano_banana_2', 'gpt_image_2', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "0ab7cfaf-605d-49f5-bcdf-50ce13f620e8",
+      "reasons": [
+        "folder:e6570fc6-900f-4199-b486-387320a83b10"
+      ]
+    },
+    {
+      "generation_id": "0b842d81-2bcd-46c0-b3dc-07b1c54a2820",
+      "reasons": [
+        "folder:65e78879-b5fa-4042-af69-b1ab84a40c05"
+      ]
+    },
+    {
+      "generation_id": "123d45e6-1d2d-45d7-8154-de23704b7d55",
+      "reasons": [
+        "edge_producer:('gpt_image_2', 'gpt_image_2', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "125bbb7d-ba45-46b4-a35a-92c0e71fd41d",
+      "reasons": [
+        "input_role_set:('video', ())"
+      ]
+    },
+    {
+      "generation_id": "175ed50f-6105-41a2-8d48-f9f7a01ecc14",
+      "reasons": [
+        "folder:32d9d514-02db-42de-a169-f0d2e3da33eb"
+      ]
+    },
+    {
+      "generation_id": "1dbb4491-db64-4f6b-9383-ae92d8c52d0a",
+      "reasons": [
+        "edge_consumer:('nano_banana_2', 'nano_banana_2', 'input_asset')"
+      ]
+    },
+    {
+      "generation_id": "1e3e5fea-3e65-4544-8108-341b5b84567f",
+      "reasons": [
+        "input_role_set:('video', ('input_image', 'input_video'))"
+      ]
+    },
+    {
+      "generation_id": "2141cb13-6107-48ed-aa6a-80dcaec6ec53",
+      "reasons": [
+        "edge_producer:('seedance_2_5', 'seedance_2_5', 'input_video')"
+      ]
+    },
+    {
+      "generation_id": "230fc3df-a3e7-4645-8116-561d321a70c5",
+      "reasons": [
+        "folder:352daccf-b313-4969-bee1-ee6ade3f34ac"
+      ]
+    },
+    {
+      "generation_id": "25181f97-d70a-4f96-941a-6271109d26aa",
+      "reasons": [
+        "folder:db4182a3-9f17-451a-8c70-0a941a671bb9"
+      ]
+    },
+    {
+      "generation_id": "28bb6d0c-5eca-448d-80e4-5529b813cb42",
+      "reasons": [
+        "edge_producer:('nano_banana_2', 'seedance_2_5', 'input_start_image')"
+      ]
+    },
+    {
+      "generation_id": "29e4e377-3c0a-41db-9272-efab5609144a",
+      "reasons": [
+        "edge_consumer:('nano_banana_2', 'seedance_2_5', 'input_start_image')"
+      ]
+    },
+    {
+      "generation_id": "2e8cbe4f-b20b-4302-814f-a8c91cafda70",
+      "reasons": [
+        "edge_producer:('gpt_image_2', 'seedance_2_5', 'input_start_image')"
+      ]
+    },
+    {
+      "generation_id": "311a3f4c-be35-4c70-8d8e-2b882804d9cd",
+      "reasons": [
+        "edge_consumer:('cinematic_video_editor', 'cinematic_video_editor', 'input_video')",
+        "type_model:('video', 'cinematic_video_editor')"
+      ]
+    },
+    {
+      "generation_id": "3359fdbe-0cc3-496a-8195-99a6796c2d96",
+      "reasons": [
+        "control_or_reference:('seedance_2_5', 'model', 'video_extension')",
+        "input_role_set:('video', ('input_audio', 'input_image', 'input_video'))"
+      ]
+    },
+    {
+      "generation_id": "37ca072e-bb4d-46cb-9036-bf7be9b3110b",
+      "reasons": [
+        "edge_consumer:('gpt_image_2', 'seedream_v5_pro', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "3ce4add8-6480-4cd5-90f4-d64f82c91cdf",
+      "reasons": [
+        "folder:625a910e-b392-4018-a1b9-b6db7d1edfc6"
+      ]
+    },
+    {
+      "generation_id": "3d00b8e1-afa1-4935-9518-4cb4f6e7be10",
+      "reasons": [
+        "edge_producer:('nano_banana_2', 'soul_cinematic', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "3d18c246-bc68-4170-8c0c-8234d7575f0e",
+      "reasons": [
+        "folder:6bf17186-9e7f-41aa-97aa-4221d9a1cb16"
+      ]
+    },
+    {
+      "generation_id": "4896743a-85d5-44df-8539-e08e0c8f7fdb",
+      "reasons": [
+        "input_role_set:('video', ('input_audio', 'input_start_image'))"
+      ]
+    },
+    {
+      "generation_id": "4975f12b-f7d1-4b21-a63f-3b2d8e5fc6ab",
+      "reasons": [
+        "edge_consumer:('gpt_image_2', 'seedance_2_5', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "52d7502b-30c3-4622-a729-ddf7c6f8d07f",
+      "reasons": [
+        "edge_consumer:('gpt_image_2', 'seedance_2_5', 'input_start_image')"
+      ]
+    },
+    {
+      "generation_id": "630b9ad5-a968-4cb7-804e-49a5577ea00a",
+      "reasons": [
+        "edge_consumer:('nano_banana_2', 'kling3_0', 'input_start_image')"
+      ]
+    },
+    {
+      "generation_id": "7bd90914-a40d-4ef7-8884-c0da0e5eb162",
+      "reasons": [
+        "longest_prompt"
+      ]
+    },
+    {
+      "generation_id": "8119bae3-8842-4be8-a615-da823ea495f1",
+      "reasons": [
+        "shortest_nonempty_prompt"
+      ]
+    },
+    {
+      "generation_id": "81512453-8ca4-468c-8298-851a55ae9bbc",
+      "reasons": [
+        "folder:dde4c3a3-9887-4437-bc01-1f0a7be87cec"
+      ]
+    },
+    {
+      "generation_id": "82053370-4133-4537-a4d7-a6a5ba6c245f",
+      "reasons": [
+        "edge_consumer:('nano_banana_2', 'seedance_2_5', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "857f0348-8796-4f0d-89bd-a5662ddcb55d",
+      "reasons": [
+        "edge_consumer:('nano_banana_2', 'soul_cinematic', 'input_image')",
+        "input_role_set:('image', ('input_asset', 'input_image'))",
+        "type_model:('image', 'soul_cinematic')"
+      ]
+    },
+    {
+      "generation_id": "88160a68-3dd4-4662-be7e-4fb5852634c5",
+      "reasons": [
+        "edge_producer:('seedance_2_5', 'cinematic_video_editor', 'input_video')"
+      ]
+    },
+    {
+      "generation_id": "95372c46-7cd1-4f8b-919a-3fb57e89e3c6",
+      "reasons": [
+        "control_or_reference:('reference', '454733be-56ec-4bff-a006-c346c271fd4b')",
+        "input_role_set:('image', ('input_asset', 'reference_image'))"
+      ]
+    },
+    {
+      "generation_id": "a4d74479-ebe1-4df0-a4d3-c75d138a5a1a",
+      "reasons": [
+        "input_role_set:('video', ('input_audio', 'input_video'))"
+      ]
+    },
+    {
+      "generation_id": "b6e44e77-d4a0-4821-9663-55a452fffc01",
+      "reasons": [
+        "edge_consumer:('seedance_2_5', 'cinematic_video_editor', 'input_video')",
+        "edge_producer:('cinematic_video_editor', 'cinematic_video_editor', 'input_video')",
+        "input_role_set:('video', ('input_start_image', 'input_video'))"
+      ]
+    },
+    {
+      "generation_id": "cced8359-f488-497e-82d6-059a165e437f",
+      "reasons": [
+        "edge_producer:('gpt_image_2', 'seedream_v5_pro', 'input_image')"
+      ]
+    },
+    {
+      "generation_id": "ea597e90-5a9e-4b0b-b0b4-fd64efcba111",
+      "reasons": [
+        "folder:0c51f400-605f-4fa1-ba61-81f2174970ac"
+      ]
+    }
+  ]
+}
