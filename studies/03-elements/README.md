@@ -419,10 +419,12 @@ libraries, media observations or absent approval events.
 | Identity/variant = explicit retained properties and named changes, without merging IDs | Studies 04/07 refine property and identity links; Study 09 revision-family intent; case interpretations remain single-coder |
 | Package = scoped request or named attachment; multi-asset = several raw attached IDs across uses | Studies 04/05 refine context and image operations; Study 06 refines video turn/shot routes; Study 07 aliases; media fulfilment remains unobservable |
 | Property location = explicit prose/metadata plus unknown attached-media contents; JSON array states structural only | Study 04's information-location matrix and semantic labels/agreement; Studies 05/06 literal control interpretation |
+| Reference-token and preservation wording = the unchanged AF3a regular expressions | Study 04 and the pending semantic-label run/agreement refine meanings and misses; the stratified sample cannot establish a semantic census |
 | Reuse = at least two distinct consumers of the same raw compound element/asset ID | Study 07 resolves raw/preview aliases and semantic graph links; Study 09 distinguishes family/revision intent; never automatic approval |
 | Inferred derivative = actual producer/input edge plus named property delta and bounded case interpretation | Studies 07/09 refine version/family lineage and ambiguous identity; RAM lacks an explicit preservation span, Prophecy also changes structure |
 | Authority = explicit declaration scoped to what it names; frequent use stays separate | Studies 07/09 refine canonical-version/review requirements; project-wide canonical declarations remain unavailable or uncoded |
 | Task = literal generation type; model identifier literal; no role inference | Studies 05/06 operations/routes and Study 08 model/workflow roles |
+| Inherited orientation: image-led at ≥70% image jobs, film-led at ≥70% video, otherwise mixed; scale: <200, 200–999, 1,000–2,999, ≥3,000 jobs | Study 01 structural groupings only; Studies 05/06/08 refine operation/workflow interpretation; Study 10's visibility limits preclude labour/economic interpretations |
 | Proposed schema and explicit approval/readiness states | Studies 07/09 validate dependencies/review, Study 12 synthesises and tests studio contracts; no persistence implementation here |
 
 **Handoff to Study 02:** use these bounded element/package/version definitions
