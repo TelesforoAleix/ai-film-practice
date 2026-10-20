@@ -1,0 +1,184 @@
+{
+  "gold_texts": 300,
+  "compared_texts": 300,
+  "missing_or_failed": 0,
+  "prediction_texts_outside_gold": 0,
+  "per_component": {
+    "subject": {
+      "tp": 278,
+      "fp": 0,
+      "fn": 0,
+      "tn": 22,
+      "n": 300,
+      "precision": 1.0,
+      "recall": 1.0,
+      "kappa": 1.0,
+      "accuracy": 1.0
+    },
+    "identity": {
+      "tp": 220,
+      "fp": 0,
+      "fn": 0,
+      "tn": 80,
+      "n": 300,
+      "precision": 1.0,
+      "recall": 1.0,
+      "kappa": 1.0,
+      "accuracy": 1.0
+    },
+    "action": {
+      "tp": 219,
+      "fp": 0,
+      "fn": 0,
+      "tn": 81,
+      "n": 300,
+      "precision": 1.0,
+      "recall": 1.0,
+      "kappa": 1.0,
+      "accuracy": 1.0
+    },
+    "environment": {
+      "tp": 190,
+      "fp": 0,
+      "fn": 0,
+      "tn": 110,
+      "n": 300,
+      "precision": 1.0,
+      "recall": 1.0,
+      "kappa": 1.0,
+      "accuracy": 1.0
+    },
+    "spatial": {
+      "tp": 240,
+      "fp": 0,
+      "fn": 0,
+      "tn": 60,
+      "n": 300,
+      "precision": 1.0,
+      "recall": 1.0,
+      "kappa": 1.0,
+      "accuracy": 1.0
+    },
+    "composition": {
+      "tp": 232,
+      "fp": 0,
+      "fn": 0,
+      "tn": 68,
+      "n": 300,
+      "precision": 1.0,
+      "recall": 1.0,
+      "kappa": 1.0,
+      "accuracy": 1.0
+    },
+    "lens_framing": {
+      "tp": 212,
+      "fp": 0,
+      "fn": 0,
+      "tn": 88,
+      "n": 300,
+      "precision": 1.0,
+      "recall": 1.0,
+      "kappa": 1.0,
+      "accuracy": 1.0
+    },
+    "camera_motion": {
+      "tp": 131,
+      "fp": 0,
+      "fn": 0,
+      "tn": 169,
+      "n": 300,
+      "precision": 1.0,
+      "recall": 1.0,
+      "kappa": 1.0,
+      "accuracy": 1.0
+    },
+    "lighting": {
+      "tp": 226,
+      "fp": 0,
+      "fn": 0,
+      "tn": 74,
+      "n": 300,
+      "precision": 1.0,
+      "recall": 1.0,
+      "kappa": 1.0,
+      "accuracy": 1.0
+    },
+    "material": {
+      "tp": 213,
+      "fp": 0,
+      "fn": 0,
+      "tn": 87,
+      "n": 300,
+      "precision": 1.0,
+      "recall": 1.0,
+      "kappa": 1.0,
+      "accuracy": 1.0
+    },
+    "aesthetic_intent": {
+      "tp": 238,
+      "fp": 0,
+      "fn": 0,
+      "tn": 62,
+      "n": 300,
+      "precision": 1.0,
+      "recall": 1.0,
+      "kappa": 1.0,
+      "accuracy": 1.0
+    },
+    "timing": {
+      "tp": 150,
+      "fp": 0,
+      "fn": 0,
+      "tn": 150,
+      "n": 300,
+      "precision": 1.0,
+      "recall": 1.0,
+      "kappa": 1.0,
+      "accuracy": 1.0
+    },
+    "exclusion": {
+      "tp": 237,
+      "fp": 0,
+      "fn": 0,
+      "tn": 63,
+      "n": 300,
+      "precision": 1.0,
+      "recall": 1.0,
+      "kappa": 1.0,
+      "accuracy": 1.0
+    },
+    "preservation": {
+      "tp": 200,
+      "fp": 0,
+      "fn": 0,
+      "tn": 100,
+      "n": 300,
+      "precision": 1.0,
+      "recall": 1.0,
+      "kappa": 1.0,
+      "accuracy": 1.0
+    }
+  },
+  "micro": {
+    "tp": 2986,
+    "fp": 0,
+    "fn": 0,
+    "tn": 1214,
+    "n": 4200,
+    "precision": 1.0,
+    "recall": 1.0,
+    "kappa": 1.0,
+    "accuracy": 1.0
+  },
+  "macro": {
+    "precision": 1.0,
+    "precision_defined_components": 14,
+    "recall": 1.0,
+    "recall_defined_components": 14,
+    "kappa": 1.0,
+    "kappa_defined_components": 14,
+    "accuracy": 1.0,
+    "accuracy_defined_components": 14
+  },
+  "scope": "Presence only; spans checked for schema, not span agreement. Single-coder agent gold; provisional."
+}
