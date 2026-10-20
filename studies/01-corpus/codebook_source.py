@@ -1,0 +1,586 @@
+"""Human-authored codebook definitions. No corpus-scale semantic labels."""
+
+# ID, study, name, values, inclusion rule, exclusion/ambiguity rule.
+CODES = [
+    (
+        "02.1",
+        "02",
+        "Brief intent",
+        "objective|constraint|visual_intention|deliverable",
+        (
+            "Code each explicit production objective, constraint or "
+            "deliverable in substantive brief prose."
+        ),
+        (
+            "Template headings alone do not qualify; visual intentions "
+            "are creator-stated, never evaluated."
+        ),
+    ),
+    (
+        "02.2",
+        "02",
+        "Planned entities",
+        "character|setting|prop|other",
+        "Name explicitly planned persistent entities in brief or instructions.",
+        (
+            "Do not reconstruct a narrative from media or assume every "
+            "mentioned noun is persistent."
+        ),
+    ),
+    (
+        "02.3",
+        "02",
+        "Scene and shot planning",
+        "scene|shot_list|multi_shot_instruction",
+        (
+            "Require explicit scene/shot wording, ordered shot "
+            "instructions or named folders; retain channel."
+        ),
+        (
+            "Folder name shows a label, not executed shot order; "
+            "multi-shot text is not an enabled parameter."
+        ),
+    ),
+    (
+        "02.4",
+        "02",
+        "Plan to task",
+        "explicit_link|inferred_link",
+        (
+            "Link named plan entity/shot to generation/asset using ID or "
+            "explicit matching instructions."
+        ),
+        "Name similarity is inferred; document alternate matches and confidence.",
+    ),
+    (
+        "02.5",
+        "02",
+        "Build order",
+        "scene_first|entity_first|reference_first|exploratory",
+        (
+            "Require explicit plan or dependency chain supporting a "
+            "preparation sequence."
+        ),
+        "Timestamp or folder ordering alone is insufficient.",
+    ),
+    (
+        "02.6",
+        "02",
+        "Template content",
+        "template_only|mixed|substantive",
+        (
+            "Compare individual brief sections with generic placeholder "
+            "wording, keeping substantive sections separate."
+        ),
+        (
+            "A mixed brief is not wholly discarded and a heading does "
+            "not establish completed planning."
+        ),
+    ),
+    (
+        "03.1",
+        "03",
+        "Element kind",
+        (
+            "character|outfit|pose|location|layout|prop|material|palette|"
+            "lighting|style|voice|other"
+        ),
+        (
+            "Use disclosed reference category, name and technical "
+            "instructions; retain literal categories."
+        ),
+        (
+            "Names and auto categories are weak semantic evidence; do "
+            "not merge identities by appearance."
+        ),
+    ),
+    (
+        "03.2",
+        "03",
+        "Identity and variation",
+        "identity_constraint|variant_instruction",
+        (
+            "Require explicit same-identity/preservation language or "
+            "named variant relationship."
+        ),
+        "Shared names alone do not establish a version relationship.",
+    ),
+    (
+        "03.3",
+        "03",
+        "Reference package",
+        (
+            "single_image|generic_reference_sheet|multi_angle|"
+            "expression_sheet|location_board|blockout|style_sheet|"
+            "named_element"
+        ),
+        (
+            "Code a disclosed package or instruction to create one; "
+            "distinguish requested from attached."
+        ),
+        "Do not assess whether the output fulfilled the requested package.",
+    ),
+    (
+        "03.4",
+        "03",
+        "Property storage",
+        "prose|attached_media|reference_metadata|parameter|mixed",
+        "Record the channel containing each specified property and its exact path.",
+        (
+            "Media contents are unobservable; attachment alone does not "
+            "reveal the properties it carries."
+        ),
+    ),
+    (
+        "03.5",
+        "03",
+        "Element versions",
+        "explicit_version|inferred_version",
+        "Trace version linkage with IDs and named changed properties.",
+        "Different outputs or filenames are not automatically versions.",
+    ),
+    (
+        "03.6",
+        "03",
+        "Canonical declaration",
+        "creator_declared|reuse_hub",
+        (
+            "Keep explicit authoritative/canonical declarations separate "
+            "from measured reuse hubs."
+        ),
+        "Frequency is not approval, canonical status or quality.",
+    ),
+    (
+        "04.1",
+        "04",
+        "Text role",
+        "primary|negative|shot_prompt|script|other_text",
+        (
+            "Use generation_prompts.field_path and prompt_role; "
+            "crosswalk primary source path without double counting."
+        ),
+        (
+            "Nested script and ordinary prompts are different units; "
+            "absent negative field does not mean no exclusions."
+        ),
+    ),
+    (
+        "04.2",
+        "04",
+        "Semantic components",
+        (
+            "subject|identity|action|environment|spatial|composition|"
+            "lens_framing|camera_motion|lighting|material|"
+            "aesthetic_intent|timing|exclusion|preservation"
+        ),
+        (
+            "Label explicit text spans as instructions, preserving task "
+            "and literal model context."
+        ),
+        (
+            "These are intended instructions, not output properties; "
+            "semantic labels at scale await separate validation."
+        ),
+    ),
+    (
+        "04.3",
+        "04",
+        "Attached context",
+        "media_input|reference_element|unresolved_token",
+        "Pair actual usage rows with prompt tokens on compound keys.",
+        (
+            "A token without an attachment is unresolved; absent usage "
+            "does not prove text-only."
+        ),
+    ),
+    (
+        "04.4",
+        "04",
+        "Information location",
+        (
+            "text_explicit|metadata_explicit|"
+            "media_attached_content_unknown|cross_channel_conflict"
+        ),
+        "For each property mark observable text/metadata and unknown media contents.",
+        (
+            "No visual inspection; never assign a property to media from "
+            "attachment presence alone."
+        ),
+    ),
+    (
+        "04.5",
+        "04",
+        "Prompt structure",
+        (
+            "short_edit|full_description|sectioned|structured_json|"
+            "multi_shot|reference_tokens|repeated_passage"
+        ),
+        (
+            "Code literal structure and operation together; quote just "
+            "the relevant span."
+        ),
+        (
+            "Length is not quality or overload; JSON-shaped text must "
+            "parse before structured_json."
+        ),
+    ),
+    (
+        "04.6",
+        "04",
+        "Context conflict",
+        "explicit_conflict|possible_conflict",
+        (
+            "Name the conflicting instructions and paths, or the "
+            "uncertain interpretation."
+        ),
+        (
+            "Different channels may refer to different scopes; do not "
+            "assume model confusion."
+        ),
+    ),
+    (
+        "05.1",
+        "05",
+        "Image operation",
+        (
+            "fresh_candidate|reference_guided|local_edit_request|"
+            "multi_input|reframe_request|upscale_request"
+        ),
+        (
+            "Use image job type, input roles, explicit instructions and "
+            "active parameter values."
+        ),
+        (
+            "No recorded input only supports fresh_candidate, never "
+            "proven text-only; edit request does not prove mask-based "
+            "editing."
+        ),
+    ),
+    (
+        "05.2",
+        "05",
+        "Image convergence",
+        "multiple_inputs|staged_construction",
+        (
+            "Multiple actual inputs establish conditioning; explicit "
+            "producer edges establish staging."
+        ),
+        "Do not call multi-input conditioning compositing layers.",
+    ),
+    (
+        "05.3",
+        "05",
+        "Integration instructions",
+        "placement|scale|perspective|occlusion|lighting|preservation",
+        "Code explicit composition or preservation text and linked inputs.",
+        "No assessment of correct integration in the result.",
+    ),
+    (
+        "05.4",
+        "05",
+        "Editing mechanism",
+        "mask_disclosed|layers_disclosed|inpaint_enabled|inpaint_false|unspecified",
+        (
+            "Require nonempty mask/layer fields or an explicit boolean "
+            "value; false is retained."
+        ),
+        "Prompt wording alone never establishes an editing implementation.",
+    ),
+    (
+        "05.5",
+        "05",
+        "Still purpose",
+        "plate|keyframe|poster|reference_sheet|final_still",
+        (
+            "Require explicit purpose in instructions or creator "
+            "statement; distinguish request and output."
+        ),
+        (
+            "Downstream video input is evidence of use as a foundation, "
+            "not final acceptance."
+        ),
+    ),
+    (
+        "06.1",
+        "06",
+        "Video route",
+        (
+            "image_guided|video_guided|start_end|extension|"
+            "text_candidate|multi_shot_request"
+        ),
+        (
+            "Require typed usage roles, extension settings or explicit "
+            "shot text; multi-label where needed."
+        ),
+        (
+            "Parameter key presence or multi_shots=false does not negate "
+            "multi-shot prompt wording; no inputs is only text_candidate."
+        ),
+    ),
+    (
+        "06.2",
+        "06",
+        "Motion instructions",
+        "subject_action|camera_action|environment_motion",
+        "Code explicit instruction spans separately for each actor of motion.",
+        "Do not infer achieved motion or clip quality.",
+    ),
+    (
+        "06.3",
+        "06",
+        "Temporal structure",
+        "timed_event|ordered_event|shot_boundary",
+        "Retain stated event order, seconds and cut instructions.",
+        "Prompt timing is intention; job duration is a separate raw parameter.",
+    ),
+    (
+        "06.4",
+        "06",
+        "Audio intent",
+        (
+            "dialogue|voice|music|ambience|audio_exclusion|"
+            "generate_audio_true|generate_audio_false"
+        ),
+        (
+            "Separate written audio instructions from actual audio jobs "
+            "and enabled controls."
+        ),
+        (
+            "Enabled generate_audio is not evidence of usable sound; "
+            "external audio may be missing."
+        ),
+    ),
+    (
+        "06.5",
+        "06",
+        "Invariants",
+        "identity|layout|appearance|motion|other",
+        "Require explicit preserve/do not change instruction and scope.",
+        "No claim that invariants survived generation.",
+    ),
+    (
+        "06.6",
+        "06",
+        "Shot controls",
+        "duration|aspect_ratio|resolution|camera_lens|draft|extension",
+        (
+            "Retain literal model/version, raw field path and value, "
+            "including null and false."
+        ),
+        (
+            "Controls across models are not assumed equivalent; missing "
+            "is distinct from empty."
+        ),
+    ),
+    (
+        "06.7",
+        "06",
+        "Shot revision",
+        "split_request|camera_change|keyframe_revision|video_edit_request",
+        "Use explicit changed instructions plus linkage where available.",
+        "A single request establishes intent, not a successful revision chain.",
+    ),
+    (
+        "07.1",
+        "07",
+        "Dependency edge",
+        (
+            "producer_output|generation_input|reference_input|"
+            "external_or_unresolved|inferred"
+        ),
+        (
+            "Join explicit IDs within film; label unresolved producers "
+            "and inferred links."
+        ),
+        "Do not infer lineage from chronology, file names or folder proximity.",
+    ),
+    (
+        "07.2",
+        "07",
+        "Graph structure",
+        "hub|branch|shared_ancestor|convergence|disconnected",
+        "Name all edges and graph denominator supporting the structure.",
+        (
+            "Occurrence duplication and raw/preview variants must be "
+            "audited before counting degree."
+        ),
+    ),
+    (
+        "07.3",
+        "07",
+        "Asset equivalence",
+        "explicit_variant|unresolved_variant",
+        "Use disclosed identifiers and metadata for raw/preview aliases.",
+        (
+            "URL resemblance alone does not prove identity; preserve "
+            "unresolved variants."
+        ),
+    ),
+    (
+        "07.4",
+        "07",
+        "Reuse strategy",
+        "declared_canonical|previous_output_chaining|shared_reference",
+        "Require creator declaration or explicit same-asset edges across jobs.",
+        "High degree alone is neither canonical status nor visual continuity.",
+    ),
+    (
+        "07.5",
+        "07",
+        "Downstream review scope",
+        "reachable_dependency_set",
+        "Enumerate descendants of a changed input under stated graph completeness.",
+        (
+            "Reachability proposes review scope, never proves which "
+            "outputs would visually change."
+        ),
+    ),
+    (
+        "08.1",
+        "08",
+        "Operation role",
+        (
+            "character_design|reference_sheet|environment|composition|"
+            "local_edit|animation|voice_audio|editing_finishing"
+        ),
+        (
+            "Use explicit instructions, job types and edges; retain "
+            "observed/creator-stated distinction."
+        ),
+        "Model nickname alone does not establish its role or provider.",
+    ),
+    (
+        "08.2",
+        "08",
+        "Literal model",
+        "literal_identifier",
+        "Retain model_identifier and source model_name independently.",
+        "Do not collapse versions or infer providers from product names.",
+    ),
+    (
+        "08.3",
+        "08",
+        "Model handoff",
+        "edge_supported|cooccurrence_only",
+        "Require a producer/input edge to establish cross-model transition.",
+        "Two models in one film are only co-occurrence.",
+    ),
+    (
+        "08.4",
+        "08",
+        "Workflow shape",
+        "direct|reference_preparation|branching|staged|cross_model",
+        "Require supported dependency edges and name graph boundaries.",
+        "No scheduler, routing, agent or autonomous orchestration inference.",
+    ),
+    (
+        "08.5",
+        "08",
+        "Audio and finishing visibility",
+        "job_observed|creator_stated_external|folder_label_only",
+        "Separate audio/edit jobs, external tool statements and folder names.",
+        (
+            "Sound folder is not proof of sound production; missing jobs "
+            "do not disprove external work."
+        ),
+    ),
+    (
+        "09.1",
+        "09",
+        "Iteration family",
+        "shared_batch|shared_inputs|explicit_lineage|similarity_candidate",
+        (
+            "Prioritise batch and input evidence; list members and "
+            "proposed family denominator."
+        ),
+        (
+            "Similarity and time alone are provisional; repeated prompts "
+            "are not independent samples."
+        ),
+    ),
+    (
+        "09.2",
+        "09",
+        "Iteration mode",
+        "parallel|rerun|local_correction_request|direction_change|model_change",
+        "Distinguish requested correction from a linked observed revision family.",
+        (
+            "No defect, success or failure judgement; a single "
+            "correction prompt does not prove a prior failed job."
+        ),
+    ),
+    (
+        "09.3",
+        "09",
+        "Revision delta",
+        "text_addition|text_deletion|specificity|preservation|input_replacement",
+        "Compare named family members and record exact changed paths/spans.",
+        "Do not compare unrelated jobs as revisions merely because dates are near.",
+    ),
+    (
+        "09.4",
+        "09",
+        "Downstream adoption",
+        "reused_for_further_work|explicit_approval",
+        (
+            "Require explicit later input edge for reuse or a distinct "
+            "approval statement."
+        ),
+        "Reuse is not final acceptance and absence of reuse is not rejection.",
+    ),
+    (
+        "10.1",
+        "10",
+        "Organisation",
+        "scene|entity|asset_type|stage|mixed|flat_proxy",
+        (
+            "Code literal folder labels separately from measured "
+            "placements/dependencies."
+        ),
+        (
+            "Root and Watermarks alone support a flat proxy, not absence "
+            "of private organisation."
+        ),
+    ),
+    (
+        "10.2",
+        "10",
+        "Authorship",
+        (
+            "single_recorded_author|multiple_recorded_authors|"
+            "owner_difference|edge_supported_handoff"
+        ),
+        "Use author IDs and owner metadata; handoffs need explicit asset edges.",
+        (
+            "Several authors do not establish team structure, labour "
+            "division or employment."
+        ),
+    ),
+    (
+        "10.3",
+        "10",
+        "Activity window",
+        "recorded_event_window",
+        "Use first/last recorded events with timestamp parse coverage.",
+        "Not labour time, rendering latency, production duration or decision time.",
+    ),
+    (
+        "10.4",
+        "10",
+        "Repetition and placement",
+        "repeated_prompt|asset_reuse|multiple_folder_placements",
+        "Count distinct entities separately from occurrences; specify denominator.",
+        "No waste or efficiency claim; cross-film IDs require compound keys.",
+    ),
+    (
+        "10.5",
+        "10",
+        "Resource proxy",
+        "jobs_per_declared_minute",
+        (
+            "Use recorded generation count / catalogue duration seconds "
+            "* 60, within stated comparable formats."
+        ),
+        "Not cost, speed or productivity; no model-credit-to-money conversion.",
+    ),
+]

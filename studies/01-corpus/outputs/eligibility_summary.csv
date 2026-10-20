@@ -1,0 +1,11 @@
+study,production_films,catalogue_films,primary_denominator,priority_denominator,missing_evidence
+02,157,0,157,186,Brief substance and plan-to-task links need case files; build order cannot follow dates alone
+03,157,0,157,186,"Authenticated libraries, canonical approval and identity/version links may be missing"
+04,157,0,157,186,"Provider defaults, hidden prompts and media content unavailable; semantic scale labels pending"
+05,155,0,157,186,No media inspection; absent usages do not establish text-only; masks/layers may be undisclosed
+06,156,0,157,186,"Actual clip quality, used portions and equivalence of model controls unavailable"
+07,157,0,157,186,"External producers, alias resolution, private/offline dependencies and canonical declarations may be missing"
+08,157,0,157,186,"Roles need case coding; scheduler, agents, external audio and final editing unobservable"
+09,157,0,157,186,"Family reconstruction pending; discarded/external work, defects and final acceptance unavailable"
+10,157,0,157,186,"Labour time, spend, rendering latency and team structure unavailable"
+11,157,186,157,186,Winners not in release; future announced winners and Studies 02–10 measures are dependencies

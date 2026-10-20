@@ -17,6 +17,8 @@ briefs, names and media stay with their creators; each film links back to its pu
 project page. Anything is removed on request: [open an issue](https://github.com/TelesforoAleix/ai-film-practice/issues).
 Email addresses and local file paths have been redacted. See [DATA.md](DATA.md) for scope, provenance and rights.
 
+[Study 01: corpus, evidence map, panel and codebook](studies/01-corpus/README.md) follows the AF0 infrastructure milestone described above.
+
 ## Get the snapshot and query it
 
 Requires Python 3.11+ and [uv](https://docs.astral.sh/uv/). From the repository root:
