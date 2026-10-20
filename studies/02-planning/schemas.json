@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:film-practice:study-02:planning-v1",
+  "title": "Proposed planning records; not observed platform architecture",
+  "$defs": {
+    "evidence": {
+      "type": "object",
+      "required": ["study", "film_id", "entity_ids", "source_path", "excerpt", "evidence_label", "competing_explanation", "denominator", "confidence_rationale"],
+      "properties": {
+        "study": {"type": "string"},
+        "film_id": {"type": "string"},
+        "entity_ids": {"type": "array", "items": {"type": "string"}},
+        "source_path": {"type": "string"},
+        "excerpt": {"type": ["string", "null"]},
+        "evidence_label": {"enum": ["observed", "creator-stated", "inferred", "associated", "experimentally supported", "proposed"]},
+        "competing_explanation": {"type": "string"},
+        "denominator": {"type": "string"},
+        "confidence_rationale": {"type": "string"}
+      }
+    },
+    "claim": {
+      "type": "object",
+      "required": ["value", "state", "evidence"],
+      "properties": {
+        "value": {},
+        "state": {"enum": ["declared", "reconstructed", "proposed", "empty", "unavailable", "unknown", "template_only", "label_only"]},
+        "evidence": {"type": "array", "items": {"$ref": "#/$defs/evidence"}}
+      },
+      "allOf": [{"if": {"properties": {"state": {"enum": ["unavailable", "unknown"]}}}, "then": {"properties": {"value": {"type": "null"}}}}]
+    },
+    "brief": {
+      "type": "object",
+      "required": ["film_id", "brief_id", "version_id", "objectives", "constraints", "visual_intentions", "deliverables", "entities", "scene_ids", "sections"],
+      "properties": {
+        "film_id": {"type": "string"},
+        "brief_id": {"type": "string"},
+        "version_id": {"type": "string"},
+        "objectives": {"type": "array", "items": {"$ref": "#/$defs/claim"}},
+        "constraints": {"type": "array", "items": {"$ref": "#/$defs/claim"}},
+        "visual_intentions": {"type": "array", "items": {"$ref": "#/$defs/claim"}},
+        "deliverables": {"type": "array", "items": {"$ref": "#/$defs/claim"}},
+        "entities": {"type": "array", "items": {"$ref": "#/$defs/claim"}},
+        "scene_ids": {"$ref": "#/$defs/claim"},
+        "sections": {"type": "array", "items": {"$ref": "#/$defs/claim"}}
+      }
+    },
+    "scene": {
+      "type": "object",
+      "required": ["film_id", "scene_id", "version_id", "brief_links", "label", "world_state", "entity_bindings", "invariants", "shot_ids", "folder_links"],
+      "properties": {
+        "film_id": {"type": "string"},
+        "scene_id": {"type": "string"},
+        "version_id": {"type": "string"},
+        "brief_links": {"type": "array", "items": {"$ref": "#/$defs/claim"}},
+        "label": {"$ref": "#/$defs/claim"},
+        "world_state": {"$ref": "#/$defs/claim"},
+        "entity_bindings": {"type": "array", "items": {"$ref": "#/$defs/claim"}},
+        "invariants": {"type": "array", "items": {"$ref": "#/$defs/claim"}},
+        "shot_ids": {"$ref": "#/$defs/claim"},
+        "folder_links": {"type": "array", "items": {"$ref": "#/$defs/claim"}}
+      }
+    },
+    "shot": {
+      "type": "object",
+      "required": ["film_id", "shot_id", "version_id", "scene_link", "requested_order", "action", "camera", "timing", "audio", "invariants", "reference_bindings", "task_ids"],
+      "properties": {
+        "film_id": {"type": "string"},
+        "shot_id": {"type": "string"},
+        "version_id": {"type": "string"},
+        "scene_link": {"$ref": "#/$defs/claim"},
+        "requested_order": {"$ref": "#/$defs/claim"},
+        "action": {"$ref": "#/$defs/claim"},
+        "camera": {"$ref": "#/$defs/claim"},
+        "timing": {"$ref": "#/$defs/claim"},
+        "audio": {"$ref": "#/$defs/claim"},
+        "invariants": {"type": "array", "items": {"$ref": "#/$defs/claim"}},
+        "reference_bindings": {"type": "array", "items": {"$ref": "#/$defs/claim"}},
+        "task_ids": {"$ref": "#/$defs/claim"}
+      }
+    },
+    "task": {
+      "type": "object",
+      "required": ["film_id", "task_id", "version_id", "plan_links", "input_versions", "dependencies", "operation", "literal_model", "field_paths", "raw_controls", "candidate_ids", "review_state"],
+      "properties": {
+        "film_id": {"type": "string"},
+        "task_id": {"type": "string"},
+        "version_id": {"type": "string"},
+        "plan_links": {"type": "array", "items": {"$ref": "#/$defs/claim"}},
+        "input_versions": {"$ref": "#/$defs/claim"},
+        "dependencies": {"$ref": "#/$defs/claim"},
+        "operation": {"$ref": "#/$defs/claim"},
+        "literal_model": {"$ref": "#/$defs/claim"},
+        "field_paths": {"$ref": "#/$defs/claim"},
+        "raw_controls": {"$ref": "#/$defs/claim"},
+        "candidate_ids": {"$ref": "#/$defs/claim"},
+        "review_state": {"$ref": "#/$defs/claim"}
+      }
+    }
+  },
+  "oneOf": [
+    {"$ref": "#/$defs/brief"},
+    {"$ref": "#/$defs/scene"},
+    {"$ref": "#/$defs/shot"},
+    {"$ref": "#/$defs/task"}
+  ]
+}

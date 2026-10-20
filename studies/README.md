@@ -15,3 +15,5 @@ registered films across all 49 shared codes for Studies 02–10, with scoped evi
 [Provisional prompt-label infrastructure — AF3a](../prompt-labels/README.md) supplies structural features, the balanced sample, single-agent gold and the local labelling/agreement harness; the real model run and assessment follow separately.
 
 [Study 10 — Organisation and production economics](10-organisation/README.md) measures public workspace organisation, author and owner records, event windows, repetition, placements and raw input reuse across 157 primary histories, with a resource-visibility audit and proposed operating requirements; labour, costs and comparable-format productivity remain unmeasurable.
+
+[Study 02 — Planning and production decomposition](02-planning/README.md) measures structural planning evidence across 157 histories, traces all 16 panel maps, separates declarations from local dependencies, and proposes brief, scene, shot and task schemas with explicit evidence limits.

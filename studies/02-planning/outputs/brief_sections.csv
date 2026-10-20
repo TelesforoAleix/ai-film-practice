@@ -1,0 +1,595 @@
+film_id,section_index,heading,start,end,characters,sha256,state,template_matches,excerpt
+0142c259-f6c1-44a9-b003-62866221b03c,0,preamble,0,518,518,fbfc270440429f92778cca5659623242fe20d8718819502e863332278842322f,nonplaceholder_unclassified,0,\N
+0142c259-f6c1-44a9-b003-62866221b03c,1,context,527,1040,513,285c350a19af091fc147e6280b921d8a476d7a625d1211e4e63b95059866d3a2,nonplaceholder_unclassified,0,\N
+0142c259-f6c1-44a9-b003-62866221b03c,2,narrative,1051,1427,376,31315768fca36ec8549e6e295fa1053419af0fc146b846ed8973374717841e71,nonplaceholder_unclassified,0,\N
+0142c259-f6c1-44a9-b003-62866221b03c,3,visuals,1436,1736,300,a2bd0133a9bf95429a319c714883726c742f9a09929546bd9aadd0b1a9b0e77b,nonplaceholder_unclassified,0,\N
+0142c259-f6c1-44a9-b003-62866221b03c,4,production,1748,1918,170,697a1f4086a7502fe0f5139ae8b40532c14f8d12a4bcb413af8f5165826fff95,nonplaceholder_unclassified,0,\N
+0142c259-f6c1-44a9-b003-62866221b03c,5,status,1926,2001,75,a5cfd580a2a5726c6216e2b525a007fc571f059469c364f2bce06428b99a8630,nonplaceholder_unclassified,0,\N
+0142c259-f6c1-44a9-b003-62866221b03c,6,resources,2012,2066,54,66f60cc66d4896dded68a43c8defb9df692d7191694230eef2446a5335bdb538,template_only,1,"Script, moodboard, storyboard, schedule, and assets."
+0142c259-f6c1-44a9-b003-62866221b03c,7,notes,2073,2119,46,f382e2c1d4bae471baaafc2d38dc511415206c3a74816111c6bfbc45cc21cc93,template_only,1,"Key decisions, updates, and project history."
+03d44746-44b9-4153-b13e-6ccf4616ce2d,0,preamble,0,0,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,empty,0,\N
+03d44746-44b9-4153-b13e-6ccf4616ce2d,1,context,9,196,187,e417809a210a9fab0e56f62288c42fb1053c8f4b8457df2b6bc70de6e487c586,nonplaceholder_unclassified,0,\N
+03d44746-44b9-4153-b13e-6ccf4616ce2d,2,narrative,207,852,645,a07800d0d1c62560d4ce19b8ad80ac1f94d3a19d364a263d5971ec78951c0be8,nonplaceholder_unclassified,0,\N
+03d44746-44b9-4153-b13e-6ccf4616ce2d,3,visuals,861,1007,146,2cb89b33079e90283c5e53d9a310af9709c2847930f295944aa2d48bb1e31394,nonplaceholder_unclassified,0,\N
+03d44746-44b9-4153-b13e-6ccf4616ce2d,4,production,1019,3613,2594,7b70e5de0841e72ee81751d11b27a35221e1c623883a155a3752b29ec3144a57,nonplaceholder_unclassified,0,\N
+03f596b0-23da-4312-9e58-2e1cc4582348,0,preamble,0,123,123,6074d9c88c9fab5cb0890a9cd1dae4758d4957b2b0125013996bc1ecfd480584,nonplaceholder_unclassified,0,\N
+03f596b0-23da-4312-9e58-2e1cc4582348,1,context,132,694,562,429dea54d38ccd3ee4eaf7cd8e85c476b1e6c8b9c3482eb12c6ad6a00cddd33a,nonplaceholder_unclassified,0,\N
+03f596b0-23da-4312-9e58-2e1cc4582348,2,narrative,705,1211,506,8995b68805cee43a12a89f0e6ef1272a1674a1d2349bf286842e7a81ae3e38a8,nonplaceholder_unclassified,0,\N
+03f596b0-23da-4312-9e58-2e1cc4582348,3,visuals,1220,1992,772,14e99e2ee859933cc947f2927da36a4845160e7c1c70ad4559dfd13f53ec1192,nonplaceholder_unclassified,0,\N
+03f596b0-23da-4312-9e58-2e1cc4582348,4,production,2004,2736,732,8165e3d53f44f5caffaffccb6a1015a0c74efd70f08b6f5071bf08daa05929b5,nonplaceholder_unclassified,0,\N
+03f596b0-23da-4312-9e58-2e1cc4582348,5,status,2744,3064,320,c618f7c625ad2c3944112cfae45672de740ecd79b952cfe3f1711e420b076ab5,nonplaceholder_unclassified,0,\N
+03f596b0-23da-4312-9e58-2e1cc4582348,6,resources,3075,3273,198,37a27137fda31dce3e4ebaffd9929acfd917740166171d69cd8a6d86f61a1b7b,nonplaceholder_unclassified,0,\N
+03f596b0-23da-4312-9e58-2e1cc4582348,7,notes,3280,4093,813,b9a4d7aa5b735f8061c2134b03015bf8cda62ae5f07c19b474b1d53a31b4f7e9,nonplaceholder_unclassified,0,\N
+05b90921-64ab-4ba5-97a7-c7e06459e708,0,preamble,0,38,38,cc5673b4009cf85c509389bba127194b1018f52e988c5e948bec7d6f6e64f34a,template_only,1,Short project description goes here.
+05b90921-64ab-4ba5-97a7-c7e06459e708,1,context,47,399,352,9a723a16c36ffb9ffa8aaefb78e42a93e2721cdec30126bf83c57b765ed257eb,nonplaceholder_unclassified,0,\N
+05b90921-64ab-4ba5-97a7-c7e06459e708,2,narrative,410,1170,760,6bc0e17dc7e423c974e51d03c6f2cd7dbb42db21eac397afb6ae5977b91537a4,nonplaceholder_unclassified,0,\N
+05b90921-64ab-4ba5-97a7-c7e06459e708,3,visuals,1179,1972,793,ffdcf6d7ab56b82e95b9ccc85ecf9a25a7f263418db755f4caeae06125e300a7,nonplaceholder_unclassified,0,\N
+05b90921-64ab-4ba5-97a7-c7e06459e708,4,production,1984,2470,486,759d3a6f15f2ceba1899444d0bc567c12c09f12d86d5a262fe3c98e02f92e678,nonplaceholder_unclassified,0,\N
+05b90921-64ab-4ba5-97a7-c7e06459e708,5,status,2478,2943,465,2eb94e50e99db0cf758dfe2823e89d65a0096bd7b3c2ed7814c89d376e078ba2,nonplaceholder_unclassified,0,\N
+05b90921-64ab-4ba5-97a7-c7e06459e708,6,resources,2954,3306,352,303661546d6d9e31f94721d8a2030a293249a4456cb464ffce79c6a6cfc15c80,nonplaceholder_unclassified,0,\N
+05b90921-64ab-4ba5-97a7-c7e06459e708,7,notes,3313,4100,787,f39754ef2cae2d89916df149311ded1970e5fd62da767ef1b1d6d979784959fa,nonplaceholder_unclassified,0,\N
+061f493e-0f18-46c7-9fc4-e50c76ac7539,0,preamble,0,311,311,8a0583c6a6998495e13b26b673b6ab90053301503540686d251327a607783931,nonplaceholder_unclassified,0,\N
+061f493e-0f18-46c7-9fc4-e50c76ac7539,1,context,320,712,392,6d4ce88891ea43ac530479335d341aaa09881990e3947ae5697c409bc052368e,nonplaceholder_unclassified,0,\N
+061f493e-0f18-46c7-9fc4-e50c76ac7539,2,narrative,723,1173,450,582c84051a99791a340131c929ea24ef698ada64758766656133cc2578fb5a24,nonplaceholder_unclassified,0,\N
+061f493e-0f18-46c7-9fc4-e50c76ac7539,3,visuals,1182,1651,469,6e2e9b1cca20630732258ed584cdaf07a6c0462b1fd6f12349bed322121e5356,nonplaceholder_unclassified,0,\N
+061f493e-0f18-46c7-9fc4-e50c76ac7539,4,production,1663,2110,447,4d22bb548f898b0414ef5398c078cd928eddc32d79c3c0681da5aba96e29395d,nonplaceholder_unclassified,0,\N
+061f493e-0f18-46c7-9fc4-e50c76ac7539,5,status,2118,2659,541,50665dc294596f7efe7baedc7d75a8e56a7170158f2b56a53454f9118c60cb1c,nonplaceholder_unclassified,0,\N
+090f3370-c948-4bac-a0c6-1f34f95e2f8d,0,preamble,0,872,872,e87696dda91eee245af2719cd3910b6c2ff164bb3f410f98b0814212b0ca91a1,nonplaceholder_unclassified,0,\N
+090f3370-c948-4bac-a0c6-1f34f95e2f8d,1,context,881,2005,1124,92a7c42999a9d11f795e1ea0bf4b67a1dc4d5499775c267424c40a7a41d9ca60,nonplaceholder_unclassified,0,\N
+090f3370-c948-4bac-a0c6-1f34f95e2f8d,2,narrative,2016,3275,1259,2dc15987053fd22362d863c8a4fca00e888bd55b1f5c2463d8c9fa717f93ae52,nonplaceholder_unclassified,0,\N
+090f3370-c948-4bac-a0c6-1f34f95e2f8d,3,visuals,3284,4853,1569,e0cc4c06bef7a18015f17584341b7fe25071b058cbb19a578138bc405c672632,nonplaceholder_unclassified,0,\N
+090f3370-c948-4bac-a0c6-1f34f95e2f8d,4,production,4865,5622,757,9dcbdedf9082385d0be5ada3fa18da1ce542e441ceb0a870ccf5aa07f5b8c619,nonplaceholder_unclassified,0,\N
+090f3370-c948-4bac-a0c6-1f34f95e2f8d,5,production,5633,6097,464,692eb96f6b63c3474cee89f7aadb334ec85f45d561f6d0a60417d33712f4179e,nonplaceholder_unclassified,0,\N
+090f3370-c948-4bac-a0c6-1f34f95e2f8d,6,status,6105,6728,623,105bc5e002bbb0a03dca0f4a4c704c9e65ab2c3774ca30686ca542f0fb90a0cf,nonplaceholder_unclassified,0,\N
+090f3370-c948-4bac-a0c6-1f34f95e2f8d,7,production,6739,7342,603,1fe5cbd6e6124dc0cd2ba856c987905097884129ea00c09b2acf6058f1411c8e,nonplaceholder_unclassified,0,\N
+090f3370-c948-4bac-a0c6-1f34f95e2f8d,8,resources,7353,8324,971,4a9a7739c9addfd402fc451a04da6ab153cae755c20647b10f2aed86c141c99c,nonplaceholder_unclassified,0,\N
+090f3370-c948-4bac-a0c6-1f34f95e2f8d,9,notes,8331,8333,2,75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070,empty,0,\N
+09305b6f-a427-46d8-80fb-76f5384b5828,0,preamble,0,233,233,f22113ef036764b2e7c19d0e6af7e53a72f5d783dd2c8d422282acb788f68e02,nonplaceholder_unclassified,0,\N
+09305b6f-a427-46d8-80fb-76f5384b5828,1,context,242,244,2,75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070,empty,0,\N
+09305b6f-a427-46d8-80fb-76f5384b5828,2,narrative,255,3867,3612,70bf18c3cd0ac6bd534068f940652c1d1f363d2aa30597d0724b7eeeaba54d0b,nonplaceholder_unclassified,0,\N
+09305b6f-a427-46d8-80fb-76f5384b5828,3,production,3878,3920,42,c1ecd0b1350e32ef7052f2afe29813674793f8d831b7534a8066e37f744eadba,template_only,1,"Schedule, locations, crew, and logistics."
+09305b6f-a427-46d8-80fb-76f5384b5828,4,status,3928,3947,19,1e187c726063a38f4051212aeefc41e2a7949e23700960970915bacab9fa5e24,nonplaceholder_unclassified,0,\N
+09305b6f-a427-46d8-80fb-76f5384b5828,5,resources,3958,3959,1,01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b,empty,0,\N
+09305b6f-a427-46d8-80fb-76f5384b5828,6,production,3970,7428,3458,a777f7c0b16015b30421fb70d637c3ccc65a580ce28063f943cdd7786a4afa8a,nonplaceholder_unclassified,0,\N
+09305b6f-a427-46d8-80fb-76f5384b5828,7,notes,7435,7646,211,d152a7855d42109309e5f66dc8b8fe2afc3298578574c89d59e8526c6635889b,nonplaceholder_unclassified,0,\N
+09f1496c-d447-41e4-920d-9748db72162a,0,preamble,0,38,38,cc5673b4009cf85c509389bba127194b1018f52e988c5e948bec7d6f6e64f34a,template_only,1,Short project description goes here.
+09f1496c-d447-41e4-920d-9748db72162a,1,context,47,1197,1150,fe0da7586c4e5beaac51f0529813736b97f5cd892f8ed4919562af753caaecc7,mixed_candidate,1,Why this project exists.
+09f1496c-d447-41e4-920d-9748db72162a,2,narrative,1208,8120,6912,47b4da536ee9c6091ba411d844ab56395cc8f57349d3a7edf7d1d9c34ea02812,mixed_candidate,1,"Story, message, and audience."
+09f1496c-d447-41e4-920d-9748db72162a,3,visuals,8129,12741,4612,e4bee0534345a0930952dc538820c3bbd35609dcda710ade11b202f337fdc8c0,nonplaceholder_unclassified,0,\N
+09f1496c-d447-41e4-920d-9748db72162a,4,production,12753,14551,1798,1550f7d96e43fdb7f5234ebd9a34a89464af76aba17de56deb9cb095301e2681,nonplaceholder_unclassified,0,\N
+09f1496c-d447-41e4-920d-9748db72162a,5,status,14559,16236,1677,835e2097ac07fdfa534165b2fd2076d496ab0dc18430ed083161448411c1a8db,nonplaceholder_unclassified,0,\N
+09f1496c-d447-41e4-920d-9748db72162a,6,resources,16247,16706,459,b5027cd39d07adf6dcf7821f39f95867c319cde98edfc4add722a590118073c6,nonplaceholder_unclassified,0,\N
+09f1496c-d447-41e4-920d-9748db72162a,7,notes,16713,20038,3325,eb77ba1533defd8e26fc5e21683c1fdb9b0629b4fe6487203b600dbc7656d4a6,nonplaceholder_unclassified,0,\N
+0b8a1404-8bcf-48b9-a216-d54dc0901d9f,0,preamble,0,9855,9855,87389b7a609eaf4758910eb07190e5b2fd28a413ce1e2ecf3ade1db9ddf4b759,nonplaceholder_unclassified,0,\N
+0b8a1404-8bcf-48b9-a216-d54dc0901d9f,1,context,9862,10994,1132,b8a876fe08e0344dea9597480d768ae77ee8c18fd7137ed08372340d5fdc0f22,nonplaceholder_unclassified,0,\N
+0b8a1404-8bcf-48b9-a216-d54dc0901d9f,2,visuals,11001,12561,1560,a00971d84d30579d69a8aa6243898e7d548af54597deab2834ecb4c0b1b0a08d,nonplaceholder_unclassified,0,\N
+0b8a1404-8bcf-48b9-a216-d54dc0901d9f,3,production,12571,13286,715,436a9d6ee985fa9306c5c3ab73863ae954585404c02a1b5408f6ad06f3f0f262,nonplaceholder_unclassified,0,\N
+0b8a1404-8bcf-48b9-a216-d54dc0901d9f,4,notes,13291,13775,484,793990e18c9621cfe51b8c93784022f8165b0b778acd80180f4a0f994fc84c7d,nonplaceholder_unclassified,0,\N
+0d186a6c-8da8-4f33-bf0e-865f4e22e8bd,0,preamble,0,6293,6293,a2d484a7827b639b8d9ffee46ba11662644db1dc8c2d505dae5f5085f69aa18a,nonplaceholder_unclassified,0,\N
+0d186a6c-8da8-4f33-bf0e-865f4e22e8bd,1,production,6304,13075,6771,eb7ae6a9b7d740a87b6686553a513ed364df91f09d79f2e08d1e2789d97886ff,nonplaceholder_unclassified,0,\N
+0d186a6c-8da8-4f33-bf0e-865f4e22e8bd,2,status,13081,14254,1173,8e141c14367c696ca03dbf03dd52becdf6c793d96a047849dd38faa34f4d0005,nonplaceholder_unclassified,0,\N
+0dfd36bb-f583-47a3-9de1-aef12411d714,0,preamble,0,100,100,417296a62b39581897c301c8222b812903329db653894e985bb56ada723fb367,nonplaceholder_unclassified,0,\N
+0dfd36bb-f583-47a3-9de1-aef12411d714,1,context,109,736,627,f67c81d7c3de7bcf28dc5d17431a7dd1a145ccbe0a3e2a2825e005320d18852b,nonplaceholder_unclassified,0,\N
+0dfd36bb-f583-47a3-9de1-aef12411d714,2,narrative,747,3528,2781,90748ee4bfcda12ab0005da34d502e5b42426e4d3d9dd650c334c517de338388,nonplaceholder_unclassified,0,\N
+0dfd36bb-f583-47a3-9de1-aef12411d714,3,visuals,3537,4418,881,6b9734c7ea2badea5f9a9a7ac33ed48dff4ef8829271821b02317c1770e693cf,nonplaceholder_unclassified,0,\N
+0dfd36bb-f583-47a3-9de1-aef12411d714,4,production,4430,5141,711,4b7d53d942a25293dbd635deb60520234685199ca5d77222669c795dcf583484,nonplaceholder_unclassified,0,\N
+0dfd36bb-f583-47a3-9de1-aef12411d714,5,status,5149,5711,562,40a8d5d09927242c37694712bf2d5d4ce9eec22172bcfe9361106e2d0fabacf6,nonplaceholder_unclassified,0,\N
+0dfd36bb-f583-47a3-9de1-aef12411d714,6,resources,5722,6508,786,2a53aeefc55452a13a793831441cea46c3ba1a319e4df2d5c547215842ffc2af,mixed_candidate,1,"Script, moodboard, storyboard, schedule, and assets."
+0dfd36bb-f583-47a3-9de1-aef12411d714,7,notes,6515,7607,1092,ed003ec38beccf293f696716bb4572ea8f3f053559b5ae442ccc5358772ba49a,nonplaceholder_unclassified,0,\N
+12cda30a-39a8-4f9d-b785-6fe69eda92df,0,preamble,0,369,369,ab1ffb98db6644ae6d424bb8b168c5bd73feacad8654d17c986db0e5db1f956a,nonplaceholder_unclassified,0,\N
+12cda30a-39a8-4f9d-b785-6fe69eda92df,1,context,378,880,502,17e0b214093b0a0ffdd19a40b890bfb559289a14929951ff811e43abb66ab3a2,nonplaceholder_unclassified,0,\N
+12cda30a-39a8-4f9d-b785-6fe69eda92df,2,narrative,891,2312,1421,495c72fb59c9e372fde8a3f1f3222685d7b2bc17e9635bbe30ecebb3495d519f,nonplaceholder_unclassified,0,\N
+12cda30a-39a8-4f9d-b785-6fe69eda92df,3,visuals,2321,4458,2137,365f126f316f0c093e75f17ba1acd53a6d3570035215d7b815d7030b92ffa2c8,nonplaceholder_unclassified,0,\N
+12cda30a-39a8-4f9d-b785-6fe69eda92df,4,production,4470,5743,1273,833c00c05ff0c042279b4ea475b8939696ef5a3e1e5d936da095f233c5532700,nonplaceholder_unclassified,0,\N
+12cda30a-39a8-4f9d-b785-6fe69eda92df,5,status,5751,6181,430,c1f25bf14eb7f9ab07340b7701eb16f69983622e73b17c3ab9d58abbe8fa502c,nonplaceholder_unclassified,0,\N
+12cda30a-39a8-4f9d-b785-6fe69eda92df,6,resources,6192,6193,1,01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b,empty,0,\N
+12cda30a-39a8-4f9d-b785-6fe69eda92df,7,production,6204,6992,788,2846cea10c0d23318a8593333fef110c2f3c0f59d326eb54b1e8401882f1a6d2,nonplaceholder_unclassified,0,\N
+12cda30a-39a8-4f9d-b785-6fe69eda92df,8,notes,6999,7373,374,b7ee3fc09c3426a84b17b6fa47c764b3ce88cc12c8946f323aa38f9695fca704,nonplaceholder_unclassified,0,\N
+16c6e5e6-43f8-4921-897a-8f0feeb2e253,0,preamble,0,5375,5375,a6bbbdc6a6aa3b9aa2bcdc05708929a1090beb9f101df28c19fcea650575ec5c,nonplaceholder_unclassified,0,\N
+171e8aab-a174-4e76-9021-5748c94f7b74,0,preamble,0,230,230,aa4971cdc25492828f4113e1fbdf73548efec5785a27732864d50e4b9156a4a3,nonplaceholder_unclassified,0,\N
+171e8aab-a174-4e76-9021-5748c94f7b74,1,context,237,1810,1573,43a2118c0d166d4734ac4a174affcefc4a26c89d4f5c7499f12913d5f4f1fbd5,nonplaceholder_unclassified,0,\N
+171e8aab-a174-4e76-9021-5748c94f7b74,2,production,1820,2170,350,20c1c6efbb8a517212ad1f94aef5389d343559874bcc6829d5a101e0ffd7ee31,nonplaceholder_unclassified,0,\N
+17fd38fc-de89-4154-bd34-f6040da7f8de,0,preamble,0,214,214,b0ec1d86c1f5b5a3996cadd742fd3843c78fc646167405fd0b546f583802bd01,nonplaceholder_unclassified,0,\N
+17fd38fc-de89-4154-bd34-f6040da7f8de,1,context,223,475,252,958116daafc057e1be69a1c5fcc89b5748b2d53628b454580caef167d23140b3,nonplaceholder_unclassified,0,\N
+17fd38fc-de89-4154-bd34-f6040da7f8de,2,narrative,486,645,159,07f65a964cbcf61ebf7ce4c3f11a9a69d7917853026af917a457434e9e69d174,nonplaceholder_unclassified,0,\N
+17fd38fc-de89-4154-bd34-f6040da7f8de,3,visuals,654,928,274,8f64cf7acc0d3b917535ceae059cbf7c01cee5773ba4b48105bc7e07494b2d5d,nonplaceholder_unclassified,0,\N
+17fd38fc-de89-4154-bd34-f6040da7f8de,4,production,940,1731,791,e5ab569a56bf398a399ddbf6ee22cabc2163debd2645a866060a198ef87e32f7,nonplaceholder_unclassified,0,\N
+1c758c37-0f6c-4cf9-bfac-5aaa5bf60de7,0,preamble,0,38,38,cc5673b4009cf85c509389bba127194b1018f52e988c5e948bec7d6f6e64f34a,template_only,1,Short project description goes here.
+1c758c37-0f6c-4cf9-bfac-5aaa5bf60de7,1,context,47,1411,1364,3036b5849fcf47cc26284d4b3af1ef5f22e8fde37dba005375e97700392ebd9f,mixed_candidate,1,Why this project exists.
+1c758c37-0f6c-4cf9-bfac-5aaa5bf60de7,2,narrative,1422,4146,2724,3607b11d725be44c07a55108efd9c67f5cecf79ce26146a10629e454d76ac724,mixed_candidate,1,"Story, message, and audience."
+1c758c37-0f6c-4cf9-bfac-5aaa5bf60de7,3,visuals,4155,8455,4300,ada8f714990386bfe9f5a096a58f5c5fc350452d6801d3991f356ca57b2e72b7,mixed_candidate,1,"References, mood, color palette, and creative direction."
+1c758c37-0f6c-4cf9-bfac-5aaa5bf60de7,4,production,8467,9720,1253,494031299a02383fb0007c71322ae82b18fcd6c3952d66f10b4a1fda7ee49ae1,nonplaceholder_unclassified,0,\N
+1c758c37-0f6c-4cf9-bfac-5aaa5bf60de7,5,status,9728,10701,973,2f19d117258ecca0247e85b0ea40e808ecc0ae7a881bf1b7baa0134bac8f69eb,nonplaceholder_unclassified,0,\N
+1c758c37-0f6c-4cf9-bfac-5aaa5bf60de7,6,resources,10712,11320,608,ae325c1c39787043faa1823591f26b32bad97084ca2757f07770dbe66a23aeb2,nonplaceholder_unclassified,0,\N
+1c758c37-0f6c-4cf9-bfac-5aaa5bf60de7,7,notes,11327,11528,201,0fbe2500c5a1397f61ea9132e6147f4bb8bf7854d838727be2ff76cd6c7efc35,nonplaceholder_unclassified,0,\N
+20be1efa-3585-43fc-b657-07c2aca4bbc5,0,preamble,0,1586,1586,63618920d0159cecfa1c11f91016cc65bcc16f0f116d244e17e2baec90ba68d2,nonplaceholder_unclassified,0,\N
+20e2c736-1ffc-4e31-93c6-272a173bf7bc,0,preamble,0,2445,2445,294969016326042dc633f7a7bbd5638579034595b7f25f4a48a91fb96542e1b8,nonplaceholder_unclassified,0,\N
+20e2c736-1ffc-4e31-93c6-272a173bf7bc,1,context,2453,3817,1364,2b82c589894cdb1fe5af170e6b6245f3eb4081ccd14613e059a74c5668e93805,nonplaceholder_unclassified,0,\N
+21fbf6fe-87ea-40a6-9af3-e0cfc5f07021,0,preamble,0,2016,2016,c941e3892d7db03005d9379547a219cfad43de7d43812c511c2d86c614bcd1fb,nonplaceholder_unclassified,0,\N
+21fbf6fe-87ea-40a6-9af3-e0cfc5f07021,1,context,2025,2690,665,f804a6efe926651112a4a196ece0cb8aac31ae1460769d7df9f716f7b42395e7,nonplaceholder_unclassified,0,\N
+21fbf6fe-87ea-40a6-9af3-e0cfc5f07021,2,narrative,2701,11640,8939,e6f716c53fd8a40019592f16c619bc3d4e4eb6581a2bd48ef04e2a9117a89f54,nonplaceholder_unclassified,0,\N
+21fbf6fe-87ea-40a6-9af3-e0cfc5f07021,3,visuals,11649,13443,1794,6e733576702cf43da2167088519944ddc04a7913434c4bb7ac63690d5f91aa44,nonplaceholder_unclassified,0,\N
+21fbf6fe-87ea-40a6-9af3-e0cfc5f07021,4,production,13455,14268,813,dceea848b30557bc1c5b9fd15673eac7a682337b4e0d3a21c9285f66365f4e91,nonplaceholder_unclassified,0,\N
+21fbf6fe-87ea-40a6-9af3-e0cfc5f07021,5,status,14276,15425,1149,803345668af42bf487c76526f2b91a0849e6dd88677ced69cdbe5354b85dcead,nonplaceholder_unclassified,0,\N
+21fbf6fe-87ea-40a6-9af3-e0cfc5f07021,6,resources,15436,15807,371,ce74efb9b874ed1f3d38d50d49c8deac17f1d8891b7540bbb86bcf33c27191a6,nonplaceholder_unclassified,0,\N
+21fbf6fe-87ea-40a6-9af3-e0cfc5f07021,7,notes,15814,16817,1003,f8c9fb827219a94a478af3fa22834fd1a9d28b5b05c9241213d2b29c54a2061d,nonplaceholder_unclassified,0,\N
+25580b02-567e-4f86-b135-d2441d4efaaa,0,preamble,0,4106,4106,385fb3362bbcf603f8734aa004640a667f8d579af6eaf65ef6a6cfc3654b873d,nonplaceholder_unclassified,0,\N
+26caf69d-3716-4d7b-a53f-d6e2b086d469,0,preamble,0,191,191,b473d989fd066cd45b434091161a188cb55b1f34fad1f63646d0cac1046d1b9b,nonplaceholder_unclassified,0,\N
+26caf69d-3716-4d7b-a53f-d6e2b086d469,1,narrative,202,203,1,01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b,empty,0,\N
+26caf69d-3716-4d7b-a53f-d6e2b086d469,2,context,210,958,748,7d1ee246fac0564d610cf5969b40331b3b127b185fa359d6eb5c07404df0528a,nonplaceholder_unclassified,0,\N
+26caf69d-3716-4d7b-a53f-d6e2b086d469,3,production,970,1272,302,7a14c3f5dc05617d219b10157583c1e01687f8f4a09c0d3708ab6aa02947686a,nonplaceholder_unclassified,0,\N
+26caf69d-3716-4d7b-a53f-d6e2b086d469,4,status,1280,1429,149,086ef2a66abb8498c0181a799af40acaa8d927c27b63e2ed4d60979fc197581d,nonplaceholder_unclassified,0,\N
+27a23af4-05a5-4b54-b9d3-baa60e3cea00,0,preamble,0,210,210,34bb56928c573f43837c1a0b81cccc7ea9de8e81a94e24302339cb0ca8fcfbe9,nonplaceholder_unclassified,0,\N
+27a23af4-05a5-4b54-b9d3-baa60e3cea00,1,context,219,548,329,d157879d7d46cbb46210284980f8a00d7fe1530a58e3ea3994c5a4ede717d02e,nonplaceholder_unclassified,0,\N
+27a23af4-05a5-4b54-b9d3-baa60e3cea00,2,narrative,559,1215,656,9efa057e3ebb6567be63c52c4389c6e6defef9a1689ffadf31eb81ea9df70d6e,nonplaceholder_unclassified,0,\N
+27a23af4-05a5-4b54-b9d3-baa60e3cea00,3,visuals,1224,1784,560,4e036f01f7990b1b4e89a4bb84f4450913fba38eb9392e2649f4484f89baa610,nonplaceholder_unclassified,0,\N
+27a23af4-05a5-4b54-b9d3-baa60e3cea00,4,production,1796,2850,1054,b373af3f53fe9c9f9d8887e86f4583bfeeabefcde9b02334340a511706978d5b,nonplaceholder_unclassified,0,\N
+27a23af4-05a5-4b54-b9d3-baa60e3cea00,5,resources,2861,3162,301,899b266744d62d5e4f4cb26c81a1b40c0916d8ec00bce74603ee32cb6d5c9b8b,nonplaceholder_unclassified,0,\N
+27a23af4-05a5-4b54-b9d3-baa60e3cea00,6,notes,3169,3578,409,3f0c65455f663fdffb090cb9254d47042641fc341cd7ad4ab390197e5fd78114,nonplaceholder_unclassified,0,\N
+2d66492a-39fe-4130-89eb-4705fa3fc6a0,0,preamble,0,3323,3323,a7d97beed4ee7a3522156f2baf327958b7850ba1d1d1b28b1da5918dbeb9bc4a,nonplaceholder_unclassified,0,\N
+2fd725ab-2604-4220-8cca-d332e9de53a2,0,preamble,0,8607,8607,922c357f9b8a8dde5ecf4e2e0986fafc68da46fba34da052ef101338038079e9,nonplaceholder_unclassified,0,\N
+30ad0e73-4bd4-4887-94e0-d09e81a9950d,0,preamble,0,301,301,b836070541dbf7fa46abef78bd817ff48d86374a2ad799e24f2ee46f8ad86c87,nonplaceholder_unclassified,0,\N
+30ad0e73-4bd4-4887-94e0-d09e81a9950d,1,context,310,568,258,241317b0a08970555198b5c58c0740b8becba540e466d3be20537efcc5c61846,nonplaceholder_unclassified,0,\N
+30ad0e73-4bd4-4887-94e0-d09e81a9950d,2,narrative,579,932,353,6b3e93ff2732bc9b7c1d50683175d42e918ff0fedc61a9352c2ae1588f843ca2,nonplaceholder_unclassified,0,\N
+30ad0e73-4bd4-4887-94e0-d09e81a9950d,3,visuals,941,1329,388,e70a1bc0c508a788f05ed4dca9f5f57565daa0768ad74eaab6a4c5300c72c571,nonplaceholder_unclassified,0,\N
+30ad0e73-4bd4-4887-94e0-d09e81a9950d,4,production,1341,2340,999,2e676e97203fa1b78991152f4acd3f38694e462eb96d1bf6a9722589abda2b56,nonplaceholder_unclassified,0,\N
+30ad0e73-4bd4-4887-94e0-d09e81a9950d,5,production,2351,2485,134,3b57cd13f582693ab42508aa18a9dc0bb5a24bfbed066264569e0cf8cf344b2e,nonplaceholder_unclassified,0,\N
+30ad0e73-4bd4-4887-94e0-d09e81a9950d,6,status,2493,2504,11,dd29ab50e1a7701bedfa9ca2456bc23f273a61f930e1ec0ea5718d1e89fc4325,nonplaceholder_unclassified,0,\N
+30ad0e73-4bd4-4887-94e0-d09e81a9950d,7,status,2512,2513,1,01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b,empty,0,\N
+30ad0e73-4bd4-4887-94e0-d09e81a9950d,8,production,2523,2688,165,81d7807df8847b2adbde05273b1ef0fcd724548b8ba188a1b890d3a3e327bffb,nonplaceholder_unclassified,0,\N
+30ad0e73-4bd4-4887-94e0-d09e81a9950d,9,resources,2699,2898,199,1069fd9e5313576857e22c482fe6760483f868468e3182d4835f90c97058603c,nonplaceholder_unclassified,0,\N
+30ad0e73-4bd4-4887-94e0-d09e81a9950d,10,notes,2905,3266,361,7d154b64fc06ff51409608f375b933fcfb02bd710cc43f4d6dfcd74c5eb57b7d,nonplaceholder_unclassified,0,\N
+31bb85ca-05c0-4725-82d5-bcef8e8c8ac1,0,preamble,0,96,96,4611d4f554d2cdbe186e633d4e83ab288dd4f68a96c90e5ad7f5708bcf1eeb9e,nonplaceholder_unclassified,0,\N
+31bb85ca-05c0-4725-82d5-bcef8e8c8ac1,1,context,105,393,288,e393882e0ec680800c2c79f00eb60e172846faa0d3953335a7c5b3eeef459403,nonplaceholder_unclassified,0,\N
+31bb85ca-05c0-4725-82d5-bcef8e8c8ac1,2,narrative,404,846,442,cdf9de7421db3127307e179362740d8fc2d10072917e68581a8db0a58d5e4d58,nonplaceholder_unclassified,0,\N
+31bb85ca-05c0-4725-82d5-bcef8e8c8ac1,3,visuals,855,1194,339,fde655da944a3ccbe75f2d7802d381b166f630b80e366bbf1cd26df4bd248b1e,nonplaceholder_unclassified,0,\N
+31bb85ca-05c0-4725-82d5-bcef8e8c8ac1,4,production,1206,1549,343,bd5286f64bbc7187738d664494c806559f7d782152f110cd71b3d24015d5c4b6,nonplaceholder_unclassified,0,\N
+31bb85ca-05c0-4725-82d5-bcef8e8c8ac1,5,status,1557,1776,219,8aa2056a1ca3910605c8314b1642adf98ea12113d305792dfc337bbc3dfb98a9,nonplaceholder_unclassified,0,\N
+31bb85ca-05c0-4725-82d5-bcef8e8c8ac1,6,resources,1787,2309,522,38d20765fd37f4ab27483f54dc530ba6bdf9edba62bf0c13fa82bd29676864ad,nonplaceholder_unclassified,0,\N
+31bb85ca-05c0-4725-82d5-bcef8e8c8ac1,7,notes,2316,2921,605,9966855023e310cd37febf06a4b7f1748f0c480c745cb78c67029a4e0f2eb43d,nonplaceholder_unclassified,0,\N
+323c5cce-472f-402c-9a3e-71b342ebc733,0,preamble,0,150,150,1bdf8aaa2f4e1d60d9cbbbc7393cb4068eb50cf9b112c07736cd02185e743630,nonplaceholder_unclassified,0,\N
+323c5cce-472f-402c-9a3e-71b342ebc733,1,context,158,835,677,6eb67bfea8fc32348935830270d095bdd970dca7635b9f9dad7ee53f197135a3,nonplaceholder_unclassified,0,\N
+32888a95-4d34-4eb8-9e5a-a4669d08a73d,0,preamble,0,4169,4169,bcb1277e8f089ae35ab20c4866d141764b0318854b9645864c6411b0efd84ef3,nonplaceholder_unclassified,0,\N
+32888a95-4d34-4eb8-9e5a-a4669d08a73d,1,production,4179,4630,451,b730ac279a905d98d5d4200e4c72e2bb5cdd4b62af448f36bfb6d09e8f0b0739,nonplaceholder_unclassified,0,\N
+36e181a8-c48c-4d72-a440-8d86edb177bd,0,preamble,0,6710,6710,481db932335dda060c8e33e4b5ecac063759f6f8b3e95b58f299175b451a8520,nonplaceholder_unclassified,0,\N
+3b09c7c2-3f0c-48e3-8304-fad569bf50ce,0,preamble,0,168,168,285a9cefda702e385113aa47badf6a0783cef688b5c553a5e5a5a8370a410d3c,nonplaceholder_unclassified,0,\N
+3b09c7c2-3f0c-48e3-8304-fad569bf50ce,1,context,177,540,363,30d22647dfe14cf2c12e9c1ab57f4bfae2768c4015213fd48911e8e6925b602a,nonplaceholder_unclassified,0,\N
+3b09c7c2-3f0c-48e3-8304-fad569bf50ce,2,narrative,551,969,418,473d5d824e4b4b1cfb8797f8e6501a0b9df564ec9497869855cbcfe11183ee32,nonplaceholder_unclassified,0,\N
+3b09c7c2-3f0c-48e3-8304-fad569bf50ce,3,visuals,978,1347,369,9365e046a58e428e9065925bb4fc83ef21a138e6f003d5865385fdfc5216feb1,nonplaceholder_unclassified,0,\N
+3b09c7c2-3f0c-48e3-8304-fad569bf50ce,4,production,1359,1658,299,39d07458ea082cd80942aeb32f5390b73e8d8b61150c26f9bc33e7b1cec4d698,nonplaceholder_unclassified,0,\N
+3b09c7c2-3f0c-48e3-8304-fad569bf50ce,5,status,1666,2047,381,281fbb53d805acc5b5ee65c8a8f2a3368a334fb1d65c06b425c08094e702275a,nonplaceholder_unclassified,0,\N
+3b09c7c2-3f0c-48e3-8304-fad569bf50ce,6,resources,2058,2204,146,b7f163465264d014fc80c4dfc358c694bd46f01ae2a1fcc77dde46271c9f925e,nonplaceholder_unclassified,0,\N
+3b09c7c2-3f0c-48e3-8304-fad569bf50ce,7,notes,2211,2368,157,f6075b789b1f25482a9d93db86b9ff256407070ab562ca13ace74855efeefa75,nonplaceholder_unclassified,0,\N
+3bb16914-fab6-4ad4-ab42-2ffe15c6da88,0,preamble,0,3465,3465,8b5f6b82fbde4dbdddcb995ac52ed955c9162994840223e6178f01c61be128c4,nonplaceholder_unclassified,0,\N
+3bc4590a-4ce0-4082-82bd-b37b93b7eb41,0,preamble,0,366,366,a609b3898b60bcf03727a1cb32390f7c9f000f507054752592d86c33e0c69517,nonplaceholder_unclassified,0,\N
+3bc4590a-4ce0-4082-82bd-b37b93b7eb41,1,production,378,5745,5367,5232571ce88f4a53f6fc67aa416f60ad7c79ec5665c2d5f9da6dc2c871b7d60d,nonplaceholder_unclassified,0,\N
+3c34b6c6-37f0-48b6-8ee0-e2488f6d6b55,0,preamble,0,0,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,empty,0,\N
+3c34b6c6-37f0-48b6-8ee0-e2488f6d6b55,1,context,9,447,438,209ca2effab440b4db99dc839415cd212d659582e27fab5cf29bab6c2dc8a43c,nonplaceholder_unclassified,0,\N
+3c34b6c6-37f0-48b6-8ee0-e2488f6d6b55,2,narrative,458,913,455,2e2a19737dee8c2a37d79d2ac724632ed1b1c76f521659f3f5747451c80ef4cc,nonplaceholder_unclassified,0,\N
+3c34b6c6-37f0-48b6-8ee0-e2488f6d6b55,3,visuals,922,1708,786,5b09b907721fb775a219ebfe6c3b1423ce6a26e54c20f581ef987a3dd30bde2d,nonplaceholder_unclassified,0,\N
+3c34b6c6-37f0-48b6-8ee0-e2488f6d6b55,4,production,1720,2104,384,6cbb83498ffeac010ad6412148e364bc0c1b0ba1f8666937f7f7de9974bfb98c,nonplaceholder_unclassified,0,\N
+3c34b6c6-37f0-48b6-8ee0-e2488f6d6b55,5,status,2112,2338,226,86206030db59c6a3e0ac4a0d0fa5e60bad27a4c481a296df494bdae62c8a8c7b,nonplaceholder_unclassified,0,\N
+3c34b6c6-37f0-48b6-8ee0-e2488f6d6b55,6,resources,2349,2475,126,19637bb001a5f001f9967f081c59960cff306dcef9e49f86a8992ba73ea93e59,nonplaceholder_unclassified,0,\N
+3c34b6c6-37f0-48b6-8ee0-e2488f6d6b55,7,notes,2482,2974,492,22c4a248871d20f96b0da428c776468a0a1b5d71e41b44fe5a6d55f33b472bdb,nonplaceholder_unclassified,0,\N
+3fc6b1b7-a3c5-4254-96a3-240e81408276,0,preamble,0,10870,10870,ff670404f133e806d07111ce174927cc09f2228e522a80900517cc59f7dfe731,nonplaceholder_unclassified,0,\N
+3fc6b1b7-a3c5-4254-96a3-240e81408276,1,production,10880,13203,2323,d5820887d88a595643e598f780f3d59bf39ea16824520c92b143306a5d404334,nonplaceholder_unclassified,0,\N
+3fc6b1b7-a3c5-4254-96a3-240e81408276,2,status,13209,13222,13,b86c890fd462a32c5cfab9ac4673281969ea277136875f8e9e2177ccd07e53fe,nonplaceholder_unclassified,0,\N
+3fc6b1b7-a3c5-4254-96a3-240e81408276,3,notes,13229,15372,2143,e0704eb2e1f0524cca5e665c877829cc9d59dd44d0c277bb57faa4ea93f877bf,nonplaceholder_unclassified,0,\N
+46fbfb4f-2bb9-4d6f-b830-7fd9e9cc1b2c,0,preamble,0,170,170,e6f170a04741e4ce7d99742327cf96f099b78a29a861ec61158b14e738ea1165,nonplaceholder_unclassified,0,\N
+46fbfb4f-2bb9-4d6f-b830-7fd9e9cc1b2c,1,context,179,530,351,c2d11dc8d6f7747c3926be96cb1f3b50e68b8b0dc89b33749c9921f0bca3feee,nonplaceholder_unclassified,0,\N
+46fbfb4f-2bb9-4d6f-b830-7fd9e9cc1b2c,2,visuals,539,603,64,0ee1f254f055a3f3ac4111690304709e1969eeadea6d14f925f2179e9fbfa797,template_only,1,"References, mood, color palette, and creative direction."
+46fbfb4f-2bb9-4d6f-b830-7fd9e9cc1b2c,3,production,615,780,165,ae8907decc9ae41d1da41a4f95d77c63c75e14edb729f43cf7fed3e07d79893f,nonplaceholder_unclassified,0,\N
+46fbfb4f-2bb9-4d6f-b830-7fd9e9cc1b2c,4,status,788,1055,267,05269d186c6c1fea674990579a5c8e990e2b430c240797f7cf654ace1f10abd2,nonplaceholder_unclassified,0,\N
+46fbfb4f-2bb9-4d6f-b830-7fd9e9cc1b2c,5,resources,1066,1137,71,58269cbb5320900bd7f3daa5350bce6396e1f683cf888e34541d6e0e199d9666,nonplaceholder_unclassified,0,\N
+46fbfb4f-2bb9-4d6f-b830-7fd9e9cc1b2c,6,notes,1144,1334,190,7ae1725306f2c63961fb53b37a03659e51d5f6f524833b2a66389194a6275186,nonplaceholder_unclassified,0,\N
+47e9a9d4-cff7-4494-85ae-d9039e1ac747,0,preamble,0,3001,3001,fd3a2723c4fb8f1cc3beb387cbbd0556efd4126902f44d55f6542b5b2a99d6ca,nonplaceholder_unclassified,0,\N
+47e9a9d4-cff7-4494-85ae-d9039e1ac747,1,production,3011,3432,421,955a3e42dc23c3ab2efa68858d51214565dc54e378dad54024302b4fb376f2f1,nonplaceholder_unclassified,0,\N
+47e9a9d4-cff7-4494-85ae-d9039e1ac747,2,status,3438,3465,27,5f1ffa9a1ecd4084fe580bf7ddc6b76db3ebfbf15cf96323d7fbf629588773b0,nonplaceholder_unclassified,0,\N
+47e9a9d4-cff7-4494-85ae-d9039e1ac747,3,notes,3470,4185,715,2e2b5960565526c35aa272784569519df7b6f0f87f6809cb134ed79d93e04560,nonplaceholder_unclassified,0,\N
+486fd291-a568-46d3-bbae-66b51d33a4b7,0,preamble,0,38,38,cc5673b4009cf85c509389bba127194b1018f52e988c5e948bec7d6f6e64f34a,template_only,1,Short project description goes here.
+486fd291-a568-46d3-bbae-66b51d33a4b7,1,context,47,73,26,2944863092dd2b75af1252d17d2c828f140c0e2fd05b32d06b4360f33faa6977,template_only,1,Why this project exists.
+486fd291-a568-46d3-bbae-66b51d33a4b7,2,narrative,84,115,31,91db06777c356b1d6fa1e7e8641467f96479bc2628615ef6221e22c6b95e3cac,template_only,1,"Story, message, and audience."
+486fd291-a568-46d3-bbae-66b51d33a4b7,3,visuals,124,182,58,a88bab740d70d70b0595380b503800c61ac4a2ff7333a75de4f5207ed21c1eaf,template_only,1,"References, mood, color palette, and creative direction."
+486fd291-a568-46d3-bbae-66b51d33a4b7,4,production,194,237,43,b4bb0cc5727cb28194b4e9541cd212d81f6be9de0ffc856d811b8d61c7f6024b,template_only,1,"Schedule, locations, crew, and logistics."
+486fd291-a568-46d3-bbae-66b51d33a4b7,5,status,245,290,45,ff3a5378d3489f4406b19eb056121900973298a0e68e3e330bc60054cf1541e0,template_only,1,"Current progress, blockers, and next steps."
+486fd291-a568-46d3-bbae-66b51d33a4b7,6,resources,301,355,54,66f60cc66d4896dded68a43c8defb9df692d7191694230eef2446a5335bdb538,template_only,1,"Script, moodboard, storyboard, schedule, and assets."
+486fd291-a568-46d3-bbae-66b51d33a4b7,7,notes,362,408,46,f382e2c1d4bae471baaafc2d38dc511415206c3a74816111c6bfbc45cc21cc93,template_only,1,"Key decisions, updates, and project history."
+48dc6e5f-a21d-40ed-a5a8-2427d3f6f827,0,preamble,0,1,1,01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b,empty,0,\N
+48dc6e5f-a21d-40ed-a5a8-2427d3f6f827,1,context,10,581,571,532d84fa65d2c7cf87b854d7eb1e9c8a3afa35e072601f13a13cab1e7dae3ede,nonplaceholder_unclassified,0,\N
+48dc6e5f-a21d-40ed-a5a8-2427d3f6f827,2,narrative,592,1890,1298,da4a74b2e3b54d1f1463e4b1c7e44d9e5489db52242cdadf4b94f45b2fa8f8d8,nonplaceholder_unclassified,0,\N
+48dc6e5f-a21d-40ed-a5a8-2427d3f6f827,3,visuals,1899,3027,1128,96fc6944c88e6d0766134112d9769962583002e746d765af991ffdd3af691fe9,nonplaceholder_unclassified,0,\N
+48dc6e5f-a21d-40ed-a5a8-2427d3f6f827,4,production,3039,3178,139,2a9013aca82a467aecfa9a355e76972244dcc65dda802b1acbca9729289c0fa6,nonplaceholder_unclassified,0,\N
+48dc6e5f-a21d-40ed-a5a8-2427d3f6f827,5,production,3189,4304,1115,38c7e48cb0bff9986adb6eed632a584c05582ed60ebf9b3d7f67223c2e1bf1a8,nonplaceholder_unclassified,0,\N
+48dc6e5f-a21d-40ed-a5a8-2427d3f6f827,6,status,4312,4352,40,a8e59e932d084b794e6fe2d9a71bd11056feebd4d4be7e799a65b3de3101d62d,nonplaceholder_unclassified,0,\N
+48dc6e5f-a21d-40ed-a5a8-2427d3f6f827,7,resources,4363,4417,54,66f60cc66d4896dded68a43c8defb9df692d7191694230eef2446a5335bdb538,template_only,1,"Script, moodboard, storyboard, schedule, and assets."
+48dc6e5f-a21d-40ed-a5a8-2427d3f6f827,8,notes,4424,5247,823,f4e4584651913073d31aeba1b799bce0076a86b471ffc17a5cfa28aab6f83a27,nonplaceholder_unclassified,0,\N
+519ebb27-2c78-4243-9dc4-8b94d4206fb7,0,preamble,0,271,271,9d6eb39ca01c64dd1d5cad46de889a44f3267d2d34da276f44871d4284fa31fe,nonplaceholder_unclassified,0,\N
+519ebb27-2c78-4243-9dc4-8b94d4206fb7,1,context,279,886,607,50186bce4b7fd37c510a8fb6e3fc34f89ea7f8aa145bf3c93e009aaebfef18ba,nonplaceholder_unclassified,0,\N
+519ebb27-2c78-4243-9dc4-8b94d4206fb7,2,narrative,896,2402,1506,aaa57399bcd0fbc79a9902e0d57511cafcdd354714d46cd38eeb365035220925,nonplaceholder_unclassified,0,\N
+519ebb27-2c78-4243-9dc4-8b94d4206fb7,3,visuals,2409,10505,8096,4028cdeee99982a468f94b9dc1eec428170d8ecb6ff9d856841a0f4e14199cde,nonplaceholder_unclassified,0,\N
+519ebb27-2c78-4243-9dc4-8b94d4206fb7,4,production,10517,11227,710,5ef9b9563b4cee939f3bead4b4092ce671bb5de70aee6139031bc2094c424d51,nonplaceholder_unclassified,0,\N
+519ebb27-2c78-4243-9dc4-8b94d4206fb7,5,resources,11237,11238,1,01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b,empty,0,\N
+519ebb27-2c78-4243-9dc4-8b94d4206fb7,6,visuals,11246,11549,303,0051da7d4bc94424dad6885d80b0855180b1850105349a605b750c012331cf46,nonplaceholder_unclassified,0,\N
+519ebb27-2c78-4243-9dc4-8b94d4206fb7,7,notes,11554,11897,343,b219bb07f47148087e9e22d45197117ed1c137981b291f8c3ac1601c189360c6,nonplaceholder_unclassified,0,\N
+53f9caa0-e314-43f2-8fe5-d9393e628964,0,preamble,0,1549,1549,75f288302ef4890b46578f7ee1e9f5a2b97f924f897f8b2ce1c87dbc03f2c836,nonplaceholder_unclassified,0,\N
+53f9caa0-e314-43f2-8fe5-d9393e628964,1,context,1557,1837,280,36e911090ec6a912f358cc47ba15836b5cdb3af4618f32270ff746f52b15123e,nonplaceholder_unclassified,0,\N
+53f9caa0-e314-43f2-8fe5-d9393e628964,2,narrative,1847,2928,1081,a60e20aa0b9f164ad65e382210ac5a7f7d1a5f83aaa5d6adc346fd28207feb5e,nonplaceholder_unclassified,0,\N
+53f9caa0-e314-43f2-8fe5-d9393e628964,3,production,2938,3002,64,12bc70a687ad77ae2ada5c3f39934864340f26479eda23a4f0629d7130c7bc1d,nonplaceholder_unclassified,0,\N
+53f9caa0-e314-43f2-8fe5-d9393e628964,4,production,3013,3227,214,a833bcdba6e6797cf61363f859b7d8f4d6bcb8abfd1faf462cb617f87c74ea5f,nonplaceholder_unclassified,0,\N
+53f9caa0-e314-43f2-8fe5-d9393e628964,5,status,3234,3318,84,ce24bb7477c8651871b51a34f3c13dfd5db5499e35f6fc69cc41b788c8e4cc1b,nonplaceholder_unclassified,0,\N
+53f9caa0-e314-43f2-8fe5-d9393e628964,6,resources,3328,3513,185,b10eca54487c10a61e8f7eb2a57ae7bf5dffdf970d527dfd8a0e5a694aa583a7,nonplaceholder_unclassified,0,\N
+53f9caa0-e314-43f2-8fe5-d9393e628964,7,notes,3519,3888,369,f01dba84468bbdc45b80a8ddb807e25e7f215fa0666966c97260df95446dc843,nonplaceholder_unclassified,0,\N
+58616648-50a7-4f29-9760-9f25c0495a28,0,preamble,0,693,693,33e1578981bdfe75c034424398eccea2353180b157e214a0ed3a2cb8706a4b9f,nonplaceholder_unclassified,0,\N
+58616648-50a7-4f29-9760-9f25c0495a28,1,context,702,2114,1412,c6003de580b16ec25d594231182aa2901225015270a65e4530e8364868f02600,nonplaceholder_unclassified,0,\N
+58616648-50a7-4f29-9760-9f25c0495a28,2,visuals,2123,2777,654,c5aec69082f53075aae14a78e99f08a8146a2c01a96089819977235851fec5c5,nonplaceholder_unclassified,0,\N
+5cdd3b5c-e1a3-43c9-89b6-8c1d59566c5c,0,preamble,0,4346,4346,dcd12f90c564e01e85c4f3b898011490da94ae67d222fb2fca170e391f5a8478,nonplaceholder_unclassified,0,\N
+5d813d12-324b-48e1-91eb-16c63f49b267,0,preamble,0,1594,1594,f18ed24a983bee204c6a1bcffb45a2ae91d5ae1e40c5e16074a792588bacf5d6,nonplaceholder_unclassified,0,\N
+5d813d12-324b-48e1-91eb-16c63f49b267,1,production,1604,5649,4045,fe79ec77253acce3ed5a4d632b7c62b1001a0b40ff32b48991b79ae85eff1ee7,nonplaceholder_unclassified,0,\N
+5dcae3c7-2a01-4541-b323-8a283b332eef,0,preamble,0,6445,6445,1e906ed4bd6e1cc66a4cd8ee20a8d021b1b18f536803f0b38231653331cc3346,nonplaceholder_unclassified,0,\N
+5f13c56c-34b8-4720-97ef-a6e73d22509d,0,preamble,0,542,542,45301c5221749e0110168b63a7af1f400a72d547e0d6626e57ea42b53b1dc66f,nonplaceholder_unclassified,0,\N
+5f13c56c-34b8-4720-97ef-a6e73d22509d,1,context,551,1340,789,06c9bb54e77f71f6e26d8c2b242c9829f05fc414d44804b935c1d87c76043b9a,nonplaceholder_unclassified,0,\N
+5f13c56c-34b8-4720-97ef-a6e73d22509d,2,narrative,1351,3240,1889,d1587a10a137ac81882fb2c31b56c75905f580f36015acc86066b94458536e0f,nonplaceholder_unclassified,0,\N
+5f13c56c-34b8-4720-97ef-a6e73d22509d,3,visuals,3249,5395,2146,20642d6f01695583c51e23e6696b289ff5336d6594055fb09c6e01ea48d1167a,nonplaceholder_unclassified,0,\N
+5f13c56c-34b8-4720-97ef-a6e73d22509d,4,production,5407,6831,1424,798ee03d880e71888f21b30124622e0aff90d1f80e6ed85c651a6c963d7db461,nonplaceholder_unclassified,0,\N
+5f13c56c-34b8-4720-97ef-a6e73d22509d,5,status,6839,7848,1009,7e9bab74afeabef5038b9865d9078640fe24f86a3aa7db30310a73ca6ee555ea,nonplaceholder_unclassified,0,\N
+5f95b65a-b022-44b2-96a4-fd4d8523d697,0,preamble,0,1,1,01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b,empty,0,\N
+60ed7fa2-bb39-4572-8fc9-b8afa10ac08b,0,preamble,0,233,233,0e53e912d55c40b2cb318a347668a56795bd7cdf0af27a732ae285a379159661,nonplaceholder_unclassified,0,\N
+60ed7fa2-bb39-4572-8fc9-b8afa10ac08b,1,context,240,711,471,06bd8f01550512ae6a5257b9edb6ca38037dfa7684700c4fface7fc8fc9ff1b0,nonplaceholder_unclassified,0,\N
+60ed7fa2-bb39-4572-8fc9-b8afa10ac08b,2,narrative,720,1704,984,e56b315736656a6c4749a2d44471cc8d46a773e2cd4ec3237aabc90d391f75c0,nonplaceholder_unclassified,0,\N
+60ed7fa2-bb39-4572-8fc9-b8afa10ac08b,3,production,1715,2186,471,74603a5e659dac1245673dcc7b9469ee72fb1b740c8b407ee83d7e0aa817a02a,nonplaceholder_unclassified,0,\N
+655325cc-46d9-4b0b-b03d-d177defa4b3f,0,preamble,0,123,123,b87f3cd29a154b440e466da85f6b3f5d786e4a5a37b3c20c4cb07a36bfd11dd8,nonplaceholder_unclassified,0,\N
+655325cc-46d9-4b0b-b03d-d177defa4b3f,1,context,132,1201,1069,709f4b8c9f9c2440fd6ae1aef194302504f3e2660765972ecef3ddc8b58ad245,nonplaceholder_unclassified,0,\N
+655325cc-46d9-4b0b-b03d-d177defa4b3f,2,narrative,1212,1243,31,91db06777c356b1d6fa1e7e8641467f96479bc2628615ef6221e22c6b95e3cac,template_only,1,"Story, message, and audience."
+655325cc-46d9-4b0b-b03d-d177defa4b3f,3,visuals,1252,1310,58,a88bab740d70d70b0595380b503800c61ac4a2ff7333a75de4f5207ed21c1eaf,template_only,1,"References, mood, color palette, and creative direction."
+655325cc-46d9-4b0b-b03d-d177defa4b3f,4,production,1322,1365,43,b4bb0cc5727cb28194b4e9541cd212d81f6be9de0ffc856d811b8d61c7f6024b,template_only,1,"Schedule, locations, crew, and logistics."
+655325cc-46d9-4b0b-b03d-d177defa4b3f,5,status,1373,1418,45,ff3a5378d3489f4406b19eb056121900973298a0e68e3e330bc60054cf1541e0,template_only,1,"Current progress, blockers, and next steps."
+655325cc-46d9-4b0b-b03d-d177defa4b3f,6,resources,1429,1483,54,66f60cc66d4896dded68a43c8defb9df692d7191694230eef2446a5335bdb538,template_only,1,"Script, moodboard, storyboard, schedule, and assets."
+655325cc-46d9-4b0b-b03d-d177defa4b3f,7,notes,1490,1536,46,f382e2c1d4bae471baaafc2d38dc511415206c3a74816111c6bfbc45cc21cc93,template_only,1,"Key decisions, updates, and project history."
+657e61f4-557d-45d7-8f9b-4db0d253cb99,0,preamble,0,38,38,cc5673b4009cf85c509389bba127194b1018f52e988c5e948bec7d6f6e64f34a,template_only,1,Short project description goes here.
+657e61f4-557d-45d7-8f9b-4db0d253cb99,1,context,47,413,366,7c2c59591ded9d76782690908a072d3f91ed40a6db02530652f2235836eac2c5,nonplaceholder_unclassified,0,\N
+657e61f4-557d-45d7-8f9b-4db0d253cb99,2,narrative,424,1291,867,8e2e618aec8c9519dc30fbaf779652283e13c9e80fc0ddc09220a43ffa8fb7fb,nonplaceholder_unclassified,0,\N
+657e61f4-557d-45d7-8f9b-4db0d253cb99,3,visuals,1300,1924,624,9605b9d054f7c04001e1dfa6da847f8391d4b6251b469d8584f4b96735f3d78d,nonplaceholder_unclassified,0,\N
+657e61f4-557d-45d7-8f9b-4db0d253cb99,4,production,1936,2711,775,5f9c8e19661483df11eae9cbc51ca345584ee54074fce7e57c2aa344affe3a1c,nonplaceholder_unclassified,0,\N
+657e61f4-557d-45d7-8f9b-4db0d253cb99,5,status,2719,3122,403,7857d3b87fdd1fff54f27d2196a57c63816521c67a6e27a191eafe1014897f18,nonplaceholder_unclassified,0,\N
+657e61f4-557d-45d7-8f9b-4db0d253cb99,6,resources,3133,3470,337,38c8c2f9bd0e5ed2c9cd8f8bc9e0c2359e108d50c6b9b7bebe0b21d0624cb815,nonplaceholder_unclassified,0,\N
+657e61f4-557d-45d7-8f9b-4db0d253cb99,7,notes,3477,3884,407,1da9f426b6538ec7aed42a8c2834c2fc861aa9a3fdf409673d31984c9ce33170,nonplaceholder_unclassified,0,\N
+662a8f2b-29a8-47bd-9ba8-775fa052e768,0,preamble,0,5546,5546,78403c3396e5628a6f938bcec31dd064f27d2ddcc7dd93944992fae54d15bdaf,nonplaceholder_unclassified,0,\N
+6659c520-c88e-4ac7-a2c9-f28d8a40c954,0,preamble,0,910,910,bc43e57226ccd70d5a824d635100d9fa9da1ea6c0310d883105ef72f7e3d1002,nonplaceholder_unclassified,0,\N
+6659c520-c88e-4ac7-a2c9-f28d8a40c954,1,production,920,1224,304,449e396437eaf1b4e05c9b2605e5cb0054639a91612ddb4ad37611eb2ac042e3,nonplaceholder_unclassified,0,\N
+6794658d-9488-48de-b055-9841a0d456c6,0,preamble,0,7971,7971,1c21f9d2c95187f9c37d5a54e0ee01e13fd83776dd687ea7ae26ed27f389fcfc,nonplaceholder_unclassified,0,\N
+6d649261-da36-420b-b472-db5b03f36202,0,preamble,0,108,108,c5a3c2fb508f571bb9d0c6276d7bf85a3f331f72545319e69f07b0cbc6e6854e,nonplaceholder_unclassified,0,\N
+6d649261-da36-420b-b472-db5b03f36202,1,context,117,421,304,e9d20350595c5ea111edd0717cbb5d43dcb4b08c1a6dd30a1b12f91d352309a4,nonplaceholder_unclassified,0,\N
+6d649261-da36-420b-b472-db5b03f36202,2,narrative,432,987,555,b7a028f380fc5a3086ee8fbc48c43f013d1e23e9930433f8c9985b172a3d7564,nonplaceholder_unclassified,0,\N
+6d649261-da36-420b-b472-db5b03f36202,3,visuals,996,1916,920,f55e7c265eaf13de6c19eddc81d6fd5b7ebb77b355c360c913a3a90129ad7a4e,nonplaceholder_unclassified,0,\N
+6d649261-da36-420b-b472-db5b03f36202,4,production,1928,2228,300,8566804a6f34474508e260615988ffdce998308c82fad08dd4909538c6bbf98d,nonplaceholder_unclassified,0,\N
+6d649261-da36-420b-b472-db5b03f36202,5,status,2236,2451,215,05b4c90723826d8520cdf698601ab505540281feae5257d01183664dc773b40e,nonplaceholder_unclassified,0,\N
+6d649261-da36-420b-b472-db5b03f36202,6,resources,2462,2806,344,3c764a2f24db8ec18c382994f6433329f0c40b8b6be475ef1e31211594c1355a,nonplaceholder_unclassified,0,\N
+6d649261-da36-420b-b472-db5b03f36202,7,notes,2813,2916,103,ef87577011f2acf65e6472c0b6d0edd1925777ce8a06e6e2d2fb942b2dbfadcf,nonplaceholder_unclassified,0,\N
+6f864bbd-4be8-4ea4-af35-4e6660c91484,0,preamble,0,149,149,073c3df8a5657d4ff700bea7694cc76cf99a17c6a5de4c15dc2ca52b638c727a,nonplaceholder_unclassified,0,\N
+6f864bbd-4be8-4ea4-af35-4e6660c91484,1,context,158,1163,1005,c57eec078293f5ecf476f9b053fc092025df83c97c47f015a3d03f12ed5b0196,nonplaceholder_unclassified,0,\N
+6f864bbd-4be8-4ea4-af35-4e6660c91484,2,narrative,1174,8608,7434,a7b3b7661b9f3ebe3ce85284b6c671dbe2b06a7b34c8c9ad21913ad5a4d6d531,nonplaceholder_unclassified,0,\N
+72a2098e-fede-4848-952a-5507d5302fe8,0,preamble,0,6961,6961,75f083e35b46302d7a1ceac947a416cc36fed65d38db4879b108273c0d9618d0,nonplaceholder_unclassified,0,\N
+72a44fa3-40c4-45ce-9bd9-1d9b0446f8ae,0,preamble,0,38,38,cc5673b4009cf85c509389bba127194b1018f52e988c5e948bec7d6f6e64f34a,template_only,1,Short project description goes here.
+72a44fa3-40c4-45ce-9bd9-1d9b0446f8ae,1,context,47,205,158,8ad8915e069a8b76bac6fa4d13b58756144ff6a2284570b3cde7894a11c3f98a,nonplaceholder_unclassified,0,\N
+72a44fa3-40c4-45ce-9bd9-1d9b0446f8ae,2,narrative,216,4523,4307,671f0cfe98e16bfb05fd6dbf00daac0f51b02ef8f824747c9433e8d47808edcc,nonplaceholder_unclassified,0,\N
+72a44fa3-40c4-45ce-9bd9-1d9b0446f8ae,3,visuals,4532,6779,2247,d55c0c85edde2a6e1df892294b84b194f2f09fd80f882f9b6c72cc7eb8136a2c,mixed_candidate,1,"References, mood, color palette, and creative direction."
+72a44fa3-40c4-45ce-9bd9-1d9b0446f8ae,4,production,6791,8261,1470,05c389bdad40b4b022113d5641654b31aedadba926f5711e27d94bbb910d9c56,nonplaceholder_unclassified,0,\N
+72a44fa3-40c4-45ce-9bd9-1d9b0446f8ae,5,status,8269,8287,18,04b867197eda5f4a8119f6866cc35d67c0558e53bf0692f6dc64f6686505b146,nonplaceholder_unclassified,0,\N
+72a44fa3-40c4-45ce-9bd9-1d9b0446f8ae,6,resources,8298,8352,54,66f60cc66d4896dded68a43c8defb9df692d7191694230eef2446a5335bdb538,template_only,1,"Script, moodboard, storyboard, schedule, and assets."
+72a44fa3-40c4-45ce-9bd9-1d9b0446f8ae,7,notes,8359,8405,46,f382e2c1d4bae471baaafc2d38dc511415206c3a74816111c6bfbc45cc21cc93,template_only,1,"Key decisions, updates, and project history."
+795fac63-d9d8-4bc9-808d-8e4da8b72a77,0,preamble,0,115,115,7ec00a0387c881324b81829c09275942792a557950addb3a5466a777af848d8f,nonplaceholder_unclassified,0,\N
+795fac63-d9d8-4bc9-808d-8e4da8b72a77,1,narrative,126,1970,1844,583178dc1cd0905f8050023168eaa271f8efc555bb1e8e66b47582cb1c1f5071,nonplaceholder_unclassified,0,\N
+795fac63-d9d8-4bc9-808d-8e4da8b72a77,2,production,1982,2135,153,4f00f4a59e629c0cee53e8bb7680896c5a21bff3afcb1802da6fccd8595a0f7f,nonplaceholder_unclassified,0,\N
+7a800daa-72e4-4e08-8f87-7a7f57cdbcee,0,preamble,0,4414,4414,f8984d018bd921faa28aff7d6ab621b7d492f7483b5762b36a05cd6a21fea44e,nonplaceholder_unclassified,0,\N
+7c65f746-1bd0-48a9-adfb-f944d1529192,0,preamble,0,1159,1159,0ea6a979ab96d14832da1e74312073b3932f81815ad31707507137ed444bf7e5,nonplaceholder_unclassified,0,\N
+80b66780-ce19-415e-93c7-209b09960f59,0,preamble,0,72,72,11d5d11c6db7ba78953453ea5dcae6c10a5fad4ea1ce593a94cf18dead8933a9,nonplaceholder_unclassified,0,\N
+80b66780-ce19-415e-93c7-209b09960f59,1,context,81,388,307,0627e6e126675c4241e23c987f58b36cef71cdd4f9af3dba17e1e26822fe5d16,nonplaceholder_unclassified,0,\N
+80b66780-ce19-415e-93c7-209b09960f59,2,narrative,399,1080,681,d98840c21e97e10f16a5be062aa73aac1976852a18d306b865cb186dc1cdb208,nonplaceholder_unclassified,0,\N
+80b66780-ce19-415e-93c7-209b09960f59,3,visuals,1089,2012,923,96ac3ff9188b94ee440fba73a663eaf63349efcc19d858eabc8c3e6ea40692d1,nonplaceholder_unclassified,0,\N
+82500250-58dc-4a4b-b412-de8bd5d9ab07,0,preamble,0,5066,5066,e8824531b04d078381b71125913dc2bd3140e0c82852f99733d72c544bf62f05,nonplaceholder_unclassified,0,\N
+88b9edf3-0d4e-4d90-8cd8-26aa6a28a220,0,preamble,0,2,2,75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070,empty,0,\N
+899a696e-34f0-454c-9cfe-d448488141be,0,preamble,0,421,421,ace3036566bcc533e2e588352a81bc8e326daa92088da039c26bd4a2ca4d6006,nonplaceholder_unclassified,0,\N
+899a696e-34f0-454c-9cfe-d448488141be,1,context,430,1476,1046,cb778431e481fd27b6404d780ee60604112f04db0ed3f85edafb1fa20446e24a,nonplaceholder_unclassified,0,\N
+899a696e-34f0-454c-9cfe-d448488141be,2,narrative,1487,4196,2709,2fd734955ebe330a97b40e75a2aec4b9b0adb060c7d371de20dd2b544a247225,nonplaceholder_unclassified,0,\N
+899a696e-34f0-454c-9cfe-d448488141be,3,visuals,4205,9738,5533,81e617a24b3af8241fd202b2a343772f0ae514ca30fa1a35b77afb0df7e1a5da,nonplaceholder_unclassified,0,\N
+899a696e-34f0-454c-9cfe-d448488141be,4,production,9750,12282,2532,ab1cac509c2a33f56b115a735c2c471ae979865d2b3c8c224b80dfb8f9b311c0,nonplaceholder_unclassified,0,\N
+899a696e-34f0-454c-9cfe-d448488141be,5,status,12290,15082,2792,9830f15a00f67962497935550aa9ba3561c458c92cb26b8c7440f269879e05d7,nonplaceholder_unclassified,0,\N
+899a696e-34f0-454c-9cfe-d448488141be,6,resources,15093,16415,1322,4794171d5e72a3501dc5c0ec118f3b51e57205df7d306facf44f4b834028e925,nonplaceholder_unclassified,0,\N
+899a696e-34f0-454c-9cfe-d448488141be,7,notes,16422,17383,961,55fcde29509659df4b32bb21a03d620568ba7b5a16a2f2b416a22722b2144e62,nonplaceholder_unclassified,0,\N
+8be824db-5666-42e7-903d-330f9703140c,0,preamble,0,2563,2563,a7b7e8ef0629e550fed9fd97ac081ea05cabc734eca99d828760520e0045254f,nonplaceholder_unclassified,0,\N
+8ce839db-375f-4507-a412-cc01bf033b68,0,preamble,0,411,411,830dea14b0c32fa50f803b1b77665c05adb4331c391979c49d93fbcdf215c2e4,nonplaceholder_unclassified,0,\N
+8ce839db-375f-4507-a412-cc01bf033b68,1,context,420,1108,688,73fcd5ff985dac4fadf029328b8973a84a943e4e552d2f909e2225b2f0a8e869,nonplaceholder_unclassified,0,\N
+8ce839db-375f-4507-a412-cc01bf033b68,2,narrative,1119,3432,2313,bfc82e1ebd7754f171829de3b4abf1f04b85c8b3a9ddcf1a1556427ae29a6d9b,nonplaceholder_unclassified,0,\N
+8d493b20-b91d-437a-94d3-1fb7deb455fc,0,preamble,0,139,139,24ebdbbe163f42235f6adde53402f35345e9cd5899a0df199529bbd7004c90a7,nonplaceholder_unclassified,0,\N
+8d493b20-b91d-437a-94d3-1fb7deb455fc,1,context,148,639,491,70fd4882ffa531038b3fbbd1981c88f0ea4031113b89cb543021f4600ff6fc1f,nonplaceholder_unclassified,0,\N
+8d493b20-b91d-437a-94d3-1fb7deb455fc,2,narrative,650,1588,938,0041a957be2889c7c2bf7dd013e15cb3fc8c8f458e6422229462164094d2f8ea,nonplaceholder_unclassified,0,\N
+8d493b20-b91d-437a-94d3-1fb7deb455fc,3,visuals,1597,2444,847,ceb70c3bfa668e9e147bedb8fbb94bffc939883c25c05180deb5d12482dc353f,nonplaceholder_unclassified,0,\N
+8d493b20-b91d-437a-94d3-1fb7deb455fc,4,production,2456,3173,717,13623307ec83e35ad17ebaa24cf235a8a88156dbb91d2c440d9b731f20e7e71a,nonplaceholder_unclassified,0,\N
+8d493b20-b91d-437a-94d3-1fb7deb455fc,5,status,3181,3468,287,768af958b74611b047dd8a8e0e75c9796ab4c84c12f964e6ac17b79880461e4f,nonplaceholder_unclassified,0,\N
+8d493b20-b91d-437a-94d3-1fb7deb455fc,6,resources,3479,3632,153,0d2c2464cc8cbbd52ac2ab811e6bdddcd13e15bf3cea52dc9ac888271ba2e9ee,nonplaceholder_unclassified,0,\N
+8d493b20-b91d-437a-94d3-1fb7deb455fc,7,notes,3639,4261,622,1a60de381d069c9c118e4f74a4847a3926fd8218c06bc459770d516e87720cc3,nonplaceholder_unclassified,0,\N
+8fe2f335-1670-438e-8880-11f86fbccce8,0,preamble,0,4047,4047,b68eea6a0bb65134ad1a3f8a10f4f4eba19d2a546e1141397b808bc864df364c,nonplaceholder_unclassified,0,\N
+8fe2f335-1670-438e-8880-11f86fbccce8,1,production,4057,4308,251,5cff2f23e3021374c3680218627b308b9bec261ddb2b9054428d95f34aa2b98f,nonplaceholder_unclassified,0,\N
+9053a6a2-1c47-42ce-9181-1c94d676e2e1,0,preamble,0,122,122,3e6a4531fd714eac4a953188a5c2633217ba9d3cc067c159b96e04d4f098d249,nonplaceholder_unclassified,0,\N
+9053a6a2-1c47-42ce-9181-1c94d676e2e1,1,context,131,951,820,55dfd47fa5ec1178ce06bb7c9e2573e7a6e5e7abc76ab9cfb4d5fdb0848f9f53,nonplaceholder_unclassified,0,\N
+9946cb19-5b9b-4238-866e-5a954264290e,0,preamble,0,239,239,ae5e421816a9d7cf351ff4c50f81bb63ab685e42965e71c8cc68ea62aef67a79,nonplaceholder_unclassified,0,\N
+9946cb19-5b9b-4238-866e-5a954264290e,1,context,248,626,378,26646d8ed753ebd7e090188163c85f40f38db163280938d67fad7bfab852d873,nonplaceholder_unclassified,0,\N
+9946cb19-5b9b-4238-866e-5a954264290e,2,narrative,637,1384,747,44ce24a8c6c4f902eef24bb73d1f6ec0c65ab9959ac4ad33ce6e9f47783cb408,nonplaceholder_unclassified,0,\N
+9946cb19-5b9b-4238-866e-5a954264290e,3,visuals,1393,3975,2582,34a04c2cb5c0b26bdc5ddb69a57019dab51e4a8724c95cd58e456dbafd672244,nonplaceholder_unclassified,0,\N
+9946cb19-5b9b-4238-866e-5a954264290e,4,production,3987,4791,804,6e999b5393d4bcee01805f6e7a889ded070b7f61daf58b8653b4ee989d4bb0bc,nonplaceholder_unclassified,0,\N
+9946cb19-5b9b-4238-866e-5a954264290e,5,status,4799,5606,807,ab0f7195e33d1f5ba286c8da66c44ee02c4774566658f85faa977a080e388f54,nonplaceholder_unclassified,0,\N
+9946cb19-5b9b-4238-866e-5a954264290e,6,resources,5617,6023,406,6df7ae82955d0eb381b8cead6b0487df4a6a7c26cad599a66dd037874f7ff658,nonplaceholder_unclassified,0,\N
+9946cb19-5b9b-4238-866e-5a954264290e,7,notes,6030,7611,1581,cb7ce413f4b1e5254707073a835107b4f9875fbfce96f7ca773a47084764b6f9,nonplaceholder_unclassified,0,\N
+9b38b885-bf92-484e-8f36-a890e4e10d61,0,preamble,0,1497,1497,a5fa9b480dee3eaf2ef11c0d4791096d4a1a2c9d70f66869baa534ce1729222b,nonplaceholder_unclassified,0,\N
+9b38b885-bf92-484e-8f36-a890e4e10d61,1,context,1506,5153,3647,72b2e7cfe9a32f22017a150fce993be7da6e5cadf68625e01b74646ef446f3a1,nonplaceholder_unclassified,0,\N
+9b38b885-bf92-484e-8f36-a890e4e10d61,2,narrative,5164,5984,820,3e8764e746aa360ae5c52e500327ac320f569a9e0662382c8fc5a7d17704707b,nonplaceholder_unclassified,0,\N
+9b38b885-bf92-484e-8f36-a890e4e10d61,3,visuals,5993,8178,2185,0097d67de45e9a6ed434de22e57f69c132d639b5adcb7a98de4b6d0a24927f59,nonplaceholder_unclassified,0,\N
+9b38b885-bf92-484e-8f36-a890e4e10d61,4,production,8190,9286,1096,46cce65b2bfb47d8d72279ef9fe6f2bfa27152b5b4a7647df5fcf88c4019c148,nonplaceholder_unclassified,0,\N
+9b38b885-bf92-484e-8f36-a890e4e10d61,5,status,9294,9946,652,a7670a341ad3d9fd434f43421aa33c0e73dbf2c43e9f7c2109db30ec4d4ea11b,nonplaceholder_unclassified,0,\N
+9b38b885-bf92-484e-8f36-a890e4e10d61,6,resources,9957,11184,1227,2e61d57c61777a441a94019373f43ce3c1cb532cbe37566c50b02a8ba2acf4ef,nonplaceholder_unclassified,0,\N
+9b38b885-bf92-484e-8f36-a890e4e10d61,7,notes,11192,13626,2434,1ebc3417089ed3fbb603828a3c33c371c849b89cdbd5b0891185af3c03816b99,nonplaceholder_unclassified,0,\N
+9b87d159-6f5d-4624-a652-e073754ccd46,0,preamble,0,175,175,d11cc7473fd237a8d1f9d7d9d304b10709bdc0f0fc29ed2bab76d6f8a6201200,nonplaceholder_unclassified,0,\N
+9b87d159-6f5d-4624-a652-e073754ccd46,1,context,184,1416,1232,109ba53cd302d0eb7a81d5751bc3b7d70c8be2a070a2d76fd70191bde7a6e3b1,nonplaceholder_unclassified,0,\N
+9b87d159-6f5d-4624-a652-e073754ccd46,2,narrative,1427,3390,1963,47f431ed16abd54a4dfcc641c6d3f3692c0dd4eddb6402229837ca67e96d0480,nonplaceholder_unclassified,0,\N
+9b87d159-6f5d-4624-a652-e073754ccd46,3,visuals,3399,5114,1715,00f955e54a52ba6b1e76895b03fc09ac859dc4c33718fba5dc5009a7f71bfebd,nonplaceholder_unclassified,0,\N
+9b87d159-6f5d-4624-a652-e073754ccd46,4,production,5126,6168,1042,d879e5aa7b08af566fe74175177921d88e45018b689dd9a70bec2dcb432e7032,nonplaceholder_unclassified,0,\N
+9b87d159-6f5d-4624-a652-e073754ccd46,5,status,6176,9463,3287,4db6448b1199b88b35cf6ecc05d093091a0cc9d9412d0fc19bd442cefcb2c7d5,nonplaceholder_unclassified,0,\N
+9b87d159-6f5d-4624-a652-e073754ccd46,6,resources,9474,10069,595,246704b96e7370474628221e09a377db4ba30e26f4af102678238c21eab119a1,nonplaceholder_unclassified,0,\N
+9b87d159-6f5d-4624-a652-e073754ccd46,7,notes,10076,11668,1592,f609b5894a51ed32deec58cfd5c9ea11bfe1ba8aca557f8e3bab10d23569f6dd,nonplaceholder_unclassified,0,\N
+a00ee314-bd2e-4c07-9aa0-a51fd32fc8c9,0,preamble,0,495,495,83b9247d59d217f0cf0e5a8f40d41eb9e6b46c168df571fed7f988a3134285ae,nonplaceholder_unclassified,0,\N
+a00ee314-bd2e-4c07-9aa0-a51fd32fc8c9,1,context,504,913,409,82f02d7626b3c6fb1b72754db2b5e8e5a6e5f6da1dd6afe03f68eee8bfeae116,nonplaceholder_unclassified,0,\N
+a00ee314-bd2e-4c07-9aa0-a51fd32fc8c9,2,narrative,924,1887,963,443e211d745175759c79621077223fee0a850d6299df530addd7563b88e41079,nonplaceholder_unclassified,0,\N
+a00ee314-bd2e-4c07-9aa0-a51fd32fc8c9,3,visuals,1896,2798,902,c40645cb1513fa3c0669122a1d3dc063a6dd907ffacaf9218b9e30115b240e8e,nonplaceholder_unclassified,0,\N
+a00ee314-bd2e-4c07-9aa0-a51fd32fc8c9,4,production,2810,3956,1146,fee7b2f9cf31225c412a0154ee26383c8925f213e827f304a00205141a5fd813,nonplaceholder_unclassified,0,\N
+a00ee314-bd2e-4c07-9aa0-a51fd32fc8c9,5,production,3968,4175,207,1812b147ee2450dc62e61b904ffeb93a39a303ff1e3107bbff28b0131f13920e,nonplaceholder_unclassified,0,\N
+a00ee314-bd2e-4c07-9aa0-a51fd32fc8c9,6,status,4183,4530,347,2aa85b60173ea82fca8d773006935e327cc528ad219bd0436c6efa25ad27ca6f,nonplaceholder_unclassified,0,\N
+a00ee314-bd2e-4c07-9aa0-a51fd32fc8c9,7,resources,4541,4598,57,0933902b6e50a2cea1b1c5121b777d37cbe841841223bbdf434f99d4c3b74b32,template_only,1,"Script, moodboard, storyboard, schedule, and assets."
+a00ee314-bd2e-4c07-9aa0-a51fd32fc8c9,8,notes,4605,4654,49,93cf7d07659eb7bde75791abcb8c9dfc2be7371360919e1bff61daa489480fbb,mixed_candidate,1,"Key decisions, updates, and project history."
+a1b5e184-d59a-4967-a1cb-f90681b1247e,0,preamble,0,2673,2673,6abcccbfcd2a5956ce5e2b6028927fb61383f7ec7e68a69aad9f7859bc1ea102,nonplaceholder_unclassified,0,\N
+a1b5e184-d59a-4967-a1cb-f90681b1247e,1,context,2682,3117,435,3a4608e155a753803fd228ce20af26cf1f76f8df5068a6dd55c7698dbd21ce6d,nonplaceholder_unclassified,0,\N
+a1b5e184-d59a-4967-a1cb-f90681b1247e,2,narrative,3128,5572,2444,0f87352e7b972f21253f97bd66c23a3bc8a51f1dce7f4b82aa953cf56af99523,nonplaceholder_unclassified,0,\N
+a1b5e184-d59a-4967-a1cb-f90681b1247e,3,visuals,5581,5969,388,3605f1f98c9d230db709307acf26b79ea5c7394d23a37ee2adacb7bb94cbc090,nonplaceholder_unclassified,0,\N
+a1b5e184-d59a-4967-a1cb-f90681b1247e,4,production,5981,6329,348,43283311d4b542f486067391b4094ab47788f9374df148fb21609b27f64fa452,nonplaceholder_unclassified,0,\N
+a1b5e184-d59a-4967-a1cb-f90681b1247e,5,resources,6340,6938,598,ca8e1c0ae91564ee6365658f6efb0cf057d7074926894ab4a6eb934ab38c2c76,nonplaceholder_unclassified,0,\N
+a1b5e184-d59a-4967-a1cb-f90681b1247e,6,notes,6945,7425,480,c78825c8f375de2c49bf8dad33382e0c1b5f2b2eb2306d397db7a578afe21888,nonplaceholder_unclassified,0,\N
+a2540bc3-922c-40c3-b4ad-43d51054f500,0,preamble,0,657,657,b2195c9fc35accd1ad9cdf3e954ab564e56e68ccb232082fd7cb07b555996798,nonplaceholder_unclassified,0,\N
+a5477174-134b-411d-93f3-d2743cc3300f,0,preamble,0,271,271,cae11e696b30283010ed174d3dd4301e5990723b8c26ba0eb4022e67f2f944cf,nonplaceholder_unclassified,0,\N
+a5477174-134b-411d-93f3-d2743cc3300f,1,context,280,617,337,ab7c13e63da2bc8b7606dcce5e78a292c6a1bce02686b5c7801ed40b338216ee,nonplaceholder_unclassified,0,\N
+a5477174-134b-411d-93f3-d2743cc3300f,2,narrative,628,1742,1114,ba040bb5b611aba383c18630bc8101ce5afc81c21f21140d42e21ca41f7ddcae,nonplaceholder_unclassified,0,\N
+a5477174-134b-411d-93f3-d2743cc3300f,3,visuals,1751,2913,1162,c07543cb9ccf8c2051924d2063ddd88db96dd704b416b51ca8a9882c1df921ce,nonplaceholder_unclassified,0,\N
+a5477174-134b-411d-93f3-d2743cc3300f,4,production,2925,4073,1148,830062f71bf8ce8b5cf405f6b8b13774c9be961bba346767701a6b6a3e86d309,nonplaceholder_unclassified,0,\N
+a5477174-134b-411d-93f3-d2743cc3300f,5,status,4081,4093,12,215d308b7a61cbeff7dbef80cd760d0b7678d33acd4dc7ba927c256f01438f49,nonplaceholder_unclassified,0,\N
+a5477174-134b-411d-93f3-d2743cc3300f,6,resources,4104,4105,1,01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b,empty,0,\N
+a5477174-134b-411d-93f3-d2743cc3300f,7,production,4116,4155,39,b15c6816f8826241af2fc6b226068bad7dde9aebab831ddf887a668a9d73c90b,nonplaceholder_unclassified,0,\N
+a8377730-f612-4bb5-a85f-0cdc43aa6aa2,0,preamble,0,10631,10631,39bdff9c39b16640f3e27274287336accd642ea92b7246189feebf76a4d0f145,nonplaceholder_unclassified,0,\N
+a8377730-f612-4bb5-a85f-0cdc43aa6aa2,1,production,10642,12446,1804,51419d75ce667e1c2010e3b8729979b777e7f6fa3d2963fda7643cfc7bf0891d,nonplaceholder_unclassified,0,\N
+a8aacfd6-7b06-4879-ac7c-7341af81a4c7,0,preamble,0,45,45,aff4890f227183558367daf4d4be628a2e3a932b574f44631f0e645f5d791497,nonplaceholder_unclassified,0,\N
+a8aacfd6-7b06-4879-ac7c-7341af81a4c7,1,context,54,891,837,7b340ff7d664fc0ab880a8c735150e5b86c9e1c225f431b104878461bb14c50e,nonplaceholder_unclassified,0,\N
+a8aacfd6-7b06-4879-ac7c-7341af81a4c7,2,narrative,902,1519,617,6e32ad32ab2d6ae06ed6f1cdeacb1f34d1c4230c6b49eed14f5f4ae21312c961,nonplaceholder_unclassified,0,\N
+a8aacfd6-7b06-4879-ac7c-7341af81a4c7,3,production,1531,2791,1260,ca297ece6923da661395077bd768bb0987fdc2db5b54913f9e00bf7f9f21dd6b,nonplaceholder_unclassified,0,\N
+a8aacfd6-7b06-4879-ac7c-7341af81a4c7,4,status,2799,3451,652,d2f4f02df4b5e32757291d17c3d57ac64a718135bb9d83971fd1eb9f4756a42f,nonplaceholder_unclassified,0,\N
+a9af6349-353a-4c59-9d21-1553516fa5f6,0,preamble,0,38,38,cc5673b4009cf85c509389bba127194b1018f52e988c5e948bec7d6f6e64f34a,template_only,1,Short project description goes here.
+a9af6349-353a-4c59-9d21-1553516fa5f6,1,context,47,73,26,2944863092dd2b75af1252d17d2c828f140c0e2fd05b32d06b4360f33faa6977,template_only,1,Why this project exists.
+a9af6349-353a-4c59-9d21-1553516fa5f6,2,narrative,84,115,31,91db06777c356b1d6fa1e7e8641467f96479bc2628615ef6221e22c6b95e3cac,template_only,1,"Story, message, and audience."
+a9af6349-353a-4c59-9d21-1553516fa5f6,3,visuals,124,181,57,4f6884a7e90e9a28dba4c3b8a76af618b2bf60c9cb81ca695d8268133c458df9,template_only,1,"References, mood, color palette, and creative direction."
+a9af6349-353a-4c59-9d21-1553516fa5f6,4,production,193,236,43,b4bb0cc5727cb28194b4e9541cd212d81f6be9de0ffc856d811b8d61c7f6024b,template_only,1,"Schedule, locations, crew, and logistics."
+a9af6349-353a-4c59-9d21-1553516fa5f6,5,status,244,289,45,ff3a5378d3489f4406b19eb056121900973298a0e68e3e330bc60054cf1541e0,template_only,1,"Current progress, blockers, and next steps."
+a9af6349-353a-4c59-9d21-1553516fa5f6,6,resources,300,354,54,66f60cc66d4896dded68a43c8defb9df692d7191694230eef2446a5335bdb538,template_only,1,"Script, moodboard, storyboard, schedule, and assets."
+a9af6349-353a-4c59-9d21-1553516fa5f6,7,notes,361,407,46,f382e2c1d4bae471baaafc2d38dc511415206c3a74816111c6bfbc45cc21cc93,template_only,1,"Key decisions, updates, and project history."
+ad017601-3952-4631-82a0-3ae4b8d6dbc6,0,preamble,0,265,265,43815ee75e800e90ecbb84f30ae2ede7f53288912e0c8a08ae56462c4fb99596,nonplaceholder_unclassified,0,\N
+ad017601-3952-4631-82a0-3ae4b8d6dbc6,1,context,274,623,349,73be8031a4535975bd8799634b7f7b63f1d56597de1652012f6999dc3d0c4899,nonplaceholder_unclassified,0,\N
+ad017601-3952-4631-82a0-3ae4b8d6dbc6,2,narrative,634,1366,732,cd09e6f47cb07788a5f8a6520de22ed4dec43523a0511d1cedd17168a21b0ef9,nonplaceholder_unclassified,0,\N
+ad017601-3952-4631-82a0-3ae4b8d6dbc6,3,visuals,1375,3240,1865,05f3a7e55baff9eb81c2295e4478e66e573eef111ee2d78697aa2000be4ff557,mixed_candidate,1,"References, mood, color palette, and creative direction."
+ad017601-3952-4631-82a0-3ae4b8d6dbc6,4,production,3252,3479,227,0a578a1b3038b56ad128d5012625f863398d69dcb0f73f9c4287b2e0a4ddeaa0,mixed_candidate,1,"Schedule, locations, crew, and logistics."
+ad017601-3952-4631-82a0-3ae4b8d6dbc6,5,production,3490,4262,772,cd251d5c4eb86f48fd9782181f7675c35c79c7f46dda2bef00b47c0273485ab9,nonplaceholder_unclassified,0,\N
+ad017601-3952-4631-82a0-3ae4b8d6dbc6,6,status,4270,4320,50,6eb3bb26efc253689e7b269a4e95a4b486050c8ac41ba3ebd6bba42decf43b2b,nonplaceholder_unclassified,0,\N
+ad017601-3952-4631-82a0-3ae4b8d6dbc6,7,notes,4327,5455,1128,9f1ce2a98edd4401d476f5291bac2b093056b19b46a960a06cc00db1b295230f,nonplaceholder_unclassified,0,\N
+af181bfc-c1da-4418-a9df-2678b9222e6f,0,preamble,0,505,505,15ef12c142abe08402e44430b2213e1c6ca8bf5713667653175d0ac3a96ba0d3,nonplaceholder_unclassified,0,\N
+b20629ec-7d5b-4624-a0b7-3991ca4c9e14,0,preamble,0,9519,9519,b8f731df07b92e994f027cba789386567f9a06964a7bd7eb9e7e4f913888ed7f,nonplaceholder_unclassified,0,\N
+b92f7334-9244-47b0-8b58-0214973cc171,0,preamble,0,5537,5537,b06d46270c0ee31d7a12e7dece4b3c650e6e7a0bf77ff8b4271d44be4c4f43ef,nonplaceholder_unclassified,0,\N
+b95d0395-5a12-4794-9a58-f1b1a888cb27,0,preamble,0,228,228,fdf7ee7aa334dd65efd9ecbdaf0aec351b7e1ad87b53de32e06a497564a26cd5,nonplaceholder_unclassified,0,\N
+b95d0395-5a12-4794-9a58-f1b1a888cb27,1,context,237,514,277,a4cd7f461e04967c318ef996a7b780a2ca07923991e8dc35295501de51088433,nonplaceholder_unclassified,0,\N
+b95d0395-5a12-4794-9a58-f1b1a888cb27,2,narrative,525,1164,639,7ca0f1be3d5428d1fd8d539d94d64969746433c1850497ee740f336e190d3121,nonplaceholder_unclassified,0,\N
+b95d0395-5a12-4794-9a58-f1b1a888cb27,3,visuals,1173,1675,502,744ea147210d480e05cefe1d127bd7a8ff5f97899bc06b6a86f4268c064f529f,nonplaceholder_unclassified,0,\N
+b95d0395-5a12-4794-9a58-f1b1a888cb27,4,production,1687,2201,514,aeb22756ef4624f0f6558c15e56c102de3ccc56688782b0cf1df9a87277ce79f,nonplaceholder_unclassified,0,\N
+b95d0395-5a12-4794-9a58-f1b1a888cb27,5,status,2209,2519,310,332f25eafb2e94459a021c763db4b2af535a70adac7d815a48115b3d0a51dde3,nonplaceholder_unclassified,0,\N
+b95d0395-5a12-4794-9a58-f1b1a888cb27,6,resources,2530,2813,283,5d0c412632cf0eb79315d992e63718e19ca497ad776ee3b24fc7e8cf0ddc3fd7,nonplaceholder_unclassified,0,\N
+b95d0395-5a12-4794-9a58-f1b1a888cb27,7,notes,2820,3017,197,e7fd45230b1defdf320b1f903c9b7bb9accbab6806a0843cb2cb43f8620585ca,nonplaceholder_unclassified,0,\N
+bdc80900-44d6-48e0-9ce9-c3370a4dc917,0,preamble,0,5673,5673,d2d70258188b4586ac5caa15cd68d30c90846ae4bb98cc86d1937f2818e9d6f4,nonplaceholder_unclassified,0,\N
+be5c382e-cfa0-44a3-a30c-1b9eb77c3509,0,preamble,0,262,262,14c2967cc71209ba6bef00fb2b8e43d15f702fd8ad2ea9e3e2616f7c96454adf,nonplaceholder_unclassified,0,\N
+be5c382e-cfa0-44a3-a30c-1b9eb77c3509,1,context,271,777,506,dac17a0aa346a77325ccccb29a8671b9765393762cf41775a5f1884b3822a31c,nonplaceholder_unclassified,0,\N
+be5c382e-cfa0-44a3-a30c-1b9eb77c3509,2,narrative,788,1887,1099,4ec180d46d08d670d2975fc7e424c1643a7a6b63b22f41710f67691d44776db3,nonplaceholder_unclassified,0,\N
+be5c382e-cfa0-44a3-a30c-1b9eb77c3509,3,visuals,1896,2976,1080,3f4972e04ab087f8edf09973514f415611ba6dbd7c2583d03b51359cc6a1e216,nonplaceholder_unclassified,0,\N
+be5c382e-cfa0-44a3-a30c-1b9eb77c3509,4,production,2988,3982,994,b4a02326c6dc3130e1f5914e894ce29d0a817640f031432cc94d99590090fd53,nonplaceholder_unclassified,0,\N
+be5c382e-cfa0-44a3-a30c-1b9eb77c3509,5,status,3991,4624,633,c6c72fb39567d207fd23affa896fa9f3ac81c374d555dad0f1a5be198b55c99e,nonplaceholder_unclassified,0,\N
+be5c382e-cfa0-44a3-a30c-1b9eb77c3509,6,resources,4635,5066,431,db1fe09badda8a5361be424a56250f5d212739d5544cab2cd2da89acfe5a4679,nonplaceholder_unclassified,0,\N
+be5c382e-cfa0-44a3-a30c-1b9eb77c3509,7,notes,5073,5772,699,6537995a15ffcdfe8cd3386252fa739e466e57d1824e4fbce9c0dee37b8b27fb,nonplaceholder_unclassified,0,\N
+c0a6f883-4523-4b07-b32f-aa2f78e1a1df,0,preamble,0,38,38,cc5673b4009cf85c509389bba127194b1018f52e988c5e948bec7d6f6e64f34a,template_only,1,Short project description goes here.
+c0a6f883-4523-4b07-b32f-aa2f78e1a1df,1,context,47,73,26,2944863092dd2b75af1252d17d2c828f140c0e2fd05b32d06b4360f33faa6977,template_only,1,Why this project exists.
+c0a6f883-4523-4b07-b32f-aa2f78e1a1df,2,narrative,84,115,31,91db06777c356b1d6fa1e7e8641467f96479bc2628615ef6221e22c6b95e3cac,template_only,1,"Story, message, and audience."
+c0a6f883-4523-4b07-b32f-aa2f78e1a1df,3,visuals,124,182,58,a88bab740d70d70b0595380b503800c61ac4a2ff7333a75de4f5207ed21c1eaf,template_only,1,"References, mood, color palette, and creative direction."
+c0a6f883-4523-4b07-b32f-aa2f78e1a1df,4,production,194,237,43,b4bb0cc5727cb28194b4e9541cd212d81f6be9de0ffc856d811b8d61c7f6024b,template_only,1,"Schedule, locations, crew, and logistics."
+c0a6f883-4523-4b07-b32f-aa2f78e1a1df,5,status,245,290,45,ff3a5378d3489f4406b19eb056121900973298a0e68e3e330bc60054cf1541e0,template_only,1,"Current progress, blockers, and next steps."
+c0a6f883-4523-4b07-b32f-aa2f78e1a1df,6,resources,301,355,54,66f60cc66d4896dded68a43c8defb9df692d7191694230eef2446a5335bdb538,template_only,1,"Script, moodboard, storyboard, schedule, and assets."
+c0a6f883-4523-4b07-b32f-aa2f78e1a1df,7,notes,362,408,46,f382e2c1d4bae471baaafc2d38dc511415206c3a74816111c6bfbc45cc21cc93,template_only,1,"Key decisions, updates, and project history."
+c3054ebb-a377-4fa3-88a7-4186a865c594,0,preamble,0,440,440,e1e00bb10a27ca07cdb305d6218a36b4b705a577f67672d7e4a75fd8a9bbf026,nonplaceholder_unclassified,0,\N
+c3054ebb-a377-4fa3-88a7-4186a865c594,1,context,449,3424,2975,2aadf9cdae1c7d1cc3fe5edc1025a48cba08e607e3d6e3015481b34ba564e526,nonplaceholder_unclassified,0,\N
+c3054ebb-a377-4fa3-88a7-4186a865c594,2,visuals,3433,17069,13636,3803b638a88fa0315e7175195762cfaf91dbbccf1cdf336dab8cc552c9b55402,nonplaceholder_unclassified,0,\N
+c3054ebb-a377-4fa3-88a7-4186a865c594,3,production,17081,18422,1341,eeef562b0bd3e1796934861abdbeea6c6e597817d240baade8aaa2875304aeb9,nonplaceholder_unclassified,0,\N
+c3054ebb-a377-4fa3-88a7-4186a865c594,4,status,18430,19551,1121,5fe53e36ce9061932cca89162b607d8d476931f90e2c6d549e9f7959c928c6ac,nonplaceholder_unclassified,0,\N
+c3054ebb-a377-4fa3-88a7-4186a865c594,5,resources,19562,20154,592,8484251f3d2f706b3c70d5d9f6e388bf7296249731c8425c65e40c2370b71a11,nonplaceholder_unclassified,0,\N
+c3054ebb-a377-4fa3-88a7-4186a865c594,6,notes,20161,21786,1625,c2262571c77855de165d943d83c27d80f118506d961e5775aefe47453863685a,nonplaceholder_unclassified,0,\N
+c4272272-5a78-48c0-8a3b-4d42a32d3bee,0,preamble,0,4717,4717,f7adc4490b93f613a0ec790e0a1cd1fd4f8f00fcc4638809581ec8746a6962d6,nonplaceholder_unclassified,0,\N
+c435a876-602f-4aa1-b5b6-1cf4bfa1dea1,0,preamble,0,1117,1117,74004a70b256ab35cc3f7b171be9854432d74d4e3545d868a9916b55d3c455d8,nonplaceholder_unclassified,0,\N
+c435a876-602f-4aa1-b5b6-1cf4bfa1dea1,1,context,1126,1940,814,08e293030e206d0bdd184aa0e91585d1ed3f5d5d8b475c9e0eb8f9619930102f,nonplaceholder_unclassified,0,\N
+c435a876-602f-4aa1-b5b6-1cf4bfa1dea1,2,narrative,1951,2897,946,286f01874a8efdda10dfee993f779f919ed6f15a7bebf26c997bdd398023c763,nonplaceholder_unclassified,0,\N
+c435a876-602f-4aa1-b5b6-1cf4bfa1dea1,3,visuals,2906,3208,302,4c0851b577f756d4e4fb59758cbb0fed8d55c0a91443345cd8fbae26ec31f1fa,nonplaceholder_unclassified,0,\N
+c435a876-602f-4aa1-b5b6-1cf4bfa1dea1,4,production,3220,4839,1619,1812ed0e58765b2a1d185cd51eb8f06a55a44e9b97fdf2b4d7fcac0ca6cf9285,nonplaceholder_unclassified,0,\N
+c435a876-602f-4aa1-b5b6-1cf4bfa1dea1,5,status,4847,4892,45,ff3a5378d3489f4406b19eb056121900973298a0e68e3e330bc60054cf1541e0,template_only,1,"Current progress, blockers, and next steps."
+c435a876-602f-4aa1-b5b6-1cf4bfa1dea1,6,resources,4903,4957,54,66f60cc66d4896dded68a43c8defb9df692d7191694230eef2446a5335bdb538,template_only,1,"Script, moodboard, storyboard, schedule, and assets."
+c435a876-602f-4aa1-b5b6-1cf4bfa1dea1,7,notes,4964,5010,46,f382e2c1d4bae471baaafc2d38dc511415206c3a74816111c6bfbc45cc21cc93,template_only,1,"Key decisions, updates, and project history."
+c5dee423-d3e5-47c0-ab13-4db7d34846e5,0,preamble,0,177,177,12e4f60d000e0783cbc8da2e318e50fdd841a28280abf73e270ae537bf712f21,nonplaceholder_unclassified,0,\N
+c5dee423-d3e5-47c0-ab13-4db7d34846e5,1,context,186,1024,838,4e1bdb8df44a2d591fa681904ad149dfd3bb447eb2e166c0d35234433ac2b821,nonplaceholder_unclassified,0,\N
+c5dee423-d3e5-47c0-ab13-4db7d34846e5,2,narrative,1035,1222,187,3fead9e678734466f253fb1a9b998a3d9fbf9e6d3f1fa1e35f1140ff4190d761,nonplaceholder_unclassified,0,\N
+c5dee423-d3e5-47c0-ab13-4db7d34846e5,3,visuals,1231,1772,541,a46e50c89ad29e4ff11a88d7bfeeb7c493f9d2002fd2de2733b3cf74baf1c0e3,nonplaceholder_unclassified,0,\N
+c5dee423-d3e5-47c0-ab13-4db7d34846e5,4,production,1784,2343,559,ab9d599946a5d574ab3abdec3dd4a86e55684f61fd0f9a109ee5cd2990a2f0c9,nonplaceholder_unclassified,0,\N
+c5dee423-d3e5-47c0-ab13-4db7d34846e5,5,production,2354,2561,207,edea4b9f0cd519a9eb557e542a038a1c386fddfe2212f64c768323b9b0a4cea4,nonplaceholder_unclassified,0,\N
+c5dee423-d3e5-47c0-ab13-4db7d34846e5,6,status,2569,2820,251,4ae20ff706f9e26d0b299c480c4f5cacbe459510fddde51e3fdffce6b408c68d,nonplaceholder_unclassified,0,\N
+c5dee423-d3e5-47c0-ab13-4db7d34846e5,7,resources,2831,2885,54,66f60cc66d4896dded68a43c8defb9df692d7191694230eef2446a5335bdb538,template_only,1,"Script, moodboard, storyboard, schedule, and assets."
+c5dee423-d3e5-47c0-ab13-4db7d34846e5,8,notes,2892,2938,46,f382e2c1d4bae471baaafc2d38dc511415206c3a74816111c6bfbc45cc21cc93,template_only,1,"Key decisions, updates, and project history."
+c7e4793e-3755-4ca0-b224-98c1d9967fb5,0,preamble,0,172,172,05eb24841554a42071cc346464a27869e7d142e04a513421e038ea98f9f35fd3,nonplaceholder_unclassified,0,\N
+c7e4793e-3755-4ca0-b224-98c1d9967fb5,1,context,181,911,730,c65edb72156b68545bd40c3ce48e6f782b76cee6f8a742cf575b69353fbc677a,nonplaceholder_unclassified,0,\N
+c7e4793e-3755-4ca0-b224-98c1d9967fb5,2,narrative,922,1283,361,aac5f099021c65f994d84de1b0ee85a99d50e23c3f47336f536ccf044a0345d7,nonplaceholder_unclassified,0,\N
+c7e4793e-3755-4ca0-b224-98c1d9967fb5,3,visuals,1292,1557,265,4eecfe541de7e28660a3c8efabd297bd80f872b69a4547f4f98c4e8fcede7e3a,nonplaceholder_unclassified,0,\N
+c7e4793e-3755-4ca0-b224-98c1d9967fb5,4,production,1569,1884,315,0fb4767beeb5c21e2296196e76c165a379a94e8e08cab9b22e19843cea6d2f30,nonplaceholder_unclassified,0,\N
+c7e4793e-3755-4ca0-b224-98c1d9967fb5,5,status,1892,2008,116,d02080d67930b94bda7b06734d6a4c18e0df6d6e152911369f9ec4f1fae83def,nonplaceholder_unclassified,0,\N
+c7e4793e-3755-4ca0-b224-98c1d9967fb5,6,resources,2019,2149,130,3395b4dcce6360a8bd00150fb5aadad6aa5dd12d42b82d8203cef185a04ec7ac,nonplaceholder_unclassified,0,\N
+c7e4793e-3755-4ca0-b224-98c1d9967fb5,7,notes,2156,2432,276,e59d4c28d7cb517a8f094cbc437c02b766165ab5581cf8f7a81770ab801e7ee7,nonplaceholder_unclassified,0,\N
+ce38bfb3-f4c6-4315-b1e7-befc65369c95,0,preamble,0,129,129,4a1c60077d85dc3e37593a2a62135836bf2c22c3410978ebfb68fc3fc758c24f,nonplaceholder_unclassified,0,\N
+ce38bfb3-f4c6-4315-b1e7-befc65369c95,1,context,138,770,632,7502bb6c4f6be96b97cbd8bfb316594a9e529218b549a28cf8a997fd2547ac31,mixed_candidate,1,Why this project exists.
+ce38bfb3-f4c6-4315-b1e7-befc65369c95,2,narrative,781,1510,729,8ba0a58b768a0814bbc223a2bf3560eb27a1e4b467515a560a843987b42af283,nonplaceholder_unclassified,0,\N
+ce38bfb3-f4c6-4315-b1e7-befc65369c95,3,visuals,1519,2359,840,3f5e1aae443f1c7299a378ee77baafab187c2c1698c750b7cd6d94ac62e2ef5c,nonplaceholder_unclassified,0,\N
+ce38bfb3-f4c6-4315-b1e7-befc65369c95,4,production,2371,2608,237,909a490c5956a082fa25265e28a52454d6a98ee23ce4579237b2ea0bbea7236e,nonplaceholder_unclassified,0,\N
+ce38bfb3-f4c6-4315-b1e7-befc65369c95,5,production,2619,2938,319,999a4ce9e124239bc5cad7b102b32f3ad7fb73ed8475eeab667be1578ad21488,nonplaceholder_unclassified,0,\N
+ce38bfb3-f4c6-4315-b1e7-befc65369c95,6,status,2946,2991,45,ff3a5378d3489f4406b19eb056121900973298a0e68e3e330bc60054cf1541e0,template_only,1,"Current progress, blockers, and next steps."
+ce38bfb3-f4c6-4315-b1e7-befc65369c95,7,resources,3002,3058,56,c2acb38e39717bd3bcfb72fe43a14c73ca102a054195d8b302e0324d6dd9d2d3,template_only,1,"Script, moodboard, storyboard, schedule, and assets."
+ce38bfb3-f4c6-4315-b1e7-befc65369c95,8,notes,3065,3377,312,2b3d907cdd672ddb6f3a703eb925409464aa69dcdc7938c78bcec596b7010013,nonplaceholder_unclassified,0,\N
+ce38bfb3-f4c6-4315-b1e7-befc65369c95,9,narrative,3387,3723,336,b72c5e03ab076608b0dbf5d3c07f4208650d9b327104879833aa8a5f0e38523e,nonplaceholder_unclassified,0,\N
+ce82502f-bc81-4bb0-a35d-7fa898e3ebc7,0,preamble,0,38,38,cc5673b4009cf85c509389bba127194b1018f52e988c5e948bec7d6f6e64f34a,template_only,1,Short project description goes here.
+ce82502f-bc81-4bb0-a35d-7fa898e3ebc7,1,context,47,73,26,2944863092dd2b75af1252d17d2c828f140c0e2fd05b32d06b4360f33faa6977,template_only,1,Why this project exists.
+ce82502f-bc81-4bb0-a35d-7fa898e3ebc7,2,narrative,84,115,31,91db06777c356b1d6fa1e7e8641467f96479bc2628615ef6221e22c6b95e3cac,template_only,1,"Story, message, and audience."
+ce82502f-bc81-4bb0-a35d-7fa898e3ebc7,3,visuals,124,182,58,a88bab740d70d70b0595380b503800c61ac4a2ff7333a75de4f5207ed21c1eaf,template_only,1,"References, mood, color palette, and creative direction."
+ce82502f-bc81-4bb0-a35d-7fa898e3ebc7,4,production,194,237,43,b4bb0cc5727cb28194b4e9541cd212d81f6be9de0ffc856d811b8d61c7f6024b,template_only,1,"Schedule, locations, crew, and logistics."
+ce82502f-bc81-4bb0-a35d-7fa898e3ebc7,5,status,245,290,45,ff3a5378d3489f4406b19eb056121900973298a0e68e3e330bc60054cf1541e0,template_only,1,"Current progress, blockers, and next steps."
+ce82502f-bc81-4bb0-a35d-7fa898e3ebc7,6,resources,301,355,54,66f60cc66d4896dded68a43c8defb9df692d7191694230eef2446a5335bdb538,template_only,1,"Script, moodboard, storyboard, schedule, and assets."
+ce82502f-bc81-4bb0-a35d-7fa898e3ebc7,7,notes,362,408,46,f382e2c1d4bae471baaafc2d38dc511415206c3a74816111c6bfbc45cc21cc93,template_only,1,"Key decisions, updates, and project history."
+cec065ff-2b26-46c0-9561-e0484f54b39a,0,preamble,0,186,186,679d538ee02f845582a7b0d2bb57a418659d4ddad95180c6819d95406ca166a2,nonplaceholder_unclassified,0,\N
+cec065ff-2b26-46c0-9561-e0484f54b39a,1,context,195,311,116,88fe5224a10b158456a27a704143ee519c99ec63cbe9b7dee99e8eef0a027dd4,nonplaceholder_unclassified,0,\N
+cec065ff-2b26-46c0-9561-e0484f54b39a,2,narrative,322,503,181,b27ab801c91c8333243e031bdcc487072738f8d697fb32fcee0eecf691f8d222,nonplaceholder_unclassified,0,\N
+cec065ff-2b26-46c0-9561-e0484f54b39a,3,visuals,512,692,180,cf20cbfe35cb5cbfcfd2ce501f1848f77d282d447ace9991acf5747299fb1a9e,nonplaceholder_unclassified,0,\N
+cec065ff-2b26-46c0-9561-e0484f54b39a,4,production,704,789,85,d4c2c7b347868d498f2fbbd1763e9002130140201a6a9e8cfce30998c8c1425a,nonplaceholder_unclassified,0,\N
+cec065ff-2b26-46c0-9561-e0484f54b39a,5,status,797,907,110,a7ca85007defc1e01a8c38d76308dd6afc1c404ff203f95869f6cd76ae4f5d35,nonplaceholder_unclassified,0,\N
+cec065ff-2b26-46c0-9561-e0484f54b39a,6,resources,918,997,79,8e153d18d859fdf03d129235121029a7383654a950887203fe4c594259451c31,nonplaceholder_unclassified,0,\N
+cec065ff-2b26-46c0-9561-e0484f54b39a,7,notes,1004,1050,46,f382e2c1d4bae471baaafc2d38dc511415206c3a74816111c6bfbc45cc21cc93,template_only,1,"Key decisions, updates, and project history."
+d000533f-4223-41b9-a755-4002ff54fb22,0,preamble,0,100,100,4b6a02c57b4d43f7a10972c6335827e2dcb853263486a9769419a4a893b1e30d,nonplaceholder_unclassified,0,\N
+d000533f-4223-41b9-a755-4002ff54fb22,1,context,109,269,160,26ea68a27a4c1baeb942f620806a903f7ba56e0871778da8234069aded24a57d,nonplaceholder_unclassified,0,\N
+d000533f-4223-41b9-a755-4002ff54fb22,2,narrative,280,662,382,fcadb9d99bab68f4ee42d748276ee2f2f2890586e0dc0837c7538c8dc6a952a9,nonplaceholder_unclassified,0,\N
+d000533f-4223-41b9-a755-4002ff54fb22,3,visuals,671,991,320,300f4f93ea2baa6bcbca0c479db686fd1a409dad18a2947febbd150ba9271fcb,nonplaceholder_unclassified,0,\N
+d000533f-4223-41b9-a755-4002ff54fb22,4,production,1003,1228,225,b5566478f8afbc1e1636928f50271fa091808adf0c2ececd52a494c051fec15a,nonplaceholder_unclassified,0,\N
+d000533f-4223-41b9-a755-4002ff54fb22,5,status,1236,1447,211,f97af9bb1761e884478c3c8eae8450daaa3d55c189ee6223284654688600a3fa,nonplaceholder_unclassified,0,\N
+d000533f-4223-41b9-a755-4002ff54fb22,6,resources,1458,1616,158,152a9e5f3b54ebf1d9092e331efabb8efc53ca03de7b3e9e32786a323eec5458,nonplaceholder_unclassified,0,\N
+d000533f-4223-41b9-a755-4002ff54fb22,7,notes,1623,1718,95,7f98265554b2e438fb416216dc4f17a305d82f3e11e64c266b04db77f84937da,nonplaceholder_unclassified,0,\N
+d305f6e5-b906-49a1-a0c6-75ef7f653ad8,0,preamble,0,5943,5943,f36ec868d70c78fb9fe8b0c324569d0bc184a3e7b8a043a540be2070061f150c,nonplaceholder_unclassified,0,\N
+d3338265-d546-4ad9-ad48-c78ef3406dc4,0,preamble,0,4044,4044,54164ca3109ea514d32c98a5834708393da66e49ff121c401e2e49d97c4e3cc8,nonplaceholder_unclassified,0,\N
+d4ce69fd-2151-41c9-8e10-609266057dbe,0,preamble,0,736,736,e8d888bbd4af782031a699ab8c8aedd679029e802454ef206df04b9d25600772,nonplaceholder_unclassified,0,\N
+d51d6821-d191-40f7-949b-1086750a2e93,0,preamble,0,982,982,26ff32822c9bc42a21ad2524a1bfe5dbd3e3deb27bb84d24e09511d11c784bcd,nonplaceholder_unclassified,0,\N
+d51d6821-d191-40f7-949b-1086750a2e93,1,narrative,993,1489,496,8c6ac87ccb6334ea3e0a0b111bcb1563d31ffa51601d011c4fadde29dcc565e1,nonplaceholder_unclassified,0,\N
+d51d6821-d191-40f7-949b-1086750a2e93,2,visuals,1498,1960,462,59fbabb37a03bbf5f727fe86563634096fe004d5741fd7720696301e14fbd414,nonplaceholder_unclassified,0,\N
+d51d6821-d191-40f7-949b-1086750a2e93,3,production,1972,2048,76,5c145ff35fe4d646206f76e3b9373a508fe79e47aa14b67af4d08a66119bb12a,nonplaceholder_unclassified,0,\N
+d51d6821-d191-40f7-949b-1086750a2e93,4,visuals,2056,2180,124,4d0dc31a0572f0602d36d39c49e9a411781e4987205a955109cbf5ec3922ca99,nonplaceholder_unclassified,0,\N
+d51d6821-d191-40f7-949b-1086750a2e93,5,status,2188,2214,26,86e60ec80e5cc75bcbd181a1634506b45536d97173a1c6e003d22ff127dec200,nonplaceholder_unclassified,0,\N
+d6a29156-2eb6-459b-88a9-fecc08cb1728,0,preamble,0,254,254,361984c3065b2777dd2fd4298a21be821fd50f18eef126adaa61fe47698f66f8,mixed_candidate,1,Short project description goes here.
+d6a29156-2eb6-459b-88a9-fecc08cb1728,1,context,264,816,552,b6569d112ec5951ed49f86dbd0bba5e0b763b0749ebb26c79773cb66af173b95,mixed_candidate,1,Why this project exists.
+d6a29156-2eb6-459b-88a9-fecc08cb1728,2,narrative,828,1806,978,3ca30e70bd3115787fadbb00dd5fbfbf23f4b82f76f09f1bfc83a7055e040ff7,mixed_candidate,1,"Story, message, and audience."
+d6a29156-2eb6-459b-88a9-fecc08cb1728,3,visuals,1816,2666,850,086c7b6aa6b5416c24d24611214cd6557d99ae5feba0d474321cf18756bb90bc,mixed_candidate,1,"References, mood, color palette, and creative direction."
+d6a29156-2eb6-459b-88a9-fecc08cb1728,4,production,2679,3205,526,420cd90a2877eb985946f510a585a2d3ef61cb164ba6ee4247e5d79e6d1f8219,mixed_candidate,1,"Schedule, locations, crew, and logistics."
+d6a29156-2eb6-459b-88a9-fecc08cb1728,5,status,3214,3398,184,942a34d8cd36954991e9cfcddb29f4a76e496a4bebb8d50f2ebf9e527fd1245f,mixed_candidate,1,"Current progress, blockers, and next steps."
+d6a29156-2eb6-459b-88a9-fecc08cb1728,6,resources,3410,3897,487,aebe6f22814521c17e2731e3a8b091a3e31b93bd9043b67c0b51ab2ca0b7c857,mixed_candidate,1,"Script, moodboard, storyboard, schedule, and assets."
+d6a29156-2eb6-459b-88a9-fecc08cb1728,7,notes,3905,4513,608,e4ca01850678ca2d0cd1fd9d5238e302f58a2ac7030556c39e0a5d24ff41c7f7,mixed_candidate,1,"Key decisions, updates, and project history."
+d705eeb1-edb2-49b9-b5a4-281de7336597,0,preamble,0,4431,4431,75706e68220d296ef89c4338d9acc40558a98785fcd5d394118a235f0207187b,nonplaceholder_unclassified,0,\N
+d705eeb1-edb2-49b9-b5a4-281de7336597,1,production,4441,5389,948,7a97cc3b26f138622cab0dff95fb8a0584e054de5efe68e9973cd0199ac446b9,nonplaceholder_unclassified,0,\N
+d90fe8bd-3329-40b3-963c-d9b33075aec1,0,preamble,0,285,285,157d420bd1af600c42f655ad574daef789f4281794c29aa3300fe854b6030431,nonplaceholder_unclassified,0,\N
+d90fe8bd-3329-40b3-963c-d9b33075aec1,1,context,294,640,346,7600fdafde29d21e647c653fb05ad6d0325a8109f097e8931cf52847f0eae0d4,nonplaceholder_unclassified,0,\N
+d90fe8bd-3329-40b3-963c-d9b33075aec1,2,narrative,651,1298,647,2e4c14e5a5b466ef707f129305109a5a1185d0a28153be48417e5178dd92438d,nonplaceholder_unclassified,0,\N
+d90fe8bd-3329-40b3-963c-d9b33075aec1,3,visuals,1307,1859,552,1b360cd4c94613d249d8b161f4cc0870b3bdb979229c743c432a7f92a4339316,nonplaceholder_unclassified,0,\N
+d90fe8bd-3329-40b3-963c-d9b33075aec1,4,production,1871,2120,249,003ca0cfaf1d7e5ec20127ef1932c214680ee0c9b10ef6ce7c0c928b10eb1cac,nonplaceholder_unclassified,0,\N
+d90fe8bd-3329-40b3-963c-d9b33075aec1,5,production,2131,2780,649,1f724e5328e882b1cdad679337caddea229059938753efb185f7d8d9942c3096,nonplaceholder_unclassified,0,\N
+d90fe8bd-3329-40b3-963c-d9b33075aec1,6,status,2788,2897,109,fcaf608b76dd10039f1064e4f212787153c8be5cb6660ad574218ff1d9e6aeb3,nonplaceholder_unclassified,0,\N
+db9d8f8b-5907-41bd-b489-dfc931f4eed0,0,preamble,0,438,438,0a060c8c43743b71ee0a09435c9b30d9101a1dcc6e5dbb5053f112f2698c54ee,mixed_candidate,1,Short project description goes here.
+db9d8f8b-5907-41bd-b489-dfc931f4eed0,1,context,447,859,412,5a3a97dd34a925a28b0bbad943b67bfc106008180a9cb5ccf16868d09d46e464,mixed_candidate,1,Why this project exists.
+db9d8f8b-5907-41bd-b489-dfc931f4eed0,2,narrative,870,1788,918,c7e0c3daed3545ab590e43be16760b86b2f68acde2629a68218cfba100364f51,mixed_candidate,1,"Story, message, and audience."
+db9d8f8b-5907-41bd-b489-dfc931f4eed0,3,visuals,1797,2497,700,f2f83275490ae83aa83878bd26f7c43c031405b329ac8a80185450206dfde71a,mixed_candidate,1,"References, mood, color palette, and creative direction."
+db9d8f8b-5907-41bd-b489-dfc931f4eed0,4,production,2509,3147,638,063e43caead241f26d489dff7691085bd437dc7f18c3c401c96b89f3463d8501,mixed_candidate,1,"Schedule, locations, crew, and logistics."
+db9d8f8b-5907-41bd-b489-dfc931f4eed0,5,status,3155,3531,376,6daf79e9fae0791e8ad35a3c20be7259d992056d9072ecf189d48e75f5f996b6,mixed_candidate,1,"Current progress, blockers, and next steps."
+db9d8f8b-5907-41bd-b489-dfc931f4eed0,6,resources,3542,3943,401,845342b4b662eb5a4461189e6837ac4e4472d545464a6e9b96496428efb76135,mixed_candidate,1,"Script, moodboard, storyboard, schedule, and assets."
+db9d8f8b-5907-41bd-b489-dfc931f4eed0,7,notes,3950,4609,659,44a0cca5481f950a13db4e9b1d5453744088ef3e6c24722d427d4475976cf946,mixed_candidate,1,"Key decisions, updates, and project history."
+e2bfb9f5-2ba9-47e5-81e4-3787d5526631,0,preamble,0,48,48,06f6250a7ba8f9dd7fbe7cb5de85d3bbb5dcb155f87a8d762b24cc7f82baa5fa,nonplaceholder_unclassified,0,\N
+e2bfb9f5-2ba9-47e5-81e4-3787d5526631,1,production,60,262,202,0500b9bea8838f85424ea460ff0d562cfae07f42b366b7badff167e6e7df3e6e,nonplaceholder_unclassified,0,\N
+e2bfb9f5-2ba9-47e5-81e4-3787d5526631,2,context,271,1194,923,b802c5a0f9ebb2640b7bf191b3eaf834bc472fdbae9f44f1f62ded5e11b63637,nonplaceholder_unclassified,0,\N
+e2bfb9f5-2ba9-47e5-81e4-3787d5526631,3,narrative,1205,3216,2011,3920a32aef4954f9a2ac9b6ed8b2470785a307090e6a2066715f4b2380ad5e40,nonplaceholder_unclassified,0,\N
+e2bfb9f5-2ba9-47e5-81e4-3787d5526631,4,visuals,3225,4882,1657,430a7fa3158aaa0bb7b3421327917902d0ee3c618f8b7bf8ca40944869b03405,nonplaceholder_unclassified,0,\N
+e2bfb9f5-2ba9-47e5-81e4-3787d5526631,5,production,4894,6623,1729,7e01cda1d2dbd1d17f7784fe13178c7ea2364c3142c836c7306e03a821765fee,nonplaceholder_unclassified,0,\N
+e2bfb9f5-2ba9-47e5-81e4-3787d5526631,6,status,6631,6632,1,01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b,empty,0,\N
+e2bfb9f5-2ba9-47e5-81e4-3787d5526631,7,production,6643,6933,290,10b970da35b89e992f3e47851564e409d66a92b7f923a4925dcb566980796e60,nonplaceholder_unclassified,0,\N
+e2bfb9f5-2ba9-47e5-81e4-3787d5526631,8,resources,6944,7169,225,5bb399dc6f8a7a28fce4c626cb4ff318c0567594c858ff04deb52d57b7077a60,nonplaceholder_unclassified,0,\N
+e2bfb9f5-2ba9-47e5-81e4-3787d5526631,9,notes,7176,8043,867,9929a0f276c89c7b65282405c50eb8f0c6a499286ab4049bba52887ce4b54abe,nonplaceholder_unclassified,0,\N
+e3080629-abe0-4fe1-b677-7187fec43193,0,preamble,0,128,128,14eccecdbb6ea5a5277d343ff2a1551573ebc78c9d73d8f6dab8fb76a624c7b0,nonplaceholder_unclassified,0,\N
+e3080629-abe0-4fe1-b677-7187fec43193,1,context,135,356,221,2a62e03e1f7fe9cbc8fa927a877732279fd59e060c4e5b5ac47f8ee0602e399a,nonplaceholder_unclassified,0,\N
+e3080629-abe0-4fe1-b677-7187fec43193,2,narrative,367,613,246,50d36889b7ac256c115d74fae2943a932ee25b999921eab897d4db673a983f21,nonplaceholder_unclassified,0,\N
+e3080629-abe0-4fe1-b677-7187fec43193,3,visuals,622,1256,634,211d7f3c64eeb162db1d77bb789292d650438e1e4336d143f86db1a97cd3ebad,nonplaceholder_unclassified,0,\N
+e3080629-abe0-4fe1-b677-7187fec43193,4,status,1264,1276,12,f6659e5aefce2904e5b3a38fc5adc66a1cf72b8813486430bca10a7f680b9230,nonplaceholder_unclassified,0,\N
+e5ce8a79-9375-4e31-84a8-620bd4f07550,0,preamble,0,420,420,3e2a00d6d16efd6e2b67c5ede3ce45dd4506458e04e599696bde9a47002cd1b8,nonplaceholder_unclassified,0,\N
+e5ce8a79-9375-4e31-84a8-620bd4f07550,1,context,429,450,21,0b416003944297603138c99947198b25d10fcce2429a2c16d358a68975a0a82c,nonplaceholder_unclassified,0,\N
+e5ce8a79-9375-4e31-84a8-620bd4f07550,2,narrative,461,510,49,95d8ed15cfd371882fb4666572d6c4d7954473cca3891b98fd71f1a0aeb41a6d,nonplaceholder_unclassified,0,\N
+e5ce8a79-9375-4e31-84a8-620bd4f07550,3,visuals,519,546,27,e9d56bc1c33920cdb92f41b11f36274d5120427029bd9323c94b9d4642fde5f0,nonplaceholder_unclassified,0,\N
+e5ce8a79-9375-4e31-84a8-620bd4f07550,4,production,558,663,105,fd6e7c5b43140eecd178ca8b01e7011d4460f839652a3113d37d676dba17c416,nonplaceholder_unclassified,0,\N
+e5ce8a79-9375-4e31-84a8-620bd4f07550,5,status,671,839,168,811c36eabab6dad87cff3c72ec4e42dcb2d61d0038a39746c90f10a677819fd1,nonplaceholder_unclassified,0,\N
+e5ce8a79-9375-4e31-84a8-620bd4f07550,6,resources,850,956,106,01284077fc8a19dc2d6558c176ee845089ad77fd9626c1704534a1866939cbbd,nonplaceholder_unclassified,0,\N
+e5ce8a79-9375-4e31-84a8-620bd4f07550,7,notes,963,1049,86,fc898fcc66ff7605d16a2382a8e22c32a64219bc4b315efecc6b79ea365ed404,nonplaceholder_unclassified,0,\N
+e91879e0-3762-496d-b316-fa9ccd86aefe,0,preamble,0,321,321,0d59a2d35bbe359cc38d9107ecf9c323cfef741109adf0bea9bf93b1ae1650cb,nonplaceholder_unclassified,0,\N
+e91879e0-3762-496d-b316-fa9ccd86aefe,1,context,330,1014,684,2cbbd2bc8c5ff9d2dc66753c20d3ff3d7e80ad0a06f81fb205b7865c55a7d644,nonplaceholder_unclassified,0,\N
+e91879e0-3762-496d-b316-fa9ccd86aefe,2,narrative,1025,1584,559,5dd2d351df9f8fbb9332dfb9f6d179b95aaf1ccee37acfce3cbd32ae8cd9eb2f,nonplaceholder_unclassified,0,\N
+e91879e0-3762-496d-b316-fa9ccd86aefe,3,visuals,1593,2111,518,d794136217785294666a84e16869994c88647801b9758f46ae3fefbc341ce5bb,nonplaceholder_unclassified,0,\N
+e91879e0-3762-496d-b316-fa9ccd86aefe,4,production,2123,2556,433,b315144292efee2c2abebea4638dc9d41892e156ce9d4ea71fcca56149c61463,nonplaceholder_unclassified,0,\N
+e91879e0-3762-496d-b316-fa9ccd86aefe,5,status,2564,2927,363,6da5c43acd2b28bd384221a66e15c97159c05031c282da429ac7ad3329c3b544,nonplaceholder_unclassified,0,\N
+e91879e0-3762-496d-b316-fa9ccd86aefe,6,resources,2938,3171,233,3572448cd196f81e8c94c378087ad248c77805f8d6871e9a8548b65d973e3207,nonplaceholder_unclassified,0,\N
+e91879e0-3762-496d-b316-fa9ccd86aefe,7,notes,3178,3285,107,e12f274a87278db03b5b59dbe1ecb40ee4607a0772ce68639118ab761ff1dc5b,nonplaceholder_unclassified,0,\N
+e97402e3-1c38-4095-9f1d-e7084e2f119c,0,preamble,0,1446,1446,2340b6a6e8599d0ce79e076acb5e13234b00ed88bc381e5c4f05f0eb403783b8,nonplaceholder_unclassified,0,\N
+e97402e3-1c38-4095-9f1d-e7084e2f119c,1,production,1458,2132,674,37a59fe8475b648c574f333f317cb6e7df424a3b8bbfd9adafac14cacaea92f1,nonplaceholder_unclassified,0,\N
+e97402e3-1c38-4095-9f1d-e7084e2f119c,2,status,2140,2157,17,8bea96ef9cd4587e1537d117b1fcbb62ca2b45f67955bec157a966e7ef6e76b3,nonplaceholder_unclassified,0,\N
+e99b5ad2-8f58-4ef8-a13c-4441cfdd5205,0,preamble,0,400,400,430e6421991ee14a93627eebbfdfb256f7dddbc0826554ff3306684655249e9c,nonplaceholder_unclassified,0,\N
+eb7a1eaa-e296-4bbb-a5d7-56a55b89bc04,0,preamble,0,549,549,285f2408d1dd1b09d3f9143c109a0739185394dd4e14aba159c440f4a767892f,nonplaceholder_unclassified,0,\N
+eb7a1eaa-e296-4bbb-a5d7-56a55b89bc04,1,context,557,1974,1417,169b15dadb940c3a64dd69507cff72a6cddb91897baa5b6e37d1a3e3bf970f54,mixed_candidate,1,Why this project exists.
+eb7a1eaa-e296-4bbb-a5d7-56a55b89bc04,2,narrative,1985,2673,688,ece330bcef06304705ce9ee6fd32c8a7401aa4cc46a5bcb431c76371249004d9,nonplaceholder_unclassified,0,\N
+eb7a1eaa-e296-4bbb-a5d7-56a55b89bc04,3,visuals,2682,3746,1064,cad52e66aec9b4803a7561484010837cf85a88b8dd2591b56112fc400825db85,mixed_candidate,1,"References, mood, color palette, and creative direction."
+eb7a1eaa-e296-4bbb-a5d7-56a55b89bc04,4,production,3757,4769,1012,6bc273dc82c4f0c7a16487eef32a15e377032b9accdd11b5dca6e8273acce3a0,nonplaceholder_unclassified,0,\N
+eb7a1eaa-e296-4bbb-a5d7-56a55b89bc04,5,production,4781,5423,642,b33eed22f5ff576efbe9f568589db1e3b22d63a59498f8a1e35789139ff40dfb,nonplaceholder_unclassified,0,\N
+eb7a1eaa-e296-4bbb-a5d7-56a55b89bc04,6,status,5431,6521,1090,8ddc163330695a12a7e93b0a7823605d4c0bed70dda182559c04ff5b1b11b30d,mixed_candidate,1,"Current progress, blockers, and next steps."
+eb7a1eaa-e296-4bbb-a5d7-56a55b89bc04,7,resources,6532,12991,6459,67c56480824b774b0d133d9108b1f98cdc4b0483a26b048ea2d199fa52cac704,nonplaceholder_unclassified,0,\N
+eb7a1eaa-e296-4bbb-a5d7-56a55b89bc04,8,notes,12998,15460,2462,2d9221635bd87b27b97a3005fcd663eb94a03ec6fb25327de447ea4abe99e67d,nonplaceholder_unclassified,0,\N
+f2510509-4388-4b10-9e2e-80206c4c1bae,0,preamble,0,998,998,0551016fb3fc851fa0f034a454f620f76b325eb43a0dff132bf33e6e40f184da,nonplaceholder_unclassified,0,\N
+f2510509-4388-4b10-9e2e-80206c4c1bae,1,narrative,1009,1040,31,91db06777c356b1d6fa1e7e8641467f96479bc2628615ef6221e22c6b95e3cac,template_only,1,"Story, message, and audience."
+f2510509-4388-4b10-9e2e-80206c4c1bae,2,visuals,1049,1107,58,a88bab740d70d70b0595380b503800c61ac4a2ff7333a75de4f5207ed21c1eaf,template_only,1,"References, mood, color palette, and creative direction."
+f2510509-4388-4b10-9e2e-80206c4c1bae,3,production,1119,1162,43,b4bb0cc5727cb28194b4e9541cd212d81f6be9de0ffc856d811b8d61c7f6024b,template_only,1,"Schedule, locations, crew, and logistics."
+f2510509-4388-4b10-9e2e-80206c4c1bae,4,status,1170,1215,45,ff3a5378d3489f4406b19eb056121900973298a0e68e3e330bc60054cf1541e0,template_only,1,"Current progress, blockers, and next steps."
+f2510509-4388-4b10-9e2e-80206c4c1bae,5,resources,1226,1280,54,66f60cc66d4896dded68a43c8defb9df692d7191694230eef2446a5335bdb538,template_only,1,"Script, moodboard, storyboard, schedule, and assets."
+f2510509-4388-4b10-9e2e-80206c4c1bae,6,notes,1287,1333,46,f382e2c1d4bae471baaafc2d38dc511415206c3a74816111c6bfbc45cc21cc93,template_only,1,"Key decisions, updates, and project history."
+f3bc1ed3-b0c5-43be-b57f-a6bf2b6c8704,0,preamble,0,0,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,empty,0,\N
+f3bc1ed3-b0c5-43be-b57f-a6bf2b6c8704,1,context,8,2076,2068,aa63c4d1df80f8f5e442d0951f34e5cc188d0d9bf78d3b5200de4be7dd0f1d91,nonplaceholder_unclassified,0,\N
+f3bc1ed3-b0c5-43be-b57f-a6bf2b6c8704,2,narrative,2085,7045,4960,c9ed44ce9e775810b13366c2fa9d48f7f9b2e36b964754accde90616ec00ca4a,nonplaceholder_unclassified,0,\N
+f3bc1ed3-b0c5-43be-b57f-a6bf2b6c8704,3,visuals,7052,10770,3718,e2177cf7ab016b9984b2ea0e5ddeb7c5729d3322199052195473d9a8a8cd06d6,nonplaceholder_unclassified,0,\N
+f3bc401b-38b1-47ac-a968-13ee15a0ca4e,0,preamble,0,250,250,973e7bae8d0e91807e0f0bd068e8c21ce7ab6d5f4ff96654d043a55c94855eb8,mixed_candidate,1,Short project description goes here.
+f3bc401b-38b1-47ac-a968-13ee15a0ca4e,1,context,257,830,573,24b97f0f75735f8e2bfcc82debe1773a7be3477edaaab2d181c098cda00e140a,nonplaceholder_unclassified,0,\N
+f3bc401b-38b1-47ac-a968-13ee15a0ca4e,2,narrative,841,1759,918,2cc533cc817f3c973202c956822d4bbab5302750b2b16e869b58973e907a9914,nonplaceholder_unclassified,0,\N
+f3bc401b-38b1-47ac-a968-13ee15a0ca4e,3,production,1769,2033,264,c6da0f34a9e09486e3d9d5c802e6a2e325cc888f89a50d029762f978b6a104c6,nonplaceholder_unclassified,0,\N
+f4795e50-e32f-4a3b-b664-905000dc3813,0,preamble,0,151,151,0fb8cb3bf3d0dbc6c6c88ce2ae9112f945b4445fdd061d3f19cc6a1d166edc14,nonplaceholder_unclassified,0,\N
+f4795e50-e32f-4a3b-b664-905000dc3813,1,context,160,421,261,d6e9ee1177cd1e44333aefbc2b92d5f697d9a862f7dffb7f7a7b395464c95d58,nonplaceholder_unclassified,0,\N
+f4795e50-e32f-4a3b-b664-905000dc3813,2,narrative,432,1147,715,64661064b631eddc993c0c040fc8d11bb42276e41ad433e5c3f3e1d2ad0ff8ae,nonplaceholder_unclassified,0,\N
+f4795e50-e32f-4a3b-b664-905000dc3813,3,visuals,1156,1478,322,94aa7b737c89697244407834954590f0568dcac22e0e247ec62653a934005dc6,nonplaceholder_unclassified,0,\N
+f4795e50-e32f-4a3b-b664-905000dc3813,4,production,1490,1836,346,f5fecae577132fa8705afabfe5a0e690ca6fd29d5f149b8594d9c870a96c5ccc,nonplaceholder_unclassified,0,\N
+f4795e50-e32f-4a3b-b664-905000dc3813,5,status,1844,1999,155,7098045e036fbd6625f047964f05be5053169b0e72799a582a83835436eb46e4,nonplaceholder_unclassified,0,\N
+f4795e50-e32f-4a3b-b664-905000dc3813,6,resources,2010,2103,93,41f0c3455b93456568375aa9fd02c7397ca7c7d927fbf6badad027bec1dfe897,nonplaceholder_unclassified,0,\N
+f4795e50-e32f-4a3b-b664-905000dc3813,7,notes,2110,2178,68,ecdc1e5d7b6d5ae34a904bab645e5e59a4f9c02f00305ab3e98a2da3f436b144,nonplaceholder_unclassified,0,\N
+f5980844-0005-4e54-adb8-40ddad8fae09,0,preamble,0,226,226,c741bad7058976aa2c79993c14086465ef0a4833bb544c4ba6c3906f24a91852,nonplaceholder_unclassified,0,\N
+f5980844-0005-4e54-adb8-40ddad8fae09,1,context,234,591,357,46be03b039903971a6ba18a4ded078fbd8b6a99e74a0c617e3d9af508a257df1,nonplaceholder_unclassified,0,\N
+f5980844-0005-4e54-adb8-40ddad8fae09,2,narrative,601,1325,724,e5a784238980febcc98ece3993fd33d6bb27f153b826c3c6ef54e2285b6bebf1,nonplaceholder_unclassified,0,\N
+f73c44ff-56c3-486e-9692-a94ce2c54088,0,preamble,0,1966,1966,84b4852619091e0662ef535aff929568b72a0774f1ecfc6878a506dff4ba081e,nonplaceholder_unclassified,0,\N
+fb6b826e-ee13-4db4-b8c5-5552af595286,0,preamble,0,0,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,empty,0,\N
+fb6b826e-ee13-4db4-b8c5-5552af595286,1,context,7,757,750,42ad3e606dd5877886d2e52916c27b5a7d7f6738acbb0317c751faf2e4b4b241,nonplaceholder_unclassified,0,\N
+ffd01ad6-f327-442f-8a39-efe01a936bf6,0,preamble,0,38,38,cc5673b4009cf85c509389bba127194b1018f52e988c5e948bec7d6f6e64f34a,template_only,1,Short project description goes here.
+ffd01ad6-f327-442f-8a39-efe01a936bf6,1,context,47,204,157,3ecb679687c3cdf175fe8ba9ebd619ac601d484471182e9d814df74d9d9a7755,mixed_candidate,1,Why this project exists.
+ffd01ad6-f327-442f-8a39-efe01a936bf6,2,narrative,215,786,571,34f1007e9cae671574fb51396668455a55dd8d8ffd11e13063e5456bc0af38c0,nonplaceholder_unclassified,0,\N
+ffd01ad6-f327-442f-8a39-efe01a936bf6,3,visuals,795,1305,510,116a2b723e88b6013e208d2763b87cf7f3b6f100ae476160f3ed1e283650adc4,nonplaceholder_unclassified,0,\N
+ffd01ad6-f327-442f-8a39-efe01a936bf6,4,status,1313,1680,367,9ec97a5964c7a7d855b6aeb57fd3c396caffdab961a27dd24a32db4a992c0f28,nonplaceholder_unclassified,0,\N
+ffd01ad6-f327-442f-8a39-efe01a936bf6,5,resources,1691,1906,215,7c3907bc095833e7036826ec09ea1dfb8099b13a2d9b919982fdc5461994a610,nonplaceholder_unclassified,0,\N
+ffd01ad6-f327-442f-8a39-efe01a936bf6,6,notes,1913,1959,46,f382e2c1d4bae471baaafc2d38dc511415206c3a74816111c6bfbc45cc21cc93,template_only,1,"Key decisions, updates, and project history."
