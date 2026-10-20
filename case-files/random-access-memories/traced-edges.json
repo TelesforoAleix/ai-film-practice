@@ -1,0 +1,60 @@
+{
+  "film_id": "e99b5ad2-8f58-4ef8-a13c-4441cfdd5205",
+  "edges": [
+    {
+      "producer": "49ff032e-996b-4900-ba33-abf6fc402e93",
+      "consumer": "d3a5b0ea-495f-4b9c-89c1-4fe217609f8b",
+      "usages": [
+        {
+          "asset_id": "49ff032e-996b-4900-ba33-abf6fc402e93",
+          "asset_role": "input_asset",
+          "parameter_path": "params.input_images[0]"
+        }
+      ]
+    },
+    {
+      "producer": "c22d3af3-53cf-41ce-be21-876ebcba6360",
+      "consumer": "d3a5b0ea-495f-4b9c-89c1-4fe217609f8b",
+      "usages": [
+        {
+          "asset_id": "c22d3af3-53cf-41ce-be21-876ebcba6360",
+          "asset_role": "input_asset",
+          "parameter_path": "params.input_images[1]"
+        }
+      ]
+    },
+    {
+      "producer": "a5620e3d-120b-4dd5-ad46-ccb087640437",
+      "consumer": "d0efc423-f288-4e29-9665-e2bd10b23b29",
+      "usages": [
+        {
+          "asset_id": "a5620e3d-120b-4dd5-ad46-ccb087640437",
+          "asset_role": "input_asset",
+          "parameter_path": "params.input_images[0]"
+        }
+      ]
+    },
+    {
+      "producer": "1224c12b-f4bc-4469-bc42-d52598a3d2aa",
+      "consumer": "34dacec2-879f-40db-aab4-77420ad75dc4",
+      "usages": [
+        {
+          "asset_id": "1224c12b-f4bc-4469-bc42-d52598a3d2aa",
+          "asset_role": "reference_image",
+          "parameter_path": "params.reference_elements[1].medias[0]"
+        }
+      ]
+    },
+    {
+      "producer": "ca1978b3-d635-4f13-9364-0549c4a0dab8",
+      "consumer": "fed8571b-aa2f-4821-a932-00c1dc87acca",
+      "usages": [
+        {
+          "asset_id": "ca1978b3-d635-4f13-9364-0549c4a0dab8",
+          "asset_role": "input_video",
+          "parameter_path": "params.medias[1].data"
+        }
+      ]
+    }
+  ]
+}

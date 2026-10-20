@@ -107,10 +107,20 @@ def validate_profile(profile, rows, edges):
             or sum(v["count"] for v in profile[field]) != counts[table]
         ):
             raise ValueError("Role distribution denominator mismatch")
-    if "parameter_controls" in profile and not profile["invalid_parameters"]:
+    if "reading_policy" in profile and profile["reading_policy"] == "all_job_contexts":
+        if len(ids) != n:
+            raise ValueError("Exhaustive reading must include every job")
+    if "parameter_controls" in profile and (
+        not profile["invalid_parameters"] or "invalid_parameters_by_model" in profile
+    ):
         models = {
             r["value"]: r["count"] for r in profile["generations"]["model_identifier"]
         }
+        invalid = profile.get("invalid_parameters_by_model", [])
+        if sum(r["count"] for r in invalid) != len(profile["invalid_parameters"]):
+            raise ValueError("Invalid parameter model counts must reconcile")
+        for row in invalid:
+            models[row["value"]] -= row["count"]
         controls = defaultdict(int)
         for value in profile["parameter_controls"]:
             if value["count"] < 0:
@@ -149,6 +159,13 @@ def validate_registration(rows, profile, registered):
             raise ValueError("Registered entity count mismatch")
 
 
+def validate_completed(actual, panel):
+    """All four registered batches must be present, without replacements by accident."""
+    expected = {fid for fid, r in panel.items() if r["batch"] in {"1", "2", "3", "4"}}
+    if actual != expected:
+        raise ValueError("Completed batches must match panel membership exactly")
+
+
 def main():
     corpus = ROOT.parent / "studies/01-corpus"
     version = re.search(
@@ -163,7 +180,6 @@ def main():
         raise ValueError("No case files")
     with (corpus / "outputs/panel.csv").open() as stream:
         panel = {r["film_id"]: r for r in csv.DictReader(stream)}
-    expected = {fid for fid, r in panel.items() if r["batch"] in {"1", "2", "3"}}
     actual = set()
     manifest = json.loads((ROOT / "reproduction.json").read_text())
     total = 0
@@ -187,8 +203,7 @@ def main():
         if not (path.parent / "CASE.md").is_file():
             raise ValueError("Missing narrative")
         total += len(rows)
-    if actual != expected:
-        raise ValueError("Completed batches must match panel membership exactly")
+    validate_completed(actual, panel)
     artifacts = {
         str(p.relative_to(ROOT))
         for p in ROOT.glob("*/*")

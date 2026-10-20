@@ -168,3 +168,33 @@ def test_rejects_registration_mismatch(mutation):
         profile["row_counts"][field] += 1
     with pytest.raises(ValueError):
         case_check.validate_registration(rows, profile, registered)
+
+
+def test_all_four_batches_required():
+    panel = {f"film-{i}": {"batch": str(i)} for i in range(1, 5)}
+    case_check.validate_completed(set(panel), panel)
+    with pytest.raises(ValueError, match="Completed batches"):
+        case_check.validate_completed(set(panel) - {"film-4"}, panel)
+    with pytest.raises(ValueError, match="Completed batches"):
+        case_check.validate_completed(set(panel) | {"unregistered"}, panel)
+
+
+def test_exhaustive_reading_policy_needs_all_jobs():
+    profile, rows, edges = scope_fixture()
+    profile["reading_policy"] = "all_job_contexts"
+    with pytest.raises(ValueError, match="Exhaustive reading"):
+        case_check.validate_profile(profile, rows, edges)
+
+
+def test_invalid_parameters_preserve_valid_control_denominator():
+    profile, rows, edges = scope_fixture()
+    profile["invalid_parameters"] = ["unparseable-job"]
+    profile["invalid_parameters_by_model"] = [dict(value="example", count=1)]
+    profile["parameter_controls"][0]["count"] = 1
+    case_check.validate_profile(profile, rows, edges)
+    profile["parameter_controls"][0]["count"] = 2
+    with pytest.raises(ValueError, match="Control distribution"):
+        case_check.validate_profile(profile, rows, edges)
+    profile["invalid_parameters_by_model"][0]["count"] = 0
+    with pytest.raises(ValueError, match="Invalid parameter model counts"):
+        case_check.validate_profile(profile, rows, edges)

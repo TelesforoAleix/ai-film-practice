@@ -13,6 +13,10 @@ from film_practice import TABLES, connect
 
 ROOT = Path(__file__).resolve().parent
 SLUGS = {
+    "Prophecy in 2047": "prophecy-in-2047",
+    "SNAP": "snap",
+    "Don't Poison Ivy": "dont-poison-ivy",
+    "Random Access Memories": "random-access-memories",
     "Harmony ": "harmony",
     "Birthdays": "birthdays",
     "KAGEROU": "kagerou",
@@ -80,7 +84,9 @@ def profile(db, panel):
         for key, group in sorted(groups.items(), key=lambda x: str(x[0])):
             choose(group, f"{prefix}:{key}")
 
-    if len(jobs) < (500 if panel["batch"] in {"2", "3"} else 100):
+    if len(jobs) < (
+        600 if panel["batch"] == "4" else 500 if panel["batch"] in {"2", "3"} else 100
+    ):
         for g in jobs:
             selected[g["generation_id"]].add("exhaustive_small_history")
     else:
@@ -145,7 +151,7 @@ def profile(db, panel):
             sorted(texts, key=lambda g: (-len(g["prompt"]), g["generation_id"])),
             "longest_prompt",
         )
-    if panel["batch"] in {"2", "3"}:
+    if panel["batch"] in {"2", "3", "4"}:
         for text in tables["generation_prompts"]:
             if text["field_path"] not in {"params.prompt", "params.prompt_language"}:
                 selected[text["generation_id"]].add("nested_text:" + text["field_path"])
@@ -272,6 +278,13 @@ def profile(db, panel):
             for gid, reasons in sorted(selected.items())
         ],
     }
+    if panel["batch"] == "4":
+        summary["invalid_parameters_by_model"] = distribution(
+            [g for g in jobs if g["generation_id"] in invalid], "model_identifier"
+        )
+        summary["reading_policy"] = (
+            "all_job_contexts" if len(selected) == len(jobs) else "purposive"
+        )
     dest = ROOT / SLUGS[panel["title"]]
     dest.mkdir(exist_ok=True)
     (dest / "profile.json").write_text(
@@ -288,7 +301,11 @@ def profile(db, panel):
             r for r in tables["generation_prompts"] if r["generation_id"] in selected
         ],
     }
-    local = Path({"1": "data/af2a", "2": "data/af2b", "3": "data/af2c"}[panel["batch"]])
+    local = Path(
+        {"1": "data/af2a", "2": "data/af2b", "3": "data/af2c", "4": "data/af2d"}[
+            panel["batch"]
+        ]
+    )
     local.mkdir(exist_ok=True)
     (local / (SLUGS[panel["title"]] + ".json")).write_text(
         json.dumps(packet, ensure_ascii=False, indent=2) + "\n"
@@ -306,7 +323,9 @@ def profile(db, panel):
 
 def main():
     with (ROOT.parent / "studies/01-corpus/outputs/panel.csv").open() as stream:
-        panel = [r for r in csv.DictReader(stream) if r["batch"] in {"1", "2", "3"}]
+        panel = [
+            r for r in csv.DictReader(stream) if r["batch"] in {"1", "2", "3", "4"}
+        ]
     with connect("data") as db:
         for film in panel:
             profile(db, film)

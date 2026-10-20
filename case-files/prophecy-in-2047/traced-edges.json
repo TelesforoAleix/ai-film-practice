@@ -1,0 +1,71 @@
+{
+  "film_id": "9b38b885-bf92-484e-8f36-a890e4e10d61",
+  "edges": [
+    {
+      "producer": "0ffdcb42-ac3c-47ae-a299-093c5a51bc08",
+      "consumer": "02e8e2a1-5735-4684-a65f-38d56137bc6a",
+      "usages": [
+        {
+          "asset_id": "0ffdcb42-ac3c-47ae-a299-093c5a51bc08",
+          "asset_role": "reference_image",
+          "parameter_path": "params.reference_elements[0].medias[0]"
+        }
+      ]
+    },
+    {
+      "producer": "4aa39556-be8b-401a-98f1-031cd850cff5",
+      "consumer": "7ef74efa-93a5-4f9b-93b7-520973ad2ac5",
+      "usages": [
+        {
+          "asset_id": "4aa39556-be8b-401a-98f1-031cd850cff5",
+          "asset_role": "input_image",
+          "parameter_path": "params.medias[0].data"
+        }
+      ]
+    },
+    {
+      "producer": "0ffdcb42-ac3c-47ae-a299-093c5a51bc08",
+      "consumer": "014a8505-858b-4b9a-9777-b4461d5957e2",
+      "usages": [
+        {
+          "asset_id": "0ffdcb42-ac3c-47ae-a299-093c5a51bc08",
+          "asset_role": "reference_image",
+          "parameter_path": "params.reference_elements[2].medias[0]"
+        }
+      ]
+    },
+    {
+      "producer": "18ae4caf-e630-4986-aaf1-e3cb2a6a0b4d",
+      "consumer": "a8868745-eecc-4e2e-b389-05a8fd444dac",
+      "usages": [
+        {
+          "asset_id": "18ae4caf-e630-4986-aaf1-e3cb2a6a0b4d",
+          "asset_role": "input_video",
+          "parameter_path": "params.medias[1].data"
+        }
+      ]
+    },
+    {
+      "producer": "18ae4caf-e630-4986-aaf1-e3cb2a6a0b4d",
+      "consumer": "8d82b9ec-ee41-4016-95bd-c194a356d542",
+      "usages": [
+        {
+          "asset_id": "18ae4caf-e630-4986-aaf1-e3cb2a6a0b4d",
+          "asset_role": "input_video",
+          "parameter_path": "params.medias[0].data"
+        }
+      ]
+    },
+    {
+      "producer": "a8868745-eecc-4e2e-b389-05a8fd444dac",
+      "consumer": "1230627c-314b-4128-aaca-285f1b898c1b",
+      "usages": [
+        {
+          "asset_id": "a8868745-eecc-4e2e-b389-05a8fd444dac",
+          "asset_role": "input_video",
+          "parameter_path": "params.medias[1].data"
+        }
+      ]
+    }
+  ]
+}
