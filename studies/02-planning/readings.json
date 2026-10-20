@@ -1,0 +1,70 @@
+{
+  "birthdays": {
+    "constraint": "character aging appearance, wardrobe, production design, and technology kept period-accurate to each era",
+    "visual_intention": "The palette is warm throughout",
+    "setting": "1970s American East Coast city"
+  },
+  "detour": {
+    "objective": "maintaining continuity across geography, scale and fast-moving action",
+    "visual_intention": "limited warm palette",
+    "deliverable": "seven-minute race",
+    "character": "Character and location sheets established the visual rules",
+    "setting": "Character and location sheets established the visual rules"
+  },
+  "dont-poison-ivy": {
+    "constraint": "No dialogue.",
+    "visual_intention": "No pure black anywhere, ever.",
+    "deliverable": "Stylized 3D animated.",
+    "character": "Character sheets are built in Nano Banana Pro.",
+    "setting": "Scene plates are built in Seedream 5.0 Pro"
+  },
+  "fallen-leaves": {
+    "visual_intention": "naturalistic hand movement and lighting.",
+    "deliverable": "widescreen, color short film with a film-emulation finish",
+    "setting": "The film is set in the Sengoku period",
+    "shot": "One scene is shot deliberately warmer and brighter"
+  },
+  "harmony": {
+    "constraint": "Henri wears a watch always on his left wrist, and only there.",
+    "visual_intention": "Always the same blue pot, in the same spot, in the same framing.",
+    "character": "Henri has a thin horizontal scar above his right eyebrow.",
+    "setting": "There is a book of poems in the house",
+    "shot": "Her answer is filmed from her own point of view: the camera itself shakes it."
+  },
+  "lost": {
+    "visual_intention": "Yarn and clay and crafts.",
+    "deliverable": "3 minutes Final Cut complete",
+    "objective": "built out beginning and end and bridged to middle."
+  },
+  "prophecy-in-2047": {
+    "objective": "build a whole world properly before shooting a frame of it",
+    "constraint": "A maximum of four references resolving in any single frame.",
+    "visual_intention": "The palette is locked to yellow, grey and brown.",
+    "deliverable": "Output 21:9, 4K.",
+    "character": "Wardrobe held as its own element separate from the character",
+    "setting": "every location exists as a matched front and reverse plate before any shot uses it"
+  },
+  "random-access-memories": {
+    "deliverable": "Duration: 5 min.",
+    "character": "Main Characters",
+    "setting": "Eric's room",
+    "shot": "Final shot"
+  },
+  "the-last-transmission": {
+    "constraint": "One motivated light source per frame",
+    "visual_intention": "Two palettes that never mix.",
+    "deliverable": "Full cut locked at 4:31.",
+    "character": "a character sheet for each face and a body sheet",
+    "setting": "Two worlds to build: the station deck, and the kitchen inside the CRT",
+    "objective": "Order of work: assets, then stress tests, then the film"
+  },
+  "the-staff": {
+    "objective": "establishing a proprietary, studio-tier anime production pipeline",
+    "constraint": "consistent staff textures",
+    "visual_intention": "extreme close-up emotional eye cuts",
+    "deliverable": "Format: 18-minute episodic anime pilot (split into 8 core narrative sequences).",
+    "character": "Character Sheets (Al-Qahtani, Sadeq, Reema, Noura)",
+    "setting": "character/environment master reference models defined",
+    "shot": "remaining action shots (Scenes 3 to 8)"
+  }
+}
