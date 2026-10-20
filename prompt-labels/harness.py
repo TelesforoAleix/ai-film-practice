@@ -12,6 +12,7 @@ from film_practice import connect
 from film_practice.prompt_labels import (
     SCHEMA,
     TEMPLATE,
+    USER_TEMPLATE,
     canonical,
     digest,
     load_text,
@@ -69,7 +70,11 @@ def run(
     if max_attempts < 1 or timeout <= 0 or max_tokens < 1:
         raise ValueError("invalid_request_settings")
     settings = {"temperature": 0, "max_tokens": max_tokens, "stream": False}
-    template_hash = digest(canonical({"system": TEMPLATE, "schema": SCHEMA}))
+    template_hash = digest(
+        canonical(
+            {"system": TEMPLATE, "user_template": USER_TEMPLATE, "schema": SCHEMA}
+        )
+    )
     metadata = {
         "requested_model": model,
         "base_url": base_url.rstrip("/"),
@@ -139,7 +144,14 @@ def run(
                     **settings,
                     "messages": [
                         {"role": "system", "content": TEMPLATE},
-                        {"role": "user", "content": text},
+                        {
+                            "role": "user",
+                            "content": USER_TEMPLATE.format(
+                                generation_type=canonical(row.get("generation_type")),
+                                text_role=canonical(row.get("text_role")),
+                                text=text,
+                            ),
+                        },
                     ],
                     "response_format": {
                         "type": "json_schema",

@@ -9,7 +9,15 @@ from pathlib import Path
 import duckdb
 import pytest
 
-from film_practice.prompt_labels import COMPONENTS, SCHEMA, digest, validate
+from film_practice.prompt_labels import (
+    COMPONENTS,
+    SCHEMA,
+    TEMPLATE,
+    USER_TEMPLATE,
+    canonical,
+    digest,
+    validate,
+)
 
 
 def module(name):
@@ -43,6 +51,8 @@ def synthetic_db():
             {
                 "film_id": "film",
                 "generation_id": str(index),
+                "generation_type": "image",
+                "text_role": "primary",
                 "source_table": "generations",
                 "field_path": "params.prompt",
                 "text_id": digest(text),
@@ -175,7 +185,15 @@ def test_http_retry_interruption_resume_and_metadata(tmp_path):
         assert all(r["reported_model"] == "stub-reported" for r in successes)
         assert all(r["requested_model"] == "stub-requested" for r in final)
         assert all(r["request_settings"]["temperature"] == 0 for r in final)
-        assert all(len(r["template_sha256"]) == 64 for r in final)
+        expected_hash = digest(
+            canonical(
+                {"system": TEMPLATE, "user_template": USER_TEMPLATE, "schema": SCHEMA}
+            )
+        )
+        assert all(r["template_sha256"] == expected_hash for r in final)
+        assert (
+            'Recorded text role: "primary"' in requests[0][1]["messages"][1]["content"]
+        )
         assert successes[-1]["attempt"] == 2
         assert requests[0][0] == "/v1/chat/completions"
         assert requests[0][1]["response_format"]["json_schema"]["schema"] == SCHEMA

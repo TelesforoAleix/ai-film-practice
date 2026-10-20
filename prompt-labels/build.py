@@ -226,7 +226,7 @@ def build(data, output, large):
     sc = Counter((r["film_id"], r["generation_type"], r["text_role"]) for r in sample)
     gc = Counter((r["film_id"], r["generation_type"], r["text_role"]) for r in gold)
     with (output / "strata.csv").open("w") as f:
-        writer = csv.writer(f)
+        writer = csv.writer(f, lineterminator="\n")
         writer.writerow(
             [
                 "film_id",

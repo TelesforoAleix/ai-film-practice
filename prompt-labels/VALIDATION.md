@@ -20,7 +20,7 @@
 - The agreement CLI was also run directly on the gold file against itself and
   against the deliberately perturbed local copy, reproducing the smoke outputs.
 - `uv run ruff check .`: passed.
-- `uv run ruff format --check .`: 56 Python files formatted.
+- `uv run ruff format --check .`: 58 Python files formatted.
 - `uv run pytest`: 58 passed, including 17 AF3a synthetic tests.
 - `uv run python scripts/check_repository.py`: passed; original hashes match,
   no tracked data/ files or files above 5 MB.
@@ -32,5 +32,22 @@ accuracy or actual-model agreement. Gold remains one agent coder, no adjudicatio
 
 ## Release download
 
-Fresh-download checksum verification is recorded here after publication and
-before merge. The final handover records the PR and green CI run.
+The public `prompt-labels-v1` release was freshly downloaded with:
+
+```bash
+gh release download prompt-labels-v1 --repo TelesforoAleix/ai-film-practice --dir data/af3a-release-download
+```
+
+The downloaded SHA256SUMS was byte-identical to the build manifest. Recomputing
+SHA-256 from all three fresh assets matched every entry:
+
+| Asset | Bytes | SHA-256 |
+| --- | ---: | --- |
+| features.parquet | 5,186,343 | `92073c8beda0014a23a66cec0340a3909e76f04e520e1bf8d8b66c0e7cf6f55a` |
+| occurrences.parquet | 10,558,538 | `dbe844be049351560acb1a1b785e1921c7ac2a96afe26318b76454c440cd667c` |
+| sample.jsonl.gz | 483,896 | `9a2e83a63486d2bb3d65a59d6a9146be98514c33e9f331add214e501c8ea17d6` |
+
+The small-output CSV writer was made explicitly LF-delimited, then the build
+was repeated from the fresh source copy. Asset hashes and the small outputs
+still matched byte for byte. PR #7 contains the change; the final handover
+records green CI at its final head and the merge commit.

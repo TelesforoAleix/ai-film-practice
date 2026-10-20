@@ -234,16 +234,16 @@ Replace `local-model` with the chosen server's accepted model name. Configure it
 context window for the complete request with that model's tokenizer; disable any
 server-side prompt truncation. The character ceiling is not a tokenizer guarantee.
 Mean/median sample text: 3,352/2,339 characters, approximately 838/585 tokens at
-four characters/token. Definitions/template are 2,684 characters and schema 2,596,
-roughly another 1,320 tokens combined. Budget **about 2,200 input tokens plus
-350–900 output tokens per prompt** (about 11 million input tokens for 5,000
+four characters/token. Definitions/template are 2,885 characters, the context wrapper 99 and schema 2,596,
+roughly another 1,395 tokens combined. Budget **about 2,300 input tokens plus
+350–900 output tokens per prompt** (about 11.5 million input tokens for 5,000
 requests, before retries); long and non-Latin texts can be substantially larger.
 The 1,400 output-token setting is configurable, not an assertion about a chosen
 model's requirements or actual usage. No GPU-time or cost estimate is inferred.
 
 [harness.py](harness.py) retrieves each sampled source by compound key and checks
-its hash. Each request contains one whole prompt, definitions and strict JSON
-schema at `POST <base-url>/chat/completions`. Source text is untrusted user content;
+its hash. Each request contains one whole prompt, its recorded generation type/text role,
+definitions and strict JSON schema at `POST <base-url>/chat/completions`. Source text is untrusted user content;
 it is never executed. Temperature is zero, streaming is off. Schema validation
 requires exactly fourteen keys, boolean presence, positive nonempty exact spans,
 and null spans for negatives. Missing reported model, non-stop finish, invalid
@@ -259,8 +259,8 @@ recovery; malformed complete lines fail loudly. Changed endpoint/model/settings/
 template/schema are refused in an existing journal: choose another output file.
 
 Every event retains requested model, endpoint-reported model (null until known),
-request settings, timeout/retry policy and SHA-256 of the canonical system template
-plus response schema, alongside source IDs and provisional evidence metadata.
+request settings, timeout/retry policy and SHA-256 of the canonical system template, user context wrapper
+and response schema, alongside source IDs and provisional evidence metadata.
 Raw invalid replies and exception messages are not persisted, because they can
 echo source text. Failed texts remain failures, not fourteen absent labels.
 This harness uses the Python standard library; POSIX locking targets Linux/macOS.
