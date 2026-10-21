@@ -16,6 +16,7 @@ from film_practice.prompt_labels import (
     USER_TEMPLATE,
     canonical,
     digest,
+    resolve_spans,
     validate,
 )
 
@@ -77,6 +78,54 @@ def test_invalid_labels(bad):
         validate(bad, "A boat.")
 
 
+@pytest.mark.parametrize(
+    ("source", "model_span", "expected"),
+    [
+        ("A red boat.", "red boat", "red boat"),
+        ("A Red boat.", "red boat", "Red boat"),
+        ("first\nsecond", "first second", "first\nsecond"),
+        ("cafe\u0301 noir", "café noir", "cafe\u0301 noir"),
+        ("the creator’s note", "creator's note", "creator’s note"),
+        ("slow—steady", "slow-steady", "slow—steady"),
+    ],
+)
+def test_resolve_spans_returns_source_text(source, model_span, expected):
+    result, resolved = resolve_spans(labels(subject=model_span), source)
+    assert result["subject"]["span"] == expected
+    assert expected in source
+    assert resolved == ([] if model_span == expected else ["subject"])
+
+
+def test_resolve_spans_uses_first_occurrence_and_rejects_paraphrases():
+    source = "A red boat; A red boat"
+    result, resolved = resolve_spans(labels(subject="a red boat"), source)
+    assert result["subject"]["span"] == "A red boat"
+    assert resolved == ["subject"]
+    for candidate in ("a crimson boat", "A red...a red boat"):
+        with pytest.raises(ValueError, match="unsupported_span"):
+            resolve_spans(labels(subject=candidate), "A red boat; a red boat")
+
+
+def test_old_harness_configuration_is_refused(tmp_path):
+    db, rows = synthetic_db()
+    output = tmp_path / "old.jsonl"
+    output.write_text(
+        json.dumps(
+            {
+                "text_id": rows[0]["text_id"],
+                "status": "success",
+                "attempt": 1,
+                "labels_version": "AF3a-v1",
+                "run_sha256": "old",
+            }
+        )
+        + "\n"
+    )
+    with pytest.raises(ValueError, match="output_configuration_mismatch"):
+        harness.run(db, rows[:1], output, "http://localhost/v1", "fake")
+    db.close()
+
+
 def test_features_are_structural():
     f = build.features("CAMERA:\n35mm pan.\nKeep the frame unchanged.\nNo text. @ref1")
     assert f["lens_matches"] == 1
@@ -123,7 +172,7 @@ def test_http_retry_interruption_resume_and_metadata(tmp_path):
     requests = []
     responses = [
         "invalid",
-        labels(subject="boat"),
+        labels(subject="Boat"),
         labels(subject="dog", action="runs"),
     ]
 
@@ -183,6 +232,8 @@ def test_http_retry_interruption_resume_and_metadata(tmp_path):
         successes = [r for r in final if r["status"] == "success"]
         assert len(successes) == 2
         assert all(r["reported_model"] == "stub-reported" for r in successes)
+        assert successes[0]["resolved_spans"] == ["subject"]
+        assert successes[1]["resolved_spans"] == []
         assert all(r["requested_model"] == "stub-requested" for r in final)
         assert all(r["request_settings"]["temperature"] == 0 for r in final)
         expected_hash = digest(

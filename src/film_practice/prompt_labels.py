@@ -2,6 +2,8 @@
 
 import hashlib
 import json
+import unicodedata
+from collections import defaultdict, deque
 
 # Inclusion, exclusion: semantics describe requested instructions, never output quality.
 DEFINITIONS = {
@@ -179,6 +181,90 @@ def validate(labels, text=None):
         elif span is not None:
             raise ValueError("negative_span")
     return labels
+
+
+def resolve_spans(labels, text):
+    """Resolve normalised positive spans to exact, contiguous source text."""
+    validate(labels)
+
+    def normalise(value, source=False):
+        chars = list(unicodedata.normalize("NFC", value))
+        offsets = [(i, i + 1) for i in range(len(chars))]
+        if source:
+            # NFC code points decompose to the same canonical token stream as
+            # the source. Track each token's original code point, including
+            # canonical reordering and one-to-many decompositions.
+            origins = defaultdict(deque)
+            for index, char in enumerate(value):
+                for token in unicodedata.normalize("NFD", char):
+                    origins[token].append(index)
+            token_origins = []
+            for token in unicodedata.normalize("NFD", value):
+                token_origins.append(origins[token].popleft())
+            offsets = []
+            cursor = 0
+            for char in chars:
+                count = len(unicodedata.normalize("NFD", char))
+                positions = token_origins[cursor : cursor + count]
+                offsets.append((min(positions), max(positions) + 1))
+                cursor += count
+
+        expanded = []
+        for char, interval in zip(chars, offsets, strict=True):
+            folded = char.casefold()
+            for item in folded:
+                if item.isspace():
+                    item = " "
+                elif item in "‘’‚′":
+                    item = "'"
+                elif item in "“”„″":
+                    item = '"'
+                elif item in "–—":
+                    item = "-"
+                expanded.append((item, interval))
+        collapsed = []
+        for char, interval in expanded:
+            if char == " " and collapsed and collapsed[-1][0] == " ":
+                previous = collapsed[-1][1]
+                collapsed[-1] = (" ", (previous[0], interval[1]))
+            else:
+                collapsed.append((char, interval))
+        if source:
+            return (
+                "".join(char for char, _ in collapsed),
+                [span for _, span in collapsed],
+            )
+        return "".join(char for char, _ in collapsed)
+
+    source_norm, offsets = normalise(text, source=True)
+    resolved = []
+    result = {key: dict(value) for key, value in labels.items()}
+    for component, value in result.items():
+        if not value["present"]:
+            continue
+        span = value["span"]
+        exact = span in text
+        if exact:
+            resolved_span = span
+        else:
+            needle = normalise(span.strip())
+            haystack, source_offsets = source_norm.strip(), offsets
+            # Keep the trimmed source's offset map aligned with its characters.
+            left = len(source_norm) - len(source_norm.lstrip())
+            right = len(source_norm.rstrip())
+            source_offsets = source_offsets[left:right]
+            position = haystack.find(needle)
+            if not needle or position < 0:
+                raise ValueError("unsupported_span")
+            start = source_offsets[position][0]
+            end = source_offsets[position + len(needle) - 1][1]
+            resolved_span = text[start:end]
+            if normalise(resolved_span.strip()) != needle:
+                raise ValueError("unsupported_span")
+            value["span"] = resolved_span
+            resolved.append(component)
+    validate(result, text)
+    return result, sorted(resolved)
 
 
 def load_text(db, row):

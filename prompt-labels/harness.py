@@ -16,6 +16,7 @@ from film_practice.prompt_labels import (
     canonical,
     digest,
     load_text,
+    resolve_spans,
     validate,
 )
 
@@ -83,7 +84,8 @@ def run(
         "max_attempts": max_attempts,
         "timeout_seconds": timeout,
         "codebook_version": "1.0",
-        "labels_version": "AF3a-v1",
+        "labels_version": "AF3a-v2",
+        "span_resolution": "nfc-casefold-whitespace-quotes-dashes",
         "provisional": True,
         "study": "04",
         "code_id": "04.2",
@@ -175,8 +177,16 @@ def run(
                     choice = reply["choices"][0]
                     if choice.get("finish_reason") != "stop":
                         raise ValueError("incomplete_reply")
-                    labels = validate(json.loads(choice["message"]["content"]), text)
-                    record = {**record, "status": "success", "labels": labels}
+                    labels, resolved = resolve_spans(
+                        json.loads(choice["message"]["content"]), text
+                    )
+                    validate(labels, text)
+                    record = {
+                        **record,
+                        "status": "success",
+                        "labels": labels,
+                        "resolved_spans": resolved,
+                    }
                 except (
                     ValueError,
                     KeyError,

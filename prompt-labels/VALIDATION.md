@@ -30,6 +30,16 @@ No real model endpoint was called. Stub requests were loopback-only. These check
 validate software, source correspondence and reproducibility, not semantic
 accuracy or actual-model agreement. Gold remains one agent coder, no adjudication.
 
+## AF3a2 span resolution
+
+The harness uses `nfc-casefold-whitespace-quotes-dashes` for near-exact positive
+spans, maps matches to the source's exact contiguous text, and records resolved
+component names in `resolved_spans`. The standalone validator and released gold
+remain exact-span checks. The harness metadata is AF3a-v2, which refuses an
+existing AF3a-v1 journal through the configuration hash check. Synthetic tests
+cover exact, case, whitespace, apostrophe, dash, repeated occurrence, unsupported
+paraphrases/fragments and old-journal refusal. No real model endpoint was called.
+
 ## Release download
 
 The public `prompt-labels-v1` release was freshly downloaded with:

@@ -123,6 +123,15 @@ Scripted dialogue is content, not automatically an instruction to depict every
 entity or event it mentions; explicit performance directions can qualify.
 Time of day alone does not establish lighting or timing.
 
+The stored span must always be an exact contiguous substring of the source field.
+The local harness may resolve a non-exact model span using only NFC, case-folding,
+whitespace-run collapse, trimmed span-edge whitespace, typographic quote
+normalisation and en/em-dash normalisation. It then stores the source's own exact
+characters. It does not use fuzzy matching, remove punctuation or join passages;
+unmatched spans remain `unsupported_span`. When normalised text occurs more than
+once, the first source occurrence is used. The standalone `validate` function
+and gold release continue to require exact spans.
+
 | Component / key | Inclusion | Exclusion |
 | --- | --- | --- |
 | `subject` | Explicit entity to depict or manipulate: person, animal, object or group. | Exclude setting alone and generic image/video placeholders without an entity. |
@@ -245,9 +254,13 @@ model's requirements or actual usage. No GPU-time or cost estimate is inferred.
 its hash. Each request contains one whole prompt, its recorded generation type/text role,
 definitions and strict JSON schema at `POST <base-url>/chat/completions`. Source text is untrusted user content;
 it is never executed. Temperature is zero, streaming is off. Schema validation
-requires exactly fourteen keys, boolean presence, positive nonempty exact spans,
-and null spans for negatives. Missing reported model, non-stop finish, invalid
-JSON/schema or unsupported spans are failures.
+requires exactly fourteen keys, boolean presence, positive nonempty spans, and
+null spans for negatives. The harness resolves eligible near-exact spans to the
+source text under `nfc-casefold-whitespace-quotes-dashes`; successes record the
+sorted component names in `resolved_spans` (empty when all spans were exact).
+Missing reported model, non-stop finish, invalid JSON/schema or spans not found
+under that closed rule are failures. Metadata uses `labels_version: AF3a-v2`,
+so a journal started under AF3a-v1 fails the existing configuration check.
 
 An append-only JSONL journal flushes and `fsync`s each started attempt and its
 success/failure immediately. A nonblocking POSIX file lock prevents concurrent
