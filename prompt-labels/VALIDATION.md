@@ -32,13 +32,19 @@ accuracy or actual-model agreement. Gold remains one agent coder, no adjudicatio
 
 ## AF3a2 span resolution
 
-The harness uses `nfc-casefold-whitespace-quotes-dashes` for near-exact positive
-spans, maps matches to the source's exact contiguous text, and records resolved
-component names in `resolved_spans`. The standalone validator and released gold
-remain exact-span checks. The harness metadata is AF3a-v2, which refuses an
-existing AF3a-v1 journal through the configuration hash check. Synthetic tests
-cover exact, case, whitespace, apostrophe, dash, repeated occurrence, unsupported
-paraphrases/fragments and old-journal refusal. No real model endpoint was called.
+The harness first uses `nfc-casefold-whitespace-quotes-dashes` for near-exact
+positive spans. If that fails, AF3a-v3 splits spans on runs of at least two full
+stops or `…`, resolves nonempty fragments in order using the same exact-then-
+normalised search, and stores the shortest contiguous source passage covering
+them. Components resolved this way are recorded in `joined_spans`; ordinary
+normalised matches remain in `resolved_spans`, with no overlap between the lists.
+Missing or out-of-order fragments fail. Exact full-span matches take precedence.
+The standalone validator and released gold remain exact-span checks. The
+`nfc-casefold-whitespace-quotes-dashes+ellipsis-cover` metadata and AF3a-v3 label
+version refuse existing AF3a-v2 journals through the configuration hash check.
+Synthetic tests cover exact, case, whitespace, apostrophe, dash, repeated
+occurrence, ellipsis fragments and v2 journal refusal. No real model endpoint was
+called.
 
 ## Release download
 
