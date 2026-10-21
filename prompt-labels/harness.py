@@ -84,8 +84,8 @@ def run(
         "max_attempts": max_attempts,
         "timeout_seconds": timeout,
         "codebook_version": "1.0",
-        "labels_version": "AF3a-v2",
-        "span_resolution": "nfc-casefold-whitespace-quotes-dashes",
+        "labels_version": "AF3a-v3",
+        "span_resolution": "nfc-casefold-whitespace-quotes-dashes+ellipsis-cover",
         "provisional": True,
         "study": "04",
         "code_id": "04.2",
@@ -177,7 +177,7 @@ def run(
                     choice = reply["choices"][0]
                     if choice.get("finish_reason") != "stop":
                         raise ValueError("incomplete_reply")
-                    labels, resolved = resolve_spans(
+                    labels, resolved, joined = resolve_spans(
                         json.loads(choice["message"]["content"]), text
                     )
                     validate(labels, text)
@@ -186,6 +186,7 @@ def run(
                         "status": "success",
                         "labels": labels,
                         "resolved_spans": resolved,
+                        "joined_spans": joined,
                     }
                 except (
                     ValueError,

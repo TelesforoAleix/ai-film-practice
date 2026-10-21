@@ -90,20 +90,73 @@ def test_invalid_labels(bad):
     ],
 )
 def test_resolve_spans_returns_source_text(source, model_span, expected):
-    result, resolved = resolve_spans(labels(subject=model_span), source)
+    result, resolved, joined = resolve_spans(labels(subject=model_span), source)
     assert result["subject"]["span"] == expected
     assert expected in source
     assert resolved == ([] if model_span == expected else ["subject"])
+    assert joined == []
 
 
 def test_resolve_spans_uses_first_occurrence_and_rejects_paraphrases():
     source = "A red boat; A red boat"
-    result, resolved = resolve_spans(labels(subject="a red boat"), source)
+    result, resolved, joined = resolve_spans(labels(subject="a red boat"), source)
     assert result["subject"]["span"] == "A red boat"
     assert resolved == ["subject"]
-    for candidate in ("a crimson boat", "A red...a red boat"):
+    assert joined == []
+    for candidate in ("a crimson boat", "A red...missing"):
         with pytest.raises(ValueError, match="unsupported_span"):
             resolve_spans(labels(subject=candidate), "A red boat; a red boat")
+
+
+@pytest.mark.parametrize(
+    ("source", "candidate", "expected"),
+    [
+        (
+            "Preserve the exact look. Keep soft lighting.",
+            "Preserve the exact...lighting",
+            "Preserve the exact look. Keep soft lighting",
+        ),
+        (
+            "30mm lens, F1 aperture; extremely shallow depth of field, medium shot",
+            "30mm lens...medium shot",
+            "30mm lens, F1 aperture; extremely shallow depth of field, medium shot",
+        ),
+        (
+            "first part ... middle … final part",
+            "first part…middle...final part",
+            "first part ... middle … final part",
+        ),
+        (
+            "First  part\nthen  final",
+            "first part ... final",
+            "First  part\nthen  final",
+        ),
+        (
+            "Only this passage remains.",
+            "Only this passage remains..",
+            "Only this passage remains",
+        ),
+    ],
+)
+def test_ellipsis_fragments_resolve_to_contiguous_source(source, candidate, expected):
+    result, resolved, joined = resolve_spans(labels(subject=candidate), source)
+    assert result["subject"]["span"] == expected
+    assert expected in source
+    assert resolved == []
+    assert joined == ["subject"]
+
+
+def test_ellipsis_order_missing_and_exact_source_separator():
+    source = "alpha appears, then beta appears, then gamma appears"
+    for candidate in ("gamma...alpha", "alpha...missing"):
+        with pytest.raises(ValueError, match="unsupported_span"):
+            resolve_spans(labels(subject=candidate), source)
+    exact_source = "literal ... separator"
+    result, resolved, joined = resolve_spans(
+        labels(subject="literal ... separator"), exact_source
+    )
+    assert result["subject"]["span"] == exact_source
+    assert resolved == joined == []
 
 
 def test_old_harness_configuration_is_refused(tmp_path):
@@ -115,7 +168,7 @@ def test_old_harness_configuration_is_refused(tmp_path):
                 "text_id": rows[0]["text_id"],
                 "status": "success",
                 "attempt": 1,
-                "labels_version": "AF3a-v1",
+                "labels_version": "AF3a-v2",
                 "run_sha256": "old",
             }
         )
@@ -233,7 +286,9 @@ def test_http_retry_interruption_resume_and_metadata(tmp_path):
         assert len(successes) == 2
         assert all(r["reported_model"] == "stub-reported" for r in successes)
         assert successes[0]["resolved_spans"] == ["subject"]
+        assert successes[0]["joined_spans"] == []
         assert successes[1]["resolved_spans"] == []
+        assert successes[1]["joined_spans"] == []
         assert all(r["requested_model"] == "stub-requested" for r in final)
         assert all(r["request_settings"]["temperature"] == 0 for r in final)
         expected_hash = digest(

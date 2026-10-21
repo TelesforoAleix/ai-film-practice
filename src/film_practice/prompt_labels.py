@@ -2,6 +2,7 @@
 
 import hashlib
 import json
+import re
 import unicodedata
 from collections import defaultdict, deque
 
@@ -184,7 +185,7 @@ def validate(labels, text=None):
 
 
 def resolve_spans(labels, text):
-    """Resolve normalised positive spans to exact, contiguous source text."""
+    """Resolve positive spans; return normalised and ellipsis-joined components."""
     validate(labels)
 
     def normalise(value, source=False):
@@ -238,7 +239,33 @@ def resolve_spans(labels, text):
 
     source_norm, offsets = normalise(text, source=True)
     resolved = []
+    joined = []
     result = {key: dict(value) for key, value in labels.items()}
+
+    def locate(fragment, source_start=0):
+        exact_at = text.find(fragment, source_start)
+        if exact_at >= 0:
+            return exact_at, exact_at + len(fragment)
+        needle = normalise(fragment.strip())
+        if not needle:
+            return None
+        left = len(source_norm) - len(source_norm.lstrip())
+        right = len(source_norm.rstrip())
+        haystack = source_norm[left:right]
+        source_offsets = offsets[left:right]
+        position = 0
+        while True:
+            position = haystack.find(needle, position)
+            if position < 0:
+                return None
+            start = source_offsets[position][0]
+            end = source_offsets[position + len(needle) - 1][1]
+            if start >= source_start:
+                candidate = text[start:end]
+                if normalise(candidate.strip()) == needle:
+                    return start, end
+            position += 1
+
     for component, value in result.items():
         if not value["present"]:
             continue
@@ -247,24 +274,32 @@ def resolve_spans(labels, text):
         if exact:
             resolved_span = span
         else:
-            needle = normalise(span.strip())
-            haystack, source_offsets = source_norm.strip(), offsets
-            # Keep the trimmed source's offset map aligned with its characters.
-            left = len(source_norm) - len(source_norm.lstrip())
-            right = len(source_norm.rstrip())
-            source_offsets = source_offsets[left:right]
-            position = haystack.find(needle)
-            if not needle or position < 0:
-                raise ValueError("unsupported_span")
-            start = source_offsets[position][0]
-            end = source_offsets[position + len(needle) - 1][1]
-            resolved_span = text[start:end]
-            if normalise(resolved_span.strip()) != needle:
-                raise ValueError("unsupported_span")
-            value["span"] = resolved_span
-            resolved.append(component)
+            found = locate(span.strip())
+            if found is not None:
+                start, end = found
+                resolved_span = text[start:end]
+                value["span"] = resolved_span
+                resolved.append(component)
+            else:
+                fragments = [
+                    part.strip() for part in re.split(r"\s*(?:\.{2,}|…+)\s*", span)
+                ]
+                fragments = [part for part in fragments if part]
+                if not fragments:
+                    raise ValueError("unsupported_span")
+                matches = []
+                cursor = 0
+                for fragment in fragments:
+                    match = locate(fragment, cursor)
+                    if match is None:
+                        raise ValueError("unsupported_span")
+                    matches.append(match)
+                    cursor = match[1]
+                resolved_span = text[matches[0][0] : matches[-1][1]]
+                value["span"] = resolved_span
+                joined.append(component)
     validate(result, text)
-    return result, sorted(resolved)
+    return result, sorted(resolved), sorted(joined)
 
 
 def load_text(db, row):

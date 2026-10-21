@@ -124,13 +124,19 @@ entity or event it mentions; explicit performance directions can qualify.
 Time of day alone does not establish lighting or timing.
 
 The stored span must always be an exact contiguous substring of the source field.
-The local harness may resolve a non-exact model span using only NFC, case-folding,
+The local harness first tries the AF3a2 closed normalisation: NFC, case-folding,
 whitespace-run collapse, trimmed span-edge whitespace, typographic quote
-normalisation and en/em-dash normalisation. It then stores the source's own exact
-characters. It does not use fuzzy matching, remove punctuation or join passages;
-unmatched spans remain `unsupported_span`. When normalised text occurs more than
-once, the first source occurrence is used. The standalone `validate` function
-and gold release continue to require exact spans.
+normalisation and en/em-dash normalisation. If that fails, it may split on an
+ellipsis separator (two or more full stops, or `…`) and resolve each fragment in
+order using the same exact-then-normalised rule, starting each search at the end
+of the preceding match. It stores the shortest contiguous source passage covering
+the ordered fragments and records that component in `joined_spans`. A leading or
+trailing ellipsis resolves its single nonempty fragment. Missing or out-of-order
+fragments remain `unsupported_span`; no fuzzy matching, reordering or other
+separator is allowed. Ordinary normalised matches are listed in `resolved_spans`;
+each component appears in only one list. An exact full-span match takes precedence,
+including when the source itself contains ellipses. The standalone `validate`
+function and gold release continue to require exact spans.
 
 | Component / key | Inclusion | Exclusion |
 | --- | --- | --- |
@@ -256,11 +262,12 @@ definitions and strict JSON schema at `POST <base-url>/chat/completions`. Source
 it is never executed. Temperature is zero, streaming is off. Schema validation
 requires exactly fourteen keys, boolean presence, positive nonempty spans, and
 null spans for negatives. The harness resolves eligible near-exact spans to the
-source text under `nfc-casefold-whitespace-quotes-dashes`; successes record the
-sorted component names in `resolved_spans` (empty when all spans were exact).
-Missing reported model, non-stop finish, invalid JSON/schema or spans not found
-under that closed rule are failures. Metadata uses `labels_version: AF3a-v2`,
-so a journal started under AF3a-v1 fails the existing configuration check.
+source text under `nfc-casefold-whitespace-quotes-dashes`; successes record
+ordinary normalized components in `resolved_spans` and ellipsis-covered components
+in `joined_spans`. Missing reported model, non-stop finish, invalid JSON/schema or
+spans not found under that closed rule are failures. Metadata uses
+`labels_version: AF3a-v3` and the ellipsis-cover rule identifier, so an AF3a-v2
+journal fails the existing configuration check.
 
 An append-only JSONL journal flushes and `fsync`s each started attempt and its
 success/failure immediately. A nonblocking POSIX file lock prevents concurrent
