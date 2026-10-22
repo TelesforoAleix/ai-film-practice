@@ -1,0 +1,3226 @@
+[
+  {
+    "applicability": "Named construction task only; no outcome or benefit",
+    "construction_label": "inferred",
+    "evidence": {
+      "case_source": "case-files/a-tales-before-titanic-tragedy/codes.csv",
+      "code_id": "05.2",
+      "codebook_version": "1.0",
+      "competing_explanation": "Published histories can omit external/private work; instructions do not establish achieved results, final acceptance or project-wide intent.",
+      "confidence_rationale": "Direct source paths/compound keys and exact excerpt or deterministic aggregate checked during reproduction; single-coder semantic interpretation, scoped to named evidence. No agreement or quality estimate.",
+      "denominator": "One named job / 4 inspected / 4 exported jobs; input rows are occurrences, not independent evidence",
+      "entity_ids": "3f6e509b-f3da-4324-a746-b9d35f0b9845/generation:416eb299-5a02-4dd1-99c1-8a11d9de0b04; 3f6e509b-f3da-4324-a746-b9d35f0b9845/asset:7a44e44c-7b45-4fc5-8c8b-303f25779194; 3f6e509b-f3da-4324-a746-b9d35f0b9845/asset:612f580b-00fe-4730-a3eb-b2c49902c939",
+      "evidence_id": "a-tales-before-titanic-tragedy:05.2",
+      "evidence_label": "observed",
+      "excerpt": "make a character sheet. [excerpt boundary] Generate face close-up, side profil view, rear profil, and full body. [excerpt boundary] Subject <<<image_1>>>: [excerpt boundary] Wardrobe <<<image_2>>>: He wearing worn brown waistcoat, [excerpt boundary] [literal model_identifier] nano_banana_2 [literal model_name] Nano Banana Pro [excerpt boundary] [input usage role/path] [[\"612f580b-00fe-4730-a3eb-b2c49902c939\", \"input_asset\", \"params.input_images[1]\", null], [\"7a44e44c-7b45-4fc5-8c8b-303f25779194\", \"input_asset\", \"params.input_images[0]\", null]]",
+      "film_id": "3f6e509b-f3da-4324-a746-b9d35f0b9845",
+      "later_study": "05",
+      "population": "primary",
+      "scope_note": "Two input_asset occurrences with two distinct IDs; no compositing-layer claim.",
+      "source_path": "generations.prompt/model_identifier/model_name; asset_usages.asset_id/asset_role/parameter_path/reference_element_id; raw/projects/3f6e509b-f3da-4324-a746-b9d35f0b9845/items_0001.json",
+      "status": "coded",
+      "study": "05",
+      "title": "A Tales Before Titanic Tragedy",
+      "value": "multiple_inputs"
+    },
+    "failure_mode": "Mistaking conditioning or a request for achieved integration",
+    "jobs": [
+      {
+        "attachments": [
+          {
+            "asset_id": "612f580b-00fe-4730-a3eb-b2c49902c939",
+            "asset_role": "input_asset",
+            "image_binding": true,
+            "parameter_path": "params.input_images[1]",
+            "producer": null,
+            "producer_type": null,
+            "reference_element_id": null
+          },
+          {
+            "asset_id": "7a44e44c-7b45-4fc5-8c8b-303f25779194",
+            "asset_role": "input_asset",
+            "image_binding": true,
+            "parameter_path": "params.input_images[0]",
+            "producer": null,
+            "producer_type": null,
+            "reference_element_id": null
+          }
+        ],
+        "denominator": "One named job; attachments are occurrence rows",
+        "evidence_ids": [
+          "a-tales-before-titanic-tragedy:05.1",
+          "a-tales-before-titanic-tragedy:05.2",
+          "a-tales-before-titanic-tragedy:05.4",
+          "a-tales-before-titanic-tragedy:05.5"
+        ],
+        "evidence_label": "observed",
+        "film_id": "3f6e509b-f3da-4324-a746-b9d35f0b9845",
+        "generation_id": "416eb299-5a02-4dd1-99c1-8a11d9de0b04",
+        "generation_type": "image",
+        "literal_controls": {
+          "aspect_ratio": {
+            "raw_json": "\"21:9\"",
+            "state": "str"
+          },
+          "denoise": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_bottom": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_left": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_right": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_top": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_json": "1344",
+            "state": "int"
+          },
+          "is_all_angles_dump": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "is_inpaint": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "move_forward_level": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "remove_bg": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_json": "\"2k\"",
+            "state": "str"
+          },
+          "rotate_degree": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "sharpen": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "vertical_angle": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_json": "3168",
+            "state": "int"
+          }
+        },
+        "media_outcome": "unobservable",
+        "model_identifier": "nano_banana_2",
+        "parameter_state": "object",
+        "prompt_source_path": "params.prompt"
+      }
+    ],
+    "layer_or_mask_claim": "unsupported unless explicitly disclosed",
+    "sequence": "Resolved producer outputs then named consumer input; unresolved external sources retained without invented steps",
+    "tradeoff": "More explicit dependencies to record and review"
+  },
+  {
+    "applicability": "Named construction task only; no outcome or benefit",
+    "construction_label": "inferred",
+    "evidence": {
+      "case_source": "case-files/apeirophobia/codes.csv",
+      "code_id": "05.2",
+      "codebook_version": "1.0",
+      "competing_explanation": "Published histories can omit external/private work; instructions do not establish achieved results, final acceptance or project-wide intent.",
+      "confidence_rationale": "Direct source paths/compound keys and exact excerpt or deterministic aggregate checked during reproduction; single-coder semantic interpretation, scoped to named evidence. No agreement or quality estimate.",
+      "denominator": "One named job / 63 inspected / 6862 exported jobs; input rows are occurrences, not independent evidence",
+      "entity_ids": "c3d8ee5e-b119-4654-99f9-c6545f650635/generation:0376b202-36db-4ff5-b12e-5846923cbf28; c3d8ee5e-b119-4654-99f9-c6545f650635/asset:0b16f719-4297-4baa-b6ab-e0722fe728c0; c3d8ee5e-b119-4654-99f9-c6545f650635/asset:6fd3c56b-7b0c-47ff-a764-c50bc0eca411",
+      "evidence_id": "apeirophobia:05.2",
+      "evidence_label": "observed",
+      "excerpt": "replace the tattoo from the original image [excerpt boundary] dont change image <<<image_1>>> only the tattoo [excerpt boundary] [literal model_identifier] nano_banana_2 [literal model_name] Nano Banana Pro [excerpt boundary] [input usage role/path] [[\"0b16f719-4297-4baa-b6ab-e0722fe728c0\", \"input_asset\", \"params.input_images[0]\", null], [\"6fd3c56b-7b0c-47ff-a764-c50bc0eca411\", \"input_asset\", \"params.input_images[1]\", null]]",
+      "film_id": "c3d8ee5e-b119-4654-99f9-c6545f650635",
+      "later_study": "05",
+      "population": "primary",
+      "scope_note": "Two distinct input_asset IDs condition one requested edit; no layers inferred.",
+      "source_path": "generations.prompt/model_identifier/model_name; asset_usages.asset_id/asset_role/parameter_path/reference_element_id; raw/projects/c3d8ee5e-b119-4654-99f9-c6545f650635/items_0022.json",
+      "status": "coded",
+      "study": "05",
+      "title": "APEIROPHOBIA",
+      "value": "multiple_inputs"
+    },
+    "failure_mode": "Mistaking conditioning or a request for achieved integration",
+    "jobs": [
+      {
+        "attachments": [
+          {
+            "asset_id": "0b16f719-4297-4baa-b6ab-e0722fe728c0",
+            "asset_role": "input_asset",
+            "image_binding": true,
+            "parameter_path": "params.input_images[0]",
+            "producer": "0b16f719-4297-4baa-b6ab-e0722fe728c0",
+            "producer_type": "image",
+            "reference_element_id": null
+          },
+          {
+            "asset_id": "6fd3c56b-7b0c-47ff-a764-c50bc0eca411",
+            "asset_role": "input_asset",
+            "image_binding": true,
+            "parameter_path": "params.input_images[1]",
+            "producer": null,
+            "producer_type": null,
+            "reference_element_id": null
+          }
+        ],
+        "denominator": "One named job; attachments are occurrence rows",
+        "evidence_ids": [
+          "apeirophobia:05.1",
+          "apeirophobia:05.2",
+          "apeirophobia:05.3"
+        ],
+        "evidence_label": "observed",
+        "film_id": "c3d8ee5e-b119-4654-99f9-c6545f650635",
+        "generation_id": "0376b202-36db-4ff5-b12e-5846923cbf28",
+        "generation_type": "image",
+        "literal_controls": {
+          "aspect_ratio": {
+            "raw_json": "\"16:9\"",
+            "state": "str"
+          },
+          "denoise": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_bottom": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_left": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_right": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_top": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_json": "3072",
+            "state": "int"
+          },
+          "is_all_angles_dump": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "is_inpaint": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "move_forward_level": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "remove_bg": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_json": "\"4k\"",
+            "state": "str"
+          },
+          "rotate_degree": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "sharpen": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "vertical_angle": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_json": "5504",
+            "state": "int"
+          }
+        },
+        "media_outcome": "unobservable",
+        "model_identifier": "nano_banana_2",
+        "parameter_state": "object",
+        "prompt_source_path": "params.prompt"
+      }
+    ],
+    "layer_or_mask_claim": "unsupported unless explicitly disclosed",
+    "sequence": "Resolved producer outputs then named consumer input; unresolved external sources retained without invented steps",
+    "tradeoff": "More explicit dependencies to record and review"
+  },
+  {
+    "applicability": "Named construction task only; no outcome or benefit",
+    "construction_label": "inferred",
+    "evidence": {
+      "case_source": "case-files/birthdays/codes.csv",
+      "code_id": "05.2",
+      "codebook_version": "1.0",
+      "competing_explanation": "Published histories can omit external/private work; instructions do not establish achieved results, final acceptance or project-wide intent.",
+      "confidence_rationale": "Direct source paths/compound keys and exact excerpt or deterministic aggregate checked during reproduction; single-coder semantic interpretation, scoped to named evidence. No agreement or quality estimate.",
+      "denominator": "One named job / 170 inspected / 1003 exported jobs; input rows are occurrences, not independent evidence [evidence boundary] One named producer/consumer pair; exact asset IDs; all film assets/usages searched; raw/min metadata variants retained under their one asset entity",
+      "entity_ids": "d51d6821-d191-40f7-949b-1086750a2e93/generation:372eae81-9e4e-4264-adac-febf9565667e; d51d6821-d191-40f7-949b-1086750a2e93/asset:37f689e1-04da-473c-9778-97b61732ec90; d51d6821-d191-40f7-949b-1086750a2e93/asset:b38a38ab-607f-4228-93ee-f2d940fdb20f [evidence boundary] d51d6821-d191-40f7-949b-1086750a2e93/generation:37f689e1-04da-473c-9778-97b61732ec90; d51d6821-d191-40f7-949b-1086750a2e93/generation:372eae81-9e4e-4264-adac-febf9565667e; d51d6821-d191-40f7-949b-1086750a2e93/asset:37f689e1-04da-473c-9778-97b61732ec90",
+      "evidence_id": "birthdays:05.2",
+      "evidence_label": "observed",
+      "excerpt": "Embross the logo from <<<image_2>>> [excerpt boundary] on to the back of the electronic pad in <<<image_1>>> [excerpt boundary] Front, Side, 3/4 and back for the pad on grey background in 3 panels [excerpt boundary] [literal model_identifier] seedream_v5_lite [literal model_name] Seedream 5.0 Lite [excerpt boundary] [input usage role/path] [[\"37f689e1-04da-473c-9778-97b61732ec90\", \"input_image\", \"params.medias[0].data\", null], [\"b38a38ab-607f-4228-93ee-f2d940fdb20f\", \"input_image\", \"params.medias[1].data\", null]] [evidence boundary] [producer model] seedream_v4_5 [consumer model] seedream_v5_lite [explicit usage] [{\"asset_id\": \"37f689e1-04da-473c-9778-97b61732ec90\", \"asset_role\": \"input_image\", \"parameter_path\": \"params.medias[0].data\"}]",
+      "film_id": "d51d6821-d191-40f7-949b-1086750a2e93",
+      "later_study": "05",
+      "population": "primary",
+      "scope_note": "Two actual inputs; one explicitly resolved tablet producer. Conditioning and staging, not compositing layers.",
+      "source_path": "generations.prompt/model_identifier/model_name; asset_usages.asset_id/asset_role/parameter_path/reference_element_id; raw/projects/d51d6821-d191-40f7-949b-1086750a2e93/items_0009.json [evidence boundary] assets.generation_id/asset_id -> generations; asset_usages.generation_id/asset_id/asset_role/parameter_path",
+      "status": "coded",
+      "study": "05",
+      "title": "Birthdays",
+      "value": "multiple_inputs|staged_construction"
+    },
+    "failure_mode": "Mistaking conditioning or a request for achieved integration",
+    "jobs": [
+      {
+        "attachments": [
+          {
+            "asset_id": "37f689e1-04da-473c-9778-97b61732ec90",
+            "asset_role": "input_image",
+            "image_binding": true,
+            "parameter_path": "params.medias[0].data",
+            "producer": "37f689e1-04da-473c-9778-97b61732ec90",
+            "producer_type": "image",
+            "reference_element_id": null
+          },
+          {
+            "asset_id": "b38a38ab-607f-4228-93ee-f2d940fdb20f",
+            "asset_role": "input_image",
+            "image_binding": true,
+            "parameter_path": "params.medias[1].data",
+            "producer": null,
+            "producer_type": null,
+            "reference_element_id": null
+          }
+        ],
+        "denominator": "One named job; attachments are occurrence rows",
+        "evidence_ids": [
+          "birthdays:05.1",
+          "birthdays:05.2",
+          "birthdays:05.4"
+        ],
+        "evidence_label": "observed",
+        "film_id": "d51d6821-d191-40f7-949b-1086750a2e93",
+        "generation_id": "372eae81-9e4e-4264-adac-febf9565667e",
+        "generation_type": "image",
+        "literal_controls": {
+          "aspect_ratio": {
+            "raw_json": "\"16:9\"",
+            "state": "str"
+          },
+          "denoise": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_bottom": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_left": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_right": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_top": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_json": "3040",
+            "state": "int"
+          },
+          "is_all_angles_dump": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "is_inpaint": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "move_forward_level": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "remove_bg": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "rotate_degree": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "sharpen": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "vertical_angle": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_json": "5504",
+            "state": "int"
+          }
+        },
+        "media_outcome": "unobservable",
+        "model_identifier": "seedream_v5_lite",
+        "parameter_state": "object",
+        "prompt_source_path": "params.prompt"
+      },
+      {
+        "attachments": [],
+        "denominator": "One named job; attachments are occurrence rows",
+        "evidence_ids": [
+          "birthdays:05.2"
+        ],
+        "evidence_label": "observed",
+        "film_id": "d51d6821-d191-40f7-949b-1086750a2e93",
+        "generation_id": "37f689e1-04da-473c-9778-97b61732ec90",
+        "generation_type": "image",
+        "literal_controls": {
+          "aspect_ratio": {
+            "raw_json": "\"16:9\"",
+            "state": "str"
+          },
+          "denoise": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_bottom": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_left": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_right": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_top": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_json": "2880",
+            "state": "int"
+          },
+          "is_all_angles_dump": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "is_inpaint": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "move_forward_level": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "remove_bg": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "rotate_degree": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "sharpen": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "vertical_angle": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_json": "5120",
+            "state": "int"
+          }
+        },
+        "media_outcome": "unobservable",
+        "model_identifier": "seedream_v4_5",
+        "parameter_state": "object",
+        "prompt_source_path": "params.prompt"
+      }
+    ],
+    "layer_or_mask_claim": "unsupported unless explicitly disclosed",
+    "sequence": "Resolved producer outputs then named consumer input; unresolved external sources retained without invented steps",
+    "tradeoff": "More explicit dependencies to record and review"
+  },
+  {
+    "applicability": "Named construction task only; no outcome or benefit",
+    "construction_label": "inferred",
+    "evidence": {
+      "case_source": "case-files/detour/codes.csv",
+      "code_id": "05.2",
+      "codebook_version": "1.0",
+      "competing_explanation": "Published histories can omit external/private work; instructions do not establish achieved results, final acceptance or project-wide intent.",
+      "confidence_rationale": "Direct source paths/compound keys and exact excerpt or deterministic aggregate checked during reproduction; single-coder semantic interpretation, scoped to named evidence. No agreement or quality estimate.",
+      "denominator": "One named job / 219 inspected / 6162 exported jobs; input rows are occurrences, not independent evidence",
+      "entity_ids": "d90fe8bd-3329-40b3-963c-d9b33075aec1/generation:00406410-315c-4041-b23f-9513cfe2434f; d90fe8bd-3329-40b3-963c-d9b33075aec1/asset:103257f3-60f6-4b45-82ee-2d2f75ca0e79; d90fe8bd-3329-40b3-963c-d9b33075aec1/asset:943dafcf-4760-4a0a-a237-df90eed708bf; d90fe8bd-3329-40b3-963c-d9b33075aec1/reference:e4e87392-4622-46e3-9661-45616abcad0f",
+      "evidence_id": "detour:05.2",
+      "evidence_label": "observed",
+      "excerpt": "Keep the composition of <<<image_1>>> exactly as it is [excerpt boundary] each block is 10–12 metres tall [excerpt boundary] All chevrons point LEFT. [excerpt boundary] [literal controls] {\"is_inpaint\": false} [excerpt boundary] [literal model_identifier] seedream_v5_pro [literal model_name] Seedream 5.0 Pro [excerpt boundary] [input usage role/path] [[\"103257f3-60f6-4b45-82ee-2d2f75ca0e79\", \"input_image\", \"params.medias[0].data\", null], [\"943dafcf-4760-4a0a-a237-df90eed708bf\", \"reference_image\", \"params.reference_elements[0].medias[0]\", \"e4e87392-4622-46e3-9661-45616abcad0f\"]] [excerpt boundary] [disclosed reference metadata] [{\"category\": \"prop\", \"name\": \"prop_left_arrows\", \"reference_element_id\": \"e4e87392-4622-46e3-9661-45616abcad0f\"}]",
+      "film_id": "d90fe8bd-3329-40b3-963c-d9b33075aec1",
+      "later_study": "05",
+      "population": "primary",
+      "scope_note": "One image and one reference asset condition the request; no layers inferred.",
+      "source_path": "generations.prompt/model_identifier/model_name; generations.parameters_json.is_inpaint; asset_usages.asset_id/asset_role/parameter_path/reference_element_id; reference_elements.reference_element_id/name/category; raw/projects/d90fe8bd-3329-40b3-963c-d9b33075aec1/items_0006.json",
+      "status": "coded",
+      "study": "05",
+      "title": "Detour",
+      "value": "multiple_inputs"
+    },
+    "failure_mode": "Mistaking conditioning or a request for achieved integration",
+    "jobs": [
+      {
+        "attachments": [
+          {
+            "asset_id": "103257f3-60f6-4b45-82ee-2d2f75ca0e79",
+            "asset_role": "input_image",
+            "image_binding": true,
+            "parameter_path": "params.medias[0].data",
+            "producer": null,
+            "producer_type": null,
+            "reference_element_id": null
+          },
+          {
+            "asset_id": "943dafcf-4760-4a0a-a237-df90eed708bf",
+            "asset_role": "reference_image",
+            "image_binding": true,
+            "parameter_path": "params.reference_elements[0].medias[0]",
+            "producer": null,
+            "producer_type": null,
+            "reference_element_id": "e4e87392-4622-46e3-9661-45616abcad0f"
+          }
+        ],
+        "denominator": "One named job; attachments are occurrence rows",
+        "evidence_ids": [
+          "detour:05.1",
+          "detour:05.2",
+          "detour:05.3",
+          "detour:05.4"
+        ],
+        "evidence_label": "observed",
+        "film_id": "d90fe8bd-3329-40b3-963c-d9b33075aec1",
+        "generation_id": "00406410-315c-4041-b23f-9513cfe2434f",
+        "generation_type": "image",
+        "literal_controls": {
+          "aspect_ratio": {
+            "raw_json": "\"21:9\"",
+            "state": "str"
+          },
+          "denoise": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_bottom": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_left": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_right": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_top": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_json": "1328",
+            "state": "int"
+          },
+          "is_all_angles_dump": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "is_inpaint": {
+            "raw_json": "false",
+            "state": "bool"
+          },
+          "mode": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "move_forward_level": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "remove_bg": {
+            "raw_json": "false",
+            "state": "bool"
+          },
+          "resolution": {
+            "raw_json": "\"2k\"",
+            "state": "str"
+          },
+          "rotate_degree": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "sharpen": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "vertical_angle": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_json": "3120",
+            "state": "int"
+          }
+        },
+        "media_outcome": "unobservable",
+        "model_identifier": "seedream_v5_pro",
+        "parameter_state": "object",
+        "prompt_source_path": "params.prompt"
+      }
+    ],
+    "layer_or_mask_claim": "unsupported unless explicitly disclosed",
+    "sequence": "Resolved producer outputs then named consumer input; unresolved external sources retained without invented steps",
+    "tradeoff": "More explicit dependencies to record and review"
+  },
+  {
+    "applicability": "Named construction task only; no outcome or benefit",
+    "construction_label": "inferred",
+    "evidence": {
+      "case_source": "case-files/dont-poison-ivy/codes.csv",
+      "code_id": "05.2",
+      "codebook_version": "1.0",
+      "competing_explanation": "Published histories can omit external/private work; instructions do not establish achieved results, final acceptance or project-wide intent.",
+      "confidence_rationale": "Direct source paths/compound keys and exact excerpt or deterministic aggregate checked during reproduction; single-coder semantic interpretation, scoped to named evidence. No agreement or quality estimate.",
+      "denominator": "One named job / 553 inspected / 553 exported jobs; input rows are occurrences, not independent evidence [evidence boundary] One named producer/consumer pair; exact asset IDs; all film assets/usages searched; raw/min metadata variants retained under their one asset entity [evidence boundary] One named producer/consumer pair; exact asset IDs; all film assets/usages searched; raw/min metadata variants retained under their one asset entity",
+      "entity_ids": "d305f6e5-b906-49a1-a0c6-75ef7f653ad8/generation:5bc1268c-ccc1-419e-bd13-79344eadf228; d305f6e5-b906-49a1-a0c6-75ef7f653ad8/asset:4ebd698e-e1f7-479d-93b0-4043e5e61913; d305f6e5-b906-49a1-a0c6-75ef7f653ad8/asset:c16ce530-c7d1-461a-acc8-63b8d7de63b1 [evidence boundary] d305f6e5-b906-49a1-a0c6-75ef7f653ad8/generation:4ebd698e-e1f7-479d-93b0-4043e5e61913; d305f6e5-b906-49a1-a0c6-75ef7f653ad8/generation:5bc1268c-ccc1-419e-bd13-79344eadf228; d305f6e5-b906-49a1-a0c6-75ef7f653ad8/asset:4ebd698e-e1f7-479d-93b0-4043e5e61913 [evidence boundary] d305f6e5-b906-49a1-a0c6-75ef7f653ad8/generation:c16ce530-c7d1-461a-acc8-63b8d7de63b1; d305f6e5-b906-49a1-a0c6-75ef7f653ad8/generation:5bc1268c-ccc1-419e-bd13-79344eadf228; d305f6e5-b906-49a1-a0c6-75ef7f653ad8/asset:c16ce530-c7d1-461a-acc8-63b8d7de63b1",
+      "evidence_id": "dont-poison-ivy:05.2",
+      "evidence_label": "observed",
+      "excerpt": "TRANSPLANT THE PLANT FROM IMAGE 2 ONTO THE SHELF. [excerpt boundary] FIRST, SCALE. [excerpt boundary] SECOND, POSITION. [excerpt boundary] THIRD, VIEWING ANGLE. [excerpt boundary] FOURTH, LIGHTING. [excerpt boundary] [literal controls] {\"is_inpaint\": false} [excerpt boundary] [literal model_identifier] seedream_v5_pro [literal model_name] Seedream 5.0 Pro [excerpt boundary] [input usage role/path] [[\"4ebd698e-e1f7-479d-93b0-4043e5e61913\", \"input_image\", \"params.medias[0].data\", null], [\"c16ce530-c7d1-461a-acc8-63b8d7de63b1\", \"input_image\", \"params.medias[1].data\", null]] [evidence boundary] [producer model] seedream_v5_pro [consumer model] seedream_v5_pro [explicit usage] [{\"asset_id\": \"4ebd698e-e1f7-479d-93b0-4043e5e61913\", \"asset_role\": \"input_image\", \"parameter_path\": \"params.medias[0].data\"}] [evidence boundary] [producer model] nano_banana_2 [consumer model] seedream_v5_pro [explicit usage] [{\"asset_id\": \"c16ce530-c7d1-461a-acc8-63b8d7de63b1\", \"asset_role\": \"input_image\", \"parameter_path\": \"params.medias[1].data\"}]",
+      "film_id": "d305f6e5-b906-49a1-a0c6-75ef7f653ad8",
+      "later_study": "05",
+      "population": "primary",
+      "scope_note": "Two exact producer inputs converge in the placement task, not two disclosed layers.",
+      "source_path": "generations.prompt/model_identifier/model_name; generations.parameters_json.is_inpaint; asset_usages.asset_id/asset_role/parameter_path/reference_element_id; raw/projects/d305f6e5-b906-49a1-a0c6-75ef7f653ad8/items_0001.json [evidence boundary] assets.generation_id/asset_id -> generations; asset_usages.generation_id/asset_id/asset_role/parameter_path [evidence boundary] assets.generation_id/asset_id -> generations; asset_usages.generation_id/asset_id/asset_role/parameter_path",
+      "status": "coded",
+      "study": "05",
+      "title": "Don't Poison Ivy",
+      "value": "multiple_inputs|staged_construction"
+    },
+    "failure_mode": "Mistaking conditioning or a request for achieved integration",
+    "jobs": [
+      {
+        "attachments": [
+          {
+            "asset_id": "1c5b75b4-5f28-4d57-b747-51aaca96f6a2",
+            "asset_role": "input_image",
+            "image_binding": true,
+            "parameter_path": "params.medias[1].data",
+            "producer": null,
+            "producer_type": null,
+            "reference_element_id": null
+          },
+          {
+            "asset_id": "1e640c6a-d112-4626-949b-7e254716bb55",
+            "asset_role": "input_image",
+            "image_binding": true,
+            "parameter_path": "params.medias[2].data",
+            "producer": null,
+            "producer_type": null,
+            "reference_element_id": null
+          },
+          {
+            "asset_id": "7dfb6734-85c4-415e-9cd0-1e376adc7df5",
+            "asset_role": "input_image",
+            "image_binding": true,
+            "parameter_path": "params.medias[0].data",
+            "producer": null,
+            "producer_type": null,
+            "reference_element_id": null
+          }
+        ],
+        "denominator": "One named job; attachments are occurrence rows",
+        "evidence_ids": [
+          "dont-poison-ivy:05.2"
+        ],
+        "evidence_label": "observed",
+        "film_id": "d305f6e5-b906-49a1-a0c6-75ef7f653ad8",
+        "generation_id": "4ebd698e-e1f7-479d-93b0-4043e5e61913",
+        "generation_type": "image",
+        "literal_controls": {
+          "aspect_ratio": {
+            "raw_json": "\"16:9\"",
+            "state": "str"
+          },
+          "denoise": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_bottom": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_left": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_right": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_top": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_json": "1536",
+            "state": "int"
+          },
+          "is_all_angles_dump": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "is_inpaint": {
+            "raw_json": "false",
+            "state": "bool"
+          },
+          "mode": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "move_forward_level": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "remove_bg": {
+            "raw_json": "false",
+            "state": "bool"
+          },
+          "resolution": {
+            "raw_json": "\"2k\"",
+            "state": "str"
+          },
+          "rotate_degree": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "sharpen": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "vertical_angle": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_json": "2720",
+            "state": "int"
+          }
+        },
+        "media_outcome": "unobservable",
+        "model_identifier": "seedream_v5_pro",
+        "parameter_state": "object",
+        "prompt_source_path": "params.prompt"
+      },
+      {
+        "attachments": [
+          {
+            "asset_id": "4ebd698e-e1f7-479d-93b0-4043e5e61913",
+            "asset_role": "input_image",
+            "image_binding": true,
+            "parameter_path": "params.medias[0].data",
+            "producer": "4ebd698e-e1f7-479d-93b0-4043e5e61913",
+            "producer_type": "image",
+            "reference_element_id": null
+          },
+          {
+            "asset_id": "c16ce530-c7d1-461a-acc8-63b8d7de63b1",
+            "asset_role": "input_image",
+            "image_binding": true,
+            "parameter_path": "params.medias[1].data",
+            "producer": "c16ce530-c7d1-461a-acc8-63b8d7de63b1",
+            "producer_type": "image",
+            "reference_element_id": null
+          }
+        ],
+        "denominator": "One named job; attachments are occurrence rows",
+        "evidence_ids": [
+          "dont-poison-ivy:05.1",
+          "dont-poison-ivy:05.2",
+          "dont-poison-ivy:05.3",
+          "dont-poison-ivy:05.4"
+        ],
+        "evidence_label": "observed",
+        "film_id": "d305f6e5-b906-49a1-a0c6-75ef7f653ad8",
+        "generation_id": "5bc1268c-ccc1-419e-bd13-79344eadf228",
+        "generation_type": "image",
+        "literal_controls": {
+          "aspect_ratio": {
+            "raw_json": "\"16:9\"",
+            "state": "str"
+          },
+          "denoise": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_bottom": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_left": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_right": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_top": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_json": "1536",
+            "state": "int"
+          },
+          "is_all_angles_dump": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "is_inpaint": {
+            "raw_json": "false",
+            "state": "bool"
+          },
+          "mode": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "move_forward_level": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "remove_bg": {
+            "raw_json": "false",
+            "state": "bool"
+          },
+          "resolution": {
+            "raw_json": "\"2k\"",
+            "state": "str"
+          },
+          "rotate_degree": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "sharpen": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "vertical_angle": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_json": "2720",
+            "state": "int"
+          }
+        },
+        "media_outcome": "unobservable",
+        "model_identifier": "seedream_v5_pro",
+        "parameter_state": "object",
+        "prompt_source_path": "params.prompt"
+      },
+      {
+        "attachments": [],
+        "denominator": "One named job; attachments are occurrence rows",
+        "evidence_ids": [
+          "dont-poison-ivy:05.2"
+        ],
+        "evidence_label": "observed",
+        "film_id": "d305f6e5-b906-49a1-a0c6-75ef7f653ad8",
+        "generation_id": "c16ce530-c7d1-461a-acc8-63b8d7de63b1",
+        "generation_type": "image",
+        "literal_controls": {
+          "aspect_ratio": {
+            "raw_json": "\"4:5\"",
+            "state": "str"
+          },
+          "denoise": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_bottom": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_left": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_right": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_top": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_json": "4608",
+            "state": "int"
+          },
+          "is_all_angles_dump": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "is_inpaint": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "move_forward_level": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "remove_bg": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_json": "\"4k\"",
+            "state": "str"
+          },
+          "rotate_degree": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "sharpen": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "vertical_angle": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_json": "3712",
+            "state": "int"
+          }
+        },
+        "media_outcome": "unobservable",
+        "model_identifier": "nano_banana_2",
+        "parameter_state": "object",
+        "prompt_source_path": "params.prompt"
+      }
+    ],
+    "layer_or_mask_claim": "unsupported unless explicitly disclosed",
+    "sequence": "Resolved producer outputs then named consumer input; unresolved external sources retained without invented steps",
+    "tradeoff": "More explicit dependencies to record and review"
+  },
+  {
+    "applicability": "Named construction task only; no outcome or benefit",
+    "construction_label": "inferred",
+    "evidence": {
+      "case_source": "case-files/dry-aged-dreams/codes.csv",
+      "code_id": "05.2",
+      "codebook_version": "1.0",
+      "competing_explanation": "Published histories can omit external/private work; instructions do not establish achieved results, final acceptance or project-wide intent.",
+      "confidence_rationale": "Direct source paths/compound keys and exact excerpt or deterministic aggregate checked during reproduction; single-coder semantic interpretation, scoped to named evidence. Evidence does not decide this code; no absence inference.",
+      "denominator": "One registered primary film; 11 jobs; 11 inspected jobs",
+      "entity_ids": "3777eda4-c15e-4531-9f04-4c02a900f3c3/film:3777eda4-c15e-4531-9f04-4c02a900f3c3",
+      "evidence_id": "dry-aged-dreams:05.2",
+      "evidence_label": "observed",
+      "excerpt": "11 exported jobs; 11 jobs selected for technical reading",
+      "film_id": "3777eda4-c15e-4531-9f04-4c02a900f3c3",
+      "later_study": "05",
+      "population": "primary",
+      "scope_note": "No multi-input or staged image construction is established by inspected edges.",
+      "source_path": "generations; all 14 tables profiled by case-files/profile.py",
+      "status": "unknown",
+      "study": "05",
+      "title": "Dry Aged Dreams",
+      "value": "\\N"
+    },
+    "failure_mode": "Mistaking conditioning or a request for achieved integration",
+    "jobs": [],
+    "layer_or_mask_claim": "unsupported unless explicitly disclosed",
+    "sequence": "Resolved producer outputs then named consumer input; unresolved external sources retained without invented steps",
+    "tradeoff": "More explicit dependencies to record and review"
+  },
+  {
+    "applicability": "Named construction task only; no outcome or benefit",
+    "construction_label": "inferred",
+    "evidence": {
+      "case_source": "case-files/fallen-leaves/codes.csv",
+      "code_id": "05.2",
+      "codebook_version": "1.0",
+      "competing_explanation": "Published histories can omit external/private work; instructions do not establish achieved results, final acceptance or project-wide intent.",
+      "confidence_rationale": "Direct source paths/compound keys and exact excerpt or deterministic aggregate checked during reproduction; single-coder semantic interpretation, scoped to named evidence. No agreement or quality estimate.",
+      "denominator": "One named job / 356 inspected / 356 exported jobs; input rows are occurrences, not independent evidence",
+      "entity_ids": "6659c520-c88e-4ac7-a2c9-f28d8a40c954/generation:330764cc-eb0b-4028-bbca-e45ce5037641; 6659c520-c88e-4ac7-a2c9-f28d8a40c954/asset:dc2e911c-3ffc-40af-911b-d4fb2b955c9c; 6659c520-c88e-4ac7-a2c9-f28d8a40c954/asset:1cba062c-b6c5-456d-929d-b958859ae105; 6659c520-c88e-4ac7-a2c9-f28d8a40c954/asset:ed7ee5c1-f3c7-470d-be25-1dc7bcb35cef; 6659c520-c88e-4ac7-a2c9-f28d8a40c954/reference:272048cd-1ac1-49d5-a338-9a3fc47c1c45; 6659c520-c88e-4ac7-a2c9-f28d8a40c954/reference:460c394f-dcc4-4e16-bf88-c734b7c23754",
+      "evidence_id": "fallen-leaves:05.2",
+      "evidence_label": "observed",
+      "excerpt": "kneels low directly in the snow [excerpt boundary] [literal controls] {\"is_inpaint\": \"<unavailable>\"} [excerpt boundary] [literal model_identifier] gpt_image_2 [literal model_name] GPT Image 2.0 [excerpt boundary] [input usage role/path] [[\"1cba062c-b6c5-456d-929d-b958859ae105\", \"reference_image\", \"params.reference_elements[0].medias[0]\", \"272048cd-1ac1-49d5-a338-9a3fc47c1c45\"], [\"dc2e911c-3ffc-40af-911b-d4fb2b955c9c\", \"input_image\", \"params.medias[0].data\", null], [\"ed7ee5c1-f3c7-470d-be25-1dc7bcb35cef\", \"reference_image\", \"params.reference_elements[1].medias[0]\", \"460c394f-dcc4-4e16-bf88-c734b7c23754\"]] [excerpt boundary] [disclosed reference metadata] [{\"category\": \"character\", \"name\": \"executioner\", \"reference_element_id\": \"272048cd-1ac1-49d5-a338-9a3fc47c1c45\"}, {\"category\": \"character\", \"name\": \"mother\", \"reference_element_id\": \"460c394f-dcc4-4e16-bf88-c734b7c23754\"}]",
+      "film_id": "6659c520-c88e-4ac7-a2c9-f28d8a40c954",
+      "later_study": "05",
+      "population": "primary",
+      "scope_note": "Actual conditioning; dc2e911c producer output is an image input to this job.",
+      "source_path": "generations.prompt/model_identifier/model_name; generations.parameters_json.is_inpaint; asset_usages.asset_id/asset_role/parameter_path/reference_element_id; reference_elements.reference_element_id/name/category; raw/projects/6659c520-c88e-4ac7-a2c9-f28d8a40c954/items_0000.json",
+      "status": "coded",
+      "study": "05",
+      "title": "Fallen Leaves",
+      "value": "multiple_inputs|staged_construction"
+    },
+    "failure_mode": "Mistaking conditioning or a request for achieved integration",
+    "jobs": [
+      {
+        "attachments": [
+          {
+            "asset_id": "1cba062c-b6c5-456d-929d-b958859ae105",
+            "asset_role": "reference_image",
+            "image_binding": true,
+            "parameter_path": "params.reference_elements[0].medias[0]",
+            "producer": "1cba062c-b6c5-456d-929d-b958859ae105",
+            "producer_type": "image",
+            "reference_element_id": "272048cd-1ac1-49d5-a338-9a3fc47c1c45"
+          },
+          {
+            "asset_id": "dc2e911c-3ffc-40af-911b-d4fb2b955c9c",
+            "asset_role": "input_image",
+            "image_binding": true,
+            "parameter_path": "params.medias[0].data",
+            "producer": "dc2e911c-3ffc-40af-911b-d4fb2b955c9c",
+            "producer_type": "image",
+            "reference_element_id": null
+          },
+          {
+            "asset_id": "ed7ee5c1-f3c7-470d-be25-1dc7bcb35cef",
+            "asset_role": "reference_image",
+            "image_binding": true,
+            "parameter_path": "params.reference_elements[1].medias[0]",
+            "producer": "ed7ee5c1-f3c7-470d-be25-1dc7bcb35cef",
+            "producer_type": "image",
+            "reference_element_id": "460c394f-dcc4-4e16-bf88-c734b7c23754"
+          }
+        ],
+        "denominator": "One named job; attachments are occurrence rows",
+        "evidence_ids": [
+          "fallen-leaves:05.1",
+          "fallen-leaves:05.2",
+          "fallen-leaves:05.3",
+          "fallen-leaves:05.4"
+        ],
+        "evidence_label": "observed",
+        "film_id": "6659c520-c88e-4ac7-a2c9-f28d8a40c954",
+        "generation_id": "330764cc-eb0b-4028-bbca-e45ce5037641",
+        "generation_type": "image",
+        "literal_controls": {
+          "aspect_ratio": {
+            "raw_json": "\"16:9\"",
+            "state": "str"
+          },
+          "denoise": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_bottom": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_left": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_right": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_top": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_json": "752",
+            "state": "int"
+          },
+          "is_all_angles_dump": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "is_inpaint": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "move_forward_level": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "remove_bg": {
+            "raw_json": "false",
+            "state": "bool"
+          },
+          "resolution": {
+            "raw_json": "\"1k\"",
+            "state": "str"
+          },
+          "rotate_degree": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "sharpen": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "vertical_angle": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_json": "1344",
+            "state": "int"
+          }
+        },
+        "media_outcome": "unobservable",
+        "model_identifier": "gpt_image_2",
+        "parameter_state": "object",
+        "prompt_source_path": "params.prompt"
+      }
+    ],
+    "layer_or_mask_claim": "unsupported unless explicitly disclosed",
+    "sequence": "Resolved producer outputs then named consumer input; unresolved external sources retained without invented steps",
+    "tradeoff": "More explicit dependencies to record and review"
+  },
+  {
+    "applicability": "Named construction task only; no outcome or benefit",
+    "construction_label": "inferred",
+    "evidence": {
+      "case_source": "case-files/harmony/codes.csv",
+      "code_id": "05.2",
+      "codebook_version": "1.0",
+      "competing_explanation": "Published histories can omit external/private work; instructions do not establish achieved results, final acceptance or project-wide intent.",
+      "confidence_rationale": "Direct source paths/compound keys and exact excerpt or deterministic aggregate checked during reproduction; single-coder semantic interpretation, scoped to named evidence. No agreement or quality estimate.",
+      "denominator": "One named job / 233 inspected / 1543 exported jobs; input rows are occurrences, not independent evidence",
+      "entity_ids": "2fd725ab-2604-4220-8cca-d332e9de53a2/generation:0205320f-3610-4d27-815d-61e834cbdcc3; 2fd725ab-2604-4220-8cca-d332e9de53a2/asset:515a503a-80d1-4526-ae29-b1f0edcd5933; 2fd725ab-2604-4220-8cca-d332e9de53a2/asset:2b2bc2ea-1247-4456-8e72-1fd57a234fba; 2fd725ab-2604-4220-8cca-d332e9de53a2/asset:a439807f-a8a9-458b-978d-e2b08d201d39; 2fd725ab-2604-4220-8cca-d332e9de53a2/asset:9b5d0968-52fa-4f1b-ad47-1fe45cca911f; 2fd725ab-2604-4220-8cca-d332e9de53a2/reference:260cc2f6-705c-46af-a586-55a1c5e49889; 2fd725ab-2604-4220-8cca-d332e9de53a2/reference:60d59d65-df60-446b-9192-743485a59e23; 2fd725ab-2604-4220-8cca-d332e9de53a2/reference:7fb91a19-c8ff-4142-9eb6-921875e8e3ff",
+      "evidence_id": "harmony:05.2",
+      "evidence_label": "observed",
+      "excerpt": "Use the attached 1 image as the only source of truth. [excerpt boundary] Single change only, everything else pixel identical. [excerpt boundary] with his pose, face, expression, glasses [excerpt boundary] the armchair is the SAME WIDTH as the wooden armchair visible at frame-left [excerpt boundary] The coffee table stays fully visible in front of it, never covered, never touched, never resized. [excerpt boundary] [literal controls] {\"is_inpaint\": \"<unavailable>\"} [excerpt boundary] [literal model_identifier] gpt_image_2 [literal model_name] GPT Image 2.0 [excerpt boundary] [input usage role/path] [[\"2b2bc2ea-1247-4456-8e72-1fd57a234fba\", \"reference_image\", \"params.reference_elements[0].medias[0]\", \"260cc2f6-705c-46af-a586-55a1c5e49889\"], [\"515a503a-80d1-4526-ae29-b1f0edcd5933\", \"input_image\", \"params.medias[0].data\", null], [\"9b5d0968-52fa-4f1b-ad47-1fe45cca911f\", \"reference_image\", \"params.reference_elements[2].medias[0]\", \"7fb91a19-c8ff-4142-9eb6-921875e8e3ff\"], [\"a439807f-a8a9-458b-978d-e2b08d201d39\", \"reference_image\", \"params.reference_elements[1].medias[0]\", \"60d59d65-df60-446b-9192-743485a59e23\"]] [excerpt boundary] [disclosed reference metadata] [{\"category\": \"character\", \"name\": \"HENRI\", \"reference_element_id\": \"60d59d65-df60-446b-9192-743485a59e23\"}, {\"category\": \"environment\", \"name\": \"loc_sala_v2\", \"reference_element_id\": \"7fb91a19-c8ff-4142-9eb6-921875e8e3ff\"}, {\"category\": \"prop\", \"name\": \"cj\", \"reference_element_id\": \"260cc2f6-705c-46af-a586-55a1c5e49889\"}]",
+      "film_id": "2fd725ab-2604-4220-8cca-d332e9de53a2",
+      "later_study": "05",
+      "population": "primary",
+      "scope_note": "Four exact input assets; not four compositing layers.",
+      "source_path": "generations.prompt/model_identifier/model_name; generations.parameters_json.is_inpaint; asset_usages.asset_id/asset_role/parameter_path/reference_element_id; reference_elements.reference_element_id/name/category; raw/projects/2fd725ab-2604-4220-8cca-d332e9de53a2/items_0006.json",
+      "status": "coded",
+      "study": "05",
+      "title": "Harmony ",
+      "value": "multiple_inputs"
+    },
+    "failure_mode": "Mistaking conditioning or a request for achieved integration",
+    "jobs": [
+      {
+        "attachments": [
+          {
+            "asset_id": "2b2bc2ea-1247-4456-8e72-1fd57a234fba",
+            "asset_role": "reference_image",
+            "image_binding": true,
+            "parameter_path": "params.reference_elements[0].medias[0]",
+            "producer": null,
+            "producer_type": null,
+            "reference_element_id": "260cc2f6-705c-46af-a586-55a1c5e49889"
+          },
+          {
+            "asset_id": "515a503a-80d1-4526-ae29-b1f0edcd5933",
+            "asset_role": "input_image",
+            "image_binding": true,
+            "parameter_path": "params.medias[0].data",
+            "producer": "515a503a-80d1-4526-ae29-b1f0edcd5933",
+            "producer_type": "image",
+            "reference_element_id": null
+          },
+          {
+            "asset_id": "9b5d0968-52fa-4f1b-ad47-1fe45cca911f",
+            "asset_role": "reference_image",
+            "image_binding": true,
+            "parameter_path": "params.reference_elements[2].medias[0]",
+            "producer": null,
+            "producer_type": null,
+            "reference_element_id": "7fb91a19-c8ff-4142-9eb6-921875e8e3ff"
+          },
+          {
+            "asset_id": "a439807f-a8a9-458b-978d-e2b08d201d39",
+            "asset_role": "reference_image",
+            "image_binding": true,
+            "parameter_path": "params.reference_elements[1].medias[0]",
+            "producer": "a439807f-a8a9-458b-978d-e2b08d201d39",
+            "producer_type": "image",
+            "reference_element_id": "60d59d65-df60-446b-9192-743485a59e23"
+          }
+        ],
+        "denominator": "One named job; attachments are occurrence rows",
+        "evidence_ids": [
+          "harmony:05.1",
+          "harmony:05.2",
+          "harmony:05.3",
+          "harmony:05.4"
+        ],
+        "evidence_label": "observed",
+        "film_id": "2fd725ab-2604-4220-8cca-d332e9de53a2",
+        "generation_id": "0205320f-3610-4d27-815d-61e834cbdcc3",
+        "generation_type": "image",
+        "literal_controls": {
+          "aspect_ratio": {
+            "raw_json": "\"16:9\"",
+            "state": "str"
+          },
+          "denoise": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_bottom": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_left": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_right": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_top": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_json": "1520",
+            "state": "int"
+          },
+          "is_all_angles_dump": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "is_inpaint": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "move_forward_level": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "remove_bg": {
+            "raw_json": "false",
+            "state": "bool"
+          },
+          "resolution": {
+            "raw_json": "\"2k\"",
+            "state": "str"
+          },
+          "rotate_degree": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "sharpen": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "vertical_angle": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_json": "2688",
+            "state": "int"
+          }
+        },
+        "media_outcome": "unobservable",
+        "model_identifier": "gpt_image_2",
+        "parameter_state": "object",
+        "prompt_source_path": "params.prompt"
+      }
+    ],
+    "layer_or_mask_claim": "unsupported unless explicitly disclosed",
+    "sequence": "Resolved producer outputs then named consumer input; unresolved external sources retained without invented steps",
+    "tradeoff": "More explicit dependencies to record and review"
+  },
+  {
+    "applicability": "Named construction task only; no outcome or benefit",
+    "construction_label": "inferred",
+    "evidence": {
+      "case_source": "case-files/kagerou/codes.csv",
+      "code_id": "05.2",
+      "codebook_version": "1.0",
+      "competing_explanation": "Published histories can omit external/private work; instructions do not establish achieved results, final acceptance or project-wide intent.",
+      "confidence_rationale": "Direct source paths/compound keys and exact excerpt or deterministic aggregate checked during reproduction; single-coder semantic interpretation, scoped to named evidence. No agreement or quality estimate.",
+      "denominator": "One named job / 489 inspected / 489 exported jobs; input rows are occurrences, not independent evidence [evidence boundary] One named producer/consumer pair; exact asset IDs; all film assets/usages searched; raw/min metadata variants retained under their one asset entity [evidence boundary] One named producer/consumer pair; exact asset IDs; all film assets/usages searched; raw/min metadata variants retained under their one asset entity",
+      "entity_ids": "51d2c0b2-d692-42b4-b66f-daf87cac1eb3/generation:4e1ed78a-819b-475c-8520-e4515df1c830; 51d2c0b2-d692-42b4-b66f-daf87cac1eb3/asset:21cdd520-127b-4472-96cb-73227ad2a57f; 51d2c0b2-d692-42b4-b66f-daf87cac1eb3/asset:23c75ad3-31de-407b-b10d-c5ff235fefba; 51d2c0b2-d692-42b4-b66f-daf87cac1eb3/asset:5ce64b17-ba18-497a-950c-c6d47547398d [evidence boundary] 51d2c0b2-d692-42b4-b66f-daf87cac1eb3/generation:21cdd520-127b-4472-96cb-73227ad2a57f; 51d2c0b2-d692-42b4-b66f-daf87cac1eb3/generation:4e1ed78a-819b-475c-8520-e4515df1c830; 51d2c0b2-d692-42b4-b66f-daf87cac1eb3/asset:21cdd520-127b-4472-96cb-73227ad2a57f [evidence boundary] 51d2c0b2-d692-42b4-b66f-daf87cac1eb3/generation:23c75ad3-31de-407b-b10d-c5ff235fefba; 51d2c0b2-d692-42b4-b66f-daf87cac1eb3/generation:4e1ed78a-819b-475c-8520-e4515df1c830; 51d2c0b2-d692-42b4-b66f-daf87cac1eb3/asset:23c75ad3-31de-407b-b10d-c5ff235fefba",
+      "evidence_id": "kagerou:05.2",
+      "evidence_label": "observed",
+      "excerpt": "人物達の位置は構図の３等分したうちの右側。 [excerpt boundary] 人物を小さく描写。人物達は背景の質感に合わせる。 [excerpt boundary] [literal controls] {\"is_inpaint\": false} [excerpt boundary] [literal model_identifier] nano_banana_flash [literal model_name] Nano Banana 2 [excerpt boundary] [input usage role/path] [[\"21cdd520-127b-4472-96cb-73227ad2a57f\", \"input_image\", \"params.medias[0].data\", null], [\"23c75ad3-31de-407b-b10d-c5ff235fefba\", \"input_image\", \"params.medias[1].data\", null], [\"5ce64b17-ba18-497a-950c-c6d47547398d\", \"input_image\", \"params.medias[2].data\", null]] [evidence boundary] [producer model] soul_cinematic [consumer model] nano_banana_flash [explicit usage] [{\"asset_id\": \"21cdd520-127b-4472-96cb-73227ad2a57f\", \"asset_role\": \"input_image\", \"parameter_path\": \"params.medias[0].data\"}] [evidence boundary] [producer model] nano_banana_flash [consumer model] nano_banana_flash [explicit usage] [{\"asset_id\": \"23c75ad3-31de-407b-b10d-c5ff235fefba\", \"asset_role\": \"input_image\", \"parameter_path\": \"params.medias[1].data\"}]",
+      "film_id": "51d2c0b2-d692-42b4-b66f-daf87cac1eb3",
+      "later_study": "05",
+      "population": "primary",
+      "scope_note": "Three inputs; two explicitly resolved output producers. Conditioning and staging, not compositing layers.",
+      "source_path": "generations.prompt/model_identifier/model_name; generations.parameters_json.is_inpaint; asset_usages.asset_id/asset_role/parameter_path/reference_element_id; raw/projects/51d2c0b2-d692-42b4-b66f-daf87cac1eb3/items_0005.json [evidence boundary] assets.generation_id/asset_id -> generations; asset_usages.generation_id/asset_id/asset_role/parameter_path [evidence boundary] assets.generation_id/asset_id -> generations; asset_usages.generation_id/asset_id/asset_role/parameter_path",
+      "status": "coded",
+      "study": "05",
+      "title": "KAGEROU",
+      "value": "multiple_inputs|staged_construction"
+    },
+    "failure_mode": "Mistaking conditioning or a request for achieved integration",
+    "jobs": [
+      {
+        "attachments": [
+          {
+            "asset_id": "5fbabfac-d27b-4751-b550-fea356ed55ac",
+            "asset_role": "input_asset",
+            "image_binding": false,
+            "parameter_path": "params.style",
+            "producer": null,
+            "producer_type": null,
+            "reference_element_id": null
+          }
+        ],
+        "denominator": "One named job; attachments are occurrence rows",
+        "evidence_ids": [
+          "kagerou:05.2"
+        ],
+        "evidence_label": "observed",
+        "film_id": "51d2c0b2-d692-42b4-b66f-daf87cac1eb3",
+        "generation_id": "21cdd520-127b-4472-96cb-73227ad2a57f",
+        "generation_type": "image",
+        "literal_controls": {
+          "aspect_ratio": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "denoise": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_bottom": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_left": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_right": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_top": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_json": "2048",
+            "state": "int"
+          },
+          "is_all_angles_dump": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "is_inpaint": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "move_forward_level": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "remove_bg": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "rotate_degree": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "sharpen": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "vertical_angle": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_json": "1536",
+            "state": "int"
+          }
+        },
+        "media_outcome": "unobservable",
+        "model_identifier": "soul_cinematic",
+        "parameter_state": "object",
+        "prompt_source_path": "params.prompt"
+      },
+      {
+        "attachments": [
+          {
+            "asset_id": "b3d3fcaf-1470-4db3-8195-0518bab9830e",
+            "asset_role": "input_image",
+            "image_binding": true,
+            "parameter_path": "params.medias[0].data",
+            "producer": "b3d3fcaf-1470-4db3-8195-0518bab9830e",
+            "producer_type": "image",
+            "reference_element_id": null
+          }
+        ],
+        "denominator": "One named job; attachments are occurrence rows",
+        "evidence_ids": [
+          "kagerou:05.2"
+        ],
+        "evidence_label": "observed",
+        "film_id": "51d2c0b2-d692-42b4-b66f-daf87cac1eb3",
+        "generation_id": "23c75ad3-31de-407b-b10d-c5ff235fefba",
+        "generation_type": "image",
+        "literal_controls": {
+          "aspect_ratio": {
+            "raw_json": "\"16:9\"",
+            "state": "str"
+          },
+          "denoise": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_bottom": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_left": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_right": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_top": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_json": "1536",
+            "state": "int"
+          },
+          "is_all_angles_dump": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "is_inpaint": {
+            "raw_json": "false",
+            "state": "bool"
+          },
+          "mode": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "move_forward_level": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "remove_bg": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_json": "\"2k\"",
+            "state": "str"
+          },
+          "rotate_degree": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "sharpen": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "vertical_angle": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_json": "2752",
+            "state": "int"
+          }
+        },
+        "media_outcome": "unobservable",
+        "model_identifier": "nano_banana_flash",
+        "parameter_state": "object",
+        "prompt_source_path": "params.prompt"
+      },
+      {
+        "attachments": [
+          {
+            "asset_id": "21cdd520-127b-4472-96cb-73227ad2a57f",
+            "asset_role": "input_image",
+            "image_binding": true,
+            "parameter_path": "params.medias[0].data",
+            "producer": "21cdd520-127b-4472-96cb-73227ad2a57f",
+            "producer_type": "image",
+            "reference_element_id": null
+          },
+          {
+            "asset_id": "23c75ad3-31de-407b-b10d-c5ff235fefba",
+            "asset_role": "input_image",
+            "image_binding": true,
+            "parameter_path": "params.medias[1].data",
+            "producer": "23c75ad3-31de-407b-b10d-c5ff235fefba",
+            "producer_type": "image",
+            "reference_element_id": null
+          },
+          {
+            "asset_id": "5ce64b17-ba18-497a-950c-c6d47547398d",
+            "asset_role": "input_image",
+            "image_binding": true,
+            "parameter_path": "params.medias[2].data",
+            "producer": null,
+            "producer_type": null,
+            "reference_element_id": null
+          }
+        ],
+        "denominator": "One named job; attachments are occurrence rows",
+        "evidence_ids": [
+          "kagerou:05.1",
+          "kagerou:05.2",
+          "kagerou:05.3",
+          "kagerou:05.4"
+        ],
+        "evidence_label": "observed",
+        "film_id": "51d2c0b2-d692-42b4-b66f-daf87cac1eb3",
+        "generation_id": "4e1ed78a-819b-475c-8520-e4515df1c830",
+        "generation_type": "image",
+        "literal_controls": {
+          "aspect_ratio": {
+            "raw_json": "\"4:5\"",
+            "state": "str"
+          },
+          "denoise": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_bottom": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_left": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_right": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_top": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_json": "2304",
+            "state": "int"
+          },
+          "is_all_angles_dump": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "is_inpaint": {
+            "raw_json": "false",
+            "state": "bool"
+          },
+          "mode": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "move_forward_level": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "remove_bg": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_json": "\"2k\"",
+            "state": "str"
+          },
+          "rotate_degree": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "sharpen": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "vertical_angle": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_json": "1856",
+            "state": "int"
+          }
+        },
+        "media_outcome": "unobservable",
+        "model_identifier": "nano_banana_flash",
+        "parameter_state": "object",
+        "prompt_source_path": "params.prompt"
+      }
+    ],
+    "layer_or_mask_claim": "unsupported unless explicitly disclosed",
+    "sequence": "Resolved producer outputs then named consumer input; unresolved external sources retained without invented steps",
+    "tradeoff": "More explicit dependencies to record and review"
+  },
+  {
+    "applicability": "Named construction task only; no outcome or benefit",
+    "construction_label": "inferred",
+    "evidence": {
+      "case_source": "case-files/lost/codes.csv",
+      "code_id": "05.2",
+      "codebook_version": "1.0",
+      "competing_explanation": "Published histories can omit external/private work; instructions do not establish achieved results, final acceptance or project-wide intent.",
+      "confidence_rationale": "Direct source paths/compound keys and exact excerpt or deterministic aggregate checked during reproduction; single-coder semantic interpretation, scoped to named evidence. No agreement or quality estimate.",
+      "denominator": "One named job / 350 inspected / 350 exported jobs; input rows are occurrences, not independent evidence",
+      "entity_ids": "e5ce8a79-9375-4e31-84a8-620bd4f07550/generation:044604ad-88c8-442e-8452-162d1cd60d13; e5ce8a79-9375-4e31-84a8-620bd4f07550/asset:02e53a47-a7ab-4d3c-9071-3efe42c3a88d; e5ce8a79-9375-4e31-84a8-620bd4f07550/asset:3f498fd1-05f7-453c-b133-be41f9e7e97e; e5ce8a79-9375-4e31-84a8-620bd4f07550/asset:b7a9c20f-106a-4187-bc12-b2ab29bf8926; e5ce8a79-9375-4e31-84a8-620bd4f07550/asset:a10da4c7-2a74-4600-bac2-1edb5210556f; e5ce8a79-9375-4e31-84a8-620bd4f07550/asset:70cfe8bf-cd81-449e-a238-44da65bef608; e5ce8a79-9375-4e31-84a8-620bd4f07550/asset:951e718d-1c8b-4970-98ab-df2e7a82b6b6; e5ce8a79-9375-4e31-84a8-620bd4f07550/asset:4b8d6cfc-83cd-4819-acf5-cf742d85b29a; e5ce8a79-9375-4e31-84a8-620bd4f07550/asset:b0472cf0-9fca-4fe3-b552-167c40f688cb; e5ce8a79-9375-4e31-84a8-620bd4f07550/asset:f96218e4-5824-436c-a88c-f8950db32122; e5ce8a79-9375-4e31-84a8-620bd4f07550/asset:06be0fb2-084e-4744-b889-49ae5f91c034; e5ce8a79-9375-4e31-84a8-620bd4f07550/asset:77a55eb3-8893-470f-a410-f9e1a658e75a; e5ce8a79-9375-4e31-84a8-620bd4f07550/asset:e517caee-a883-4c23-b2af-d4bccdd286de; e5ce8a79-9375-4e31-84a8-620bd4f07550/asset:06845fd5-3445-410b-a095-71fcda7af3c1; e5ce8a79-9375-4e31-84a8-620bd4f07550/reference:a49b31ab-53d6-45ab-8a1e-44e3663a9ac6",
+      "evidence_id": "lost:05.2",
+      "evidence_label": "observed",
+      "excerpt": "put all of these characters in the town [excerpt boundary] zoomed out wide angle [excerpt boundary] [literal model_identifier] seedream_v4_5 [literal model_name] Seedream 4.5 [excerpt boundary] [input usage role/path] [[\"02e53a47-a7ab-4d3c-9071-3efe42c3a88d\", \"input_asset\", \"params.input_images[0]\", null], [\"06845fd5-3445-410b-a095-71fcda7af3c1\", \"reference_image\", \"params.reference_elements[0].medias[0]\", \"a49b31ab-53d6-45ab-8a1e-44e3663a9ac6\"], [\"06be0fb2-084e-4744-b889-49ae5f91c034\", \"input_asset\", \"params.input_images[9]\", null], [\"3f498fd1-05f7-453c-b133-be41f9e7e97e\", \"input_asset\", \"params.input_images[1]\", null], [\"4b8d6cfc-83cd-4819-acf5-cf742d85b29a\", \"input_asset\", \"params.input_images[6]\", null], [\"70cfe8bf-cd81-449e-a238-44da65bef608\", \"input_asset\", \"params.input_images[4]\", null], [\"77a55eb3-8893-470f-a410-f9e1a658e75a\", \"input_asset\", \"params.input_images[10]\", null], [\"951e718d-1c8b-4970-98ab-df2e7a82b6b6\", \"input_asset\", \"params.input_images[5]\", null], [\"a10da4c7-2a74-4600-bac2-1edb5210556f\", \"input_asset\", \"params.input_images[3]\", null], [\"b0472cf0-9fca-4fe3-b552-167c40f688cb\", \"input_asset\", \"params.input_images[7]\", null], [\"b7a9c20f-106a-4187-bc12-b2ab29bf8926\", \"input_asset\", \"params.input_images[2]\", null], [\"e517caee-a883-4c23-b2af-d4bccdd286de\", \"input_asset\", \"params.input_images[11]\", null], [\"f96218e4-5824-436c-a88c-f8950db32122\", \"input_asset\", \"params.input_images[8]\", null]] [excerpt boundary] [disclosed reference metadata] [{\"category\": \"environment\", \"name\": \"loc_the-edge-of-town\", \"reference_element_id\": \"a49b31ab-53d6-45ab-8a1e-44e3663a9ac6\"}]",
+      "film_id": "e5ce8a79-9375-4e31-84a8-620bd4f07550",
+      "later_study": "05",
+      "population": "primary",
+      "scope_note": "Twelve input assets and one reference input condition one image; explicit 02e53a47 producer edge, not layer compositing.",
+      "source_path": "generations.prompt/model_identifier/model_name; asset_usages.asset_id/asset_role/parameter_path/reference_element_id; reference_elements.reference_element_id/name/category; raw/projects/e5ce8a79-9375-4e31-84a8-620bd4f07550/items_0002.json",
+      "status": "coded",
+      "study": "05",
+      "title": "Lost",
+      "value": "multiple_inputs|staged_construction"
+    },
+    "failure_mode": "Mistaking conditioning or a request for achieved integration",
+    "jobs": [
+      {
+        "attachments": [
+          {
+            "asset_id": "02e53a47-a7ab-4d3c-9071-3efe42c3a88d",
+            "asset_role": "input_asset",
+            "image_binding": true,
+            "parameter_path": "params.input_images[0]",
+            "producer": "02e53a47-a7ab-4d3c-9071-3efe42c3a88d",
+            "producer_type": "image",
+            "reference_element_id": null
+          },
+          {
+            "asset_id": "06845fd5-3445-410b-a095-71fcda7af3c1",
+            "asset_role": "reference_image",
+            "image_binding": true,
+            "parameter_path": "params.reference_elements[0].medias[0]",
+            "producer": "06845fd5-3445-410b-a095-71fcda7af3c1",
+            "producer_type": "image",
+            "reference_element_id": "a49b31ab-53d6-45ab-8a1e-44e3663a9ac6"
+          },
+          {
+            "asset_id": "06be0fb2-084e-4744-b889-49ae5f91c034",
+            "asset_role": "input_asset",
+            "image_binding": true,
+            "parameter_path": "params.input_images[9]",
+            "producer": "06be0fb2-084e-4744-b889-49ae5f91c034",
+            "producer_type": "image",
+            "reference_element_id": null
+          },
+          {
+            "asset_id": "3f498fd1-05f7-453c-b133-be41f9e7e97e",
+            "asset_role": "input_asset",
+            "image_binding": true,
+            "parameter_path": "params.input_images[1]",
+            "producer": "3f498fd1-05f7-453c-b133-be41f9e7e97e",
+            "producer_type": "image",
+            "reference_element_id": null
+          },
+          {
+            "asset_id": "4b8d6cfc-83cd-4819-acf5-cf742d85b29a",
+            "asset_role": "input_asset",
+            "image_binding": true,
+            "parameter_path": "params.input_images[6]",
+            "producer": "4b8d6cfc-83cd-4819-acf5-cf742d85b29a",
+            "producer_type": "image",
+            "reference_element_id": null
+          },
+          {
+            "asset_id": "70cfe8bf-cd81-449e-a238-44da65bef608",
+            "asset_role": "input_asset",
+            "image_binding": true,
+            "parameter_path": "params.input_images[4]",
+            "producer": "70cfe8bf-cd81-449e-a238-44da65bef608",
+            "producer_type": "image",
+            "reference_element_id": null
+          },
+          {
+            "asset_id": "77a55eb3-8893-470f-a410-f9e1a658e75a",
+            "asset_role": "input_asset",
+            "image_binding": true,
+            "parameter_path": "params.input_images[10]",
+            "producer": "77a55eb3-8893-470f-a410-f9e1a658e75a",
+            "producer_type": "image",
+            "reference_element_id": null
+          },
+          {
+            "asset_id": "951e718d-1c8b-4970-98ab-df2e7a82b6b6",
+            "asset_role": "input_asset",
+            "image_binding": true,
+            "parameter_path": "params.input_images[5]",
+            "producer": "951e718d-1c8b-4970-98ab-df2e7a82b6b6",
+            "producer_type": "image",
+            "reference_element_id": null
+          },
+          {
+            "asset_id": "a10da4c7-2a74-4600-bac2-1edb5210556f",
+            "asset_role": "input_asset",
+            "image_binding": true,
+            "parameter_path": "params.input_images[3]",
+            "producer": "a10da4c7-2a74-4600-bac2-1edb5210556f",
+            "producer_type": "image",
+            "reference_element_id": null
+          },
+          {
+            "asset_id": "b0472cf0-9fca-4fe3-b552-167c40f688cb",
+            "asset_role": "input_asset",
+            "image_binding": true,
+            "parameter_path": "params.input_images[7]",
+            "producer": "b0472cf0-9fca-4fe3-b552-167c40f688cb",
+            "producer_type": "image",
+            "reference_element_id": null
+          },
+          {
+            "asset_id": "b7a9c20f-106a-4187-bc12-b2ab29bf8926",
+            "asset_role": "input_asset",
+            "image_binding": true,
+            "parameter_path": "params.input_images[2]",
+            "producer": "b7a9c20f-106a-4187-bc12-b2ab29bf8926",
+            "producer_type": "image",
+            "reference_element_id": null
+          },
+          {
+            "asset_id": "e517caee-a883-4c23-b2af-d4bccdd286de",
+            "asset_role": "input_asset",
+            "image_binding": true,
+            "parameter_path": "params.input_images[11]",
+            "producer": "e517caee-a883-4c23-b2af-d4bccdd286de",
+            "producer_type": "image",
+            "reference_element_id": null
+          },
+          {
+            "asset_id": "f96218e4-5824-436c-a88c-f8950db32122",
+            "asset_role": "input_asset",
+            "image_binding": true,
+            "parameter_path": "params.input_images[8]",
+            "producer": "f96218e4-5824-436c-a88c-f8950db32122",
+            "producer_type": "image",
+            "reference_element_id": null
+          }
+        ],
+        "denominator": "One named job; attachments are occurrence rows",
+        "evidence_ids": [
+          "lost:05.2"
+        ],
+        "evidence_label": "observed",
+        "film_id": "e5ce8a79-9375-4e31-84a8-620bd4f07550",
+        "generation_id": "044604ad-88c8-442e-8452-162d1cd60d13",
+        "generation_type": "image",
+        "literal_controls": {
+          "aspect_ratio": {
+            "raw_json": "\"16:9\"",
+            "state": "str"
+          },
+          "denoise": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_bottom": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_left": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_right": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_top": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_json": "2880",
+            "state": "int"
+          },
+          "is_all_angles_dump": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "is_inpaint": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "move_forward_level": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "remove_bg": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "rotate_degree": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "sharpen": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "vertical_angle": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_json": "5120",
+            "state": "int"
+          }
+        },
+        "media_outcome": "unobservable",
+        "model_identifier": "seedream_v4_5",
+        "parameter_state": "object",
+        "prompt_source_path": "params.prompt"
+      }
+    ],
+    "layer_or_mask_claim": "unsupported unless explicitly disclosed",
+    "sequence": "Resolved producer outputs then named consumer input; unresolved external sources retained without invented steps",
+    "tradeoff": "More explicit dependencies to record and review"
+  },
+  {
+    "applicability": "Named construction task only; no outcome or benefit",
+    "construction_label": "inferred",
+    "evidence": {
+      "case_source": "case-files/prophecy-in-2047/codes.csv",
+      "code_id": "05.2",
+      "codebook_version": "1.0",
+      "competing_explanation": "Published histories can omit external/private work; instructions do not establish achieved results, final acceptance or project-wide intent.",
+      "confidence_rationale": "Direct source paths/compound keys and exact excerpt or deterministic aggregate checked during reproduction; single-coder semantic interpretation, scoped to named evidence. No agreement or quality estimate.",
+      "denominator": "One named job / 184 inspected / 1054 exported jobs; input rows are occurrences, not independent evidence [evidence boundary] One named producer/consumer pair; exact asset IDs; all film assets/usages searched; raw/min metadata variants retained under their one asset entity",
+      "entity_ids": "9b38b885-bf92-484e-8f36-a890e4e10d61/generation:02e8e2a1-5735-4684-a65f-38d56137bc6a; 9b38b885-bf92-484e-8f36-a890e4e10d61/asset:16933485-bf3b-4dcd-98a1-d9cacfac67ad; 9b38b885-bf92-484e-8f36-a890e4e10d61/asset:916eb925-f5e6-4aca-9be3-b819160e0a09; 9b38b885-bf92-484e-8f36-a890e4e10d61/asset:4f138af0-83b2-4af9-b320-5cc2a49c175f; 9b38b885-bf92-484e-8f36-a890e4e10d61/asset:0ffdcb42-ac3c-47ae-a299-093c5a51bc08; 9b38b885-bf92-484e-8f36-a890e4e10d61/reference:5f86210d-5e8e-4f28-a32e-4d9fe4fd0829 [evidence boundary] 9b38b885-bf92-484e-8f36-a890e4e10d61/generation:0ffdcb42-ac3c-47ae-a299-093c5a51bc08; 9b38b885-bf92-484e-8f36-a890e4e10d61/generation:02e8e2a1-5735-4684-a65f-38d56137bc6a; 9b38b885-bf92-484e-8f36-a890e4e10d61/asset:0ffdcb42-ac3c-47ae-a299-093c5a51bc08",
+      "evidence_id": "prophecy-in-2047:05.2",
+      "evidence_label": "observed",
+      "excerpt": "ACTIVE REFERENCES [excerpt boundary] The billboard screen displays EXACTLY the image [excerpt boundary] FOREGROUND: [excerpt boundary] [literal controls] {\"is_inpaint\": \"<unavailable>\"} [excerpt boundary] [literal model_identifier] gpt_image_2_unlimited [literal model_name] GPT Image 2 Unlimited [excerpt boundary] [input usage role/path] [[\"0ffdcb42-ac3c-47ae-a299-093c5a51bc08\", \"reference_image\", \"params.reference_elements[0].medias[0]\", \"5f86210d-5e8e-4f28-a32e-4d9fe4fd0829\"], [\"16933485-bf3b-4dcd-98a1-d9cacfac67ad\", \"input_image\", \"params.medias[0].data\", null], [\"4f138af0-83b2-4af9-b320-5cc2a49c175f\", \"input_image\", \"params.medias[2].data\", null], [\"916eb925-f5e6-4aca-9be3-b819160e0a09\", \"input_image\", \"params.medias[1].data\", null]] [excerpt boundary] [disclosed reference metadata] [{\"category\": \"prop\", \"name\": \"prop_2047_pod\", \"reference_element_id\": \"5f86210d-5e8e-4f28-a32e-4d9fe4fd0829\"}] [evidence boundary] [producer model] gpt_image_2_unlimited [consumer model] gpt_image_2_unlimited [explicit usage] [{\"asset_id\": \"0ffdcb42-ac3c-47ae-a299-093c5a51bc08\", \"asset_role\": \"reference_image\", \"parameter_path\": \"params.reference_elements[0].medias[0]\"}]",
+      "film_id": "9b38b885-bf92-484e-8f36-a890e4e10d61",
+      "later_study": "05",
+      "population": "primary",
+      "scope_note": "Four typed input occurrences including a prepared cargo reference; conditioning, not layers.",
+      "source_path": "generations.prompt/model_identifier/model_name; generations.parameters_json.is_inpaint; asset_usages.asset_id/asset_role/parameter_path/reference_element_id; reference_elements.reference_element_id/name/category; raw/projects/9b38b885-bf92-484e-8f36-a890e4e10d61/items_0007.json [evidence boundary] assets.generation_id/asset_id -> generations; asset_usages.generation_id/asset_id/asset_role/parameter_path",
+      "status": "coded",
+      "study": "05",
+      "title": "Prophecy in 2047",
+      "value": "multiple_inputs|staged_construction"
+    },
+    "failure_mode": "Mistaking conditioning or a request for achieved integration",
+    "jobs": [
+      {
+        "attachments": [
+          {
+            "asset_id": "0ffdcb42-ac3c-47ae-a299-093c5a51bc08",
+            "asset_role": "reference_image",
+            "image_binding": true,
+            "parameter_path": "params.reference_elements[0].medias[0]",
+            "producer": "0ffdcb42-ac3c-47ae-a299-093c5a51bc08",
+            "producer_type": "image",
+            "reference_element_id": "5f86210d-5e8e-4f28-a32e-4d9fe4fd0829"
+          },
+          {
+            "asset_id": "16933485-bf3b-4dcd-98a1-d9cacfac67ad",
+            "asset_role": "input_image",
+            "image_binding": true,
+            "parameter_path": "params.medias[0].data",
+            "producer": "16933485-bf3b-4dcd-98a1-d9cacfac67ad",
+            "producer_type": "image",
+            "reference_element_id": null
+          },
+          {
+            "asset_id": "4f138af0-83b2-4af9-b320-5cc2a49c175f",
+            "asset_role": "input_image",
+            "image_binding": true,
+            "parameter_path": "params.medias[2].data",
+            "producer": "4f138af0-83b2-4af9-b320-5cc2a49c175f",
+            "producer_type": "image",
+            "reference_element_id": null
+          },
+          {
+            "asset_id": "916eb925-f5e6-4aca-9be3-b819160e0a09",
+            "asset_role": "input_image",
+            "image_binding": true,
+            "parameter_path": "params.medias[1].data",
+            "producer": "916eb925-f5e6-4aca-9be3-b819160e0a09",
+            "producer_type": "image",
+            "reference_element_id": null
+          }
+        ],
+        "denominator": "One named job; attachments are occurrence rows",
+        "evidence_ids": [
+          "prophecy-in-2047:05.1",
+          "prophecy-in-2047:05.2",
+          "prophecy-in-2047:05.3",
+          "prophecy-in-2047:05.4"
+        ],
+        "evidence_label": "observed",
+        "film_id": "9b38b885-bf92-484e-8f36-a890e4e10d61",
+        "generation_id": "02e8e2a1-5735-4684-a65f-38d56137bc6a",
+        "generation_type": "image",
+        "literal_controls": {
+          "aspect_ratio": {
+            "raw_json": "\"16:9\"",
+            "state": "str"
+          },
+          "denoise": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_bottom": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_left": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_right": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_top": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_json": "1520",
+            "state": "int"
+          },
+          "is_all_angles_dump": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "is_inpaint": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "move_forward_level": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "remove_bg": {
+            "raw_json": "false",
+            "state": "bool"
+          },
+          "resolution": {
+            "raw_json": "\"2k\"",
+            "state": "str"
+          },
+          "rotate_degree": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "sharpen": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "vertical_angle": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_json": "2688",
+            "state": "int"
+          }
+        },
+        "media_outcome": "unobservable",
+        "model_identifier": "gpt_image_2_unlimited",
+        "parameter_state": "object",
+        "prompt_source_path": "params.prompt"
+      },
+      {
+        "attachments": [
+          {
+            "asset_id": "139756f2-81b5-431a-a6aa-c6df09900e64",
+            "asset_role": "input_image",
+            "image_binding": true,
+            "parameter_path": "params.medias[0].data",
+            "producer": "139756f2-81b5-431a-a6aa-c6df09900e64",
+            "producer_type": "image",
+            "reference_element_id": null
+          }
+        ],
+        "denominator": "One named job; attachments are occurrence rows",
+        "evidence_ids": [
+          "prophecy-in-2047:05.2"
+        ],
+        "evidence_label": "observed",
+        "film_id": "9b38b885-bf92-484e-8f36-a890e4e10d61",
+        "generation_id": "0ffdcb42-ac3c-47ae-a299-093c5a51bc08",
+        "generation_type": "image",
+        "literal_controls": {
+          "aspect_ratio": {
+            "raw_json": "\"16:9\"",
+            "state": "str"
+          },
+          "denoise": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_bottom": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_left": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_right": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_top": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_json": "1520",
+            "state": "int"
+          },
+          "is_all_angles_dump": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "is_inpaint": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "move_forward_level": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "remove_bg": {
+            "raw_json": "false",
+            "state": "bool"
+          },
+          "resolution": {
+            "raw_json": "\"2k\"",
+            "state": "str"
+          },
+          "rotate_degree": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "sharpen": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "vertical_angle": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_json": "2688",
+            "state": "int"
+          }
+        },
+        "media_outcome": "unobservable",
+        "model_identifier": "gpt_image_2_unlimited",
+        "parameter_state": "object",
+        "prompt_source_path": "params.prompt"
+      }
+    ],
+    "layer_or_mask_claim": "unsupported unless explicitly disclosed",
+    "sequence": "Resolved producer outputs then named consumer input; unresolved external sources retained without invented steps",
+    "tradeoff": "More explicit dependencies to record and review"
+  },
+  {
+    "applicability": "Named construction task only; no outcome or benefit",
+    "construction_label": "inferred",
+    "evidence": {
+      "case_source": "case-files/random-access-memories/codes.csv",
+      "code_id": "05.2",
+      "codebook_version": "1.0",
+      "competing_explanation": "Published histories can omit external/private work; instructions do not establish achieved results, final acceptance or project-wide intent.",
+      "confidence_rationale": "Direct source paths/compound keys and exact excerpt or deterministic aggregate checked during reproduction; single-coder semantic interpretation, scoped to named evidence. No agreement or quality estimate.",
+      "denominator": "One named job / 482 inspected / 482 exported jobs; input rows are occurrences, not independent evidence [evidence boundary] One named producer/consumer pair; exact asset IDs; all film assets/usages searched; raw/min metadata variants retained under their one asset entity [evidence boundary] One named producer/consumer pair; exact asset IDs; all film assets/usages searched; raw/min metadata variants retained under their one asset entity",
+      "entity_ids": "e99b5ad2-8f58-4ef8-a13c-4441cfdd5205/generation:d3a5b0ea-495f-4b9c-89c1-4fe217609f8b; e99b5ad2-8f58-4ef8-a13c-4441cfdd5205/asset:49ff032e-996b-4900-ba33-abf6fc402e93; e99b5ad2-8f58-4ef8-a13c-4441cfdd5205/asset:c22d3af3-53cf-41ce-be21-876ebcba6360 [evidence boundary] e99b5ad2-8f58-4ef8-a13c-4441cfdd5205/generation:49ff032e-996b-4900-ba33-abf6fc402e93; e99b5ad2-8f58-4ef8-a13c-4441cfdd5205/generation:d3a5b0ea-495f-4b9c-89c1-4fe217609f8b; e99b5ad2-8f58-4ef8-a13c-4441cfdd5205/asset:49ff032e-996b-4900-ba33-abf6fc402e93 [evidence boundary] e99b5ad2-8f58-4ef8-a13c-4441cfdd5205/generation:c22d3af3-53cf-41ce-be21-876ebcba6360; e99b5ad2-8f58-4ef8-a13c-4441cfdd5205/generation:d3a5b0ea-495f-4b9c-89c1-4fe217609f8b; e99b5ad2-8f58-4ef8-a13c-4441cfdd5205/asset:c22d3af3-53cf-41ce-be21-876ebcba6360",
+      "evidence_id": "random-access-memories:05.2",
+      "evidence_label": "observed",
+      "excerpt": "use foreground of image 1 [excerpt boundary] keep perspective consistent [excerpt boundary] [literal controls] {\"is_inpaint\": \"<unavailable>\"} [excerpt boundary] [literal model_identifier] nano_banana_2 [literal model_name] Nano Banana Pro [excerpt boundary] [input usage role/path] [[\"49ff032e-996b-4900-ba33-abf6fc402e93\", \"input_asset\", \"params.input_images[0]\", null], [\"c22d3af3-53cf-41ce-be21-876ebcba6360\", \"input_asset\", \"params.input_images[1]\", null]] [evidence boundary] [producer model] nano_banana_2 [consumer model] nano_banana_2 [explicit usage] [{\"asset_id\": \"49ff032e-996b-4900-ba33-abf6fc402e93\", \"asset_role\": \"input_asset\", \"parameter_path\": \"params.input_images[0]\"}] [evidence boundary] [producer model] nano_banana_2 [consumer model] nano_banana_2 [explicit usage] [{\"asset_id\": \"c22d3af3-53cf-41ce-be21-876ebcba6360\", \"asset_role\": \"input_asset\", \"parameter_path\": \"params.input_images[1]\"}]",
+      "film_id": "e99b5ad2-8f58-4ef8-a13c-4441cfdd5205",
+      "later_study": "05",
+      "population": "primary",
+      "scope_note": "Two explicitly resolved producer inputs condition foreground/background construction; no layers disclosed.",
+      "source_path": "generations.prompt/model_identifier/model_name; generations.parameters_json.is_inpaint; asset_usages.asset_id/asset_role/parameter_path/reference_element_id; raw/projects/e99b5ad2-8f58-4ef8-a13c-4441cfdd5205/items_0002.json [evidence boundary] assets.generation_id/asset_id -> generations; asset_usages.generation_id/asset_id/asset_role/parameter_path [evidence boundary] assets.generation_id/asset_id -> generations; asset_usages.generation_id/asset_id/asset_role/parameter_path",
+      "status": "coded",
+      "study": "05",
+      "title": "Random Access Memories",
+      "value": "multiple_inputs|staged_construction"
+    },
+    "failure_mode": "Mistaking conditioning or a request for achieved integration",
+    "jobs": [
+      {
+        "attachments": [
+          {
+            "asset_id": "22c9d27a-c0be-45fc-bda9-e31dd51761e4",
+            "asset_role": "input_asset",
+            "image_binding": true,
+            "parameter_path": "params.input_images[0]",
+            "producer": null,
+            "producer_type": null,
+            "reference_element_id": null
+          },
+          {
+            "asset_id": "a262fc63-cb1a-43ef-bfb7-f828d094b9a0",
+            "asset_role": "reference_image",
+            "image_binding": true,
+            "parameter_path": "params.reference_elements[0].medias[0]",
+            "producer": "a262fc63-cb1a-43ef-bfb7-f828d094b9a0",
+            "producer_type": "image",
+            "reference_element_id": "e8375373-ef99-47c7-89c1-3ab1fd41ae28"
+          }
+        ],
+        "denominator": "One named job; attachments are occurrence rows",
+        "evidence_ids": [
+          "random-access-memories:05.2"
+        ],
+        "evidence_label": "observed",
+        "film_id": "e99b5ad2-8f58-4ef8-a13c-4441cfdd5205",
+        "generation_id": "49ff032e-996b-4900-ba33-abf6fc402e93",
+        "generation_type": "image",
+        "literal_controls": {
+          "aspect_ratio": {
+            "raw_json": "\"3:2\"",
+            "state": "str"
+          },
+          "denoise": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_bottom": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_left": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_right": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_top": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_json": "848",
+            "state": "int"
+          },
+          "is_all_angles_dump": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "is_inpaint": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "move_forward_level": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "remove_bg": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_json": "\"1k\"",
+            "state": "str"
+          },
+          "rotate_degree": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "sharpen": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "vertical_angle": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_json": "1264",
+            "state": "int"
+          }
+        },
+        "media_outcome": "unobservable",
+        "model_identifier": "nano_banana_2",
+        "parameter_state": "object",
+        "prompt_source_path": "params.prompt"
+      },
+      {
+        "attachments": [
+          {
+            "asset_id": "1cf73362-feb8-4628-a7f6-14430818b904",
+            "asset_role": "input_asset",
+            "image_binding": true,
+            "parameter_path": "params.input_images[1]",
+            "producer": "1cf73362-feb8-4628-a7f6-14430818b904",
+            "producer_type": "image",
+            "reference_element_id": null
+          },
+          {
+            "asset_id": "a262fc63-cb1a-43ef-bfb7-f828d094b9a0",
+            "asset_role": "reference_image",
+            "image_binding": true,
+            "parameter_path": "params.reference_elements[0].medias[0]",
+            "producer": "a262fc63-cb1a-43ef-bfb7-f828d094b9a0",
+            "producer_type": "image",
+            "reference_element_id": "e8375373-ef99-47c7-89c1-3ab1fd41ae28"
+          },
+          {
+            "asset_id": "bbe41546-edee-437e-972a-790cfd9b74ef",
+            "asset_role": "input_asset",
+            "image_binding": true,
+            "parameter_path": "params.input_images[0]",
+            "producer": "bbe41546-edee-437e-972a-790cfd9b74ef",
+            "producer_type": "image",
+            "reference_element_id": null
+          }
+        ],
+        "denominator": "One named job; attachments are occurrence rows",
+        "evidence_ids": [
+          "random-access-memories:05.2"
+        ],
+        "evidence_label": "observed",
+        "film_id": "e99b5ad2-8f58-4ef8-a13c-4441cfdd5205",
+        "generation_id": "c22d3af3-53cf-41ce-be21-876ebcba6360",
+        "generation_type": "image",
+        "literal_controls": {
+          "aspect_ratio": {
+            "raw_json": "\"3:2\"",
+            "state": "str"
+          },
+          "denoise": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_bottom": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_left": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_right": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_top": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_json": "848",
+            "state": "int"
+          },
+          "is_all_angles_dump": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "is_inpaint": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "move_forward_level": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "remove_bg": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_json": "\"1k\"",
+            "state": "str"
+          },
+          "rotate_degree": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "sharpen": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "vertical_angle": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_json": "1264",
+            "state": "int"
+          }
+        },
+        "media_outcome": "unobservable",
+        "model_identifier": "nano_banana_2",
+        "parameter_state": "object",
+        "prompt_source_path": "params.prompt"
+      },
+      {
+        "attachments": [
+          {
+            "asset_id": "49ff032e-996b-4900-ba33-abf6fc402e93",
+            "asset_role": "input_asset",
+            "image_binding": true,
+            "parameter_path": "params.input_images[0]",
+            "producer": "49ff032e-996b-4900-ba33-abf6fc402e93",
+            "producer_type": "image",
+            "reference_element_id": null
+          },
+          {
+            "asset_id": "c22d3af3-53cf-41ce-be21-876ebcba6360",
+            "asset_role": "input_asset",
+            "image_binding": true,
+            "parameter_path": "params.input_images[1]",
+            "producer": "c22d3af3-53cf-41ce-be21-876ebcba6360",
+            "producer_type": "image",
+            "reference_element_id": null
+          }
+        ],
+        "denominator": "One named job; attachments are occurrence rows",
+        "evidence_ids": [
+          "random-access-memories:05.1",
+          "random-access-memories:05.2",
+          "random-access-memories:05.3",
+          "random-access-memories:05.4"
+        ],
+        "evidence_label": "observed",
+        "film_id": "e99b5ad2-8f58-4ef8-a13c-4441cfdd5205",
+        "generation_id": "d3a5b0ea-495f-4b9c-89c1-4fe217609f8b",
+        "generation_type": "image",
+        "literal_controls": {
+          "aspect_ratio": {
+            "raw_json": "\"3:2\"",
+            "state": "str"
+          },
+          "denoise": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_bottom": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_left": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_right": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_top": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_json": "848",
+            "state": "int"
+          },
+          "is_all_angles_dump": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "is_inpaint": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "move_forward_level": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "remove_bg": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_json": "\"1k\"",
+            "state": "str"
+          },
+          "rotate_degree": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "sharpen": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "vertical_angle": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_json": "1264",
+            "state": "int"
+          }
+        },
+        "media_outcome": "unobservable",
+        "model_identifier": "nano_banana_2",
+        "parameter_state": "object",
+        "prompt_source_path": "params.prompt"
+      }
+    ],
+    "layer_or_mask_claim": "unsupported unless explicitly disclosed",
+    "sequence": "Resolved producer outputs then named consumer input; unresolved external sources retained without invented steps",
+    "tradeoff": "More explicit dependencies to record and review"
+  },
+  {
+    "applicability": "Named construction task only; no outcome or benefit",
+    "construction_label": "inferred",
+    "evidence": {
+      "case_source": "case-files/snap/codes.csv",
+      "code_id": "05.2",
+      "codebook_version": "1.0",
+      "competing_explanation": "Published histories can omit external/private work; instructions do not establish achieved results, final acceptance or project-wide intent.",
+      "confidence_rationale": "Direct source paths/compound keys and exact excerpt or deterministic aggregate checked during reproduction; single-coder semantic interpretation, scoped to named evidence. No agreement or quality estimate.",
+      "denominator": "One named job / 68 inspected / 1034 exported jobs; input rows are occurrences, not independent evidence [evidence boundary] One named producer/consumer pair; exact asset IDs; all film assets/usages searched; raw/min metadata variants retained under their one asset entity",
+      "entity_ids": "aed4098b-3278-4e5d-a347-24fad9cfb9ae/generation:0c0903da-0a73-449d-9fe7-76dd413193dd; aed4098b-3278-4e5d-a347-24fad9cfb9ae/asset:9ece55f0-19e0-4e45-966c-460a4e69eb1f; aed4098b-3278-4e5d-a347-24fad9cfb9ae/asset:784a8b5f-b9e6-4ca6-8242-62c951ba6745; aed4098b-3278-4e5d-a347-24fad9cfb9ae/asset:90fdd8b9-014c-4f22-910c-b6646dffd9c6 [evidence boundary] aed4098b-3278-4e5d-a347-24fad9cfb9ae/generation:784a8b5f-b9e6-4ca6-8242-62c951ba6745; aed4098b-3278-4e5d-a347-24fad9cfb9ae/generation:0c0903da-0a73-449d-9fe7-76dd413193dd; aed4098b-3278-4e5d-a347-24fad9cfb9ae/asset:784a8b5f-b9e6-4ca6-8242-62c951ba6745",
+      "evidence_id": "snap:05.2",
+      "evidence_label": "observed",
+      "excerpt": "Movie Poster style [excerpt boundary] [literal model_identifier] gpt_image_2_5 [literal model_name] GPT Image 2.5 [excerpt boundary] [input usage role/path] [[\"784a8b5f-b9e6-4ca6-8242-62c951ba6745\", \"input_image\", \"params.medias[1].data\", null], [\"90fdd8b9-014c-4f22-910c-b6646dffd9c6\", \"input_image\", \"params.medias[2].data\", null], [\"9ece55f0-19e0-4e45-966c-460a4e69eb1f\", \"input_image\", \"params.medias[0].data\", null]] [evidence boundary] [producer model] nano_banana_2 [consumer model] gpt_image_2_5 [explicit usage] [{\"asset_id\": \"784a8b5f-b9e6-4ca6-8242-62c951ba6745\", \"asset_role\": \"input_image\", \"parameter_path\": \"params.medias[1].data\"}]",
+      "film_id": "aed4098b-3278-4e5d-a347-24fad9cfb9ae",
+      "later_study": "05",
+      "population": "primary",
+      "scope_note": "Three distinct inputs in the poster job; a prepared room output is linked explicitly, without compositing-layer inference.",
+      "source_path": "generations.prompt/model_identifier/model_name; asset_usages.asset_id/asset_role/parameter_path/reference_element_id; raw/projects/aed4098b-3278-4e5d-a347-24fad9cfb9ae/items_0004.json [evidence boundary] assets.generation_id/asset_id -> generations; asset_usages.generation_id/asset_id/asset_role/parameter_path",
+      "status": "coded",
+      "study": "05",
+      "title": "SNAP",
+      "value": "multiple_inputs|staged_construction"
+    },
+    "failure_mode": "Mistaking conditioning or a request for achieved integration",
+    "jobs": [
+      {
+        "attachments": [
+          {
+            "asset_id": "784a8b5f-b9e6-4ca6-8242-62c951ba6745",
+            "asset_role": "input_image",
+            "image_binding": true,
+            "parameter_path": "params.medias[1].data",
+            "producer": "784a8b5f-b9e6-4ca6-8242-62c951ba6745",
+            "producer_type": "image",
+            "reference_element_id": null
+          },
+          {
+            "asset_id": "90fdd8b9-014c-4f22-910c-b6646dffd9c6",
+            "asset_role": "input_image",
+            "image_binding": true,
+            "parameter_path": "params.medias[2].data",
+            "producer": "90fdd8b9-014c-4f22-910c-b6646dffd9c6",
+            "producer_type": "image",
+            "reference_element_id": null
+          },
+          {
+            "asset_id": "9ece55f0-19e0-4e45-966c-460a4e69eb1f",
+            "asset_role": "input_image",
+            "image_binding": true,
+            "parameter_path": "params.medias[0].data",
+            "producer": "9ece55f0-19e0-4e45-966c-460a4e69eb1f",
+            "producer_type": "image",
+            "reference_element_id": null
+          }
+        ],
+        "denominator": "One named job; attachments are occurrence rows",
+        "evidence_ids": [
+          "snap:05.2"
+        ],
+        "evidence_label": "observed",
+        "film_id": "aed4098b-3278-4e5d-a347-24fad9cfb9ae",
+        "generation_id": "0c0903da-0a73-449d-9fe7-76dd413193dd",
+        "generation_type": "image",
+        "literal_controls": {
+          "aspect_ratio": {
+            "raw_json": "\"1:1\"",
+            "state": "str"
+          },
+          "denoise": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_bottom": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_left": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_right": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_top": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_json": "1024",
+            "state": "int"
+          },
+          "is_all_angles_dump": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "is_inpaint": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "move_forward_level": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "remove_bg": {
+            "raw_json": "false",
+            "state": "bool"
+          },
+          "resolution": {
+            "raw_json": "\"1k\"",
+            "state": "str"
+          },
+          "rotate_degree": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "sharpen": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "vertical_angle": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_json": "1024",
+            "state": "int"
+          }
+        },
+        "media_outcome": "unobservable",
+        "model_identifier": "gpt_image_2_5",
+        "parameter_state": "object",
+        "prompt_source_path": "params.prompt"
+      },
+      {
+        "attachments": [
+          {
+            "asset_id": "8c9c0684-c6c5-4cda-b6f6-9448191c8bb4",
+            "asset_role": "input_asset",
+            "image_binding": true,
+            "parameter_path": "params.input_images[0]",
+            "producer": "8c9c0684-c6c5-4cda-b6f6-9448191c8bb4",
+            "producer_type": "image",
+            "reference_element_id": null
+          }
+        ],
+        "denominator": "One named job; attachments are occurrence rows",
+        "evidence_ids": [
+          "snap:05.2"
+        ],
+        "evidence_label": "observed",
+        "film_id": "aed4098b-3278-4e5d-a347-24fad9cfb9ae",
+        "generation_id": "784a8b5f-b9e6-4ca6-8242-62c951ba6745",
+        "generation_type": "image",
+        "literal_controls": {
+          "aspect_ratio": {
+            "raw_json": "\"16:9\"",
+            "state": "str"
+          },
+          "denoise": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_bottom": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_left": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_right": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_top": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_json": "768",
+            "state": "int"
+          },
+          "is_all_angles_dump": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "is_inpaint": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "move_forward_level": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "remove_bg": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_json": "\"1k\"",
+            "state": "str"
+          },
+          "rotate_degree": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "sharpen": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "vertical_angle": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_json": "1376",
+            "state": "int"
+          }
+        },
+        "media_outcome": "unobservable",
+        "model_identifier": "nano_banana_2",
+        "parameter_state": "object",
+        "prompt_source_path": "params.prompt"
+      }
+    ],
+    "layer_or_mask_claim": "unsupported unless explicitly disclosed",
+    "sequence": "Resolved producer outputs then named consumer input; unresolved external sources retained without invented steps",
+    "tradeoff": "More explicit dependencies to record and review"
+  },
+  {
+    "applicability": "Named construction task only; no outcome or benefit",
+    "construction_label": "inferred",
+    "evidence": {
+      "case_source": "case-files/the-kiss/codes.csv",
+      "code_id": "05.2",
+      "codebook_version": "1.0",
+      "competing_explanation": "Published histories can omit external/private work; instructions do not establish achieved results, final acceptance or project-wide intent.",
+      "confidence_rationale": "Direct source paths/compound keys and exact excerpt or deterministic aggregate checked during reproduction; single-coder semantic interpretation, scoped to named evidence. No agreement or quality estimate.",
+      "denominator": "One named job / 391 inspected / 391 exported jobs; input rows are occurrences, not independent evidence [evidence boundary] One named producer/consumer pair; exact asset IDs; all film assets/usages searched; raw/min metadata variants retained under their one asset entity",
+      "entity_ids": "655325cc-46d9-4b0b-b03d-d177defa4b3f/generation:03055fdc-3f48-4e47-860c-c011a0e5d8c3; 655325cc-46d9-4b0b-b03d-d177defa4b3f/asset:bd2691e0-7aa5-43c8-ac9f-63147b5aaea6; 655325cc-46d9-4b0b-b03d-d177defa4b3f/asset:1430c7a7-73ef-4b50-a789-ac8a305a8a88; 655325cc-46d9-4b0b-b03d-d177defa4b3f/asset:14f9a362-aa47-4302-85b5-860f49df643d; 655325cc-46d9-4b0b-b03d-d177defa4b3f/asset:085834b7-da5e-443b-a18a-5190a57dc5e3; 655325cc-46d9-4b0b-b03d-d177defa4b3f/asset:f718d065-9b4f-4a0a-9964-aa536d60dd86; 655325cc-46d9-4b0b-b03d-d177defa4b3f/asset:1f11358a-eff6-4f82-ae47-bd82254691f8; 655325cc-46d9-4b0b-b03d-d177defa4b3f/reference:04b18464-39bd-4ba7-a8da-9498c18f9891; 655325cc-46d9-4b0b-b03d-d177defa4b3f/reference:09c84326-15df-4ade-be4e-1ac22fdc5086; 655325cc-46d9-4b0b-b03d-d177defa4b3f/reference:61023363-aba1-414a-9c0d-ead258830e0d; 655325cc-46d9-4b0b-b03d-d177defa4b3f/reference:9670a7fd-8efc-460c-aeb2-128f626e1704; 655325cc-46d9-4b0b-b03d-d177defa4b3f/reference:a39f9496-fb88-48a4-8e08-84661c5bece5 [evidence boundary] 655325cc-46d9-4b0b-b03d-d177defa4b3f/generation:1430c7a7-73ef-4b50-a789-ac8a305a8a88; 655325cc-46d9-4b0b-b03d-d177defa4b3f/generation:03055fdc-3f48-4e47-860c-c011a0e5d8c3; 655325cc-46d9-4b0b-b03d-d177defa4b3f/asset:1430c7a7-73ef-4b50-a789-ac8a305a8a88",
+      "evidence_id": "the-kiss:05.2",
+      "evidence_label": "observed",
+      "excerpt": "Using the provided 3D layout blockout as the exact spatial reference [excerpt boundary] generate a cinematic wide LOCATION plate [excerpt boundary] Lay out the course left-to-right exactly as in the blockout [excerpt boundary] [literal controls] {\"is_inpaint\": \"<unavailable>\"} [excerpt boundary] [literal model_identifier] nano_banana_2 [literal model_name] Nano Banana Pro [excerpt boundary] [input usage role/path] [[\"085834b7-da5e-443b-a18a-5190a57dc5e3\", \"reference_image\", \"params.reference_elements[2].medias[0]\", \"61023363-aba1-414a-9c0d-ead258830e0d\"], [\"1430c7a7-73ef-4b50-a789-ac8a305a8a88\", \"reference_image\", \"params.reference_elements[0].medias[0]\", \"04b18464-39bd-4ba7-a8da-9498c18f9891\"], [\"14f9a362-aa47-4302-85b5-860f49df643d\", \"reference_image\", \"params.reference_elements[1].medias[0]\", \"09c84326-15df-4ade-be4e-1ac22fdc5086\"], [\"1f11358a-eff6-4f82-ae47-bd82254691f8\", \"reference_image\", \"params.reference_elements[4].medias[0]\", \"a39f9496-fb88-48a4-8e08-84661c5bece5\"], [\"bd2691e0-7aa5-43c8-ac9f-63147b5aaea6\", \"input_asset\", \"params.input_images[0]\", null], [\"f718d065-9b4f-4a0a-9964-aa536d60dd86\", \"reference_image\", \"params.reference_elements[3].medias[0]\", \"9670a7fd-8efc-460c-aeb2-128f626e1704\"]] [excerpt boundary] [disclosed reference metadata] [{\"category\": \"auto:prop\", \"name\": \"rope_gap\", \"reference_element_id\": \"04b18464-39bd-4ba7-a8da-9498c18f9891\"}, {\"category\": \"auto:environment\", \"name\": \"WORLD\", \"reference_element_id\": \"09c84326-15df-4ade-be4e-1ac22fdc5086\"}, {\"category\": \"auto:prop\", \"name\": \"ladder\", \"reference_element_id\": \"61023363-aba1-414a-9c0d-ead258830e0d\"}, {\"category\": \"auto:prop\", \"name\": \"spikes\", \"reference_element_id\": \"9670a7fd-8efc-460c-aeb2-128f626e1704\"}, {\"category\": \"auto:prop\", \"name\": \"finish\", \"reference_element_id\": \"a39f9496-fb88-48a4-8e08-84661c5bece5\"}] [evidence boundary] [producer model] nano_banana_2 [consumer model] nano_banana_2 [explicit usage] [{\"asset_id\": \"1430c7a7-73ef-4b50-a789-ac8a305a8a88\", \"asset_role\": \"reference_image\", \"parameter_path\": \"params.reference_elements[0].medias[0]\"}]",
+      "film_id": "655325cc-46d9-4b0b-b03d-d177defa4b3f",
+      "later_study": "05",
+      "population": "primary",
+      "scope_note": "Six inputs include an explicitly produced prop; conditioning and staging, not compositing layers.",
+      "source_path": "generations.prompt/model_identifier/model_name; generations.parameters_json.is_inpaint; asset_usages.asset_id/asset_role/parameter_path/reference_element_id; reference_elements.reference_element_id/name/category; raw/projects/655325cc-46d9-4b0b-b03d-d177defa4b3f/items_0002.json [evidence boundary] assets.generation_id/asset_id -> generations; asset_usages.generation_id/asset_id/asset_role/parameter_path",
+      "status": "coded",
+      "study": "05",
+      "title": "The Kiss",
+      "value": "multiple_inputs|staged_construction"
+    },
+    "failure_mode": "Mistaking conditioning or a request for achieved integration",
+    "jobs": [
+      {
+        "attachments": [
+          {
+            "asset_id": "085834b7-da5e-443b-a18a-5190a57dc5e3",
+            "asset_role": "reference_image",
+            "image_binding": true,
+            "parameter_path": "params.reference_elements[2].medias[0]",
+            "producer": "085834b7-da5e-443b-a18a-5190a57dc5e3",
+            "producer_type": "image",
+            "reference_element_id": "61023363-aba1-414a-9c0d-ead258830e0d"
+          },
+          {
+            "asset_id": "1430c7a7-73ef-4b50-a789-ac8a305a8a88",
+            "asset_role": "reference_image",
+            "image_binding": true,
+            "parameter_path": "params.reference_elements[0].medias[0]",
+            "producer": "1430c7a7-73ef-4b50-a789-ac8a305a8a88",
+            "producer_type": "image",
+            "reference_element_id": "04b18464-39bd-4ba7-a8da-9498c18f9891"
+          },
+          {
+            "asset_id": "14f9a362-aa47-4302-85b5-860f49df643d",
+            "asset_role": "reference_image",
+            "image_binding": true,
+            "parameter_path": "params.reference_elements[1].medias[0]",
+            "producer": "14f9a362-aa47-4302-85b5-860f49df643d",
+            "producer_type": "image",
+            "reference_element_id": "09c84326-15df-4ade-be4e-1ac22fdc5086"
+          },
+          {
+            "asset_id": "1f11358a-eff6-4f82-ae47-bd82254691f8",
+            "asset_role": "reference_image",
+            "image_binding": true,
+            "parameter_path": "params.reference_elements[4].medias[0]",
+            "producer": "1f11358a-eff6-4f82-ae47-bd82254691f8",
+            "producer_type": "image",
+            "reference_element_id": "a39f9496-fb88-48a4-8e08-84661c5bece5"
+          },
+          {
+            "asset_id": "bd2691e0-7aa5-43c8-ac9f-63147b5aaea6",
+            "asset_role": "input_asset",
+            "image_binding": true,
+            "parameter_path": "params.input_images[0]",
+            "producer": null,
+            "producer_type": null,
+            "reference_element_id": null
+          },
+          {
+            "asset_id": "f718d065-9b4f-4a0a-9964-aa536d60dd86",
+            "asset_role": "reference_image",
+            "image_binding": true,
+            "parameter_path": "params.reference_elements[3].medias[0]",
+            "producer": "f718d065-9b4f-4a0a-9964-aa536d60dd86",
+            "producer_type": "image",
+            "reference_element_id": "9670a7fd-8efc-460c-aeb2-128f626e1704"
+          }
+        ],
+        "denominator": "One named job; attachments are occurrence rows",
+        "evidence_ids": [
+          "the-kiss:05.1",
+          "the-kiss:05.2",
+          "the-kiss:05.3",
+          "the-kiss:05.4",
+          "the-kiss:05.5"
+        ],
+        "evidence_label": "observed",
+        "film_id": "655325cc-46d9-4b0b-b03d-d177defa4b3f",
+        "generation_id": "03055fdc-3f48-4e47-860c-c011a0e5d8c3",
+        "generation_type": "image",
+        "literal_controls": {
+          "aspect_ratio": {
+            "raw_json": "\"16:9\"",
+            "state": "str"
+          },
+          "denoise": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_bottom": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_left": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_right": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_top": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_json": "1536",
+            "state": "int"
+          },
+          "is_all_angles_dump": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "is_inpaint": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "move_forward_level": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "remove_bg": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_json": "\"2k\"",
+            "state": "str"
+          },
+          "rotate_degree": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "sharpen": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "vertical_angle": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_json": "2752",
+            "state": "int"
+          }
+        },
+        "media_outcome": "unobservable",
+        "model_identifier": "nano_banana_2",
+        "parameter_state": "object",
+        "prompt_source_path": "params.prompt"
+      },
+      {
+        "attachments": [],
+        "denominator": "One named job; attachments are occurrence rows",
+        "evidence_ids": [
+          "the-kiss:05.2"
+        ],
+        "evidence_label": "observed",
+        "film_id": "655325cc-46d9-4b0b-b03d-d177defa4b3f",
+        "generation_id": "1430c7a7-73ef-4b50-a789-ac8a305a8a88",
+        "generation_type": "image",
+        "literal_controls": {
+          "aspect_ratio": {
+            "raw_json": "\"16:9\"",
+            "state": "str"
+          },
+          "denoise": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_bottom": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_left": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_right": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "expand_top": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_json": "1536",
+            "state": "int"
+          },
+          "is_all_angles_dump": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "is_inpaint": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "move_forward_level": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "remove_bg": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_json": "\"2k\"",
+            "state": "str"
+          },
+          "rotate_degree": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "sharpen": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "vertical_angle": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_json": "2752",
+            "state": "int"
+          }
+        },
+        "media_outcome": "unobservable",
+        "model_identifier": "nano_banana_2",
+        "parameter_state": "object",
+        "prompt_source_path": "params.prompt"
+      }
+    ],
+    "layer_or_mask_claim": "unsupported unless explicitly disclosed",
+    "sequence": "Resolved producer outputs then named consumer input; unresolved external sources retained without invented steps",
+    "tradeoff": "More explicit dependencies to record and review"
+  },
+  {
+    "applicability": "Named construction task only; no outcome or benefit",
+    "construction_label": "inferred",
+    "evidence": {
+      "case_source": "case-files/the-last-transmission/codes.csv",
+      "code_id": "05.2",
+      "codebook_version": "1.0",
+      "competing_explanation": "Published histories can omit external/private work; instructions do not establish achieved results, final acceptance or project-wide intent.",
+      "confidence_rationale": "Direct source paths/compound keys and exact excerpt or deterministic aggregate checked during reproduction; single-coder semantic interpretation, scoped to named evidence. No agreement or quality estimate.",
+      "denominator": "All 66 exported jobs; zero image jobs",
+      "entity_ids": "03f596b0-23da-4312-9e58-2e1cc4582348/film:03f596b0-23da-4312-9e58-2e1cc4582348",
+      "evidence_id": "the-last-transmission:05.2",
+      "evidence_label": "observed",
+      "excerpt": "[exact distribution] video=66; image=0",
+      "film_id": "03f596b0-23da-4312-9e58-2e1cc4582348",
+      "later_study": "05",
+      "population": "primary",
+      "scope_note": "Image-operation code not applicable to the exported video-only job history; creator-stated sheets do not supply observed image jobs.",
+      "source_path": "generations.generation_type",
+      "status": "not_applicable",
+      "study": "05",
+      "title": "THE LAST TRANSMISSION",
+      "value": "\\N"
+    },
+    "failure_mode": "Mistaking conditioning or a request for achieved integration",
+    "jobs": [],
+    "layer_or_mask_claim": "unsupported unless explicitly disclosed",
+    "sequence": "Resolved producer outputs then named consumer input; unresolved external sources retained without invented steps",
+    "tradeoff": "More explicit dependencies to record and review"
+  },
+  {
+    "applicability": "Named construction task only; no outcome or benefit",
+    "construction_label": "inferred",
+    "evidence": {
+      "case_source": "case-files/the-staff/codes.csv",
+      "code_id": "05.2",
+      "codebook_version": "1.0",
+      "competing_explanation": "Published histories can omit external/private work; instructions do not establish achieved results, final acceptance or project-wide intent.",
+      "confidence_rationale": "Direct source paths/compound keys and exact excerpt or deterministic aggregate checked during reproduction; single-coder semantic interpretation, scoped to named evidence. Evidence does not decide this code; no absence inference.",
+      "denominator": "One registered primary film; 82 jobs; 82 inspected jobs",
+      "entity_ids": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce/film:3b09c7c2-3f0c-48e3-8304-fad569bf50ce",
+      "evidence_id": "the-staff:05.2",
+      "evidence_label": "observed",
+      "excerpt": "82 exported jobs; 82 jobs selected for technical reading",
+      "film_id": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce",
+      "later_study": "05",
+      "population": "primary",
+      "scope_note": "No multi-input or staged image construction is established by inspected edges.",
+      "source_path": "generations; all 14 tables profiled by case-files/profile.py",
+      "status": "unknown",
+      "study": "05",
+      "title": "The Staff",
+      "value": "\\N"
+    },
+    "failure_mode": "Mistaking conditioning or a request for achieved integration",
+    "jobs": [],
+    "layer_or_mask_claim": "unsupported unless explicitly disclosed",
+    "sequence": "Resolved producer outputs then named consumer input; unresolved external sources retained without invented steps",
+    "tradeoff": "More explicit dependencies to record and review"
+  }
+]

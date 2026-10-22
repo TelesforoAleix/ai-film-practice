@@ -19,3 +19,5 @@ registered films across all 49 shared codes for Studies 02–10, with scoped evi
 [Study 02 — Planning and production decomposition](02-planning/README.md) measures structural planning evidence across 157 histories, traces all 16 panel maps, separates declarations from local dependencies, and proposes brief, scene, shot and task schemas with explicit evidence limits.
 
 [Study 03 — Reusable elements](03-elements/README.md) measures disclosed elements, attachments and structural preservation evidence across 157 histories, traces panel packages and inferred derivatives, and proposes separate element identity, variants, versions, scoped authority and approval with explicit evidence limits.
+
+[Study 05 — Image construction and editing](05-image/README.md) measures image bindings, conservative operation routes, construction edges and structural edit/preservation wording across 155 image-bearing histories; it traces panel recipes, separates requests from masks/layers and outcomes, and proposes operation contracts with explicit dependencies on Study 04 and later studies.
