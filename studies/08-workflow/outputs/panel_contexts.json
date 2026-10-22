@@ -1,0 +1,3680 @@
+[
+  {
+    "bindings": [
+      [
+        "416eb299-5a02-4dd1-99c1-8a11d9de0b04",
+        "output",
+        "results",
+        null
+      ],
+      [
+        "612f580b-00fe-4730-a3eb-b2c49902c939",
+        "input_asset",
+        "params.input_images[1]",
+        null
+      ],
+      [
+        "7a44e44c-7b45-4fc5-8c8b-303f25779194",
+        "input_asset",
+        "params.input_images[0]",
+        null
+      ]
+    ],
+    "controls": {
+      "aspect_ratio": [
+        "str",
+        "\"21:9\""
+      ],
+      "camera_aperture": [
+        "absent",
+        null
+      ],
+      "camera_focal_length": [
+        "absent",
+        null
+      ],
+      "camera_lens": [
+        "absent",
+        null
+      ],
+      "camera_model": [
+        "absent",
+        null
+      ],
+      "draft": [
+        "absent",
+        null
+      ],
+      "duration": [
+        "absent",
+        null
+      ],
+      "end_seconds": [
+        "absent",
+        null
+      ],
+      "extension_mode": [
+        "absent",
+        null
+      ],
+      "fps": [
+        "absent",
+        null
+      ],
+      "generate_audio": [
+        "absent",
+        null
+      ],
+      "height": [
+        "int",
+        "1344"
+      ],
+      "is_inpaint": [
+        "absent",
+        null
+      ],
+      "mode": [
+        "absent",
+        null
+      ],
+      "model": [
+        "absent",
+        null
+      ],
+      "model_version": [
+        "absent",
+        null
+      ],
+      "motion": [
+        "absent",
+        null
+      ],
+      "multi_shot_mode": [
+        "absent",
+        null
+      ],
+      "multi_shots": [
+        "absent",
+        null
+      ],
+      "resolution": [
+        "str",
+        "\"2k\""
+      ],
+      "sound": [
+        "absent",
+        null
+      ],
+      "start_seconds": [
+        "absent",
+        null
+      ],
+      "width": [
+        "int",
+        "3168"
+      ]
+    },
+    "evidence_id": "a-tales-before-titanic-tragedy:08.1",
+    "evidence_label": "observed",
+    "film_id": "3f6e509b-f3da-4324-a746-b9d35f0b9845",
+    "final_use": "unknown",
+    "generation_id": "416eb299-5a02-4dd1-99c1-8a11d9de0b04",
+    "generation_type": "image",
+    "media_contents": "unknown",
+    "metrics": {
+      "audio_job": 0,
+      "chained": 0,
+      "convergent": 0,
+      "cross_model": 0,
+      "finishing_job": 0,
+      "image_foundation": 0,
+      "image_job": 1,
+      "media_bound": 1,
+      "no_recorded_media": 0,
+      "reference_preparation": 0,
+      "shared_input": 1,
+      "staged_refinement": 0,
+      "video_candidate": 0,
+      "voice_adapter": 0
+    },
+    "model_identifier": "nano_banana_2",
+    "prompt_state": "nonempty"
+  },
+  {
+    "bindings": [
+      [
+        "0376b202-36db-4ff5-b12e-5846923cbf28",
+        "output",
+        "results",
+        null
+      ],
+      [
+        "0b16f719-4297-4baa-b6ab-e0722fe728c0",
+        "input_asset",
+        "params.input_images[0]",
+        null
+      ],
+      [
+        "6fd3c56b-7b0c-47ff-a764-c50bc0eca411",
+        "input_asset",
+        "params.input_images[1]",
+        null
+      ]
+    ],
+    "controls": {
+      "aspect_ratio": [
+        "str",
+        "\"16:9\""
+      ],
+      "camera_aperture": [
+        "absent",
+        null
+      ],
+      "camera_focal_length": [
+        "absent",
+        null
+      ],
+      "camera_lens": [
+        "absent",
+        null
+      ],
+      "camera_model": [
+        "absent",
+        null
+      ],
+      "draft": [
+        "absent",
+        null
+      ],
+      "duration": [
+        "absent",
+        null
+      ],
+      "end_seconds": [
+        "absent",
+        null
+      ],
+      "extension_mode": [
+        "absent",
+        null
+      ],
+      "fps": [
+        "absent",
+        null
+      ],
+      "generate_audio": [
+        "absent",
+        null
+      ],
+      "height": [
+        "int",
+        "3072"
+      ],
+      "is_inpaint": [
+        "absent",
+        null
+      ],
+      "mode": [
+        "absent",
+        null
+      ],
+      "model": [
+        "absent",
+        null
+      ],
+      "model_version": [
+        "absent",
+        null
+      ],
+      "motion": [
+        "absent",
+        null
+      ],
+      "multi_shot_mode": [
+        "absent",
+        null
+      ],
+      "multi_shots": [
+        "absent",
+        null
+      ],
+      "resolution": [
+        "str",
+        "\"4k\""
+      ],
+      "sound": [
+        "absent",
+        null
+      ],
+      "start_seconds": [
+        "absent",
+        null
+      ],
+      "width": [
+        "int",
+        "5504"
+      ]
+    },
+    "evidence_id": "apeirophobia:08.1",
+    "evidence_label": "observed",
+    "film_id": "c3d8ee5e-b119-4654-99f9-c6545f650635",
+    "final_use": "unknown",
+    "generation_id": "0376b202-36db-4ff5-b12e-5846923cbf28",
+    "generation_type": "image",
+    "media_contents": "unknown",
+    "metrics": {
+      "audio_job": 0,
+      "chained": 1,
+      "convergent": 0,
+      "cross_model": 0,
+      "finishing_job": 0,
+      "image_foundation": 0,
+      "image_job": 1,
+      "media_bound": 1,
+      "no_recorded_media": 0,
+      "reference_preparation": 0,
+      "shared_input": 1,
+      "staged_refinement": 0,
+      "video_candidate": 0,
+      "voice_adapter": 0
+    },
+    "model_identifier": "nano_banana_2",
+    "prompt_state": "nonempty"
+  },
+  {
+    "bindings": [
+      [
+        "88160a68-3dd4-4662-be7e-4fb5852634c5",
+        "input_video",
+        "params.medias[1].data",
+        null
+      ],
+      [
+        "b4a29f34-99b8-424c-b9bf-fe425c0e0b8c",
+        "input_start_image",
+        "params.medias[0].data",
+        null
+      ],
+      [
+        "b6e44e77-d4a0-4821-9663-55a452fffc01",
+        "output",
+        "results",
+        null
+      ]
+    ],
+    "controls": {
+      "aspect_ratio": [
+        "str",
+        "\"16:9\""
+      ],
+      "camera_aperture": [
+        "absent",
+        null
+      ],
+      "camera_focal_length": [
+        "absent",
+        null
+      ],
+      "camera_lens": [
+        "absent",
+        null
+      ],
+      "camera_model": [
+        "absent",
+        null
+      ],
+      "draft": [
+        "absent",
+        null
+      ],
+      "duration": [
+        "int",
+        "7"
+      ],
+      "end_seconds": [
+        "absent",
+        null
+      ],
+      "extension_mode": [
+        "absent",
+        null
+      ],
+      "fps": [
+        "absent",
+        null
+      ],
+      "generate_audio": [
+        "absent",
+        null
+      ],
+      "height": [
+        "int",
+        "1080"
+      ],
+      "is_inpaint": [
+        "absent",
+        null
+      ],
+      "mode": [
+        "absent",
+        null
+      ],
+      "model": [
+        "absent",
+        null
+      ],
+      "model_version": [
+        "absent",
+        null
+      ],
+      "motion": [
+        "absent",
+        null
+      ],
+      "multi_shot_mode": [
+        "absent",
+        null
+      ],
+      "multi_shots": [
+        "absent",
+        null
+      ],
+      "resolution": [
+        "str",
+        "\"1080p\""
+      ],
+      "sound": [
+        "absent",
+        null
+      ],
+      "start_seconds": [
+        "absent",
+        null
+      ],
+      "width": [
+        "int",
+        "1920"
+      ]
+    },
+    "evidence_id": "apeirophobia:08.5",
+    "evidence_label": "observed",
+    "film_id": "c3d8ee5e-b119-4654-99f9-c6545f650635",
+    "final_use": "unknown",
+    "generation_id": "b6e44e77-d4a0-4821-9663-55a452fffc01",
+    "generation_type": "video",
+    "media_contents": "unknown",
+    "metrics": {
+      "audio_job": 0,
+      "chained": 1,
+      "convergent": 0,
+      "cross_model": 1,
+      "finishing_job": 1,
+      "image_foundation": 0,
+      "image_job": 0,
+      "media_bound": 1,
+      "no_recorded_media": 0,
+      "reference_preparation": 0,
+      "shared_input": 0,
+      "staged_refinement": 1,
+      "video_candidate": 0,
+      "voice_adapter": 0
+    },
+    "model_identifier": "cinematic_video_editor",
+    "prompt_state": "empty"
+  },
+  {
+    "bindings": [
+      [
+        "372eae81-9e4e-4264-adac-febf9565667e",
+        "output",
+        "results",
+        null
+      ],
+      [
+        "37f689e1-04da-473c-9778-97b61732ec90",
+        "input_image",
+        "params.medias[0].data",
+        null
+      ],
+      [
+        "b38a38ab-607f-4228-93ee-f2d940fdb20f",
+        "input_image",
+        "params.medias[1].data",
+        null
+      ]
+    ],
+    "controls": {
+      "aspect_ratio": [
+        "str",
+        "\"16:9\""
+      ],
+      "camera_aperture": [
+        "absent",
+        null
+      ],
+      "camera_focal_length": [
+        "absent",
+        null
+      ],
+      "camera_lens": [
+        "absent",
+        null
+      ],
+      "camera_model": [
+        "absent",
+        null
+      ],
+      "draft": [
+        "absent",
+        null
+      ],
+      "duration": [
+        "absent",
+        null
+      ],
+      "end_seconds": [
+        "absent",
+        null
+      ],
+      "extension_mode": [
+        "absent",
+        null
+      ],
+      "fps": [
+        "absent",
+        null
+      ],
+      "generate_audio": [
+        "absent",
+        null
+      ],
+      "height": [
+        "int",
+        "3040"
+      ],
+      "is_inpaint": [
+        "absent",
+        null
+      ],
+      "mode": [
+        "absent",
+        null
+      ],
+      "model": [
+        "absent",
+        null
+      ],
+      "model_version": [
+        "absent",
+        null
+      ],
+      "motion": [
+        "absent",
+        null
+      ],
+      "multi_shot_mode": [
+        "absent",
+        null
+      ],
+      "multi_shots": [
+        "absent",
+        null
+      ],
+      "resolution": [
+        "absent",
+        null
+      ],
+      "sound": [
+        "absent",
+        null
+      ],
+      "start_seconds": [
+        "absent",
+        null
+      ],
+      "width": [
+        "int",
+        "5504"
+      ]
+    },
+    "evidence_id": "birthdays:08.1",
+    "evidence_label": "observed",
+    "film_id": "d51d6821-d191-40f7-949b-1086750a2e93",
+    "final_use": "unknown",
+    "generation_id": "372eae81-9e4e-4264-adac-febf9565667e",
+    "generation_type": "image",
+    "media_contents": "unknown",
+    "metrics": {
+      "audio_job": 0,
+      "chained": 1,
+      "convergent": 0,
+      "cross_model": 1,
+      "finishing_job": 0,
+      "image_foundation": 0,
+      "image_job": 1,
+      "media_bound": 1,
+      "no_recorded_media": 0,
+      "reference_preparation": 0,
+      "shared_input": 1,
+      "staged_refinement": 0,
+      "video_candidate": 0,
+      "voice_adapter": 0
+    },
+    "model_identifier": "seedream_v5_lite",
+    "prompt_state": "nonempty"
+  },
+  {
+    "bindings": [
+      [
+        "3035914f-e296-487b-aad5-e0cf561a64f6",
+        "input_video",
+        "params.medias[1].data",
+        null
+      ],
+      [
+        "a58dc32f-f644-4738-ac79-cb9021cbb201",
+        "output",
+        "results",
+        null
+      ],
+      [
+        "b8f950ad-f4ff-4982-9ba4-b4789c94a163",
+        "input_start_image",
+        "params.medias[0].data",
+        null
+      ]
+    ],
+    "controls": {
+      "aspect_ratio": [
+        "str",
+        "\"16:9\""
+      ],
+      "camera_aperture": [
+        "absent",
+        null
+      ],
+      "camera_focal_length": [
+        "absent",
+        null
+      ],
+      "camera_lens": [
+        "absent",
+        null
+      ],
+      "camera_model": [
+        "absent",
+        null
+      ],
+      "draft": [
+        "absent",
+        null
+      ],
+      "duration": [
+        "int",
+        "8"
+      ],
+      "end_seconds": [
+        "absent",
+        null
+      ],
+      "extension_mode": [
+        "absent",
+        null
+      ],
+      "fps": [
+        "absent",
+        null
+      ],
+      "generate_audio": [
+        "absent",
+        null
+      ],
+      "height": [
+        "int",
+        "1080"
+      ],
+      "is_inpaint": [
+        "absent",
+        null
+      ],
+      "mode": [
+        "absent",
+        null
+      ],
+      "model": [
+        "absent",
+        null
+      ],
+      "model_version": [
+        "absent",
+        null
+      ],
+      "motion": [
+        "absent",
+        null
+      ],
+      "multi_shot_mode": [
+        "absent",
+        null
+      ],
+      "multi_shots": [
+        "absent",
+        null
+      ],
+      "resolution": [
+        "str",
+        "\"1080p\""
+      ],
+      "sound": [
+        "absent",
+        null
+      ],
+      "start_seconds": [
+        "absent",
+        null
+      ],
+      "width": [
+        "int",
+        "1920"
+      ]
+    },
+    "evidence_id": "birthdays:08.5",
+    "evidence_label": "observed",
+    "film_id": "d51d6821-d191-40f7-949b-1086750a2e93",
+    "final_use": "unknown",
+    "generation_id": "a58dc32f-f644-4738-ac79-cb9021cbb201",
+    "generation_type": "video",
+    "media_contents": "unknown",
+    "metrics": {
+      "audio_job": 0,
+      "chained": 1,
+      "convergent": 1,
+      "cross_model": 1,
+      "finishing_job": 1,
+      "image_foundation": 0,
+      "image_job": 0,
+      "media_bound": 1,
+      "no_recorded_media": 0,
+      "reference_preparation": 0,
+      "shared_input": 1,
+      "staged_refinement": 1,
+      "video_candidate": 0,
+      "voice_adapter": 0
+    },
+    "model_identifier": "cinematic_video_editor",
+    "prompt_state": "empty"
+  },
+  {
+    "bindings": [
+      [
+        "00406410-315c-4041-b23f-9513cfe2434f",
+        "output",
+        "results",
+        null
+      ],
+      [
+        "103257f3-60f6-4b45-82ee-2d2f75ca0e79",
+        "input_image",
+        "params.medias[0].data",
+        null
+      ],
+      [
+        "943dafcf-4760-4a0a-a237-df90eed708bf",
+        "reference_image",
+        "params.reference_elements[0].medias[0]",
+        "e4e87392-4622-46e3-9661-45616abcad0f"
+      ]
+    ],
+    "controls": {
+      "aspect_ratio": [
+        "str",
+        "\"21:9\""
+      ],
+      "camera_aperture": [
+        "absent",
+        null
+      ],
+      "camera_focal_length": [
+        "absent",
+        null
+      ],
+      "camera_lens": [
+        "absent",
+        null
+      ],
+      "camera_model": [
+        "absent",
+        null
+      ],
+      "draft": [
+        "absent",
+        null
+      ],
+      "duration": [
+        "absent",
+        null
+      ],
+      "end_seconds": [
+        "absent",
+        null
+      ],
+      "extension_mode": [
+        "absent",
+        null
+      ],
+      "fps": [
+        "absent",
+        null
+      ],
+      "generate_audio": [
+        "absent",
+        null
+      ],
+      "height": [
+        "int",
+        "1328"
+      ],
+      "is_inpaint": [
+        "bool",
+        "false"
+      ],
+      "mode": [
+        "absent",
+        null
+      ],
+      "model": [
+        "absent",
+        null
+      ],
+      "model_version": [
+        "absent",
+        null
+      ],
+      "motion": [
+        "absent",
+        null
+      ],
+      "multi_shot_mode": [
+        "absent",
+        null
+      ],
+      "multi_shots": [
+        "absent",
+        null
+      ],
+      "resolution": [
+        "str",
+        "\"2k\""
+      ],
+      "sound": [
+        "absent",
+        null
+      ],
+      "start_seconds": [
+        "absent",
+        null
+      ],
+      "width": [
+        "int",
+        "3120"
+      ]
+    },
+    "evidence_id": "detour:08.1",
+    "evidence_label": "observed",
+    "film_id": "d90fe8bd-3329-40b3-963c-d9b33075aec1",
+    "final_use": "unknown",
+    "generation_id": "00406410-315c-4041-b23f-9513cfe2434f",
+    "generation_type": "image",
+    "media_contents": "unknown",
+    "metrics": {
+      "audio_job": 0,
+      "chained": 0,
+      "convergent": 0,
+      "cross_model": 0,
+      "finishing_job": 0,
+      "image_foundation": 0,
+      "image_job": 1,
+      "media_bound": 1,
+      "no_recorded_media": 0,
+      "reference_preparation": 0,
+      "shared_input": 1,
+      "staged_refinement": 0,
+      "video_candidate": 0,
+      "voice_adapter": 0
+    },
+    "model_identifier": "seedream_v5_pro",
+    "prompt_state": "nonempty"
+  },
+  {
+    "bindings": [
+      [
+        "6354dd61-e871-4814-b178-523ebbadaebe",
+        "input_video",
+        "params.medias[1].data",
+        null
+      ],
+      [
+        "9a979a6c-75b8-4cb2-9de4-3c38f56f1542",
+        "input_start_image",
+        "params.medias[0].data",
+        null
+      ],
+      [
+        "c4625d5e-3558-485d-8de4-e1ec087ecf99",
+        "output",
+        "results",
+        null
+      ]
+    ],
+    "controls": {
+      "aspect_ratio": [
+        "absent",
+        null
+      ],
+      "camera_aperture": [
+        "absent",
+        null
+      ],
+      "camera_focal_length": [
+        "absent",
+        null
+      ],
+      "camera_lens": [
+        "absent",
+        null
+      ],
+      "camera_model": [
+        "absent",
+        null
+      ],
+      "draft": [
+        "absent",
+        null
+      ],
+      "duration": [
+        "absent",
+        null
+      ],
+      "end_seconds": [
+        "float",
+        "12.042"
+      ],
+      "extension_mode": [
+        "absent",
+        null
+      ],
+      "fps": [
+        "absent",
+        null
+      ],
+      "generate_audio": [
+        "absent",
+        null
+      ],
+      "height": [
+        "absent",
+        null
+      ],
+      "is_inpaint": [
+        "absent",
+        null
+      ],
+      "mode": [
+        "absent",
+        null
+      ],
+      "model": [
+        "absent",
+        null
+      ],
+      "model_version": [
+        "absent",
+        null
+      ],
+      "motion": [
+        "absent",
+        null
+      ],
+      "multi_shot_mode": [
+        "absent",
+        null
+      ],
+      "multi_shots": [
+        "absent",
+        null
+      ],
+      "resolution": [
+        "absent",
+        null
+      ],
+      "sound": [
+        "absent",
+        null
+      ],
+      "start_seconds": [
+        "float",
+        "5.210931270695364"
+      ],
+      "width": [
+        "absent",
+        null
+      ]
+    },
+    "evidence_id": "detour:08.5",
+    "evidence_label": "observed",
+    "film_id": "d90fe8bd-3329-40b3-963c-d9b33075aec1",
+    "final_use": "unknown",
+    "generation_id": "c4625d5e-3558-485d-8de4-e1ec087ecf99",
+    "generation_type": "video",
+    "media_contents": "unknown",
+    "metrics": {
+      "audio_job": 0,
+      "chained": 1,
+      "convergent": 0,
+      "cross_model": 1,
+      "finishing_job": 1,
+      "image_foundation": 0,
+      "image_job": 0,
+      "media_bound": 1,
+      "no_recorded_media": 0,
+      "reference_preparation": 0,
+      "shared_input": 0,
+      "staged_refinement": 1,
+      "video_candidate": 0,
+      "voice_adapter": 0
+    },
+    "model_identifier": "cinematic_video_editor",
+    "prompt_state": "unavailable"
+  },
+  {
+    "bindings": [
+      [
+        "4ebd698e-e1f7-479d-93b0-4043e5e61913",
+        "input_image",
+        "params.medias[0].data",
+        null
+      ],
+      [
+        "5bc1268c-ccc1-419e-bd13-79344eadf228",
+        "output",
+        "results",
+        null
+      ],
+      [
+        "c16ce530-c7d1-461a-acc8-63b8d7de63b1",
+        "input_image",
+        "params.medias[1].data",
+        null
+      ]
+    ],
+    "controls": {
+      "aspect_ratio": [
+        "str",
+        "\"16:9\""
+      ],
+      "camera_aperture": [
+        "absent",
+        null
+      ],
+      "camera_focal_length": [
+        "absent",
+        null
+      ],
+      "camera_lens": [
+        "absent",
+        null
+      ],
+      "camera_model": [
+        "absent",
+        null
+      ],
+      "draft": [
+        "absent",
+        null
+      ],
+      "duration": [
+        "absent",
+        null
+      ],
+      "end_seconds": [
+        "absent",
+        null
+      ],
+      "extension_mode": [
+        "absent",
+        null
+      ],
+      "fps": [
+        "absent",
+        null
+      ],
+      "generate_audio": [
+        "absent",
+        null
+      ],
+      "height": [
+        "int",
+        "1536"
+      ],
+      "is_inpaint": [
+        "bool",
+        "false"
+      ],
+      "mode": [
+        "absent",
+        null
+      ],
+      "model": [
+        "absent",
+        null
+      ],
+      "model_version": [
+        "absent",
+        null
+      ],
+      "motion": [
+        "absent",
+        null
+      ],
+      "multi_shot_mode": [
+        "absent",
+        null
+      ],
+      "multi_shots": [
+        "absent",
+        null
+      ],
+      "resolution": [
+        "str",
+        "\"2k\""
+      ],
+      "sound": [
+        "absent",
+        null
+      ],
+      "start_seconds": [
+        "absent",
+        null
+      ],
+      "width": [
+        "int",
+        "2720"
+      ]
+    },
+    "evidence_id": "dont-poison-ivy:08.1",
+    "evidence_label": "observed",
+    "film_id": "d305f6e5-b906-49a1-a0c6-75ef7f653ad8",
+    "final_use": "unknown",
+    "generation_id": "5bc1268c-ccc1-419e-bd13-79344eadf228",
+    "generation_type": "image",
+    "media_contents": "unknown",
+    "metrics": {
+      "audio_job": 0,
+      "chained": 1,
+      "convergent": 1,
+      "cross_model": 1,
+      "finishing_job": 0,
+      "image_foundation": 1,
+      "image_job": 1,
+      "media_bound": 1,
+      "no_recorded_media": 0,
+      "reference_preparation": 1,
+      "shared_input": 1,
+      "staged_refinement": 0,
+      "video_candidate": 0,
+      "voice_adapter": 0
+    },
+    "model_identifier": "seedream_v5_pro",
+    "prompt_state": "nonempty"
+  },
+  {
+    "bindings": [
+      [
+        "227d5e74-f8b5-4df5-b406-8e676731dca8",
+        "input_start_image",
+        "params.medias[0].data",
+        null
+      ],
+      [
+        "dc7c91e0-2472-4c8a-b7af-090791a7b255",
+        "input_video",
+        "params.medias[1].data",
+        null
+      ],
+      [
+        "fbf502ce-3068-4d82-8ebd-f47763fed2f5",
+        "output",
+        "results",
+        null
+      ]
+    ],
+    "controls": {
+      "aspect_ratio": [
+        "absent",
+        null
+      ],
+      "camera_aperture": [
+        "absent",
+        null
+      ],
+      "camera_focal_length": [
+        "absent",
+        null
+      ],
+      "camera_lens": [
+        "absent",
+        null
+      ],
+      "camera_model": [
+        "absent",
+        null
+      ],
+      "draft": [
+        "absent",
+        null
+      ],
+      "duration": [
+        "absent",
+        null
+      ],
+      "end_seconds": [
+        "int",
+        "0"
+      ],
+      "extension_mode": [
+        "absent",
+        null
+      ],
+      "fps": [
+        "absent",
+        null
+      ],
+      "generate_audio": [
+        "absent",
+        null
+      ],
+      "height": [
+        "absent",
+        null
+      ],
+      "is_inpaint": [
+        "absent",
+        null
+      ],
+      "mode": [
+        "absent",
+        null
+      ],
+      "model": [
+        "absent",
+        null
+      ],
+      "model_version": [
+        "absent",
+        null
+      ],
+      "motion": [
+        "absent",
+        null
+      ],
+      "multi_shot_mode": [
+        "absent",
+        null
+      ],
+      "multi_shots": [
+        "absent",
+        null
+      ],
+      "resolution": [
+        "absent",
+        null
+      ],
+      "sound": [
+        "absent",
+        null
+      ],
+      "start_seconds": [
+        "int",
+        "0"
+      ],
+      "width": [
+        "absent",
+        null
+      ]
+    },
+    "evidence_id": "dont-poison-ivy:08.5",
+    "evidence_label": "observed",
+    "film_id": "d305f6e5-b906-49a1-a0c6-75ef7f653ad8",
+    "final_use": "unknown",
+    "generation_id": "fbf502ce-3068-4d82-8ebd-f47763fed2f5",
+    "generation_type": "video",
+    "media_contents": "unknown",
+    "metrics": {
+      "audio_job": 0,
+      "chained": 1,
+      "convergent": 0,
+      "cross_model": 1,
+      "finishing_job": 1,
+      "image_foundation": 0,
+      "image_job": 0,
+      "media_bound": 1,
+      "no_recorded_media": 0,
+      "reference_preparation": 0,
+      "shared_input": 1,
+      "staged_refinement": 1,
+      "video_candidate": 0,
+      "voice_adapter": 0
+    },
+    "model_identifier": "cinematic_video_editor",
+    "prompt_state": "unavailable"
+  },
+  {
+    "bindings": [
+      [
+        "3e7791d1-6165-4a81-bbaa-575811c1edd8",
+        "output",
+        "results",
+        null
+      ]
+    ],
+    "controls": {
+      "aspect_ratio": [
+        "str",
+        "\"21:9\""
+      ],
+      "camera_aperture": [
+        "absent",
+        null
+      ],
+      "camera_focal_length": [
+        "absent",
+        null
+      ],
+      "camera_lens": [
+        "absent",
+        null
+      ],
+      "camera_model": [
+        "absent",
+        null
+      ],
+      "draft": [
+        "absent",
+        null
+      ],
+      "duration": [
+        "absent",
+        null
+      ],
+      "end_seconds": [
+        "absent",
+        null
+      ],
+      "extension_mode": [
+        "absent",
+        null
+      ],
+      "fps": [
+        "absent",
+        null
+      ],
+      "generate_audio": [
+        "absent",
+        null
+      ],
+      "height": [
+        "int",
+        "2688"
+      ],
+      "is_inpaint": [
+        "absent",
+        null
+      ],
+      "mode": [
+        "absent",
+        null
+      ],
+      "model": [
+        "absent",
+        null
+      ],
+      "model_version": [
+        "absent",
+        null
+      ],
+      "motion": [
+        "absent",
+        null
+      ],
+      "multi_shot_mode": [
+        "absent",
+        null
+      ],
+      "multi_shots": [
+        "absent",
+        null
+      ],
+      "resolution": [
+        "str",
+        "\"4k\""
+      ],
+      "sound": [
+        "absent",
+        null
+      ],
+      "start_seconds": [
+        "absent",
+        null
+      ],
+      "width": [
+        "int",
+        "6336"
+      ]
+    },
+    "evidence_id": "dry-aged-dreams:08.1",
+    "evidence_label": "observed",
+    "film_id": "3777eda4-c15e-4531-9f04-4c02a900f3c3",
+    "final_use": "unknown",
+    "generation_id": "3e7791d1-6165-4a81-bbaa-575811c1edd8",
+    "generation_type": "image",
+    "media_contents": "unknown",
+    "metrics": {
+      "audio_job": 0,
+      "chained": 0,
+      "convergent": 0,
+      "cross_model": 0,
+      "finishing_job": 0,
+      "image_foundation": 0,
+      "image_job": 1,
+      "media_bound": 0,
+      "no_recorded_media": 1,
+      "reference_preparation": 0,
+      "shared_input": 0,
+      "staged_refinement": 0,
+      "video_candidate": 0,
+      "voice_adapter": 0
+    },
+    "model_identifier": "nano_banana_2",
+    "prompt_state": "nonempty"
+  },
+  {
+    "bindings": [
+      [
+        "7188a902-290f-4b44-9d53-b3b34f1ee492",
+        "output",
+        "results",
+        null
+      ]
+    ],
+    "controls": {
+      "aspect_ratio": [
+        "str",
+        "\"16:9\""
+      ],
+      "camera_aperture": [
+        "absent",
+        null
+      ],
+      "camera_focal_length": [
+        "absent",
+        null
+      ],
+      "camera_lens": [
+        "absent",
+        null
+      ],
+      "camera_model": [
+        "absent",
+        null
+      ],
+      "draft": [
+        "absent",
+        null
+      ],
+      "duration": [
+        "absent",
+        null
+      ],
+      "end_seconds": [
+        "absent",
+        null
+      ],
+      "extension_mode": [
+        "absent",
+        null
+      ],
+      "fps": [
+        "absent",
+        null
+      ],
+      "generate_audio": [
+        "absent",
+        null
+      ],
+      "height": [
+        "int",
+        "1520"
+      ],
+      "is_inpaint": [
+        "absent",
+        null
+      ],
+      "mode": [
+        "absent",
+        null
+      ],
+      "model": [
+        "str",
+        "\"videotape-alpha\""
+      ],
+      "model_version": [
+        "absent",
+        null
+      ],
+      "motion": [
+        "absent",
+        null
+      ],
+      "multi_shot_mode": [
+        "absent",
+        null
+      ],
+      "multi_shots": [
+        "absent",
+        null
+      ],
+      "resolution": [
+        "str",
+        "\"2k\""
+      ],
+      "sound": [
+        "absent",
+        null
+      ],
+      "start_seconds": [
+        "absent",
+        null
+      ],
+      "width": [
+        "int",
+        "2688"
+      ]
+    },
+    "evidence_id": "fallen-leaves:08.1",
+    "evidence_label": "observed",
+    "film_id": "6659c520-c88e-4ac7-a2c9-f28d8a40c954",
+    "final_use": "unknown",
+    "generation_id": "7188a902-290f-4b44-9d53-b3b34f1ee492",
+    "generation_type": "image",
+    "media_contents": "unknown",
+    "metrics": {
+      "audio_job": 0,
+      "chained": 0,
+      "convergent": 0,
+      "cross_model": 0,
+      "finishing_job": 0,
+      "image_foundation": 0,
+      "image_job": 1,
+      "media_bound": 0,
+      "no_recorded_media": 1,
+      "reference_preparation": 0,
+      "shared_input": 0,
+      "staged_refinement": 0,
+      "video_candidate": 0,
+      "voice_adapter": 0
+    },
+    "model_identifier": "gpt_image_2",
+    "prompt_state": "nonempty"
+  },
+  {
+    "bindings": [
+      [
+        "0205320f-3610-4d27-815d-61e834cbdcc3",
+        "output",
+        "results",
+        null
+      ],
+      [
+        "2b2bc2ea-1247-4456-8e72-1fd57a234fba",
+        "reference_image",
+        "params.reference_elements[0].medias[0]",
+        "260cc2f6-705c-46af-a586-55a1c5e49889"
+      ],
+      [
+        "515a503a-80d1-4526-ae29-b1f0edcd5933",
+        "input_image",
+        "params.medias[0].data",
+        null
+      ],
+      [
+        "9b5d0968-52fa-4f1b-ad47-1fe45cca911f",
+        "reference_image",
+        "params.reference_elements[2].medias[0]",
+        "7fb91a19-c8ff-4142-9eb6-921875e8e3ff"
+      ],
+      [
+        "a439807f-a8a9-458b-978d-e2b08d201d39",
+        "reference_image",
+        "params.reference_elements[1].medias[0]",
+        "60d59d65-df60-446b-9192-743485a59e23"
+      ]
+    ],
+    "controls": {
+      "aspect_ratio": [
+        "str",
+        "\"16:9\""
+      ],
+      "camera_aperture": [
+        "absent",
+        null
+      ],
+      "camera_focal_length": [
+        "absent",
+        null
+      ],
+      "camera_lens": [
+        "absent",
+        null
+      ],
+      "camera_model": [
+        "absent",
+        null
+      ],
+      "draft": [
+        "absent",
+        null
+      ],
+      "duration": [
+        "absent",
+        null
+      ],
+      "end_seconds": [
+        "absent",
+        null
+      ],
+      "extension_mode": [
+        "absent",
+        null
+      ],
+      "fps": [
+        "absent",
+        null
+      ],
+      "generate_audio": [
+        "absent",
+        null
+      ],
+      "height": [
+        "int",
+        "1520"
+      ],
+      "is_inpaint": [
+        "absent",
+        null
+      ],
+      "mode": [
+        "absent",
+        null
+      ],
+      "model": [
+        "str",
+        "\"videotape-alpha\""
+      ],
+      "model_version": [
+        "absent",
+        null
+      ],
+      "motion": [
+        "absent",
+        null
+      ],
+      "multi_shot_mode": [
+        "absent",
+        null
+      ],
+      "multi_shots": [
+        "absent",
+        null
+      ],
+      "resolution": [
+        "str",
+        "\"2k\""
+      ],
+      "sound": [
+        "absent",
+        null
+      ],
+      "start_seconds": [
+        "absent",
+        null
+      ],
+      "width": [
+        "int",
+        "2688"
+      ]
+    },
+    "evidence_id": "harmony:08.1",
+    "evidence_label": "observed",
+    "film_id": "2fd725ab-2604-4220-8cca-d332e9de53a2",
+    "final_use": "unknown",
+    "generation_id": "0205320f-3610-4d27-815d-61e834cbdcc3",
+    "generation_type": "image",
+    "media_contents": "unknown",
+    "metrics": {
+      "audio_job": 0,
+      "chained": 1,
+      "convergent": 1,
+      "cross_model": 1,
+      "finishing_job": 0,
+      "image_foundation": 0,
+      "image_job": 1,
+      "media_bound": 1,
+      "no_recorded_media": 0,
+      "reference_preparation": 0,
+      "shared_input": 1,
+      "staged_refinement": 1,
+      "video_candidate": 0,
+      "voice_adapter": 0
+    },
+    "model_identifier": "gpt_image_2",
+    "prompt_state": "nonempty"
+  },
+  {
+    "bindings": [
+      [
+        "001321d4-59f6-4087-868a-41e299e99923",
+        "input_video",
+        "params.medias[1].data",
+        null
+      ],
+      [
+        "0f9561a3-d128-43e6-ab77-cab14e15b128",
+        "input_start_image",
+        "params.medias[0].data",
+        null
+      ],
+      [
+        "eb1e92f8-203d-4767-94e8-22c4062a2572",
+        "output",
+        "results",
+        null
+      ]
+    ],
+    "controls": {
+      "aspect_ratio": [
+        "absent",
+        null
+      ],
+      "camera_aperture": [
+        "absent",
+        null
+      ],
+      "camera_focal_length": [
+        "absent",
+        null
+      ],
+      "camera_lens": [
+        "absent",
+        null
+      ],
+      "camera_model": [
+        "absent",
+        null
+      ],
+      "draft": [
+        "absent",
+        null
+      ],
+      "duration": [
+        "absent",
+        null
+      ],
+      "end_seconds": [
+        "float",
+        "4.0"
+      ],
+      "extension_mode": [
+        "absent",
+        null
+      ],
+      "fps": [
+        "absent",
+        null
+      ],
+      "generate_audio": [
+        "absent",
+        null
+      ],
+      "height": [
+        "absent",
+        null
+      ],
+      "is_inpaint": [
+        "absent",
+        null
+      ],
+      "mode": [
+        "absent",
+        null
+      ],
+      "model": [
+        "absent",
+        null
+      ],
+      "model_version": [
+        "absent",
+        null
+      ],
+      "motion": [
+        "absent",
+        null
+      ],
+      "multi_shot_mode": [
+        "absent",
+        null
+      ],
+      "multi_shots": [
+        "absent",
+        null
+      ],
+      "resolution": [
+        "absent",
+        null
+      ],
+      "sound": [
+        "absent",
+        null
+      ],
+      "start_seconds": [
+        "float",
+        "0.0"
+      ],
+      "width": [
+        "absent",
+        null
+      ]
+    },
+    "evidence_id": "harmony:08.5",
+    "evidence_label": "observed",
+    "film_id": "2fd725ab-2604-4220-8cca-d332e9de53a2",
+    "final_use": "unknown",
+    "generation_id": "eb1e92f8-203d-4767-94e8-22c4062a2572",
+    "generation_type": "video",
+    "media_contents": "unknown",
+    "metrics": {
+      "audio_job": 0,
+      "chained": 1,
+      "convergent": 0,
+      "cross_model": 1,
+      "finishing_job": 1,
+      "image_foundation": 0,
+      "image_job": 0,
+      "media_bound": 1,
+      "no_recorded_media": 0,
+      "reference_preparation": 0,
+      "shared_input": 0,
+      "staged_refinement": 1,
+      "video_candidate": 0,
+      "voice_adapter": 0
+    },
+    "model_identifier": "cinematic_video_editor",
+    "prompt_state": "unavailable"
+  },
+  {
+    "bindings": [
+      [
+        "21cdd520-127b-4472-96cb-73227ad2a57f",
+        "input_image",
+        "params.medias[0].data",
+        null
+      ],
+      [
+        "23c75ad3-31de-407b-b10d-c5ff235fefba",
+        "input_image",
+        "params.medias[1].data",
+        null
+      ],
+      [
+        "4e1ed78a-819b-475c-8520-e4515df1c830",
+        "output",
+        "results",
+        null
+      ],
+      [
+        "5ce64b17-ba18-497a-950c-c6d47547398d",
+        "input_image",
+        "params.medias[2].data",
+        null
+      ]
+    ],
+    "controls": {
+      "aspect_ratio": [
+        "str",
+        "\"4:5\""
+      ],
+      "camera_aperture": [
+        "absent",
+        null
+      ],
+      "camera_focal_length": [
+        "absent",
+        null
+      ],
+      "camera_lens": [
+        "absent",
+        null
+      ],
+      "camera_model": [
+        "absent",
+        null
+      ],
+      "draft": [
+        "absent",
+        null
+      ],
+      "duration": [
+        "absent",
+        null
+      ],
+      "end_seconds": [
+        "absent",
+        null
+      ],
+      "extension_mode": [
+        "absent",
+        null
+      ],
+      "fps": [
+        "absent",
+        null
+      ],
+      "generate_audio": [
+        "absent",
+        null
+      ],
+      "height": [
+        "int",
+        "2304"
+      ],
+      "is_inpaint": [
+        "bool",
+        "false"
+      ],
+      "mode": [
+        "absent",
+        null
+      ],
+      "model": [
+        "absent",
+        null
+      ],
+      "model_version": [
+        "absent",
+        null
+      ],
+      "motion": [
+        "absent",
+        null
+      ],
+      "multi_shot_mode": [
+        "absent",
+        null
+      ],
+      "multi_shots": [
+        "absent",
+        null
+      ],
+      "resolution": [
+        "str",
+        "\"2k\""
+      ],
+      "sound": [
+        "absent",
+        null
+      ],
+      "start_seconds": [
+        "absent",
+        null
+      ],
+      "width": [
+        "int",
+        "1856"
+      ]
+    },
+    "evidence_id": "kagerou:08.1",
+    "evidence_label": "observed",
+    "film_id": "51d2c0b2-d692-42b4-b66f-daf87cac1eb3",
+    "final_use": "unknown",
+    "generation_id": "4e1ed78a-819b-475c-8520-e4515df1c830",
+    "generation_type": "image",
+    "media_contents": "unknown",
+    "metrics": {
+      "audio_job": 0,
+      "chained": 1,
+      "convergent": 1,
+      "cross_model": 1,
+      "finishing_job": 0,
+      "image_foundation": 0,
+      "image_job": 1,
+      "media_bound": 1,
+      "no_recorded_media": 0,
+      "reference_preparation": 0,
+      "shared_input": 1,
+      "staged_refinement": 1,
+      "video_candidate": 0,
+      "voice_adapter": 0
+    },
+    "model_identifier": "nano_banana_flash",
+    "prompt_state": "nonempty"
+  },
+  {
+    "bindings": [
+      [
+        "05607388-2328-42cc-9c26-433745ba2fa8",
+        "input_video",
+        "params.medias[1].data",
+        null
+      ],
+      [
+        "4f438e33-c234-44bb-9abe-9b940712ba02",
+        "output",
+        "results",
+        null
+      ],
+      [
+        "f7467948-6b11-47c0-97aa-bdec875584be",
+        "input_start_image",
+        "params.medias[0].data",
+        null
+      ]
+    ],
+    "controls": {
+      "aspect_ratio": [
+        "absent",
+        null
+      ],
+      "camera_aperture": [
+        "absent",
+        null
+      ],
+      "camera_focal_length": [
+        "absent",
+        null
+      ],
+      "camera_lens": [
+        "absent",
+        null
+      ],
+      "camera_model": [
+        "absent",
+        null
+      ],
+      "draft": [
+        "absent",
+        null
+      ],
+      "duration": [
+        "absent",
+        null
+      ],
+      "end_seconds": [
+        "int",
+        "0"
+      ],
+      "extension_mode": [
+        "absent",
+        null
+      ],
+      "fps": [
+        "absent",
+        null
+      ],
+      "generate_audio": [
+        "absent",
+        null
+      ],
+      "height": [
+        "absent",
+        null
+      ],
+      "is_inpaint": [
+        "absent",
+        null
+      ],
+      "mode": [
+        "absent",
+        null
+      ],
+      "model": [
+        "absent",
+        null
+      ],
+      "model_version": [
+        "absent",
+        null
+      ],
+      "motion": [
+        "absent",
+        null
+      ],
+      "multi_shot_mode": [
+        "absent",
+        null
+      ],
+      "multi_shots": [
+        "absent",
+        null
+      ],
+      "resolution": [
+        "absent",
+        null
+      ],
+      "sound": [
+        "absent",
+        null
+      ],
+      "start_seconds": [
+        "int",
+        "0"
+      ],
+      "width": [
+        "absent",
+        null
+      ]
+    },
+    "evidence_id": "kagerou:08.5",
+    "evidence_label": "observed",
+    "film_id": "51d2c0b2-d692-42b4-b66f-daf87cac1eb3",
+    "final_use": "unknown",
+    "generation_id": "4f438e33-c234-44bb-9abe-9b940712ba02",
+    "generation_type": "video",
+    "media_contents": "unknown",
+    "metrics": {
+      "audio_job": 0,
+      "chained": 1,
+      "convergent": 1,
+      "cross_model": 1,
+      "finishing_job": 1,
+      "image_foundation": 0,
+      "image_job": 0,
+      "media_bound": 1,
+      "no_recorded_media": 0,
+      "reference_preparation": 0,
+      "shared_input": 1,
+      "staged_refinement": 1,
+      "video_candidate": 0,
+      "voice_adapter": 0
+    },
+    "model_identifier": "cinematic_video_editor",
+    "prompt_state": "unavailable"
+  },
+  {
+    "bindings": [
+      [
+        "02e53a47-a7ab-4d3c-9071-3efe42c3a88d",
+        "output",
+        "results",
+        null
+      ],
+      [
+        "1ba0e546-b02d-4723-bdc4-b02039ae599d",
+        "input_asset",
+        "params.input_images[2]",
+        null
+      ],
+      [
+        "44a878d0-280f-4b08-bca0-0818dc1e2a91",
+        "input_asset",
+        "params.input_images[1]",
+        null
+      ],
+      [
+        "48110ddb-44e1-4b21-b3ec-5cf3d034792b",
+        "input_asset",
+        "params.input_images[0]",
+        null
+      ]
+    ],
+    "controls": {
+      "aspect_ratio": [
+        "str",
+        "\"16:9\""
+      ],
+      "camera_aperture": [
+        "absent",
+        null
+      ],
+      "camera_focal_length": [
+        "absent",
+        null
+      ],
+      "camera_lens": [
+        "absent",
+        null
+      ],
+      "camera_model": [
+        "absent",
+        null
+      ],
+      "draft": [
+        "absent",
+        null
+      ],
+      "duration": [
+        "absent",
+        null
+      ],
+      "end_seconds": [
+        "absent",
+        null
+      ],
+      "extension_mode": [
+        "absent",
+        null
+      ],
+      "fps": [
+        "absent",
+        null
+      ],
+      "generate_audio": [
+        "absent",
+        null
+      ],
+      "height": [
+        "int",
+        "2880"
+      ],
+      "is_inpaint": [
+        "absent",
+        null
+      ],
+      "mode": [
+        "absent",
+        null
+      ],
+      "model": [
+        "absent",
+        null
+      ],
+      "model_version": [
+        "absent",
+        null
+      ],
+      "motion": [
+        "absent",
+        null
+      ],
+      "multi_shot_mode": [
+        "absent",
+        null
+      ],
+      "multi_shots": [
+        "absent",
+        null
+      ],
+      "resolution": [
+        "absent",
+        null
+      ],
+      "sound": [
+        "absent",
+        null
+      ],
+      "start_seconds": [
+        "absent",
+        null
+      ],
+      "width": [
+        "int",
+        "5120"
+      ]
+    },
+    "evidence_id": "lost:08.1",
+    "evidence_label": "observed",
+    "film_id": "e5ce8a79-9375-4e31-84a8-620bd4f07550",
+    "final_use": "unknown",
+    "generation_id": "02e53a47-a7ab-4d3c-9071-3efe42c3a88d",
+    "generation_type": "image",
+    "media_contents": "unknown",
+    "metrics": {
+      "audio_job": 0,
+      "chained": 1,
+      "convergent": 0,
+      "cross_model": 0,
+      "finishing_job": 0,
+      "image_foundation": 0,
+      "image_job": 1,
+      "media_bound": 1,
+      "no_recorded_media": 0,
+      "reference_preparation": 0,
+      "shared_input": 1,
+      "staged_refinement": 0,
+      "video_candidate": 0,
+      "voice_adapter": 0
+    },
+    "model_identifier": "seedream_v4_5",
+    "prompt_state": "nonempty"
+  },
+  {
+    "bindings": [
+      [
+        "02e8e2a1-5735-4684-a65f-38d56137bc6a",
+        "output",
+        "results",
+        null
+      ],
+      [
+        "0ffdcb42-ac3c-47ae-a299-093c5a51bc08",
+        "reference_image",
+        "params.reference_elements[0].medias[0]",
+        "5f86210d-5e8e-4f28-a32e-4d9fe4fd0829"
+      ],
+      [
+        "16933485-bf3b-4dcd-98a1-d9cacfac67ad",
+        "input_image",
+        "params.medias[0].data",
+        null
+      ],
+      [
+        "4f138af0-83b2-4af9-b320-5cc2a49c175f",
+        "input_image",
+        "params.medias[2].data",
+        null
+      ],
+      [
+        "916eb925-f5e6-4aca-9be3-b819160e0a09",
+        "input_image",
+        "params.medias[1].data",
+        null
+      ]
+    ],
+    "controls": {
+      "aspect_ratio": [
+        "str",
+        "\"16:9\""
+      ],
+      "camera_aperture": [
+        "absent",
+        null
+      ],
+      "camera_focal_length": [
+        "absent",
+        null
+      ],
+      "camera_lens": [
+        "absent",
+        null
+      ],
+      "camera_model": [
+        "absent",
+        null
+      ],
+      "draft": [
+        "absent",
+        null
+      ],
+      "duration": [
+        "absent",
+        null
+      ],
+      "end_seconds": [
+        "absent",
+        null
+      ],
+      "extension_mode": [
+        "absent",
+        null
+      ],
+      "fps": [
+        "absent",
+        null
+      ],
+      "generate_audio": [
+        "absent",
+        null
+      ],
+      "height": [
+        "int",
+        "1520"
+      ],
+      "is_inpaint": [
+        "absent",
+        null
+      ],
+      "mode": [
+        "absent",
+        null
+      ],
+      "model": [
+        "str",
+        "\"videotape-alpha\""
+      ],
+      "model_version": [
+        "absent",
+        null
+      ],
+      "motion": [
+        "absent",
+        null
+      ],
+      "multi_shot_mode": [
+        "absent",
+        null
+      ],
+      "multi_shots": [
+        "absent",
+        null
+      ],
+      "resolution": [
+        "str",
+        "\"2k\""
+      ],
+      "sound": [
+        "absent",
+        null
+      ],
+      "start_seconds": [
+        "absent",
+        null
+      ],
+      "width": [
+        "int",
+        "2688"
+      ]
+    },
+    "evidence_id": "prophecy-in-2047:08.1",
+    "evidence_label": "observed",
+    "film_id": "9b38b885-bf92-484e-8f36-a890e4e10d61",
+    "final_use": "unknown",
+    "generation_id": "02e8e2a1-5735-4684-a65f-38d56137bc6a",
+    "generation_type": "image",
+    "media_contents": "unknown",
+    "metrics": {
+      "audio_job": 0,
+      "chained": 1,
+      "convergent": 1,
+      "cross_model": 0,
+      "finishing_job": 0,
+      "image_foundation": 0,
+      "image_job": 1,
+      "media_bound": 1,
+      "no_recorded_media": 0,
+      "reference_preparation": 0,
+      "shared_input": 1,
+      "staged_refinement": 1,
+      "video_candidate": 0,
+      "voice_adapter": 0
+    },
+    "model_identifier": "gpt_image_2_unlimited",
+    "prompt_state": "nonempty"
+  },
+  {
+    "bindings": [
+      [
+        "18ae4caf-e630-4986-aaf1-e3cb2a6a0b4d",
+        "input_video",
+        "params.medias[1].data",
+        null
+      ],
+      [
+        "a8868745-eecc-4e2e-b389-05a8fd444dac",
+        "output",
+        "results",
+        null
+      ],
+      [
+        "caea82f0-77be-44a2-83f0-71e359c2c3d2",
+        "input_start_image",
+        "params.medias[0].data",
+        null
+      ]
+    ],
+    "controls": {
+      "aspect_ratio": [
+        "str",
+        "\"21:9\""
+      ],
+      "camera_aperture": [
+        "absent",
+        null
+      ],
+      "camera_focal_length": [
+        "absent",
+        null
+      ],
+      "camera_lens": [
+        "absent",
+        null
+      ],
+      "camera_model": [
+        "absent",
+        null
+      ],
+      "draft": [
+        "absent",
+        null
+      ],
+      "duration": [
+        "int",
+        "14"
+      ],
+      "end_seconds": [
+        "absent",
+        null
+      ],
+      "extension_mode": [
+        "absent",
+        null
+      ],
+      "fps": [
+        "absent",
+        null
+      ],
+      "generate_audio": [
+        "absent",
+        null
+      ],
+      "height": [
+        "int",
+        "576"
+      ],
+      "is_inpaint": [
+        "absent",
+        null
+      ],
+      "mode": [
+        "absent",
+        null
+      ],
+      "model": [
+        "absent",
+        null
+      ],
+      "model_version": [
+        "absent",
+        null
+      ],
+      "motion": [
+        "absent",
+        null
+      ],
+      "multi_shot_mode": [
+        "absent",
+        null
+      ],
+      "multi_shots": [
+        "absent",
+        null
+      ],
+      "resolution": [
+        "str",
+        "\"720p\""
+      ],
+      "sound": [
+        "absent",
+        null
+      ],
+      "start_seconds": [
+        "absent",
+        null
+      ],
+      "width": [
+        "int",
+        "1344"
+      ]
+    },
+    "evidence_id": "prophecy-in-2047:08.5",
+    "evidence_label": "observed",
+    "film_id": "9b38b885-bf92-484e-8f36-a890e4e10d61",
+    "final_use": "unknown",
+    "generation_id": "a8868745-eecc-4e2e-b389-05a8fd444dac",
+    "generation_type": "video",
+    "media_contents": "unknown",
+    "metrics": {
+      "audio_job": 0,
+      "chained": 1,
+      "convergent": 1,
+      "cross_model": 1,
+      "finishing_job": 1,
+      "image_foundation": 0,
+      "image_job": 0,
+      "media_bound": 1,
+      "no_recorded_media": 0,
+      "reference_preparation": 0,
+      "shared_input": 1,
+      "staged_refinement": 1,
+      "video_candidate": 0,
+      "voice_adapter": 0
+    },
+    "model_identifier": "cinematic_video_editor",
+    "prompt_state": "empty"
+  },
+  {
+    "bindings": [
+      [
+        "49ff032e-996b-4900-ba33-abf6fc402e93",
+        "input_asset",
+        "params.input_images[0]",
+        null
+      ],
+      [
+        "c22d3af3-53cf-41ce-be21-876ebcba6360",
+        "input_asset",
+        "params.input_images[1]",
+        null
+      ],
+      [
+        "d3a5b0ea-495f-4b9c-89c1-4fe217609f8b",
+        "output",
+        "results",
+        null
+      ]
+    ],
+    "controls": {
+      "aspect_ratio": [
+        "str",
+        "\"3:2\""
+      ],
+      "camera_aperture": [
+        "absent",
+        null
+      ],
+      "camera_focal_length": [
+        "absent",
+        null
+      ],
+      "camera_lens": [
+        "absent",
+        null
+      ],
+      "camera_model": [
+        "absent",
+        null
+      ],
+      "draft": [
+        "absent",
+        null
+      ],
+      "duration": [
+        "absent",
+        null
+      ],
+      "end_seconds": [
+        "absent",
+        null
+      ],
+      "extension_mode": [
+        "absent",
+        null
+      ],
+      "fps": [
+        "absent",
+        null
+      ],
+      "generate_audio": [
+        "absent",
+        null
+      ],
+      "height": [
+        "int",
+        "848"
+      ],
+      "is_inpaint": [
+        "absent",
+        null
+      ],
+      "mode": [
+        "absent",
+        null
+      ],
+      "model": [
+        "absent",
+        null
+      ],
+      "model_version": [
+        "absent",
+        null
+      ],
+      "motion": [
+        "absent",
+        null
+      ],
+      "multi_shot_mode": [
+        "absent",
+        null
+      ],
+      "multi_shots": [
+        "absent",
+        null
+      ],
+      "resolution": [
+        "str",
+        "\"1k\""
+      ],
+      "sound": [
+        "absent",
+        null
+      ],
+      "start_seconds": [
+        "absent",
+        null
+      ],
+      "width": [
+        "int",
+        "1264"
+      ]
+    },
+    "evidence_id": "random-access-memories:08.1",
+    "evidence_label": "observed",
+    "film_id": "e99b5ad2-8f58-4ef8-a13c-4441cfdd5205",
+    "final_use": "unknown",
+    "generation_id": "d3a5b0ea-495f-4b9c-89c1-4fe217609f8b",
+    "generation_type": "image",
+    "media_contents": "unknown",
+    "metrics": {
+      "audio_job": 0,
+      "chained": 1,
+      "convergent": 1,
+      "cross_model": 0,
+      "finishing_job": 0,
+      "image_foundation": 0,
+      "image_job": 1,
+      "media_bound": 1,
+      "no_recorded_media": 0,
+      "reference_preparation": 0,
+      "shared_input": 1,
+      "staged_refinement": 1,
+      "video_candidate": 0,
+      "voice_adapter": 0
+    },
+    "model_identifier": "nano_banana_2",
+    "prompt_state": "nonempty"
+  },
+  {
+    "bindings": [
+      [
+        "ca1978b3-d635-4f13-9364-0549c4a0dab8",
+        "input_video",
+        "params.medias[1].data",
+        null
+      ],
+      [
+        "d3d97f2a-5a18-44eb-8e06-7c22ae9aac98",
+        "input_start_image",
+        "params.medias[0].data",
+        null
+      ],
+      [
+        "fed8571b-aa2f-4821-a932-00c1dc87acca",
+        "output",
+        "results",
+        null
+      ]
+    ],
+    "controls": {
+      "aspect_ratio": [
+        "str",
+        "\"4:3\""
+      ],
+      "camera_aperture": [
+        "absent",
+        null
+      ],
+      "camera_focal_length": [
+        "absent",
+        null
+      ],
+      "camera_lens": [
+        "absent",
+        null
+      ],
+      "camera_model": [
+        "absent",
+        null
+      ],
+      "draft": [
+        "absent",
+        null
+      ],
+      "duration": [
+        "int",
+        "6"
+      ],
+      "end_seconds": [
+        "absent",
+        null
+      ],
+      "extension_mode": [
+        "absent",
+        null
+      ],
+      "fps": [
+        "absent",
+        null
+      ],
+      "generate_audio": [
+        "absent",
+        null
+      ],
+      "height": [
+        "int",
+        "720"
+      ],
+      "is_inpaint": [
+        "absent",
+        null
+      ],
+      "mode": [
+        "absent",
+        null
+      ],
+      "model": [
+        "absent",
+        null
+      ],
+      "model_version": [
+        "absent",
+        null
+      ],
+      "motion": [
+        "absent",
+        null
+      ],
+      "multi_shot_mode": [
+        "absent",
+        null
+      ],
+      "multi_shots": [
+        "absent",
+        null
+      ],
+      "resolution": [
+        "str",
+        "\"720p\""
+      ],
+      "sound": [
+        "absent",
+        null
+      ],
+      "start_seconds": [
+        "absent",
+        null
+      ],
+      "width": [
+        "int",
+        "960"
+      ]
+    },
+    "evidence_id": "random-access-memories:08.5",
+    "evidence_label": "observed",
+    "film_id": "e99b5ad2-8f58-4ef8-a13c-4441cfdd5205",
+    "final_use": "unknown",
+    "generation_id": "fed8571b-aa2f-4821-a932-00c1dc87acca",
+    "generation_type": "video",
+    "media_contents": "unknown",
+    "metrics": {
+      "audio_job": 0,
+      "chained": 1,
+      "convergent": 1,
+      "cross_model": 1,
+      "finishing_job": 1,
+      "image_foundation": 0,
+      "image_job": 0,
+      "media_bound": 1,
+      "no_recorded_media": 0,
+      "reference_preparation": 0,
+      "shared_input": 1,
+      "staged_refinement": 1,
+      "video_candidate": 0,
+      "voice_adapter": 0
+    },
+    "model_identifier": "cinematic_video_editor",
+    "prompt_state": "empty"
+  },
+  {
+    "bindings": [
+      [
+        "0139b8bd-2e52-46e6-bd9e-2ca3dd73259e",
+        "output",
+        "results",
+        null
+      ],
+      [
+        "cc14800c-8150-47ca-b903-6789a401b101",
+        "input_asset",
+        "params.input_images[0]",
+        null
+      ]
+    ],
+    "controls": {
+      "aspect_ratio": [
+        "str",
+        "\"16:9\""
+      ],
+      "camera_aperture": [
+        "absent",
+        null
+      ],
+      "camera_focal_length": [
+        "absent",
+        null
+      ],
+      "camera_lens": [
+        "absent",
+        null
+      ],
+      "camera_model": [
+        "absent",
+        null
+      ],
+      "draft": [
+        "absent",
+        null
+      ],
+      "duration": [
+        "absent",
+        null
+      ],
+      "end_seconds": [
+        "absent",
+        null
+      ],
+      "extension_mode": [
+        "absent",
+        null
+      ],
+      "fps": [
+        "absent",
+        null
+      ],
+      "generate_audio": [
+        "absent",
+        null
+      ],
+      "height": [
+        "int",
+        "768"
+      ],
+      "is_inpaint": [
+        "absent",
+        null
+      ],
+      "mode": [
+        "absent",
+        null
+      ],
+      "model": [
+        "absent",
+        null
+      ],
+      "model_version": [
+        "absent",
+        null
+      ],
+      "motion": [
+        "absent",
+        null
+      ],
+      "multi_shot_mode": [
+        "absent",
+        null
+      ],
+      "multi_shots": [
+        "absent",
+        null
+      ],
+      "resolution": [
+        "str",
+        "\"1k\""
+      ],
+      "sound": [
+        "absent",
+        null
+      ],
+      "start_seconds": [
+        "absent",
+        null
+      ],
+      "width": [
+        "int",
+        "1376"
+      ]
+    },
+    "evidence_id": "snap:08.1",
+    "evidence_label": "observed",
+    "film_id": "aed4098b-3278-4e5d-a347-24fad9cfb9ae",
+    "final_use": "unknown",
+    "generation_id": "0139b8bd-2e52-46e6-bd9e-2ca3dd73259e",
+    "generation_type": "image",
+    "media_contents": "unknown",
+    "metrics": {
+      "audio_job": 0,
+      "chained": 1,
+      "convergent": 0,
+      "cross_model": 0,
+      "finishing_job": 0,
+      "image_foundation": 0,
+      "image_job": 1,
+      "media_bound": 1,
+      "no_recorded_media": 0,
+      "reference_preparation": 0,
+      "shared_input": 1,
+      "staged_refinement": 1,
+      "video_candidate": 0,
+      "voice_adapter": 0
+    },
+    "model_identifier": "nano_banana_2",
+    "prompt_state": "nonempty"
+  },
+  {
+    "bindings": [
+      [
+        "4be1fff0-9862-45e7-8725-d1eea18d983c",
+        "input_video",
+        "params.medias[0].data",
+        null
+      ],
+      [
+        "4be1fff0-9862-45e7-8725-d1eea18d983c",
+        "input_video",
+        "params.medias[1].data",
+        null
+      ],
+      [
+        "610971db-587f-4883-96df-ec43a00d4781",
+        "output",
+        "results",
+        null
+      ]
+    ],
+    "controls": {
+      "aspect_ratio": [
+        "absent",
+        null
+      ],
+      "camera_aperture": [
+        "absent",
+        null
+      ],
+      "camera_focal_length": [
+        "absent",
+        null
+      ],
+      "camera_lens": [
+        "absent",
+        null
+      ],
+      "camera_model": [
+        "absent",
+        null
+      ],
+      "draft": [
+        "absent",
+        null
+      ],
+      "duration": [
+        "absent",
+        null
+      ],
+      "end_seconds": [
+        "absent",
+        null
+      ],
+      "extension_mode": [
+        "absent",
+        null
+      ],
+      "fps": [
+        "int",
+        "24"
+      ],
+      "generate_audio": [
+        "absent",
+        null
+      ],
+      "height": [
+        "int",
+        "720"
+      ],
+      "is_inpaint": [
+        "absent",
+        null
+      ],
+      "mode": [
+        "absent",
+        null
+      ],
+      "model": [
+        "absent",
+        null
+      ],
+      "model_version": [
+        "str",
+        "\"standard\""
+      ],
+      "motion": [
+        "absent",
+        null
+      ],
+      "multi_shot_mode": [
+        "absent",
+        null
+      ],
+      "multi_shots": [
+        "absent",
+        null
+      ],
+      "resolution": [
+        "str",
+        "\"2k\""
+      ],
+      "sound": [
+        "absent",
+        null
+      ],
+      "start_seconds": [
+        "absent",
+        null
+      ],
+      "width": [
+        "int",
+        "1280"
+      ]
+    },
+    "evidence_id": "snap:08.5",
+    "evidence_label": "observed",
+    "film_id": "aed4098b-3278-4e5d-a347-24fad9cfb9ae",
+    "final_use": "unknown",
+    "generation_id": "610971db-587f-4883-96df-ec43a00d4781",
+    "generation_type": "video",
+    "media_contents": "unknown",
+    "metrics": {
+      "audio_job": 0,
+      "chained": 1,
+      "convergent": 0,
+      "cross_model": 1,
+      "finishing_job": 1,
+      "image_foundation": 0,
+      "image_job": 0,
+      "media_bound": 1,
+      "no_recorded_media": 0,
+      "reference_preparation": 0,
+      "shared_input": 1,
+      "staged_refinement": 1,
+      "video_candidate": 0,
+      "voice_adapter": 0
+    },
+    "model_identifier": "bytedance_video_upscale",
+    "prompt_state": "unavailable"
+  },
+  {
+    "bindings": [
+      [
+        "03055fdc-3f48-4e47-860c-c011a0e5d8c3",
+        "output",
+        "results",
+        null
+      ],
+      [
+        "085834b7-da5e-443b-a18a-5190a57dc5e3",
+        "reference_image",
+        "params.reference_elements[2].medias[0]",
+        "61023363-aba1-414a-9c0d-ead258830e0d"
+      ],
+      [
+        "1430c7a7-73ef-4b50-a789-ac8a305a8a88",
+        "reference_image",
+        "params.reference_elements[0].medias[0]",
+        "04b18464-39bd-4ba7-a8da-9498c18f9891"
+      ],
+      [
+        "14f9a362-aa47-4302-85b5-860f49df643d",
+        "reference_image",
+        "params.reference_elements[1].medias[0]",
+        "09c84326-15df-4ade-be4e-1ac22fdc5086"
+      ],
+      [
+        "1f11358a-eff6-4f82-ae47-bd82254691f8",
+        "reference_image",
+        "params.reference_elements[4].medias[0]",
+        "a39f9496-fb88-48a4-8e08-84661c5bece5"
+      ],
+      [
+        "bd2691e0-7aa5-43c8-ac9f-63147b5aaea6",
+        "input_asset",
+        "params.input_images[0]",
+        null
+      ],
+      [
+        "f718d065-9b4f-4a0a-9964-aa536d60dd86",
+        "reference_image",
+        "params.reference_elements[3].medias[0]",
+        "9670a7fd-8efc-460c-aeb2-128f626e1704"
+      ]
+    ],
+    "controls": {
+      "aspect_ratio": [
+        "str",
+        "\"16:9\""
+      ],
+      "camera_aperture": [
+        "absent",
+        null
+      ],
+      "camera_focal_length": [
+        "absent",
+        null
+      ],
+      "camera_lens": [
+        "absent",
+        null
+      ],
+      "camera_model": [
+        "absent",
+        null
+      ],
+      "draft": [
+        "absent",
+        null
+      ],
+      "duration": [
+        "absent",
+        null
+      ],
+      "end_seconds": [
+        "absent",
+        null
+      ],
+      "extension_mode": [
+        "absent",
+        null
+      ],
+      "fps": [
+        "absent",
+        null
+      ],
+      "generate_audio": [
+        "absent",
+        null
+      ],
+      "height": [
+        "int",
+        "1536"
+      ],
+      "is_inpaint": [
+        "absent",
+        null
+      ],
+      "mode": [
+        "absent",
+        null
+      ],
+      "model": [
+        "absent",
+        null
+      ],
+      "model_version": [
+        "absent",
+        null
+      ],
+      "motion": [
+        "absent",
+        null
+      ],
+      "multi_shot_mode": [
+        "absent",
+        null
+      ],
+      "multi_shots": [
+        "absent",
+        null
+      ],
+      "resolution": [
+        "str",
+        "\"2k\""
+      ],
+      "sound": [
+        "absent",
+        null
+      ],
+      "start_seconds": [
+        "absent",
+        null
+      ],
+      "width": [
+        "int",
+        "2752"
+      ]
+    },
+    "evidence_id": "the-kiss:08.1",
+    "evidence_label": "observed",
+    "film_id": "655325cc-46d9-4b0b-b03d-d177defa4b3f",
+    "final_use": "unknown",
+    "generation_id": "03055fdc-3f48-4e47-860c-c011a0e5d8c3",
+    "generation_type": "image",
+    "media_contents": "unknown",
+    "metrics": {
+      "audio_job": 0,
+      "chained": 1,
+      "convergent": 1,
+      "cross_model": 0,
+      "finishing_job": 0,
+      "image_foundation": 0,
+      "image_job": 1,
+      "media_bound": 1,
+      "no_recorded_media": 0,
+      "reference_preparation": 0,
+      "shared_input": 1,
+      "staged_refinement": 1,
+      "video_candidate": 0,
+      "voice_adapter": 0
+    },
+    "model_identifier": "nano_banana_2",
+    "prompt_state": "nonempty"
+  },
+  {
+    "bindings": [
+      [
+        "0557d4f0-2ddb-4576-a51c-50bcbfecbdc4",
+        "output",
+        "results",
+        null
+      ],
+      [
+        "7444e4ad-3631-4478-8455-c665ccf348ed",
+        "input_video",
+        "params.medias[0].data",
+        null
+      ]
+    ],
+    "controls": {
+      "aspect_ratio": [
+        "absent",
+        null
+      ],
+      "camera_aperture": [
+        "absent",
+        null
+      ],
+      "camera_focal_length": [
+        "absent",
+        null
+      ],
+      "camera_lens": [
+        "absent",
+        null
+      ],
+      "camera_model": [
+        "absent",
+        null
+      ],
+      "draft": [
+        "absent",
+        null
+      ],
+      "duration": [
+        "absent",
+        null
+      ],
+      "end_seconds": [
+        "float",
+        "23.39638285714286"
+      ],
+      "extension_mode": [
+        "absent",
+        null
+      ],
+      "fps": [
+        "absent",
+        null
+      ],
+      "generate_audio": [
+        "absent",
+        null
+      ],
+      "height": [
+        "absent",
+        null
+      ],
+      "is_inpaint": [
+        "absent",
+        null
+      ],
+      "mode": [
+        "absent",
+        null
+      ],
+      "model": [
+        "absent",
+        null
+      ],
+      "model_version": [
+        "absent",
+        null
+      ],
+      "motion": [
+        "absent",
+        null
+      ],
+      "multi_shot_mode": [
+        "absent",
+        null
+      ],
+      "multi_shots": [
+        "absent",
+        null
+      ],
+      "resolution": [
+        "absent",
+        null
+      ],
+      "sound": [
+        "absent",
+        null
+      ],
+      "start_seconds": [
+        "float",
+        "14.45281142857143"
+      ],
+      "width": [
+        "absent",
+        null
+      ]
+    },
+    "evidence_id": "the-kiss:08.5",
+    "evidence_label": "observed",
+    "film_id": "655325cc-46d9-4b0b-b03d-d177defa4b3f",
+    "final_use": "unknown",
+    "generation_id": "0557d4f0-2ddb-4576-a51c-50bcbfecbdc4",
+    "generation_type": "video",
+    "media_contents": "unknown",
+    "metrics": {
+      "audio_job": 0,
+      "chained": 1,
+      "convergent": 0,
+      "cross_model": 1,
+      "finishing_job": 1,
+      "image_foundation": 0,
+      "image_job": 0,
+      "media_bound": 1,
+      "no_recorded_media": 0,
+      "reference_preparation": 0,
+      "shared_input": 1,
+      "staged_refinement": 1,
+      "video_candidate": 0,
+      "voice_adapter": 0
+    },
+    "model_identifier": "cinematic_video_editor",
+    "prompt_state": "unavailable"
+  },
+  {
+    "bindings": [
+      [
+        "0a5dad36-f81f-4a32-a38a-bc7bcd103e7f",
+        "output",
+        "results",
+        null
+      ],
+      [
+        "9264c44d-ad74-4ddc-91fc-4490b55a5b18",
+        "input_image",
+        "params.medias[0].data",
+        null
+      ]
+    ],
+    "controls": {
+      "aspect_ratio": [
+        "str",
+        "\"16:9\""
+      ],
+      "camera_aperture": [
+        "absent",
+        null
+      ],
+      "camera_focal_length": [
+        "absent",
+        null
+      ],
+      "camera_lens": [
+        "absent",
+        null
+      ],
+      "camera_model": [
+        "absent",
+        null
+      ],
+      "draft": [
+        "bool",
+        "false"
+      ],
+      "duration": [
+        "int",
+        "12"
+      ],
+      "end_seconds": [
+        "absent",
+        null
+      ],
+      "extension_mode": [
+        "null",
+        null
+      ],
+      "fps": [
+        "absent",
+        null
+      ],
+      "generate_audio": [
+        "bool",
+        "true"
+      ],
+      "height": [
+        "int",
+        "720"
+      ],
+      "is_inpaint": [
+        "absent",
+        null
+      ],
+      "mode": [
+        "absent",
+        null
+      ],
+      "model": [
+        "str",
+        "\"default\""
+      ],
+      "model_version": [
+        "absent",
+        null
+      ],
+      "motion": [
+        "absent",
+        null
+      ],
+      "multi_shot_mode": [
+        "str",
+        "\"custom\""
+      ],
+      "multi_shots": [
+        "bool",
+        "false"
+      ],
+      "resolution": [
+        "str",
+        "\"720p\""
+      ],
+      "sound": [
+        "absent",
+        null
+      ],
+      "start_seconds": [
+        "absent",
+        null
+      ],
+      "width": [
+        "int",
+        "1280"
+      ]
+    },
+    "evidence_id": "the-last-transmission:08.1",
+    "evidence_label": "observed",
+    "film_id": "03f596b0-23da-4312-9e58-2e1cc4582348",
+    "final_use": "unknown",
+    "generation_id": "0a5dad36-f81f-4a32-a38a-bc7bcd103e7f",
+    "generation_type": "video",
+    "media_contents": "unknown",
+    "metrics": {
+      "audio_job": 0,
+      "chained": 0,
+      "convergent": 0,
+      "cross_model": 0,
+      "finishing_job": 0,
+      "image_foundation": 0,
+      "image_job": 0,
+      "media_bound": 1,
+      "no_recorded_media": 0,
+      "reference_preparation": 0,
+      "shared_input": 1,
+      "staged_refinement": 0,
+      "video_candidate": 1,
+      "voice_adapter": 0
+    },
+    "model_identifier": "seedance_2_5",
+    "prompt_state": "nonempty"
+  },
+  {
+    "bindings": [
+      [
+        "273e3cbf-77e6-4f48-b3c8-8eb6d40f379c",
+        "input_image",
+        "params.medias[0].data",
+        null
+      ],
+      [
+        "6d514bd2-9aa3-4543-89a2-8f547a5385bb",
+        "output",
+        "results",
+        null
+      ]
+    ],
+    "controls": {
+      "aspect_ratio": [
+        "str",
+        "\"16:9\""
+      ],
+      "camera_aperture": [
+        "absent",
+        null
+      ],
+      "camera_focal_length": [
+        "absent",
+        null
+      ],
+      "camera_lens": [
+        "absent",
+        null
+      ],
+      "camera_model": [
+        "absent",
+        null
+      ],
+      "draft": [
+        "absent",
+        null
+      ],
+      "duration": [
+        "absent",
+        null
+      ],
+      "end_seconds": [
+        "absent",
+        null
+      ],
+      "extension_mode": [
+        "absent",
+        null
+      ],
+      "fps": [
+        "absent",
+        null
+      ],
+      "generate_audio": [
+        "absent",
+        null
+      ],
+      "height": [
+        "int",
+        "1536"
+      ],
+      "is_inpaint": [
+        "bool",
+        "false"
+      ],
+      "mode": [
+        "absent",
+        null
+      ],
+      "model": [
+        "absent",
+        null
+      ],
+      "model_version": [
+        "absent",
+        null
+      ],
+      "motion": [
+        "absent",
+        null
+      ],
+      "multi_shot_mode": [
+        "absent",
+        null
+      ],
+      "multi_shots": [
+        "absent",
+        null
+      ],
+      "resolution": [
+        "str",
+        "\"2k\""
+      ],
+      "sound": [
+        "absent",
+        null
+      ],
+      "start_seconds": [
+        "absent",
+        null
+      ],
+      "width": [
+        "int",
+        "2720"
+      ]
+    },
+    "evidence_id": "the-staff:08.1",
+    "evidence_label": "observed",
+    "film_id": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce",
+    "final_use": "unknown",
+    "generation_id": "6d514bd2-9aa3-4543-89a2-8f547a5385bb",
+    "generation_type": "image",
+    "media_contents": "unknown",
+    "metrics": {
+      "audio_job": 0,
+      "chained": 0,
+      "convergent": 0,
+      "cross_model": 0,
+      "finishing_job": 0,
+      "image_foundation": 0,
+      "image_job": 1,
+      "media_bound": 1,
+      "no_recorded_media": 0,
+      "reference_preparation": 0,
+      "shared_input": 0,
+      "staged_refinement": 0,
+      "video_candidate": 0,
+      "voice_adapter": 0
+    },
+    "model_identifier": "seedream_v5_pro",
+    "prompt_state": "nonempty"
+  }
+]

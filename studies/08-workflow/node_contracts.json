@@ -1,0 +1,27 @@
+{
+  "study": "08",
+  "evidence_label": "proposed",
+  "status": "Information and behaviour proposals; no execution, routing or persistence implementation",
+  "evidence_anchors": ["apeirophobia:08.3", "birthdays:08.1", "snap:08.5", "dry-aged-dreams:08.3", "the-last-transmission:08.5"],
+  "common": {
+    "identity": ["film_id", "task_id", "task_version", "operation_role", "role_evidence", "literal_model_identifier", "explicit_model_version_state"],
+    "inputs": ["film-scoped asset and optional element/version IDs", "producer ID or unresolved origin", "literal usage role and parameter path", "requested purpose and property authority", "source snapshot/hash and evidence label"],
+    "context": ["project rules", "entity claims with provenance", "scene state if declared", "shot/task intent", "allowed changes", "invariants", "requested timing/audio", "field-level unknown/empty states"],
+    "adapter": ["literal raw parameters", "parameter document/key states", "explicitly declared supported controls and units", "unmapped or unsupported controls remain unresolved"],
+    "outputs": ["candidate generation ID", "output asset IDs and representations", "exact input version bindings", "completion event distinct from review", "further-work uses distinct from approval"],
+    "review": ["unknown/unreviewed/reviewed/approved/rejected with explicit actor and event", "version and scope", "human chosen revision reason and bounded attempt cap"],
+    "invariants": ["Never promote use to approval", "Never infer a mask or role from an instruction alone", "Never fill missing model defaults", "Keep request and control differences visible", "Resolve same-film integrity and missing inputs before execution"]
+  },
+  "nodes": [
+    {"role": "reference_preparation", "inputs": ["entity/property intent", "optional source assets", "requested package form"], "output": "candidate package; requested form remains unverified", "human_choice": "identity, variants, authority and approved source version", "evidence": ["the-staff:08.1", "a-tales-before-titanic-tragedy:08.1"]},
+    {"role": "image_construction_or_edit", "inputs": ["source versions", "layout/property roles", "allowed changes/invariants", "disclosed mask only when available"], "output": "new still candidate with full dependencies", "human_choice": "scope of change, input authority and result review", "evidence": ["birthdays:08.1", "dont-poison-ivy:08.1", "harmony:08.1"]},
+    {"role": "video_generation_or_transform", "inputs": ["typed image/video/audio bindings", "frame roles only when explicit", "subject/camera/environment instructions", "temporal events, audio and invariants", "literal route and adapter controls"], "output": "clip candidate; no assumed one-task/one-shot equivalence", "human_choice": "decomposition, model suitability, source replacement and review", "evidence": ["the-last-transmission:08.1", "snap:08.3"]},
+    {"role": "voice_or_audio", "inputs": ["script or sound intent", "disclosed audio/voice sources", "language and timing when specified", "literal generation type and adapter role"], "output": "audio or video candidate according to literal job type", "human_choice": "voice choice, synchronization, content and review", "evidence": ["outputs/adapter_examples.csv", "outputs/model_inventory.csv"]},
+    {"role": "editing_or_finishing", "inputs": ["source clip versions", "optional image bindings", "literal editor/upscale settings", "requested deliverable"], "output": "candidate derivative, never implicitly a final master or timeline", "human_choice": "assembly, output use, verification and final approval", "evidence": ["apeirophobia:08.5", "snap:08.5"]}
+  ],
+  "orchestration_patterns": [
+    {"kind": "deterministic_path", "behaviour": "Validate IDs/states, bind approved versions, execute an explicitly chosen adapter, retain outputs and provenance, enumerate downstream review candidates", "test": "Synthetic cross-film collision, duplicate usage channels and unresolved producers cannot create a handoff"},
+    {"kind": "human_choice", "behaviour": "Choose references, role, model, scope, variants, branch adoption and whether to continue or revise; log actor/version/scope", "test": "A reused candidate remains approval-unknown until a separate decision"},
+    {"kind": "planning_model_assistance", "behaviour": "May propose decomposition, candidate role/model and context gaps with evidence; a human approves changes, code validates bindings and caps", "test": "On fixed tasks compare human-only and assisted proposals with a declared rubric, repetitions, budget and independent adjudication; do not execute proposed links without approval"}
+  ]
+}

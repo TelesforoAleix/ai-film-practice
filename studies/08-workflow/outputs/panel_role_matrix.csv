@@ -1,0 +1,26 @@
+film_id,generation_id,model_identifier,requested_role,evidence_id,evidence_label,denominator
+3f6e509b-f3da-4324-a746-b9d35f0b9845,416eb299-5a02-4dd1-99c1-8a11d9de0b04,nano_banana_2,reference_sheet,a-tales-before-titanic-tragedy:08.1,inferred,One named task; 16 purposive panel films
+c3d8ee5e-b119-4654-99f9-c6545f650635,0376b202-36db-4ff5-b12e-5846923cbf28,nano_banana_2,local_edit,apeirophobia:08.1,inferred,One named task; 16 purposive panel films
+d51d6821-d191-40f7-949b-1086750a2e93,372eae81-9e4e-4264-adac-febf9565667e,seedream_v5_lite,local_edit,birthdays:08.1,inferred,One named task; 16 purposive panel films
+d51d6821-d191-40f7-949b-1086750a2e93,372eae81-9e4e-4264-adac-febf9565667e,seedream_v5_lite,composition,birthdays:08.1,inferred,One named task; 16 purposive panel films
+d90fe8bd-3329-40b3-963c-d9b33075aec1,00406410-315c-4041-b23f-9513cfe2434f,seedream_v5_pro,composition,detour:08.1,inferred,One named task; 16 purposive panel films
+d90fe8bd-3329-40b3-963c-d9b33075aec1,00406410-315c-4041-b23f-9513cfe2434f,seedream_v5_pro,local_edit,detour:08.1,inferred,One named task; 16 purposive panel films
+d305f6e5-b906-49a1-a0c6-75ef7f653ad8,5bc1268c-ccc1-419e-bd13-79344eadf228,seedream_v5_pro,composition,dont-poison-ivy:08.1,inferred,One named task; 16 purposive panel films
+d305f6e5-b906-49a1-a0c6-75ef7f653ad8,5bc1268c-ccc1-419e-bd13-79344eadf228,seedream_v5_pro,local_edit,dont-poison-ivy:08.1,inferred,One named task; 16 purposive panel films
+3777eda4-c15e-4531-9f04-4c02a900f3c3,3e7791d1-6165-4a81-bbaa-575811c1edd8,nano_banana_2,environment,dry-aged-dreams:08.1,inferred,One named task; 16 purposive panel films
+6659c520-c88e-4ac7-a2c9-f28d8a40c954,7188a902-290f-4b44-9d53-b3b34f1ee492,gpt_image_2,reference_sheet,fallen-leaves:08.1,inferred,One named task; 16 purposive panel films
+6659c520-c88e-4ac7-a2c9-f28d8a40c954,7188a902-290f-4b44-9d53-b3b34f1ee492,gpt_image_2,environment,fallen-leaves:08.1,inferred,One named task; 16 purposive panel films
+2fd725ab-2604-4220-8cca-d332e9de53a2,0205320f-3610-4d27-815d-61e834cbdcc3,gpt_image_2,local_edit,harmony:08.1,inferred,One named task; 16 purposive panel films
+2fd725ab-2604-4220-8cca-d332e9de53a2,0205320f-3610-4d27-815d-61e834cbdcc3,gpt_image_2,composition,harmony:08.1,inferred,One named task; 16 purposive panel films
+51d2c0b2-d692-42b4-b66f-daf87cac1eb3,4e1ed78a-819b-475c-8520-e4515df1c830,nano_banana_flash,composition,kagerou:08.1,inferred,One named task; 16 purposive panel films
+e5ce8a79-9375-4e31-84a8-620bd4f07550,02e53a47-a7ab-4d3c-9071-3efe42c3a88d,seedream_v4_5,reference_sheet,lost:08.1,inferred,One named task; 16 purposive panel films
+e5ce8a79-9375-4e31-84a8-620bd4f07550,02e53a47-a7ab-4d3c-9071-3efe42c3a88d,seedream_v4_5,local_edit,lost:08.1,inferred,One named task; 16 purposive panel films
+9b38b885-bf92-484e-8f36-a890e4e10d61,02e8e2a1-5735-4684-a65f-38d56137bc6a,gpt_image_2_unlimited,composition,prophecy-in-2047:08.1,inferred,One named task; 16 purposive panel films
+e99b5ad2-8f58-4ef8-a13c-4441cfdd5205,d3a5b0ea-495f-4b9c-89c1-4fe217609f8b,nano_banana_2,composition,random-access-memories:08.1,inferred,One named task; 16 purposive panel films
+aed4098b-3278-4e5d-a347-24fad9cfb9ae,0139b8bd-2e52-46e6-bd9e-2ca3dd73259e,nano_banana_2,composition,snap:08.1,inferred,One named task; 16 purposive panel films
+aed4098b-3278-4e5d-a347-24fad9cfb9ae,0139b8bd-2e52-46e6-bd9e-2ca3dd73259e,nano_banana_2,local_edit,snap:08.1,inferred,One named task; 16 purposive panel films
+655325cc-46d9-4b0b-b03d-d177defa4b3f,03055fdc-3f48-4e47-860c-c011a0e5d8c3,nano_banana_2,composition,the-kiss:08.1,inferred,One named task; 16 purposive panel films
+655325cc-46d9-4b0b-b03d-d177defa4b3f,03055fdc-3f48-4e47-860c-c011a0e5d8c3,nano_banana_2,environment,the-kiss:08.1,inferred,One named task; 16 purposive panel films
+03f596b0-23da-4312-9e58-2e1cc4582348,0a5dad36-f81f-4a32-a38a-bc7bcd103e7f,seedance_2_5,animation,the-last-transmission:08.1,inferred,One named task; 16 purposive panel films
+3b09c7c2-3f0c-48e3-8304-fad569bf50ce,6d514bd2-9aa3-4543-89a2-8f547a5385bb,seedream_v5_pro,reference_sheet,the-staff:08.1,inferred,One named task; 16 purposive panel films
+3b09c7c2-3f0c-48e3-8304-fad569bf50ce,6d514bd2-9aa3-4543-89a2-8f547a5385bb,seedream_v5_pro,local_edit,the-staff:08.1,inferred,One named task; 16 purposive panel films
