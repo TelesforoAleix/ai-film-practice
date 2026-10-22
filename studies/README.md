@@ -23,3 +23,5 @@ registered films across all 49 shared codes for Studies 02–10, with scoped evi
 [Study 05 — Image construction and editing](05-image/README.md) measures image bindings, conservative operation routes, construction edges and structural edit/preservation wording across 155 image-bearing histories; it traces panel recipes, separates requests from masks/layers and outcomes, and proposes operation contracts with explicit dependencies on Study 04 and later studies.
 
 [Study 06 — Video generation and shot control](06-video/README.md) measures recorded input routes, literal model/version controls and structural shot wording across 156 video-bearing histories; it traces motion and revision requests, separates instructions from outcomes, and proposes a video-node specification with explicit Study 04 and later-study dependencies.
+
+[Study 07 — Lineage and cross-shot reuse](07-lineage/README.md): typed disclosed graphs, shared-source/chaining comparisons, all sixteen panel maps and a proposed invalidation policy.

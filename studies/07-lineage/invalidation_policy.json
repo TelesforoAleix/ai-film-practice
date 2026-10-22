@@ -1,0 +1,41 @@
+{
+  "evidence_label": "proposed",
+  "status": "design artifact; no studio persistence or execution implemented",
+  "source_evidence": ["case-files/*/codes.csv:07.5", "outputs/review_census.csv.gz in study-07-v1", "outputs/alias_audit.csv"],
+  "lineage_record": {
+    "required": ["film_id", "source_kind", "source_id", "source_version_id", "target_kind", "target_id", "target_version_id", "edge_type", "role", "parameter_path", "source_path", "evidence_label"],
+    "unknown_versions": "null with unavailable state; never derive from timestamps or use frequency",
+    "immutable_binding": "a candidate retains its exact input versions even if a library pointer changes",
+    "inferred_links": "separate overlay with rationale and competing explanation; never silently enter observed closure"
+  },
+  "canonical_version": {
+    "required": ["film_id", "element_id", "version_id", "asset_bindings", "property_scope", "task_or_scene_scope", "declaring_actor", "declaration_source", "decision_event"],
+    "authority": "explicit scoped declaration; a task-local authoritative source is not project-wide approval",
+    "frequency": "high degree and further-work use never set canonical or approved",
+    "promotion": "human decision records version, scope and event; derivative and preview are different relations"
+  },
+  "change_types": {
+    "preview_representation": "same immutable asset version with explicit raw/preview metadata: refresh representation; no semantic invalidation unless identity/content actually changed",
+    "asset_content_or_version": "enumerate distinct direct media consumers and their transitive generation descendants",
+    "generation_output": "enumerate descendants via all bound output assets, excluding the changed root",
+    "reference_membership_or_identity": "enumerate actual reference-bound consumers, then generation descendants; metadata grouping alone is not an executed input",
+    "canonical_pointer": "future tasks see proposed new binding; existing candidates retain their old inputs and become review candidates only in declared scope",
+    "preset_or_unknown": "show separately with raw role/path; review adapter meaning before treating it as material propagation"
+  },
+  "review_rules": [
+    "Return unique film-scoped IDs and supporting edge paths; cycles terminate and are disclosed.",
+    "Mark candidates needs_review with the changed source/version and cause; never delete, rerun, reject or revoke approval automatically.",
+    "Propagate needs_review through observed material dependencies; aliases, hidden edges and external work remain coverage warnings, never invented edges.",
+    "Keep review of descendants separate from human resolution: keep existing, rebind, regenerate or explicitly approve replacement.",
+    "Preserve previous decisions and input bindings; record actor, rationale, replacement and scope for each new decision.",
+    "An empty disclosed closure is zero known descendants, not proof of zero production impact."
+  ],
+  "validation_tests": [
+    "Synthetic diamond counts descendants once, preserves both supporting paths, and leaves disconnected component untouched.",
+    "Synthetic cycle terminates; same IDs in a second film never join.",
+    "Raw/min representations under one asset leave fan-out unchanged; identical-looking URLs across IDs do not merge identities.",
+    "Unresolved producer remains unresolved; changing its asset still enumerates known consumers.",
+    "Repeated reference name or high degree creates neither version nor approval.",
+    "A canonical pointer change preserves existing immutable input bindings and awaits a scoped human decision."
+  ]
+}
