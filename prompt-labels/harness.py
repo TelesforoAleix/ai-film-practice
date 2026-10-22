@@ -22,7 +22,8 @@ from film_practice.prompt_labels import (
 
 
 def read_rows(path):
-    rows = [json.loads(line) for line in path.read_text().splitlines() if line.strip()]
+    with path.open(encoding="utf-8") as stream:
+        rows = [json.loads(line) for line in stream if line.strip()]
     if len({r["text_id"] for r in rows}) != len(rows):
         raise ValueError("duplicate_text_id")
     return rows

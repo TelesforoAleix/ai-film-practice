@@ -9,9 +9,10 @@ from film_practice.prompt_labels import COMPONENTS, validate
 
 def labels_by_id(path):
     latest = {}
-    for line in path.read_text().splitlines():
-        row = json.loads(line)
-        latest[row["text_id"]] = row
+    with path.open(encoding="utf-8") as stream:
+        for line in stream:
+            row = json.loads(line)
+            latest[row["text_id"]] = row
     result = {}
     for key, row in latest.items():
         if row.get("status", "success") == "success":

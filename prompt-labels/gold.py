@@ -17,10 +17,8 @@ READINGS = json.loads(Path(__file__).with_name("readings.json").read_text())
 
 
 def build(data, output):
-    selection = [
-        json.loads(line)
-        for line in (output / "gold_selection.jsonl").read_text().splitlines()
-    ]
+    with (output / "gold_selection.jsonl").open(encoding="utf-8") as stream:
+        selection = [json.loads(line) for line in stream]
     if set(READINGS) != {row["text_id"] for row in selection}:
         raise ValueError("readings_incomplete")
     rows = []
