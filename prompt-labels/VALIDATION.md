@@ -67,3 +67,29 @@ The small-output CSV writer was made explicitly LF-delimited, then the build
 was repeated from the fresh source copy. Asset hashes and the small outputs
 still matched byte for byte. PR #7 contains the change; the final handover
 records green CI at its final head and the merge commit.
+
+## AF3c Jev client and cross-check
+
+AF3c adds a one-request-per-text, fourteen-choice-question client for Jev and
+a descriptive presence comparison against AF3a and optionally the single-coder
+gold. Jev is secondary and supplies no spans. Its journal uses the same
+append-only, locked, fsynced, resumable pattern as the AF3a harness and hashes
+the requested model, endpoint and exact question set. The credential is read
+only from `TYPESAFE_API_KEY`; tests use a generated ephemeral value and a
+loopback HTTP server. No real API request was made.
+
+Tests cover exact request wording and state, authorization header placement,
+credential exclusion from records/errors, missing-key rejection, resume and
+attempt limits, truncated-tail recovery, configuration mismatch, HTTP 429 retry,
+invalid choice/probabilities and known agreement counts/kappa. Cross-check
+reports are descriptive and do not weight, interval-estimate or adjudicate.
+
+The client accepts plain or gzip-compressed sample JSONL. Example commands:
+
+```bash
+uv run python prompt-labels/jev.py --sample data/af3a-release-download/sample.jsonl.gz --data data --output data/af3c-jev.jsonl
+uv run python prompt-labels/crosscheck.py --harness data/af3a-labels.jsonl --jev data/af3c-jev.jsonl --gold prompt-labels/outputs/gold.jsonl --output data/af3c-crosscheck.json
+```
+
+The implementation validation commands and their results are recorded in the
+AF3c PR handover; no source data was modified.
