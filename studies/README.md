@@ -21,3 +21,5 @@ registered films across all 49 shared codes for Studies 02–10, with scoped evi
 [Study 03 — Reusable elements](03-elements/README.md) measures disclosed elements, attachments and structural preservation evidence across 157 histories, traces panel packages and inferred derivatives, and proposes separate element identity, variants, versions, scoped authority and approval with explicit evidence limits.
 
 [Study 05 — Image construction and editing](05-image/README.md) measures image bindings, conservative operation routes, construction edges and structural edit/preservation wording across 155 image-bearing histories; it traces panel recipes, separates requests from masks/layers and outcomes, and proposes operation contracts with explicit dependencies on Study 04 and later studies.
+
+[Study 06 — Video generation and shot control](06-video/README.md) measures recorded input routes, literal model/version controls and structural shot wording across 156 video-bearing histories; it traces motion and revision requests, separates instructions from outcomes, and proposes a video-node specification with explicit Study 04 and later-study dependencies.

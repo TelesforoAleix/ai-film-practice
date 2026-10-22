@@ -1,0 +1,68 @@
+[
+  {
+    "film_id": "9b38b885-bf92-484e-8f36-a890e4e10d61",
+    "generation_id": "014a8505-858b-4b9a-9777-b4461d5957e2",
+    "component": "subject_action",
+    "span": "Roopa hauls right to left"
+  },
+  {
+    "film_id": "9b38b885-bf92-484e-8f36-a890e4e10d61",
+    "generation_id": "014a8505-858b-4b9a-9777-b4461d5957e2",
+    "component": "camera_action",
+    "span": "tracking with her, handheld tremor"
+  },
+  {
+    "film_id": "9b38b885-bf92-484e-8f36-a890e4e10d61",
+    "generation_id": "014a8505-858b-4b9a-9777-b4461d5957e2",
+    "component": "environment_motion",
+    "span": "Heavy rain falls in every frame."
+  },
+  {
+    "film_id": "9b38b885-bf92-484e-8f36-a890e4e10d61",
+    "generation_id": "014a8505-858b-4b9a-9777-b4461d5957e2",
+    "component": "temporal_event",
+    "span": "4.0s HARD CUT"
+  },
+  {
+    "film_id": "9b38b885-bf92-484e-8f36-a890e4e10d61",
+    "generation_id": "014a8505-858b-4b9a-9777-b4461d5957e2",
+    "component": "invariant",
+    "span": "The pod stays clear of the ground at all times"
+  },
+  {
+    "film_id": "d305f6e5-b906-49a1-a0c6-75ef7f653ad8",
+    "generation_id": "a9d85422-c95b-4e48-af27-093d2fbff0ca",
+    "component": "source_shot_structure",
+    "span": "ONE CONTINUOUS SHOT — 15 seconds"
+  },
+  {
+    "film_id": "d305f6e5-b906-49a1-a0c6-75ef7f653ad8",
+    "generation_id": "070cf05b-2cd9-41fb-9c19-f232081d3e99",
+    "component": "changed_shot_structure",
+    "span": "TWO SHOTS — 15 seconds total."
+  },
+  {
+    "film_id": "d305f6e5-b906-49a1-a0c6-75ef7f653ad8",
+    "generation_id": "070cf05b-2cd9-41fb-9c19-f232081d3e99",
+    "component": "changed_boundary",
+    "span": "ONE HARD CUT at 0:08."
+  },
+  {
+    "film_id": "e99b5ad2-8f58-4ef8-a13c-4441cfdd5205",
+    "generation_id": "3123d068-196f-4dfc-a57d-08fe59574b43",
+    "component": "voice_intent",
+    "span": "VOICE AGE LOCK"
+  },
+  {
+    "film_id": "e99b5ad2-8f58-4ef8-a13c-4441cfdd5205",
+    "generation_id": "3123d068-196f-4dfc-a57d-08fe59574b43",
+    "component": "audio_mix_intent",
+    "span": "Ambient sound ducks under every spoken line."
+  },
+  {
+    "film_id": "e99b5ad2-8f58-4ef8-a13c-4441cfdd5205",
+    "generation_id": "3123d068-196f-4dfc-a57d-08fe59574b43",
+    "component": "audio_exclusion",
+    "span": "No music of any kind."
+  }
+]

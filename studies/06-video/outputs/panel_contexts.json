@@ -1,0 +1,4912 @@
+[
+  {
+    "attachments": [
+      {
+        "asset_id": "2141cb13-6107-48ed-aa6a-80dcaec6ec53",
+        "asset_role": "input_video",
+        "audio_binding": false,
+        "image_binding": false,
+        "parameter_path": "params.medias[0].data",
+        "producer": "2141cb13-6107-48ed-aa6a-80dcaec6ec53",
+        "producer_type": "video",
+        "reference_element_id": null,
+        "video_binding": true
+      }
+    ],
+    "denominator": "One named video job; attachments are deduplicated occurrence channels",
+    "evidence_ids": [
+      "apeirophobia:06.7"
+    ],
+    "evidence_label": "observed",
+    "film_id": "c3d8ee5e-b119-4654-99f9-c6545f650635",
+    "generation_id": "0168082c-394b-4af9-9f67-75eef66a12bb",
+    "literal_controls": {
+      "aspect_ratio": {
+        "raw_json": "\"16:9\"",
+        "state": "str"
+      },
+      "camera_aperture": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_focal_length": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_lens": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_model": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "draft": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "duration": {
+        "raw_json": "28",
+        "state": "int"
+      },
+      "end_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "extension_mode": {
+        "raw_json": null,
+        "state": "null"
+      },
+      "fps": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "generate_audio": {
+        "raw_json": "true",
+        "state": "bool"
+      },
+      "height": {
+        "raw_json": "1080",
+        "state": "int"
+      },
+      "mode": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "model": {
+        "raw_json": "\"video_edit\"",
+        "state": "str"
+      },
+      "model_version": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "motion": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "multi_shot_mode": {
+        "raw_json": "\"custom\"",
+        "state": "str"
+      },
+      "multi_shots": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "resolution": {
+        "raw_json": "\"1080p\"",
+        "state": "str"
+      },
+      "sound": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "start_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "width": {
+        "raw_json": "1920",
+        "state": "int"
+      }
+    },
+    "media_outcome": "unobservable",
+    "model_identifier": "seedance_2_5",
+    "model_version": "[\"absent\", null]",
+    "parameter_state": "object",
+    "route": "video_guided",
+    "route_label": "inferred",
+    "source_path": "params.prompt"
+  },
+  {
+    "attachments": [
+      {
+        "asset_id": "1ffe82b6-9d5e-41c0-a4e9-2e219a07a75e",
+        "asset_role": "input_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.medias[0].data",
+        "producer": "1ffe82b6-9d5e-41c0-a4e9-2e219a07a75e",
+        "producer_type": "image",
+        "reference_element_id": null,
+        "video_binding": false
+      },
+      {
+        "asset_id": "36b6dccd-9a13-4ecc-81ab-835e6333e15d",
+        "asset_role": "input_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.medias[2].data",
+        "producer": "36b6dccd-9a13-4ecc-81ab-835e6333e15d",
+        "producer_type": "image",
+        "reference_element_id": null,
+        "video_binding": false
+      },
+      {
+        "asset_id": "3cfe41c4-85a3-4f70-b723-cc7a00b039b8",
+        "asset_role": "input_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.medias[10].data",
+        "producer": "3cfe41c4-85a3-4f70-b723-cc7a00b039b8",
+        "producer_type": "image",
+        "reference_element_id": null,
+        "video_binding": false
+      },
+      {
+        "asset_id": "462a04d5-239e-468a-a220-fc5c61ac1671",
+        "asset_role": "input_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.medias[9].data",
+        "producer": "462a04d5-239e-468a-a220-fc5c61ac1671",
+        "producer_type": "image",
+        "reference_element_id": null,
+        "video_binding": false
+      },
+      {
+        "asset_id": "6b3423b5-7c3d-4e89-96b1-9fb3c63326e4",
+        "asset_role": "input_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.medias[4].data",
+        "producer": "6b3423b5-7c3d-4e89-96b1-9fb3c63326e4",
+        "producer_type": "image",
+        "reference_element_id": null,
+        "video_binding": false
+      },
+      {
+        "asset_id": "6be87350-96a7-48ec-951a-f926f80bc875",
+        "asset_role": "input_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.medias[5].data",
+        "producer": "6be87350-96a7-48ec-951a-f926f80bc875",
+        "producer_type": "image",
+        "reference_element_id": null,
+        "video_binding": false
+      },
+      {
+        "asset_id": "7a2ac7f0-d31e-461d-ada4-acafe5c6252b",
+        "asset_role": "input_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.medias[7].data",
+        "producer": "7a2ac7f0-d31e-461d-ada4-acafe5c6252b",
+        "producer_type": "image",
+        "reference_element_id": null,
+        "video_binding": false
+      },
+      {
+        "asset_id": "ab8ab522-b0b7-4042-bd78-03d831b4a6e4",
+        "asset_role": "input_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.medias[3].data",
+        "producer": "ab8ab522-b0b7-4042-bd78-03d831b4a6e4",
+        "producer_type": "image",
+        "reference_element_id": null,
+        "video_binding": false
+      },
+      {
+        "asset_id": "dbc60e80-192e-4ae0-9baa-9a2232bbf6a7",
+        "asset_role": "input_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.medias[8].data",
+        "producer": "dbc60e80-192e-4ae0-9baa-9a2232bbf6a7",
+        "producer_type": "image",
+        "reference_element_id": null,
+        "video_binding": false
+      },
+      {
+        "asset_id": "dd287304-e310-4b29-aa26-a1abf82b0337",
+        "asset_role": "input_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.medias[6].data",
+        "producer": "dd287304-e310-4b29-aa26-a1abf82b0337",
+        "producer_type": "image",
+        "reference_element_id": null,
+        "video_binding": false
+      },
+      {
+        "asset_id": "e4a0d334-87c1-4411-8119-c241b0f8f0a7",
+        "asset_role": "input_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.medias[1].data",
+        "producer": "e4a0d334-87c1-4411-8119-c241b0f8f0a7",
+        "producer_type": "image",
+        "reference_element_id": null,
+        "video_binding": false
+      }
+    ],
+    "denominator": "One named video job; attachments are deduplicated occurrence channels",
+    "evidence_ids": [
+      "apeirophobia:06.1",
+      "apeirophobia:06.6"
+    ],
+    "evidence_label": "observed",
+    "film_id": "c3d8ee5e-b119-4654-99f9-c6545f650635",
+    "generation_id": "230fc3df-a3e7-4645-8116-561d321a70c5",
+    "literal_controls": {
+      "aspect_ratio": {
+        "raw_json": "\"16:9\"",
+        "state": "str"
+      },
+      "camera_aperture": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_focal_length": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_lens": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_model": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "draft": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "duration": {
+        "raw_json": "11",
+        "state": "int"
+      },
+      "end_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "extension_mode": {
+        "raw_json": null,
+        "state": "null"
+      },
+      "fps": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "generate_audio": {
+        "raw_json": "true",
+        "state": "bool"
+      },
+      "height": {
+        "raw_json": "1080",
+        "state": "int"
+      },
+      "mode": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "model": {
+        "raw_json": "\"default\"",
+        "state": "str"
+      },
+      "model_version": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "motion": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "multi_shot_mode": {
+        "raw_json": "\"custom\"",
+        "state": "str"
+      },
+      "multi_shots": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "resolution": {
+        "raw_json": "\"1080p\"",
+        "state": "str"
+      },
+      "sound": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "start_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "width": {
+        "raw_json": "1920",
+        "state": "int"
+      }
+    },
+    "media_outcome": "unobservable",
+    "model_identifier": "seedance_2_5",
+    "model_version": "[\"absent\", null]",
+    "parameter_state": "object",
+    "route": "image_guided",
+    "route_label": "inferred",
+    "source_path": "params.prompt"
+  },
+  {
+    "attachments": [
+      {
+        "asset_id": "288c7412-7e51-4301-af39-c1c460395c5c",
+        "asset_role": "input_start_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.medias[0].data",
+        "producer": null,
+        "producer_type": null,
+        "reference_element_id": null,
+        "video_binding": false
+      },
+      {
+        "asset_id": "50f6882c-093c-4c1f-9020-4715e5483f4e",
+        "asset_role": "input_audio",
+        "audio_binding": true,
+        "image_binding": false,
+        "parameter_path": "params.medias[1].data",
+        "producer": null,
+        "producer_type": null,
+        "reference_element_id": null,
+        "video_binding": false
+      }
+    ],
+    "denominator": "One named video job; attachments are deduplicated occurrence channels",
+    "evidence_ids": [
+      "apeirophobia:06.3",
+      "apeirophobia:06.4",
+      "apeirophobia:06.5"
+    ],
+    "evidence_label": "observed",
+    "film_id": "c3d8ee5e-b119-4654-99f9-c6545f650635",
+    "generation_id": "4896743a-85d5-44df-8539-e08e0c8f7fdb",
+    "literal_controls": {
+      "aspect_ratio": {
+        "raw_json": "\"16:9\"",
+        "state": "str"
+      },
+      "camera_aperture": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_focal_length": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_lens": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_model": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "draft": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "duration": {
+        "raw_json": "10",
+        "state": "int"
+      },
+      "end_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "extension_mode": {
+        "raw_json": null,
+        "state": "null"
+      },
+      "fps": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "generate_audio": {
+        "raw_json": "true",
+        "state": "bool"
+      },
+      "height": {
+        "raw_json": "1080",
+        "state": "int"
+      },
+      "mode": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "model": {
+        "raw_json": "\"default\"",
+        "state": "str"
+      },
+      "model_version": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "motion": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "multi_shot_mode": {
+        "raw_json": "\"custom\"",
+        "state": "str"
+      },
+      "multi_shots": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "resolution": {
+        "raw_json": "\"1080p\"",
+        "state": "str"
+      },
+      "sound": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "start_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "width": {
+        "raw_json": "1920",
+        "state": "int"
+      }
+    },
+    "media_outcome": "unobservable",
+    "model_identifier": "seedance_2_5",
+    "model_version": "[\"absent\", null]",
+    "parameter_state": "object",
+    "route": "image_guided",
+    "route_label": "inferred",
+    "source_path": "params.prompt"
+  },
+  {
+    "attachments": [
+      {
+        "asset_id": "47353cb5-f30d-4a7c-a0b1-f9db9654f9b7",
+        "asset_role": "input_start_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.medias[0].data",
+        "producer": "47353cb5-f30d-4a7c-a0b1-f9db9654f9b7",
+        "producer_type": "image",
+        "reference_element_id": null,
+        "video_binding": false
+      }
+    ],
+    "denominator": "One named video job; attachments are deduplicated occurrence channels",
+    "evidence_ids": [
+      "apeirophobia:06.2"
+    ],
+    "evidence_label": "observed",
+    "film_id": "c3d8ee5e-b119-4654-99f9-c6545f650635",
+    "generation_id": "81512453-8ca4-468c-8298-851a55ae9bbc",
+    "literal_controls": {
+      "aspect_ratio": {
+        "raw_json": "\"16:9\"",
+        "state": "str"
+      },
+      "camera_aperture": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_focal_length": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_lens": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_model": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "draft": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "duration": {
+        "raw_json": "7",
+        "state": "int"
+      },
+      "end_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "extension_mode": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "fps": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "generate_audio": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "height": {
+        "raw_json": "2160",
+        "state": "int"
+      },
+      "mode": {
+        "raw_json": "\"4k\"",
+        "state": "str"
+      },
+      "model": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "model_version": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "motion": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "multi_shot_mode": {
+        "raw_json": "\"auto\"",
+        "state": "str"
+      },
+      "multi_shots": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "resolution": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "sound": {
+        "raw_json": "\"on\"",
+        "state": "str"
+      },
+      "start_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "width": {
+        "raw_json": "3840",
+        "state": "int"
+      }
+    },
+    "media_outcome": "unobservable",
+    "model_identifier": "kling3_0",
+    "model_version": "[\"absent\", null]",
+    "parameter_state": "object",
+    "route": "image_guided",
+    "route_label": "inferred",
+    "source_path": "params.prompt"
+  },
+  {
+    "attachments": [
+      {
+        "asset_id": "30dd9a2a-6d2b-4ad0-a405-091ff25058f1",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[3].medias[0]",
+        "producer": "30dd9a2a-6d2b-4ad0-a405-091ff25058f1",
+        "producer_type": "image",
+        "reference_element_id": "8495b3e8-77ee-483e-901c-799e50887cb2",
+        "video_binding": false
+      },
+      {
+        "asset_id": "45285c82-bc05-4548-87a4-b7e865f697ae",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "producer": "45285c82-bc05-4548-87a4-b7e865f697ae",
+        "producer_type": "image",
+        "reference_element_id": "2dd0b27b-5688-4a81-98ef-ebc183a1dd0f",
+        "video_binding": false
+      },
+      {
+        "asset_id": "71be540e-a68b-499d-acb3-15ffa2710cfb",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[1].medias[0]",
+        "producer": "71be540e-a68b-499d-acb3-15ffa2710cfb",
+        "producer_type": "image",
+        "reference_element_id": "35d644a9-39f6-4443-83ba-3b0cb2394611",
+        "video_binding": false
+      },
+      {
+        "asset_id": "e15c133a-857f-45e3-9a10-8710782fbb5d",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[4].medias[0]",
+        "producer": "e15c133a-857f-45e3-9a10-8710782fbb5d",
+        "producer_type": "image",
+        "reference_element_id": "b14d5cca-1df8-483b-9107-ad56d04cdf38",
+        "video_binding": false
+      },
+      {
+        "asset_id": "fcb240c4-7c0a-4558-80c0-f88eff921f9d",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[2].medias[0]",
+        "producer": "fcb240c4-7c0a-4558-80c0-f88eff921f9d",
+        "producer_type": "image",
+        "reference_element_id": "3b5f46d1-8c3e-498b-b90a-cfadad18520e",
+        "video_binding": false
+      }
+    ],
+    "denominator": "One named video job; attachments are deduplicated occurrence channels",
+    "evidence_ids": [
+      "birthdays:06.1",
+      "birthdays:06.2",
+      "birthdays:06.3",
+      "birthdays:06.4",
+      "birthdays:06.5",
+      "birthdays:06.6"
+    ],
+    "evidence_label": "observed",
+    "film_id": "d51d6821-d191-40f7-949b-1086750a2e93",
+    "generation_id": "0014cfd5-e8f9-4b5a-8ab3-f2f5b93d2452",
+    "literal_controls": {
+      "aspect_ratio": {
+        "raw_json": "\"16:9\"",
+        "state": "str"
+      },
+      "camera_aperture": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_focal_length": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_lens": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_model": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "draft": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "duration": {
+        "raw_json": "15",
+        "state": "int"
+      },
+      "end_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "extension_mode": {
+        "raw_json": null,
+        "state": "null"
+      },
+      "fps": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "generate_audio": {
+        "raw_json": "true",
+        "state": "bool"
+      },
+      "height": {
+        "raw_json": "720",
+        "state": "int"
+      },
+      "mode": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "model": {
+        "raw_json": "\"default\"",
+        "state": "str"
+      },
+      "model_version": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "motion": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "multi_shot_mode": {
+        "raw_json": "\"custom\"",
+        "state": "str"
+      },
+      "multi_shots": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "resolution": {
+        "raw_json": "\"720p\"",
+        "state": "str"
+      },
+      "sound": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "start_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "width": {
+        "raw_json": "1280",
+        "state": "int"
+      }
+    },
+    "media_outcome": "unobservable",
+    "model_identifier": "seedance_2_5",
+    "model_version": "[\"absent\", null]",
+    "parameter_state": "object",
+    "route": "image_guided",
+    "route_label": "inferred",
+    "source_path": "params.prompt"
+  },
+  {
+    "attachments": [
+      {
+        "asset_id": "e2668988-0bc6-4cfb-a16e-6b2f9e57e63d",
+        "asset_role": "input_video",
+        "audio_binding": false,
+        "image_binding": false,
+        "parameter_path": "params.medias[0].data",
+        "producer": "e2668988-0bc6-4cfb-a16e-6b2f9e57e63d",
+        "producer_type": "video",
+        "reference_element_id": null,
+        "video_binding": true
+      }
+    ],
+    "denominator": "One named video job; attachments are deduplicated occurrence channels",
+    "evidence_ids": [
+      "birthdays:06.7"
+    ],
+    "evidence_label": "observed",
+    "film_id": "d51d6821-d191-40f7-949b-1086750a2e93",
+    "generation_id": "08590362-d368-4a89-832e-9b242208d64d",
+    "literal_controls": {
+      "aspect_ratio": {
+        "raw_json": "\"16:9\"",
+        "state": "str"
+      },
+      "camera_aperture": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_focal_length": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_lens": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_model": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "draft": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "duration": {
+        "raw_json": "5",
+        "state": "int"
+      },
+      "end_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "extension_mode": {
+        "raw_json": null,
+        "state": "null"
+      },
+      "fps": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "generate_audio": {
+        "raw_json": "true",
+        "state": "bool"
+      },
+      "height": {
+        "raw_json": "720",
+        "state": "int"
+      },
+      "mode": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "model": {
+        "raw_json": "\"video_edit\"",
+        "state": "str"
+      },
+      "model_version": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "motion": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "multi_shot_mode": {
+        "raw_json": "\"custom\"",
+        "state": "str"
+      },
+      "multi_shots": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "resolution": {
+        "raw_json": "\"720p\"",
+        "state": "str"
+      },
+      "sound": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "start_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "width": {
+        "raw_json": "1280",
+        "state": "int"
+      }
+    },
+    "media_outcome": "unobservable",
+    "model_identifier": "seedance_2_5",
+    "model_version": "[\"absent\", null]",
+    "parameter_state": "object",
+    "route": "video_guided",
+    "route_label": "inferred",
+    "source_path": "params.prompt"
+  },
+  {
+    "attachments": [
+      {
+        "asset_id": "960d84f1-abaf-4366-b8bd-de603f178925",
+        "asset_role": "input_video",
+        "audio_binding": false,
+        "image_binding": false,
+        "parameter_path": "params.medias[0].data",
+        "producer": "960d84f1-abaf-4366-b8bd-de603f178925",
+        "producer_type": "video",
+        "reference_element_id": null,
+        "video_binding": true
+      },
+      {
+        "asset_id": "d8e472da-f0bd-4019-813e-4adced9b2558",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "producer": "d8e472da-f0bd-4019-813e-4adced9b2558",
+        "producer_type": "image",
+        "reference_element_id": "4dc92fe7-fc7d-44be-9e23-f84f4a01d29a",
+        "video_binding": false
+      }
+    ],
+    "denominator": "One named video job; attachments are deduplicated occurrence channels",
+    "evidence_ids": [
+      "detour:06.7"
+    ],
+    "evidence_label": "observed",
+    "film_id": "d90fe8bd-3329-40b3-963c-d9b33075aec1",
+    "generation_id": "0106d708-2634-4c76-820c-709a39c6b996",
+    "literal_controls": {
+      "aspect_ratio": {
+        "raw_json": "\"16:9\"",
+        "state": "str"
+      },
+      "camera_aperture": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_focal_length": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_lens": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_model": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "draft": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "duration": {
+        "raw_json": "6",
+        "state": "int"
+      },
+      "end_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "extension_mode": {
+        "raw_json": null,
+        "state": "null"
+      },
+      "fps": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "generate_audio": {
+        "raw_json": "true",
+        "state": "bool"
+      },
+      "height": {
+        "raw_json": "720",
+        "state": "int"
+      },
+      "mode": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "model": {
+        "raw_json": "\"video_edit\"",
+        "state": "str"
+      },
+      "model_version": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "motion": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "multi_shot_mode": {
+        "raw_json": "\"custom\"",
+        "state": "str"
+      },
+      "multi_shots": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "resolution": {
+        "raw_json": "\"720p\"",
+        "state": "str"
+      },
+      "sound": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "start_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "width": {
+        "raw_json": "1280",
+        "state": "int"
+      }
+    },
+    "media_outcome": "unobservable",
+    "model_identifier": "seedance_2_5",
+    "model_version": "[\"absent\", null]",
+    "parameter_state": "object",
+    "route": "video_guided",
+    "route_label": "inferred",
+    "source_path": "params.prompt"
+  },
+  {
+    "attachments": [
+      {
+        "asset_id": "006dcc36-ec37-490f-9890-9524e3ed0ddd",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[2].medias[0]",
+        "producer": "006dcc36-ec37-490f-9890-9524e3ed0ddd",
+        "producer_type": "image",
+        "reference_element_id": "e334308f-5638-47f4-86c8-68b5eb5b2d7d",
+        "video_binding": false
+      },
+      {
+        "asset_id": "09b1991a-244c-4508-8413-732ebb336ea4",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "producer": "09b1991a-244c-4508-8413-732ebb336ea4",
+        "producer_type": "image",
+        "reference_element_id": "14d3422f-2804-451b-8899-4faf04001428",
+        "video_binding": false
+      },
+      {
+        "asset_id": "23427fce-441e-471b-ac6c-46ca5b742fb7",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[1].medias[0]",
+        "producer": "23427fce-441e-471b-ac6c-46ca5b742fb7",
+        "producer_type": "image",
+        "reference_element_id": "af793a57-d428-45ce-bebf-ffe3c4fb18d4",
+        "video_binding": false
+      }
+    ],
+    "denominator": "One named video job; attachments are deduplicated occurrence channels",
+    "evidence_ids": [
+      "detour:06.1",
+      "detour:06.3",
+      "detour:06.4",
+      "detour:06.5",
+      "detour:06.6"
+    ],
+    "evidence_label": "observed",
+    "film_id": "d90fe8bd-3329-40b3-963c-d9b33075aec1",
+    "generation_id": "057fd821-e3d6-4dfb-9d67-73e73e76b91c",
+    "literal_controls": {
+      "aspect_ratio": {
+        "raw_json": "\"21:9\"",
+        "state": "str"
+      },
+      "camera_aperture": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_focal_length": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_lens": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_model": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "draft": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "duration": {
+        "raw_json": "6",
+        "state": "int"
+      },
+      "end_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "extension_mode": {
+        "raw_json": null,
+        "state": "null"
+      },
+      "fps": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "generate_audio": {
+        "raw_json": "true",
+        "state": "bool"
+      },
+      "height": {
+        "raw_json": "576",
+        "state": "int"
+      },
+      "mode": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "model": {
+        "raw_json": "\"default\"",
+        "state": "str"
+      },
+      "model_version": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "motion": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "multi_shot_mode": {
+        "raw_json": "\"custom\"",
+        "state": "str"
+      },
+      "multi_shots": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "resolution": {
+        "raw_json": "\"720p\"",
+        "state": "str"
+      },
+      "sound": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "start_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "width": {
+        "raw_json": "1344",
+        "state": "int"
+      }
+    },
+    "media_outcome": "unobservable",
+    "model_identifier": "seedance_2_5",
+    "model_version": "[\"absent\", null]",
+    "parameter_state": "object",
+    "route": "image_guided",
+    "route_label": "inferred",
+    "source_path": "params.prompt"
+  },
+  {
+    "attachments": [
+      {
+        "asset_id": "01aff476-1adf-4a2d-a69a-474780cda364",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "producer": "01aff476-1adf-4a2d-a69a-474780cda364",
+        "producer_type": "image",
+        "reference_element_id": "36137ad2-4960-44bc-9896-3c88a953afc8",
+        "video_binding": false
+      },
+      {
+        "asset_id": "56ce2d38-8485-47ec-9005-301d0a6d629e",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[1].medias[0]",
+        "producer": "56ce2d38-8485-47ec-9005-301d0a6d629e",
+        "producer_type": "image",
+        "reference_element_id": "b624bdef-d681-4cd7-afdf-34baef94bd7b",
+        "video_binding": false
+      },
+      {
+        "asset_id": "f69abdbb-17f3-4cac-907f-af90f447bc13",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[2].medias[0]",
+        "producer": "f69abdbb-17f3-4cac-907f-af90f447bc13",
+        "producer_type": "image",
+        "reference_element_id": "dcfe3a23-fab3-4491-a8d8-b2e0c64c28ab",
+        "video_binding": false
+      }
+    ],
+    "denominator": "One named video job; attachments are deduplicated occurrence channels",
+    "evidence_ids": [
+      "detour:06.2"
+    ],
+    "evidence_label": "observed",
+    "film_id": "d90fe8bd-3329-40b3-963c-d9b33075aec1",
+    "generation_id": "093e4529-6ad2-4ab4-9703-12dbd79de477",
+    "literal_controls": {
+      "aspect_ratio": {
+        "raw_json": "\"21:9\"",
+        "state": "str"
+      },
+      "camera_aperture": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_focal_length": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_lens": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_model": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "draft": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "duration": {
+        "raw_json": "10",
+        "state": "int"
+      },
+      "end_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "extension_mode": {
+        "raw_json": null,
+        "state": "null"
+      },
+      "fps": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "generate_audio": {
+        "raw_json": "true",
+        "state": "bool"
+      },
+      "height": {
+        "raw_json": "576",
+        "state": "int"
+      },
+      "mode": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "model": {
+        "raw_json": "\"default\"",
+        "state": "str"
+      },
+      "model_version": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "motion": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "multi_shot_mode": {
+        "raw_json": "\"custom\"",
+        "state": "str"
+      },
+      "multi_shots": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "resolution": {
+        "raw_json": "\"720p\"",
+        "state": "str"
+      },
+      "sound": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "start_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "width": {
+        "raw_json": "1344",
+        "state": "int"
+      }
+    },
+    "media_outcome": "unobservable",
+    "model_identifier": "seedance_2_5",
+    "model_version": "[\"absent\", null]",
+    "parameter_state": "object",
+    "route": "image_guided",
+    "route_label": "inferred",
+    "source_path": "params.prompt"
+  },
+  {
+    "attachments": [
+      {
+        "asset_id": "24a85039-4773-4ebd-a29c-9a31deb2fa55",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[1].medias[0]",
+        "producer": "24a85039-4773-4ebd-a29c-9a31deb2fa55",
+        "producer_type": "image",
+        "reference_element_id": "9870b8ad-8736-413b-9071-dbcba97ead7e",
+        "video_binding": false
+      },
+      {
+        "asset_id": "393053ce-c8c5-452e-9eaf-08f1229182fd",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[3].medias[0]",
+        "producer": "393053ce-c8c5-452e-9eaf-08f1229182fd",
+        "producer_type": "image",
+        "reference_element_id": "d17bbb37-a4b6-4ba6-819e-843af6c04751",
+        "video_binding": false
+      },
+      {
+        "asset_id": "3bba8a2c-724a-478b-88d9-0b4420036c2f",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[4].medias[0]",
+        "producer": "3bba8a2c-724a-478b-88d9-0b4420036c2f",
+        "producer_type": "image",
+        "reference_element_id": "dcdbaf65-3ec2-4089-8a74-a636cb680059",
+        "video_binding": false
+      },
+      {
+        "asset_id": "5a6ca735-896c-4988-a8e1-585607c8b93d",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[5].medias[0]",
+        "producer": null,
+        "producer_type": null,
+        "reference_element_id": "f7189550-ca96-46f6-a125-f8ac706fdf3a",
+        "video_binding": false
+      },
+      {
+        "asset_id": "6567c261-9915-4f72-82b5-95a22bd335f9",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[2].medias[0]",
+        "producer": null,
+        "producer_type": null,
+        "reference_element_id": "b9be04e2-e910-4918-8267-ac125e41ec36",
+        "video_binding": false
+      },
+      {
+        "asset_id": "a9d85422-c95b-4e48-af27-093d2fbff0ca",
+        "asset_role": "input_video",
+        "audio_binding": false,
+        "image_binding": false,
+        "parameter_path": "params.medias[0].data",
+        "producer": "a9d85422-c95b-4e48-af27-093d2fbff0ca",
+        "producer_type": "video",
+        "reference_element_id": null,
+        "video_binding": true
+      },
+      {
+        "asset_id": "c16ce530-c7d1-461a-acc8-63b8d7de63b1",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "producer": "c16ce530-c7d1-461a-acc8-63b8d7de63b1",
+        "producer_type": "image",
+        "reference_element_id": "69b3419a-1aad-4fda-bff0-39362e1c5b18",
+        "video_binding": false
+      }
+    ],
+    "denominator": "One named video job; attachments are deduplicated occurrence channels",
+    "evidence_ids": [
+      "dont-poison-ivy:06.7"
+    ],
+    "evidence_label": "observed",
+    "film_id": "d305f6e5-b906-49a1-a0c6-75ef7f653ad8",
+    "generation_id": "070cf05b-2cd9-41fb-9c19-f232081d3e99",
+    "literal_controls": {
+      "aspect_ratio": {
+        "raw_json": "\"16:9\"",
+        "state": "str"
+      },
+      "camera_aperture": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_focal_length": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_lens": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_model": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "draft": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "duration": {
+        "raw_json": "15",
+        "state": "int"
+      },
+      "end_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "extension_mode": {
+        "raw_json": "\"forward\"",
+        "state": "str"
+      },
+      "fps": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "generate_audio": {
+        "raw_json": "true",
+        "state": "bool"
+      },
+      "height": {
+        "raw_json": "1080",
+        "state": "int"
+      },
+      "mode": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "model": {
+        "raw_json": "\"video_extension\"",
+        "state": "str"
+      },
+      "model_version": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "motion": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "multi_shot_mode": {
+        "raw_json": "\"custom\"",
+        "state": "str"
+      },
+      "multi_shots": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "resolution": {
+        "raw_json": "\"1080p\"",
+        "state": "str"
+      },
+      "sound": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "start_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "width": {
+        "raw_json": "1920",
+        "state": "int"
+      }
+    },
+    "media_outcome": "unobservable",
+    "model_identifier": "seedance_2_5",
+    "model_version": "[\"absent\", null]",
+    "parameter_state": "object",
+    "route": "extension",
+    "route_label": "inferred",
+    "source_path": "params.prompt"
+  },
+  {
+    "attachments": [
+      {
+        "asset_id": "0020c74f-ff7e-4aa1-8622-521dda43ea41",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[1].medias[0]",
+        "producer": "0020c74f-ff7e-4aa1-8622-521dda43ea41",
+        "producer_type": "image",
+        "reference_element_id": "8dd8b729-2d20-440a-b62a-034af11cf409",
+        "video_binding": false
+      },
+      {
+        "asset_id": "5a7f3906-a9dd-4bc5-bff6-6e76ac348056",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[3].medias[0]",
+        "producer": "5a7f3906-a9dd-4bc5-bff6-6e76ac348056",
+        "producer_type": "image",
+        "reference_element_id": "b5001ac2-01a3-4bfa-9b35-d06854b6b2c4",
+        "video_binding": false
+      },
+      {
+        "asset_id": "6cf5857e-7852-4fb5-90f4-d07f21d188d4",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "producer": null,
+        "producer_type": null,
+        "reference_element_id": "0d9ab759-4895-4bfc-83eb-75c26dfc7ee0",
+        "video_binding": false
+      },
+      {
+        "asset_id": "d16d7bc5-692a-4849-a464-0bc8a4d83780",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[2].medias[0]",
+        "producer": "d16d7bc5-692a-4849-a464-0bc8a4d83780",
+        "producer_type": "image",
+        "reference_element_id": "a57c684f-8722-4b49-9dc1-a4bbd527996f",
+        "video_binding": false
+      }
+    ],
+    "denominator": "One named video job; attachments are deduplicated occurrence channels",
+    "evidence_ids": [
+      "dont-poison-ivy:06.1",
+      "dont-poison-ivy:06.2",
+      "dont-poison-ivy:06.3",
+      "dont-poison-ivy:06.4",
+      "dont-poison-ivy:06.5",
+      "dont-poison-ivy:06.6"
+    ],
+    "evidence_label": "observed",
+    "film_id": "d305f6e5-b906-49a1-a0c6-75ef7f653ad8",
+    "generation_id": "407acee9-0585-468c-a544-db7a19ef8003",
+    "literal_controls": {
+      "aspect_ratio": {
+        "raw_json": "\"16:9\"",
+        "state": "str"
+      },
+      "camera_aperture": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_focal_length": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_lens": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_model": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "draft": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "duration": {
+        "raw_json": "30",
+        "state": "int"
+      },
+      "end_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "extension_mode": {
+        "raw_json": null,
+        "state": "null"
+      },
+      "fps": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "generate_audio": {
+        "raw_json": "true",
+        "state": "bool"
+      },
+      "height": {
+        "raw_json": "1080",
+        "state": "int"
+      },
+      "mode": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "model": {
+        "raw_json": "\"default\"",
+        "state": "str"
+      },
+      "model_version": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "motion": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "multi_shot_mode": {
+        "raw_json": "\"custom\"",
+        "state": "str"
+      },
+      "multi_shots": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "resolution": {
+        "raw_json": "\"1080p\"",
+        "state": "str"
+      },
+      "sound": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "start_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "width": {
+        "raw_json": "1920",
+        "state": "int"
+      }
+    },
+    "media_outcome": "unobservable",
+    "model_identifier": "seedance_2_5",
+    "model_version": "[\"absent\", null]",
+    "parameter_state": "object",
+    "route": "image_guided",
+    "route_label": "inferred",
+    "source_path": "params.prompt"
+  },
+  {
+    "attachments": [
+      {
+        "asset_id": "393053ce-c8c5-452e-9eaf-08f1229182fd",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[3].medias[0]",
+        "producer": "393053ce-c8c5-452e-9eaf-08f1229182fd",
+        "producer_type": "image",
+        "reference_element_id": "d17bbb37-a4b6-4ba6-819e-843af6c04751",
+        "video_binding": false
+      },
+      {
+        "asset_id": "3bba8a2c-724a-478b-88d9-0b4420036c2f",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[4].medias[0]",
+        "producer": "3bba8a2c-724a-478b-88d9-0b4420036c2f",
+        "producer_type": "image",
+        "reference_element_id": "dcdbaf65-3ec2-4089-8a74-a636cb680059",
+        "video_binding": false
+      },
+      {
+        "asset_id": "5a6ca735-896c-4988-a8e1-585607c8b93d",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[5].medias[0]",
+        "producer": null,
+        "producer_type": null,
+        "reference_element_id": "f7189550-ca96-46f6-a125-f8ac706fdf3a",
+        "video_binding": false
+      },
+      {
+        "asset_id": "a751df0e-3403-4c19-ad10-26e21ac3fb82",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[1].medias[0]",
+        "producer": "a751df0e-3403-4c19-ad10-26e21ac3fb82",
+        "producer_type": "image",
+        "reference_element_id": "466bc684-bef0-475e-9a3c-ae1d88745194",
+        "video_binding": false
+      },
+      {
+        "asset_id": "c16ce530-c7d1-461a-acc8-63b8d7de63b1",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[2].medias[0]",
+        "producer": "c16ce530-c7d1-461a-acc8-63b8d7de63b1",
+        "producer_type": "image",
+        "reference_element_id": "69b3419a-1aad-4fda-bff0-39362e1c5b18",
+        "video_binding": false
+      },
+      {
+        "asset_id": "e4b1f427-2799-44e5-a775-870704d37236",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "producer": null,
+        "producer_type": null,
+        "reference_element_id": "3a298d6d-7110-474f-9b51-1cf7c0579f67",
+        "video_binding": false
+      }
+    ],
+    "denominator": "One named video job; attachments are deduplicated occurrence channels",
+    "evidence_ids": [
+      "dont-poison-ivy:06.7"
+    ],
+    "evidence_label": "observed",
+    "film_id": "d305f6e5-b906-49a1-a0c6-75ef7f653ad8",
+    "generation_id": "a9d85422-c95b-4e48-af27-093d2fbff0ca",
+    "literal_controls": {
+      "aspect_ratio": {
+        "raw_json": "\"16:9\"",
+        "state": "str"
+      },
+      "camera_aperture": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_focal_length": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_lens": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_model": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "draft": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "duration": {
+        "raw_json": "15",
+        "state": "int"
+      },
+      "end_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "extension_mode": {
+        "raw_json": null,
+        "state": "null"
+      },
+      "fps": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "generate_audio": {
+        "raw_json": "true",
+        "state": "bool"
+      },
+      "height": {
+        "raw_json": "1080",
+        "state": "int"
+      },
+      "mode": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "model": {
+        "raw_json": "\"default\"",
+        "state": "str"
+      },
+      "model_version": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "motion": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "multi_shot_mode": {
+        "raw_json": "\"custom\"",
+        "state": "str"
+      },
+      "multi_shots": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "resolution": {
+        "raw_json": "\"1080p\"",
+        "state": "str"
+      },
+      "sound": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "start_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "width": {
+        "raw_json": "1920",
+        "state": "int"
+      }
+    },
+    "media_outcome": "unobservable",
+    "model_identifier": "seedance_2_5",
+    "model_version": "[\"absent\", null]",
+    "parameter_state": "object",
+    "route": "image_guided",
+    "route_label": "inferred",
+    "source_path": "params.prompt"
+  },
+  {
+    "attachments": [],
+    "denominator": "One named video job; attachments are deduplicated occurrence channels",
+    "evidence_ids": [
+      "dry-aged-dreams:06.1",
+      "dry-aged-dreams:06.2",
+      "dry-aged-dreams:06.4",
+      "dry-aged-dreams:06.6"
+    ],
+    "evidence_label": "observed",
+    "film_id": "3777eda4-c15e-4531-9f04-4c02a900f3c3",
+    "generation_id": "c32600a6-0e04-4039-a577-2c8cdf2d60c2",
+    "literal_controls": {
+      "aspect_ratio": {
+        "raw_json": "\"21:9\"",
+        "state": "str"
+      },
+      "camera_aperture": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_focal_length": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_lens": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_model": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "draft": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "duration": {
+        "raw_json": "4",
+        "state": "int"
+      },
+      "end_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "extension_mode": {
+        "raw_json": null,
+        "state": "null"
+      },
+      "fps": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "generate_audio": {
+        "raw_json": "true",
+        "state": "bool"
+      },
+      "height": {
+        "raw_json": "384",
+        "state": "int"
+      },
+      "mode": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "model": {
+        "raw_json": "\"default\"",
+        "state": "str"
+      },
+      "model_version": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "motion": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "multi_shot_mode": {
+        "raw_json": "\"custom\"",
+        "state": "str"
+      },
+      "multi_shots": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "resolution": {
+        "raw_json": "\"480p\"",
+        "state": "str"
+      },
+      "sound": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "start_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "width": {
+        "raw_json": "896",
+        "state": "int"
+      }
+    },
+    "media_outcome": "unobservable",
+    "model_identifier": "seedance_2_5",
+    "model_version": "[\"absent\", null]",
+    "parameter_state": "object",
+    "route": "text_candidate",
+    "route_label": "inferred",
+    "source_path": "params.prompt"
+  },
+  {
+    "attachments": [
+      {
+        "asset_id": "52a4f150-39e4-4441-bade-76b7d42d0ec7",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[1].medias[0]",
+        "producer": "52a4f150-39e4-4441-bade-76b7d42d0ec7",
+        "producer_type": "image",
+        "reference_element_id": "a27cd65e-118f-44e8-b6b9-a609be586103",
+        "video_binding": false
+      },
+      {
+        "asset_id": "9d10263d-68d8-486d-bf52-0d80715cd356",
+        "asset_role": "input_video",
+        "audio_binding": false,
+        "image_binding": false,
+        "parameter_path": "params.medias[0].data",
+        "producer": null,
+        "producer_type": null,
+        "reference_element_id": null,
+        "video_binding": true
+      },
+      {
+        "asset_id": "ed7ee5c1-f3c7-470d-be25-1dc7bcb35cef",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "producer": "ed7ee5c1-f3c7-470d-be25-1dc7bcb35cef",
+        "producer_type": "image",
+        "reference_element_id": "460c394f-dcc4-4e16-bf88-c734b7c23754",
+        "video_binding": false
+      }
+    ],
+    "denominator": "One named video job; attachments are deduplicated occurrence channels",
+    "evidence_ids": [
+      "fallen-leaves:06.3"
+    ],
+    "evidence_label": "observed",
+    "film_id": "6659c520-c88e-4ac7-a2c9-f28d8a40c954",
+    "generation_id": "0bc2480b-a272-4235-929d-ca59e77741a1",
+    "literal_controls": {
+      "aspect_ratio": {
+        "raw_json": "\"21:9\"",
+        "state": "str"
+      },
+      "camera_aperture": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_focal_length": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_lens": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_model": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "draft": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "duration": {
+        "raw_json": "20",
+        "state": "int"
+      },
+      "end_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "extension_mode": {
+        "raw_json": null,
+        "state": "null"
+      },
+      "fps": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "generate_audio": {
+        "raw_json": "true",
+        "state": "bool"
+      },
+      "height": {
+        "raw_json": "576",
+        "state": "int"
+      },
+      "mode": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "model": {
+        "raw_json": "\"default\"",
+        "state": "str"
+      },
+      "model_version": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "motion": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "multi_shot_mode": {
+        "raw_json": "\"custom\"",
+        "state": "str"
+      },
+      "multi_shots": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "resolution": {
+        "raw_json": "\"720p\"",
+        "state": "str"
+      },
+      "sound": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "start_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "width": {
+        "raw_json": "1344",
+        "state": "int"
+      }
+    },
+    "media_outcome": "unobservable",
+    "model_identifier": "seedance_2_5",
+    "model_version": "[\"absent\", null]",
+    "parameter_state": "object",
+    "route": "video_guided",
+    "route_label": "inferred",
+    "source_path": "params.prompt"
+  },
+  {
+    "attachments": [
+      {
+        "asset_id": "135390cd-2bdf-4420-95af-d678ccaa1bcb",
+        "asset_role": "input_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.medias[0].data",
+        "producer": null,
+        "producer_type": null,
+        "reference_element_id": null,
+        "video_binding": false
+      },
+      {
+        "asset_id": "1cba062c-b6c5-456d-929d-b958859ae105",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[1].medias[0]",
+        "producer": "1cba062c-b6c5-456d-929d-b958859ae105",
+        "producer_type": "image",
+        "reference_element_id": "272048cd-1ac1-49d5-a338-9a3fc47c1c45",
+        "video_binding": false
+      },
+      {
+        "asset_id": "23c1ae02-b866-43f7-8c61-2064732a212f",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[3].medias[0]",
+        "producer": "23c1ae02-b866-43f7-8c61-2064732a212f",
+        "producer_type": "image",
+        "reference_element_id": "6443fc49-97a9-4cda-bb56-6da263bde015",
+        "video_binding": false
+      },
+      {
+        "asset_id": "966eaf96-1892-4886-9886-6fd5bcc5c0af",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[4].medias[0]",
+        "producer": "966eaf96-1892-4886-9886-6fd5bcc5c0af",
+        "producer_type": "image",
+        "reference_element_id": "7390ef7f-faf4-46cd-975f-5d3aa9f14ac8",
+        "video_binding": false
+      },
+      {
+        "asset_id": "a9d964c7-7e30-47e8-8c43-c1563ed99f9b",
+        "asset_role": "input_video",
+        "audio_binding": false,
+        "image_binding": false,
+        "parameter_path": "params.medias[1].data",
+        "producer": "a9d964c7-7e30-47e8-8c43-c1563ed99f9b",
+        "producer_type": "video",
+        "reference_element_id": null,
+        "video_binding": true
+      },
+      {
+        "asset_id": "c4236600-ede8-4f78-bdb5-941cdd3a0b5d",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "producer": "c4236600-ede8-4f78-bdb5-941cdd3a0b5d",
+        "producer_type": "image",
+        "reference_element_id": "093b5f84-37dd-4e64-8460-d339a6ea510c",
+        "video_binding": false
+      },
+      {
+        "asset_id": "ed7ee5c1-f3c7-470d-be25-1dc7bcb35cef",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[2].medias[0]",
+        "producer": "ed7ee5c1-f3c7-470d-be25-1dc7bcb35cef",
+        "producer_type": "image",
+        "reference_element_id": "460c394f-dcc4-4e16-bf88-c734b7c23754",
+        "video_binding": false
+      }
+    ],
+    "denominator": "One named video job; attachments are deduplicated occurrence channels",
+    "evidence_ids": [
+      "fallen-leaves:06.1",
+      "fallen-leaves:06.2",
+      "fallen-leaves:06.4",
+      "fallen-leaves:06.6"
+    ],
+    "evidence_label": "observed",
+    "film_id": "6659c520-c88e-4ac7-a2c9-f28d8a40c954",
+    "generation_id": "62e05ad7-79d3-4424-860c-feaa9673f2d9",
+    "literal_controls": {
+      "aspect_ratio": {
+        "raw_json": "\"21:9\"",
+        "state": "str"
+      },
+      "camera_aperture": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_focal_length": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_lens": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_model": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "draft": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "duration": {
+        "raw_json": "19",
+        "state": "int"
+      },
+      "end_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "extension_mode": {
+        "raw_json": null,
+        "state": "null"
+      },
+      "fps": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "generate_audio": {
+        "raw_json": "true",
+        "state": "bool"
+      },
+      "height": {
+        "raw_json": "576",
+        "state": "int"
+      },
+      "mode": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "model": {
+        "raw_json": "\"default\"",
+        "state": "str"
+      },
+      "model_version": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "motion": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "multi_shot_mode": {
+        "raw_json": "\"custom\"",
+        "state": "str"
+      },
+      "multi_shots": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "resolution": {
+        "raw_json": "\"720p\"",
+        "state": "str"
+      },
+      "sound": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "start_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "width": {
+        "raw_json": "1344",
+        "state": "int"
+      }
+    },
+    "media_outcome": "unobservable",
+    "model_identifier": "seedance_2_5",
+    "model_version": "[\"absent\", null]",
+    "parameter_state": "object",
+    "route": "video_guided",
+    "route_label": "inferred",
+    "source_path": "params.prompt"
+  },
+  {
+    "attachments": [
+      {
+        "asset_id": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+        "asset_role": "input_video",
+        "audio_binding": false,
+        "image_binding": false,
+        "parameter_path": "params.medias[0].data",
+        "producer": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+        "producer_type": "video",
+        "reference_element_id": null,
+        "video_binding": true
+      }
+    ],
+    "denominator": "One named video job; attachments are deduplicated occurrence channels",
+    "evidence_ids": [
+      "fallen-leaves:06.5",
+      "fallen-leaves:06.7"
+    ],
+    "evidence_label": "observed",
+    "film_id": "6659c520-c88e-4ac7-a2c9-f28d8a40c954",
+    "generation_id": "aa8a5c34-415f-4371-aca9-777f976cfed5",
+    "literal_controls": {
+      "aspect_ratio": {
+        "raw_json": "\"16:9\"",
+        "state": "str"
+      },
+      "camera_aperture": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_focal_length": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_lens": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_model": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "draft": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "duration": {
+        "raw_json": "7",
+        "state": "int"
+      },
+      "end_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "extension_mode": {
+        "raw_json": null,
+        "state": "null"
+      },
+      "fps": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "generate_audio": {
+        "raw_json": "true",
+        "state": "bool"
+      },
+      "height": {
+        "raw_json": "1080",
+        "state": "int"
+      },
+      "mode": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "model": {
+        "raw_json": "\"video_edit\"",
+        "state": "str"
+      },
+      "model_version": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "motion": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "multi_shot_mode": {
+        "raw_json": "\"custom\"",
+        "state": "str"
+      },
+      "multi_shots": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "resolution": {
+        "raw_json": "\"1080p\"",
+        "state": "str"
+      },
+      "sound": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "start_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "width": {
+        "raw_json": "1920",
+        "state": "int"
+      }
+    },
+    "media_outcome": "unobservable",
+    "model_identifier": "seedance_2_5",
+    "model_version": "[\"absent\", null]",
+    "parameter_state": "object",
+    "route": "video_guided",
+    "route_label": "inferred",
+    "source_path": "params.prompt"
+  },
+  {
+    "attachments": [
+      {
+        "asset_id": "39841600-fdf7-4380-8b78-aa11168e62b3",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "producer": "39841600-fdf7-4380-8b78-aa11168e62b3",
+        "producer_type": "image",
+        "reference_element_id": "60d59d65-df60-446b-9192-743485a59e23",
+        "video_binding": false
+      },
+      {
+        "asset_id": "558b0a53-a867-45b2-9e7c-9e7178afc599",
+        "asset_role": "input_video",
+        "audio_binding": false,
+        "image_binding": false,
+        "parameter_path": "params.medias[0].data",
+        "producer": null,
+        "producer_type": null,
+        "reference_element_id": null,
+        "video_binding": true
+      }
+    ],
+    "denominator": "One named video job; attachments are deduplicated occurrence channels",
+    "evidence_ids": [
+      "harmony:06.7"
+    ],
+    "evidence_label": "observed",
+    "film_id": "2fd725ab-2604-4220-8cca-d332e9de53a2",
+    "generation_id": "0a5cf741-e243-4dfa-867d-af11ced9f124",
+    "literal_controls": {
+      "aspect_ratio": {
+        "raw_json": "\"16:9\"",
+        "state": "str"
+      },
+      "camera_aperture": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_focal_length": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_lens": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_model": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "draft": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "duration": {
+        "raw_json": "4",
+        "state": "int"
+      },
+      "end_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "extension_mode": {
+        "raw_json": null,
+        "state": "null"
+      },
+      "fps": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "generate_audio": {
+        "raw_json": "true",
+        "state": "bool"
+      },
+      "height": {
+        "raw_json": "1080",
+        "state": "int"
+      },
+      "mode": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "model": {
+        "raw_json": "\"video_edit\"",
+        "state": "str"
+      },
+      "model_version": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "motion": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "multi_shot_mode": {
+        "raw_json": "\"custom\"",
+        "state": "str"
+      },
+      "multi_shots": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "resolution": {
+        "raw_json": "\"1080p\"",
+        "state": "str"
+      },
+      "sound": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "start_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "width": {
+        "raw_json": "1920",
+        "state": "int"
+      }
+    },
+    "media_outcome": "unobservable",
+    "model_identifier": "seedance_2_5",
+    "model_version": "[\"absent\", null]",
+    "parameter_state": "object",
+    "route": "video_guided",
+    "route_label": "inferred",
+    "source_path": "params.prompt"
+  },
+  {
+    "attachments": [
+      {
+        "asset_id": "10801b06-8c4b-4e75-a88e-526a8c884f5d",
+        "asset_role": "input_asset",
+        "audio_binding": false,
+        "image_binding": false,
+        "parameter_path": "params.light",
+        "producer": null,
+        "producer_type": null,
+        "reference_element_id": null,
+        "video_binding": false
+      },
+      {
+        "asset_id": "2d8f09c5-877c-49c3-a437-02eca8fa0ac6",
+        "asset_role": "input_asset",
+        "audio_binding": false,
+        "image_binding": false,
+        "parameter_path": "params.genre_control",
+        "producer": null,
+        "producer_type": null,
+        "reference_element_id": null,
+        "video_binding": false
+      },
+      {
+        "asset_id": "3072d88e-cd5b-4b65-b95b-7e23b40fd8e2",
+        "asset_role": "input_asset",
+        "audio_binding": false,
+        "image_binding": false,
+        "parameter_path": "params.camera_aperture",
+        "producer": null,
+        "producer_type": null,
+        "reference_element_id": null,
+        "video_binding": false
+      },
+      {
+        "asset_id": "324a2f4b-84f2-405a-ac70-d9ec0556b2cb",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[4].medias[0]",
+        "producer": null,
+        "producer_type": null,
+        "reference_element_id": "64ca1083-0d5c-4ce8-b0a0-db23f6882569",
+        "video_binding": false
+      },
+      {
+        "asset_id": "39841600-fdf7-4380-8b78-aa11168e62b3",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[3].medias[0]",
+        "producer": "39841600-fdf7-4380-8b78-aa11168e62b3",
+        "producer_type": "image",
+        "reference_element_id": "60d59d65-df60-446b-9192-743485a59e23",
+        "video_binding": false
+      },
+      {
+        "asset_id": "52b4e96b-5ab6-406c-ab3e-54234dbf0961",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[2].medias[0]",
+        "producer": "52b4e96b-5ab6-406c-ab3e-54234dbf0961",
+        "producer_type": "image",
+        "reference_element_id": "52f6f7ac-5f0e-4ca4-802a-196c84019022",
+        "video_binding": false
+      },
+      {
+        "asset_id": "5ba60506-db49-4916-911e-1ccd852bead9",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[1].medias[0]",
+        "producer": null,
+        "producer_type": null,
+        "reference_element_id": "260cc2f6-705c-46af-a586-55a1c5e49889",
+        "video_binding": false
+      },
+      {
+        "asset_id": "67420f2b-45ac-4dd9-b7bf-50a5cabb61ac",
+        "asset_role": "input_asset",
+        "audio_binding": false,
+        "image_binding": false,
+        "parameter_path": "params.pacing",
+        "producer": null,
+        "producer_type": null,
+        "reference_element_id": null,
+        "video_binding": false
+      },
+      {
+        "asset_id": "68e862d0-ace0-4a0a-af97-618b14026540",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[6].medias[0]",
+        "producer": "68e862d0-ace0-4a0a-af97-618b14026540",
+        "producer_type": "image",
+        "reference_element_id": "e2bc07f9-f908-456d-bf73-73222fc4636d",
+        "video_binding": false
+      },
+      {
+        "asset_id": "7b81a798-9807-4d80-a42e-ca8ef616c756",
+        "asset_role": "input_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.medias[0].data",
+        "producer": "7b81a798-9807-4d80-a42e-ca8ef616c756",
+        "producer_type": "image",
+        "reference_element_id": null,
+        "video_binding": false
+      },
+      {
+        "asset_id": "8cdadd2f-839d-4b65-919b-8c0db1aa927b",
+        "asset_role": "input_asset",
+        "audio_binding": false,
+        "image_binding": false,
+        "parameter_path": "params.camera_lens",
+        "producer": null,
+        "producer_type": null,
+        "reference_element_id": null,
+        "video_binding": false
+      },
+      {
+        "asset_id": "a78aeead-cf5f-461e-ac3a-a97f43995894",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[5].medias[0]",
+        "producer": "a78aeead-cf5f-461e-ac3a-a97f43995894",
+        "producer_type": "image",
+        "reference_element_id": "8d8268fa-5e7d-40bc-8b21-9201abc4ac48",
+        "video_binding": false
+      },
+      {
+        "asset_id": "b49c8d68-e7b9-4459-aae1-c491319ac291",
+        "asset_role": "input_asset",
+        "audio_binding": false,
+        "image_binding": false,
+        "parameter_path": "params.camera_model",
+        "producer": null,
+        "producer_type": null,
+        "reference_element_id": null,
+        "video_binding": false
+      },
+      {
+        "asset_id": "ed082614-315f-46f4-b6d0-9d6644da4038",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "producer": "ed082614-315f-46f4-b6d0-9d6644da4038",
+        "producer_type": "image",
+        "reference_element_id": "0bd7b6f7-b924-497c-b183-fc8714205841",
+        "video_binding": false
+      }
+    ],
+    "denominator": "One named video job; attachments are deduplicated occurrence channels",
+    "evidence_ids": [
+      "harmony:06.1",
+      "harmony:06.2",
+      "harmony:06.3",
+      "harmony:06.4",
+      "harmony:06.5",
+      "harmony:06.6"
+    ],
+    "evidence_label": "observed",
+    "film_id": "2fd725ab-2604-4220-8cca-d332e9de53a2",
+    "generation_id": "1674aeae-dc7c-4605-a504-c048f028d51e",
+    "literal_controls": {
+      "aspect_ratio": {
+        "raw_json": "\"16:9\"",
+        "state": "str"
+      },
+      "camera_aperture": {
+        "raw_json": null,
+        "state": "nonempty_dict"
+      },
+      "camera_focal_length": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_lens": {
+        "raw_json": null,
+        "state": "nonempty_dict"
+      },
+      "camera_model": {
+        "raw_json": null,
+        "state": "nonempty_dict"
+      },
+      "draft": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "duration": {
+        "raw_json": "30",
+        "state": "int"
+      },
+      "end_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "extension_mode": {
+        "raw_json": null,
+        "state": "null"
+      },
+      "fps": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "generate_audio": {
+        "raw_json": "true",
+        "state": "bool"
+      },
+      "height": {
+        "raw_json": "720",
+        "state": "int"
+      },
+      "mode": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "model": {
+        "raw_json": "\"default\"",
+        "state": "str"
+      },
+      "model_version": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "motion": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "multi_shot_mode": {
+        "raw_json": "\"custom\"",
+        "state": "str"
+      },
+      "multi_shots": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "resolution": {
+        "raw_json": "\"720p\"",
+        "state": "str"
+      },
+      "sound": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "start_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "width": {
+        "raw_json": "1280",
+        "state": "int"
+      }
+    },
+    "media_outcome": "unobservable",
+    "model_identifier": "cinematic_studio_video_4_0",
+    "model_version": "[\"absent\", null]",
+    "parameter_state": "object",
+    "route": "image_guided",
+    "route_label": "inferred",
+    "source_path": "params.prompt"
+  },
+  {
+    "attachments": [
+      {
+        "asset_id": "33389178-a884-4c9a-9856-7b9bf535f0e9",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "producer": "33389178-a884-4c9a-9856-7b9bf535f0e9",
+        "producer_type": "image",
+        "reference_element_id": "0d33ecd1-47d7-4488-be53-b26376ed0732",
+        "video_binding": false
+      },
+      {
+        "asset_id": "37d0bddb-73a3-4697-b017-7b1e989f1988",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[1].medias[0]",
+        "producer": "37d0bddb-73a3-4697-b017-7b1e989f1988",
+        "producer_type": "image",
+        "reference_element_id": "6ba7afc0-30ce-42bc-b095-4402aae5dcaf",
+        "video_binding": false
+      },
+      {
+        "asset_id": "4220f822-db2c-4581-a096-eadab4cf908b",
+        "asset_role": "input_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.medias[0].data",
+        "producer": "4220f822-db2c-4581-a096-eadab4cf908b",
+        "producer_type": "image",
+        "reference_element_id": null,
+        "video_binding": false
+      },
+      {
+        "asset_id": "6060e485-486d-4c51-9e2c-b4f4f65090ec",
+        "asset_role": "input_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.medias[1].data",
+        "producer": "6060e485-486d-4c51-9e2c-b4f4f65090ec",
+        "producer_type": "image",
+        "reference_element_id": null,
+        "video_binding": false
+      },
+      {
+        "asset_id": "670e5c90-bb7b-4832-b994-2f56586c886a",
+        "asset_role": "input_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.medias[2].data",
+        "producer": "670e5c90-bb7b-4832-b994-2f56586c886a",
+        "producer_type": "image",
+        "reference_element_id": null,
+        "video_binding": false
+      }
+    ],
+    "denominator": "One named video job; attachments are deduplicated occurrence channels",
+    "evidence_ids": [
+      "kagerou:06.1",
+      "kagerou:06.2",
+      "kagerou:06.3",
+      "kagerou:06.4",
+      "kagerou:06.5",
+      "kagerou:06.6"
+    ],
+    "evidence_label": "observed",
+    "film_id": "51d2c0b2-d692-42b4-b66f-daf87cac1eb3",
+    "generation_id": "5b173d7d-3f12-422a-9cba-7c4cfd2abcfc",
+    "literal_controls": {
+      "aspect_ratio": {
+        "raw_json": "\"16:9\"",
+        "state": "str"
+      },
+      "camera_aperture": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_focal_length": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_lens": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_model": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "draft": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "duration": {
+        "raw_json": "12",
+        "state": "int"
+      },
+      "end_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "extension_mode": {
+        "raw_json": null,
+        "state": "null"
+      },
+      "fps": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "generate_audio": {
+        "raw_json": "true",
+        "state": "bool"
+      },
+      "height": {
+        "raw_json": "720",
+        "state": "int"
+      },
+      "mode": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "model": {
+        "raw_json": "\"default\"",
+        "state": "str"
+      },
+      "model_version": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "motion": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "multi_shot_mode": {
+        "raw_json": "\"custom\"",
+        "state": "str"
+      },
+      "multi_shots": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "resolution": {
+        "raw_json": "\"720p\"",
+        "state": "str"
+      },
+      "sound": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "start_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "width": {
+        "raw_json": "1280",
+        "state": "int"
+      }
+    },
+    "media_outcome": "unobservable",
+    "model_identifier": "seedance_2_5",
+    "model_version": "[\"absent\", null]",
+    "parameter_state": "object",
+    "route": "image_guided",
+    "route_label": "inferred",
+    "source_path": "params.prompt"
+  },
+  {
+    "attachments": [
+      {
+        "asset_id": "12709bed-6033-419d-97a4-ab5a4334a442",
+        "asset_role": "input_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.medias[4].data",
+        "producer": null,
+        "producer_type": null,
+        "reference_element_id": null,
+        "video_binding": false
+      },
+      {
+        "asset_id": "18ad9448-23b6-4f72-bfe1-ccb87081052d",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[1].medias[0]",
+        "producer": "18ad9448-23b6-4f72-bfe1-ccb87081052d",
+        "producer_type": "image",
+        "reference_element_id": "b95c9014-5d6a-486a-aae1-d062ab430245",
+        "video_binding": false
+      },
+      {
+        "asset_id": "1bac6d6a-c758-4272-86ee-8fcab5d66f45",
+        "asset_role": "input_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.medias[10].data",
+        "producer": null,
+        "producer_type": null,
+        "reference_element_id": null,
+        "video_binding": false
+      },
+      {
+        "asset_id": "2210195b-759e-4534-a10a-57ebbaf36f70",
+        "asset_role": "input_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.medias[6].data",
+        "producer": null,
+        "producer_type": null,
+        "reference_element_id": null,
+        "video_binding": false
+      },
+      {
+        "asset_id": "288ec035-75a9-4c15-9215-f01de9c1e2a1",
+        "asset_role": "input_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.medias[8].data",
+        "producer": null,
+        "producer_type": null,
+        "reference_element_id": null,
+        "video_binding": false
+      },
+      {
+        "asset_id": "66411159-7e3c-4216-8031-e096668d53a1",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "producer": "66411159-7e3c-4216-8031-e096668d53a1",
+        "producer_type": "image",
+        "reference_element_id": "52ab618f-a41b-48d4-8ea3-f4e555fec5ac",
+        "video_binding": false
+      },
+      {
+        "asset_id": "717a36ae-1375-4eb0-a408-cf4855662730",
+        "asset_role": "input_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.medias[9].data",
+        "producer": null,
+        "producer_type": null,
+        "reference_element_id": null,
+        "video_binding": false
+      },
+      {
+        "asset_id": "72298475-5c6e-432a-9830-d90e5fde42ea",
+        "asset_role": "input_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.medias[5].data",
+        "producer": null,
+        "producer_type": null,
+        "reference_element_id": null,
+        "video_binding": false
+      },
+      {
+        "asset_id": "78c04726-f3a8-4f7f-9b09-33af3b015975",
+        "asset_role": "input_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.medias[11].data",
+        "producer": null,
+        "producer_type": null,
+        "reference_element_id": null,
+        "video_binding": false
+      },
+      {
+        "asset_id": "7da99cf8-1046-44b1-9a0e-1e75fcb3d9a7",
+        "asset_role": "input_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.medias[3].data",
+        "producer": null,
+        "producer_type": null,
+        "reference_element_id": null,
+        "video_binding": false
+      },
+      {
+        "asset_id": "a89dbd2d-4be0-4c27-852d-8e8927d97041",
+        "asset_role": "input_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.medias[7].data",
+        "producer": null,
+        "producer_type": null,
+        "reference_element_id": null,
+        "video_binding": false
+      },
+      {
+        "asset_id": "ac7d7cd7-7555-4fcf-85ec-a730a702c817",
+        "asset_role": "input_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.medias[1].data",
+        "producer": null,
+        "producer_type": null,
+        "reference_element_id": null,
+        "video_binding": false
+      },
+      {
+        "asset_id": "ac88d126-6dab-4429-8d95-be006cadd82e",
+        "asset_role": "input_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.medias[2].data",
+        "producer": null,
+        "producer_type": null,
+        "reference_element_id": null,
+        "video_binding": false
+      },
+      {
+        "asset_id": "c13e851a-bc25-405e-85e1-95c626467ecb",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[2].medias[0]",
+        "producer": "c13e851a-bc25-405e-85e1-95c626467ecb",
+        "producer_type": "image",
+        "reference_element_id": "f5022f87-a1f1-42f7-89b8-6852a962b567",
+        "video_binding": false
+      },
+      {
+        "asset_id": "e7a925c9-6910-4efc-abdc-cb12e3aa26a4",
+        "asset_role": "input_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.medias[0].data",
+        "producer": null,
+        "producer_type": null,
+        "reference_element_id": null,
+        "video_binding": false
+      }
+    ],
+    "denominator": "One named video job; attachments are deduplicated occurrence channels",
+    "evidence_ids": [
+      "lost:06.1",
+      "lost:06.2",
+      "lost:06.3",
+      "lost:06.4",
+      "lost:06.6"
+    ],
+    "evidence_label": "observed",
+    "film_id": "e5ce8a79-9375-4e31-84a8-620bd4f07550",
+    "generation_id": "08d2776c-3865-4dd1-9aff-d5fcdf8ae702",
+    "literal_controls": {
+      "aspect_ratio": {
+        "raw_json": "\"16:9\"",
+        "state": "str"
+      },
+      "camera_aperture": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_focal_length": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_lens": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_model": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "draft": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "duration": {
+        "raw_json": "20",
+        "state": "int"
+      },
+      "end_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "extension_mode": {
+        "raw_json": null,
+        "state": "null"
+      },
+      "fps": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "generate_audio": {
+        "raw_json": "true",
+        "state": "bool"
+      },
+      "height": {
+        "raw_json": "720",
+        "state": "int"
+      },
+      "mode": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "model": {
+        "raw_json": "\"default\"",
+        "state": "str"
+      },
+      "model_version": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "motion": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "multi_shot_mode": {
+        "raw_json": "\"custom\"",
+        "state": "str"
+      },
+      "multi_shots": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "resolution": {
+        "raw_json": "\"720p\"",
+        "state": "str"
+      },
+      "sound": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "start_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "width": {
+        "raw_json": "1280",
+        "state": "int"
+      }
+    },
+    "media_outcome": "unobservable",
+    "model_identifier": "seedance_2_5",
+    "model_version": "[\"absent\", null]",
+    "parameter_state": "object",
+    "route": "image_guided",
+    "route_label": "inferred",
+    "source_path": "params.prompt"
+  },
+  {
+    "attachments": [
+      {
+        "asset_id": "18ad9448-23b6-4f72-bfe1-ccb87081052d",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[1].medias[0]",
+        "producer": "18ad9448-23b6-4f72-bfe1-ccb87081052d",
+        "producer_type": "image",
+        "reference_element_id": "b95c9014-5d6a-486a-aae1-d062ab430245",
+        "video_binding": false
+      },
+      {
+        "asset_id": "4e117e2d-14cf-46f3-8466-69d0306101ff",
+        "asset_role": "input_video",
+        "audio_binding": false,
+        "image_binding": false,
+        "parameter_path": "params.medias[0].data",
+        "producer": "4e117e2d-14cf-46f3-8466-69d0306101ff",
+        "producer_type": "video",
+        "reference_element_id": null,
+        "video_binding": true
+      },
+      {
+        "asset_id": "66411159-7e3c-4216-8031-e096668d53a1",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "producer": "66411159-7e3c-4216-8031-e096668d53a1",
+        "producer_type": "image",
+        "reference_element_id": "52ab618f-a41b-48d4-8ea3-f4e555fec5ac",
+        "video_binding": false
+      },
+      {
+        "asset_id": "c13e851a-bc25-405e-85e1-95c626467ecb",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[2].medias[0]",
+        "producer": "c13e851a-bc25-405e-85e1-95c626467ecb",
+        "producer_type": "image",
+        "reference_element_id": "f5022f87-a1f1-42f7-89b8-6852a962b567",
+        "video_binding": false
+      }
+    ],
+    "denominator": "One named video job; attachments are deduplicated occurrence channels",
+    "evidence_ids": [
+      "lost:06.5",
+      "lost:06.7"
+    ],
+    "evidence_label": "observed",
+    "film_id": "e5ce8a79-9375-4e31-84a8-620bd4f07550",
+    "generation_id": "09925f84-295d-42ac-a3f2-d8dbf98a1740",
+    "literal_controls": {
+      "aspect_ratio": {
+        "raw_json": "\"16:9\"",
+        "state": "str"
+      },
+      "camera_aperture": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_focal_length": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_lens": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_model": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "draft": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "duration": {
+        "raw_json": "20",
+        "state": "int"
+      },
+      "end_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "extension_mode": {
+        "raw_json": null,
+        "state": "null"
+      },
+      "fps": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "generate_audio": {
+        "raw_json": "true",
+        "state": "bool"
+      },
+      "height": {
+        "raw_json": "720",
+        "state": "int"
+      },
+      "mode": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "model": {
+        "raw_json": "\"default\"",
+        "state": "str"
+      },
+      "model_version": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "motion": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "multi_shot_mode": {
+        "raw_json": "\"custom\"",
+        "state": "str"
+      },
+      "multi_shots": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "resolution": {
+        "raw_json": "\"720p\"",
+        "state": "str"
+      },
+      "sound": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "start_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "width": {
+        "raw_json": "1280",
+        "state": "int"
+      }
+    },
+    "media_outcome": "unobservable",
+    "model_identifier": "seedance_2_5",
+    "model_version": "[\"absent\", null]",
+    "parameter_state": "object",
+    "route": "video_guided",
+    "route_label": "inferred",
+    "source_path": "params.prompt"
+  },
+  {
+    "attachments": [
+      {
+        "asset_id": "0ffdcb42-ac3c-47ae-a299-093c5a51bc08",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[2].medias[0]",
+        "producer": "0ffdcb42-ac3c-47ae-a299-093c5a51bc08",
+        "producer_type": "image",
+        "reference_element_id": "5f86210d-5e8e-4f28-a32e-4d9fe4fd0829",
+        "video_binding": false
+      },
+      {
+        "asset_id": "65374a8b-bdfc-4f94-860d-9246879c82ee",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "producer": "65374a8b-bdfc-4f94-860d-9246879c82ee",
+        "producer_type": "image",
+        "reference_element_id": "016815ee-3c0f-44f5-a35f-fc40c75a540b",
+        "video_binding": false
+      },
+      {
+        "asset_id": "6b289173-c0e4-40ba-b2c1-f8aeca9c8992",
+        "asset_role": "input_start_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.medias[0].data",
+        "producer": "6b289173-c0e4-40ba-b2c1-f8aeca9c8992",
+        "producer_type": "image",
+        "reference_element_id": null,
+        "video_binding": false
+      },
+      {
+        "asset_id": "e2c94f2e-dc4f-41e3-9464-478041ac7ee6",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[1].medias[0]",
+        "producer": "e2c94f2e-dc4f-41e3-9464-478041ac7ee6",
+        "producer_type": "image",
+        "reference_element_id": "48999cd8-b748-4d44-89e6-ab6ef2cb70a0",
+        "video_binding": false
+      }
+    ],
+    "denominator": "One named video job; attachments are deduplicated occurrence channels",
+    "evidence_ids": [
+      "prophecy-in-2047:06.1",
+      "prophecy-in-2047:06.2",
+      "prophecy-in-2047:06.3",
+      "prophecy-in-2047:06.4",
+      "prophecy-in-2047:06.5",
+      "prophecy-in-2047:06.6"
+    ],
+    "evidence_label": "observed",
+    "film_id": "9b38b885-bf92-484e-8f36-a890e4e10d61",
+    "generation_id": "014a8505-858b-4b9a-9777-b4461d5957e2",
+    "literal_controls": {
+      "aspect_ratio": {
+        "raw_json": "\"16:9\"",
+        "state": "str"
+      },
+      "camera_aperture": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_focal_length": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_lens": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_model": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "draft": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "duration": {
+        "raw_json": "15",
+        "state": "int"
+      },
+      "end_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "extension_mode": {
+        "raw_json": null,
+        "state": "null"
+      },
+      "fps": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "generate_audio": {
+        "raw_json": "true",
+        "state": "bool"
+      },
+      "height": {
+        "raw_json": "1080",
+        "state": "int"
+      },
+      "mode": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "model": {
+        "raw_json": "\"default\"",
+        "state": "str"
+      },
+      "model_version": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "motion": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "multi_shot_mode": {
+        "raw_json": "\"custom\"",
+        "state": "str"
+      },
+      "multi_shots": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "resolution": {
+        "raw_json": "\"1080p\"",
+        "state": "str"
+      },
+      "sound": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "start_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "width": {
+        "raw_json": "1920",
+        "state": "int"
+      }
+    },
+    "media_outcome": "unobservable",
+    "model_identifier": "seedance_2_5",
+    "model_version": "[\"absent\", null]",
+    "parameter_state": "object",
+    "route": "image_guided",
+    "route_label": "inferred",
+    "source_path": "params.prompt"
+  },
+  {
+    "attachments": [
+      {
+        "asset_id": "c8e20efd-6e8f-42ab-ac41-2fc21e5946e1",
+        "asset_role": "input_video",
+        "audio_binding": false,
+        "image_binding": false,
+        "parameter_path": "params.medias[0].data",
+        "producer": "c8e20efd-6e8f-42ab-ac41-2fc21e5946e1",
+        "producer_type": "video",
+        "reference_element_id": null,
+        "video_binding": true
+      }
+    ],
+    "denominator": "One named video job; attachments are deduplicated occurrence channels",
+    "evidence_ids": [
+      "prophecy-in-2047:06.7"
+    ],
+    "evidence_label": "observed",
+    "film_id": "9b38b885-bf92-484e-8f36-a890e4e10d61",
+    "generation_id": "17d142bf-33db-4a4f-b455-3a7a8510362c",
+    "literal_controls": {
+      "aspect_ratio": {
+        "raw_json": "\"16:9\"",
+        "state": "str"
+      },
+      "camera_aperture": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_focal_length": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_lens": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_model": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "draft": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "duration": {
+        "raw_json": "11",
+        "state": "int"
+      },
+      "end_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "extension_mode": {
+        "raw_json": null,
+        "state": "null"
+      },
+      "fps": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "generate_audio": {
+        "raw_json": "true",
+        "state": "bool"
+      },
+      "height": {
+        "raw_json": "720",
+        "state": "int"
+      },
+      "mode": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "model": {
+        "raw_json": "\"video_edit\"",
+        "state": "str"
+      },
+      "model_version": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "motion": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "multi_shot_mode": {
+        "raw_json": "\"custom\"",
+        "state": "str"
+      },
+      "multi_shots": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "resolution": {
+        "raw_json": "\"720p\"",
+        "state": "str"
+      },
+      "sound": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "start_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "width": {
+        "raw_json": "1280",
+        "state": "int"
+      }
+    },
+    "media_outcome": "unobservable",
+    "model_identifier": "seedance_2_5",
+    "model_version": "[\"absent\", null]",
+    "parameter_state": "object",
+    "route": "video_guided",
+    "route_label": "inferred",
+    "source_path": "params.prompt"
+  },
+  {
+    "attachments": [
+      {
+        "asset_id": "6ac7af62-e6f9-4ba2-9e60-5bc7718b75fa",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "producer": null,
+        "producer_type": null,
+        "reference_element_id": "1d01d227-12ba-4281-9f6e-7384e9717c35",
+        "video_binding": false
+      },
+      {
+        "asset_id": "fc044256-2292-492f-b22e-752ceee19881",
+        "asset_role": "input_video",
+        "audio_binding": false,
+        "image_binding": false,
+        "parameter_path": "params.medias[0].data",
+        "producer": null,
+        "producer_type": null,
+        "reference_element_id": null,
+        "video_binding": true
+      }
+    ],
+    "denominator": "One named video job; attachments are deduplicated occurrence channels",
+    "evidence_ids": [
+      "random-access-memories:06.7"
+    ],
+    "evidence_label": "observed",
+    "film_id": "e99b5ad2-8f58-4ef8-a13c-4441cfdd5205",
+    "generation_id": "08339c56-2483-4941-90cc-31b96cbf3638",
+    "literal_controls": {
+      "aspect_ratio": {
+        "raw_json": "\"16:9\"",
+        "state": "str"
+      },
+      "camera_aperture": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_focal_length": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_lens": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_model": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "draft": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "duration": {
+        "raw_json": "7",
+        "state": "int"
+      },
+      "end_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "extension_mode": {
+        "raw_json": null,
+        "state": "null"
+      },
+      "fps": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "generate_audio": {
+        "raw_json": "true",
+        "state": "bool"
+      },
+      "height": {
+        "raw_json": "720",
+        "state": "int"
+      },
+      "mode": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "model": {
+        "raw_json": "\"video_edit\"",
+        "state": "str"
+      },
+      "model_version": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "motion": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "multi_shot_mode": {
+        "raw_json": "\"custom\"",
+        "state": "str"
+      },
+      "multi_shots": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "resolution": {
+        "raw_json": "\"720p\"",
+        "state": "str"
+      },
+      "sound": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "start_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "width": {
+        "raw_json": "1280",
+        "state": "int"
+      }
+    },
+    "media_outcome": "unobservable",
+    "model_identifier": "seedance_2_5",
+    "model_version": "[\"absent\", null]",
+    "parameter_state": "object",
+    "route": "video_guided",
+    "route_label": "inferred",
+    "source_path": "params.prompt"
+  },
+  {
+    "attachments": [
+      {
+        "asset_id": "20384841-9b02-424d-a28b-d4194f0f2867",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[3].medias[0]",
+        "producer": "20384841-9b02-424d-a28b-d4194f0f2867",
+        "producer_type": "image",
+        "reference_element_id": "fbc56e6b-860b-4464-b2f8-3ea6e1965ff8",
+        "video_binding": false
+      },
+      {
+        "asset_id": "64b0db41-331e-4824-b96f-8c51716704f6",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[1].medias[0]",
+        "producer": "64b0db41-331e-4824-b96f-8c51716704f6",
+        "producer_type": "image",
+        "reference_element_id": "d14fbeb6-9f2e-46e2-9065-7bae87863d97",
+        "video_binding": false
+      },
+      {
+        "asset_id": "6ac7af62-e6f9-4ba2-9e60-5bc7718b75fa",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "producer": null,
+        "producer_type": null,
+        "reference_element_id": "1d01d227-12ba-4281-9f6e-7384e9717c35",
+        "video_binding": false
+      },
+      {
+        "asset_id": "af8e8478-0a64-4af5-8a27-5ea3b73b0ad7",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[2].medias[0]",
+        "producer": "af8e8478-0a64-4af5-8a27-5ea3b73b0ad7",
+        "producer_type": "image",
+        "reference_element_id": "dd7dc839-be59-4ddf-966b-7c5fac8a47fd",
+        "video_binding": false
+      }
+    ],
+    "denominator": "One named video job; attachments are deduplicated occurrence channels",
+    "evidence_ids": [
+      "random-access-memories:06.1",
+      "random-access-memories:06.2",
+      "random-access-memories:06.3",
+      "random-access-memories:06.4",
+      "random-access-memories:06.5",
+      "random-access-memories:06.6"
+    ],
+    "evidence_label": "observed",
+    "film_id": "e99b5ad2-8f58-4ef8-a13c-4441cfdd5205",
+    "generation_id": "3123d068-196f-4dfc-a57d-08fe59574b43",
+    "literal_controls": {
+      "aspect_ratio": {
+        "raw_json": "\"4:3\"",
+        "state": "str"
+      },
+      "camera_aperture": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_focal_length": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_lens": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_model": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "draft": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "duration": {
+        "raw_json": "20",
+        "state": "int"
+      },
+      "end_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "extension_mode": {
+        "raw_json": null,
+        "state": "null"
+      },
+      "fps": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "generate_audio": {
+        "raw_json": "true",
+        "state": "bool"
+      },
+      "height": {
+        "raw_json": "720",
+        "state": "int"
+      },
+      "mode": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "model": {
+        "raw_json": "\"default\"",
+        "state": "str"
+      },
+      "model_version": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "motion": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "multi_shot_mode": {
+        "raw_json": "\"custom\"",
+        "state": "str"
+      },
+      "multi_shots": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "resolution": {
+        "raw_json": "\"720p\"",
+        "state": "str"
+      },
+      "sound": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "start_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "width": {
+        "raw_json": "960",
+        "state": "int"
+      }
+    },
+    "media_outcome": "unobservable",
+    "model_identifier": "seedance_2_5",
+    "model_version": "[\"absent\", null]",
+    "parameter_state": "object",
+    "route": "image_guided",
+    "route_label": "inferred",
+    "source_path": "params.prompt"
+  },
+  {
+    "attachments": [
+      {
+        "asset_id": "05cb978f-3b93-4fe5-a7bf-61efca75c74f",
+        "asset_role": "input_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.medias[0].data",
+        "producer": "05cb978f-3b93-4fe5-a7bf-61efca75c74f",
+        "producer_type": "image",
+        "reference_element_id": null,
+        "video_binding": false
+      },
+      {
+        "asset_id": "9ece55f0-19e0-4e45-966c-460a4e69eb1f",
+        "asset_role": "input_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.medias[2].data",
+        "producer": "9ece55f0-19e0-4e45-966c-460a4e69eb1f",
+        "producer_type": "image",
+        "reference_element_id": null,
+        "video_binding": false
+      },
+      {
+        "asset_id": "ba5b0432-487f-4c5b-9d8b-8a9704069c69",
+        "asset_role": "input_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.medias[1].data",
+        "producer": "ba5b0432-487f-4c5b-9d8b-8a9704069c69",
+        "producer_type": "image",
+        "reference_element_id": null,
+        "video_binding": false
+      },
+      {
+        "asset_id": "c52bdac7-3338-48a3-8dcd-7971d8571461",
+        "asset_role": "input_video",
+        "audio_binding": false,
+        "image_binding": false,
+        "parameter_path": "params.medias[3].data",
+        "producer": "c52bdac7-3338-48a3-8dcd-7971d8571461",
+        "producer_type": "video",
+        "reference_element_id": null,
+        "video_binding": true
+      }
+    ],
+    "denominator": "One named video job; attachments are deduplicated occurrence channels",
+    "evidence_ids": [
+      "snap:06.1",
+      "snap:06.2",
+      "snap:06.3",
+      "snap:06.4",
+      "snap:06.5",
+      "snap:06.6"
+    ],
+    "evidence_label": "observed",
+    "film_id": "aed4098b-3278-4e5d-a347-24fad9cfb9ae",
+    "generation_id": "2199ecf1-0186-4958-a24c-024d8ce09c9c",
+    "literal_controls": {
+      "aspect_ratio": {
+        "raw_json": "\"16:9\"",
+        "state": "str"
+      },
+      "camera_aperture": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_focal_length": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_lens": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_model": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "draft": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "duration": {
+        "raw_json": "18",
+        "state": "int"
+      },
+      "end_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "extension_mode": {
+        "raw_json": "\"forward\"",
+        "state": "str"
+      },
+      "fps": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "generate_audio": {
+        "raw_json": "true",
+        "state": "bool"
+      },
+      "height": {
+        "raw_json": "720",
+        "state": "int"
+      },
+      "mode": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "model": {
+        "raw_json": "\"video_extension\"",
+        "state": "str"
+      },
+      "model_version": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "motion": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "multi_shot_mode": {
+        "raw_json": "\"custom\"",
+        "state": "str"
+      },
+      "multi_shots": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "resolution": {
+        "raw_json": "\"720p\"",
+        "state": "str"
+      },
+      "sound": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "start_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "width": {
+        "raw_json": "1280",
+        "state": "int"
+      }
+    },
+    "media_outcome": "unobservable",
+    "model_identifier": "seedance_2_5",
+    "model_version": "[\"absent\", null]",
+    "parameter_state": "object",
+    "route": "extension",
+    "route_label": "inferred",
+    "source_path": "params.prompt"
+  },
+  {
+    "attachments": [
+      {
+        "asset_id": "3894fc5f-cd0a-42f6-9fa3-4568ce351a71",
+        "asset_role": "input_video",
+        "audio_binding": false,
+        "image_binding": false,
+        "parameter_path": "params.medias[1].data",
+        "producer": "3894fc5f-cd0a-42f6-9fa3-4568ce351a71",
+        "producer_type": "video",
+        "reference_element_id": null,
+        "video_binding": true
+      },
+      {
+        "asset_id": "685ee873-2131-41fd-a606-361712b9aeb6",
+        "asset_role": "input_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.medias[0].data",
+        "producer": "685ee873-2131-41fd-a606-361712b9aeb6",
+        "producer_type": "image",
+        "reference_element_id": null,
+        "video_binding": false
+      }
+    ],
+    "denominator": "One named video job; attachments are deduplicated occurrence channels",
+    "evidence_ids": [
+      "snap:06.7"
+    ],
+    "evidence_label": "observed",
+    "film_id": "aed4098b-3278-4e5d-a347-24fad9cfb9ae",
+    "generation_id": "795abb74-6ee2-457f-b512-79f2448a2eef",
+    "literal_controls": {
+      "aspect_ratio": {
+        "raw_json": "\"auto\"",
+        "state": "str"
+      },
+      "camera_aperture": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_focal_length": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_lens": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_model": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "draft": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "duration": {
+        "raw_json": "13",
+        "state": "int"
+      },
+      "end_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "extension_mode": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "fps": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "generate_audio": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "height": {
+        "raw_json": "480",
+        "state": "int"
+      },
+      "mode": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "model": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "model_version": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "motion": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "multi_shot_mode": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "multi_shots": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "resolution": {
+        "raw_json": "\"720p\"",
+        "state": "str"
+      },
+      "sound": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "start_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "width": {
+        "raw_json": "854",
+        "state": "int"
+      }
+    },
+    "media_outcome": "unobservable",
+    "model_identifier": "hf_mult_replace_object",
+    "model_version": "[\"absent\", null]",
+    "parameter_state": "object",
+    "route": "video_guided",
+    "route_label": "inferred",
+    "source_path": "params.prompt"
+  },
+  {
+    "attachments": [
+      {
+        "asset_id": "2807fc31-5eb6-4bdb-a6ea-cd5e49a58b48",
+        "asset_role": "input_video",
+        "audio_binding": false,
+        "image_binding": false,
+        "parameter_path": "params.medias[0].data",
+        "producer": "2807fc31-5eb6-4bdb-a6ea-cd5e49a58b48",
+        "producer_type": "video",
+        "reference_element_id": null,
+        "video_binding": true
+      }
+    ],
+    "denominator": "One named video job; attachments are deduplicated occurrence channels",
+    "evidence_ids": [
+      "the-kiss:06.7"
+    ],
+    "evidence_label": "observed",
+    "film_id": "655325cc-46d9-4b0b-b03d-d177defa4b3f",
+    "generation_id": "14948b7d-5d8f-4783-987d-b87f68bc0a3d",
+    "literal_controls": {
+      "aspect_ratio": {
+        "raw_json": "\"16:9\"",
+        "state": "str"
+      },
+      "camera_aperture": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_focal_length": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_lens": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_model": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "draft": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "duration": {
+        "raw_json": "5",
+        "state": "int"
+      },
+      "end_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "extension_mode": {
+        "raw_json": null,
+        "state": "null"
+      },
+      "fps": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "generate_audio": {
+        "raw_json": "true",
+        "state": "bool"
+      },
+      "height": {
+        "raw_json": "720",
+        "state": "int"
+      },
+      "mode": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "model": {
+        "raw_json": "\"video_edit\"",
+        "state": "str"
+      },
+      "model_version": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "motion": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "multi_shot_mode": {
+        "raw_json": "\"custom\"",
+        "state": "str"
+      },
+      "multi_shots": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "resolution": {
+        "raw_json": "\"720p\"",
+        "state": "str"
+      },
+      "sound": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "start_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "width": {
+        "raw_json": "1280",
+        "state": "int"
+      }
+    },
+    "media_outcome": "unobservable",
+    "model_identifier": "seedance_2_5",
+    "model_version": "[\"absent\", null]",
+    "parameter_state": "object",
+    "route": "video_guided",
+    "route_label": "inferred",
+    "source_path": "params.prompt"
+  },
+  {
+    "attachments": [
+      {
+        "asset_id": "0a2f05d9-c9be-4b96-b2dd-8f5f51cf1e5f",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[4].medias[0]",
+        "producer": "0a2f05d9-c9be-4b96-b2dd-8f5f51cf1e5f",
+        "producer_type": "image",
+        "reference_element_id": "e95b63f3-e25b-4bba-8929-2ce2ace711c0",
+        "video_binding": false
+      },
+      {
+        "asset_id": "0df375a7-3613-444d-a258-165bc345e5dc",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[1].medias[0]",
+        "producer": "0df375a7-3613-444d-a258-165bc345e5dc",
+        "producer_type": "image",
+        "reference_element_id": "10b70a79-b649-4860-a334-cefbac554f80",
+        "video_binding": false
+      },
+      {
+        "asset_id": "38eff71b-8279-409c-b986-b4c9978f3eb5",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[3].medias[0]",
+        "producer": "38eff71b-8279-409c-b986-b4c9978f3eb5",
+        "producer_type": "image",
+        "reference_element_id": "e18cc482-2d8e-4897-9ced-f2854ee8e577",
+        "video_binding": false
+      },
+      {
+        "asset_id": "6f191261-991b-4bca-b465-618bab6f5daf",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "producer": "6f191261-991b-4bca-b465-618bab6f5daf",
+        "producer_type": "image",
+        "reference_element_id": "014f5f5f-5684-4de6-b66b-5fa0d1cbc491",
+        "video_binding": false
+      },
+      {
+        "asset_id": "7c83b37b-6ca4-4a27-a22f-322df2ae377d",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[2].medias[0]",
+        "producer": "7c83b37b-6ca4-4a27-a22f-322df2ae377d",
+        "producer_type": "image",
+        "reference_element_id": "4f146759-fc27-4132-87a6-125624394753",
+        "video_binding": false
+      }
+    ],
+    "denominator": "One named video job; attachments are deduplicated occurrence channels",
+    "evidence_ids": [
+      "the-kiss:06.1",
+      "the-kiss:06.2",
+      "the-kiss:06.3",
+      "the-kiss:06.4",
+      "the-kiss:06.5",
+      "the-kiss:06.6"
+    ],
+    "evidence_label": "observed",
+    "film_id": "655325cc-46d9-4b0b-b03d-d177defa4b3f",
+    "generation_id": "64c88da0-2a24-49bc-bdc7-8ece091c1dff",
+    "literal_controls": {
+      "aspect_ratio": {
+        "raw_json": "\"16:9\"",
+        "state": "str"
+      },
+      "camera_aperture": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_focal_length": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_lens": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_model": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "draft": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "duration": {
+        "raw_json": "30",
+        "state": "int"
+      },
+      "end_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "extension_mode": {
+        "raw_json": null,
+        "state": "null"
+      },
+      "fps": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "generate_audio": {
+        "raw_json": "true",
+        "state": "bool"
+      },
+      "height": {
+        "raw_json": "720",
+        "state": "int"
+      },
+      "mode": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "model": {
+        "raw_json": "\"default\"",
+        "state": "str"
+      },
+      "model_version": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "motion": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "multi_shot_mode": {
+        "raw_json": "\"custom\"",
+        "state": "str"
+      },
+      "multi_shots": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "resolution": {
+        "raw_json": "\"720p\"",
+        "state": "str"
+      },
+      "sound": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "start_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "width": {
+        "raw_json": "1280",
+        "state": "int"
+      }
+    },
+    "media_outcome": "unobservable",
+    "model_identifier": "seedance_2_5",
+    "model_version": "[\"absent\", null]",
+    "parameter_state": "object",
+    "route": "image_guided",
+    "route_label": "inferred",
+    "source_path": "params.prompt"
+  },
+  {
+    "attachments": [
+      {
+        "asset_id": "6640605c-455d-42cd-ab70-db0c327d7b20",
+        "asset_role": "input_video",
+        "audio_binding": false,
+        "image_binding": false,
+        "parameter_path": "params.medias[0].data",
+        "producer": null,
+        "producer_type": null,
+        "reference_element_id": null,
+        "video_binding": true
+      }
+    ],
+    "denominator": "One named video job; attachments are deduplicated occurrence channels",
+    "evidence_ids": [
+      "the-last-transmission:06.5",
+      "the-last-transmission:06.7"
+    ],
+    "evidence_label": "observed",
+    "film_id": "03f596b0-23da-4312-9e58-2e1cc4582348",
+    "generation_id": "083272c6-2303-4ddd-87e3-27dd2531ee0e",
+    "literal_controls": {
+      "aspect_ratio": {
+        "raw_json": "\"16:9\"",
+        "state": "str"
+      },
+      "camera_aperture": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_focal_length": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_lens": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_model": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "draft": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "duration": {
+        "raw_json": "13",
+        "state": "int"
+      },
+      "end_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "extension_mode": {
+        "raw_json": null,
+        "state": "null"
+      },
+      "fps": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "generate_audio": {
+        "raw_json": "true",
+        "state": "bool"
+      },
+      "height": {
+        "raw_json": "720",
+        "state": "int"
+      },
+      "mode": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "model": {
+        "raw_json": "\"video_edit\"",
+        "state": "str"
+      },
+      "model_version": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "motion": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "multi_shot_mode": {
+        "raw_json": "\"custom\"",
+        "state": "str"
+      },
+      "multi_shots": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "resolution": {
+        "raw_json": "\"720p\"",
+        "state": "str"
+      },
+      "sound": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "start_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "width": {
+        "raw_json": "1280",
+        "state": "int"
+      }
+    },
+    "media_outcome": "unobservable",
+    "model_identifier": "seedance_2_5",
+    "model_version": "[\"absent\", null]",
+    "parameter_state": "object",
+    "route": "video_guided",
+    "route_label": "inferred",
+    "source_path": "params.prompt"
+  },
+  {
+    "attachments": [
+      {
+        "asset_id": "9264c44d-ad74-4ddc-91fc-4490b55a5b18",
+        "asset_role": "input_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.medias[0].data",
+        "producer": null,
+        "producer_type": null,
+        "reference_element_id": null,
+        "video_binding": false
+      }
+    ],
+    "denominator": "One named video job; attachments are deduplicated occurrence channels",
+    "evidence_ids": [
+      "the-last-transmission:06.1",
+      "the-last-transmission:06.2",
+      "the-last-transmission:06.3",
+      "the-last-transmission:06.4",
+      "the-last-transmission:06.6"
+    ],
+    "evidence_label": "observed",
+    "film_id": "03f596b0-23da-4312-9e58-2e1cc4582348",
+    "generation_id": "0a5dad36-f81f-4a32-a38a-bc7bcd103e7f",
+    "literal_controls": {
+      "aspect_ratio": {
+        "raw_json": "\"16:9\"",
+        "state": "str"
+      },
+      "camera_aperture": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_focal_length": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_lens": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_model": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "draft": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "duration": {
+        "raw_json": "12",
+        "state": "int"
+      },
+      "end_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "extension_mode": {
+        "raw_json": null,
+        "state": "null"
+      },
+      "fps": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "generate_audio": {
+        "raw_json": "true",
+        "state": "bool"
+      },
+      "height": {
+        "raw_json": "720",
+        "state": "int"
+      },
+      "mode": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "model": {
+        "raw_json": "\"default\"",
+        "state": "str"
+      },
+      "model_version": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "motion": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "multi_shot_mode": {
+        "raw_json": "\"custom\"",
+        "state": "str"
+      },
+      "multi_shots": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "resolution": {
+        "raw_json": "\"720p\"",
+        "state": "str"
+      },
+      "sound": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "start_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "width": {
+        "raw_json": "1280",
+        "state": "int"
+      }
+    },
+    "media_outcome": "unobservable",
+    "model_identifier": "seedance_2_5",
+    "model_version": "[\"absent\", null]",
+    "parameter_state": "object",
+    "route": "image_guided",
+    "route_label": "inferred",
+    "source_path": "params.prompt"
+  },
+  {
+    "attachments": [
+      {
+        "asset_id": "3df9eabc-7827-4bb6-a2dd-83382158bed7",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[3].medias[0]",
+        "producer": null,
+        "producer_type": null,
+        "reference_element_id": "8c33f5ea-59a7-48bb-840d-8cee18401b64",
+        "video_binding": false
+      },
+      {
+        "asset_id": "7035b357-bcdc-4387-a228-7510c45a57e2",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[2].medias[0]",
+        "producer": null,
+        "producer_type": null,
+        "reference_element_id": "79788a03-ec45-4f32-a973-c8c64e057ec7",
+        "video_binding": false
+      },
+      {
+        "asset_id": "7c3eaced-de5f-4ef7-9158-3c4f5e13b1fe",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[1].medias[0]",
+        "producer": null,
+        "producer_type": null,
+        "reference_element_id": "5f573678-8b90-4dff-8b20-96207e2907ca",
+        "video_binding": false
+      },
+      {
+        "asset_id": "7da82d85-4503-476f-b9f1-a345744bb3ba",
+        "asset_role": "reference_image",
+        "audio_binding": false,
+        "image_binding": true,
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "producer": null,
+        "producer_type": null,
+        "reference_element_id": "4e4fd145-5cd9-4768-a6ec-53d03b396356",
+        "video_binding": false
+      }
+    ],
+    "denominator": "One named video job; attachments are deduplicated occurrence channels",
+    "evidence_ids": [
+      "the-staff:06.1",
+      "the-staff:06.2",
+      "the-staff:06.3",
+      "the-staff:06.4",
+      "the-staff:06.5",
+      "the-staff:06.6"
+    ],
+    "evidence_label": "observed",
+    "film_id": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce",
+    "generation_id": "04b90dc8-b9f9-48cf-858f-1cdcc2dceecb",
+    "literal_controls": {
+      "aspect_ratio": {
+        "raw_json": "\"16:9\"",
+        "state": "str"
+      },
+      "camera_aperture": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_focal_length": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_lens": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "camera_model": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "draft": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "duration": {
+        "raw_json": "15",
+        "state": "int"
+      },
+      "end_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "extension_mode": {
+        "raw_json": null,
+        "state": "null"
+      },
+      "fps": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "generate_audio": {
+        "raw_json": "true",
+        "state": "bool"
+      },
+      "height": {
+        "raw_json": "1080",
+        "state": "int"
+      },
+      "mode": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "model": {
+        "raw_json": "\"default\"",
+        "state": "str"
+      },
+      "model_version": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "motion": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "multi_shot_mode": {
+        "raw_json": "\"custom\"",
+        "state": "str"
+      },
+      "multi_shots": {
+        "raw_json": "false",
+        "state": "bool"
+      },
+      "resolution": {
+        "raw_json": "\"1080p\"",
+        "state": "str"
+      },
+      "sound": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "start_seconds": {
+        "raw_json": null,
+        "state": "absent"
+      },
+      "width": {
+        "raw_json": "1920",
+        "state": "int"
+      }
+    },
+    "media_outcome": "unobservable",
+    "model_identifier": "seedance_2_5",
+    "model_version": "[\"absent\", null]",
+    "parameter_state": "object",
+    "route": "image_guided",
+    "route_label": "inferred",
+    "source_path": "params.prompt"
+  }
+]

@@ -1,0 +1,90 @@
+{
+  "study": "06",
+  "evidence_label": "proposed",
+  "status": "Specification only; no workflow, persistence or platform internals implemented",
+  "purpose": "Convert a planned shot or shot sequence and bound sources into a separately reviewable video candidate",
+  "evidence_anchors": [
+    "dont-poison-ivy:06.7",
+    "the-staff:06.1",
+    "prophecy-in-2047:06.2",
+    "snap:06.1",
+    "random-access-memories:06.4",
+    "the-last-transmission:06.7",
+    "dry-aged-dreams:06.1"
+  ],
+  "required_fields": {
+    "identity": "film_id, scene_id (nullable), shot_id, task_id, task_version; each identifier film-scoped",
+    "plan": "Declared/reconstructed/proposed status; planned boundaries and source evidence; one task may request multiple shots",
+    "sources": "Immutable film/asset/version bindings, raw role/path, reference IDs, source producer or unresolved state, scoped authority",
+    "instructions": "Separate subject action, camera action or static camera, environment motion, ordered/timed events, dialogue/voice/audio intent, exclusions, invariants and allowed changes; each with state, channel and evidence",
+    "adapter": "Literal model identifier/name, explicit version state, raw parameter document and parse state, controls with raw JSON types/units if declared; requested duration/aspect/resolution separate from controls",
+    "provenance": "Snapshot/source paths and evidence labels, exact source hashes, bounded excerpts, competing explanation, denominator and confidence",
+    "result": "Output asset/candidate IDs and explicit dependencies; unknown media verification, further-work use and review status separate",
+    "review": "Unknown/candidate/needs_review/approved/rejected; actor, scope, version and decision event required for approval/rejection"
+  },
+  "value_states": {
+    "unavailable": null,
+    "unknown": null,
+    "absent": null,
+    "explicit_empty": "Preserve literal empty value",
+    "observed": "Preserve raw value with channel/scope; false, zero and JSON null distinct"
+  },
+  "supported_routes": [
+    "text_declared_or_candidate",
+    "image_guided",
+    "start_end",
+    "video_guided",
+    "extension",
+    "multi_shot_request"
+  ],
+  "readiness_rules": [
+    "Resolve required source bindings and conflicts with a human; no source inferred from a folder or date",
+    "Round-trip raw values; require an adapter declaration before translating units or asserting support",
+    "Keep written shot boundaries beside multi_shots=false; never silently rewrite either",
+    "Do not infer unseen media properties, quality, continuity or approval from a reference or reuse edge"
+  ],
+  "revision_routes": [
+    {
+      "route": "instruction_revision",
+      "inputs": "Same immutable sources plus named changed action/camera/timing intent",
+      "behaviour": "New task version and candidate; preserve prior request and invariants"
+    },
+    {
+      "route": "keyframe_revision",
+      "inputs": "Explicit revised source version, property delta and image producer link",
+      "behaviour": "New bound input version; retain predecessor and proposed downstream review scope"
+    },
+    {
+      "route": "video_edit",
+      "inputs": "Explicit video input plus allowed change region/properties and invariants",
+      "behaviour": "New candidate; mask optional only if actually supplied; no defect inferred"
+    },
+    {
+      "route": "extension",
+      "inputs": "Video source and declared direction/boundary context",
+      "behaviour": "Keep source and requested continuation separately; no assumed source end-frame verification"
+    },
+    {
+      "route": "split_request",
+      "inputs": "Named source, proposed boundaries and per-shot constraints",
+      "behaviour": "Human chooses changed decomposition; link tasks without claiming an executed cut"
+    },
+    {
+      "route": "bounded_rerun",
+      "inputs": "Explicit retry reason/actor, attempt cap and optional budget bound",
+      "behaviour": "Record a new attempt under a human-defined policy; do not learn a cap or failure rate from this archive"
+    }
+  ],
+  "guardrails": [
+    "No reuse-based automatic approval",
+    "No automatic camera or identity change",
+    "No infinite retry; stop at declared cap, unresolved sources, unsupported adapter controls or ambiguous change/invariant scope"
+  ],
+  "validation_tests": [
+    "Synthetic reused-but-unreviewed output remains approval-unknown",
+    "Synthetic two-film ID collision cannot bind cross-film source",
+    "False/null/absent/empty controls and requested timing survive round-trip",
+    "Human adjudication resolves written cuts/false flag without changing source record",
+    "Controlled experiment: same task/sources/model, one change (split versus continuous, camera revision or revised keyframe), predeclared repetitions/rubric/budget and explicit review events; no benefit claim before test"
+  ]
+}

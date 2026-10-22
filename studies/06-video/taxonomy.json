@@ -1,0 +1,78 @@
+{
+  "study": "06",
+  "codebook_version": "1.0",
+  "evidence_label": "inferred",
+  "unit": "Compound film/generation key with literal generation_type=video",
+  "route_precedence": [
+    {
+      "route": "extension",
+      "rule": "Video binding and literal parameters.model=video_extension",
+      "limit": "Declared extension with source, not proven continuation or extension duration"
+    },
+    {
+      "route": "video_guided",
+      "rule": "Any typed video binding or input_asset at params.input_video",
+      "limit": "Includes editing, finishing and guidance; not necessarily fresh video synthesis"
+    },
+    {
+      "route": "start_end",
+      "rule": "Both explicit start and end roles, absent a video route above",
+      "limit": "Only typed start/end binding; ordinary reference images never become frame constraints"
+    },
+    {
+      "route": "image_guided",
+      "rule": "At least one typed image binding, or named image parameter path, after above",
+      "limit": "Includes start-only/end-only; attached image content and conditioning effect unknown"
+    },
+    {
+      "route": "text_to_video",
+      "rule": "Nonempty primary text, no recorded media/unknown inputs or populated media keys, literal mode=text-to-video",
+      "limit": "Export-declared only; absence of private/external sources unproved"
+    },
+    {
+      "route": "text_candidate",
+      "rule": "Nonempty primary text, explicit medias=[], no recorded media/unknown inputs or populated media keys",
+      "limit": "Provisional export-conditioned candidate; never proven text-only"
+    },
+    {
+      "route": "unknown",
+      "rule": "Otherwise",
+      "limit": "Missing inputs never establish text-to-video"
+    }
+  ],
+  "independent_axes": {
+    "multi_shot": "AF3a multi_shot lexical match, literal multi_shots boolean, and nonempty multi_prompt array reported separately",
+    "motion": "Subject, camera, environment actors and static-camera constraints only semantically interpreted in scoped panel examples; corpus camera vocabulary is structural",
+    "timing": "Requested time spans, event order and cut boundaries; never measured timing",
+    "audio": "Input audio, literal generate_audio/sound, dialogue/voice/ambience/exclusion intent separate",
+    "invariants": "Named identity, appearance, layout, motion and property scopes in requests; no observed fulfilment",
+    "revision": "Explicit producer/input edge plus named changed intent; mere repeated prompts/shared inputs are not proven revisions"
+  },
+  "input_binding_rules": {
+    "image": [
+      "input_image",
+      "reference_image",
+      "input_start_image",
+      "input_end_image",
+      "input_asset at params.input_images[*], input_image, image_reference, custom_reference, paint_image, end_input_image"
+    ],
+    "video": [
+      "input_video",
+      "reference_video",
+      "input_asset at params.input_video"
+    ],
+    "audio": [
+      "input_audio",
+      "input_asset at params.input_audio"
+    ],
+    "presets": "Explicit preset paths excluded in measures.sql; other untyped paths counted unknown"
+  },
+  "controls": "Raw scalar JSON and state retained by film, literal model_identifier and model_version state. No provider/default/units or cross-model equivalence inferred.",
+  "dependencies": {
+    "04": "Semantic components and agreement/context assembly",
+    "07": "Aliases, versions and complete disclosed graph",
+    "08": "Model roles and adapters",
+    "09": "Iteration families and revision intent",
+    "12": "Studio synthesis and experiments"
+  }
+}
