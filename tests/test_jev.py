@@ -23,6 +23,7 @@ def module(name):
 
 jev = module("jev")
 crosscheck = module("crosscheck")
+agreement = module("agreement")
 
 
 def fixture():
@@ -217,3 +218,24 @@ def test_crosscheck_counts_kappa_and_missing_texts(tmp_path):
     assert report["left_lacks"] == ["c"]
     assert report["right_lacks"] == []
     assert report["disagreements"]["subject"] == ["b"]
+
+
+def test_readers_preserve_unicode_line_separator_in_span(tmp_path):
+    path = tmp_path / "labels.jsonl"
+    label_values = {
+        name: {
+            "present": name == "subject",
+            "span": "boat\u2028sail" if name == "subject" else None,
+        }
+        for name in COMPONENTS
+    }
+    row = {"text_id": "text-1", "status": "success", "labels": label_values}
+    path.write_text(json.dumps(row, ensure_ascii=False) + "\n", encoding="utf-8")
+
+    crosscheck_rows = crosscheck.read_labels(path, "harness")
+    agreement_rows = agreement.labels_by_id(path)
+
+    assert list(crosscheck_rows) == ["text-1"]
+    assert crosscheck_rows["text-1"]["subject"] is True
+    assert list(agreement_rows) == ["text-1"]
+    assert agreement_rows["text-1"]["subject"]["span"] == "boat\u2028sail"

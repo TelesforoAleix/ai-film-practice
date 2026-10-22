@@ -9,19 +9,20 @@ from film_practice.prompt_labels import COMPONENTS
 
 def read_labels(path, kind):
     rows = {}
-    for line in path.read_text().splitlines():
-        if not line.strip():
-            continue
-        row = json.loads(line)
-        if row.get("status", "success") != "success":
-            continue
-        text_id = row["text_id"]
-        labels = (
-            row["presence"]
-            if kind == "jev"
-            else {name: value["present"] for name, value in row["labels"].items()}
-        )
-        rows[text_id] = {name: bool(labels[name]) for name in COMPONENTS}
+    with path.open(encoding="utf-8") as stream:
+        for line in stream:
+            if not line.strip():
+                continue
+            row = json.loads(line)
+            if row.get("status", "success") != "success":
+                continue
+            text_id = row["text_id"]
+            labels = (
+                row["presence"]
+                if kind == "jev"
+                else {name: value["present"] for name, value in row["labels"].items()}
+            )
+            rows[text_id] = {name: bool(labels[name]) for name in COMPONENTS}
     return rows
 
 
