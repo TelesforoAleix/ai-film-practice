@@ -1,0 +1,2098 @@
+[
+  {
+    "comparison_limit": "Not an exhaustive revision-family inventory or retry denominator",
+    "evidence": {
+      "case_source": "case-files/apeirophobia/codes.csv",
+      "code_id": "06.7",
+      "codebook_version": "1.0",
+      "competing_explanation": "Published histories can omit external/private work; instructions do not establish achieved results, final acceptance or project-wide intent.",
+      "confidence_rationale": "Direct source paths/compound keys and exact excerpt or deterministic aggregate checked during reproduction; single-coder semantic interpretation, scoped to named evidence. No agreement or quality estimate.",
+      "denominator": "One named job / 63 inspected / 6862 exported jobs; input rows are occurrences, not independent evidence",
+      "entity_ids": "c3d8ee5e-b119-4654-99f9-c6545f650635/generation:0168082c-394b-4af9-9f67-75eef66a12bb; c3d8ee5e-b119-4654-99f9-c6545f650635/asset:2141cb13-6107-48ed-aa6a-80dcaec6ec53",
+      "evidence_id": "apeirophobia:06.7",
+      "evidence_label": "observed",
+      "excerpt": "remove the belt from his pants/trousers. [excerpt boundary] the camera angle is supposed to remain the same [excerpt boundary] [literal controls] {\"duration\": 28, \"model\": \"video_edit\"} [excerpt boundary] [literal model_identifier] seedance_2_5 [literal model_name] Seedance 2.5 [excerpt boundary] [input usage role/path] [[\"2141cb13-6107-48ed-aa6a-80dcaec6ec53\", \"input_video\", \"params.medias[0].data\", null]]",
+      "film_id": "c3d8ee5e-b119-4654-99f9-c6545f650635",
+      "later_study": "06",
+      "population": "primary",
+      "scope_note": "video_edit request is explicitly linked to video input; no successful revision inferred.",
+      "source_path": "generations.prompt/model_identifier/model_name; generations.parameters_json.model/duration; asset_usages.asset_id/asset_role/parameter_path/reference_element_id; raw/projects/c3d8ee5e-b119-4654-99f9-c6545f650635/items_0062.json",
+      "status": "coded",
+      "study": "06",
+      "title": "APEIROPHOBIA",
+      "value": "video_edit_request"
+    },
+    "interpretation_label": "inferred",
+    "jobs": [
+      {
+        "attachments": [
+          {
+            "asset_id": "2141cb13-6107-48ed-aa6a-80dcaec6ec53",
+            "asset_role": "input_video",
+            "audio_binding": false,
+            "image_binding": false,
+            "parameter_path": "params.medias[0].data",
+            "producer": "2141cb13-6107-48ed-aa6a-80dcaec6ec53",
+            "producer_type": "video",
+            "reference_element_id": null,
+            "video_binding": true
+          }
+        ],
+        "denominator": "One named video job; attachments are deduplicated occurrence channels",
+        "evidence_ids": [
+          "apeirophobia:06.7"
+        ],
+        "evidence_label": "observed",
+        "film_id": "c3d8ee5e-b119-4654-99f9-c6545f650635",
+        "generation_id": "0168082c-394b-4af9-9f67-75eef66a12bb",
+        "literal_controls": {
+          "aspect_ratio": {
+            "raw_json": "\"16:9\"",
+            "state": "str"
+          },
+          "camera_aperture": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "camera_focal_length": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "camera_lens": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "camera_model": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "draft": {
+            "raw_json": "false",
+            "state": "bool"
+          },
+          "duration": {
+            "raw_json": "28",
+            "state": "int"
+          },
+          "end_seconds": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "extension_mode": {
+            "raw_json": null,
+            "state": "null"
+          },
+          "fps": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "generate_audio": {
+            "raw_json": "true",
+            "state": "bool"
+          },
+          "height": {
+            "raw_json": "1080",
+            "state": "int"
+          },
+          "mode": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_json": "\"video_edit\"",
+            "state": "str"
+          },
+          "model_version": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "motion": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "multi_shot_mode": {
+            "raw_json": "\"custom\"",
+            "state": "str"
+          },
+          "multi_shots": {
+            "raw_json": "false",
+            "state": "bool"
+          },
+          "resolution": {
+            "raw_json": "\"1080p\"",
+            "state": "str"
+          },
+          "sound": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "start_seconds": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_json": "1920",
+            "state": "int"
+          }
+        },
+        "media_outcome": "unobservable",
+        "model_identifier": "seedance_2_5",
+        "model_version": "[\"absent\", null]",
+        "parameter_state": "object",
+        "route": "video_guided",
+        "route_label": "inferred",
+        "source_path": "params.prompt"
+      }
+    ],
+    "lineage": "Only resolved producer inputs in contexts are explicit edges; unresolved sources remain unknown",
+    "revision": "Named changed-shot request; no defect, success or acceptance inferred"
+  },
+  {
+    "comparison_limit": "Not an exhaustive revision-family inventory or retry denominator",
+    "evidence": {
+      "case_source": "case-files/birthdays/codes.csv",
+      "code_id": "06.7",
+      "codebook_version": "1.0",
+      "competing_explanation": "Published histories can omit external/private work; instructions do not establish achieved results, final acceptance or project-wide intent.",
+      "confidence_rationale": "Direct source paths/compound keys and exact excerpt or deterministic aggregate checked during reproduction; single-coder semantic interpretation, scoped to named evidence. No agreement or quality estimate.",
+      "denominator": "One named job / 170 inspected / 1003 exported jobs; input rows are occurrences, not independent evidence",
+      "entity_ids": "d51d6821-d191-40f7-949b-1086750a2e93/generation:08590362-d368-4a89-832e-9b242208d64d; d51d6821-d191-40f7-949b-1086750a2e93/asset:e2668988-0bc6-4cfb-a16e-6b2f9e57e63d",
+      "evidence_id": "birthdays:06.7",
+      "evidence_label": "observed",
+      "excerpt": "Add a pin on each polaroid top edge [excerpt boundary] [literal controls] {\"duration\": 5, \"model\": \"video_edit\"} [excerpt boundary] [literal model_identifier] seedance_2_5 [literal model_name] Seedance 2.5 [excerpt boundary] [input usage role/path] [[\"e2668988-0bc6-4cfb-a16e-6b2f9e57e63d\", \"input_video\", \"params.medias[0].data\", null]]",
+      "film_id": "d51d6821-d191-40f7-949b-1086750a2e93",
+      "later_study": "06",
+      "population": "primary",
+      "scope_note": "Typed video input and pin-addition request; producer unresolved in reading sample.",
+      "source_path": "generations.prompt/model_identifier/model_name; generations.parameters_json.model/duration; asset_usages.asset_id/asset_role/parameter_path/reference_element_id; raw/projects/d51d6821-d191-40f7-949b-1086750a2e93/items_0007.json",
+      "status": "coded",
+      "study": "06",
+      "title": "Birthdays",
+      "value": "video_edit_request"
+    },
+    "interpretation_label": "inferred",
+    "jobs": [
+      {
+        "attachments": [
+          {
+            "asset_id": "e2668988-0bc6-4cfb-a16e-6b2f9e57e63d",
+            "asset_role": "input_video",
+            "audio_binding": false,
+            "image_binding": false,
+            "parameter_path": "params.medias[0].data",
+            "producer": "e2668988-0bc6-4cfb-a16e-6b2f9e57e63d",
+            "producer_type": "video",
+            "reference_element_id": null,
+            "video_binding": true
+          }
+        ],
+        "denominator": "One named video job; attachments are deduplicated occurrence channels",
+        "evidence_ids": [
+          "birthdays:06.7"
+        ],
+        "evidence_label": "observed",
+        "film_id": "d51d6821-d191-40f7-949b-1086750a2e93",
+        "generation_id": "08590362-d368-4a89-832e-9b242208d64d",
+        "literal_controls": {
+          "aspect_ratio": {
+            "raw_json": "\"16:9\"",
+            "state": "str"
+          },
+          "camera_aperture": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "camera_focal_length": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "camera_lens": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "camera_model": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "draft": {
+            "raw_json": "false",
+            "state": "bool"
+          },
+          "duration": {
+            "raw_json": "5",
+            "state": "int"
+          },
+          "end_seconds": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "extension_mode": {
+            "raw_json": null,
+            "state": "null"
+          },
+          "fps": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "generate_audio": {
+            "raw_json": "true",
+            "state": "bool"
+          },
+          "height": {
+            "raw_json": "720",
+            "state": "int"
+          },
+          "mode": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_json": "\"video_edit\"",
+            "state": "str"
+          },
+          "model_version": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "motion": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "multi_shot_mode": {
+            "raw_json": "\"custom\"",
+            "state": "str"
+          },
+          "multi_shots": {
+            "raw_json": "false",
+            "state": "bool"
+          },
+          "resolution": {
+            "raw_json": "\"720p\"",
+            "state": "str"
+          },
+          "sound": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "start_seconds": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_json": "1280",
+            "state": "int"
+          }
+        },
+        "media_outcome": "unobservable",
+        "model_identifier": "seedance_2_5",
+        "model_version": "[\"absent\", null]",
+        "parameter_state": "object",
+        "route": "video_guided",
+        "route_label": "inferred",
+        "source_path": "params.prompt"
+      }
+    ],
+    "lineage": "Only resolved producer inputs in contexts are explicit edges; unresolved sources remain unknown",
+    "revision": "Named changed-shot request; no defect, success or acceptance inferred"
+  },
+  {
+    "comparison_limit": "Not an exhaustive revision-family inventory or retry denominator",
+    "evidence": {
+      "case_source": "case-files/detour/codes.csv",
+      "code_id": "06.7",
+      "codebook_version": "1.0",
+      "competing_explanation": "Published histories can omit external/private work; instructions do not establish achieved results, final acceptance or project-wide intent.",
+      "confidence_rationale": "Direct source paths/compound keys and exact excerpt or deterministic aggregate checked during reproduction; single-coder semantic interpretation, scoped to named evidence. No agreement or quality estimate.",
+      "denominator": "One named job / 219 inspected / 6162 exported jobs; input rows are occurrences, not independent evidence",
+      "entity_ids": "d90fe8bd-3329-40b3-963c-d9b33075aec1/generation:0106d708-2634-4c76-820c-709a39c6b996; d90fe8bd-3329-40b3-963c-d9b33075aec1/asset:960d84f1-abaf-4366-b8bd-de603f178925; d90fe8bd-3329-40b3-963c-d9b33075aec1/asset:d8e472da-f0bd-4019-813e-4adced9b2558; d90fe8bd-3329-40b3-963c-d9b33075aec1/reference:4dc92fe7-fc7d-44be-9e23-f84f4a01d29a",
+      "evidence_id": "detour:06.7",
+      "evidence_label": "observed",
+      "excerpt": "女性身份与面部外观的唯一权威参考 [excerpt boundary] [literal controls] {\"model\": \"video_edit\"} [excerpt boundary] [literal model_identifier] seedance_2_5 [literal model_name] Seedance 2.5 [excerpt boundary] [input usage role/path] [[\"960d84f1-abaf-4366-b8bd-de603f178925\", \"input_video\", \"params.medias[0].data\", null], [\"d8e472da-f0bd-4019-813e-4adced9b2558\", \"reference_image\", \"params.reference_elements[0].medias[0]\", \"4dc92fe7-fc7d-44be-9e23-f84f4a01d29a\"]] [excerpt boundary] [disclosed reference metadata] [{\"category\": \"auto:character\", \"name\": \"Lisa\", \"reference_element_id\": \"4dc92fe7-fc7d-44be-9e23-f84f4a01d29a\"}]",
+      "film_id": "d90fe8bd-3329-40b3-963c-d9b33075aec1",
+      "later_study": "06",
+      "population": "primary",
+      "scope_note": "Video-edit control and explicit face-identity correction constraint; actual correction unverified.",
+      "source_path": "generations.prompt/model_identifier/model_name; generations.parameters_json.model; asset_usages.asset_id/asset_role/parameter_path/reference_element_id; reference_elements.reference_element_id/name/category; raw/projects/d90fe8bd-3329-40b3-963c-d9b33075aec1/items_0056.json",
+      "status": "coded",
+      "study": "06",
+      "title": "Detour",
+      "value": "video_edit_request"
+    },
+    "interpretation_label": "inferred",
+    "jobs": [
+      {
+        "attachments": [
+          {
+            "asset_id": "960d84f1-abaf-4366-b8bd-de603f178925",
+            "asset_role": "input_video",
+            "audio_binding": false,
+            "image_binding": false,
+            "parameter_path": "params.medias[0].data",
+            "producer": "960d84f1-abaf-4366-b8bd-de603f178925",
+            "producer_type": "video",
+            "reference_element_id": null,
+            "video_binding": true
+          },
+          {
+            "asset_id": "d8e472da-f0bd-4019-813e-4adced9b2558",
+            "asset_role": "reference_image",
+            "audio_binding": false,
+            "image_binding": true,
+            "parameter_path": "params.reference_elements[0].medias[0]",
+            "producer": "d8e472da-f0bd-4019-813e-4adced9b2558",
+            "producer_type": "image",
+            "reference_element_id": "4dc92fe7-fc7d-44be-9e23-f84f4a01d29a",
+            "video_binding": false
+          }
+        ],
+        "denominator": "One named video job; attachments are deduplicated occurrence channels",
+        "evidence_ids": [
+          "detour:06.7"
+        ],
+        "evidence_label": "observed",
+        "film_id": "d90fe8bd-3329-40b3-963c-d9b33075aec1",
+        "generation_id": "0106d708-2634-4c76-820c-709a39c6b996",
+        "literal_controls": {
+          "aspect_ratio": {
+            "raw_json": "\"16:9\"",
+            "state": "str"
+          },
+          "camera_aperture": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "camera_focal_length": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "camera_lens": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "camera_model": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "draft": {
+            "raw_json": "false",
+            "state": "bool"
+          },
+          "duration": {
+            "raw_json": "6",
+            "state": "int"
+          },
+          "end_seconds": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "extension_mode": {
+            "raw_json": null,
+            "state": "null"
+          },
+          "fps": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "generate_audio": {
+            "raw_json": "true",
+            "state": "bool"
+          },
+          "height": {
+            "raw_json": "720",
+            "state": "int"
+          },
+          "mode": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_json": "\"video_edit\"",
+            "state": "str"
+          },
+          "model_version": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "motion": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "multi_shot_mode": {
+            "raw_json": "\"custom\"",
+            "state": "str"
+          },
+          "multi_shots": {
+            "raw_json": "false",
+            "state": "bool"
+          },
+          "resolution": {
+            "raw_json": "\"720p\"",
+            "state": "str"
+          },
+          "sound": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "start_seconds": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_json": "1280",
+            "state": "int"
+          }
+        },
+        "media_outcome": "unobservable",
+        "model_identifier": "seedance_2_5",
+        "model_version": "[\"absent\", null]",
+        "parameter_state": "object",
+        "route": "video_guided",
+        "route_label": "inferred",
+        "source_path": "params.prompt"
+      }
+    ],
+    "lineage": "Only resolved producer inputs in contexts are explicit edges; unresolved sources remain unknown",
+    "revision": "Named changed-shot request; no defect, success or acceptance inferred"
+  },
+  {
+    "comparison_limit": "Not an exhaustive revision-family inventory or retry denominator",
+    "evidence": {
+      "case_source": "case-files/dont-poison-ivy/codes.csv",
+      "code_id": "06.7",
+      "codebook_version": "1.0",
+      "competing_explanation": "Published histories can omit external/private work; instructions do not establish achieved results, final acceptance or project-wide intent.",
+      "confidence_rationale": "Direct source paths/compound keys and exact excerpt or deterministic aggregate checked during reproduction; single-coder semantic interpretation, scoped to named evidence. No agreement or quality estimate.",
+      "denominator": "One named producer/consumer pair; exact asset IDs; all film assets/usages searched; raw/min metadata variants retained under their one asset entity [evidence boundary] One named job / 553 inspected / 553 exported jobs; input rows are occurrences, not independent evidence [evidence boundary] One named job / 553 inspected / 553 exported jobs; input rows are occurrences, not independent evidence",
+      "entity_ids": "d305f6e5-b906-49a1-a0c6-75ef7f653ad8/generation:a9d85422-c95b-4e48-af27-093d2fbff0ca; d305f6e5-b906-49a1-a0c6-75ef7f653ad8/generation:070cf05b-2cd9-41fb-9c19-f232081d3e99; d305f6e5-b906-49a1-a0c6-75ef7f653ad8/asset:a9d85422-c95b-4e48-af27-093d2fbff0ca [evidence boundary] d305f6e5-b906-49a1-a0c6-75ef7f653ad8/generation:a9d85422-c95b-4e48-af27-093d2fbff0ca [evidence boundary] d305f6e5-b906-49a1-a0c6-75ef7f653ad8/generation:070cf05b-2cd9-41fb-9c19-f232081d3e99; d305f6e5-b906-49a1-a0c6-75ef7f653ad8/asset:a9d85422-c95b-4e48-af27-093d2fbff0ca; d305f6e5-b906-49a1-a0c6-75ef7f653ad8/asset:c16ce530-c7d1-461a-acc8-63b8d7de63b1; d305f6e5-b906-49a1-a0c6-75ef7f653ad8/asset:24a85039-4773-4ebd-a29c-9a31deb2fa55; d305f6e5-b906-49a1-a0c6-75ef7f653ad8/asset:6567c261-9915-4f72-82b5-95a22bd335f9; d305f6e5-b906-49a1-a0c6-75ef7f653ad8/asset:393053ce-c8c5-452e-9eaf-08f1229182fd; d305f6e5-b906-49a1-a0c6-75ef7f653ad8/asset:3bba8a2c-724a-478b-88d9-0b4420036c2f; d305f6e5-b906-49a1-a0c6-75ef7f653ad8/asset:5a6ca735-896c-4988-a8e1-585607c8b93d; d305f6e5-b906-49a1-a0c6-75ef7f653ad8/reference:69b3419a-1aad-4fda-bff0-39362e1c5b18; d305f6e5-b906-49a1-a0c6-75ef7f653ad8/reference:9870b8ad-8736-413b-9071-dbcba97ead7e; d305f6e5-b906-49a1-a0c6-75ef7f653ad8/reference:b9be04e2-e910-4918-8267-ac125e41ec36; d305f6e5-b906-49a1-a0c6-75ef7f653ad8/reference:d17bbb37-a4b6-4ba6-819e-843af6c04751; d305f6e5-b906-49a1-a0c6-75ef7f653ad8/reference:dcdbaf65-3ec2-4089-8a74-a636cb680059; d305f6e5-b906-49a1-a0c6-75ef7f653ad8/reference:f7189550-ca96-46f6-a125-f8ac706fdf3a",
+      "evidence_id": "dont-poison-ivy:06.7",
+      "evidence_label": "observed",
+      "excerpt": "[producer model] seedance_2_5 [consumer model] seedance_2_5 [explicit usage] [{\"asset_id\": \"a9d85422-c95b-4e48-af27-093d2fbff0ca\", \"asset_role\": \"input_video\", \"parameter_path\": \"params.medias[0].data\"}] [evidence boundary] ONE CONTINUOUS SHOT — 15 seconds [excerpt boundary] [literal model_identifier] seedance_2_5 [literal model_name] Seedance 2.5 [evidence boundary] TWO SHOTS — 15 seconds total. [excerpt boundary] ONE HARD CUT at 0:08. [excerpt boundary] [literal model_identifier] seedance_2_5 [literal model_name] Seedance 2.5 [excerpt boundary] [input usage role/path] [[\"24a85039-4773-4ebd-a29c-9a31deb2fa55\", \"reference_image\", \"params.reference_elements[1].medias[0]\", \"9870b8ad-8736-413b-9071-dbcba97ead7e\"], [\"393053ce-c8c5-452e-9eaf-08f1229182fd\", \"reference_image\", \"params.reference_elements[3].medias[0]\", \"d17bbb37-a4b6-4ba6-819e-843af6c04751\"], [\"3bba8a2c-724a-478b-88d9-0b4420036c2f\", \"reference_image\", \"params.reference_elements[4].medias[0]\", \"dcdbaf65-3ec2-4089-8a74-a636cb680059\"], [\"5a6ca735-896c-4988-a8e1-585607c8b93d\", \"reference_image\", \"params.reference_elements[5].medias[0]\", \"f7189550-ca96-46f6-a125-f8ac706fdf3a\"], [\"6567c261-9915-4f72-82b5-95a22bd335f9\", \"reference_image\", \"params.reference_elements[2].medias[0]\", \"b9be04e2-e910-4918-8267-ac125e41ec36\"], [\"a9d85422-c95b-4e48-af27-093d2fbff0ca\", \"input_video\", \"params.medias[0].data\", null], [\"c16ce530-c7d1-461a-acc8-63b8d7de63b1\", \"reference_image\", \"params.reference_elements[0].medias[0]\", \"69b3419a-1aad-4fda-bff0-39362e1c5b18\"]] [excerpt boundary] [disclosed reference metadata] [{\"category\": \"auto:environment\", \"name\": \"home-exterior-daylight\", \"reference_element_id\": \"9870b8ad-8736-413b-9071-dbcba97ead7e\"}, {\"category\": \"auto:character\", \"name\": \"plant-thriving\", \"reference_element_id\": \"69b3419a-1aad-4fda-bff0-39362e1c5b18\"}, {\"category\": \"auto:character\", \"name\": \"baby\", \"reference_element_id\": \"dcdbaf65-3ec2-4089-8a74-a636cb680059\"}, {\"category\": \"character\", \"name\": \"mom-nursery\", \"reference_element_id\": \"f7189550-ca96-46f6-a125-f8ac706fdf3a\"}, {\"category\": \"auto:environment\", \"name\": \"mom-bedroom\", \"reference_element_id\": \"d17bbb37-a4b6-4ba6-819e-843af6c04751\"}, {\"category\": \"auto:character\", \"name\": \"girl-scuffed-knee\", \"reference_element_id\": \"b9be04e2-e910-4918-8267-ac125e41ec36\"}]",
+      "film_id": "d305f6e5-b906-49a1-a0c6-75ef7f653ad8",
+      "later_study": "06",
+      "population": "primary",
+      "scope_note": "Linked continuous-shot source to two-shot consumer request; observed request change, not achieved cut or project order.",
+      "source_path": "assets.generation_id/asset_id -> generations; asset_usages.generation_id/asset_id/asset_role/parameter_path [evidence boundary] generations.prompt/model_identifier/model_name; raw/projects/d305f6e5-b906-49a1-a0c6-75ef7f653ad8/items_0001.json [evidence boundary] generations.prompt/model_identifier/model_name; asset_usages.asset_id/asset_role/parameter_path/reference_element_id; reference_elements.reference_element_id/name/category; raw/projects/d305f6e5-b906-49a1-a0c6-75ef7f653ad8/items_0001.json",
+      "status": "coded",
+      "study": "06",
+      "title": "Don't Poison Ivy",
+      "value": "split_request"
+    },
+    "interpretation_label": "inferred",
+    "jobs": [
+      {
+        "attachments": [
+          {
+            "asset_id": "24a85039-4773-4ebd-a29c-9a31deb2fa55",
+            "asset_role": "reference_image",
+            "audio_binding": false,
+            "image_binding": true,
+            "parameter_path": "params.reference_elements[1].medias[0]",
+            "producer": "24a85039-4773-4ebd-a29c-9a31deb2fa55",
+            "producer_type": "image",
+            "reference_element_id": "9870b8ad-8736-413b-9071-dbcba97ead7e",
+            "video_binding": false
+          },
+          {
+            "asset_id": "393053ce-c8c5-452e-9eaf-08f1229182fd",
+            "asset_role": "reference_image",
+            "audio_binding": false,
+            "image_binding": true,
+            "parameter_path": "params.reference_elements[3].medias[0]",
+            "producer": "393053ce-c8c5-452e-9eaf-08f1229182fd",
+            "producer_type": "image",
+            "reference_element_id": "d17bbb37-a4b6-4ba6-819e-843af6c04751",
+            "video_binding": false
+          },
+          {
+            "asset_id": "3bba8a2c-724a-478b-88d9-0b4420036c2f",
+            "asset_role": "reference_image",
+            "audio_binding": false,
+            "image_binding": true,
+            "parameter_path": "params.reference_elements[4].medias[0]",
+            "producer": "3bba8a2c-724a-478b-88d9-0b4420036c2f",
+            "producer_type": "image",
+            "reference_element_id": "dcdbaf65-3ec2-4089-8a74-a636cb680059",
+            "video_binding": false
+          },
+          {
+            "asset_id": "5a6ca735-896c-4988-a8e1-585607c8b93d",
+            "asset_role": "reference_image",
+            "audio_binding": false,
+            "image_binding": true,
+            "parameter_path": "params.reference_elements[5].medias[0]",
+            "producer": null,
+            "producer_type": null,
+            "reference_element_id": "f7189550-ca96-46f6-a125-f8ac706fdf3a",
+            "video_binding": false
+          },
+          {
+            "asset_id": "6567c261-9915-4f72-82b5-95a22bd335f9",
+            "asset_role": "reference_image",
+            "audio_binding": false,
+            "image_binding": true,
+            "parameter_path": "params.reference_elements[2].medias[0]",
+            "producer": null,
+            "producer_type": null,
+            "reference_element_id": "b9be04e2-e910-4918-8267-ac125e41ec36",
+            "video_binding": false
+          },
+          {
+            "asset_id": "a9d85422-c95b-4e48-af27-093d2fbff0ca",
+            "asset_role": "input_video",
+            "audio_binding": false,
+            "image_binding": false,
+            "parameter_path": "params.medias[0].data",
+            "producer": "a9d85422-c95b-4e48-af27-093d2fbff0ca",
+            "producer_type": "video",
+            "reference_element_id": null,
+            "video_binding": true
+          },
+          {
+            "asset_id": "c16ce530-c7d1-461a-acc8-63b8d7de63b1",
+            "asset_role": "reference_image",
+            "audio_binding": false,
+            "image_binding": true,
+            "parameter_path": "params.reference_elements[0].medias[0]",
+            "producer": "c16ce530-c7d1-461a-acc8-63b8d7de63b1",
+            "producer_type": "image",
+            "reference_element_id": "69b3419a-1aad-4fda-bff0-39362e1c5b18",
+            "video_binding": false
+          }
+        ],
+        "denominator": "One named video job; attachments are deduplicated occurrence channels",
+        "evidence_ids": [
+          "dont-poison-ivy:06.7"
+        ],
+        "evidence_label": "observed",
+        "film_id": "d305f6e5-b906-49a1-a0c6-75ef7f653ad8",
+        "generation_id": "070cf05b-2cd9-41fb-9c19-f232081d3e99",
+        "literal_controls": {
+          "aspect_ratio": {
+            "raw_json": "\"16:9\"",
+            "state": "str"
+          },
+          "camera_aperture": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "camera_focal_length": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "camera_lens": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "camera_model": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "draft": {
+            "raw_json": "false",
+            "state": "bool"
+          },
+          "duration": {
+            "raw_json": "15",
+            "state": "int"
+          },
+          "end_seconds": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "extension_mode": {
+            "raw_json": "\"forward\"",
+            "state": "str"
+          },
+          "fps": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "generate_audio": {
+            "raw_json": "true",
+            "state": "bool"
+          },
+          "height": {
+            "raw_json": "1080",
+            "state": "int"
+          },
+          "mode": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_json": "\"video_extension\"",
+            "state": "str"
+          },
+          "model_version": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "motion": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "multi_shot_mode": {
+            "raw_json": "\"custom\"",
+            "state": "str"
+          },
+          "multi_shots": {
+            "raw_json": "false",
+            "state": "bool"
+          },
+          "resolution": {
+            "raw_json": "\"1080p\"",
+            "state": "str"
+          },
+          "sound": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "start_seconds": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_json": "1920",
+            "state": "int"
+          }
+        },
+        "media_outcome": "unobservable",
+        "model_identifier": "seedance_2_5",
+        "model_version": "[\"absent\", null]",
+        "parameter_state": "object",
+        "route": "extension",
+        "route_label": "inferred",
+        "source_path": "params.prompt"
+      },
+      {
+        "attachments": [
+          {
+            "asset_id": "393053ce-c8c5-452e-9eaf-08f1229182fd",
+            "asset_role": "reference_image",
+            "audio_binding": false,
+            "image_binding": true,
+            "parameter_path": "params.reference_elements[3].medias[0]",
+            "producer": "393053ce-c8c5-452e-9eaf-08f1229182fd",
+            "producer_type": "image",
+            "reference_element_id": "d17bbb37-a4b6-4ba6-819e-843af6c04751",
+            "video_binding": false
+          },
+          {
+            "asset_id": "3bba8a2c-724a-478b-88d9-0b4420036c2f",
+            "asset_role": "reference_image",
+            "audio_binding": false,
+            "image_binding": true,
+            "parameter_path": "params.reference_elements[4].medias[0]",
+            "producer": "3bba8a2c-724a-478b-88d9-0b4420036c2f",
+            "producer_type": "image",
+            "reference_element_id": "dcdbaf65-3ec2-4089-8a74-a636cb680059",
+            "video_binding": false
+          },
+          {
+            "asset_id": "5a6ca735-896c-4988-a8e1-585607c8b93d",
+            "asset_role": "reference_image",
+            "audio_binding": false,
+            "image_binding": true,
+            "parameter_path": "params.reference_elements[5].medias[0]",
+            "producer": null,
+            "producer_type": null,
+            "reference_element_id": "f7189550-ca96-46f6-a125-f8ac706fdf3a",
+            "video_binding": false
+          },
+          {
+            "asset_id": "a751df0e-3403-4c19-ad10-26e21ac3fb82",
+            "asset_role": "reference_image",
+            "audio_binding": false,
+            "image_binding": true,
+            "parameter_path": "params.reference_elements[1].medias[0]",
+            "producer": "a751df0e-3403-4c19-ad10-26e21ac3fb82",
+            "producer_type": "image",
+            "reference_element_id": "466bc684-bef0-475e-9a3c-ae1d88745194",
+            "video_binding": false
+          },
+          {
+            "asset_id": "c16ce530-c7d1-461a-acc8-63b8d7de63b1",
+            "asset_role": "reference_image",
+            "audio_binding": false,
+            "image_binding": true,
+            "parameter_path": "params.reference_elements[2].medias[0]",
+            "producer": "c16ce530-c7d1-461a-acc8-63b8d7de63b1",
+            "producer_type": "image",
+            "reference_element_id": "69b3419a-1aad-4fda-bff0-39362e1c5b18",
+            "video_binding": false
+          },
+          {
+            "asset_id": "e4b1f427-2799-44e5-a775-870704d37236",
+            "asset_role": "reference_image",
+            "audio_binding": false,
+            "image_binding": true,
+            "parameter_path": "params.reference_elements[0].medias[0]",
+            "producer": null,
+            "producer_type": null,
+            "reference_element_id": "3a298d6d-7110-474f-9b51-1cf7c0579f67",
+            "video_binding": false
+          }
+        ],
+        "denominator": "One named video job; attachments are deduplicated occurrence channels",
+        "evidence_ids": [
+          "dont-poison-ivy:06.7"
+        ],
+        "evidence_label": "observed",
+        "film_id": "d305f6e5-b906-49a1-a0c6-75ef7f653ad8",
+        "generation_id": "a9d85422-c95b-4e48-af27-093d2fbff0ca",
+        "literal_controls": {
+          "aspect_ratio": {
+            "raw_json": "\"16:9\"",
+            "state": "str"
+          },
+          "camera_aperture": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "camera_focal_length": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "camera_lens": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "camera_model": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "draft": {
+            "raw_json": "false",
+            "state": "bool"
+          },
+          "duration": {
+            "raw_json": "15",
+            "state": "int"
+          },
+          "end_seconds": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "extension_mode": {
+            "raw_json": null,
+            "state": "null"
+          },
+          "fps": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "generate_audio": {
+            "raw_json": "true",
+            "state": "bool"
+          },
+          "height": {
+            "raw_json": "1080",
+            "state": "int"
+          },
+          "mode": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_json": "\"default\"",
+            "state": "str"
+          },
+          "model_version": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "motion": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "multi_shot_mode": {
+            "raw_json": "\"custom\"",
+            "state": "str"
+          },
+          "multi_shots": {
+            "raw_json": "false",
+            "state": "bool"
+          },
+          "resolution": {
+            "raw_json": "\"1080p\"",
+            "state": "str"
+          },
+          "sound": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "start_seconds": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_json": "1920",
+            "state": "int"
+          }
+        },
+        "media_outcome": "unobservable",
+        "model_identifier": "seedance_2_5",
+        "model_version": "[\"absent\", null]",
+        "parameter_state": "object",
+        "route": "image_guided",
+        "route_label": "inferred",
+        "source_path": "params.prompt"
+      }
+    ],
+    "lineage": "Only resolved producer inputs in contexts are explicit edges; unresolved sources remain unknown",
+    "revision": "Named changed-shot request; no defect, success or acceptance inferred"
+  },
+  {
+    "comparison_limit": "Not an exhaustive revision-family inventory or retry denominator",
+    "evidence": {
+      "case_source": "case-files/fallen-leaves/codes.csv",
+      "code_id": "06.7",
+      "codebook_version": "1.0",
+      "competing_explanation": "Published histories can omit external/private work; instructions do not establish achieved results, final acceptance or project-wide intent.",
+      "confidence_rationale": "Direct source paths/compound keys and exact excerpt or deterministic aggregate checked during reproduction; single-coder semantic interpretation, scoped to named evidence. No agreement or quality estimate.",
+      "denominator": "One named job / 356 inspected / 356 exported jobs; input rows are occurrences, not independent evidence",
+      "entity_ids": "6659c520-c88e-4ac7-a2c9-f28d8a40c954/generation:aa8a5c34-415f-4371-aca9-777f976cfed5; 6659c520-c88e-4ac7-a2c9-f28d8a40c954/asset:023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+      "evidence_id": "fallen-leaves:06.7",
+      "evidence_label": "observed",
+      "excerpt": "regenerating in 1080p [excerpt boundary] no changes [excerpt boundary] [literal controls] {\"model\": \"video_edit\", \"resolution\": \"1080p\"} [excerpt boundary] [literal model_identifier] seedance_2_5 [literal model_name] Seedance 2.5 [excerpt boundary] [input usage role/path] [[\"023fadcd-4fdd-46b9-98f4-1b940839b4c7\", \"input_video\", \"params.medias[0].data\", null]]",
+      "film_id": "6659c520-c88e-4ac7-a2c9-f28d8a40c954",
+      "later_study": "06",
+      "population": "primary",
+      "scope_note": "Explicit regeneration request and video_edit mode, not proof of better output.",
+      "source_path": "generations.prompt/model_identifier/model_name; generations.parameters_json.model/resolution; asset_usages.asset_id/asset_role/parameter_path/reference_element_id; raw/projects/6659c520-c88e-4ac7-a2c9-f28d8a40c954/items_0002.json",
+      "status": "coded",
+      "study": "06",
+      "title": "Fallen Leaves",
+      "value": "video_edit_request"
+    },
+    "interpretation_label": "inferred",
+    "jobs": [
+      {
+        "attachments": [
+          {
+            "asset_id": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+            "asset_role": "input_video",
+            "audio_binding": false,
+            "image_binding": false,
+            "parameter_path": "params.medias[0].data",
+            "producer": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+            "producer_type": "video",
+            "reference_element_id": null,
+            "video_binding": true
+          }
+        ],
+        "denominator": "One named video job; attachments are deduplicated occurrence channels",
+        "evidence_ids": [
+          "fallen-leaves:06.5",
+          "fallen-leaves:06.7"
+        ],
+        "evidence_label": "observed",
+        "film_id": "6659c520-c88e-4ac7-a2c9-f28d8a40c954",
+        "generation_id": "aa8a5c34-415f-4371-aca9-777f976cfed5",
+        "literal_controls": {
+          "aspect_ratio": {
+            "raw_json": "\"16:9\"",
+            "state": "str"
+          },
+          "camera_aperture": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "camera_focal_length": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "camera_lens": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "camera_model": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "draft": {
+            "raw_json": "false",
+            "state": "bool"
+          },
+          "duration": {
+            "raw_json": "7",
+            "state": "int"
+          },
+          "end_seconds": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "extension_mode": {
+            "raw_json": null,
+            "state": "null"
+          },
+          "fps": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "generate_audio": {
+            "raw_json": "true",
+            "state": "bool"
+          },
+          "height": {
+            "raw_json": "1080",
+            "state": "int"
+          },
+          "mode": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_json": "\"video_edit\"",
+            "state": "str"
+          },
+          "model_version": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "motion": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "multi_shot_mode": {
+            "raw_json": "\"custom\"",
+            "state": "str"
+          },
+          "multi_shots": {
+            "raw_json": "false",
+            "state": "bool"
+          },
+          "resolution": {
+            "raw_json": "\"1080p\"",
+            "state": "str"
+          },
+          "sound": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "start_seconds": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_json": "1920",
+            "state": "int"
+          }
+        },
+        "media_outcome": "unobservable",
+        "model_identifier": "seedance_2_5",
+        "model_version": "[\"absent\", null]",
+        "parameter_state": "object",
+        "route": "video_guided",
+        "route_label": "inferred",
+        "source_path": "params.prompt"
+      }
+    ],
+    "lineage": "Only resolved producer inputs in contexts are explicit edges; unresolved sources remain unknown",
+    "revision": "Named changed-shot request; no defect, success or acceptance inferred"
+  },
+  {
+    "comparison_limit": "Not an exhaustive revision-family inventory or retry denominator",
+    "evidence": {
+      "case_source": "case-files/harmony/codes.csv",
+      "code_id": "06.7",
+      "codebook_version": "1.0",
+      "competing_explanation": "Published histories can omit external/private work; instructions do not establish achieved results, final acceptance or project-wide intent.",
+      "confidence_rationale": "Direct source paths/compound keys and exact excerpt or deterministic aggregate checked during reproduction; single-coder semantic interpretation, scoped to named evidence. No agreement or quality estimate.",
+      "denominator": "One named job / 233 inspected / 1543 exported jobs; input rows are occurrences, not independent evidence",
+      "entity_ids": "2fd725ab-2604-4220-8cca-d332e9de53a2/generation:0a5cf741-e243-4dfa-867d-af11ced9f124; 2fd725ab-2604-4220-8cca-d332e9de53a2/asset:558b0a53-a867-45b2-9e7c-9e7178afc599; 2fd725ab-2604-4220-8cca-d332e9de53a2/asset:39841600-fdf7-4380-8b78-aa11168e62b3; 2fd725ab-2604-4220-8cca-d332e9de53a2/reference:60d59d65-df60-446b-9192-743485a59e23",
+      "evidence_id": "harmony:06.7",
+      "evidence_label": "observed",
+      "excerpt": "retire qualquer lágrima do rosto [excerpt boundary] [literal controls] {\"duration\": 4, \"model\": \"video_edit\"} [excerpt boundary] [literal model_identifier] seedance_2_5 [literal model_name] Seedance 2.5 [excerpt boundary] [input usage role/path] [[\"39841600-fdf7-4380-8b78-aa11168e62b3\", \"reference_image\", \"params.reference_elements[0].medias[0]\", \"60d59d65-df60-446b-9192-743485a59e23\"], [\"558b0a53-a867-45b2-9e7c-9e7178afc599\", \"input_video\", \"params.medias[0].data\", null]] [excerpt boundary] [disclosed reference metadata] [{\"category\": \"character\", \"name\": \"HENRI\", \"reference_element_id\": \"60d59d65-df60-446b-9192-743485a59e23\"}]",
+      "film_id": "2fd725ab-2604-4220-8cca-d332e9de53a2",
+      "later_study": "06",
+      "population": "primary",
+      "scope_note": "Explicit tear-removal request and video input; no defect or success assessment.",
+      "source_path": "generations.prompt/model_identifier/model_name; generations.parameters_json.model/duration; asset_usages.asset_id/asset_role/parameter_path/reference_element_id; reference_elements.reference_element_id/name/category; raw/projects/2fd725ab-2604-4220-8cca-d332e9de53a2/items_0012.json",
+      "status": "coded",
+      "study": "06",
+      "title": "Harmony ",
+      "value": "video_edit_request"
+    },
+    "interpretation_label": "inferred",
+    "jobs": [
+      {
+        "attachments": [
+          {
+            "asset_id": "39841600-fdf7-4380-8b78-aa11168e62b3",
+            "asset_role": "reference_image",
+            "audio_binding": false,
+            "image_binding": true,
+            "parameter_path": "params.reference_elements[0].medias[0]",
+            "producer": "39841600-fdf7-4380-8b78-aa11168e62b3",
+            "producer_type": "image",
+            "reference_element_id": "60d59d65-df60-446b-9192-743485a59e23",
+            "video_binding": false
+          },
+          {
+            "asset_id": "558b0a53-a867-45b2-9e7c-9e7178afc599",
+            "asset_role": "input_video",
+            "audio_binding": false,
+            "image_binding": false,
+            "parameter_path": "params.medias[0].data",
+            "producer": null,
+            "producer_type": null,
+            "reference_element_id": null,
+            "video_binding": true
+          }
+        ],
+        "denominator": "One named video job; attachments are deduplicated occurrence channels",
+        "evidence_ids": [
+          "harmony:06.7"
+        ],
+        "evidence_label": "observed",
+        "film_id": "2fd725ab-2604-4220-8cca-d332e9de53a2",
+        "generation_id": "0a5cf741-e243-4dfa-867d-af11ced9f124",
+        "literal_controls": {
+          "aspect_ratio": {
+            "raw_json": "\"16:9\"",
+            "state": "str"
+          },
+          "camera_aperture": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "camera_focal_length": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "camera_lens": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "camera_model": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "draft": {
+            "raw_json": "false",
+            "state": "bool"
+          },
+          "duration": {
+            "raw_json": "4",
+            "state": "int"
+          },
+          "end_seconds": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "extension_mode": {
+            "raw_json": null,
+            "state": "null"
+          },
+          "fps": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "generate_audio": {
+            "raw_json": "true",
+            "state": "bool"
+          },
+          "height": {
+            "raw_json": "1080",
+            "state": "int"
+          },
+          "mode": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_json": "\"video_edit\"",
+            "state": "str"
+          },
+          "model_version": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "motion": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "multi_shot_mode": {
+            "raw_json": "\"custom\"",
+            "state": "str"
+          },
+          "multi_shots": {
+            "raw_json": "false",
+            "state": "bool"
+          },
+          "resolution": {
+            "raw_json": "\"1080p\"",
+            "state": "str"
+          },
+          "sound": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "start_seconds": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_json": "1920",
+            "state": "int"
+          }
+        },
+        "media_outcome": "unobservable",
+        "model_identifier": "seedance_2_5",
+        "model_version": "[\"absent\", null]",
+        "parameter_state": "object",
+        "route": "video_guided",
+        "route_label": "inferred",
+        "source_path": "params.prompt"
+      }
+    ],
+    "lineage": "Only resolved producer inputs in contexts are explicit edges; unresolved sources remain unknown",
+    "revision": "Named changed-shot request; no defect, success or acceptance inferred"
+  },
+  {
+    "comparison_limit": "Not an exhaustive revision-family inventory or retry denominator",
+    "evidence": {
+      "case_source": "case-files/lost/codes.csv",
+      "code_id": "06.7",
+      "codebook_version": "1.0",
+      "competing_explanation": "Published histories can omit external/private work; instructions do not establish achieved results, final acceptance or project-wide intent.",
+      "confidence_rationale": "Direct source paths/compound keys and exact excerpt or deterministic aggregate checked during reproduction; single-coder semantic interpretation, scoped to named evidence. No agreement or quality estimate.",
+      "denominator": "One named job / 350 inspected / 350 exported jobs; input rows are occurrences, not independent evidence",
+      "entity_ids": "e5ce8a79-9375-4e31-84a8-620bd4f07550/generation:09925f84-295d-42ac-a3f2-d8dbf98a1740; e5ce8a79-9375-4e31-84a8-620bd4f07550/asset:4e117e2d-14cf-46f3-8466-69d0306101ff; e5ce8a79-9375-4e31-84a8-620bd4f07550/asset:66411159-7e3c-4216-8031-e096668d53a1; e5ce8a79-9375-4e31-84a8-620bd4f07550/asset:18ad9448-23b6-4f72-bfe1-ccb87081052d; e5ce8a79-9375-4e31-84a8-620bd4f07550/asset:c13e851a-bc25-405e-85e1-95c626467ecb; e5ce8a79-9375-4e31-84a8-620bd4f07550/reference:52ab618f-a41b-48d4-8ea3-f4e555fec5ac; e5ce8a79-9375-4e31-84a8-620bd4f07550/reference:b95c9014-5d6a-486a-aae1-d062ab430245; e5ce8a79-9375-4e31-84a8-620bd4f07550/reference:f5022f87-a1f1-42f7-89b8-6852a962b567",
+      "evidence_id": "lost:06.7",
+      "evidence_label": "observed",
+      "excerpt": "make everything the same but fix the sounds and color grading [excerpt boundary] one continuous shot with no cuts [excerpt boundary] [literal model_identifier] seedance_2_5 [literal model_name] Seedance 2.5 [excerpt boundary] [input usage role/path] [[\"18ad9448-23b6-4f72-bfe1-ccb87081052d\", \"reference_image\", \"params.reference_elements[1].medias[0]\", \"b95c9014-5d6a-486a-aae1-d062ab430245\"], [\"4e117e2d-14cf-46f3-8466-69d0306101ff\", \"input_video\", \"params.medias[0].data\", null], [\"66411159-7e3c-4216-8031-e096668d53a1\", \"reference_image\", \"params.reference_elements[0].medias[0]\", \"52ab618f-a41b-48d4-8ea3-f4e555fec5ac\"], [\"c13e851a-bc25-405e-85e1-95c626467ecb\", \"reference_image\", \"params.reference_elements[2].medias[0]\", \"f5022f87-a1f1-42f7-89b8-6852a962b567\"]] [excerpt boundary] [disclosed reference metadata] [{\"category\": \"character\", \"name\": \"char_creature-yarn_v1\", \"reference_element_id\": \"52ab618f-a41b-48d4-8ea3-f4e555fec5ac\"}, {\"category\": \"character\", \"name\": \"char_nally\", \"reference_element_id\": \"b95c9014-5d6a-486a-aae1-d062ab430245\"}, {\"category\": \"character\", \"name\": \"char_curtis\", \"reference_element_id\": \"f5022f87-a1f1-42f7-89b8-6852a962b567\"}]",
+      "film_id": "e5ce8a79-9375-4e31-84a8-620bd4f07550",
+      "later_study": "06",
+      "population": "primary",
+      "scope_note": "Video-guided changed-shot request despite raw model=default; intent and mechanism separate.",
+      "source_path": "generations.prompt/model_identifier/model_name; asset_usages.asset_id/asset_role/parameter_path/reference_element_id; reference_elements.reference_element_id/name/category; raw/projects/e5ce8a79-9375-4e31-84a8-620bd4f07550/items_0004.json",
+      "status": "coded",
+      "study": "06",
+      "title": "Lost",
+      "value": "video_edit_request"
+    },
+    "interpretation_label": "inferred",
+    "jobs": [
+      {
+        "attachments": [
+          {
+            "asset_id": "18ad9448-23b6-4f72-bfe1-ccb87081052d",
+            "asset_role": "reference_image",
+            "audio_binding": false,
+            "image_binding": true,
+            "parameter_path": "params.reference_elements[1].medias[0]",
+            "producer": "18ad9448-23b6-4f72-bfe1-ccb87081052d",
+            "producer_type": "image",
+            "reference_element_id": "b95c9014-5d6a-486a-aae1-d062ab430245",
+            "video_binding": false
+          },
+          {
+            "asset_id": "4e117e2d-14cf-46f3-8466-69d0306101ff",
+            "asset_role": "input_video",
+            "audio_binding": false,
+            "image_binding": false,
+            "parameter_path": "params.medias[0].data",
+            "producer": "4e117e2d-14cf-46f3-8466-69d0306101ff",
+            "producer_type": "video",
+            "reference_element_id": null,
+            "video_binding": true
+          },
+          {
+            "asset_id": "66411159-7e3c-4216-8031-e096668d53a1",
+            "asset_role": "reference_image",
+            "audio_binding": false,
+            "image_binding": true,
+            "parameter_path": "params.reference_elements[0].medias[0]",
+            "producer": "66411159-7e3c-4216-8031-e096668d53a1",
+            "producer_type": "image",
+            "reference_element_id": "52ab618f-a41b-48d4-8ea3-f4e555fec5ac",
+            "video_binding": false
+          },
+          {
+            "asset_id": "c13e851a-bc25-405e-85e1-95c626467ecb",
+            "asset_role": "reference_image",
+            "audio_binding": false,
+            "image_binding": true,
+            "parameter_path": "params.reference_elements[2].medias[0]",
+            "producer": "c13e851a-bc25-405e-85e1-95c626467ecb",
+            "producer_type": "image",
+            "reference_element_id": "f5022f87-a1f1-42f7-89b8-6852a962b567",
+            "video_binding": false
+          }
+        ],
+        "denominator": "One named video job; attachments are deduplicated occurrence channels",
+        "evidence_ids": [
+          "lost:06.5",
+          "lost:06.7"
+        ],
+        "evidence_label": "observed",
+        "film_id": "e5ce8a79-9375-4e31-84a8-620bd4f07550",
+        "generation_id": "09925f84-295d-42ac-a3f2-d8dbf98a1740",
+        "literal_controls": {
+          "aspect_ratio": {
+            "raw_json": "\"16:9\"",
+            "state": "str"
+          },
+          "camera_aperture": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "camera_focal_length": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "camera_lens": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "camera_model": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "draft": {
+            "raw_json": "false",
+            "state": "bool"
+          },
+          "duration": {
+            "raw_json": "20",
+            "state": "int"
+          },
+          "end_seconds": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "extension_mode": {
+            "raw_json": null,
+            "state": "null"
+          },
+          "fps": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "generate_audio": {
+            "raw_json": "true",
+            "state": "bool"
+          },
+          "height": {
+            "raw_json": "720",
+            "state": "int"
+          },
+          "mode": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_json": "\"default\"",
+            "state": "str"
+          },
+          "model_version": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "motion": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "multi_shot_mode": {
+            "raw_json": "\"custom\"",
+            "state": "str"
+          },
+          "multi_shots": {
+            "raw_json": "false",
+            "state": "bool"
+          },
+          "resolution": {
+            "raw_json": "\"720p\"",
+            "state": "str"
+          },
+          "sound": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "start_seconds": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_json": "1280",
+            "state": "int"
+          }
+        },
+        "media_outcome": "unobservable",
+        "model_identifier": "seedance_2_5",
+        "model_version": "[\"absent\", null]",
+        "parameter_state": "object",
+        "route": "video_guided",
+        "route_label": "inferred",
+        "source_path": "params.prompt"
+      }
+    ],
+    "lineage": "Only resolved producer inputs in contexts are explicit edges; unresolved sources remain unknown",
+    "revision": "Named changed-shot request; no defect, success or acceptance inferred"
+  },
+  {
+    "comparison_limit": "Not an exhaustive revision-family inventory or retry denominator",
+    "evidence": {
+      "case_source": "case-files/prophecy-in-2047/codes.csv",
+      "code_id": "06.7",
+      "codebook_version": "1.0",
+      "competing_explanation": "Published histories can omit external/private work; instructions do not establish achieved results, final acceptance or project-wide intent.",
+      "confidence_rationale": "Direct source paths/compound keys and exact excerpt or deterministic aggregate checked during reproduction; single-coder semantic interpretation, scoped to named evidence. No agreement or quality estimate.",
+      "denominator": "One named job / 184 inspected / 1054 exported jobs; input rows are occurrences, not independent evidence",
+      "entity_ids": "9b38b885-bf92-484e-8f36-a890e4e10d61/generation:17d142bf-33db-4a4f-b455-3a7a8510362c; 9b38b885-bf92-484e-8f36-a890e4e10d61/asset:c8e20efd-6e8f-42ab-ac41-2fc21e5946e1",
+      "evidence_id": "prophecy-in-2047:06.7",
+      "evidence_label": "observed",
+      "excerpt": "change only the lighting and the grade [excerpt boundary] [literal controls] {\"duration\": 11, \"model\": \"video_edit\"} [excerpt boundary] [literal model_identifier] seedance_2_5 [literal model_name] Seedance 2.5 [excerpt boundary] [input usage role/path] [[\"c8e20efd-6e8f-42ab-ac41-2fc21e5946e1\", \"input_video\", \"params.medias[0].data\", null]]",
+      "film_id": "9b38b885-bf92-484e-8f36-a890e4e10d61",
+      "later_study": "06",
+      "population": "primary",
+      "scope_note": "Explicit video_edit control and input_video; lighting/grade change request, not successful revision.",
+      "source_path": "generations.prompt/model_identifier/model_name; generations.parameters_json.model/duration; asset_usages.asset_id/asset_role/parameter_path/reference_element_id; raw/projects/9b38b885-bf92-484e-8f36-a890e4e10d61/items_0005.json",
+      "status": "coded",
+      "study": "06",
+      "title": "Prophecy in 2047",
+      "value": "video_edit_request"
+    },
+    "interpretation_label": "inferred",
+    "jobs": [
+      {
+        "attachments": [
+          {
+            "asset_id": "c8e20efd-6e8f-42ab-ac41-2fc21e5946e1",
+            "asset_role": "input_video",
+            "audio_binding": false,
+            "image_binding": false,
+            "parameter_path": "params.medias[0].data",
+            "producer": "c8e20efd-6e8f-42ab-ac41-2fc21e5946e1",
+            "producer_type": "video",
+            "reference_element_id": null,
+            "video_binding": true
+          }
+        ],
+        "denominator": "One named video job; attachments are deduplicated occurrence channels",
+        "evidence_ids": [
+          "prophecy-in-2047:06.7"
+        ],
+        "evidence_label": "observed",
+        "film_id": "9b38b885-bf92-484e-8f36-a890e4e10d61",
+        "generation_id": "17d142bf-33db-4a4f-b455-3a7a8510362c",
+        "literal_controls": {
+          "aspect_ratio": {
+            "raw_json": "\"16:9\"",
+            "state": "str"
+          },
+          "camera_aperture": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "camera_focal_length": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "camera_lens": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "camera_model": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "draft": {
+            "raw_json": "false",
+            "state": "bool"
+          },
+          "duration": {
+            "raw_json": "11",
+            "state": "int"
+          },
+          "end_seconds": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "extension_mode": {
+            "raw_json": null,
+            "state": "null"
+          },
+          "fps": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "generate_audio": {
+            "raw_json": "true",
+            "state": "bool"
+          },
+          "height": {
+            "raw_json": "720",
+            "state": "int"
+          },
+          "mode": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_json": "\"video_edit\"",
+            "state": "str"
+          },
+          "model_version": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "motion": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "multi_shot_mode": {
+            "raw_json": "\"custom\"",
+            "state": "str"
+          },
+          "multi_shots": {
+            "raw_json": "false",
+            "state": "bool"
+          },
+          "resolution": {
+            "raw_json": "\"720p\"",
+            "state": "str"
+          },
+          "sound": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "start_seconds": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_json": "1280",
+            "state": "int"
+          }
+        },
+        "media_outcome": "unobservable",
+        "model_identifier": "seedance_2_5",
+        "model_version": "[\"absent\", null]",
+        "parameter_state": "object",
+        "route": "video_guided",
+        "route_label": "inferred",
+        "source_path": "params.prompt"
+      }
+    ],
+    "lineage": "Only resolved producer inputs in contexts are explicit edges; unresolved sources remain unknown",
+    "revision": "Named changed-shot request; no defect, success or acceptance inferred"
+  },
+  {
+    "comparison_limit": "Not an exhaustive revision-family inventory or retry denominator",
+    "evidence": {
+      "case_source": "case-files/random-access-memories/codes.csv",
+      "code_id": "06.7",
+      "codebook_version": "1.0",
+      "competing_explanation": "Published histories can omit external/private work; instructions do not establish achieved results, final acceptance or project-wide intent.",
+      "confidence_rationale": "Direct source paths/compound keys and exact excerpt or deterministic aggregate checked during reproduction; single-coder semantic interpretation, scoped to named evidence. No agreement or quality estimate.",
+      "denominator": "One named job / 482 inspected / 482 exported jobs; input rows are occurrences, not independent evidence",
+      "entity_ids": "e99b5ad2-8f58-4ef8-a13c-4441cfdd5205/generation:08339c56-2483-4941-90cc-31b96cbf3638; e99b5ad2-8f58-4ef8-a13c-4441cfdd5205/asset:fc044256-2292-492f-b22e-752ceee19881; e99b5ad2-8f58-4ef8-a13c-4441cfdd5205/asset:6ac7af62-e6f9-4ba2-9e60-5bc7718b75fa; e99b5ad2-8f58-4ef8-a13c-4441cfdd5205/reference:1d01d227-12ba-4281-9f6e-7384e9717c35",
+      "evidence_id": "random-access-memories:06.7",
+      "evidence_label": "observed",
+      "excerpt": "Swap character [excerpt boundary] including voice [excerpt boundary] [literal controls] {\"duration\": 7, \"model\": \"video_edit\"} [excerpt boundary] [literal model_identifier] seedance_2_5 [literal model_name] Seedance 2.5 [excerpt boundary] [input usage role/path] [[\"6ac7af62-e6f9-4ba2-9e60-5bc7718b75fa\", \"reference_image\", \"params.reference_elements[0].medias[0]\", \"1d01d227-12ba-4281-9f6e-7384e9717c35\"], [\"fc044256-2292-492f-b22e-752ceee19881\", \"input_video\", \"params.medias[0].data\", null]] [excerpt boundary] [disclosed reference metadata] [{\"category\": \"auto:character\", \"name\": \"Simon\", \"reference_element_id\": \"1d01d227-12ba-4281-9f6e-7384e9717c35\"}]",
+      "film_id": "e99b5ad2-8f58-4ef8-a13c-4441cfdd5205",
+      "later_study": "06",
+      "population": "primary",
+      "scope_note": "Explicit character/voice replacement with input_video; no achieved result inferred.",
+      "source_path": "generations.prompt/model_identifier/model_name; generations.parameters_json.model/duration; asset_usages.asset_id/asset_role/parameter_path/reference_element_id; reference_elements.reference_element_id/name/category; raw/projects/e99b5ad2-8f58-4ef8-a13c-4441cfdd5205/items_0005.json",
+      "status": "coded",
+      "study": "06",
+      "title": "Random Access Memories",
+      "value": "video_edit_request"
+    },
+    "interpretation_label": "inferred",
+    "jobs": [
+      {
+        "attachments": [
+          {
+            "asset_id": "6ac7af62-e6f9-4ba2-9e60-5bc7718b75fa",
+            "asset_role": "reference_image",
+            "audio_binding": false,
+            "image_binding": true,
+            "parameter_path": "params.reference_elements[0].medias[0]",
+            "producer": null,
+            "producer_type": null,
+            "reference_element_id": "1d01d227-12ba-4281-9f6e-7384e9717c35",
+            "video_binding": false
+          },
+          {
+            "asset_id": "fc044256-2292-492f-b22e-752ceee19881",
+            "asset_role": "input_video",
+            "audio_binding": false,
+            "image_binding": false,
+            "parameter_path": "params.medias[0].data",
+            "producer": null,
+            "producer_type": null,
+            "reference_element_id": null,
+            "video_binding": true
+          }
+        ],
+        "denominator": "One named video job; attachments are deduplicated occurrence channels",
+        "evidence_ids": [
+          "random-access-memories:06.7"
+        ],
+        "evidence_label": "observed",
+        "film_id": "e99b5ad2-8f58-4ef8-a13c-4441cfdd5205",
+        "generation_id": "08339c56-2483-4941-90cc-31b96cbf3638",
+        "literal_controls": {
+          "aspect_ratio": {
+            "raw_json": "\"16:9\"",
+            "state": "str"
+          },
+          "camera_aperture": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "camera_focal_length": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "camera_lens": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "camera_model": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "draft": {
+            "raw_json": "false",
+            "state": "bool"
+          },
+          "duration": {
+            "raw_json": "7",
+            "state": "int"
+          },
+          "end_seconds": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "extension_mode": {
+            "raw_json": null,
+            "state": "null"
+          },
+          "fps": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "generate_audio": {
+            "raw_json": "true",
+            "state": "bool"
+          },
+          "height": {
+            "raw_json": "720",
+            "state": "int"
+          },
+          "mode": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_json": "\"video_edit\"",
+            "state": "str"
+          },
+          "model_version": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "motion": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "multi_shot_mode": {
+            "raw_json": "\"custom\"",
+            "state": "str"
+          },
+          "multi_shots": {
+            "raw_json": "false",
+            "state": "bool"
+          },
+          "resolution": {
+            "raw_json": "\"720p\"",
+            "state": "str"
+          },
+          "sound": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "start_seconds": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_json": "1280",
+            "state": "int"
+          }
+        },
+        "media_outcome": "unobservable",
+        "model_identifier": "seedance_2_5",
+        "model_version": "[\"absent\", null]",
+        "parameter_state": "object",
+        "route": "video_guided",
+        "route_label": "inferred",
+        "source_path": "params.prompt"
+      }
+    ],
+    "lineage": "Only resolved producer inputs in contexts are explicit edges; unresolved sources remain unknown",
+    "revision": "Named changed-shot request; no defect, success or acceptance inferred"
+  },
+  {
+    "comparison_limit": "Not an exhaustive revision-family inventory or retry denominator",
+    "evidence": {
+      "case_source": "case-files/snap/codes.csv",
+      "code_id": "06.7",
+      "codebook_version": "1.0",
+      "competing_explanation": "Published histories can omit external/private work; instructions do not establish achieved results, final acceptance or project-wide intent.",
+      "confidence_rationale": "Direct source paths/compound keys and exact excerpt or deterministic aggregate checked during reproduction; single-coder semantic interpretation, scoped to named evidence. No agreement or quality estimate.",
+      "denominator": "One named job / 68 inspected / 1034 exported jobs; input rows are occurrences, not independent evidence",
+      "entity_ids": "aed4098b-3278-4e5d-a347-24fad9cfb9ae/generation:795abb74-6ee2-457f-b512-79f2448a2eef; aed4098b-3278-4e5d-a347-24fad9cfb9ae/asset:685ee873-2131-41fd-a606-361712b9aeb6; aed4098b-3278-4e5d-a347-24fad9cfb9ae/asset:3894fc5f-cd0a-42f6-9fa3-4568ce351a71",
+      "evidence_id": "snap:06.7",
+      "evidence_label": "observed",
+      "excerpt": "Change character outfit [excerpt boundary] [literal controls] {\"duration\": 13, \"generate_audio\": false} [excerpt boundary] [literal model_identifier] hf_mult_replace_object [literal model_name] Higgsfield Genjutsu - Object Swap [excerpt boundary] [input usage role/path] [[\"3894fc5f-cd0a-42f6-9fa3-4568ce351a71\", \"input_video\", \"params.medias[1].data\", null], [\"685ee873-2131-41fd-a606-361712b9aeb6\", \"input_image\", \"params.medias[0].data\", null]]",
+      "film_id": "aed4098b-3278-4e5d-a347-24fad9cfb9ae",
+      "later_study": "06",
+      "population": "primary",
+      "scope_note": "Typed input_video and outfit-match request; hf_mult_replace_object is retained literally.",
+      "source_path": "generations.prompt/model_identifier/model_name; generations.parameters_json.duration/generate_audio; asset_usages.asset_id/asset_role/parameter_path/reference_element_id; raw/projects/aed4098b-3278-4e5d-a347-24fad9cfb9ae/items_0004.json",
+      "status": "coded",
+      "study": "06",
+      "title": "SNAP",
+      "value": "video_edit_request"
+    },
+    "interpretation_label": "inferred",
+    "jobs": [
+      {
+        "attachments": [
+          {
+            "asset_id": "3894fc5f-cd0a-42f6-9fa3-4568ce351a71",
+            "asset_role": "input_video",
+            "audio_binding": false,
+            "image_binding": false,
+            "parameter_path": "params.medias[1].data",
+            "producer": "3894fc5f-cd0a-42f6-9fa3-4568ce351a71",
+            "producer_type": "video",
+            "reference_element_id": null,
+            "video_binding": true
+          },
+          {
+            "asset_id": "685ee873-2131-41fd-a606-361712b9aeb6",
+            "asset_role": "input_image",
+            "audio_binding": false,
+            "image_binding": true,
+            "parameter_path": "params.medias[0].data",
+            "producer": "685ee873-2131-41fd-a606-361712b9aeb6",
+            "producer_type": "image",
+            "reference_element_id": null,
+            "video_binding": false
+          }
+        ],
+        "denominator": "One named video job; attachments are deduplicated occurrence channels",
+        "evidence_ids": [
+          "snap:06.7"
+        ],
+        "evidence_label": "observed",
+        "film_id": "aed4098b-3278-4e5d-a347-24fad9cfb9ae",
+        "generation_id": "795abb74-6ee2-457f-b512-79f2448a2eef",
+        "literal_controls": {
+          "aspect_ratio": {
+            "raw_json": "\"auto\"",
+            "state": "str"
+          },
+          "camera_aperture": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "camera_focal_length": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "camera_lens": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "camera_model": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "draft": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "duration": {
+            "raw_json": "13",
+            "state": "int"
+          },
+          "end_seconds": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "extension_mode": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "fps": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "generate_audio": {
+            "raw_json": "false",
+            "state": "bool"
+          },
+          "height": {
+            "raw_json": "480",
+            "state": "int"
+          },
+          "mode": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "model_version": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "motion": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "multi_shot_mode": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_json": "\"720p\"",
+            "state": "str"
+          },
+          "sound": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "start_seconds": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_json": "854",
+            "state": "int"
+          }
+        },
+        "media_outcome": "unobservable",
+        "model_identifier": "hf_mult_replace_object",
+        "model_version": "[\"absent\", null]",
+        "parameter_state": "object",
+        "route": "video_guided",
+        "route_label": "inferred",
+        "source_path": "params.prompt"
+      }
+    ],
+    "lineage": "Only resolved producer inputs in contexts are explicit edges; unresolved sources remain unknown",
+    "revision": "Named changed-shot request; no defect, success or acceptance inferred"
+  },
+  {
+    "comparison_limit": "Not an exhaustive revision-family inventory or retry denominator",
+    "evidence": {
+      "case_source": "case-files/the-kiss/codes.csv",
+      "code_id": "06.7",
+      "codebook_version": "1.0",
+      "competing_explanation": "Published histories can omit external/private work; instructions do not establish achieved results, final acceptance or project-wide intent.",
+      "confidence_rationale": "Direct source paths/compound keys and exact excerpt or deterministic aggregate checked during reproduction; single-coder semantic interpretation, scoped to named evidence. No agreement or quality estimate.",
+      "denominator": "One named job / 391 inspected / 391 exported jobs; input rows are occurrences, not independent evidence",
+      "entity_ids": "655325cc-46d9-4b0b-b03d-d177defa4b3f/generation:14948b7d-5d8f-4783-987d-b87f68bc0a3d; 655325cc-46d9-4b0b-b03d-d177defa4b3f/asset:2807fc31-5eb6-4bdb-a6ea-cd5e49a58b48",
+      "evidence_id": "the-kiss:06.7",
+      "evidence_label": "observed",
+      "excerpt": "Remove the braces [excerpt boundary] [literal controls] {\"model\": \"video_edit\"} [excerpt boundary] [literal model_identifier] seedance_2_5 [literal model_name] Seedance 2.5 [excerpt boundary] [input usage role/path] [[\"2807fc31-5eb6-4bdb-a6ea-cd5e49a58b48\", \"input_video\", \"params.medias[0].data\", null]]",
+      "film_id": "655325cc-46d9-4b0b-b03d-d177defa4b3f",
+      "later_study": "06",
+      "population": "primary",
+      "scope_note": "Explicit video input and braces-removal request, no defect/success judgement.",
+      "source_path": "generations.prompt/model_identifier/model_name; generations.parameters_json.model; asset_usages.asset_id/asset_role/parameter_path/reference_element_id; raw/projects/655325cc-46d9-4b0b-b03d-d177defa4b3f/items_0001.json",
+      "status": "coded",
+      "study": "06",
+      "title": "The Kiss",
+      "value": "video_edit_request"
+    },
+    "interpretation_label": "inferred",
+    "jobs": [
+      {
+        "attachments": [
+          {
+            "asset_id": "2807fc31-5eb6-4bdb-a6ea-cd5e49a58b48",
+            "asset_role": "input_video",
+            "audio_binding": false,
+            "image_binding": false,
+            "parameter_path": "params.medias[0].data",
+            "producer": "2807fc31-5eb6-4bdb-a6ea-cd5e49a58b48",
+            "producer_type": "video",
+            "reference_element_id": null,
+            "video_binding": true
+          }
+        ],
+        "denominator": "One named video job; attachments are deduplicated occurrence channels",
+        "evidence_ids": [
+          "the-kiss:06.7"
+        ],
+        "evidence_label": "observed",
+        "film_id": "655325cc-46d9-4b0b-b03d-d177defa4b3f",
+        "generation_id": "14948b7d-5d8f-4783-987d-b87f68bc0a3d",
+        "literal_controls": {
+          "aspect_ratio": {
+            "raw_json": "\"16:9\"",
+            "state": "str"
+          },
+          "camera_aperture": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "camera_focal_length": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "camera_lens": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "camera_model": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "draft": {
+            "raw_json": "false",
+            "state": "bool"
+          },
+          "duration": {
+            "raw_json": "5",
+            "state": "int"
+          },
+          "end_seconds": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "extension_mode": {
+            "raw_json": null,
+            "state": "null"
+          },
+          "fps": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "generate_audio": {
+            "raw_json": "true",
+            "state": "bool"
+          },
+          "height": {
+            "raw_json": "720",
+            "state": "int"
+          },
+          "mode": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_json": "\"video_edit\"",
+            "state": "str"
+          },
+          "model_version": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "motion": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "multi_shot_mode": {
+            "raw_json": "\"custom\"",
+            "state": "str"
+          },
+          "multi_shots": {
+            "raw_json": "false",
+            "state": "bool"
+          },
+          "resolution": {
+            "raw_json": "\"720p\"",
+            "state": "str"
+          },
+          "sound": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "start_seconds": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_json": "1280",
+            "state": "int"
+          }
+        },
+        "media_outcome": "unobservable",
+        "model_identifier": "seedance_2_5",
+        "model_version": "[\"absent\", null]",
+        "parameter_state": "object",
+        "route": "video_guided",
+        "route_label": "inferred",
+        "source_path": "params.prompt"
+      }
+    ],
+    "lineage": "Only resolved producer inputs in contexts are explicit edges; unresolved sources remain unknown",
+    "revision": "Named changed-shot request; no defect, success or acceptance inferred"
+  },
+  {
+    "comparison_limit": "Not an exhaustive revision-family inventory or retry denominator",
+    "evidence": {
+      "case_source": "case-files/the-last-transmission/codes.csv",
+      "code_id": "06.7",
+      "codebook_version": "1.0",
+      "competing_explanation": "Published histories can omit external/private work; instructions do not establish achieved results, final acceptance or project-wide intent.",
+      "confidence_rationale": "Direct source paths/compound keys and exact excerpt or deterministic aggregate checked during reproduction; single-coder semantic interpretation, scoped to named evidence. No agreement or quality estimate.",
+      "denominator": "One named job / 66 inspected / 66 exported jobs; input rows are occurrences, not independent evidence",
+      "entity_ids": "03f596b0-23da-4312-9e58-2e1cc4582348/generation:083272c6-2303-4ddd-87e3-27dd2531ee0e; 03f596b0-23da-4312-9e58-2e1cc4582348/asset:6640605c-455d-42cd-ab70-db0c327d7b20",
+      "evidence_id": "the-last-transmission:06.7",
+      "evidence_label": "observed",
+      "excerpt": "Edit: inside the CRT screen ONLY [excerpt boundary] EVERYTHING outside the screen glass stays exactly unchanged [excerpt boundary] [literal controls] {\"model\": \"video_edit\"} [excerpt boundary] [literal model_identifier] seedance_2_5 [literal model_name] Seedance 2.5 [excerpt boundary] [input usage role/path] [[\"6640605c-455d-42cd-ab70-db0c327d7b20\", \"input_video\", \"params.medias[0].data\", null]]",
+      "film_id": "03f596b0-23da-4312-9e58-2e1cc4582348",
+      "later_study": "06",
+      "population": "primary",
+      "scope_note": "Explicit local screen-replacement request plus video_edit mode; no mask inferred.",
+      "source_path": "generations.prompt/model_identifier/model_name; generations.parameters_json.model; asset_usages.asset_id/asset_role/parameter_path/reference_element_id; raw/projects/03f596b0-23da-4312-9e58-2e1cc4582348/items_0000.json",
+      "status": "coded",
+      "study": "06",
+      "title": "THE LAST TRANSMISSION",
+      "value": "video_edit_request"
+    },
+    "interpretation_label": "inferred",
+    "jobs": [
+      {
+        "attachments": [
+          {
+            "asset_id": "6640605c-455d-42cd-ab70-db0c327d7b20",
+            "asset_role": "input_video",
+            "audio_binding": false,
+            "image_binding": false,
+            "parameter_path": "params.medias[0].data",
+            "producer": null,
+            "producer_type": null,
+            "reference_element_id": null,
+            "video_binding": true
+          }
+        ],
+        "denominator": "One named video job; attachments are deduplicated occurrence channels",
+        "evidence_ids": [
+          "the-last-transmission:06.5",
+          "the-last-transmission:06.7"
+        ],
+        "evidence_label": "observed",
+        "film_id": "03f596b0-23da-4312-9e58-2e1cc4582348",
+        "generation_id": "083272c6-2303-4ddd-87e3-27dd2531ee0e",
+        "literal_controls": {
+          "aspect_ratio": {
+            "raw_json": "\"16:9\"",
+            "state": "str"
+          },
+          "camera_aperture": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "camera_focal_length": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "camera_lens": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "camera_model": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "draft": {
+            "raw_json": "false",
+            "state": "bool"
+          },
+          "duration": {
+            "raw_json": "13",
+            "state": "int"
+          },
+          "end_seconds": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "extension_mode": {
+            "raw_json": null,
+            "state": "null"
+          },
+          "fps": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "generate_audio": {
+            "raw_json": "true",
+            "state": "bool"
+          },
+          "height": {
+            "raw_json": "720",
+            "state": "int"
+          },
+          "mode": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_json": "\"video_edit\"",
+            "state": "str"
+          },
+          "model_version": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "motion": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "multi_shot_mode": {
+            "raw_json": "\"custom\"",
+            "state": "str"
+          },
+          "multi_shots": {
+            "raw_json": "false",
+            "state": "bool"
+          },
+          "resolution": {
+            "raw_json": "\"720p\"",
+            "state": "str"
+          },
+          "sound": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "start_seconds": {
+            "raw_json": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_json": "1280",
+            "state": "int"
+          }
+        },
+        "media_outcome": "unobservable",
+        "model_identifier": "seedance_2_5",
+        "model_version": "[\"absent\", null]",
+        "parameter_state": "object",
+        "route": "video_guided",
+        "route_label": "inferred",
+        "source_path": "params.prompt"
+      }
+    ],
+    "lineage": "Only resolved producer inputs in contexts are explicit edges; unresolved sources remain unknown",
+    "revision": "Named changed-shot request; no defect, success or acceptance inferred"
+  }
+]
