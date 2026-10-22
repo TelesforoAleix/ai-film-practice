@@ -1,5 +1,8 @@
 # Provisional prompt labels — AF3a v1
 
+AF3b adds local collection, report-data and release-building tools below. It
+publishes no labels or release and commits no partial-run results.
+
 This is the feature, sampling, gold and harness infrastructure for Study 04,
 under PROGRAMME.md and codebook **1.0**. Structural features describe exported
 text. Semantic labels describe explicit instructions, never achieved media
@@ -368,3 +371,137 @@ and missing IDs per component and micro. Optional gold produces additional
 descriptive comparisons. The JSON output lists disagreement IDs; it applies no
 weights or intervals and does not resolve disagreements. These are agreement
 descriptions, not evidence that either label is correct.
+
+## AF3b: check the finished journals and build `prompt-labels-v2`
+
+These tools read journals only: no locks, recovery/truncation, moves or writes to
+inputs. Each journal is read up to its initial byte size. An unterminated final
+line is ignored, including an incomplete UTF-8 character. Complete malformed
+lines fail. The manifest records the hash and size of the exact consumed prefix
+and the ignored-tail byte count, with input indexes following CLI argument order.
+Unicode line separators inside JSON strings are preserved.
+
+Within a journal the last `success` or `failure` for a text is terminal; a later
+`started` attempt stays pending without erasing it. Retries are accepted in attempt
+order. Repeated terminal events for the same text/attempt and overlapping text
+IDs across journals fail, as do mixed run hashes, label versions or settings,
+unknown sample IDs and mismatched compound source keys. Jev configurations are
+checked separately for the full-sample and gold runs. Jev must cover the full
+sample and gold subset successfully; its two files remain distinct.
+
+After the eight shards finish, run from the repository root (Bash or Zsh):
+
+```bash
+uv sync --locked
+uv run python scripts/fetch_data.py
+uv run python prompt-labels/report.py \
+  --journals data/semantic-labels-v3/labels-{0..7}.jsonl \
+  --jev data/af3c-jev.jsonl --jev-gold data/af3c-jev-gold.jsonl \
+  --output data/af3b-finished/report
+uv run python prompt-labels/release.py \
+  --journals data/semantic-labels-v3/labels-{0..7}.jsonl \
+  --jev data/af3c-jev.jsonl --jev-gold data/af3c-jev-gold.jsonl \
+  --output data/af3b-finished/prompt-labels-v2
+uv run python prompt-labels/release.py --check data/af3b-finished/prompt-labels-v2
+```
+
+Defaults use `data/prompt-labels-v1/sample.jsonl.gz`, `features.parquet` and
+`occurrences.parquet` from the verified v1 release, the snapshot under `data/`,
+and `prompt-labels/outputs/gold.jsonl`. Override with `--sample`, `--features`,
+`--occurrences`, `--data` and `--gold` as needed. Sample JSONL may be plain or gzip.
+Output directories must be new. The tools require terminal records for every
+sample text, including final failures, and no pending attempts. They do not
+require every text to succeed. To exercise an unfinished run, add
+`--allow-partial` to either build command and choose a scratch directory under
+ignored `data/`; the manifest explicitly marks an unfinished snapshot `partial`.
+Never upload that partial build. A nonzero exit requires investigation before
+using the directory; private-content candidates require owner review and are
+reported without echoing the matched content.
+
+`report.py` writes `report.json` and `sources.json`. The release builder runs the
+same collection and report checks itself, so its `report.json` is self-contained:
+
+- Coverage, missing and pending counts; failures by error type, assigned film and
+  film × literal generation type × text role. Null types remain JSON null, distinct
+  from empty strings. Concentration compares each terminal failure share with the
+  pooled share, counts groups above it and gives the largest share. These are
+  descriptive labelling-error counts, with small-cell and unfinished-order limits;
+  they say nothing about production failures.
+- All fourteen components and an overall decision prevalence. Per-film counts and
+  shares come first; equal-weight means over films with successes come beside
+  pooled text-weighted counts. Films without successes are explicitly counted and
+  their rates are unavailable. Overall means present decisions divided by fourteen
+  decisions per successful text, rather than the share with any component.
+- Presence agreement for primary versus gold, Jev versus gold, and primary versus
+  Jev, using the full-sample Jev run. The separate Jev gold run versus gold is
+  reported alongside it as `jev_gold_run_vs_gold`; independent runs need not give
+  identical decisions. Each comparison
+  includes four cell counts, denominators, accuracy, kappa, disagreement text IDs
+  per component and missing IDs. Gold comparisons also retain precision/recall
+  from `agreement.py`; symmetric metrics reuse `crosscheck.py`. Missing or failed
+  texts never become absent labels. Gold marginal counts and role coverage remain
+  visible because the reference is lopsided, single-agent and unadjudicated.
+- Failure sensitivity bounds: all terminal failures absent versus all present,
+  plus extremes for every unlabelled sample text. These are bounds, not estimates.
+  Long-text exclusions are counted globally, within each primary film and within
+  each source stratum, with structural means on both sides of eligibility. Shared
+  texts count once globally and once within each film/stratum; the pilot stays
+  excluded. Structural contrasts cannot identify excluded semantic prevalence or
+  the direction of semantic bias.
+
+Successful labels are checked with the harness's `load_text` and strict shared
+`validate`: every sampled source is retrieved on its compound keys and exact hash,
+all fourteen decisions are required, and every positive stored span must be an
+exact substring. Stored ellipsis covers are not reinterpreted; `joined_spans` and
+ordinary `resolved_spans` are counted separately, against the successful-text,
+component-decision and positive-span denominators. These checks establish source
+correspondence, not correctness of the inferred semantic interpretation.
+
+The upload directory contains exactly five assets plus `SHA256SUMS`:
+
+| Asset | Contents |
+| --- | --- |
+| `labels.jsonl.gz` | Sorted final primary successes and failures, sample source IDs/paths, provisional evidence metadata, settings, spans and resolution flags |
+| `jev-presence.jsonl.gz` | Separate full-sample presence-only cross-check with source IDs, reported model, configuration hash and model-reported scores |
+| `jev-gold-presence.jsonl.gz` | Separate gold-subset cross-check run, retained to reproduce Jev versus gold agreement |
+| `report.json` | Counts, prevalence, agreement, disagreement IDs, coverage and selection limits |
+| `manifest.json` | Release name, schema version, completeness, settings, source-prefix/input hashes, tool hashes, cleaning rules, counts and asset hashes/sizes |
+
+Gzip headers have no local file name or clock timestamp. Field allowlists omit full
+text fields, endpoints and arbitrary extra fields. `reported_model` and
+`requested_model` are reduced to file names (POSIX and Windows separators).
+Existing `run_sha256` hashes bind the original configuration; they cannot be
+recomputed from sanitised settings after endpoint/model-path removal. The Jev
+journal stores its configuration hash rather than plaintext request settings:
+the manifest distinguishes checked-in client defaults/question hashes from
+observed reported models, without inventing execution settings.
+
+A span equal to the complete source field is checked but withheld from release:
+its decision remains `present: true`, `span: null`, with
+`span_withheld: "full_source_field"`, `span_sha256` and `span_characters`.
+This release-only schema distinguishes it from an absent component, which keeps
+`present: false, span: null`. The raw journals and shared validation contract are
+unchanged. Consumers must honour the withholding marker; the older
+`agreement.py` raw-label reader expects ordinary spans. Release disagreements
+and prevalence already account for withheld positives. All other positive spans
+remain exact source excerpts. No new licence is granted over third-party text.
+
+`--check` is offline and verifies the exact asset set, checksums, manifest asset
+hashes/sizes, record schema, unique IDs, source linkage, model-name cleaning,
+coverage counts and privacy patterns. It does not rerun exact-substring checks
+without the corpus; those run during building. Pattern checks are not proof that
+every possible private item is absent. Do not publish newly discovered private
+content; escalate it to the owner. The code never calls a model or a release API.
+
+This is report **data**, not the completed Study 04 nine-item report. The next
+slice derives its written conclusions and traced examples from the finished
+build, with source provenance and evidence limits. This slice keeps every real
+label-derived output under ignored `data/`; only synthetic fixtures are tests.
+Before merging tool changes, run:
+
+```bash
+uv run ruff check .
+uv run ruff format --check .
+uv run pytest
+uv run python scripts/check_repository.py
+```
