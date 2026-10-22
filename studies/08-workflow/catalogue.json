@@ -1,0 +1,40 @@
+{
+  "study": "08",
+  "adapter_roles": {
+    "cinematic_video_editor": "editing",
+    "bytedance_video_upscale": "upscale",
+    "flux_video_upscale": "upscale",
+    "topaz_video": "finishing_declared",
+    "voice_change_merge": "voice_change",
+    "text2speech_v2": "voiceover",
+    "seed_audio": "audio_generation",
+    "speech2text": "transcription",
+    "dubbing_lipsync": "lipsync",
+    "sync_so": "lipsync",
+    "hf_mult_replace_object": "object_swap",
+    "hf_mult_motion_control": "motion_transfer",
+    "cinematic_video_relight": "relight",
+    "video_scene_edit": "scene_edit",
+    "cinematic_video_inpaint": "inpaint_declared",
+    "reframe": "reframe_declared"
+  },
+  "adapter_role_evidence": "Inferred interpretation of literal exported model_identifier/model_name; counts observed, provider and hidden implementation unknown. Model inventory and raw controls remain authoritative.",
+  "semantic_roles": [
+    {"role": "character_design", "definition": "An explicit character specification/design request, distinct from merely reusing an existing character", "evidence": "Character-sheet and identity-preserving requests in Titanic/Staff/Lost establish preparation or editing; original character-design activity is not established as a separate exhaustive role here", "label": "inferred", "prevalence": null},
+    {"role": "reference_sheet", "definition": "Requested reusable views or sheet form, without verified contents", "evidence": ["the-staff:08.1", "lost:08.1", "fallen-leaves:08.1", "a-tales-before-titanic-tragedy:08.1"], "label": "inferred"},
+    {"role": "environment", "definition": "Requested setting/location construction", "evidence": ["the-kiss:08.1", "dry-aged-dreams:08.1", "fallen-leaves:08.1"], "label": "inferred"},
+    {"role": "composition", "definition": "Requested spatial/property combination, not verified layers", "evidence": ["birthdays:08.1", "kagerou:08.1", "dont-poison-ivy:08.1"], "label": "inferred"},
+    {"role": "local_edit", "definition": "Named allowed change and preservation intent, independently of mask/mechanism", "evidence": ["apeirophobia:08.1", "harmony:08.1"], "label": "inferred"},
+    {"role": "animation", "definition": "Requested temporal subject/camera/environment behaviour; video type is only a candidate proxy", "evidence": ["the-last-transmission:08.1"], "label": "inferred"},
+    {"role": "voice_and_audio", "definition": "Audio jobs and declared voice/audio adapters, separately from sound intent in video text", "evidence": ["outputs/model_inventory.csv", "outputs/adapter_examples.csv"], "label": "inferred"},
+    {"role": "editing_and_finishing", "definition": "Recorded editor/upscale/declared finishing adapters, separately from creator-stated external processes", "evidence": ["apeirophobia:08.5", "snap:08.5", "the-last-transmission:08.5", "lost:08.5"], "label": "inferred"}
+  ],
+  "patterns": [
+    {"id": "direct_candidate", "problem": "A request has no disclosed preparation edge", "method": "Keep the isolated task and source states; do not invent parents", "inputs": "Text/control fields, with absent/empty/unavailable states", "sequence": "request -> candidate -> review proposal", "evidence": ["dry-aged-dreams:08.3", "dry-aged-dreams:08.4", "outputs/film_metrics.csv:no_recorded_media"], "label": "inferred", "tradeoff": "A simple disclosed graph can omit substantial preparation", "failure_mode": "Calling no recorded media proven direct or text-only production", "applicability": "Export-conditioned structural candidates only"},
+    {"id": "prepare_then_generate", "problem": "Reuse prepared sources for a new task", "method": "Bind a produced source with an explicit role/path", "inputs": "Prepared asset and task context", "sequence": "preparation output -> reference/input -> generation", "evidence": ["fallen-leaves:08.3", "the-kiss:08.3", "lost:08.3"], "label": "observed", "tradeoff": "Adds source/version decisions; reference content and frame timing remain unknown", "failure_mode": "Treating a reference image as an approved keyframe or a complete build order", "applicability": "Explicit same-film producer/input edges"},
+    {"id": "branch_variants", "problem": "Explore or repeat requests from a source", "method": "Deduplicate raw media IDs and enumerate distinct consumers", "inputs": "Shared exact source IDs", "sequence": "source -> multiple candidates -> human choice proposal", "evidence": ["a-tales-before-titanic-tragedy:08.4", "the-last-transmission:08.4"], "label": "observed", "tradeoff": "Shared context need not be a comparable iteration family", "failure_mode": "Calling recurrence approval, waste or independent tests", "applicability": "At least two actual media consumers; presets excluded"},
+    {"id": "staged_refinement", "problem": "Carry a candidate into another operation", "method": "Preserve explicit dependency stages and any named change", "inputs": "Producer output, consumer request and raw controls", "sequence": "producer -> derivative -> further consumer when disclosed", "evidence": ["detour:08.3", "birthdays:08.3", "apeirophobia:08.4"], "label": "inferred", "tradeoff": "A path records dependencies but not why a revision was needed", "failure_mode": "Inferring rescue, difficulty, benefit or version approval from depth", "applicability": "One named edit stage; corpus depth proxy requires a parent with its own parent"},
+    {"id": "cross_model_handoff", "problem": "Connect recorded operations across literal models", "method": "Require a produced asset and actual material consumer; preserve both literal identifiers", "inputs": "Producer, asset, consumer, usage role/path", "sequence": "source model -> asset -> target model", "evidence": ["apeirophobia:08.3", "snap:08.3", "birthdays:08.3"], "label": "observed", "tradeoff": "Unresolved origins and aliases limit the graph; co-occurrence remains distinct", "failure_mode": "Inferring routing, agents, a responsibility transfer or model superiority", "applicability": "Different nonempty identifiers on a resolved material edge"},
+    {"id": "external_finish_boundary", "problem": "External work is stated without a job graph", "method": "Retain statement and observed adapters in separate channels", "inputs": "Visible brief statement and/or typed job", "sequence": "known candidate -> unresolved external process; no invented timeline", "evidence": ["lost:08.5", "detour:08.5", "the-last-transmission:08.5", "snap:08.5"], "label": "creator-stated", "tradeoff": "Cannot enumerate the full sound/edit stack or final use", "failure_mode": "Promoting a tool mention or editor job to a verified final master", "applicability": "Scoped creator accounts alongside exported job evidence"}
+  ]
+}

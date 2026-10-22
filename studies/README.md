@@ -25,3 +25,5 @@ registered films across all 49 shared codes for Studies 02–10, with scoped evi
 [Study 06 — Video generation and shot control](06-video/README.md) measures recorded input routes, literal model/version controls and structural shot wording across 156 video-bearing histories; it traces motion and revision requests, separates instructions from outcomes, and proposes a video-node specification with explicit Study 04 and later-study dependencies.
 
 [Study 07 — Lineage and cross-shot reuse](07-lineage/README.md): typed disclosed graphs, shared-source/chaining comparisons, all sixteen panel maps and a proposed invalidation policy.
+
+[Study 08 — Model roles and workflow](08-workflow/README.md): literal model/operation and scoped semantic role matrices, explicit model transitions versus co-occurrence, overlapping workflow archetypes, traced handoffs and proposed node contracts across 157 primary histories; Study 04 semantic refinement remains pending.
