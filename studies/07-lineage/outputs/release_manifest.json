@@ -1,0 +1,38 @@
+{
+  "assets": {
+    "edges.csv.gz": {
+      "bytes": 15343508,
+      "sha256": "8087f3de31a4562fc95d52a9c7ff5dfe68518b7fbf01c4424684d1089060fbbb"
+    },
+    "nodes.csv.gz": {
+      "bytes": 6643476,
+      "sha256": "9547b1b384dd0f0f658e4f64de0e73f8ecf5eb460a22192099dd34e665bd07d6"
+    },
+    "review_census.csv.gz": {
+      "bytes": 860315,
+      "sha256": "45179d20e240d9349704da4e43a9442489cde72c147d2fc01414e3227f84ba08"
+    }
+  },
+  "edge_columns": [
+    "film_id",
+    "source_kind",
+    "source_id",
+    "target_kind",
+    "target_id",
+    "edge_type",
+    "asset_role",
+    "parameter_path",
+    "reference_element_id",
+    "source_path"
+  ],
+  "node_columns": [
+    "film_id",
+    "node_kind",
+    "node_id",
+    "record_state",
+    "generation_type",
+    "model_identifier",
+    "asset_type"
+  ],
+  "release": "study-07-v1"
+}
