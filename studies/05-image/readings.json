@@ -1,0 +1,38 @@
+[
+  {
+    "film_id": "d305f6e5-b906-49a1-a0c6-75ef7f653ad8",
+    "generation_id": "5bc1268c-ccc1-419e-bd13-79344eadf228",
+    "property": "placement",
+    "span": "Place it in exactly the same spot the previous plant occupied"
+  },
+  {
+    "film_id": "d305f6e5-b906-49a1-a0c6-75ef7f653ad8",
+    "generation_id": "5bc1268c-ccc1-419e-bd13-79344eadf228",
+    "property": "scale",
+    "span": "Scale the whole object uniformly"
+  },
+  {
+    "film_id": "d305f6e5-b906-49a1-a0c6-75ef7f653ad8",
+    "generation_id": "5bc1268c-ccc1-419e-bd13-79344eadf228",
+    "property": "perspective",
+    "span": "so rotate the object into that viewing angle"
+  },
+  {
+    "film_id": "d305f6e5-b906-49a1-a0c6-75ef7f653ad8",
+    "generation_id": "5bc1268c-ccc1-419e-bd13-79344eadf228",
+    "property": "lighting_integration",
+    "span": "Relight the object for the room"
+  },
+  {
+    "film_id": "d305f6e5-b906-49a1-a0c6-75ef7f653ad8",
+    "generation_id": "5bc1268c-ccc1-419e-bd13-79344eadf228",
+    "property": "preservation",
+    "span": "Keep the exact same camera position, framing, angle, lens and composition in image 1"
+  },
+  {
+    "film_id": "2fd725ab-2604-4220-8cca-d332e9de53a2",
+    "generation_id": "0205320f-3610-4d27-815d-61e834cbdcc3",
+    "property": "occlusion",
+    "span": "The coffee table stays fully visible in front of it, never covered, never touched, never resized."
+  }
+]

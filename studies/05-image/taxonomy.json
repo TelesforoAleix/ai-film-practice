@@ -1,0 +1,24 @@
+{
+  "study": "05",
+  "codebook_version": "1.0",
+  "classification_label": "inferred",
+  "unit": "compound film/generation key; literal generation_type=image",
+  "precedence": ["local_edit", "upscale", "reframe", "multi_input", "reference_guided", "fresh_candidate", "unknown"],
+  "routes": {
+    "fresh_candidate": {"rule": "No disclosed image or unexplained other input and explicit input_images=[] in valid object parameters", "limit": "Candidate fresh generation only; empty exported inputs cannot prove text-only or no external preparation", "anchor": "dry-aged-dreams:05.1"},
+    "reference_guided": {"rule": "One distinct image-bound raw asset ID, after higher-priority controls", "limit": "Binding does not verify properties of the media", "anchor": "the-staff:05.1"},
+    "multi_input": {"rule": "At least two distinct image-bound raw asset IDs, after higher-priority controls", "limit": "Conditioning, not layers, masks or achieved composition; cross-ID aliases unresolved", "anchor": "dont-poison-ivy:05.2"},
+    "local_edit": {"rule": "Literal is_inpaint=true or nonempty mask/layer key", "limit": "Disclosed mechanism candidate only; prompt local_edit_request stored independently; no active records found", "anchor": "dont-poison-ivy:05.4 counterexample"},
+    "reframe": {"rule": "Image input and qwen_camera_control with nonzero angle/move, or flux_2_pro_outpaint with nonzero signed expansion", "limit": "Model-scoped control interpretation; prompt framing alone is insufficient", "anchor": "controls/framing counts with exact model and raw control values"},
+    "upscale": {"rule": "Image input with bytedance_image_upscale, or topaz_image/topaz_image_generative with output width or height greater than positive recorded width or height", "limit": "Recorded route; topaz nickname alone does not prove size increase or quality improvement", "anchor": "controls/output dimensions and by_model_identifier"},
+    "unknown": {"rule": "No supported route above", "limit": "Includes no recorded image input without explicit empty input_images; not a fresh count", "anchor": "film_metrics.route_unknown"}
+  },
+  "independent_axes": {
+    "request": "Unchanged panel 05.1 and 05.3 assignments; corpus AF3a edit/preservation/reference/lens and short-edit lexical proxies only",
+    "construction": "At least one resolved image producer input = staged_jobs; at least two distinct image producers = convergent_jobs; neither defines complete build order",
+    "mechanism": "All mask/layer keys recursively inventoried; is_inpaint raw values and states separate; paint_image is a media input, not automatically a mask",
+    "purpose": "Unchanged panel 05.5 requests; explicit image output attachment to a video = used_by_video candidate foundation, not final acceptance"
+  },
+  "input_rule": "Typed image roles or generic input_asset at params.input_images[*], input_image, image_reference, custom_reference, paint_image. Generic style/camera/lens/color presets excluded; other inputs kept separately.",
+  "dependencies": {"04": "Semantic local-edit/integration/purpose intent and checked model labels", "06": "Keyframe role and shot timing", "07": "Alias resolution and full lineage", "08": "Model roles and adapter semantics", "09": "Comparable revision families", "12": "Test operation contracts"}
+}
