@@ -344,3 +344,27 @@ owns attached-context joins, the information-location matrix, patterns by task/
 model/cohort, traced examples, counterexamples and studio proposals under the
 programme's full output contract. Nothing here verifies media contents, resolves
 hidden instructions or turns shared wording into a tested practice.
+
+## AF3c: Jev presence cross-check
+
+`jev.py` is a secondary, presence-only cross-check using TypeSafe's hosted Jev
+System One API. It asks the same fourteen inclusion/exclusion definitions as
+AF3a in one request per text. Jev returns a choice, probability distribution
+and confidence, but no supporting spans; it cannot replace AF3a span evidence.
+The request treats the sampled text as untrusted input. The API key is read from
+`TYPESAFE_API_KEY` and is never recorded. The append-only journal reserves each
+attempt before requesting, resumes by `text_id`, and refuses a changed model,
+endpoint or question set. Three HTTP retries for rate limits and server errors
+are made inside each attempt; `--max-attempts` bounds attempts per text.
+
+```bash
+uv run python prompt-labels/jev.py --sample data/af3a-release-download/sample.jsonl.gz --data data --output data/af3c-jev.jsonl
+uv run python prompt-labels/crosscheck.py --harness data/af3a-labels.jsonl --jev data/af3c-jev.jsonl --gold prompt-labels/outputs/gold.jsonl --output data/af3c-crosscheck.json
+```
+
+The client reads plain or gzip-compressed JSONL samples. `crosscheck.py` compares successful rows by `text_id`,
+reports both-present/both-absent/disagreement counts, accuracy, Cohen's kappa,
+and missing IDs per component and micro. Optional gold produces additional
+descriptive comparisons. The JSON output lists disagreement IDs; it applies no
+weights or intervals and does not resolve disagreements. These are agreement
+descriptions, not evidence that either label is correct.
