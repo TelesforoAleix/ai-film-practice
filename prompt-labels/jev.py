@@ -132,7 +132,7 @@ def run(
     model=MODEL,
     transport=post,
 ):
-    if max_attempts < 1 or timeout <= 0:
+    if max_attempts < 1 or max_attempts > 3 or timeout <= 0:
         raise ValueError("invalid_request_settings")
     key = os.environ.get("TYPESAFE_API_KEY")
     if not key:

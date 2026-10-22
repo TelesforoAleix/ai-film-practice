@@ -144,6 +144,8 @@ def test_missing_key_attempt_limit_and_tail_recovery(tmp_path, monkeypatch):
     assert not output.exists()
 
     monkeypatch.setenv("TYPESAFE_API_KEY", os.urandom(32).hex())
+    with pytest.raises(ValueError, match="invalid_request_settings"):
+        jev.run(db, [row], output, max_attempts=4)
     calls = []
 
     def fail(*_):
