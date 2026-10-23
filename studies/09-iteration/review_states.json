@@ -1,0 +1,46 @@
+{
+  "study": "09",
+  "evidence_label": "proposed",
+  "status": "Information and behaviour specification only; no storage, scheduler or execution architecture implemented",
+  "evidence_anchors": ["the-kiss:09.3", "lost:09.3", "detour:09.3", "a-tales-before-titanic-tragedy:09.4", "studies/07-lineage/invalidation_policy.json", "studies/08-workflow/node_contracts.json"],
+  "records": {
+    "family": ["film_id", "family_id", "task_scope", "member_candidate_ids", "basis", "evidence", "comparison_order_kind", "intended_change_or_unknown", "human_confirmed_membership"],
+    "candidate": ["film_id", "candidate_id", "task_version", "generation_id", "output_asset_versions", "immutable_input_bindings", "literal_model_and_version_state", "raw_parameters", "primary_and_nested_field_paths_and_hashes", "changed_properties", "invariants", "source_candidate_or_unknown"],
+    "review_event": ["film_id", "candidate_version", "actor", "event_id", "recorded_at", "task_or_property_scope", "decision", "reason", "evidence", "supersedes_event_or_null"],
+    "attempt_budget": ["film_id", "task_version", "policy_version", "actor", "maximum_total_attempts", "reserved_attempt_ids", "attempt_outcomes", "stop_reason", "explicit_new_cap_event_or_null"]
+  },
+  "candidate_state": ["recorded", "awaiting_review", "in_review", "changes_requested", "approved", "rejected", "superseded"],
+  "import_default": "recorded with review unknown; completed status is a source job status, never approval",
+  "transitions": [
+    {"from": "recorded", "to": "awaiting_review", "requires": "explicit submission event and immutable candidate version"},
+    {"from": "awaiting_review", "to": "in_review", "requires": "named reviewer claim event"},
+    {"from": "in_review", "to": "changes_requested", "requires": "human scoped changed properties, invariants, source binding and reason"},
+    {"from": "in_review", "to": "approved", "requires": "human actor/version/scope-backed approval event"},
+    {"from": "in_review", "to": "rejected", "requires": "explicit human rejection event; no-use cannot cause transition"},
+    {"from": "approved", "to": "superseded", "requires": "explicit human replacement event identifying new approved version; old provenance retained"}
+  ],
+  "independent_axes": {
+    "further_work_use": "Observed edge-derived uses coexist with any review state and cannot change it",
+    "dependency_review": "needs_review with exact causes and Study 07 deduplicated descendant set; no automatic rerun, rejection or approval revocation",
+    "canonical_authority": "Separate explicit actor/version/property/task/scene/project declaration; task-scoped authority cannot approve a library"
+  },
+  "revision_rule": "A changed prompt, input, model or control creates a new immutable candidate/request version linked to its source and human intended delta; no in-place rewriting or inherited approval",
+  "bounded_retry": {
+    "cap": "Positive integer maximum_total_attempts explicitly chosen by a human per task version; no empirically optimal number derived from archive",
+    "gate": "Reserve a unique attempt under the total cap before dispatch; record requested versus reported adapter outcome separately",
+    "count": "Each dispatched invocation counts, including reruns and interrupted/unknown outcomes; do not infer undisclosed outcome or retry automatically after uncertainty",
+    "stop": ["cap exhausted", "human cancellation", "missing required input or unresolved change scope", "unknown dispatch outcome pending reconciliation"],
+    "exhaustion": "Stop and retain candidates for human review; a reasoned explicit cap-change event is required for further attempts; no model may increase its own cap",
+    "creative_change": "New direction, identity/input version or model change requires an explicit human decision and linked task revision; total history is retained rather than silently resetting budget",
+    "transport": "A separately declared bounded transport retry policy must account for ambiguous duplicate dispatch; transport retries never count as evidence of creative revision"
+  },
+  "validation_scenarios": [
+    "Synthetic reused-unreviewed candidate stays review unknown",
+    "Two shared-input jobs with different intended shots remain candidate-only until human confirmation",
+    "Approval for one property/version cannot approve another version or the entire project",
+    "Diamond dependencies deduplicate review candidates without automatic regeneration",
+    "Concurrent synthetic reservations cannot exceed a human cap; interrupted dispatch retains its reservation and stops until reconciled",
+    "Cap exhaustion preserves history and requires a named cap-change event",
+    "Changed prompt/model/input/control preserves old candidate and its scoped decision"
+  ]
+}

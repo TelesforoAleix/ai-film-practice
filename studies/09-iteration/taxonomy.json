@@ -1,0 +1,29 @@
+{
+  "study": "09",
+  "codebook_version": "1.0",
+  "scope": "Candidate relations overlap; no transitive closure of shared inputs, no semantic identity or automatic ordered version.",
+  "family_evidence": [
+    {"basis": "shared_asset", "rule": "At least two distinct consumers of one exact material asset, Study 07 preset exclusion; broad screen only, no revision-pair comparisons", "evidence_label": "observed"},
+    {"basis": "input_set", "rule": "At least two jobs of the same nonempty literal type with the same complete nonempty material-asset-ID set; roles, references and controls remain separate", "evidence_label": "observed"},
+    {"basis": "batch", "rule": "At least two jobs with one nonempty compound film/batch ID; no inferred simultaneity", "evidence_label": "observed"},
+    {"basis": "lineage", "rule": "One unambiguous existing different producer and one actual material consumer; one pair per generation edge regardless of role/path multiplicity", "evidence_label": "observed"},
+    {"basis": "similarity_time", "rule": "Adjacent dated nonempty primary requests within literal type/model, at least ten distinct whitespace tokens each, token-set Jaccard >=0.8 and elapsed event gap <=24h; no lineage introduced", "evidence_label": "inferred"}
+  ],
+  "modes": [
+    {"mode": "parallel", "rule": "Batch/shared-input alternatives are candidates without established revision order; actual parallel execution is unknown", "evidence_label": "inferred"},
+    {"mode": "rerun", "rule": "Corpus candidate requires equal nonempty primary text, same nonempty type/model and complete nonempty material input set; other controls may differ. Original panel codes retain their broader shared-input interpretation", "evidence_label": "inferred"},
+    {"mode": "local_correction_request", "rule": "Named source-conditioned request restricts changed properties/region; no mask, defect or correction success implied", "evidence_label": "inferred"},
+    {"mode": "direction_change", "rule": "Requires named comparable members and an explicit task/objective change, not low similarity or a different model; no established panel 09.2 assignment", "evidence_label": "inferred"},
+    {"mode": "model_change", "rule": "Different nonempty literal IDs on compared members; observation of model difference, intention remains unknown", "evidence_label": "observed"}
+  ],
+  "delta_rules": {
+    "text": "Only two nonempty primary fields are comparable; exact equality retains all whitespace/case; token additions/deletions are case-sensitive whitespace-token multiset changes, not edit distance or semantic deltas",
+    "specificity": "Named scoped case interpretation only; longer_text is length growth, never specificity",
+    "preservation": "Unchanged AF3a regex absent->present/present->absent on comparable texts; semantic case interpretation separate",
+    "inputs": "Exact material asset sets added/removed; both nonempty differences is input_replacement_candidate, not proven same-property replacement; role/reference/path tuple differences separate",
+    "controls": "Compare canonical top-level scalar parameters excluding enumerated text/media fields and all containers; only valid JSON objects comparable; full raw fields stay in snapshot",
+    "order": "Producer->consumer for lineage; UTC timestamp then ID adjacency for batch/input_set; timestamp adjacency for similarity. This is comparison order, never evidence of a revision decision. Pair duplicates collapse within basis, not across bases.",
+    "adoption": "A job's output has at least one actual different material consumer. No later export edge means no observed adoption, never rejection. No approval inferred."
+  },
+  "dependencies": {"04": "Semantic components, comparable task context and preservation/specificity/direction interpretation", "12": "Controlled validation of family interpretation and review/retry proposals"}
+}
