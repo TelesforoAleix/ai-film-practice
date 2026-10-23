@@ -1,0 +1,4368 @@
+[
+  {
+    "approval": "unknown",
+    "code_id": "09.4",
+    "comparison_order": "producer_to_consumer",
+    "delta": {
+      "controls_changed": 1,
+      "controls_comparable": 1,
+      "input_added": 1,
+      "input_removed": 1,
+      "input_replacement_candidate": 1,
+      "inputs_changed": 1,
+      "longer_text": 0,
+      "model_changed": 0,
+      "model_comparable": 1,
+      "pairs": 1,
+      "preservation_added": 0,
+      "preservation_removed": 0,
+      "role_bindings_changed": 1,
+      "same_type": 1,
+      "text_changed": 1,
+      "text_comparable": 1,
+      "text_equal": 0,
+      "token_addition": 1,
+      "token_deletion": 1
+    },
+    "evidence_id": "apeirophobia:09.4",
+    "film_id": "c3d8ee5e-b119-4654-99f9-c6545f650635",
+    "interpretation": "reused_for_further_work",
+    "interpretation_label": "observed",
+    "members": [
+      {
+        "bindings": [
+          [
+            "94e48317-3b28-49d2-a010-3b1c906d68aa",
+            "input_image",
+            "params.medias[0].data",
+            null
+          ],
+          [
+            "f58a89f4-c1d6-46c0-8cb1-f0fabb0a4c94",
+            "input_image",
+            "params.medias[1].data",
+            null
+          ],
+          [
+            "f91fdb0c-7e44-417e-8404-1f148167d3f6",
+            "input_image",
+            "params.medias[2].data",
+            null
+          ]
+        ],
+        "generation_batch_id": "a5610110-b7fb-4fbd-af28-c2ac1b194152",
+        "generation_id": "2141cb13-6107-48ed-aa6a-80dcaec6ec53",
+        "generation_type": "video",
+        "model_identifier": "seedance_2_5",
+        "nonmedia_scalar_controls_sha256": "a64213c398d90540e2f48fae833ca445da60342a05b0846b6d9457e155dedda0",
+        "parameter_state": "object",
+        "prompt_sha256": "59feb5ae2c896c3b8de8e2bf9c5274d36f74da42db58ac16dcc6020e51078433",
+        "prompt_state": "nonempty",
+        "raw_selected_controls": {
+          "aspect_ratio": {
+            "raw_value": "16:9",
+            "state": "scalar"
+          },
+          "draft": {
+            "raw_value": false,
+            "state": "scalar"
+          },
+          "duration": {
+            "raw_value": 27,
+            "state": "scalar"
+          },
+          "extension_mode": {
+            "raw_value": null,
+            "state": "null"
+          },
+          "generate_audio": {
+            "raw_value": true,
+            "state": "scalar"
+          },
+          "height": {
+            "raw_value": 1080,
+            "state": "scalar"
+          },
+          "is_inpaint": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_value": "default",
+            "state": "scalar"
+          },
+          "model_version": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_value": false,
+            "state": "scalar"
+          },
+          "output_height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_value": "1080p",
+            "state": "scalar"
+          },
+          "seed": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_value": 1920,
+            "state": "scalar"
+          }
+        },
+        "source_path": "generations.prompt/parameters_json; asset_usages"
+      },
+      {
+        "bindings": [
+          [
+            "2141cb13-6107-48ed-aa6a-80dcaec6ec53",
+            "input_video",
+            "params.medias[0].data",
+            null
+          ]
+        ],
+        "generation_batch_id": "d0de5197-2084-4882-aad3-3b631de27c5e",
+        "generation_id": "0168082c-394b-4af9-9f67-75eef66a12bb",
+        "generation_type": "video",
+        "model_identifier": "seedance_2_5",
+        "nonmedia_scalar_controls_sha256": "edbc163487aada0f38ffb4911420359226078b4e7471b20ed822dfc6cf45099f",
+        "parameter_state": "object",
+        "prompt_sha256": "4f3e9fbc94bdb7f71cb9a46a40c850e878c122f821fe9de14915d60f746c3bb7",
+        "prompt_state": "nonempty",
+        "raw_selected_controls": {
+          "aspect_ratio": {
+            "raw_value": "16:9",
+            "state": "scalar"
+          },
+          "draft": {
+            "raw_value": false,
+            "state": "scalar"
+          },
+          "duration": {
+            "raw_value": 28,
+            "state": "scalar"
+          },
+          "extension_mode": {
+            "raw_value": null,
+            "state": "null"
+          },
+          "generate_audio": {
+            "raw_value": true,
+            "state": "scalar"
+          },
+          "height": {
+            "raw_value": 1080,
+            "state": "scalar"
+          },
+          "is_inpaint": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_value": "video_edit",
+            "state": "scalar"
+          },
+          "model_version": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_value": false,
+            "state": "scalar"
+          },
+          "output_height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_value": "1080p",
+            "state": "scalar"
+          },
+          "seed": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_value": 1920,
+            "state": "scalar"
+          }
+        },
+        "source_path": "generations.prompt/parameters_json; asset_usages"
+      }
+    ],
+    "producer_consumer_edge": true
+  },
+  {
+    "approval": "unknown",
+    "code_id": "09.4",
+    "comparison_order": "producer_to_consumer",
+    "delta": {
+      "controls_changed": 1,
+      "controls_comparable": 1,
+      "input_added": 1,
+      "input_removed": 0,
+      "input_replacement_candidate": 0,
+      "inputs_changed": 1,
+      "longer_text": 1,
+      "model_changed": 1,
+      "model_comparable": 1,
+      "pairs": 1,
+      "preservation_added": 0,
+      "preservation_removed": 0,
+      "role_bindings_changed": 1,
+      "same_type": 1,
+      "text_changed": 1,
+      "text_comparable": 1,
+      "text_equal": 0,
+      "token_addition": 1,
+      "token_deletion": 1
+    },
+    "evidence_id": "birthdays:09.4",
+    "film_id": "d51d6821-d191-40f7-949b-1086750a2e93",
+    "interpretation": "reused_for_further_work",
+    "interpretation_label": "observed",
+    "members": [
+      {
+        "bindings": [],
+        "generation_batch_id": "ea59e298-91b9-49e5-991f-e69ec178b5df",
+        "generation_id": "37f689e1-04da-473c-9778-97b61732ec90",
+        "generation_type": "image",
+        "model_identifier": "seedream_v4_5",
+        "nonmedia_scalar_controls_sha256": "bce51b20ec31decaa473bc370735d810c5b656f83e66d6004df171fa69efe4a4",
+        "parameter_state": "object",
+        "prompt_sha256": "e695f860c3bca86ea9ba895da44c95ade39b4145b26dbe0c0fc67d9debc7cbac",
+        "prompt_state": "nonempty",
+        "raw_selected_controls": {
+          "aspect_ratio": {
+            "raw_value": "16:9",
+            "state": "scalar"
+          },
+          "draft": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "duration": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "extension_mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "generate_audio": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_value": 2880,
+            "state": "scalar"
+          },
+          "is_inpaint": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model_version": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "seed": {
+            "raw_value": 134220,
+            "state": "scalar"
+          },
+          "width": {
+            "raw_value": 5120,
+            "state": "scalar"
+          }
+        },
+        "source_path": "generations.prompt/parameters_json; asset_usages"
+      },
+      {
+        "bindings": [
+          [
+            "37f689e1-04da-473c-9778-97b61732ec90",
+            "input_image",
+            "params.medias[0].data",
+            null
+          ],
+          [
+            "b38a38ab-607f-4228-93ee-f2d940fdb20f",
+            "input_image",
+            "params.medias[1].data",
+            null
+          ]
+        ],
+        "generation_batch_id": "13c06517-b174-405c-9f87-e7e829f866c9",
+        "generation_id": "372eae81-9e4e-4264-adac-febf9565667e",
+        "generation_type": "image",
+        "model_identifier": "seedream_v5_lite",
+        "nonmedia_scalar_controls_sha256": "84e6a5fe1ac20788fa3fa1fd6c63eefa1717aa820f424016ee247397e6852804",
+        "parameter_state": "object",
+        "prompt_sha256": "b88d1979422d363d1c89407c7eccd9050a3e68c254dbc5189ded4c2f3adde72e",
+        "prompt_state": "nonempty",
+        "raw_selected_controls": {
+          "aspect_ratio": {
+            "raw_value": "16:9",
+            "state": "scalar"
+          },
+          "draft": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "duration": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "extension_mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "generate_audio": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_value": 3040,
+            "state": "scalar"
+          },
+          "is_inpaint": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model_version": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "seed": {
+            "raw_value": 161695,
+            "state": "scalar"
+          },
+          "width": {
+            "raw_value": 5504,
+            "state": "scalar"
+          }
+        },
+        "source_path": "generations.prompt/parameters_json; asset_usages"
+      }
+    ],
+    "producer_consumer_edge": true
+  },
+  {
+    "approval": "unknown",
+    "code_id": "09.3",
+    "comparison_order": "named_comparison_only",
+    "delta": {
+      "controls_changed": 1,
+      "controls_comparable": 1,
+      "input_added": 1,
+      "input_removed": 1,
+      "input_replacement_candidate": 1,
+      "inputs_changed": 1,
+      "longer_text": 0,
+      "model_changed": 0,
+      "model_comparable": 1,
+      "pairs": 1,
+      "preservation_added": 0,
+      "preservation_removed": 0,
+      "role_bindings_changed": 1,
+      "same_type": 1,
+      "text_changed": 1,
+      "text_comparable": 1,
+      "text_equal": 0,
+      "token_addition": 1,
+      "token_deletion": 1
+    },
+    "evidence_id": "detour:09.3",
+    "film_id": "d90fe8bd-3329-40b3-963c-d9b33075aec1",
+    "interpretation": "input_replacement",
+    "interpretation_label": "inferred",
+    "members": [
+      {
+        "bindings": [
+          [
+            "01aff476-1adf-4a2d-a69a-474780cda364",
+            "reference_image",
+            "params.reference_elements[0].medias[0]",
+            "36137ad2-4960-44bc-9896-3c88a953afc8"
+          ],
+          [
+            "56ce2d38-8485-47ec-9005-301d0a6d629e",
+            "reference_image",
+            "params.reference_elements[1].medias[0]",
+            "b624bdef-d681-4cd7-afdf-34baef94bd7b"
+          ],
+          [
+            "f69abdbb-17f3-4cac-907f-af90f447bc13",
+            "reference_image",
+            "params.reference_elements[2].medias[0]",
+            "dcfe3a23-fab3-4491-a8d8-b2e0c64c28ab"
+          ]
+        ],
+        "generation_batch_id": "27ad435d-df66-4b8e-bc62-05dedfc13986",
+        "generation_id": "093e4529-6ad2-4ab4-9703-12dbd79de477",
+        "generation_type": "video",
+        "model_identifier": "seedance_2_5",
+        "nonmedia_scalar_controls_sha256": "a9eff08897a707d9c55784ca8cd31022aaa7de58004a5318ee31edcff0f10707",
+        "parameter_state": "object",
+        "prompt_sha256": "6af85c8193c05f731662ec2d4b22f1ce55de1c8c8cb72a1d498e26c8397e689a",
+        "prompt_state": "nonempty",
+        "raw_selected_controls": {
+          "aspect_ratio": {
+            "raw_value": "21:9",
+            "state": "scalar"
+          },
+          "draft": {
+            "raw_value": false,
+            "state": "scalar"
+          },
+          "duration": {
+            "raw_value": 10,
+            "state": "scalar"
+          },
+          "extension_mode": {
+            "raw_value": null,
+            "state": "null"
+          },
+          "generate_audio": {
+            "raw_value": true,
+            "state": "scalar"
+          },
+          "height": {
+            "raw_value": 576,
+            "state": "scalar"
+          },
+          "is_inpaint": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_value": "default",
+            "state": "scalar"
+          },
+          "model_version": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_value": false,
+            "state": "scalar"
+          },
+          "output_height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_value": "720p",
+            "state": "scalar"
+          },
+          "seed": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_value": 1344,
+            "state": "scalar"
+          }
+        },
+        "source_path": "generations.prompt/parameters_json; asset_usages"
+      },
+      {
+        "bindings": [
+          [
+            "56ce2d38-8485-47ec-9005-301d0a6d629e",
+            "reference_image",
+            "params.reference_elements[1].medias[0]",
+            "b624bdef-d681-4cd7-afdf-34baef94bd7b"
+          ],
+          [
+            "67b00a05-1873-4cd4-9ff3-0b8b421224f9",
+            "reference_image",
+            "params.reference_elements[0].medias[0]",
+            "2e3a1baf-2838-48a0-9ea1-f76e695724c1"
+          ],
+          [
+            "f69abdbb-17f3-4cac-907f-af90f447bc13",
+            "reference_image",
+            "params.reference_elements[2].medias[0]",
+            "dcfe3a23-fab3-4491-a8d8-b2e0c64c28ab"
+          ]
+        ],
+        "generation_batch_id": "a6b4b89e-9035-47a7-91df-22f9b7fdce48",
+        "generation_id": "c430fa55-2065-4ca3-8114-7698cbcb36c3",
+        "generation_type": "video",
+        "model_identifier": "seedance_2_5",
+        "nonmedia_scalar_controls_sha256": "fdbcab4bc6e19e1a37b04ee199da98397af252228436eade4d00b5c549d64277",
+        "parameter_state": "object",
+        "prompt_sha256": "07acf0890a18afadeaac3c3e80cf0b5920b75551b1d05e13b3c909593ef4b129",
+        "prompt_state": "nonempty",
+        "raw_selected_controls": {
+          "aspect_ratio": {
+            "raw_value": "16:9",
+            "state": "scalar"
+          },
+          "draft": {
+            "raw_value": false,
+            "state": "scalar"
+          },
+          "duration": {
+            "raw_value": 10,
+            "state": "scalar"
+          },
+          "extension_mode": {
+            "raw_value": null,
+            "state": "null"
+          },
+          "generate_audio": {
+            "raw_value": true,
+            "state": "scalar"
+          },
+          "height": {
+            "raw_value": 720,
+            "state": "scalar"
+          },
+          "is_inpaint": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_value": "default",
+            "state": "scalar"
+          },
+          "model_version": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_value": false,
+            "state": "scalar"
+          },
+          "output_height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_value": "720p",
+            "state": "scalar"
+          },
+          "seed": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_value": 1280,
+            "state": "scalar"
+          }
+        },
+        "source_path": "generations.prompt/parameters_json; asset_usages"
+      }
+    ],
+    "producer_consumer_edge": false
+  },
+  {
+    "approval": "unknown",
+    "code_id": "09.4",
+    "comparison_order": "producer_to_consumer",
+    "delta": {
+      "controls_changed": 1,
+      "controls_comparable": 1,
+      "input_added": 1,
+      "input_removed": 0,
+      "input_replacement_candidate": 0,
+      "inputs_changed": 1,
+      "longer_text": 0,
+      "model_changed": 1,
+      "model_comparable": 1,
+      "pairs": 1,
+      "preservation_added": 1,
+      "preservation_removed": 0,
+      "role_bindings_changed": 1,
+      "same_type": 1,
+      "text_changed": 1,
+      "text_comparable": 1,
+      "text_equal": 0,
+      "token_addition": 1,
+      "token_deletion": 1
+    },
+    "evidence_id": "detour:09.4",
+    "film_id": "d90fe8bd-3329-40b3-963c-d9b33075aec1",
+    "interpretation": "reused_for_further_work",
+    "interpretation_label": "observed",
+    "members": [
+      {
+        "bindings": [],
+        "generation_batch_id": "1b45fe69-9a30-40dd-b3ca-9f22a7cfb7a1",
+        "generation_id": "006dcc36-ec37-490f-9890-9524e3ed0ddd",
+        "generation_type": "image",
+        "model_identifier": "seedream_v5_pro",
+        "nonmedia_scalar_controls_sha256": "a324ff0b03df2c883b8b2b22defde73b3ff0b6d8f59036609f3462f46b22b57a",
+        "parameter_state": "object",
+        "prompt_sha256": "c9bd0bfe4978081dad25f9d30d4b5bd4f9a392559ae8b8a404e318e70f27028c",
+        "prompt_state": "nonempty",
+        "raw_selected_controls": {
+          "aspect_ratio": {
+            "raw_value": "16:9",
+            "state": "scalar"
+          },
+          "draft": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "duration": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "extension_mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "generate_audio": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_value": 1536,
+            "state": "scalar"
+          },
+          "is_inpaint": {
+            "raw_value": false,
+            "state": "scalar"
+          },
+          "mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model_version": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_value": "2k",
+            "state": "scalar"
+          },
+          "seed": {
+            "raw_value": 127688,
+            "state": "scalar"
+          },
+          "width": {
+            "raw_value": 2720,
+            "state": "scalar"
+          }
+        },
+        "source_path": "generations.prompt/parameters_json; asset_usages"
+      },
+      {
+        "bindings": [
+          [
+            "006dcc36-ec37-490f-9890-9524e3ed0ddd",
+            "input_image",
+            "params.medias[0].data",
+            null
+          ]
+        ],
+        "generation_batch_id": "5a082096-ee41-4abb-8aa3-d3de1f1acc98",
+        "generation_id": "011fbb97-732a-416b-825f-a9635b313b86",
+        "generation_type": "image",
+        "model_identifier": "gpt_image_2",
+        "nonmedia_scalar_controls_sha256": "c9937d365a580470bcc1f9f1b87426298975f3007aa8bacac386ecc3c2d95b7d",
+        "parameter_state": "object",
+        "prompt_sha256": "dc7cee99e2f12d77534d479fffd69612e3a9e783c1c0adc3f8ffb04f1eb233e4",
+        "prompt_state": "nonempty",
+        "raw_selected_controls": {
+          "aspect_ratio": {
+            "raw_value": "16:9",
+            "state": "scalar"
+          },
+          "draft": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "duration": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "extension_mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "generate_audio": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_value": 1520,
+            "state": "scalar"
+          },
+          "is_inpaint": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_value": "videotape-alpha",
+            "state": "scalar"
+          },
+          "model_version": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_value": "2k",
+            "state": "scalar"
+          },
+          "seed": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_value": 2688,
+            "state": "scalar"
+          }
+        },
+        "source_path": "generations.prompt/parameters_json; asset_usages"
+      }
+    ],
+    "producer_consumer_edge": true
+  },
+  {
+    "approval": "unknown",
+    "code_id": "09.3",
+    "comparison_order": "producer_to_consumer",
+    "delta": {
+      "controls_changed": 0,
+      "controls_comparable": 1,
+      "input_added": 1,
+      "input_removed": 0,
+      "input_replacement_candidate": 0,
+      "inputs_changed": 1,
+      "longer_text": 1,
+      "model_changed": 0,
+      "model_comparable": 1,
+      "pairs": 1,
+      "preservation_added": 1,
+      "preservation_removed": 0,
+      "role_bindings_changed": 1,
+      "same_type": 1,
+      "text_changed": 1,
+      "text_comparable": 1,
+      "text_equal": 0,
+      "token_addition": 1,
+      "token_deletion": 1
+    },
+    "evidence_id": "dont-poison-ivy:09.3",
+    "film_id": "d305f6e5-b906-49a1-a0c6-75ef7f653ad8",
+    "interpretation": "specificity",
+    "interpretation_label": "inferred",
+    "members": [
+      {
+        "bindings": [],
+        "generation_batch_id": "56fa2c28-2d80-4bc4-bc26-5624745bf55d",
+        "generation_id": "c16ce530-c7d1-461a-acc8-63b8d7de63b1",
+        "generation_type": "image",
+        "model_identifier": "nano_banana_2",
+        "nonmedia_scalar_controls_sha256": "f016a734cfccae07ce9a05fa267a531a7c313a82625c5f6e32367b262434d4b6",
+        "parameter_state": "object",
+        "prompt_sha256": "c4d79eeedc064d45e84d8b442a21236e3f61e8de136c9784d8d063b4f2477185",
+        "prompt_state": "nonempty",
+        "raw_selected_controls": {
+          "aspect_ratio": {
+            "raw_value": "4:5",
+            "state": "scalar"
+          },
+          "draft": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "duration": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "extension_mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "generate_audio": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_value": 4608,
+            "state": "scalar"
+          },
+          "is_inpaint": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model_version": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_value": "4k",
+            "state": "scalar"
+          },
+          "seed": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_value": 3712,
+            "state": "scalar"
+          }
+        },
+        "source_path": "generations.prompt/parameters_json; asset_usages"
+      },
+      {
+        "bindings": [
+          [
+            "c16ce530-c7d1-461a-acc8-63b8d7de63b1",
+            "input_asset",
+            "params.input_images[0]",
+            null
+          ]
+        ],
+        "generation_batch_id": "f836c6d2-6f14-4877-b19f-9e8b084a0ffc",
+        "generation_id": "d720b7d2-ac2c-4eb6-a6cd-4b9de385d4de",
+        "generation_type": "image",
+        "model_identifier": "nano_banana_2",
+        "nonmedia_scalar_controls_sha256": "f016a734cfccae07ce9a05fa267a531a7c313a82625c5f6e32367b262434d4b6",
+        "parameter_state": "object",
+        "prompt_sha256": "3eab391368a65a044a45d2c7594bb89d3ff86ca727d4b768e937e5da600d7957",
+        "prompt_state": "nonempty",
+        "raw_selected_controls": {
+          "aspect_ratio": {
+            "raw_value": "4:5",
+            "state": "scalar"
+          },
+          "draft": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "duration": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "extension_mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "generate_audio": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_value": 4608,
+            "state": "scalar"
+          },
+          "is_inpaint": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model_version": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_value": "4k",
+            "state": "scalar"
+          },
+          "seed": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_value": 3712,
+            "state": "scalar"
+          }
+        },
+        "source_path": "generations.prompt/parameters_json; asset_usages"
+      }
+    ],
+    "producer_consumer_edge": true
+  },
+  {
+    "approval": "unknown",
+    "code_id": "09.4",
+    "comparison_order": "producer_to_consumer",
+    "delta": {
+      "controls_changed": 1,
+      "controls_comparable": 1,
+      "input_added": 1,
+      "input_removed": 1,
+      "input_replacement_candidate": 1,
+      "inputs_changed": 1,
+      "longer_text": 0,
+      "model_changed": 1,
+      "model_comparable": 1,
+      "pairs": 1,
+      "preservation_added": 0,
+      "preservation_removed": 0,
+      "role_bindings_changed": 1,
+      "same_type": 1,
+      "text_changed": 0,
+      "text_comparable": 0,
+      "text_equal": 0,
+      "token_addition": 0,
+      "token_deletion": 0
+    },
+    "evidence_id": "dont-poison-ivy:09.4",
+    "film_id": "d305f6e5-b906-49a1-a0c6-75ef7f653ad8",
+    "interpretation": "reused_for_further_work",
+    "interpretation_label": "observed",
+    "members": [
+      {
+        "bindings": [
+          [
+            "174f0110-e7b5-43a5-948c-4f1c4cae1ca3",
+            "reference_image",
+            "params.reference_elements[3].medias[0]",
+            "929e788c-0ac7-42a7-ae7b-a2ef55ab95c6"
+          ],
+          [
+            "222a5716-4197-4172-9231-4b2509298757",
+            "reference_image",
+            "params.reference_elements[1].medias[0]",
+            "20b5f8bd-0dd1-4f19-8d49-086a22c000ff"
+          ],
+          [
+            "227d5e74-f8b5-4df5-b406-8e676731dca8",
+            "reference_image",
+            "params.reference_elements[0].medias[0]",
+            "19321f3a-7a60-4d04-acff-5e728b4e71be"
+          ],
+          [
+            "425cf35e-1c3a-45ea-b8d7-4db6fc8ddaf6",
+            "reference_image",
+            "params.reference_elements[2].medias[0]",
+            "3d31b480-681c-4eb1-9ba6-2dd42141dcdf"
+          ]
+        ],
+        "generation_batch_id": "fd8b4358-5570-49ec-b7a3-42dc6d7916f6",
+        "generation_id": "dc7c91e0-2472-4c8a-b7af-090791a7b255",
+        "generation_type": "video",
+        "model_identifier": "seedance_2_5",
+        "nonmedia_scalar_controls_sha256": "a64213c398d90540e2f48fae833ca445da60342a05b0846b6d9457e155dedda0",
+        "parameter_state": "object",
+        "prompt_sha256": "67c9f79786c303e0f741e4f156175224c5094f19bba4e48e8637e55b99b9d6b6",
+        "prompt_state": "nonempty",
+        "raw_selected_controls": {
+          "aspect_ratio": {
+            "raw_value": "16:9",
+            "state": "scalar"
+          },
+          "draft": {
+            "raw_value": false,
+            "state": "scalar"
+          },
+          "duration": {
+            "raw_value": 27,
+            "state": "scalar"
+          },
+          "extension_mode": {
+            "raw_value": null,
+            "state": "null"
+          },
+          "generate_audio": {
+            "raw_value": true,
+            "state": "scalar"
+          },
+          "height": {
+            "raw_value": 1080,
+            "state": "scalar"
+          },
+          "is_inpaint": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_value": "default",
+            "state": "scalar"
+          },
+          "model_version": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_value": false,
+            "state": "scalar"
+          },
+          "output_height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_value": "1080p",
+            "state": "scalar"
+          },
+          "seed": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_value": 1920,
+            "state": "scalar"
+          }
+        },
+        "source_path": "generations.prompt/parameters_json; asset_usages"
+      },
+      {
+        "bindings": [
+          [
+            "227d5e74-f8b5-4df5-b406-8e676731dca8",
+            "input_start_image",
+            "params.medias[0].data",
+            null
+          ],
+          [
+            "dc7c91e0-2472-4c8a-b7af-090791a7b255",
+            "input_video",
+            "params.medias[1].data",
+            null
+          ]
+        ],
+        "generation_batch_id": "60d86909-00a5-4f31-b86f-b862abbc1a33",
+        "generation_id": "fbf502ce-3068-4d82-8ebd-f47763fed2f5",
+        "generation_type": "video",
+        "model_identifier": "cinematic_video_editor",
+        "nonmedia_scalar_controls_sha256": "44bf6500223e12b32cacdf7c15b286abd9f7fabd598451d5e6c5d12680ecff68",
+        "parameter_state": "object",
+        "prompt_sha256": null,
+        "prompt_state": "unavailable",
+        "raw_selected_controls": {
+          "aspect_ratio": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "draft": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "duration": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "extension_mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "generate_audio": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "is_inpaint": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model_version": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "seed": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_value": null,
+            "state": "absent"
+          }
+        },
+        "source_path": "generations.prompt/parameters_json; asset_usages"
+      }
+    ],
+    "producer_consumer_edge": true
+  },
+  {
+    "approval": "unknown",
+    "code_id": "09.4",
+    "comparison_order": "producer_to_consumer",
+    "delta": {
+      "controls_changed": 1,
+      "controls_comparable": 1,
+      "input_added": 1,
+      "input_removed": 0,
+      "input_replacement_candidate": 0,
+      "inputs_changed": 1,
+      "longer_text": 0,
+      "model_changed": 1,
+      "model_comparable": 1,
+      "pairs": 1,
+      "preservation_added": 0,
+      "preservation_removed": 0,
+      "role_bindings_changed": 1,
+      "same_type": 0,
+      "text_changed": 1,
+      "text_comparable": 1,
+      "text_equal": 0,
+      "token_addition": 1,
+      "token_deletion": 1
+    },
+    "evidence_id": "fallen-leaves:09.4",
+    "film_id": "6659c520-c88e-4ac7-a2c9-f28d8a40c954",
+    "interpretation": "reused_for_further_work",
+    "interpretation_label": "observed",
+    "members": [
+      {
+        "bindings": [],
+        "generation_batch_id": "9888beff-fc87-46b5-a7a4-a4b1492b6843",
+        "generation_id": "1cba062c-b6c5-456d-929d-b958859ae105",
+        "generation_type": "image",
+        "model_identifier": "gpt_image_2",
+        "nonmedia_scalar_controls_sha256": "c9937d365a580470bcc1f9f1b87426298975f3007aa8bacac386ecc3c2d95b7d",
+        "parameter_state": "object",
+        "prompt_sha256": "280de5d0edc8e8380b1f51f51675d28424acc9c139e767e000263df7e2fdaa95",
+        "prompt_state": "nonempty",
+        "raw_selected_controls": {
+          "aspect_ratio": {
+            "raw_value": "16:9",
+            "state": "scalar"
+          },
+          "draft": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "duration": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "extension_mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "generate_audio": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_value": 1520,
+            "state": "scalar"
+          },
+          "is_inpaint": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_value": "videotape-alpha",
+            "state": "scalar"
+          },
+          "model_version": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_value": "2k",
+            "state": "scalar"
+          },
+          "seed": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_value": 2688,
+            "state": "scalar"
+          }
+        },
+        "source_path": "generations.prompt/parameters_json; asset_usages"
+      },
+      {
+        "bindings": [
+          [
+            "1cba062c-b6c5-456d-929d-b958859ae105",
+            "reference_image",
+            "params.reference_elements[0].medias[0]",
+            "272048cd-1ac1-49d5-a338-9a3fc47c1c45"
+          ],
+          [
+            "48b2b6e1-2534-4237-863d-227a0179dfe0",
+            "input_video",
+            "params.medias[0].data",
+            null
+          ],
+          [
+            "569417f2-69aa-4902-a310-c72188a17c59",
+            "reference_image",
+            "params.reference_elements[1].medias[0]",
+            "fd822dfb-624f-4d92-a0d3-c4c08df7bdcf"
+          ]
+        ],
+        "generation_batch_id": "51d85648-3961-453a-a008-c2f7827cdf27",
+        "generation_id": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+        "generation_type": "video",
+        "model_identifier": "seedance_2_5",
+        "nonmedia_scalar_controls_sha256": "3e8f6debb053f7435a9e8c9b54ec8ea680f11bfc05a2584f0054bf05b4bd19f9",
+        "parameter_state": "object",
+        "prompt_sha256": "ade2cc84b2d56c78f24fdb3b5282b610bfc1a8981bbf990a9007f7add114e09d",
+        "prompt_state": "nonempty",
+        "raw_selected_controls": {
+          "aspect_ratio": {
+            "raw_value": "21:9",
+            "state": "scalar"
+          },
+          "draft": {
+            "raw_value": false,
+            "state": "scalar"
+          },
+          "duration": {
+            "raw_value": 6,
+            "state": "scalar"
+          },
+          "extension_mode": {
+            "raw_value": null,
+            "state": "null"
+          },
+          "generate_audio": {
+            "raw_value": true,
+            "state": "scalar"
+          },
+          "height": {
+            "raw_value": 576,
+            "state": "scalar"
+          },
+          "is_inpaint": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_value": "default",
+            "state": "scalar"
+          },
+          "model_version": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_value": false,
+            "state": "scalar"
+          },
+          "output_height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_value": "720p",
+            "state": "scalar"
+          },
+          "seed": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_value": 1344,
+            "state": "scalar"
+          }
+        },
+        "source_path": "generations.prompt/parameters_json; asset_usages"
+      }
+    ],
+    "producer_consumer_edge": true
+  },
+  {
+    "approval": "unknown",
+    "code_id": "09.4",
+    "comparison_order": "producer_to_consumer",
+    "delta": {
+      "controls_changed": 1,
+      "controls_comparable": 1,
+      "input_added": 1,
+      "input_removed": 1,
+      "input_replacement_candidate": 1,
+      "inputs_changed": 1,
+      "longer_text": 0,
+      "model_changed": 1,
+      "model_comparable": 1,
+      "pairs": 1,
+      "preservation_added": 0,
+      "preservation_removed": 0,
+      "role_bindings_changed": 1,
+      "same_type": 1,
+      "text_changed": 0,
+      "text_comparable": 0,
+      "text_equal": 0,
+      "token_addition": 0,
+      "token_deletion": 0
+    },
+    "evidence_id": "harmony:09.4",
+    "film_id": "2fd725ab-2604-4220-8cca-d332e9de53a2",
+    "interpretation": "reused_for_further_work",
+    "interpretation_label": "observed",
+    "members": [
+      {
+        "bindings": [
+          [
+            "331a54a5-9ce2-48da-8356-7c6782d6cd5e",
+            "input_video",
+            "params.medias[0].data",
+            null
+          ],
+          [
+            "39841600-fdf7-4380-8b78-aa11168e62b3",
+            "reference_image",
+            "params.reference_elements[0].medias[0]",
+            "60d59d65-df60-446b-9192-743485a59e23"
+          ],
+          [
+            "a78aeead-cf5f-461e-ac3a-a97f43995894",
+            "reference_image",
+            "params.reference_elements[1].medias[0]",
+            "8d8268fa-5e7d-40bc-8b21-9201abc4ac48"
+          ]
+        ],
+        "generation_batch_id": "0d7e69df-03d0-4911-add9-6421401a8bd5",
+        "generation_id": "001321d4-59f6-4087-868a-41e299e99923",
+        "generation_type": "video",
+        "model_identifier": "seedance_2_5",
+        "nonmedia_scalar_controls_sha256": "62260f48619bc18ec56c65f5adc5bc7b85c3e508c910b52905be25a62aa47aa2",
+        "parameter_state": "object",
+        "prompt_sha256": "3047bbb85ffb57445f0719d59f18f4fce1c180a7acf7303f733e7afc6557113c",
+        "prompt_state": "nonempty",
+        "raw_selected_controls": {
+          "aspect_ratio": {
+            "raw_value": "16:9",
+            "state": "scalar"
+          },
+          "draft": {
+            "raw_value": false,
+            "state": "scalar"
+          },
+          "duration": {
+            "raw_value": 19,
+            "state": "scalar"
+          },
+          "extension_mode": {
+            "raw_value": null,
+            "state": "null"
+          },
+          "generate_audio": {
+            "raw_value": true,
+            "state": "scalar"
+          },
+          "height": {
+            "raw_value": 1080,
+            "state": "scalar"
+          },
+          "is_inpaint": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_value": "default",
+            "state": "scalar"
+          },
+          "model_version": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_value": false,
+            "state": "scalar"
+          },
+          "output_height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_value": "1080p",
+            "state": "scalar"
+          },
+          "seed": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_value": 1920,
+            "state": "scalar"
+          }
+        },
+        "source_path": "generations.prompt/parameters_json; asset_usages"
+      },
+      {
+        "bindings": [
+          [
+            "001321d4-59f6-4087-868a-41e299e99923",
+            "input_video",
+            "params.medias[1].data",
+            null
+          ],
+          [
+            "0f9561a3-d128-43e6-ab77-cab14e15b128",
+            "input_start_image",
+            "params.medias[0].data",
+            null
+          ]
+        ],
+        "generation_batch_id": "2c67c2e1-6c02-41c7-98cb-195f7740e0df",
+        "generation_id": "eb1e92f8-203d-4767-94e8-22c4062a2572",
+        "generation_type": "video",
+        "model_identifier": "cinematic_video_editor",
+        "nonmedia_scalar_controls_sha256": "b9c3d7d13735fe9ff2571239c2848532e88342707b74950078b79cde6d6dfd94",
+        "parameter_state": "object",
+        "prompt_sha256": null,
+        "prompt_state": "unavailable",
+        "raw_selected_controls": {
+          "aspect_ratio": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "draft": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "duration": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "extension_mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "generate_audio": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "is_inpaint": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model_version": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "seed": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_value": null,
+            "state": "absent"
+          }
+        },
+        "source_path": "generations.prompt/parameters_json; asset_usages"
+      }
+    ],
+    "producer_consumer_edge": true
+  },
+  {
+    "approval": "unknown",
+    "code_id": "09.4",
+    "comparison_order": "producer_to_consumer",
+    "delta": {
+      "controls_changed": 1,
+      "controls_comparable": 1,
+      "input_added": 1,
+      "input_removed": 1,
+      "input_replacement_candidate": 1,
+      "inputs_changed": 1,
+      "longer_text": 0,
+      "model_changed": 1,
+      "model_comparable": 1,
+      "pairs": 1,
+      "preservation_added": 0,
+      "preservation_removed": 0,
+      "role_bindings_changed": 1,
+      "same_type": 1,
+      "text_changed": 0,
+      "text_comparable": 0,
+      "text_equal": 0,
+      "token_addition": 0,
+      "token_deletion": 0
+    },
+    "evidence_id": "kagerou:09.4",
+    "film_id": "51d2c0b2-d692-42b4-b66f-daf87cac1eb3",
+    "interpretation": "reused_for_further_work",
+    "interpretation_label": "observed",
+    "members": [
+      {
+        "bindings": [
+          [
+            "1d1b6f44-78df-4007-8100-7c43fb52a189",
+            "input_image",
+            "params.medias[2].data",
+            null
+          ],
+          [
+            "33389178-a884-4c9a-9856-7b9bf535f0e9",
+            "reference_image",
+            "params.reference_elements[0].medias[0]",
+            "0d33ecd1-47d7-4488-be53-b26376ed0732"
+          ],
+          [
+            "49147584-81e7-402d-a861-08d504c1e658",
+            "input_video",
+            "params.medias[4].data",
+            null
+          ],
+          [
+            "670e5c90-bb7b-4832-b994-2f56586c886a",
+            "input_image",
+            "params.medias[3].data",
+            null
+          ],
+          [
+            "723fa392-4a3a-454d-9d7b-dd5445e21193",
+            "reference_image",
+            "params.reference_elements[1].medias[0]",
+            "3244b007-7a9c-4bba-9b6f-c4b9c1034034"
+          ],
+          [
+            "78e6a232-2bd1-464a-95f2-c45d8303cf4e",
+            "input_image",
+            "params.medias[0].data",
+            null
+          ],
+          [
+            "c3d1a0e9-2311-46b5-9aa5-5913808deafa",
+            "input_image",
+            "params.medias[1].data",
+            null
+          ],
+          [
+            "f7467948-6b11-47c0-97aa-bdec875584be",
+            "reference_image",
+            "params.reference_elements[2].medias[0]",
+            "3b694015-4cd9-4020-879c-3dde857d7563"
+          ]
+        ],
+        "generation_batch_id": "73193c52-30b2-400f-81cb-0b2f8d0e5f25",
+        "generation_id": "05607388-2328-42cc-9c26-433745ba2fa8",
+        "generation_type": "video",
+        "model_identifier": "seedance_2_5",
+        "nonmedia_scalar_controls_sha256": "fdbcab4bc6e19e1a37b04ee199da98397af252228436eade4d00b5c549d64277",
+        "parameter_state": "object",
+        "prompt_sha256": "36f40888353896d25f41c8ce54f42ea2d175be46b8925e07d92c34e7233fce9a",
+        "prompt_state": "nonempty",
+        "raw_selected_controls": {
+          "aspect_ratio": {
+            "raw_value": "16:9",
+            "state": "scalar"
+          },
+          "draft": {
+            "raw_value": false,
+            "state": "scalar"
+          },
+          "duration": {
+            "raw_value": 10,
+            "state": "scalar"
+          },
+          "extension_mode": {
+            "raw_value": null,
+            "state": "null"
+          },
+          "generate_audio": {
+            "raw_value": true,
+            "state": "scalar"
+          },
+          "height": {
+            "raw_value": 720,
+            "state": "scalar"
+          },
+          "is_inpaint": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_value": "default",
+            "state": "scalar"
+          },
+          "model_version": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_value": false,
+            "state": "scalar"
+          },
+          "output_height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_value": "720p",
+            "state": "scalar"
+          },
+          "seed": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_value": 1280,
+            "state": "scalar"
+          }
+        },
+        "source_path": "generations.prompt/parameters_json; asset_usages"
+      },
+      {
+        "bindings": [
+          [
+            "05607388-2328-42cc-9c26-433745ba2fa8",
+            "input_video",
+            "params.medias[1].data",
+            null
+          ],
+          [
+            "f7467948-6b11-47c0-97aa-bdec875584be",
+            "input_start_image",
+            "params.medias[0].data",
+            null
+          ]
+        ],
+        "generation_batch_id": "6c08f6a3-6ddf-42a3-b3d1-5e63e667555f",
+        "generation_id": "4f438e33-c234-44bb-9abe-9b940712ba02",
+        "generation_type": "video",
+        "model_identifier": "cinematic_video_editor",
+        "nonmedia_scalar_controls_sha256": "44bf6500223e12b32cacdf7c15b286abd9f7fabd598451d5e6c5d12680ecff68",
+        "parameter_state": "object",
+        "prompt_sha256": null,
+        "prompt_state": "unavailable",
+        "raw_selected_controls": {
+          "aspect_ratio": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "draft": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "duration": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "extension_mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "generate_audio": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "is_inpaint": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model_version": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "seed": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_value": null,
+            "state": "absent"
+          }
+        },
+        "source_path": "generations.prompt/parameters_json; asset_usages"
+      }
+    ],
+    "producer_consumer_edge": true
+  },
+  {
+    "approval": "unknown",
+    "code_id": "09.3",
+    "comparison_order": "producer_to_consumer",
+    "delta": {
+      "controls_changed": 0,
+      "controls_comparable": 1,
+      "input_added": 1,
+      "input_removed": 1,
+      "input_replacement_candidate": 1,
+      "inputs_changed": 1,
+      "longer_text": 1,
+      "model_changed": 0,
+      "model_comparable": 1,
+      "pairs": 1,
+      "preservation_added": 0,
+      "preservation_removed": 0,
+      "role_bindings_changed": 1,
+      "same_type": 1,
+      "text_changed": 1,
+      "text_comparable": 1,
+      "text_equal": 0,
+      "token_addition": 1,
+      "token_deletion": 1
+    },
+    "evidence_id": "lost:09.3",
+    "film_id": "e5ce8a79-9375-4e31-84a8-620bd4f07550",
+    "interpretation": "text_addition|preservation",
+    "interpretation_label": "inferred",
+    "members": [
+      {
+        "bindings": [
+          [
+            "18ad9448-23b6-4f72-bfe1-ccb87081052d",
+            "reference_image",
+            "params.reference_elements[1].medias[0]",
+            "b95c9014-5d6a-486a-aae1-d062ab430245"
+          ],
+          [
+            "66411159-7e3c-4216-8031-e096668d53a1",
+            "reference_image",
+            "params.reference_elements[0].medias[0]",
+            "52ab618f-a41b-48d4-8ea3-f4e555fec5ac"
+          ],
+          [
+            "84ba594f-d433-4fb8-bddb-9dee98a0ad4c",
+            "input_video",
+            "params.medias[1].data",
+            null
+          ],
+          [
+            "c13e851a-bc25-405e-85e1-95c626467ecb",
+            "reference_image",
+            "params.reference_elements[2].medias[0]",
+            "f5022f87-a1f1-42f7-89b8-6852a962b567"
+          ],
+          [
+            "ea9eabba-d246-4877-afce-a54380767ba2",
+            "input_video",
+            "params.medias[2].data",
+            null
+          ],
+          [
+            "ec2d424f-1eed-489f-a88e-8cb5f6828763",
+            "input_image",
+            "params.medias[0].data",
+            null
+          ]
+        ],
+        "generation_batch_id": "26388f68-fbb9-41d9-8140-12a0da068e76",
+        "generation_id": "4e117e2d-14cf-46f3-8466-69d0306101ff",
+        "generation_type": "video",
+        "model_identifier": "seedance_2_5",
+        "nonmedia_scalar_controls_sha256": "185a6f04c68bf8483de9b0c777916b8b0da0197d5f3df4fdb92a0c7667bcf4ac",
+        "parameter_state": "object",
+        "prompt_sha256": "dd8829e2ee717aeaf0ca91e310c0384733e2b228fa982ae6c84fe789542caad1",
+        "prompt_state": "nonempty",
+        "raw_selected_controls": {
+          "aspect_ratio": {
+            "raw_value": "16:9",
+            "state": "scalar"
+          },
+          "draft": {
+            "raw_value": false,
+            "state": "scalar"
+          },
+          "duration": {
+            "raw_value": 20,
+            "state": "scalar"
+          },
+          "extension_mode": {
+            "raw_value": null,
+            "state": "null"
+          },
+          "generate_audio": {
+            "raw_value": true,
+            "state": "scalar"
+          },
+          "height": {
+            "raw_value": 720,
+            "state": "scalar"
+          },
+          "is_inpaint": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_value": "default",
+            "state": "scalar"
+          },
+          "model_version": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_value": false,
+            "state": "scalar"
+          },
+          "output_height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_value": "720p",
+            "state": "scalar"
+          },
+          "seed": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_value": 1280,
+            "state": "scalar"
+          }
+        },
+        "source_path": "generations.prompt/parameters_json; asset_usages"
+      },
+      {
+        "bindings": [
+          [
+            "18ad9448-23b6-4f72-bfe1-ccb87081052d",
+            "reference_image",
+            "params.reference_elements[1].medias[0]",
+            "b95c9014-5d6a-486a-aae1-d062ab430245"
+          ],
+          [
+            "4e117e2d-14cf-46f3-8466-69d0306101ff",
+            "input_video",
+            "params.medias[0].data",
+            null
+          ],
+          [
+            "66411159-7e3c-4216-8031-e096668d53a1",
+            "reference_image",
+            "params.reference_elements[0].medias[0]",
+            "52ab618f-a41b-48d4-8ea3-f4e555fec5ac"
+          ],
+          [
+            "c13e851a-bc25-405e-85e1-95c626467ecb",
+            "reference_image",
+            "params.reference_elements[2].medias[0]",
+            "f5022f87-a1f1-42f7-89b8-6852a962b567"
+          ]
+        ],
+        "generation_batch_id": "7905f0a4-8b5e-46f8-8799-d06675681bd4",
+        "generation_id": "09925f84-295d-42ac-a3f2-d8dbf98a1740",
+        "generation_type": "video",
+        "model_identifier": "seedance_2_5",
+        "nonmedia_scalar_controls_sha256": "185a6f04c68bf8483de9b0c777916b8b0da0197d5f3df4fdb92a0c7667bcf4ac",
+        "parameter_state": "object",
+        "prompt_sha256": "9420ce7a1c8023b19640391a1f3faf3e2acec72b05543c2306a66a71c29b0c14",
+        "prompt_state": "nonempty",
+        "raw_selected_controls": {
+          "aspect_ratio": {
+            "raw_value": "16:9",
+            "state": "scalar"
+          },
+          "draft": {
+            "raw_value": false,
+            "state": "scalar"
+          },
+          "duration": {
+            "raw_value": 20,
+            "state": "scalar"
+          },
+          "extension_mode": {
+            "raw_value": null,
+            "state": "null"
+          },
+          "generate_audio": {
+            "raw_value": true,
+            "state": "scalar"
+          },
+          "height": {
+            "raw_value": 720,
+            "state": "scalar"
+          },
+          "is_inpaint": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_value": "default",
+            "state": "scalar"
+          },
+          "model_version": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_value": false,
+            "state": "scalar"
+          },
+          "output_height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_value": "720p",
+            "state": "scalar"
+          },
+          "seed": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_value": 1280,
+            "state": "scalar"
+          }
+        },
+        "source_path": "generations.prompt/parameters_json; asset_usages"
+      }
+    ],
+    "producer_consumer_edge": true
+  },
+  {
+    "approval": "unknown",
+    "code_id": "09.4",
+    "comparison_order": "producer_to_consumer",
+    "delta": {
+      "controls_changed": 1,
+      "controls_comparable": 1,
+      "input_added": 1,
+      "input_removed": 1,
+      "input_replacement_candidate": 1,
+      "inputs_changed": 1,
+      "longer_text": 1,
+      "model_changed": 1,
+      "model_comparable": 1,
+      "pairs": 1,
+      "preservation_added": 0,
+      "preservation_removed": 0,
+      "role_bindings_changed": 1,
+      "same_type": 0,
+      "text_changed": 1,
+      "text_comparable": 1,
+      "text_equal": 0,
+      "token_addition": 1,
+      "token_deletion": 1
+    },
+    "evidence_id": "lost:09.4",
+    "film_id": "e5ce8a79-9375-4e31-84a8-620bd4f07550",
+    "interpretation": "reused_for_further_work",
+    "interpretation_label": "observed",
+    "members": [
+      {
+        "bindings": [
+          [
+            "0e028cea-942b-41fc-9bed-f65a9dde5061",
+            "input_asset",
+            "params.input_images[0]",
+            null
+          ]
+        ],
+        "generation_batch_id": "d46b08a9-2dc6-4343-999d-78813afb78bc",
+        "generation_id": "66411159-7e3c-4216-8031-e096668d53a1",
+        "generation_type": "image",
+        "model_identifier": "seedream_v4_5",
+        "nonmedia_scalar_controls_sha256": "cc09e6657fed518147f6b6f34ad12fcd918ede5249364641ec99e817a1abced3",
+        "parameter_state": "object",
+        "prompt_sha256": "38cf35da9146908f71d6033920f7067799ee8684008b75e4c4e18fcde144067f",
+        "prompt_state": "nonempty",
+        "raw_selected_controls": {
+          "aspect_ratio": {
+            "raw_value": "16:9",
+            "state": "scalar"
+          },
+          "draft": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "duration": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "extension_mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "generate_audio": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_value": 2880,
+            "state": "scalar"
+          },
+          "is_inpaint": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model_version": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "seed": {
+            "raw_value": 65915,
+            "state": "scalar"
+          },
+          "width": {
+            "raw_value": 5120,
+            "state": "scalar"
+          }
+        },
+        "source_path": "generations.prompt/parameters_json; asset_usages"
+      },
+      {
+        "bindings": [
+          [
+            "18ad9448-23b6-4f72-bfe1-ccb87081052d",
+            "reference_image",
+            "params.reference_elements[1].medias[0]",
+            "b95c9014-5d6a-486a-aae1-d062ab430245"
+          ],
+          [
+            "4e117e2d-14cf-46f3-8466-69d0306101ff",
+            "input_video",
+            "params.medias[0].data",
+            null
+          ],
+          [
+            "66411159-7e3c-4216-8031-e096668d53a1",
+            "reference_image",
+            "params.reference_elements[0].medias[0]",
+            "52ab618f-a41b-48d4-8ea3-f4e555fec5ac"
+          ],
+          [
+            "c13e851a-bc25-405e-85e1-95c626467ecb",
+            "reference_image",
+            "params.reference_elements[2].medias[0]",
+            "f5022f87-a1f1-42f7-89b8-6852a962b567"
+          ]
+        ],
+        "generation_batch_id": "7905f0a4-8b5e-46f8-8799-d06675681bd4",
+        "generation_id": "09925f84-295d-42ac-a3f2-d8dbf98a1740",
+        "generation_type": "video",
+        "model_identifier": "seedance_2_5",
+        "nonmedia_scalar_controls_sha256": "185a6f04c68bf8483de9b0c777916b8b0da0197d5f3df4fdb92a0c7667bcf4ac",
+        "parameter_state": "object",
+        "prompt_sha256": "9420ce7a1c8023b19640391a1f3faf3e2acec72b05543c2306a66a71c29b0c14",
+        "prompt_state": "nonempty",
+        "raw_selected_controls": {
+          "aspect_ratio": {
+            "raw_value": "16:9",
+            "state": "scalar"
+          },
+          "draft": {
+            "raw_value": false,
+            "state": "scalar"
+          },
+          "duration": {
+            "raw_value": 20,
+            "state": "scalar"
+          },
+          "extension_mode": {
+            "raw_value": null,
+            "state": "null"
+          },
+          "generate_audio": {
+            "raw_value": true,
+            "state": "scalar"
+          },
+          "height": {
+            "raw_value": 720,
+            "state": "scalar"
+          },
+          "is_inpaint": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_value": "default",
+            "state": "scalar"
+          },
+          "model_version": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_value": false,
+            "state": "scalar"
+          },
+          "output_height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_value": "720p",
+            "state": "scalar"
+          },
+          "seed": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_value": 1280,
+            "state": "scalar"
+          }
+        },
+        "source_path": "generations.prompt/parameters_json; asset_usages"
+      }
+    ],
+    "producer_consumer_edge": true
+  },
+  {
+    "approval": "unknown",
+    "code_id": "09.3",
+    "comparison_order": "producer_to_consumer",
+    "delta": {
+      "controls_changed": 1,
+      "controls_comparable": 1,
+      "input_added": 1,
+      "input_removed": 0,
+      "input_replacement_candidate": 0,
+      "inputs_changed": 1,
+      "longer_text": 1,
+      "model_changed": 1,
+      "model_comparable": 1,
+      "pairs": 1,
+      "preservation_added": 1,
+      "preservation_removed": 0,
+      "role_bindings_changed": 1,
+      "same_type": 1,
+      "text_changed": 1,
+      "text_comparable": 1,
+      "text_equal": 0,
+      "token_addition": 1,
+      "token_deletion": 1
+    },
+    "evidence_id": "prophecy-in-2047:09.3",
+    "film_id": "9b38b885-bf92-484e-8f36-a890e4e10d61",
+    "interpretation": "specificity",
+    "interpretation_label": "inferred",
+    "members": [
+      {
+        "bindings": [],
+        "generation_batch_id": "7ec11be1-a17d-41e6-a2f4-2af692046066",
+        "generation_id": "4aa39556-be8b-401a-98f1-031cd850cff5",
+        "generation_type": "image",
+        "model_identifier": "gpt_image_2",
+        "nonmedia_scalar_controls_sha256": "c9937d365a580470bcc1f9f1b87426298975f3007aa8bacac386ecc3c2d95b7d",
+        "parameter_state": "object",
+        "prompt_sha256": "45f0fee8f1f41b7d2b77312375116536188f158505562043e76e80de1a80ee64",
+        "prompt_state": "nonempty",
+        "raw_selected_controls": {
+          "aspect_ratio": {
+            "raw_value": "16:9",
+            "state": "scalar"
+          },
+          "draft": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "duration": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "extension_mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "generate_audio": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_value": 1520,
+            "state": "scalar"
+          },
+          "is_inpaint": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_value": "videotape-alpha",
+            "state": "scalar"
+          },
+          "model_version": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_value": "2k",
+            "state": "scalar"
+          },
+          "seed": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_value": 2688,
+            "state": "scalar"
+          }
+        },
+        "source_path": "generations.prompt/parameters_json; asset_usages"
+      },
+      {
+        "bindings": [
+          [
+            "4aa39556-be8b-401a-98f1-031cd850cff5",
+            "input_image",
+            "params.medias[0].data",
+            null
+          ]
+        ],
+        "generation_batch_id": "dfd51612-1fb0-48e4-91cb-5b0fb0b47e25",
+        "generation_id": "7ef74efa-93a5-4f9b-93b7-520973ad2ac5",
+        "generation_type": "image",
+        "model_identifier": "seedream_v5_pro",
+        "nonmedia_scalar_controls_sha256": "1f4f33f2c9804903f569d0d6051100d23f65e0ab89dc2c81bca9253dd261f858",
+        "parameter_state": "object",
+        "prompt_sha256": "05306eb6e6cd2bc892c632f0c2f4bbd8a2e00f86f9a0e010ba1fa1a3c83be115",
+        "prompt_state": "nonempty",
+        "raw_selected_controls": {
+          "aspect_ratio": {
+            "raw_value": "21:9",
+            "state": "scalar"
+          },
+          "draft": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "duration": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "extension_mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "generate_audio": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_value": 1328,
+            "state": "scalar"
+          },
+          "is_inpaint": {
+            "raw_value": false,
+            "state": "scalar"
+          },
+          "mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model_version": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_value": "2k",
+            "state": "scalar"
+          },
+          "seed": {
+            "raw_value": 16423,
+            "state": "scalar"
+          },
+          "width": {
+            "raw_value": 3120,
+            "state": "scalar"
+          }
+        },
+        "source_path": "generations.prompt/parameters_json; asset_usages"
+      }
+    ],
+    "producer_consumer_edge": true
+  },
+  {
+    "approval": "unknown",
+    "code_id": "09.4",
+    "comparison_order": "producer_to_consumer",
+    "delta": {
+      "controls_changed": 1,
+      "controls_comparable": 1,
+      "input_added": 1,
+      "input_removed": 1,
+      "input_replacement_candidate": 1,
+      "inputs_changed": 1,
+      "longer_text": 0,
+      "model_changed": 1,
+      "model_comparable": 1,
+      "pairs": 1,
+      "preservation_added": 0,
+      "preservation_removed": 0,
+      "role_bindings_changed": 1,
+      "same_type": 1,
+      "text_changed": 0,
+      "text_comparable": 0,
+      "text_equal": 0,
+      "token_addition": 0,
+      "token_deletion": 0
+    },
+    "evidence_id": "prophecy-in-2047:09.4",
+    "film_id": "9b38b885-bf92-484e-8f36-a890e4e10d61",
+    "interpretation": "reused_for_further_work",
+    "interpretation_label": "observed",
+    "members": [
+      {
+        "bindings": [
+          [
+            "1cf914f3-b64e-4106-a9a4-955f781d30d8",
+            "reference_image",
+            "params.reference_elements[0].medias[0]",
+            "d8a564fb-13a3-48a8-b89d-68f55d5d0c0e"
+          ],
+          [
+            "d3465a86-619a-4263-ad45-46b831365947",
+            "input_video",
+            "params.medias[0].data",
+            null
+          ]
+        ],
+        "generation_batch_id": "27f14484-a2cf-4f51-b67a-c8df2c8c757b",
+        "generation_id": "18ae4caf-e630-4986-aaf1-e3cb2a6a0b4d",
+        "generation_type": "video",
+        "model_identifier": "seedance_2_5",
+        "nonmedia_scalar_controls_sha256": "655a55dbf5c4e556bc3f0694aed41876bf121e764a59738332eca0c04c3d3bca",
+        "parameter_state": "object",
+        "prompt_sha256": "9285011f124aeec9d442c7e70c99e12cb12ac38a6368d2d37cc970829f215fbe",
+        "prompt_state": "nonempty",
+        "raw_selected_controls": {
+          "aspect_ratio": {
+            "raw_value": "16:9",
+            "state": "scalar"
+          },
+          "draft": {
+            "raw_value": false,
+            "state": "scalar"
+          },
+          "duration": {
+            "raw_value": 14,
+            "state": "scalar"
+          },
+          "extension_mode": {
+            "raw_value": "forward",
+            "state": "scalar"
+          },
+          "generate_audio": {
+            "raw_value": true,
+            "state": "scalar"
+          },
+          "height": {
+            "raw_value": 720,
+            "state": "scalar"
+          },
+          "is_inpaint": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_value": "video_extension",
+            "state": "scalar"
+          },
+          "model_version": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_value": false,
+            "state": "scalar"
+          },
+          "output_height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_value": "720p",
+            "state": "scalar"
+          },
+          "seed": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_value": 1280,
+            "state": "scalar"
+          }
+        },
+        "source_path": "generations.prompt/parameters_json; asset_usages"
+      },
+      {
+        "bindings": [
+          [
+            "18ae4caf-e630-4986-aaf1-e3cb2a6a0b4d",
+            "input_video",
+            "params.medias[1].data",
+            null
+          ],
+          [
+            "caea82f0-77be-44a2-83f0-71e359c2c3d2",
+            "input_start_image",
+            "params.medias[0].data",
+            null
+          ]
+        ],
+        "generation_batch_id": "05b3fa0b-8903-4c03-9d3f-3182be51da9b",
+        "generation_id": "a8868745-eecc-4e2e-b389-05a8fd444dac",
+        "generation_type": "video",
+        "model_identifier": "cinematic_video_editor",
+        "nonmedia_scalar_controls_sha256": "109c71a215cdbaa51c3cc71190380ea98624e79f875a891e090e44313731b734",
+        "parameter_state": "object",
+        "prompt_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "prompt_state": "empty",
+        "raw_selected_controls": {
+          "aspect_ratio": {
+            "raw_value": "21:9",
+            "state": "scalar"
+          },
+          "draft": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "duration": {
+            "raw_value": 14,
+            "state": "scalar"
+          },
+          "extension_mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "generate_audio": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_value": 576,
+            "state": "scalar"
+          },
+          "is_inpaint": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model_version": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_value": "720p",
+            "state": "scalar"
+          },
+          "seed": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_value": 1344,
+            "state": "scalar"
+          }
+        },
+        "source_path": "generations.prompt/parameters_json; asset_usages"
+      }
+    ],
+    "producer_consumer_edge": true
+  },
+  {
+    "approval": "unknown",
+    "code_id": "09.3",
+    "comparison_order": "producer_to_consumer",
+    "delta": {
+      "controls_changed": 1,
+      "controls_comparable": 1,
+      "input_added": 1,
+      "input_removed": 0,
+      "input_replacement_candidate": 0,
+      "inputs_changed": 1,
+      "longer_text": 1,
+      "model_changed": 1,
+      "model_comparable": 1,
+      "pairs": 1,
+      "preservation_added": 0,
+      "preservation_removed": 0,
+      "role_bindings_changed": 1,
+      "same_type": 1,
+      "text_changed": 1,
+      "text_comparable": 1,
+      "text_equal": 0,
+      "token_addition": 1,
+      "token_deletion": 1
+    },
+    "evidence_id": "random-access-memories:09.3",
+    "film_id": "e99b5ad2-8f58-4ef8-a13c-4441cfdd5205",
+    "interpretation": "specificity",
+    "interpretation_label": "inferred",
+    "members": [
+      {
+        "bindings": [],
+        "generation_batch_id": "b90dff10-b199-4488-a32e-69f6dfe17404",
+        "generation_id": "a5620e3d-120b-4dd5-ad46-ccb087640437",
+        "generation_type": "image",
+        "model_identifier": "gpt_image_2",
+        "nonmedia_scalar_controls_sha256": "aef244ac88f029996daf0440bcf3ca6e2b71e323f1286586e27bf19dad4b426a",
+        "parameter_state": "object",
+        "prompt_sha256": "6d77b166cce45f864ec43265b6475a52757c26a8bcfcd3cc2842918e66431249",
+        "prompt_state": "nonempty",
+        "raw_selected_controls": {
+          "aspect_ratio": {
+            "raw_value": "1:1",
+            "state": "scalar"
+          },
+          "draft": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "duration": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "extension_mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "generate_audio": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_value": 1024,
+            "state": "scalar"
+          },
+          "is_inpaint": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_value": "videotape-alpha",
+            "state": "scalar"
+          },
+          "model_version": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_value": "1k",
+            "state": "scalar"
+          },
+          "seed": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_value": 1024,
+            "state": "scalar"
+          }
+        },
+        "source_path": "generations.prompt/parameters_json; asset_usages"
+      },
+      {
+        "bindings": [
+          [
+            "a5620e3d-120b-4dd5-ad46-ccb087640437",
+            "input_asset",
+            "params.input_images[0]",
+            null
+          ]
+        ],
+        "generation_batch_id": "b4d02692-d27d-4614-884a-f5b09c319969",
+        "generation_id": "d0efc423-f288-4e29-9665-e2bd10b23b29",
+        "generation_type": "image",
+        "model_identifier": "nano_banana_2",
+        "nonmedia_scalar_controls_sha256": "59124a310050b333e1a14899d03497dce78b60df0fa76e4ec82ed41b4cd4b3b0",
+        "parameter_state": "object",
+        "prompt_sha256": "1c1d4e55730c96cec0bf8ef832f4e949e970c8ef88b8a2d431737ffef480c8e5",
+        "prompt_state": "nonempty",
+        "raw_selected_controls": {
+          "aspect_ratio": {
+            "raw_value": "1:1",
+            "state": "scalar"
+          },
+          "draft": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "duration": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "extension_mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "generate_audio": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_value": 2048,
+            "state": "scalar"
+          },
+          "is_inpaint": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model_version": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_value": "2k",
+            "state": "scalar"
+          },
+          "seed": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_value": 2048,
+            "state": "scalar"
+          }
+        },
+        "source_path": "generations.prompt/parameters_json; asset_usages"
+      }
+    ],
+    "producer_consumer_edge": true
+  },
+  {
+    "approval": "unknown",
+    "code_id": "09.4",
+    "comparison_order": "producer_to_consumer",
+    "delta": {
+      "controls_changed": 1,
+      "controls_comparable": 1,
+      "input_added": 1,
+      "input_removed": 1,
+      "input_replacement_candidate": 1,
+      "inputs_changed": 1,
+      "longer_text": 0,
+      "model_changed": 1,
+      "model_comparable": 1,
+      "pairs": 1,
+      "preservation_added": 0,
+      "preservation_removed": 0,
+      "role_bindings_changed": 1,
+      "same_type": 1,
+      "text_changed": 0,
+      "text_comparable": 0,
+      "text_equal": 0,
+      "token_addition": 0,
+      "token_deletion": 0
+    },
+    "evidence_id": "random-access-memories:09.4",
+    "film_id": "e99b5ad2-8f58-4ef8-a13c-4441cfdd5205",
+    "interpretation": "reused_for_further_work",
+    "interpretation_label": "observed",
+    "members": [
+      {
+        "bindings": [
+          [
+            "64b0db41-331e-4824-b96f-8c51716704f6",
+            "reference_image",
+            "params.reference_elements[1].medias[0]",
+            "d14fbeb6-9f2e-46e2-9065-7bae87863d97"
+          ],
+          [
+            "d3d97f2a-5a18-44eb-8e06-7c22ae9aac98",
+            "reference_image",
+            "params.reference_elements[0].medias[0]",
+            "7ce2cf3a-20fd-47ce-bbc7-a4e8ba3f09cb"
+          ],
+          [
+            "f0a4e09c-8a47-49cd-b194-cff25d463fb0",
+            "input_image",
+            "params.medias[0].data",
+            null
+          ]
+        ],
+        "generation_batch_id": "6671fbd4-7964-4845-9770-9d14bf3428f7",
+        "generation_id": "ca1978b3-d635-4f13-9364-0549c4a0dab8",
+        "generation_type": "video",
+        "model_identifier": "seedance_2_5",
+        "nonmedia_scalar_controls_sha256": "a3e5c39f4fdaf89510af9e9bdd4bd5967a0ae9b6c11bc814436955bd0331dbec",
+        "parameter_state": "object",
+        "prompt_sha256": "40323ef00bc9e854eab92cddf68b5ecbac238c887cb893360c082245279419a9",
+        "prompt_state": "nonempty",
+        "raw_selected_controls": {
+          "aspect_ratio": {
+            "raw_value": "4:3",
+            "state": "scalar"
+          },
+          "draft": {
+            "raw_value": false,
+            "state": "scalar"
+          },
+          "duration": {
+            "raw_value": 6,
+            "state": "scalar"
+          },
+          "extension_mode": {
+            "raw_value": null,
+            "state": "null"
+          },
+          "generate_audio": {
+            "raw_value": true,
+            "state": "scalar"
+          },
+          "height": {
+            "raw_value": 720,
+            "state": "scalar"
+          },
+          "is_inpaint": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_value": "default",
+            "state": "scalar"
+          },
+          "model_version": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_value": false,
+            "state": "scalar"
+          },
+          "output_height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_value": "720p",
+            "state": "scalar"
+          },
+          "seed": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_value": 960,
+            "state": "scalar"
+          }
+        },
+        "source_path": "generations.prompt/parameters_json; asset_usages"
+      },
+      {
+        "bindings": [
+          [
+            "ca1978b3-d635-4f13-9364-0549c4a0dab8",
+            "input_video",
+            "params.medias[1].data",
+            null
+          ],
+          [
+            "d3d97f2a-5a18-44eb-8e06-7c22ae9aac98",
+            "input_start_image",
+            "params.medias[0].data",
+            null
+          ]
+        ],
+        "generation_batch_id": "0eabae9f-b4ec-447a-ba5d-4b4c7b4e0408",
+        "generation_id": "fed8571b-aa2f-4821-a932-00c1dc87acca",
+        "generation_type": "video",
+        "model_identifier": "cinematic_video_editor",
+        "nonmedia_scalar_controls_sha256": "5a803d09bedb9c7bfdf80f0b1c908dd4d31c69bfef8c8cc20d10074c83c03ada",
+        "parameter_state": "object",
+        "prompt_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "prompt_state": "empty",
+        "raw_selected_controls": {
+          "aspect_ratio": {
+            "raw_value": "4:3",
+            "state": "scalar"
+          },
+          "draft": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "duration": {
+            "raw_value": 6,
+            "state": "scalar"
+          },
+          "extension_mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "generate_audio": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_value": 720,
+            "state": "scalar"
+          },
+          "is_inpaint": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model_version": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_value": "720p",
+            "state": "scalar"
+          },
+          "seed": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_value": 960,
+            "state": "scalar"
+          }
+        },
+        "source_path": "generations.prompt/parameters_json; asset_usages"
+      }
+    ],
+    "producer_consumer_edge": true
+  },
+  {
+    "approval": "unknown",
+    "code_id": "09.3",
+    "comparison_order": "producer_to_consumer",
+    "delta": {
+      "controls_changed": 0,
+      "controls_comparable": 1,
+      "input_added": 1,
+      "input_removed": 1,
+      "input_replacement_candidate": 1,
+      "inputs_changed": 1,
+      "longer_text": 0,
+      "model_changed": 0,
+      "model_comparable": 1,
+      "pairs": 1,
+      "preservation_added": 0,
+      "preservation_removed": 0,
+      "role_bindings_changed": 1,
+      "same_type": 1,
+      "text_changed": 1,
+      "text_comparable": 1,
+      "text_equal": 0,
+      "token_addition": 1,
+      "token_deletion": 1
+    },
+    "evidence_id": "snap:09.3",
+    "film_id": "aed4098b-3278-4e5d-a347-24fad9cfb9ae",
+    "interpretation": "specificity",
+    "interpretation_label": "inferred",
+    "members": [
+      {
+        "bindings": [
+          [
+            "cc14800c-8150-47ca-b903-6789a401b101",
+            "input_asset",
+            "params.input_images[0]",
+            null
+          ]
+        ],
+        "generation_batch_id": "0d03eabe-cfc1-4e83-b20f-288a89aba5e9",
+        "generation_id": "0139b8bd-2e52-46e6-bd9e-2ca3dd73259e",
+        "generation_type": "image",
+        "model_identifier": "nano_banana_2",
+        "nonmedia_scalar_controls_sha256": "322cb336a55533e37b820295da46ee945f0662c202ae2b34a80c0f35a8c027c0",
+        "parameter_state": "object",
+        "prompt_sha256": "d70afc95ca291c014fa1f716ead5737d915dc46081993f01db0d48f3ad3cee76",
+        "prompt_state": "nonempty",
+        "raw_selected_controls": {
+          "aspect_ratio": {
+            "raw_value": "16:9",
+            "state": "scalar"
+          },
+          "draft": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "duration": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "extension_mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "generate_audio": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_value": 768,
+            "state": "scalar"
+          },
+          "is_inpaint": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model_version": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_value": "1k",
+            "state": "scalar"
+          },
+          "seed": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_value": 1376,
+            "state": "scalar"
+          }
+        },
+        "source_path": "generations.prompt/parameters_json; asset_usages"
+      },
+      {
+        "bindings": [
+          [
+            "0139b8bd-2e52-46e6-bd9e-2ca3dd73259e",
+            "input_asset",
+            "params.input_images[0]",
+            null
+          ]
+        ],
+        "generation_batch_id": "8913bb41-627d-4c38-b1c8-914b4b85ee36",
+        "generation_id": "b1e57fe3-968c-40fb-9417-20036906e9fa",
+        "generation_type": "image",
+        "model_identifier": "nano_banana_2",
+        "nonmedia_scalar_controls_sha256": "322cb336a55533e37b820295da46ee945f0662c202ae2b34a80c0f35a8c027c0",
+        "parameter_state": "object",
+        "prompt_sha256": "15e0d57e42300985bbc72bb2aeae2e901fcb725d804ec97b944d345e96e0e11f",
+        "prompt_state": "nonempty",
+        "raw_selected_controls": {
+          "aspect_ratio": {
+            "raw_value": "16:9",
+            "state": "scalar"
+          },
+          "draft": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "duration": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "extension_mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "generate_audio": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_value": 768,
+            "state": "scalar"
+          },
+          "is_inpaint": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model_version": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_value": "1k",
+            "state": "scalar"
+          },
+          "seed": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_value": 1376,
+            "state": "scalar"
+          }
+        },
+        "source_path": "generations.prompt/parameters_json; asset_usages"
+      }
+    ],
+    "producer_consumer_edge": true
+  },
+  {
+    "approval": "unknown",
+    "code_id": "09.4",
+    "comparison_order": "producer_to_consumer",
+    "delta": {
+      "controls_changed": 1,
+      "controls_comparable": 1,
+      "input_added": 1,
+      "input_removed": 1,
+      "input_replacement_candidate": 1,
+      "inputs_changed": 1,
+      "longer_text": 0,
+      "model_changed": 1,
+      "model_comparable": 1,
+      "pairs": 1,
+      "preservation_added": 0,
+      "preservation_removed": 1,
+      "role_bindings_changed": 1,
+      "same_type": 1,
+      "text_changed": 1,
+      "text_comparable": 1,
+      "text_equal": 0,
+      "token_addition": 1,
+      "token_deletion": 1
+    },
+    "evidence_id": "snap:09.4",
+    "film_id": "aed4098b-3278-4e5d-a347-24fad9cfb9ae",
+    "interpretation": "reused_for_further_work",
+    "interpretation_label": "observed",
+    "members": [
+      {
+        "bindings": [
+          [
+            "685ee873-2131-41fd-a606-361712b9aeb6",
+            "input_image",
+            "params.medias[1].data",
+            null
+          ],
+          [
+            "73766b43-b678-4f5b-a84b-2617db73b1c3",
+            "input_video",
+            "params.medias[4].data",
+            null
+          ],
+          [
+            "90fdd8b9-014c-4f22-910c-b6646dffd9c6",
+            "input_image",
+            "params.medias[2].data",
+            null
+          ],
+          [
+            "927377e0-09c7-4b79-9968-5015a9162ec6",
+            "input_image",
+            "params.medias[0].data",
+            null
+          ],
+          [
+            "990e3198-1e65-4ffe-92bb-23e70116d557",
+            "input_image",
+            "params.medias[3].data",
+            null
+          ]
+        ],
+        "generation_batch_id": "92a7eb25-2682-495f-8d2a-ee016764ee1f",
+        "generation_id": "3894fc5f-cd0a-42f6-9fa3-4568ce351a71",
+        "generation_type": "video",
+        "model_identifier": "seedance_2_5",
+        "nonmedia_scalar_controls_sha256": "ff3befda8020fff656bbc9c0dfc4f032bf125a31513b9d74cc97a45c0b5bba1a",
+        "parameter_state": "object",
+        "prompt_sha256": "45e66e7618004b4572287e197e8515214f0c8f85355bb10b1d7ef1625273cd5e",
+        "prompt_state": "nonempty",
+        "raw_selected_controls": {
+          "aspect_ratio": {
+            "raw_value": "16:9",
+            "state": "scalar"
+          },
+          "draft": {
+            "raw_value": false,
+            "state": "scalar"
+          },
+          "duration": {
+            "raw_value": 12,
+            "state": "scalar"
+          },
+          "extension_mode": {
+            "raw_value": "forward",
+            "state": "scalar"
+          },
+          "generate_audio": {
+            "raw_value": true,
+            "state": "scalar"
+          },
+          "height": {
+            "raw_value": 480,
+            "state": "scalar"
+          },
+          "is_inpaint": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_value": "video_extension",
+            "state": "scalar"
+          },
+          "model_version": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_value": false,
+            "state": "scalar"
+          },
+          "output_height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_value": "480p",
+            "state": "scalar"
+          },
+          "seed": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_value": 854,
+            "state": "scalar"
+          }
+        },
+        "source_path": "generations.prompt/parameters_json; asset_usages"
+      },
+      {
+        "bindings": [
+          [
+            "3894fc5f-cd0a-42f6-9fa3-4568ce351a71",
+            "input_video",
+            "params.medias[1].data",
+            null
+          ],
+          [
+            "685ee873-2131-41fd-a606-361712b9aeb6",
+            "input_image",
+            "params.medias[0].data",
+            null
+          ]
+        ],
+        "generation_batch_id": "374554f8-48f2-43ea-ad20-fbd9ac4e0a83",
+        "generation_id": "795abb74-6ee2-457f-b512-79f2448a2eef",
+        "generation_type": "video",
+        "model_identifier": "hf_mult_replace_object",
+        "nonmedia_scalar_controls_sha256": "bf46db8be1de741d42ae42c4ed06cafefbad1edde401652bf16d3b0f4e84fc05",
+        "parameter_state": "object",
+        "prompt_sha256": "8162a18f596c9f48001aa92d73f8b4a8efc2146c71062806ffab15b3fd54aeb0",
+        "prompt_state": "nonempty",
+        "raw_selected_controls": {
+          "aspect_ratio": {
+            "raw_value": "auto",
+            "state": "scalar"
+          },
+          "draft": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "duration": {
+            "raw_value": 13,
+            "state": "scalar"
+          },
+          "extension_mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "generate_audio": {
+            "raw_value": false,
+            "state": "scalar"
+          },
+          "height": {
+            "raw_value": 480,
+            "state": "scalar"
+          },
+          "is_inpaint": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model_version": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_value": "720p",
+            "state": "scalar"
+          },
+          "seed": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_value": 854,
+            "state": "scalar"
+          }
+        },
+        "source_path": "generations.prompt/parameters_json; asset_usages"
+      }
+    ],
+    "producer_consumer_edge": true
+  },
+  {
+    "approval": "unknown",
+    "code_id": "09.3",
+    "comparison_order": "producer_to_consumer",
+    "delta": {
+      "controls_changed": 0,
+      "controls_comparable": 1,
+      "input_added": 1,
+      "input_removed": 1,
+      "input_replacement_candidate": 1,
+      "inputs_changed": 1,
+      "longer_text": 1,
+      "model_changed": 0,
+      "model_comparable": 1,
+      "pairs": 1,
+      "preservation_added": 0,
+      "preservation_removed": 0,
+      "role_bindings_changed": 1,
+      "same_type": 1,
+      "text_changed": 1,
+      "text_comparable": 1,
+      "text_equal": 0,
+      "token_addition": 1,
+      "token_deletion": 1
+    },
+    "evidence_id": "the-kiss:09.3",
+    "film_id": "655325cc-46d9-4b0b-b03d-d177defa4b3f",
+    "interpretation": "text_addition|specificity",
+    "interpretation_label": "inferred",
+    "members": [
+      {
+        "bindings": [
+          [
+            "1db5322b-d24b-4649-b9e2-abd281b068eb",
+            "input_asset",
+            "params.input_images[0]",
+            null
+          ]
+        ],
+        "generation_batch_id": "322db728-3659-4c92-bdf2-e58f1d103e91",
+        "generation_id": "6672ee33-d850-4db4-b78f-667905814400",
+        "generation_type": "image",
+        "model_identifier": "nano_banana_2",
+        "nonmedia_scalar_controls_sha256": "1880c5e4561fba5616d88ab4daf3a484c81e596f4a242b0c9eec7ce68d33bdc0",
+        "parameter_state": "object",
+        "prompt_sha256": "b42d2d63b13801da1e90a0e679f147f1c8d2c11221e2c73a00c734688a951867",
+        "prompt_state": "nonempty",
+        "raw_selected_controls": {
+          "aspect_ratio": {
+            "raw_value": "16:9",
+            "state": "scalar"
+          },
+          "draft": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "duration": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "extension_mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "generate_audio": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_value": 1536,
+            "state": "scalar"
+          },
+          "is_inpaint": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model_version": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_value": "2k",
+            "state": "scalar"
+          },
+          "seed": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_value": 2752,
+            "state": "scalar"
+          }
+        },
+        "source_path": "generations.prompt/parameters_json; asset_usages"
+      },
+      {
+        "bindings": [
+          [
+            "6672ee33-d850-4db4-b78f-667905814400",
+            "input_asset",
+            "params.input_images[0]",
+            null
+          ]
+        ],
+        "generation_batch_id": "0871617a-9db1-4123-baa5-81464ded0ac0",
+        "generation_id": "19f73675-b69e-4314-b3a1-f74802df1da2",
+        "generation_type": "image",
+        "model_identifier": "nano_banana_2",
+        "nonmedia_scalar_controls_sha256": "1880c5e4561fba5616d88ab4daf3a484c81e596f4a242b0c9eec7ce68d33bdc0",
+        "parameter_state": "object",
+        "prompt_sha256": "3ba2b1b4f578c397e2fd1f33f58e21383f61fef85906562fd6ec5a3ab6ebf7f0",
+        "prompt_state": "nonempty",
+        "raw_selected_controls": {
+          "aspect_ratio": {
+            "raw_value": "16:9",
+            "state": "scalar"
+          },
+          "draft": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "duration": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "extension_mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "generate_audio": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_value": 1536,
+            "state": "scalar"
+          },
+          "is_inpaint": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model_version": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_value": "2k",
+            "state": "scalar"
+          },
+          "seed": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_value": 2752,
+            "state": "scalar"
+          }
+        },
+        "source_path": "generations.prompt/parameters_json; asset_usages"
+      }
+    ],
+    "producer_consumer_edge": true
+  },
+  {
+    "approval": "unknown",
+    "code_id": "09.4",
+    "comparison_order": "producer_to_consumer",
+    "delta": {
+      "controls_changed": 1,
+      "controls_comparable": 1,
+      "input_added": 1,
+      "input_removed": 1,
+      "input_replacement_candidate": 1,
+      "inputs_changed": 1,
+      "longer_text": 1,
+      "model_changed": 1,
+      "model_comparable": 1,
+      "pairs": 1,
+      "preservation_added": 0,
+      "preservation_removed": 1,
+      "role_bindings_changed": 1,
+      "same_type": 0,
+      "text_changed": 1,
+      "text_comparable": 1,
+      "text_equal": 0,
+      "token_addition": 1,
+      "token_deletion": 1
+    },
+    "evidence_id": "the-kiss:09.4",
+    "film_id": "655325cc-46d9-4b0b-b03d-d177defa4b3f",
+    "interpretation": "reused_for_further_work",
+    "interpretation_label": "observed",
+    "members": [
+      {
+        "bindings": [
+          [
+            "b84bd7c9-2059-4cd9-b4f0-91a754b789f1",
+            "input_asset",
+            "params.input_images[0]",
+            null
+          ]
+        ],
+        "generation_batch_id": "a18b9c0a-bacb-484a-8414-21787612346c",
+        "generation_id": "0035469c-1e6e-4c3f-aad6-bb3ab0bb05ce",
+        "generation_type": "image",
+        "model_identifier": "nano_banana_2",
+        "nonmedia_scalar_controls_sha256": "1880c5e4561fba5616d88ab4daf3a484c81e596f4a242b0c9eec7ce68d33bdc0",
+        "parameter_state": "object",
+        "prompt_sha256": "3580a1cb145859e864c275a736c0f4b1b6a84b6b43a61482add7e2b32edca265",
+        "prompt_state": "nonempty",
+        "raw_selected_controls": {
+          "aspect_ratio": {
+            "raw_value": "16:9",
+            "state": "scalar"
+          },
+          "draft": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "duration": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "extension_mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "generate_audio": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "height": {
+            "raw_value": 1536,
+            "state": "scalar"
+          },
+          "is_inpaint": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model_version": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_value": "2k",
+            "state": "scalar"
+          },
+          "seed": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_value": 2752,
+            "state": "scalar"
+          }
+        },
+        "source_path": "generations.prompt/parameters_json; asset_usages"
+      },
+      {
+        "bindings": [
+          [
+            "0035469c-1e6e-4c3f-aad6-bb3ab0bb05ce",
+            "reference_image",
+            "params.reference_elements[0].medias[0]",
+            "09c84326-15df-4ade-be4e-1ac22fdc5086"
+          ],
+          [
+            "8e934a23-38e4-48e6-8815-de97a02baa21",
+            "reference_image",
+            "params.reference_elements[3].medias[0]",
+            "8622f01a-1557-482a-b67f-19bb94d1daf9"
+          ],
+          [
+            "c6b5c9c0-f3de-4d02-990d-527e429fddeb",
+            "reference_image",
+            "params.reference_elements[1].medias[0]",
+            "0bd2b9c6-ee66-45c8-aca9-6a9bf9800b04"
+          ],
+          [
+            "d35b6204-bd1d-4e70-955c-128e24080a77",
+            "reference_image",
+            "params.reference_elements[2].medias[0]",
+            "37793e27-2914-45c8-b2b4-193009ba760c"
+          ],
+          [
+            "e813ff1c-08f6-4d38-ba8f-057e394b703f",
+            "reference_image",
+            "params.reference_elements[4].medias[0]",
+            "945dca44-d34d-486d-a419-880e1ff0d27b"
+          ]
+        ],
+        "generation_batch_id": "73d81ba4-4a9a-4803-9ea1-33b17867b220",
+        "generation_id": "122382c3-e873-4845-8a14-89ff9dfa215e",
+        "generation_type": "video",
+        "model_identifier": "seedance_2_5",
+        "nonmedia_scalar_controls_sha256": "2bfc140e69f5bcb7e858732ec22e1ba825de77dd97222abe25802c1bcbabf82e",
+        "parameter_state": "object",
+        "prompt_sha256": "e7eb65a2a23a1b8bb6e49c3348698cfcb7eeb5c66c241ab4487324cf73bec9c3",
+        "prompt_state": "nonempty",
+        "raw_selected_controls": {
+          "aspect_ratio": {
+            "raw_value": "16:9",
+            "state": "scalar"
+          },
+          "draft": {
+            "raw_value": false,
+            "state": "scalar"
+          },
+          "duration": {
+            "raw_value": 12,
+            "state": "scalar"
+          },
+          "extension_mode": {
+            "raw_value": null,
+            "state": "null"
+          },
+          "generate_audio": {
+            "raw_value": true,
+            "state": "scalar"
+          },
+          "height": {
+            "raw_value": 720,
+            "state": "scalar"
+          },
+          "is_inpaint": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_value": "default",
+            "state": "scalar"
+          },
+          "model_version": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_value": false,
+            "state": "scalar"
+          },
+          "output_height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_value": "720p",
+            "state": "scalar"
+          },
+          "seed": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_value": 1280,
+            "state": "scalar"
+          }
+        },
+        "source_path": "generations.prompt/parameters_json; asset_usages"
+      }
+    ],
+    "producer_consumer_edge": true
+  },
+  {
+    "approval": "unknown",
+    "code_id": "09.4",
+    "comparison_order": "producer_to_consumer",
+    "delta": {
+      "controls_changed": 0,
+      "controls_comparable": 1,
+      "input_added": 1,
+      "input_removed": 1,
+      "input_replacement_candidate": 1,
+      "inputs_changed": 1,
+      "longer_text": 0,
+      "model_changed": 0,
+      "model_comparable": 1,
+      "pairs": 1,
+      "preservation_added": 0,
+      "preservation_removed": 0,
+      "role_bindings_changed": 1,
+      "same_type": 1,
+      "text_changed": 1,
+      "text_comparable": 1,
+      "text_equal": 0,
+      "token_addition": 1,
+      "token_deletion": 1
+    },
+    "evidence_id": "the-staff:09.4",
+    "film_id": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce",
+    "interpretation": "reused_for_further_work",
+    "interpretation_label": "observed",
+    "members": [
+      {
+        "bindings": [
+          [
+            "792ce547-74ce-4662-bdc5-4de66bd2a482",
+            "reference_image",
+            "params.reference_elements[3].medias[0]",
+            "fbd95322-1f21-4fe5-8d06-66307d369caf"
+          ],
+          [
+            "7c3eaced-de5f-4ef7-9158-3c4f5e13b1fe",
+            "reference_image",
+            "params.reference_elements[1].medias[0]",
+            "5f573678-8b90-4dff-8b20-96207e2907ca"
+          ],
+          [
+            "e30ae7e3-8712-47a5-887b-ea76e8a4cfb2",
+            "reference_image",
+            "params.reference_elements[2].medias[0]",
+            "dfe796ce-6a4c-4b43-a08f-34d2d838ac9d"
+          ],
+          [
+            "eaed7c4c-d0b5-4154-822c-5b31924b3638",
+            "reference_image",
+            "params.reference_elements[0].medias[0]",
+            "4eed9d09-914c-4abe-a32c-b25bafb528cc"
+          ],
+          [
+            "eb459eee-a57c-4942-b813-20966e927ef8",
+            "input_image",
+            "params.medias[0].data",
+            null
+          ]
+        ],
+        "generation_batch_id": "97591f07-a609-410a-b687-86368b49502a",
+        "generation_id": "0e619b88-43ef-4a45-84c3-b7b86ac96fe4",
+        "generation_type": "video",
+        "model_identifier": "seedance_2_5",
+        "nonmedia_scalar_controls_sha256": "906ca2467c8ddbfbb557bee81bc733b59ca652d0375f8e663a770e1a993e13d9",
+        "parameter_state": "object",
+        "prompt_sha256": "57d87de3651915b690c6c62c7d70b9f4d823845aab6fdbd6706c4cc7e6cc3d49",
+        "prompt_state": "nonempty",
+        "raw_selected_controls": {
+          "aspect_ratio": {
+            "raw_value": "16:9",
+            "state": "scalar"
+          },
+          "draft": {
+            "raw_value": false,
+            "state": "scalar"
+          },
+          "duration": {
+            "raw_value": 15,
+            "state": "scalar"
+          },
+          "extension_mode": {
+            "raw_value": null,
+            "state": "null"
+          },
+          "generate_audio": {
+            "raw_value": true,
+            "state": "scalar"
+          },
+          "height": {
+            "raw_value": 1080,
+            "state": "scalar"
+          },
+          "is_inpaint": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_value": "default",
+            "state": "scalar"
+          },
+          "model_version": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_value": false,
+            "state": "scalar"
+          },
+          "output_height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_value": "1080p",
+            "state": "scalar"
+          },
+          "seed": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_value": 1920,
+            "state": "scalar"
+          }
+        },
+        "source_path": "generations.prompt/parameters_json; asset_usages"
+      },
+      {
+        "bindings": [
+          [
+            "0e619b88-43ef-4a45-84c3-b7b86ac96fe4",
+            "input_video",
+            "params.medias[1].data",
+            null
+          ],
+          [
+            "792ce547-74ce-4662-bdc5-4de66bd2a482",
+            "reference_image",
+            "params.reference_elements[3].medias[0]",
+            "fbd95322-1f21-4fe5-8d06-66307d369caf"
+          ],
+          [
+            "7c3eaced-de5f-4ef7-9158-3c4f5e13b1fe",
+            "reference_image",
+            "params.reference_elements[1].medias[0]",
+            "5f573678-8b90-4dff-8b20-96207e2907ca"
+          ],
+          [
+            "7da82d85-4503-476f-b9f1-a345744bb3ba",
+            "reference_image",
+            "params.reference_elements[0].medias[0]",
+            "4e4fd145-5cd9-4768-a6ec-53d03b396356"
+          ],
+          [
+            "e30ae7e3-8712-47a5-887b-ea76e8a4cfb2",
+            "reference_image",
+            "params.reference_elements[2].medias[0]",
+            "dfe796ce-6a4c-4b43-a08f-34d2d838ac9d"
+          ],
+          [
+            "eb459eee-a57c-4942-b813-20966e927ef8",
+            "input_image",
+            "params.medias[0].data",
+            null
+          ]
+        ],
+        "generation_batch_id": "2e2b2d71-85eb-4001-9857-456abcf0d86e",
+        "generation_id": "1d963033-bc45-495d-9bfa-a05e4d0cf918",
+        "generation_type": "video",
+        "model_identifier": "seedance_2_5",
+        "nonmedia_scalar_controls_sha256": "906ca2467c8ddbfbb557bee81bc733b59ca652d0375f8e663a770e1a993e13d9",
+        "parameter_state": "object",
+        "prompt_sha256": "c5e49b753f2a7dba34202daad8a03ad9c4ed33c1728e550bbe9f6ff9efd068f0",
+        "prompt_state": "nonempty",
+        "raw_selected_controls": {
+          "aspect_ratio": {
+            "raw_value": "16:9",
+            "state": "scalar"
+          },
+          "draft": {
+            "raw_value": false,
+            "state": "scalar"
+          },
+          "duration": {
+            "raw_value": 15,
+            "state": "scalar"
+          },
+          "extension_mode": {
+            "raw_value": null,
+            "state": "null"
+          },
+          "generate_audio": {
+            "raw_value": true,
+            "state": "scalar"
+          },
+          "height": {
+            "raw_value": 1080,
+            "state": "scalar"
+          },
+          "is_inpaint": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "mode": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "model": {
+            "raw_value": "default",
+            "state": "scalar"
+          },
+          "model_version": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "multi_shots": {
+            "raw_value": false,
+            "state": "scalar"
+          },
+          "output_height": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "output_width": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "resolution": {
+            "raw_value": "1080p",
+            "state": "scalar"
+          },
+          "seed": {
+            "raw_value": null,
+            "state": "absent"
+          },
+          "width": {
+            "raw_value": 1920,
+            "state": "scalar"
+          }
+        },
+        "source_path": "generations.prompt/parameters_json; asset_usages"
+      }
+    ],
+    "producer_consumer_edge": true
+  }
+]

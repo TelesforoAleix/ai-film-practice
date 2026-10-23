@@ -27,3 +27,5 @@ registered films across all 49 shared codes for Studies 02–10, with scoped evi
 [Study 07 — Lineage and cross-shot reuse](07-lineage/README.md): typed disclosed graphs, shared-source/chaining comparisons, all sixteen panel maps and a proposed invalidation policy.
 
 [Study 08 — Model roles and workflow](08-workflow/README.md): literal model/operation and scoped semantic role matrices, explicit model transitions versus co-occurrence, overlapping workflow archetypes, traced handoffs and proposed node contracts across 157 primary histories; Study 04 semantic refinement remains pending.
+
+[Study 09 — Iteration](09-iteration/README.md): overlapping candidate-family rules, prompt/input/control comparisons and further-work adoption across 157 primary histories; traced revision histories, an iteration taxonomy and proposed review states with bounded retry, while semantic refinement waits on Study 04.

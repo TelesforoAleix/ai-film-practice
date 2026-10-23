@@ -1,0 +1,14 @@
+code_id,status,value,assignments,panel_films_denominator
+09.1,coded,shared_inputs,15,16
+09.1,unknown,\N,1,16
+09.2,coded,local_correction_request,9,16
+09.2,coded,rerun,6,16
+09.2,unknown,\N,1,16
+09.3,coded,input_replacement,1,16
+09.3,coded,specificity,4,16
+09.3,coded,text_addition|preservation,1,16
+09.3,coded,text_addition|specificity,1,16
+09.3,not_observed_in_scope,\N,1,16
+09.3,unknown,\N,8,16
+09.4,coded,reused_for_further_work,13,16
+09.4,unknown,\N,3,16

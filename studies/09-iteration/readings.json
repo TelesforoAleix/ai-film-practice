@@ -1,0 +1,13 @@
+[
+  {"evidence_id":"the-kiss:09.3","member_index":0,"span":"Add the words \"The Kiss\""},
+  {"evidence_id":"the-kiss:09.3","member_index":1,"span":"Move the entire title \"The Kiss\" UP"},
+  {"evidence_id":"the-kiss:09.3","member_index":1,"span":"Reduce the title's size slightly"},
+  {"evidence_id":"lost:09.3","member_index":0,"span":"make everything the same"},
+  {"evidence_id":"lost:09.3","member_index":1,"span":"one continuous shot with no cuts"},
+  {"evidence_id":"prophecy-in-2047:09.3","member_index":0,"span":"Identical repeating segments"},
+  {"evidence_id":"prophecy-in-2047:09.3","member_index":1,"span":"Only its age, its power state and its palette"},
+  {"evidence_id":"random-access-memories:09.3","member_index":0,"span":"make prop sheet of a Commodore 64 console"},
+  {"evidence_id":"random-access-memories:09.3","member_index":1,"span":"overused, tape around it"},
+  {"evidence_id":"snap:09.3","member_index":0,"span":"only the box with the ball in it"},
+  {"evidence_id":"snap:09.3","member_index":1,"span":"make the full photo the box"}
+]
