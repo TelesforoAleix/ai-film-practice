@@ -1,0 +1,53 @@
+{
+  "all_length_stratum_mass": 61676,
+  "covered_stratum_mass": 55609,
+  "crosswalk_matches": 160526,
+  "eligible_stratum_mass": 55753,
+  "globally_distinct_texts": 61422,
+  "long_texts": {
+    "distinct_texts_denominator": 61422,
+    "excluded_long_texts": 5922,
+    "excluded_share": 0.09641496532187165,
+    "structural_by_eligibility": [
+      {
+        "camera_matches_mean": 19.491219182708544,
+        "characters_mean": 17876.2863897332,
+        "exclusion_matches_mean": 79.14809186085782,
+        "lens_matches_mean": 8.678318135764945,
+        "preservation_matches_mean": 1.7529550827423168,
+        "semantic_eligible": false,
+        "structured_json_mean": 0.003883823032759203,
+        "texts_denominator": 5922,
+        "xml_like_mean": 0.0
+      },
+      {
+        "camera_matches_mean": 3.300846846846847,
+        "characters_mean": 3259.5858018018016,
+        "exclusion_matches_mean": 12.546576576576577,
+        "lens_matches_mean": 1.9513333333333334,
+        "preservation_matches_mean": 0.732954954954955,
+        "semantic_eligible": true,
+        "structured_json_mean": 0.00463063063063063,
+        "texts_denominator": 55500,
+        "xml_like_mean": 0.0
+      }
+    ]
+  },
+  "nonempty_fields": 160526,
+  "primary_fields": 124449,
+  "sample": {
+    "failure_share_of_terminal": 0.0734,
+    "failures": 367,
+    "pending_attempts": 0,
+    "sample_texts_denominator": 5000,
+    "successes": 4633,
+    "terminal_texts": 5000,
+    "without_terminal": 0
+  },
+  "sampled_strata": 338,
+  "source_fields": 166781,
+  "source_span_checks": 47666,
+  "strata": 481,
+  "successful_strata": 338,
+  "withheld_full_fields": 35
+}

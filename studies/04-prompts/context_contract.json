@@ -1,0 +1,35 @@
+{
+  "study": "04",
+  "evidence_label": "proposed",
+  "status": "Information and behaviour specification only; no architecture or persistence implementation",
+  "layers": [
+    {"name": "project_rules", "fields": ["film_id", "project_version", "scoped_claims", "source_evidence", "approval_state"]},
+    {"name": "entity_context", "fields": ["film_scoped_entity_id", "immutable_version", "source_asset_ids", "identity_properties", "variable_properties", "property_authority", "approval_state"]},
+    {"name": "scene_state", "fields": ["scene_id_or_unknown", "version", "setting", "entity_states", "spatial_relations", "invariants", "source_evidence"]},
+    {"name": "shot_task", "fields": ["task_id", "task_version", "shot_ids_or_unknown", "operation", "subject_action", "camera_action", "timing", "audio_intent", "requested_outputs"]},
+    {"name": "attached_assets", "fields": ["film_id", "asset_id", "version_or_unknown", "reference_id_or_null", "raw_role", "raw_parameter_path", "property_scope", "content_observability", "producer_or_unknown"]},
+    {"name": "constraints", "fields": ["property", "allowed_change", "invariant", "exclusion", "scope", "source_channel", "source_path", "short_span_or_withheld_hash", "evidence_label", "authority_or_unknown"]},
+    {"name": "operation_instructions", "fields": ["literal_model_id", "version_state", "raw_controls", "control_states", "primary_text_hash_and_path", "negative_fields", "shot_fields", "other_text_fields", "adapter_mapping_version"]}
+  ],
+  "claim_record": ["study", "film_id", "compound_entity_keys", "source_path", "excerpt_or_withheld_marker", "evidence_label", "competing_explanation", "denominator", "confidence_rationale"],
+  "assembly": [
+    "Preserve original fields/hashes and role/path. Null, empty, absent, invalid, false and zero remain distinct.",
+    "Resolve explicit chosen film/entity/version bindings. A token without a binding stays unresolved; presets never become media.",
+    "Assemble only scope-relevant project/entity/scene/task claims with their provenance. Do not invent properties from unseen media or field names.",
+    "Apply only explicitly declared property-scoped authority. Layer order does not create implicit precedence. Surface incompatible or ambiguous claims for a human decision.",
+    "Retain requested timing/multi-shot/audio beside literal model controls; validate declared adapter mapping without guessing defaults or units.",
+    "Record assembled field hashes, source versions, excluded claims and decision reasons as an immutable candidate request. Preserve old requests on changes.",
+    "Keep returned candidate, further-work reuse, review and approval separate; reuse/completed status cannot approve. Human chooses task/version attempt cap as Study 09 proposes."
+  ],
+  "readiness": "Missing required source/version, unresolved binding or unresolved same-property authority blocks only the proposed dispatch dependent on it. Human resolves scope; a planning model may propose, never approve or invent evidence.",
+  "validation_tests": [
+    "Cross-film ID collision and duplicate role/path occurrences preserve identities and one source count.",
+    "Unseen attached image leaves lighting/material/identity contents unknown even if text names those properties.",
+    "Broad preservation with permitted relighting retains both spans and scopes; no silent last-layer-wins rule.",
+    "No-speech and appended speech instructions require a scoped human decision; no model-failure claim.",
+    "False multi_shots plus six-shot text round-trip without forced equivalence; invalid JSON supplies no controls.",
+    "A changed source/version creates a new candidate request and review causes, no automatic rerun or approval.",
+    "On authorised fixed tasks, compare complete versus scope-filtered context with independent human rubric, declared repetitions/budget; test fulfilment separately from archive prevalence."
+  ],
+  "dependencies": {"09": "Consume merged candidate-family/review boundaries; context equivalence remains provisional", "12": "Independent adjudication, adapter validation, implementation decisions and controlled benefit tests"}
+}

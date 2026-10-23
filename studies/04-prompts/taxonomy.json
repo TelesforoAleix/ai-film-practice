@@ -1,0 +1,19 @@
+{
+  "study": "04",
+  "codebook_version": "1.0",
+  "evidence_label": "inferred",
+  "axes": {
+    "source_role": {
+      "primary": "generations.prompt; omit byte-identical nested primary source path",
+      "negative": "Explicit negative role at a different field path",
+      "shot_prompt": "params.multi_prompt[*].prompt at a different field path",
+      "other_text": "Remaining nested paths; prompt_language is metadata; enhanced/source prompts stay separate",
+      "script": "No explicit script path exported; dialogue/script intent cannot be enumerated from role alone"
+    },
+    "semantic_components": ["subject", "identity", "action", "environment", "spatial", "composition", "lens_framing", "camera_motion", "lighting", "material", "aesthetic_intent", "timing", "exclusion", "preservation"],
+    "structure": "Unchanged prompt-labels-v1 rules: short edit <=300 chars plus edit words; long description >=1000 chars; sections; parsed JSON; XML-like; reference tokens; multi-shot markers; exact repeated lines >=40 chars",
+    "task": "Literal generation_type, raw controls and bound input roles; semantic purpose only on named case evidence",
+    "information_location": ["text_explicit", "reference_metadata_explicit", "parameter_recorded", "media_attached_content_unknown", "possible_conflict_unadjudicated", "unobservable"]
+  },
+  "limits": "Axes overlap. Structural short/long proxies never establish semantic edits, complete scenes, overload or success. No provider defaults or hidden instructions recovered. Media never viewed."
+}
