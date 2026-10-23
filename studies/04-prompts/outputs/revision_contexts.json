@@ -1,0 +1,737 @@
+[
+  {
+    "comparison_order": "named_comparison_only",
+    "competing_explanation": "Preparation or new candidate; ordered correction is not established",
+    "confidence_rationale": "Exact released-key/count correspondence; lexical matches are structural. 27B semantics are provisional, single-agent gold unadjudicated; see agreement.csv and semantic_bounds.csv. No outcome or causal inference.",
+    "denominator": "One named pair; seven purposive histories",
+    "evidence_id": "detour:09.3",
+    "evidence_label": "inferred",
+    "film_id": "d90fe8bd-3329-40b3-963c-d9b33075aec1",
+    "interpretation": "input_replacement",
+    "members": [
+      {
+        "characters": 3084,
+        "components": null,
+        "generation_id": "093e4529-6ad2-4ab4-9703-12dbd79de477",
+        "model_identifier": "seedance_2_5",
+        "raw_controls": {
+          "aspect_ratio": {
+            "state": "scalar",
+            "value": "21:9"
+          },
+          "duration": {
+            "state": "scalar",
+            "value": 10
+          },
+          "generate_audio": {
+            "state": "scalar",
+            "value": true
+          },
+          "is_inpaint": {
+            "state": "absent",
+            "value": null
+          },
+          "mode": {
+            "state": "absent",
+            "value": null
+          },
+          "model": {
+            "state": "scalar",
+            "value": "default"
+          },
+          "model_version": {
+            "state": "absent",
+            "value": null
+          },
+          "multi_shots": {
+            "state": "scalar",
+            "value": false
+          },
+          "resolution": {
+            "state": "scalar",
+            "value": "720p"
+          }
+        },
+        "sample_status": "not_sampled",
+        "text_sha256": "6af85c8193c05f731662ec2d4b22f1ce55de1c8c8cb72a1d498e26c8397e689a"
+      },
+      {
+        "characters": 3084,
+        "components": null,
+        "generation_id": "c430fa55-2065-4ca3-8114-7698cbcb36c3",
+        "model_identifier": "seedance_2_5",
+        "raw_controls": {
+          "aspect_ratio": {
+            "state": "scalar",
+            "value": "16:9"
+          },
+          "duration": {
+            "state": "scalar",
+            "value": 10
+          },
+          "generate_audio": {
+            "state": "scalar",
+            "value": true
+          },
+          "is_inpaint": {
+            "state": "absent",
+            "value": null
+          },
+          "mode": {
+            "state": "absent",
+            "value": null
+          },
+          "model": {
+            "state": "scalar",
+            "value": "default"
+          },
+          "model_version": {
+            "state": "absent",
+            "value": null
+          },
+          "multi_shots": {
+            "state": "scalar",
+            "value": false
+          },
+          "resolution": {
+            "state": "scalar",
+            "value": "720p"
+          }
+        },
+        "sample_status": "not_sampled",
+        "text_sha256": "07acf0890a18afadeaac3c3e80cf0b5920b75551b1d05e13b3c909593ef4b129"
+      }
+    ],
+    "source_path": "studies/09-iteration/outputs/revision_histories.json; generations"
+  },
+  {
+    "comparison_order": "producer_to_consumer",
+    "competing_explanation": "Preparation or new candidate; ordered correction is not established",
+    "confidence_rationale": "Exact released-key/count correspondence; lexical matches are structural. 27B semantics are provisional, single-agent gold unadjudicated; see agreement.csv and semantic_bounds.csv. No outcome or causal inference.",
+    "denominator": "One named pair; seven purposive histories",
+    "evidence_id": "dont-poison-ivy:09.3",
+    "evidence_label": "inferred",
+    "film_id": "d305f6e5-b906-49a1-a0c6-75ef7f653ad8",
+    "interpretation": "specificity",
+    "members": [
+      {
+        "characters": 3063,
+        "components": null,
+        "generation_id": "c16ce530-c7d1-461a-acc8-63b8d7de63b1",
+        "model_identifier": "nano_banana_2",
+        "raw_controls": {
+          "aspect_ratio": {
+            "state": "scalar",
+            "value": "4:5"
+          },
+          "duration": {
+            "state": "absent",
+            "value": null
+          },
+          "generate_audio": {
+            "state": "absent",
+            "value": null
+          },
+          "is_inpaint": {
+            "state": "absent",
+            "value": null
+          },
+          "mode": {
+            "state": "absent",
+            "value": null
+          },
+          "model": {
+            "state": "absent",
+            "value": null
+          },
+          "model_version": {
+            "state": "absent",
+            "value": null
+          },
+          "multi_shots": {
+            "state": "absent",
+            "value": null
+          },
+          "resolution": {
+            "state": "scalar",
+            "value": "4k"
+          }
+        },
+        "sample_status": "not_sampled",
+        "text_sha256": "c4d79eeedc064d45e84d8b442a21236e3f61e8de136c9784d8d063b4f2477185"
+      },
+      {
+        "characters": 5151,
+        "components": null,
+        "generation_id": "d720b7d2-ac2c-4eb6-a6cd-4b9de385d4de",
+        "model_identifier": "nano_banana_2",
+        "raw_controls": {
+          "aspect_ratio": {
+            "state": "scalar",
+            "value": "4:5"
+          },
+          "duration": {
+            "state": "absent",
+            "value": null
+          },
+          "generate_audio": {
+            "state": "absent",
+            "value": null
+          },
+          "is_inpaint": {
+            "state": "absent",
+            "value": null
+          },
+          "mode": {
+            "state": "absent",
+            "value": null
+          },
+          "model": {
+            "state": "absent",
+            "value": null
+          },
+          "model_version": {
+            "state": "absent",
+            "value": null
+          },
+          "multi_shots": {
+            "state": "absent",
+            "value": null
+          },
+          "resolution": {
+            "state": "scalar",
+            "value": "4k"
+          }
+        },
+        "sample_status": "not_sampled",
+        "text_sha256": "3eab391368a65a044a45d2c7594bb89d3ff86ca727d4b768e937e5da600d7957"
+      }
+    ],
+    "source_path": "studies/09-iteration/outputs/revision_histories.json; generations"
+  },
+  {
+    "comparison_order": "producer_to_consumer",
+    "competing_explanation": "Preparation or new candidate; ordered correction is not established",
+    "confidence_rationale": "Exact released-key/count correspondence; lexical matches are structural. 27B semantics are provisional, single-agent gold unadjudicated; see agreement.csv and semantic_bounds.csv. No outcome or causal inference.",
+    "denominator": "One named pair; seven purposive histories",
+    "evidence_id": "lost:09.3",
+    "evidence_label": "inferred",
+    "film_id": "e5ce8a79-9375-4e31-84a8-620bd4f07550",
+    "interpretation": "text_addition|preservation",
+    "members": [
+      {
+        "characters": 440,
+        "components": null,
+        "generation_id": "4e117e2d-14cf-46f3-8466-69d0306101ff",
+        "model_identifier": "seedance_2_5",
+        "raw_controls": {
+          "aspect_ratio": {
+            "state": "scalar",
+            "value": "16:9"
+          },
+          "duration": {
+            "state": "scalar",
+            "value": 20
+          },
+          "generate_audio": {
+            "state": "scalar",
+            "value": true
+          },
+          "is_inpaint": {
+            "state": "absent",
+            "value": null
+          },
+          "mode": {
+            "state": "absent",
+            "value": null
+          },
+          "model": {
+            "state": "scalar",
+            "value": "default"
+          },
+          "model_version": {
+            "state": "absent",
+            "value": null
+          },
+          "multi_shots": {
+            "state": "scalar",
+            "value": false
+          },
+          "resolution": {
+            "state": "scalar",
+            "value": "720p"
+          }
+        },
+        "sample_status": "not_sampled",
+        "text_sha256": "dd8829e2ee717aeaf0ca91e310c0384733e2b228fa982ae6c84fe789542caad1"
+      },
+      {
+        "characters": 534,
+        "components": null,
+        "generation_id": "09925f84-295d-42ac-a3f2-d8dbf98a1740",
+        "model_identifier": "seedance_2_5",
+        "raw_controls": {
+          "aspect_ratio": {
+            "state": "scalar",
+            "value": "16:9"
+          },
+          "duration": {
+            "state": "scalar",
+            "value": 20
+          },
+          "generate_audio": {
+            "state": "scalar",
+            "value": true
+          },
+          "is_inpaint": {
+            "state": "absent",
+            "value": null
+          },
+          "mode": {
+            "state": "absent",
+            "value": null
+          },
+          "model": {
+            "state": "scalar",
+            "value": "default"
+          },
+          "model_version": {
+            "state": "absent",
+            "value": null
+          },
+          "multi_shots": {
+            "state": "scalar",
+            "value": false
+          },
+          "resolution": {
+            "state": "scalar",
+            "value": "720p"
+          }
+        },
+        "sample_status": "not_sampled",
+        "text_sha256": "9420ce7a1c8023b19640391a1f3faf3e2acec72b05543c2306a66a71c29b0c14"
+      }
+    ],
+    "source_path": "studies/09-iteration/outputs/revision_histories.json; generations"
+  },
+  {
+    "comparison_order": "producer_to_consumer",
+    "competing_explanation": "Preparation or new candidate; ordered correction is not established",
+    "confidence_rationale": "Exact released-key/count correspondence; lexical matches are structural. 27B semantics are provisional, single-agent gold unadjudicated; see agreement.csv and semantic_bounds.csv. No outcome or causal inference.",
+    "denominator": "One named pair; seven purposive histories",
+    "evidence_id": "prophecy-in-2047:09.3",
+    "evidence_label": "inferred",
+    "film_id": "9b38b885-bf92-484e-8f36-a890e4e10d61",
+    "interpretation": "specificity",
+    "members": [
+      {
+        "characters": 984,
+        "components": null,
+        "generation_id": "4aa39556-be8b-401a-98f1-031cd850cff5",
+        "model_identifier": "gpt_image_2",
+        "raw_controls": {
+          "aspect_ratio": {
+            "state": "scalar",
+            "value": "16:9"
+          },
+          "duration": {
+            "state": "absent",
+            "value": null
+          },
+          "generate_audio": {
+            "state": "absent",
+            "value": null
+          },
+          "is_inpaint": {
+            "state": "absent",
+            "value": null
+          },
+          "mode": {
+            "state": "absent",
+            "value": null
+          },
+          "model": {
+            "state": "scalar",
+            "value": "videotape-alpha"
+          },
+          "model_version": {
+            "state": "absent",
+            "value": null
+          },
+          "multi_shots": {
+            "state": "absent",
+            "value": null
+          },
+          "resolution": {
+            "state": "scalar",
+            "value": "2k"
+          }
+        },
+        "sample_status": "not_sampled",
+        "text_sha256": "45f0fee8f1f41b7d2b77312375116536188f158505562043e76e80de1a80ee64"
+      },
+      {
+        "characters": 3115,
+        "components": null,
+        "generation_id": "7ef74efa-93a5-4f9b-93b7-520973ad2ac5",
+        "model_identifier": "seedream_v5_pro",
+        "raw_controls": {
+          "aspect_ratio": {
+            "state": "scalar",
+            "value": "21:9"
+          },
+          "duration": {
+            "state": "absent",
+            "value": null
+          },
+          "generate_audio": {
+            "state": "absent",
+            "value": null
+          },
+          "is_inpaint": {
+            "state": "scalar",
+            "value": false
+          },
+          "mode": {
+            "state": "absent",
+            "value": null
+          },
+          "model": {
+            "state": "absent",
+            "value": null
+          },
+          "model_version": {
+            "state": "absent",
+            "value": null
+          },
+          "multi_shots": {
+            "state": "absent",
+            "value": null
+          },
+          "resolution": {
+            "state": "scalar",
+            "value": "2k"
+          }
+        },
+        "sample_status": "not_sampled",
+        "text_sha256": "05306eb6e6cd2bc892c632f0c2f4bbd8a2e00f86f9a0e010ba1fa1a3c83be115"
+      }
+    ],
+    "source_path": "studies/09-iteration/outputs/revision_histories.json; generations"
+  },
+  {
+    "comparison_order": "producer_to_consumer",
+    "competing_explanation": "Preparation or new candidate; ordered correction is not established",
+    "confidence_rationale": "Exact released-key/count correspondence; lexical matches are structural. 27B semantics are provisional, single-agent gold unadjudicated; see agreement.csv and semantic_bounds.csv. No outcome or causal inference.",
+    "denominator": "One named pair; seven purposive histories",
+    "evidence_id": "random-access-memories:09.3",
+    "evidence_label": "inferred",
+    "film_id": "e99b5ad2-8f58-4ef8-a13c-4441cfdd5205",
+    "interpretation": "specificity",
+    "members": [
+      {
+        "characters": 89,
+        "components": null,
+        "generation_id": "a5620e3d-120b-4dd5-ad46-ccb087640437",
+        "model_identifier": "gpt_image_2",
+        "raw_controls": {
+          "aspect_ratio": {
+            "state": "scalar",
+            "value": "1:1"
+          },
+          "duration": {
+            "state": "absent",
+            "value": null
+          },
+          "generate_audio": {
+            "state": "absent",
+            "value": null
+          },
+          "is_inpaint": {
+            "state": "absent",
+            "value": null
+          },
+          "mode": {
+            "state": "absent",
+            "value": null
+          },
+          "model": {
+            "state": "scalar",
+            "value": "videotape-alpha"
+          },
+          "model_version": {
+            "state": "absent",
+            "value": null
+          },
+          "multi_shots": {
+            "state": "absent",
+            "value": null
+          },
+          "resolution": {
+            "state": "scalar",
+            "value": "1k"
+          }
+        },
+        "sample_status": "not_sampled",
+        "text_sha256": "6d77b166cce45f864ec43265b6475a52757c26a8bcfcd3cc2842918e66431249"
+      },
+      {
+        "characters": 101,
+        "components": null,
+        "generation_id": "d0efc423-f288-4e29-9665-e2bd10b23b29",
+        "model_identifier": "nano_banana_2",
+        "raw_controls": {
+          "aspect_ratio": {
+            "state": "scalar",
+            "value": "1:1"
+          },
+          "duration": {
+            "state": "absent",
+            "value": null
+          },
+          "generate_audio": {
+            "state": "absent",
+            "value": null
+          },
+          "is_inpaint": {
+            "state": "absent",
+            "value": null
+          },
+          "mode": {
+            "state": "absent",
+            "value": null
+          },
+          "model": {
+            "state": "absent",
+            "value": null
+          },
+          "model_version": {
+            "state": "absent",
+            "value": null
+          },
+          "multi_shots": {
+            "state": "absent",
+            "value": null
+          },
+          "resolution": {
+            "state": "scalar",
+            "value": "2k"
+          }
+        },
+        "sample_status": "not_sampled",
+        "text_sha256": "1c1d4e55730c96cec0bf8ef832f4e949e970c8ef88b8a2d431737ffef480c8e5"
+      }
+    ],
+    "source_path": "studies/09-iteration/outputs/revision_histories.json; generations"
+  },
+  {
+    "comparison_order": "producer_to_consumer",
+    "competing_explanation": "Preparation or new candidate; ordered correction is not established",
+    "confidence_rationale": "Exact released-key/count correspondence; lexical matches are structural. 27B semantics are provisional, single-agent gold unadjudicated; see agreement.csv and semantic_bounds.csv. No outcome or causal inference.",
+    "denominator": "One named pair; seven purposive histories",
+    "evidence_id": "snap:09.3",
+    "evidence_label": "inferred",
+    "film_id": "aed4098b-3278-4e5d-a347-24fad9cfb9ae",
+    "interpretation": "specificity",
+    "members": [
+      {
+        "characters": 931,
+        "components": null,
+        "generation_id": "0139b8bd-2e52-46e6-bd9e-2ca3dd73259e",
+        "model_identifier": "nano_banana_2",
+        "raw_controls": {
+          "aspect_ratio": {
+            "state": "scalar",
+            "value": "16:9"
+          },
+          "duration": {
+            "state": "absent",
+            "value": null
+          },
+          "generate_audio": {
+            "state": "absent",
+            "value": null
+          },
+          "is_inpaint": {
+            "state": "absent",
+            "value": null
+          },
+          "mode": {
+            "state": "absent",
+            "value": null
+          },
+          "model": {
+            "state": "absent",
+            "value": null
+          },
+          "model_version": {
+            "state": "absent",
+            "value": null
+          },
+          "multi_shots": {
+            "state": "absent",
+            "value": null
+          },
+          "resolution": {
+            "state": "scalar",
+            "value": "1k"
+          }
+        },
+        "sample_status": "not_sampled",
+        "text_sha256": "d70afc95ca291c014fa1f716ead5737d915dc46081993f01db0d48f3ad3cee76"
+      },
+      {
+        "characters": 926,
+        "components": null,
+        "generation_id": "b1e57fe3-968c-40fb-9417-20036906e9fa",
+        "model_identifier": "nano_banana_2",
+        "raw_controls": {
+          "aspect_ratio": {
+            "state": "scalar",
+            "value": "16:9"
+          },
+          "duration": {
+            "state": "absent",
+            "value": null
+          },
+          "generate_audio": {
+            "state": "absent",
+            "value": null
+          },
+          "is_inpaint": {
+            "state": "absent",
+            "value": null
+          },
+          "mode": {
+            "state": "absent",
+            "value": null
+          },
+          "model": {
+            "state": "absent",
+            "value": null
+          },
+          "model_version": {
+            "state": "absent",
+            "value": null
+          },
+          "multi_shots": {
+            "state": "absent",
+            "value": null
+          },
+          "resolution": {
+            "state": "scalar",
+            "value": "1k"
+          }
+        },
+        "sample_status": "not_sampled",
+        "text_sha256": "15e0d57e42300985bbc72bb2aeae2e901fcb725d804ec97b944d345e96e0e11f"
+      }
+    ],
+    "source_path": "studies/09-iteration/outputs/revision_histories.json; generations"
+  },
+  {
+    "comparison_order": "producer_to_consumer",
+    "competing_explanation": "Preparation or new candidate; ordered correction is not established",
+    "confidence_rationale": "Exact released-key/count correspondence; lexical matches are structural. 27B semantics are provisional, single-agent gold unadjudicated; see agreement.csv and semantic_bounds.csv. No outcome or causal inference.",
+    "denominator": "One named pair; seven purposive histories",
+    "evidence_id": "the-kiss:09.3",
+    "evidence_label": "inferred",
+    "film_id": "655325cc-46d9-4b0b-b03d-d177defa4b3f",
+    "interpretation": "text_addition|specificity",
+    "members": [
+      {
+        "characters": 776,
+        "components": null,
+        "generation_id": "6672ee33-d850-4db4-b78f-667905814400",
+        "model_identifier": "nano_banana_2",
+        "raw_controls": {
+          "aspect_ratio": {
+            "state": "scalar",
+            "value": "16:9"
+          },
+          "duration": {
+            "state": "absent",
+            "value": null
+          },
+          "generate_audio": {
+            "state": "absent",
+            "value": null
+          },
+          "is_inpaint": {
+            "state": "absent",
+            "value": null
+          },
+          "mode": {
+            "state": "absent",
+            "value": null
+          },
+          "model": {
+            "state": "absent",
+            "value": null
+          },
+          "model_version": {
+            "state": "absent",
+            "value": null
+          },
+          "multi_shots": {
+            "state": "absent",
+            "value": null
+          },
+          "resolution": {
+            "state": "scalar",
+            "value": "2k"
+          }
+        },
+        "sample_status": "not_sampled",
+        "text_sha256": "b42d2d63b13801da1e90a0e679f147f1c8d2c11221e2c73a00c734688a951867"
+      },
+      {
+        "characters": 1656,
+        "components": null,
+        "generation_id": "19f73675-b69e-4314-b3a1-f74802df1da2",
+        "model_identifier": "nano_banana_2",
+        "raw_controls": {
+          "aspect_ratio": {
+            "state": "scalar",
+            "value": "16:9"
+          },
+          "duration": {
+            "state": "absent",
+            "value": null
+          },
+          "generate_audio": {
+            "state": "absent",
+            "value": null
+          },
+          "is_inpaint": {
+            "state": "absent",
+            "value": null
+          },
+          "mode": {
+            "state": "absent",
+            "value": null
+          },
+          "model": {
+            "state": "absent",
+            "value": null
+          },
+          "model_version": {
+            "state": "absent",
+            "value": null
+          },
+          "multi_shots": {
+            "state": "absent",
+            "value": null
+          },
+          "resolution": {
+            "state": "scalar",
+            "value": "2k"
+          }
+        },
+        "sample_status": "not_sampled",
+        "text_sha256": "3ba2b1b4f578c397e2fd1f33f58e21383f61fef85906562fd6ec5a3ab6ebf7f0"
+      }
+    ],
+    "source_path": "studies/09-iteration/outputs/revision_histories.json; generations"
+  }
+]

@@ -1,0 +1,6421 @@
+[
+  {
+    "evidence_id": "a-tales-before-titanic-tragedy:04.1",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "3f6e509b-f3da-4324-a746-b9d35f0b9845",
+    "generation_id": "416eb299-5a02-4dd1-99c1-8a11d9de0b04",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "612f580b-00fe-4730-a3eb-b2c49902c939",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[1]",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "7a44e44c-7b45-4fc5-8c8b-303f25779194",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[0]",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "nano_banana_2",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "21:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "2k"
+      }
+    },
+    "text_sha256": "15267c9b827ec5be2320aa732a9af2faf2b775e89e1ca94c17531b9cc7e8fc8a",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "a-tales-before-titanic-tragedy:04.2",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "3f6e509b-f3da-4324-a746-b9d35f0b9845",
+    "generation_id": "416eb299-5a02-4dd1-99c1-8a11d9de0b04",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "612f580b-00fe-4730-a3eb-b2c49902c939",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[1]",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "7a44e44c-7b45-4fc5-8c8b-303f25779194",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[0]",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "nano_banana_2",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "21:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "2k"
+      }
+    },
+    "text_sha256": "15267c9b827ec5be2320aa732a9af2faf2b775e89e1ca94c17531b9cc7e8fc8a",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "a-tales-before-titanic-tragedy:04.3",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "3f6e509b-f3da-4324-a746-b9d35f0b9845",
+    "generation_id": "416eb299-5a02-4dd1-99c1-8a11d9de0b04",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "612f580b-00fe-4730-a3eb-b2c49902c939",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[1]",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "7a44e44c-7b45-4fc5-8c8b-303f25779194",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[0]",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "nano_banana_2",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "21:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "2k"
+      }
+    },
+    "text_sha256": "15267c9b827ec5be2320aa732a9af2faf2b775e89e1ca94c17531b9cc7e8fc8a",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "a-tales-before-titanic-tragedy:04.4",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "3f6e509b-f3da-4324-a746-b9d35f0b9845",
+    "generation_id": "416eb299-5a02-4dd1-99c1-8a11d9de0b04",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "612f580b-00fe-4730-a3eb-b2c49902c939",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[1]",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "7a44e44c-7b45-4fc5-8c8b-303f25779194",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[0]",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "nano_banana_2",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "21:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "2k"
+      }
+    },
+    "text_sha256": "15267c9b827ec5be2320aa732a9af2faf2b775e89e1ca94c17531b9cc7e8fc8a",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "a-tales-before-titanic-tragedy:04.5",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "3f6e509b-f3da-4324-a746-b9d35f0b9845",
+    "generation_id": "416eb299-5a02-4dd1-99c1-8a11d9de0b04",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "612f580b-00fe-4730-a3eb-b2c49902c939",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[1]",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "7a44e44c-7b45-4fc5-8c8b-303f25779194",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[0]",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "nano_banana_2",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "21:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "2k"
+      }
+    },
+    "text_sha256": "15267c9b827ec5be2320aa732a9af2faf2b775e89e1ca94c17531b9cc7e8fc8a",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "apeirophobia:04.1",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "c3d8ee5e-b119-4654-99f9-c6545f650635",
+    "generation_id": "0006c19c-a2f7-4464-b1f1-f3cc1dd1f706",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "82a07a57-8a6c-429e-926c-00356ec02018",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[0]",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "nano_banana_2",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "4k"
+      }
+    },
+    "text_sha256": "bc45fd612828eac91bfe94c77fa3d5997b9b9a22bbc986a540e8fefc7b246312",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "apeirophobia:04.2",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "c3d8ee5e-b119-4654-99f9-c6545f650635",
+    "generation_id": "0376b202-36db-4ff5-b12e-5846923cbf28",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "0b16f719-4297-4baa-b6ab-e0722fe728c0",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[0]",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "6fd3c56b-7b0c-47ff-a764-c50bc0eca411",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[1]",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "nano_banana_2",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "4k"
+      }
+    },
+    "text_sha256": "a239b3be8a29fa90c81468033fe05ec581b2bb1af0a71eedaf9f5761d2669e7a",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "apeirophobia:04.3",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "c3d8ee5e-b119-4654-99f9-c6545f650635",
+    "generation_id": "0376b202-36db-4ff5-b12e-5846923cbf28",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "0b16f719-4297-4baa-b6ab-e0722fe728c0",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[0]",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "6fd3c56b-7b0c-47ff-a764-c50bc0eca411",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[1]",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "nano_banana_2",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "4k"
+      }
+    },
+    "text_sha256": "a239b3be8a29fa90c81468033fe05ec581b2bb1af0a71eedaf9f5761d2669e7a",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "apeirophobia:04.4",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "c3d8ee5e-b119-4654-99f9-c6545f650635",
+    "generation_id": "0376b202-36db-4ff5-b12e-5846923cbf28",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "0b16f719-4297-4baa-b6ab-e0722fe728c0",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[0]",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "6fd3c56b-7b0c-47ff-a764-c50bc0eca411",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[1]",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "nano_banana_2",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "4k"
+      }
+    },
+    "text_sha256": "a239b3be8a29fa90c81468033fe05ec581b2bb1af0a71eedaf9f5761d2669e7a",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "apeirophobia:04.5",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "c3d8ee5e-b119-4654-99f9-c6545f650635",
+    "generation_id": "0376b202-36db-4ff5-b12e-5846923cbf28",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "0b16f719-4297-4baa-b6ab-e0722fe728c0",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[0]",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "6fd3c56b-7b0c-47ff-a764-c50bc0eca411",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[1]",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "nano_banana_2",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "4k"
+      }
+    },
+    "text_sha256": "a239b3be8a29fa90c81468033fe05ec581b2bb1af0a71eedaf9f5761d2669e7a",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "birthdays:04.1",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "d51d6821-d191-40f7-949b-1086750a2e93",
+    "generation_id": "0014cfd5-e8f9-4b5a-8ab3-f2f5b93d2452",
+    "generation_type": "video",
+    "inputs": [
+      {
+        "asset_id": "30dd9a2a-6d2b-4ad0-a405-091ff25058f1",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[3].medias[0]",
+        "reference_element_id": "8495b3e8-77ee-483e-901c-799e50887cb2"
+      },
+      {
+        "asset_id": "45285c82-bc05-4548-87a4-b7e865f697ae",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "reference_element_id": "2dd0b27b-5688-4a81-98ef-ebc183a1dd0f"
+      },
+      {
+        "asset_id": "71be540e-a68b-499d-acb3-15ffa2710cfb",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[1].medias[0]",
+        "reference_element_id": "35d644a9-39f6-4443-83ba-3b0cb2394611"
+      },
+      {
+        "asset_id": "e15c133a-857f-45e3-9a10-8710782fbb5d",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[4].medias[0]",
+        "reference_element_id": "b14d5cca-1df8-483b-9107-ad56d04cdf38"
+      },
+      {
+        "asset_id": "fcb240c4-7c0a-4558-80c0-f88eff921f9d",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[2].medias[0]",
+        "reference_element_id": "3b5f46d1-8c3e-498b-b90a-cfadad18520e"
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [
+      {
+        "category": "character",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "2dd0b27b-5688-4a81-98ef-ebc183a1dd0f"
+      },
+      {
+        "category": "auto:character",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "35d644a9-39f6-4443-83ba-3b0cb2394611"
+      },
+      {
+        "category": "prop",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "3b5f46d1-8c3e-498b-b90a-cfadad18520e"
+      },
+      {
+        "category": "prop",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "8495b3e8-77ee-483e-901c-799e50887cb2"
+      },
+      {
+        "category": "environment",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "b14d5cca-1df8-483b-9107-ad56d04cdf38"
+      }
+    ],
+    "model_identifier": "seedance_2_5",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "scalar",
+        "value": 15
+      },
+      "generate_audio": {
+        "state": "scalar",
+        "value": true
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "scalar",
+        "value": "default"
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "scalar",
+        "value": false
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "720p"
+      }
+    },
+    "text_sha256": "e2e2fbd7b333703691536cab13af2f764992036c1d9b33d5b098d0de718de226",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "birthdays:04.2",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "d51d6821-d191-40f7-949b-1086750a2e93",
+    "generation_id": "372eae81-9e4e-4264-adac-febf9565667e",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "37f689e1-04da-473c-9778-97b61732ec90",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "b38a38ab-607f-4228-93ee-f2d940fdb20f",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[1].data",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "seedream_v5_lite",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "absent",
+        "value": null
+      }
+    },
+    "text_sha256": "b88d1979422d363d1c89407c7eccd9050a3e68c254dbc5189ded4c2f3adde72e",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "birthdays:04.3",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "d51d6821-d191-40f7-949b-1086750a2e93",
+    "generation_id": "372eae81-9e4e-4264-adac-febf9565667e",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "37f689e1-04da-473c-9778-97b61732ec90",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "b38a38ab-607f-4228-93ee-f2d940fdb20f",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[1].data",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "seedream_v5_lite",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "absent",
+        "value": null
+      }
+    },
+    "text_sha256": "b88d1979422d363d1c89407c7eccd9050a3e68c254dbc5189ded4c2f3adde72e",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "birthdays:04.4",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "d51d6821-d191-40f7-949b-1086750a2e93",
+    "generation_id": "372eae81-9e4e-4264-adac-febf9565667e",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "37f689e1-04da-473c-9778-97b61732ec90",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "b38a38ab-607f-4228-93ee-f2d940fdb20f",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[1].data",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "seedream_v5_lite",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "absent",
+        "value": null
+      }
+    },
+    "text_sha256": "b88d1979422d363d1c89407c7eccd9050a3e68c254dbc5189ded4c2f3adde72e",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "birthdays:04.5",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "d51d6821-d191-40f7-949b-1086750a2e93",
+    "generation_id": "372eae81-9e4e-4264-adac-febf9565667e",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "37f689e1-04da-473c-9778-97b61732ec90",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "b38a38ab-607f-4228-93ee-f2d940fdb20f",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[1].data",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "seedream_v5_lite",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "absent",
+        "value": null
+      }
+    },
+    "text_sha256": "b88d1979422d363d1c89407c7eccd9050a3e68c254dbc5189ded4c2f3adde72e",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "birthdays:04.6",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "d51d6821-d191-40f7-949b-1086750a2e93",
+    "generation_id": "372eae81-9e4e-4264-adac-febf9565667e",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "37f689e1-04da-473c-9778-97b61732ec90",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "b38a38ab-607f-4228-93ee-f2d940fdb20f",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[1].data",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "seedream_v5_lite",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "absent",
+        "value": null
+      }
+    },
+    "text_sha256": "b88d1979422d363d1c89407c7eccd9050a3e68c254dbc5189ded4c2f3adde72e",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "detour:04.1",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "d90fe8bd-3329-40b3-963c-d9b33075aec1",
+    "generation_id": "1f292a0e-c89b-4c2f-aaa3-23a551f09bf9",
+    "generation_type": "video",
+    "inputs": [
+      {
+        "asset_id": "3cdeb111-4ba8-44c4-ad05-58a8be9f132d",
+        "asset_role": "input_video",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "cbb0da63-c409-4d24-970b-a58266720a4a",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[3].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "ec3ebcb4-d3ed-4a80-b3ac-75049e6d7c4a",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[2].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "ecc1545b-e6b2-4104-87d0-4a0376f32486",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[1].data",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "hf_mult_replace_object",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "auto"
+      },
+      "duration": {
+        "state": "scalar",
+        "value": 6
+      },
+      "generate_audio": {
+        "state": "scalar",
+        "value": false
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "1080p"
+      }
+    },
+    "text_sha256": "2088eed54da1c8a720f2cf13119af58a175d97ce8dc45d28b6ec0f4d4300e176",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "detour:04.2",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "d90fe8bd-3329-40b3-963c-d9b33075aec1",
+    "generation_id": "00406410-315c-4041-b23f-9513cfe2434f",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "103257f3-60f6-4b45-82ee-2d2f75ca0e79",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "943dafcf-4760-4a0a-a237-df90eed708bf",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "reference_element_id": "e4e87392-4622-46e3-9661-45616abcad0f"
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [
+      {
+        "category": "prop",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "e4e87392-4622-46e3-9661-45616abcad0f"
+      }
+    ],
+    "model_identifier": "seedream_v5_pro",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "21:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "scalar",
+        "value": false
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "2k"
+      }
+    },
+    "text_sha256": "2c5461cf9143d8de32a106ff0bb843ae7159479f2b673d1ece9391cda85aee41",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "detour:04.3",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "d90fe8bd-3329-40b3-963c-d9b33075aec1",
+    "generation_id": "00406410-315c-4041-b23f-9513cfe2434f",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "103257f3-60f6-4b45-82ee-2d2f75ca0e79",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "943dafcf-4760-4a0a-a237-df90eed708bf",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "reference_element_id": "e4e87392-4622-46e3-9661-45616abcad0f"
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [
+      {
+        "category": "prop",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "e4e87392-4622-46e3-9661-45616abcad0f"
+      }
+    ],
+    "model_identifier": "seedream_v5_pro",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "21:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "scalar",
+        "value": false
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "2k"
+      }
+    },
+    "text_sha256": "2c5461cf9143d8de32a106ff0bb843ae7159479f2b673d1ece9391cda85aee41",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "detour:04.4",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "d90fe8bd-3329-40b3-963c-d9b33075aec1",
+    "generation_id": "00406410-315c-4041-b23f-9513cfe2434f",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "103257f3-60f6-4b45-82ee-2d2f75ca0e79",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "943dafcf-4760-4a0a-a237-df90eed708bf",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "reference_element_id": "e4e87392-4622-46e3-9661-45616abcad0f"
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [
+      {
+        "category": "prop",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "e4e87392-4622-46e3-9661-45616abcad0f"
+      }
+    ],
+    "model_identifier": "seedream_v5_pro",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "21:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "scalar",
+        "value": false
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "2k"
+      }
+    },
+    "text_sha256": "2c5461cf9143d8de32a106ff0bb843ae7159479f2b673d1ece9391cda85aee41",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "detour:04.5",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "d90fe8bd-3329-40b3-963c-d9b33075aec1",
+    "generation_id": "00406410-315c-4041-b23f-9513cfe2434f",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "103257f3-60f6-4b45-82ee-2d2f75ca0e79",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "943dafcf-4760-4a0a-a237-df90eed708bf",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "reference_element_id": "e4e87392-4622-46e3-9661-45616abcad0f"
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [
+      {
+        "category": "prop",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "e4e87392-4622-46e3-9661-45616abcad0f"
+      }
+    ],
+    "model_identifier": "seedream_v5_pro",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "21:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "scalar",
+        "value": false
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "2k"
+      }
+    },
+    "text_sha256": "2c5461cf9143d8de32a106ff0bb843ae7159479f2b673d1ece9391cda85aee41",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "dont-poison-ivy:04.1",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "d305f6e5-b906-49a1-a0c6-75ef7f653ad8",
+    "generation_id": "0020c74f-ff7e-4aa1-8622-521dda43ea41",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "a22945b9-74e5-438f-9d77-c3b062119c9a",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "seedream_v5_pro",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "scalar",
+        "value": false
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "2k"
+      }
+    },
+    "text_sha256": "d40d5f4e893bc82acb1ffb96eccd7db91790c3eb1136aa98268751636ca9fc8d",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "dont-poison-ivy:04.2",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "d305f6e5-b906-49a1-a0c6-75ef7f653ad8",
+    "generation_id": "5bc1268c-ccc1-419e-bd13-79344eadf228",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "4ebd698e-e1f7-479d-93b0-4043e5e61913",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "c16ce530-c7d1-461a-acc8-63b8d7de63b1",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[1].data",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "seedream_v5_pro",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "scalar",
+        "value": false
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "2k"
+      }
+    },
+    "text_sha256": "8d5015ad2af40b29ae72a6dc5a31ea751323f0a35085b518c7331894c650eb10",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "dont-poison-ivy:04.3",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "d305f6e5-b906-49a1-a0c6-75ef7f653ad8",
+    "generation_id": "5bc1268c-ccc1-419e-bd13-79344eadf228",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "4ebd698e-e1f7-479d-93b0-4043e5e61913",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "c16ce530-c7d1-461a-acc8-63b8d7de63b1",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[1].data",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "seedream_v5_pro",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "scalar",
+        "value": false
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "2k"
+      }
+    },
+    "text_sha256": "8d5015ad2af40b29ae72a6dc5a31ea751323f0a35085b518c7331894c650eb10",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "dont-poison-ivy:04.4",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "d305f6e5-b906-49a1-a0c6-75ef7f653ad8",
+    "generation_id": "5bc1268c-ccc1-419e-bd13-79344eadf228",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "4ebd698e-e1f7-479d-93b0-4043e5e61913",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "c16ce530-c7d1-461a-acc8-63b8d7de63b1",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[1].data",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "seedream_v5_pro",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "scalar",
+        "value": false
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "2k"
+      }
+    },
+    "text_sha256": "8d5015ad2af40b29ae72a6dc5a31ea751323f0a35085b518c7331894c650eb10",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "dont-poison-ivy:04.5",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "d305f6e5-b906-49a1-a0c6-75ef7f653ad8",
+    "generation_id": "5bc1268c-ccc1-419e-bd13-79344eadf228",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "4ebd698e-e1f7-479d-93b0-4043e5e61913",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "c16ce530-c7d1-461a-acc8-63b8d7de63b1",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[1].data",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "seedream_v5_pro",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "scalar",
+        "value": false
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "2k"
+      }
+    },
+    "text_sha256": "8d5015ad2af40b29ae72a6dc5a31ea751323f0a35085b518c7331894c650eb10",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "dont-poison-ivy:04.6",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "d305f6e5-b906-49a1-a0c6-75ef7f653ad8",
+    "generation_id": "c0b9fa1b-fa15-4b73-87b4-6a5da076da99",
+    "generation_type": "video",
+    "inputs": [
+      {
+        "asset_id": "24a85039-4773-4ebd-a29c-9a31deb2fa55",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "reference_element_id": "9870b8ad-8736-413b-9071-dbcba97ead7e"
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [
+      {
+        "category": "auto:environment",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "9870b8ad-8736-413b-9071-dbcba97ead7e"
+      }
+    ],
+    "model_identifier": "seedance_2_5",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "scalar",
+        "value": 12
+      },
+      "generate_audio": {
+        "state": "scalar",
+        "value": true
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "scalar",
+        "value": "default"
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "scalar",
+        "value": false
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "1080p"
+      }
+    },
+    "text_sha256": "b27588a6a48b33250ae5dd6d96a5de97f9da4a9c708eddfa3f9cb0fee01f603c",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "dry-aged-dreams:04.1",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "3777eda4-c15e-4531-9f04-4c02a900f3c3",
+    "generation_id": "07fbedf5-ed3e-4b5e-9de8-17b477ac5d6e",
+    "generation_type": "video",
+    "inputs": [],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "seedance_2_5",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "21:9"
+      },
+      "duration": {
+        "state": "scalar",
+        "value": 4
+      },
+      "generate_audio": {
+        "state": "scalar",
+        "value": true
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "scalar",
+        "value": "default"
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "scalar",
+        "value": false
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "480p"
+      }
+    },
+    "text_sha256": "43171708260e20d1c2ba40280c6eba0fa84944bc5167739440371582522c104f",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "dry-aged-dreams:04.2",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "3777eda4-c15e-4531-9f04-4c02a900f3c3",
+    "generation_id": "3e7791d1-6165-4a81-bbaa-575811c1edd8",
+    "generation_type": "image",
+    "inputs": [],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "nano_banana_2",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "21:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "4k"
+      }
+    },
+    "text_sha256": "4cf2d70ae7e0111df5f4347b9dd244cb388865080cbce556c42d067ead420f04",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "dry-aged-dreams:04.4",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "3777eda4-c15e-4531-9f04-4c02a900f3c3",
+    "generation_id": "3e7791d1-6165-4a81-bbaa-575811c1edd8",
+    "generation_type": "image",
+    "inputs": [],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "nano_banana_2",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "21:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "4k"
+      }
+    },
+    "text_sha256": "4cf2d70ae7e0111df5f4347b9dd244cb388865080cbce556c42d067ead420f04",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "dry-aged-dreams:04.5",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "3777eda4-c15e-4531-9f04-4c02a900f3c3",
+    "generation_id": "3e7791d1-6165-4a81-bbaa-575811c1edd8",
+    "generation_type": "image",
+    "inputs": [],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "nano_banana_2",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "21:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "4k"
+      }
+    },
+    "text_sha256": "4cf2d70ae7e0111df5f4347b9dd244cb388865080cbce556c42d067ead420f04",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "fallen-leaves:04.1",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "6659c520-c88e-4ac7-a2c9-f28d8a40c954",
+    "generation_id": "023fadcd-4fdd-46b9-98f4-1b940839b4c7",
+    "generation_type": "video",
+    "inputs": [
+      {
+        "asset_id": "1cba062c-b6c5-456d-929d-b958859ae105",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "reference_element_id": "272048cd-1ac1-49d5-a338-9a3fc47c1c45"
+      },
+      {
+        "asset_id": "48b2b6e1-2534-4237-863d-227a0179dfe0",
+        "asset_role": "input_video",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "569417f2-69aa-4902-a310-c72188a17c59",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[1].medias[0]",
+        "reference_element_id": "fd822dfb-624f-4d92-a0d3-c4c08df7bdcf"
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [
+      {
+        "category": "character",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "272048cd-1ac1-49d5-a338-9a3fc47c1c45"
+      },
+      {
+        "category": "character",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "fd822dfb-624f-4d92-a0d3-c4c08df7bdcf"
+      }
+    ],
+    "model_identifier": "seedance_2_5",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "21:9"
+      },
+      "duration": {
+        "state": "scalar",
+        "value": 6
+      },
+      "generate_audio": {
+        "state": "scalar",
+        "value": true
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "scalar",
+        "value": "default"
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "scalar",
+        "value": false
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "720p"
+      }
+    },
+    "text_sha256": "ade2cc84b2d56c78f24fdb3b5282b610bfc1a8981bbf990a9007f7add114e09d",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "fallen-leaves:04.2",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "6659c520-c88e-4ac7-a2c9-f28d8a40c954",
+    "generation_id": "330764cc-eb0b-4028-bbca-e45ce5037641",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "1cba062c-b6c5-456d-929d-b958859ae105",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "reference_element_id": "272048cd-1ac1-49d5-a338-9a3fc47c1c45"
+      },
+      {
+        "asset_id": "dc2e911c-3ffc-40af-911b-d4fb2b955c9c",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "ed7ee5c1-f3c7-470d-be25-1dc7bcb35cef",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[1].medias[0]",
+        "reference_element_id": "460c394f-dcc4-4e16-bf88-c734b7c23754"
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [
+      {
+        "category": "character",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "272048cd-1ac1-49d5-a338-9a3fc47c1c45"
+      },
+      {
+        "category": "character",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "460c394f-dcc4-4e16-bf88-c734b7c23754"
+      }
+    ],
+    "model_identifier": "gpt_image_2",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "scalar",
+        "value": "videotape-alpha"
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "1k"
+      }
+    },
+    "text_sha256": "f19458762e697c8a010a99be93cc27b23c590b0b4b3e6662d36632fc07f7d282",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "fallen-leaves:04.3",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "6659c520-c88e-4ac7-a2c9-f28d8a40c954",
+    "generation_id": "330764cc-eb0b-4028-bbca-e45ce5037641",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "1cba062c-b6c5-456d-929d-b958859ae105",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "reference_element_id": "272048cd-1ac1-49d5-a338-9a3fc47c1c45"
+      },
+      {
+        "asset_id": "dc2e911c-3ffc-40af-911b-d4fb2b955c9c",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "ed7ee5c1-f3c7-470d-be25-1dc7bcb35cef",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[1].medias[0]",
+        "reference_element_id": "460c394f-dcc4-4e16-bf88-c734b7c23754"
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [
+      {
+        "category": "character",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "272048cd-1ac1-49d5-a338-9a3fc47c1c45"
+      },
+      {
+        "category": "character",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "460c394f-dcc4-4e16-bf88-c734b7c23754"
+      }
+    ],
+    "model_identifier": "gpt_image_2",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "scalar",
+        "value": "videotape-alpha"
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "1k"
+      }
+    },
+    "text_sha256": "f19458762e697c8a010a99be93cc27b23c590b0b4b3e6662d36632fc07f7d282",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "fallen-leaves:04.4",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "6659c520-c88e-4ac7-a2c9-f28d8a40c954",
+    "generation_id": "330764cc-eb0b-4028-bbca-e45ce5037641",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "1cba062c-b6c5-456d-929d-b958859ae105",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "reference_element_id": "272048cd-1ac1-49d5-a338-9a3fc47c1c45"
+      },
+      {
+        "asset_id": "dc2e911c-3ffc-40af-911b-d4fb2b955c9c",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "ed7ee5c1-f3c7-470d-be25-1dc7bcb35cef",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[1].medias[0]",
+        "reference_element_id": "460c394f-dcc4-4e16-bf88-c734b7c23754"
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [
+      {
+        "category": "character",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "272048cd-1ac1-49d5-a338-9a3fc47c1c45"
+      },
+      {
+        "category": "character",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "460c394f-dcc4-4e16-bf88-c734b7c23754"
+      }
+    ],
+    "model_identifier": "gpt_image_2",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "scalar",
+        "value": "videotape-alpha"
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "1k"
+      }
+    },
+    "text_sha256": "f19458762e697c8a010a99be93cc27b23c590b0b4b3e6662d36632fc07f7d282",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "fallen-leaves:04.5",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "6659c520-c88e-4ac7-a2c9-f28d8a40c954",
+    "generation_id": "7188a902-290f-4b44-9d53-b3b34f1ee492",
+    "generation_type": "image",
+    "inputs": [],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "gpt_image_2",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "scalar",
+        "value": "videotape-alpha"
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "2k"
+      }
+    },
+    "text_sha256": "55bbd07d207496d60242059bfa1d184674b44f1d7b7d840e2ce7e340e7400de6",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "fallen-leaves:04.6",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "6659c520-c88e-4ac7-a2c9-f28d8a40c954",
+    "generation_id": "4e4c57a8-91c0-4fba-9cb5-fd51f45cbe91",
+    "generation_type": "video",
+    "inputs": [
+      {
+        "asset_id": "c5ff459d-0aa0-4bb5-b7db-c586fc31b142",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "reference_element_id": "953d1afa-92c8-485e-bf2c-806fc1cab3e8"
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [
+      {
+        "category": "environment",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "953d1afa-92c8-485e-bf2c-806fc1cab3e8"
+      }
+    ],
+    "model_identifier": "seedance_2_5",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "21:9"
+      },
+      "duration": {
+        "state": "scalar",
+        "value": 8
+      },
+      "generate_audio": {
+        "state": "scalar",
+        "value": true
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "scalar",
+        "value": "default"
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "scalar",
+        "value": false
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "720p"
+      }
+    },
+    "text_sha256": "acae7a7dbb4478d7104fbd801fe8611eb2963de55e2e7c4ecaa538b3df6af28c",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "harmony:04.1",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "2fd725ab-2604-4220-8cca-d332e9de53a2",
+    "generation_id": "001321d4-59f6-4087-868a-41e299e99923",
+    "generation_type": "video",
+    "inputs": [
+      {
+        "asset_id": "331a54a5-9ce2-48da-8356-7c6782d6cd5e",
+        "asset_role": "input_video",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "39841600-fdf7-4380-8b78-aa11168e62b3",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "reference_element_id": "60d59d65-df60-446b-9192-743485a59e23"
+      },
+      {
+        "asset_id": "a78aeead-cf5f-461e-ac3a-a97f43995894",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[1].medias[0]",
+        "reference_element_id": "8d8268fa-5e7d-40bc-8b21-9201abc4ac48"
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [
+      {
+        "category": "character",
+        "description_state": "empty",
+        "name_state": "nonempty",
+        "reference_element_id": "60d59d65-df60-446b-9192-743485a59e23"
+      },
+      {
+        "category": "environment",
+        "description_state": "empty",
+        "name_state": "nonempty",
+        "reference_element_id": "8d8268fa-5e7d-40bc-8b21-9201abc4ac48"
+      }
+    ],
+    "model_identifier": "seedance_2_5",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "scalar",
+        "value": 19
+      },
+      "generate_audio": {
+        "state": "scalar",
+        "value": true
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "scalar",
+        "value": "default"
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "scalar",
+        "value": false
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "1080p"
+      }
+    },
+    "text_sha256": "3047bbb85ffb57445f0719d59f18f4fce1c180a7acf7303f733e7afc6557113c",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "harmony:04.1",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "2fd725ab-2604-4220-8cca-d332e9de53a2",
+    "generation_id": "fad698f5-91a2-4fd1-a2cc-380659ce5614",
+    "generation_type": "video",
+    "inputs": [
+      {
+        "asset_id": "bff0fff9-2b32-41a2-bb0c-2ba288bfe38d",
+        "asset_role": "input_asset",
+        "parameter_path": "params.motion",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "wan2_5_video",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "scalar",
+        "value": 5
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "scalar",
+        "value": "regular"
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "480p"
+      }
+    },
+    "text_sha256": "caa30812e6012df3b218a94953596f7bd44f265859c7d205cbda268989f551da",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "harmony:04.2",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "2fd725ab-2604-4220-8cca-d332e9de53a2",
+    "generation_id": "0205320f-3610-4d27-815d-61e834cbdcc3",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "2b2bc2ea-1247-4456-8e72-1fd57a234fba",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "reference_element_id": "260cc2f6-705c-46af-a586-55a1c5e49889"
+      },
+      {
+        "asset_id": "515a503a-80d1-4526-ae29-b1f0edcd5933",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "9b5d0968-52fa-4f1b-ad47-1fe45cca911f",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[2].medias[0]",
+        "reference_element_id": "7fb91a19-c8ff-4142-9eb6-921875e8e3ff"
+      },
+      {
+        "asset_id": "a439807f-a8a9-458b-978d-e2b08d201d39",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[1].medias[0]",
+        "reference_element_id": "60d59d65-df60-446b-9192-743485a59e23"
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [
+      {
+        "category": "prop",
+        "description_state": "empty",
+        "name_state": "nonempty",
+        "reference_element_id": "260cc2f6-705c-46af-a586-55a1c5e49889"
+      },
+      {
+        "category": "character",
+        "description_state": "empty",
+        "name_state": "nonempty",
+        "reference_element_id": "60d59d65-df60-446b-9192-743485a59e23"
+      },
+      {
+        "category": "environment",
+        "description_state": "empty",
+        "name_state": "nonempty",
+        "reference_element_id": "7fb91a19-c8ff-4142-9eb6-921875e8e3ff"
+      }
+    ],
+    "model_identifier": "gpt_image_2",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "scalar",
+        "value": "videotape-alpha"
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "2k"
+      }
+    },
+    "text_sha256": "d1e9123e1f4dffd8da4630f0c8a065241b9c5833e373752abb02b7bb0b518bc8",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "harmony:04.3",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "2fd725ab-2604-4220-8cca-d332e9de53a2",
+    "generation_id": "0205320f-3610-4d27-815d-61e834cbdcc3",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "2b2bc2ea-1247-4456-8e72-1fd57a234fba",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "reference_element_id": "260cc2f6-705c-46af-a586-55a1c5e49889"
+      },
+      {
+        "asset_id": "515a503a-80d1-4526-ae29-b1f0edcd5933",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "9b5d0968-52fa-4f1b-ad47-1fe45cca911f",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[2].medias[0]",
+        "reference_element_id": "7fb91a19-c8ff-4142-9eb6-921875e8e3ff"
+      },
+      {
+        "asset_id": "a439807f-a8a9-458b-978d-e2b08d201d39",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[1].medias[0]",
+        "reference_element_id": "60d59d65-df60-446b-9192-743485a59e23"
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [
+      {
+        "category": "prop",
+        "description_state": "empty",
+        "name_state": "nonempty",
+        "reference_element_id": "260cc2f6-705c-46af-a586-55a1c5e49889"
+      },
+      {
+        "category": "character",
+        "description_state": "empty",
+        "name_state": "nonempty",
+        "reference_element_id": "60d59d65-df60-446b-9192-743485a59e23"
+      },
+      {
+        "category": "environment",
+        "description_state": "empty",
+        "name_state": "nonempty",
+        "reference_element_id": "7fb91a19-c8ff-4142-9eb6-921875e8e3ff"
+      }
+    ],
+    "model_identifier": "gpt_image_2",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "scalar",
+        "value": "videotape-alpha"
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "2k"
+      }
+    },
+    "text_sha256": "d1e9123e1f4dffd8da4630f0c8a065241b9c5833e373752abb02b7bb0b518bc8",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "harmony:04.4",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "2fd725ab-2604-4220-8cca-d332e9de53a2",
+    "generation_id": "0205320f-3610-4d27-815d-61e834cbdcc3",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "2b2bc2ea-1247-4456-8e72-1fd57a234fba",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "reference_element_id": "260cc2f6-705c-46af-a586-55a1c5e49889"
+      },
+      {
+        "asset_id": "515a503a-80d1-4526-ae29-b1f0edcd5933",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "9b5d0968-52fa-4f1b-ad47-1fe45cca911f",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[2].medias[0]",
+        "reference_element_id": "7fb91a19-c8ff-4142-9eb6-921875e8e3ff"
+      },
+      {
+        "asset_id": "a439807f-a8a9-458b-978d-e2b08d201d39",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[1].medias[0]",
+        "reference_element_id": "60d59d65-df60-446b-9192-743485a59e23"
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [
+      {
+        "category": "prop",
+        "description_state": "empty",
+        "name_state": "nonempty",
+        "reference_element_id": "260cc2f6-705c-46af-a586-55a1c5e49889"
+      },
+      {
+        "category": "character",
+        "description_state": "empty",
+        "name_state": "nonempty",
+        "reference_element_id": "60d59d65-df60-446b-9192-743485a59e23"
+      },
+      {
+        "category": "environment",
+        "description_state": "empty",
+        "name_state": "nonempty",
+        "reference_element_id": "7fb91a19-c8ff-4142-9eb6-921875e8e3ff"
+      }
+    ],
+    "model_identifier": "gpt_image_2",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "scalar",
+        "value": "videotape-alpha"
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "2k"
+      }
+    },
+    "text_sha256": "d1e9123e1f4dffd8da4630f0c8a065241b9c5833e373752abb02b7bb0b518bc8",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "harmony:04.5",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "2fd725ab-2604-4220-8cca-d332e9de53a2",
+    "generation_id": "0205320f-3610-4d27-815d-61e834cbdcc3",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "2b2bc2ea-1247-4456-8e72-1fd57a234fba",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "reference_element_id": "260cc2f6-705c-46af-a586-55a1c5e49889"
+      },
+      {
+        "asset_id": "515a503a-80d1-4526-ae29-b1f0edcd5933",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "9b5d0968-52fa-4f1b-ad47-1fe45cca911f",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[2].medias[0]",
+        "reference_element_id": "7fb91a19-c8ff-4142-9eb6-921875e8e3ff"
+      },
+      {
+        "asset_id": "a439807f-a8a9-458b-978d-e2b08d201d39",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[1].medias[0]",
+        "reference_element_id": "60d59d65-df60-446b-9192-743485a59e23"
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [
+      {
+        "category": "prop",
+        "description_state": "empty",
+        "name_state": "nonempty",
+        "reference_element_id": "260cc2f6-705c-46af-a586-55a1c5e49889"
+      },
+      {
+        "category": "character",
+        "description_state": "empty",
+        "name_state": "nonempty",
+        "reference_element_id": "60d59d65-df60-446b-9192-743485a59e23"
+      },
+      {
+        "category": "environment",
+        "description_state": "empty",
+        "name_state": "nonempty",
+        "reference_element_id": "7fb91a19-c8ff-4142-9eb6-921875e8e3ff"
+      }
+    ],
+    "model_identifier": "gpt_image_2",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "scalar",
+        "value": "videotape-alpha"
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "2k"
+      }
+    },
+    "text_sha256": "d1e9123e1f4dffd8da4630f0c8a065241b9c5833e373752abb02b7bb0b518bc8",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "harmony:04.6",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "2fd725ab-2604-4220-8cca-d332e9de53a2",
+    "generation_id": "16ffcdb7-484b-460d-9f01-0b4d29d0e467",
+    "generation_type": "video",
+    "inputs": [
+      {
+        "asset_id": "7d1acec5-7862-4d28-ac4c-6d50ce90b02a",
+        "asset_role": "input_asset",
+        "parameter_path": "params.camera_aperture",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "86107fa6-421b-467d-bb1f-284bff1bb41d",
+        "asset_role": "input_asset",
+        "parameter_path": "params.camera_lens",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "a439807f-a8a9-458b-978d-e2b08d201d39",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "reference_element_id": "60d59d65-df60-446b-9192-743485a59e23"
+      },
+      {
+        "asset_id": "a48e37fe-5eda-497c-a902-ea0f8d688416",
+        "asset_role": "input_asset",
+        "parameter_path": "params.camera_focal_length",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "b513ddb7-f551-4cc8-8c5f-47b49efef540",
+        "asset_role": "input_asset",
+        "parameter_path": "params.camera_model",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [
+      {
+        "category": "character",
+        "description_state": "empty",
+        "name_state": "nonempty",
+        "reference_element_id": "60d59d65-df60-446b-9192-743485a59e23"
+      }
+    ],
+    "model_identifier": "cinematic_studio_video_3_5",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "scalar",
+        "value": 9
+      },
+      "generate_audio": {
+        "state": "scalar",
+        "value": true
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "scalar",
+        "value": false
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "1080p"
+      }
+    },
+    "text_sha256": "4015639c9bbb98486735a06fda78fc69f75b5ad22ee5ed523df63fa4621ecd84",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "kagerou:04.1",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "51d2c0b2-d692-42b4-b66f-daf87cac1eb3",
+    "generation_id": "000f02e4-e467-4d5b-8144-9f8b5111351e",
+    "generation_type": "video",
+    "inputs": [
+      {
+        "asset_id": "e6d7a26f-0dc2-4eb3-bcc5-27b9e72e3eec",
+        "asset_role": "input_start_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "kling3_0",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "scalar",
+        "value": 10
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "scalar",
+        "value": "pro"
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "scalar",
+        "value": false
+      },
+      "resolution": {
+        "state": "absent",
+        "value": null
+      }
+    },
+    "text_sha256": "4c9238a06b95046a17ce8c40b53bce1ec91b42fe251e3caf0434e8bbaa9506a4",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "kagerou:04.2",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "51d2c0b2-d692-42b4-b66f-daf87cac1eb3",
+    "generation_id": "4e1ed78a-819b-475c-8520-e4515df1c830",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "21cdd520-127b-4472-96cb-73227ad2a57f",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "23c75ad3-31de-407b-b10d-c5ff235fefba",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[1].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "5ce64b17-ba18-497a-950c-c6d47547398d",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[2].data",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "nano_banana_flash",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "4:5"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "scalar",
+        "value": false
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "2k"
+      }
+    },
+    "text_sha256": "0c094842fd8869d242d9060466f07c2afaf6bddf502d8ec2a700cc8b2d0ed293",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "kagerou:04.3",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "51d2c0b2-d692-42b4-b66f-daf87cac1eb3",
+    "generation_id": "4e1ed78a-819b-475c-8520-e4515df1c830",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "21cdd520-127b-4472-96cb-73227ad2a57f",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "23c75ad3-31de-407b-b10d-c5ff235fefba",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[1].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "5ce64b17-ba18-497a-950c-c6d47547398d",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[2].data",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "nano_banana_flash",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "4:5"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "scalar",
+        "value": false
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "2k"
+      }
+    },
+    "text_sha256": "0c094842fd8869d242d9060466f07c2afaf6bddf502d8ec2a700cc8b2d0ed293",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "kagerou:04.4",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "51d2c0b2-d692-42b4-b66f-daf87cac1eb3",
+    "generation_id": "4e1ed78a-819b-475c-8520-e4515df1c830",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "21cdd520-127b-4472-96cb-73227ad2a57f",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "23c75ad3-31de-407b-b10d-c5ff235fefba",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[1].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "5ce64b17-ba18-497a-950c-c6d47547398d",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[2].data",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "nano_banana_flash",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "4:5"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "scalar",
+        "value": false
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "2k"
+      }
+    },
+    "text_sha256": "0c094842fd8869d242d9060466f07c2afaf6bddf502d8ec2a700cc8b2d0ed293",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "kagerou:04.5",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "51d2c0b2-d692-42b4-b66f-daf87cac1eb3",
+    "generation_id": "0ca091f2-bbcb-4452-888b-619d17b2a709",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "5fbabfac-d27b-4751-b550-fea356ed55ac",
+        "asset_role": "input_asset",
+        "parameter_path": "params.style",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "soul_cinematic",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "absent",
+        "value": null
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "absent",
+        "value": null
+      }
+    },
+    "text_sha256": "21d0b866d0f66ca9711ac2665d1afb4bc42aaf1f7f0412bb2d202407521fa542",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "kagerou:04.6",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "51d2c0b2-d692-42b4-b66f-daf87cac1eb3",
+    "generation_id": "13273df7-e772-4a94-99fc-e38362310b4a",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "fa0296a9-c72d-410a-9896-0e90fd4a06d1",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "nano_banana_flash",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "scalar",
+        "value": false
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "2k"
+      }
+    },
+    "text_sha256": "848901f552b769ccbf3e63364e518326a3f775692a58215e7e603f40d3da8557",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "lost:04.1",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "e5ce8a79-9375-4e31-84a8-620bd4f07550",
+    "generation_id": "00941922-2ce5-4f4b-b592-f0aafe5e2b88",
+    "generation_type": "video",
+    "inputs": [
+      {
+        "asset_id": "17778708-e228-4565-af82-2aae5908a28d",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "reference_element_id": "0b1b57b0-fe8f-48bf-be50-bed14fd80555"
+      },
+      {
+        "asset_id": "18ad9448-23b6-4f72-bfe1-ccb87081052d",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[3].medias[0]",
+        "reference_element_id": "b95c9014-5d6a-486a-aae1-d062ab430245"
+      },
+      {
+        "asset_id": "66411159-7e3c-4216-8031-e096668d53a1",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[2].medias[0]",
+        "reference_element_id": "52ab618f-a41b-48d4-8ea3-f4e555fec5ac"
+      },
+      {
+        "asset_id": "939ea95a-6ac5-46b5-aaed-403224f20313",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[1].medias[0]",
+        "reference_element_id": "45e9d9de-393b-4a5e-ae58-c5ad00f50588"
+      },
+      {
+        "asset_id": "9a97dabe-62de-4876-b2c9-d6564e60a571",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[2].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "bd9acb50-adfa-472c-afa3-e08ca5c27ede",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[1].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "c13e851a-bc25-405e-85e1-95c626467ecb",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[4].medias[0]",
+        "reference_element_id": "f5022f87-a1f1-42f7-89b8-6852a962b567"
+      },
+      {
+        "asset_id": "fab41254-8dc0-4185-93aa-c577d534aa4a",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [
+      {
+        "category": "auto:character",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "0b1b57b0-fe8f-48bf-be50-bed14fd80555"
+      },
+      {
+        "category": "character",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "45e9d9de-393b-4a5e-ae58-c5ad00f50588"
+      },
+      {
+        "category": "character",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "52ab618f-a41b-48d4-8ea3-f4e555fec5ac"
+      },
+      {
+        "category": "character",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "b95c9014-5d6a-486a-aae1-d062ab430245"
+      },
+      {
+        "category": "character",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "f5022f87-a1f1-42f7-89b8-6852a962b567"
+      }
+    ],
+    "model_identifier": "seedance_2_5",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "scalar",
+        "value": 20
+      },
+      "generate_audio": {
+        "state": "scalar",
+        "value": true
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "scalar",
+        "value": "default"
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "scalar",
+        "value": false
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "720p"
+      }
+    },
+    "text_sha256": "9d98ec51a89a7aca9abb93caa43a8a674fb03176f68ae09e65679085766da9ba",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "lost:04.2",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "e5ce8a79-9375-4e31-84a8-620bd4f07550",
+    "generation_id": "02e53a47-a7ab-4d3c-9071-3efe42c3a88d",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "1ba0e546-b02d-4723-bdc4-b02039ae599d",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[2]",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "44a878d0-280f-4b08-bca0-0818dc1e2a91",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[1]",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "48110ddb-44e1-4b21-b3ec-5cf3d034792b",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[0]",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "seedream_v4_5",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "absent",
+        "value": null
+      }
+    },
+    "text_sha256": "4295afa2ce54eb47c826fc12df6bac7e13bd5276b270d69788c55aa09547bff8",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "lost:04.3",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "e5ce8a79-9375-4e31-84a8-620bd4f07550",
+    "generation_id": "02e53a47-a7ab-4d3c-9071-3efe42c3a88d",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "1ba0e546-b02d-4723-bdc4-b02039ae599d",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[2]",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "44a878d0-280f-4b08-bca0-0818dc1e2a91",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[1]",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "48110ddb-44e1-4b21-b3ec-5cf3d034792b",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[0]",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "seedream_v4_5",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "absent",
+        "value": null
+      }
+    },
+    "text_sha256": "4295afa2ce54eb47c826fc12df6bac7e13bd5276b270d69788c55aa09547bff8",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "lost:04.4",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "e5ce8a79-9375-4e31-84a8-620bd4f07550",
+    "generation_id": "02e53a47-a7ab-4d3c-9071-3efe42c3a88d",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "1ba0e546-b02d-4723-bdc4-b02039ae599d",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[2]",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "44a878d0-280f-4b08-bca0-0818dc1e2a91",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[1]",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "48110ddb-44e1-4b21-b3ec-5cf3d034792b",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[0]",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "seedream_v4_5",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "absent",
+        "value": null
+      }
+    },
+    "text_sha256": "4295afa2ce54eb47c826fc12df6bac7e13bd5276b270d69788c55aa09547bff8",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "lost:04.5",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "e5ce8a79-9375-4e31-84a8-620bd4f07550",
+    "generation_id": "02e53a47-a7ab-4d3c-9071-3efe42c3a88d",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "1ba0e546-b02d-4723-bdc4-b02039ae599d",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[2]",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "44a878d0-280f-4b08-bca0-0818dc1e2a91",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[1]",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "48110ddb-44e1-4b21-b3ec-5cf3d034792b",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[0]",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "seedream_v4_5",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "absent",
+        "value": null
+      }
+    },
+    "text_sha256": "4295afa2ce54eb47c826fc12df6bac7e13bd5276b270d69788c55aa09547bff8",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "prophecy-in-2047:04.1",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "9b38b885-bf92-484e-8f36-a890e4e10d61",
+    "generation_id": "0023a58f-85a7-4fc6-828a-ee8d38bc0fc4",
+    "generation_type": "video",
+    "inputs": [
+      {
+        "asset_id": "1380edbb-f990-42d7-bdf1-49b389d7c13e",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "reference_element_id": "7555758b-ad7b-4f87-990c-d0185a2e66b8"
+      },
+      {
+        "asset_id": "81acfd8b-a7d6-4112-92b5-e60e3cf8d08e",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[1].medias[0]",
+        "reference_element_id": "af00efc3-0c60-484f-aecc-94683fd6857e"
+      },
+      {
+        "asset_id": "bb41c393-7bc6-45e8-a87a-e43233316f2e",
+        "asset_role": "input_video",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [
+      {
+        "category": "character",
+        "description_state": "nonempty",
+        "name_state": "nonempty",
+        "reference_element_id": "7555758b-ad7b-4f87-990c-d0185a2e66b8"
+      },
+      {
+        "category": "auto:environment",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "af00efc3-0c60-484f-aecc-94683fd6857e"
+      }
+    ],
+    "model_identifier": "seedance_2_5",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "scalar",
+        "value": 8
+      },
+      "generate_audio": {
+        "state": "scalar",
+        "value": true
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "scalar",
+        "value": "video_extension"
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "scalar",
+        "value": false
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "720p"
+      }
+    },
+    "text_sha256": "6aca701bff37c08a022ad6e042e2adc10f08d618fd02dfae27dd7069feedfe13",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "prophecy-in-2047:04.2",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "9b38b885-bf92-484e-8f36-a890e4e10d61",
+    "generation_id": "02e8e2a1-5735-4684-a65f-38d56137bc6a",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "0ffdcb42-ac3c-47ae-a299-093c5a51bc08",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "reference_element_id": "5f86210d-5e8e-4f28-a32e-4d9fe4fd0829"
+      },
+      {
+        "asset_id": "16933485-bf3b-4dcd-98a1-d9cacfac67ad",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "4f138af0-83b2-4af9-b320-5cc2a49c175f",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[2].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "916eb925-f5e6-4aca-9be3-b819160e0a09",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[1].data",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [
+      {
+        "category": "prop",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "5f86210d-5e8e-4f28-a32e-4d9fe4fd0829"
+      }
+    ],
+    "model_identifier": "gpt_image_2_unlimited",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "scalar",
+        "value": "videotape-alpha"
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "2k"
+      }
+    },
+    "text_sha256": "ec2de04e82c03984a5b4d982c5844addb2f853d36ff0275604cedb69533491d4",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "prophecy-in-2047:04.3",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "9b38b885-bf92-484e-8f36-a890e4e10d61",
+    "generation_id": "02e8e2a1-5735-4684-a65f-38d56137bc6a",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "0ffdcb42-ac3c-47ae-a299-093c5a51bc08",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "reference_element_id": "5f86210d-5e8e-4f28-a32e-4d9fe4fd0829"
+      },
+      {
+        "asset_id": "16933485-bf3b-4dcd-98a1-d9cacfac67ad",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "4f138af0-83b2-4af9-b320-5cc2a49c175f",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[2].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "916eb925-f5e6-4aca-9be3-b819160e0a09",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[1].data",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [
+      {
+        "category": "prop",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "5f86210d-5e8e-4f28-a32e-4d9fe4fd0829"
+      }
+    ],
+    "model_identifier": "gpt_image_2_unlimited",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "scalar",
+        "value": "videotape-alpha"
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "2k"
+      }
+    },
+    "text_sha256": "ec2de04e82c03984a5b4d982c5844addb2f853d36ff0275604cedb69533491d4",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "prophecy-in-2047:04.4",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "9b38b885-bf92-484e-8f36-a890e4e10d61",
+    "generation_id": "02e8e2a1-5735-4684-a65f-38d56137bc6a",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "0ffdcb42-ac3c-47ae-a299-093c5a51bc08",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "reference_element_id": "5f86210d-5e8e-4f28-a32e-4d9fe4fd0829"
+      },
+      {
+        "asset_id": "16933485-bf3b-4dcd-98a1-d9cacfac67ad",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "4f138af0-83b2-4af9-b320-5cc2a49c175f",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[2].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "916eb925-f5e6-4aca-9be3-b819160e0a09",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[1].data",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [
+      {
+        "category": "prop",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "5f86210d-5e8e-4f28-a32e-4d9fe4fd0829"
+      }
+    ],
+    "model_identifier": "gpt_image_2_unlimited",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "scalar",
+        "value": "videotape-alpha"
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "2k"
+      }
+    },
+    "text_sha256": "ec2de04e82c03984a5b4d982c5844addb2f853d36ff0275604cedb69533491d4",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "prophecy-in-2047:04.5",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "9b38b885-bf92-484e-8f36-a890e4e10d61",
+    "generation_id": "02e8e2a1-5735-4684-a65f-38d56137bc6a",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "0ffdcb42-ac3c-47ae-a299-093c5a51bc08",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "reference_element_id": "5f86210d-5e8e-4f28-a32e-4d9fe4fd0829"
+      },
+      {
+        "asset_id": "16933485-bf3b-4dcd-98a1-d9cacfac67ad",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "4f138af0-83b2-4af9-b320-5cc2a49c175f",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[2].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "916eb925-f5e6-4aca-9be3-b819160e0a09",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[1].data",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [
+      {
+        "category": "prop",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "5f86210d-5e8e-4f28-a32e-4d9fe4fd0829"
+      }
+    ],
+    "model_identifier": "gpt_image_2_unlimited",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "scalar",
+        "value": "videotape-alpha"
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "2k"
+      }
+    },
+    "text_sha256": "ec2de04e82c03984a5b4d982c5844addb2f853d36ff0275604cedb69533491d4",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "prophecy-in-2047:04.6",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "9b38b885-bf92-484e-8f36-a890e4e10d61",
+    "generation_id": "9ba4db45-82bd-463d-ae12-557f0580b6c5",
+    "generation_type": "video",
+    "inputs": [],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "wan3_0",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "9:16"
+      },
+      "duration": {
+        "state": "scalar",
+        "value": 5
+      },
+      "generate_audio": {
+        "state": "scalar",
+        "value": true
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "480p"
+      }
+    },
+    "text_sha256": "3d271c9c6a53ebdfded3b3414ea5abe92a5d31811d5423b704a7ab3d244d2430",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "random-access-memories:04.1",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "e99b5ad2-8f58-4ef8-a13c-4441cfdd5205",
+    "generation_id": "0143044b-8f2b-47ca-abbe-0038ce9bbe55",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "94068303-aca4-4bb1-b232-a74156052b75",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[0]",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "nano_banana_2",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "2:3"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "2k"
+      }
+    },
+    "text_sha256": "e83099c075f560e71e76b4e33eea5c5d514ecad9616c68f4f0232769307e7c90",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "random-access-memories:04.2",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "e99b5ad2-8f58-4ef8-a13c-4441cfdd5205",
+    "generation_id": "d3a5b0ea-495f-4b9c-89c1-4fe217609f8b",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "49ff032e-996b-4900-ba33-abf6fc402e93",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[0]",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "c22d3af3-53cf-41ce-be21-876ebcba6360",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[1]",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "nano_banana_2",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "3:2"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "1k"
+      }
+    },
+    "text_sha256": "1c3c90c0bab6b3df0efd97c39a12797899d5124e8a7a412bc8adf7845f831b88",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "random-access-memories:04.3",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "e99b5ad2-8f58-4ef8-a13c-4441cfdd5205",
+    "generation_id": "d3a5b0ea-495f-4b9c-89c1-4fe217609f8b",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "49ff032e-996b-4900-ba33-abf6fc402e93",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[0]",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "c22d3af3-53cf-41ce-be21-876ebcba6360",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[1]",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "nano_banana_2",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "3:2"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "1k"
+      }
+    },
+    "text_sha256": "1c3c90c0bab6b3df0efd97c39a12797899d5124e8a7a412bc8adf7845f831b88",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "random-access-memories:04.4",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "e99b5ad2-8f58-4ef8-a13c-4441cfdd5205",
+    "generation_id": "d3a5b0ea-495f-4b9c-89c1-4fe217609f8b",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "49ff032e-996b-4900-ba33-abf6fc402e93",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[0]",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "c22d3af3-53cf-41ce-be21-876ebcba6360",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[1]",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "nano_banana_2",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "3:2"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "1k"
+      }
+    },
+    "text_sha256": "1c3c90c0bab6b3df0efd97c39a12797899d5124e8a7a412bc8adf7845f831b88",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "random-access-memories:04.5",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "e99b5ad2-8f58-4ef8-a13c-4441cfdd5205",
+    "generation_id": "d3a5b0ea-495f-4b9c-89c1-4fe217609f8b",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "49ff032e-996b-4900-ba33-abf6fc402e93",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[0]",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "c22d3af3-53cf-41ce-be21-876ebcba6360",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[1]",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "nano_banana_2",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "3:2"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "1k"
+      }
+    },
+    "text_sha256": "1c3c90c0bab6b3df0efd97c39a12797899d5124e8a7a412bc8adf7845f831b88",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "random-access-memories:04.6",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "e99b5ad2-8f58-4ef8-a13c-4441cfdd5205",
+    "generation_id": "21115193-b6f7-4b5b-9847-405b8643528d",
+    "generation_type": "video",
+    "inputs": [],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "seedance_2_5",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "4:3"
+      },
+      "duration": {
+        "state": "scalar",
+        "value": 16
+      },
+      "generate_audio": {
+        "state": "scalar",
+        "value": true
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "scalar",
+        "value": "default"
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "scalar",
+        "value": false
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "480p"
+      }
+    },
+    "text_sha256": "4a1e708799ff0fd2a63abe6aa5cc82a13820062d386281c7bee29ed1ef4a2bdb",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "snap:04.1",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "aed4098b-3278-4e5d-a347-24fad9cfb9ae",
+    "generation_id": "004f88fe-f84a-4789-b2f8-73cbd463687a",
+    "generation_type": "video",
+    "inputs": [
+      {
+        "asset_id": "1cb8989e-53e4-4fb4-ac3f-abcc3236673e",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "5634cb03-3033-4d78-aeb3-cf33b5080905",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[1].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "9ece55f0-19e0-4e45-966c-460a4e69eb1f",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[2].data",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "seedance_2_0",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "scalar",
+        "value": 12
+      },
+      "generate_audio": {
+        "state": "scalar",
+        "value": true
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "scalar",
+        "value": "std"
+      },
+      "model": {
+        "state": "scalar",
+        "value": "seedance_2_0"
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "scalar",
+        "value": false
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "720p"
+      }
+    },
+    "text_sha256": "176a5cb1e96a2160406894f9d5c308fe85de84ccc65610b1b25744f4783cc72e",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "snap:04.2",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "aed4098b-3278-4e5d-a347-24fad9cfb9ae",
+    "generation_id": "0139b8bd-2e52-46e6-bd9e-2ca3dd73259e",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "cc14800c-8150-47ca-b903-6789a401b101",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[0]",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "nano_banana_2",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "1k"
+      }
+    },
+    "text_sha256": "d70afc95ca291c014fa1f716ead5737d915dc46081993f01db0d48f3ad3cee76",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "snap:04.3",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "aed4098b-3278-4e5d-a347-24fad9cfb9ae",
+    "generation_id": "0139b8bd-2e52-46e6-bd9e-2ca3dd73259e",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "cc14800c-8150-47ca-b903-6789a401b101",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[0]",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "nano_banana_2",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "1k"
+      }
+    },
+    "text_sha256": "d70afc95ca291c014fa1f716ead5737d915dc46081993f01db0d48f3ad3cee76",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "snap:04.4",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "aed4098b-3278-4e5d-a347-24fad9cfb9ae",
+    "generation_id": "0139b8bd-2e52-46e6-bd9e-2ca3dd73259e",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "cc14800c-8150-47ca-b903-6789a401b101",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[0]",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "nano_banana_2",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "1k"
+      }
+    },
+    "text_sha256": "d70afc95ca291c014fa1f716ead5737d915dc46081993f01db0d48f3ad3cee76",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "snap:04.5",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "aed4098b-3278-4e5d-a347-24fad9cfb9ae",
+    "generation_id": "0139b8bd-2e52-46e6-bd9e-2ca3dd73259e",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "cc14800c-8150-47ca-b903-6789a401b101",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[0]",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "nano_banana_2",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "1k"
+      }
+    },
+    "text_sha256": "d70afc95ca291c014fa1f716ead5737d915dc46081993f01db0d48f3ad3cee76",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "snap:04.6",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "aed4098b-3278-4e5d-a347-24fad9cfb9ae",
+    "generation_id": "2199ecf1-0186-4958-a24c-024d8ce09c9c",
+    "generation_type": "video",
+    "inputs": [
+      {
+        "asset_id": "05cb978f-3b93-4fe5-a7bf-61efca75c74f",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "9ece55f0-19e0-4e45-966c-460a4e69eb1f",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[2].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "ba5b0432-487f-4c5b-9d8b-8a9704069c69",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[1].data",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "c52bdac7-3338-48a3-8dcd-7971d8571461",
+        "asset_role": "input_video",
+        "parameter_path": "params.medias[3].data",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "seedance_2_5",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "scalar",
+        "value": 18
+      },
+      "generate_audio": {
+        "state": "scalar",
+        "value": true
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "scalar",
+        "value": "video_extension"
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "scalar",
+        "value": false
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "720p"
+      }
+    },
+    "text_sha256": "1f90ced6bddaab4556ba81cfc4f8f261c533e9770d5dbc81ebab947886669bb5",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "the-kiss:04.1",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "655325cc-46d9-4b0b-b03d-d177defa4b3f",
+    "generation_id": "000a66f1-ddb3-4011-b7e0-b7ad97db80a5",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "3db34ab5-3439-4317-9e03-08dc30852e69",
+        "asset_role": "input_asset",
+        "parameter_path": "params.style",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "text2image_soul_v2",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "absent",
+        "value": null
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "absent",
+        "value": null
+      }
+    },
+    "text_sha256": "c52a375f5e1bf8c66d3e57833c0ba7db9bc3548e2164f5a4145f937494bc981e",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "the-kiss:04.2",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "655325cc-46d9-4b0b-b03d-d177defa4b3f",
+    "generation_id": "03055fdc-3f48-4e47-860c-c011a0e5d8c3",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "085834b7-da5e-443b-a18a-5190a57dc5e3",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[2].medias[0]",
+        "reference_element_id": "61023363-aba1-414a-9c0d-ead258830e0d"
+      },
+      {
+        "asset_id": "1430c7a7-73ef-4b50-a789-ac8a305a8a88",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "reference_element_id": "04b18464-39bd-4ba7-a8da-9498c18f9891"
+      },
+      {
+        "asset_id": "14f9a362-aa47-4302-85b5-860f49df643d",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[1].medias[0]",
+        "reference_element_id": "09c84326-15df-4ade-be4e-1ac22fdc5086"
+      },
+      {
+        "asset_id": "1f11358a-eff6-4f82-ae47-bd82254691f8",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[4].medias[0]",
+        "reference_element_id": "a39f9496-fb88-48a4-8e08-84661c5bece5"
+      },
+      {
+        "asset_id": "bd2691e0-7aa5-43c8-ac9f-63147b5aaea6",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[0]",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "f718d065-9b4f-4a0a-9964-aa536d60dd86",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[3].medias[0]",
+        "reference_element_id": "9670a7fd-8efc-460c-aeb2-128f626e1704"
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [
+      {
+        "category": "auto:prop",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "04b18464-39bd-4ba7-a8da-9498c18f9891"
+      },
+      {
+        "category": "auto:environment",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "09c84326-15df-4ade-be4e-1ac22fdc5086"
+      },
+      {
+        "category": "auto:prop",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "61023363-aba1-414a-9c0d-ead258830e0d"
+      },
+      {
+        "category": "auto:prop",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "9670a7fd-8efc-460c-aeb2-128f626e1704"
+      },
+      {
+        "category": "auto:prop",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "a39f9496-fb88-48a4-8e08-84661c5bece5"
+      }
+    ],
+    "model_identifier": "nano_banana_2",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "2k"
+      }
+    },
+    "text_sha256": "1305d90aff9272276b8c7192e474fa270d2931df43f13ed008b2e2f29a692f07",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "the-kiss:04.3",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "655325cc-46d9-4b0b-b03d-d177defa4b3f",
+    "generation_id": "03055fdc-3f48-4e47-860c-c011a0e5d8c3",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "085834b7-da5e-443b-a18a-5190a57dc5e3",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[2].medias[0]",
+        "reference_element_id": "61023363-aba1-414a-9c0d-ead258830e0d"
+      },
+      {
+        "asset_id": "1430c7a7-73ef-4b50-a789-ac8a305a8a88",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "reference_element_id": "04b18464-39bd-4ba7-a8da-9498c18f9891"
+      },
+      {
+        "asset_id": "14f9a362-aa47-4302-85b5-860f49df643d",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[1].medias[0]",
+        "reference_element_id": "09c84326-15df-4ade-be4e-1ac22fdc5086"
+      },
+      {
+        "asset_id": "1f11358a-eff6-4f82-ae47-bd82254691f8",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[4].medias[0]",
+        "reference_element_id": "a39f9496-fb88-48a4-8e08-84661c5bece5"
+      },
+      {
+        "asset_id": "bd2691e0-7aa5-43c8-ac9f-63147b5aaea6",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[0]",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "f718d065-9b4f-4a0a-9964-aa536d60dd86",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[3].medias[0]",
+        "reference_element_id": "9670a7fd-8efc-460c-aeb2-128f626e1704"
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [
+      {
+        "category": "auto:prop",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "04b18464-39bd-4ba7-a8da-9498c18f9891"
+      },
+      {
+        "category": "auto:environment",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "09c84326-15df-4ade-be4e-1ac22fdc5086"
+      },
+      {
+        "category": "auto:prop",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "61023363-aba1-414a-9c0d-ead258830e0d"
+      },
+      {
+        "category": "auto:prop",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "9670a7fd-8efc-460c-aeb2-128f626e1704"
+      },
+      {
+        "category": "auto:prop",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "a39f9496-fb88-48a4-8e08-84661c5bece5"
+      }
+    ],
+    "model_identifier": "nano_banana_2",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "2k"
+      }
+    },
+    "text_sha256": "1305d90aff9272276b8c7192e474fa270d2931df43f13ed008b2e2f29a692f07",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "the-kiss:04.4",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "655325cc-46d9-4b0b-b03d-d177defa4b3f",
+    "generation_id": "03055fdc-3f48-4e47-860c-c011a0e5d8c3",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "085834b7-da5e-443b-a18a-5190a57dc5e3",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[2].medias[0]",
+        "reference_element_id": "61023363-aba1-414a-9c0d-ead258830e0d"
+      },
+      {
+        "asset_id": "1430c7a7-73ef-4b50-a789-ac8a305a8a88",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "reference_element_id": "04b18464-39bd-4ba7-a8da-9498c18f9891"
+      },
+      {
+        "asset_id": "14f9a362-aa47-4302-85b5-860f49df643d",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[1].medias[0]",
+        "reference_element_id": "09c84326-15df-4ade-be4e-1ac22fdc5086"
+      },
+      {
+        "asset_id": "1f11358a-eff6-4f82-ae47-bd82254691f8",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[4].medias[0]",
+        "reference_element_id": "a39f9496-fb88-48a4-8e08-84661c5bece5"
+      },
+      {
+        "asset_id": "bd2691e0-7aa5-43c8-ac9f-63147b5aaea6",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[0]",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "f718d065-9b4f-4a0a-9964-aa536d60dd86",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[3].medias[0]",
+        "reference_element_id": "9670a7fd-8efc-460c-aeb2-128f626e1704"
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [
+      {
+        "category": "auto:prop",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "04b18464-39bd-4ba7-a8da-9498c18f9891"
+      },
+      {
+        "category": "auto:environment",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "09c84326-15df-4ade-be4e-1ac22fdc5086"
+      },
+      {
+        "category": "auto:prop",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "61023363-aba1-414a-9c0d-ead258830e0d"
+      },
+      {
+        "category": "auto:prop",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "9670a7fd-8efc-460c-aeb2-128f626e1704"
+      },
+      {
+        "category": "auto:prop",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "a39f9496-fb88-48a4-8e08-84661c5bece5"
+      }
+    ],
+    "model_identifier": "nano_banana_2",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "2k"
+      }
+    },
+    "text_sha256": "1305d90aff9272276b8c7192e474fa270d2931df43f13ed008b2e2f29a692f07",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "the-kiss:04.5",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "655325cc-46d9-4b0b-b03d-d177defa4b3f",
+    "generation_id": "03055fdc-3f48-4e47-860c-c011a0e5d8c3",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "085834b7-da5e-443b-a18a-5190a57dc5e3",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[2].medias[0]",
+        "reference_element_id": "61023363-aba1-414a-9c0d-ead258830e0d"
+      },
+      {
+        "asset_id": "1430c7a7-73ef-4b50-a789-ac8a305a8a88",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "reference_element_id": "04b18464-39bd-4ba7-a8da-9498c18f9891"
+      },
+      {
+        "asset_id": "14f9a362-aa47-4302-85b5-860f49df643d",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[1].medias[0]",
+        "reference_element_id": "09c84326-15df-4ade-be4e-1ac22fdc5086"
+      },
+      {
+        "asset_id": "1f11358a-eff6-4f82-ae47-bd82254691f8",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[4].medias[0]",
+        "reference_element_id": "a39f9496-fb88-48a4-8e08-84661c5bece5"
+      },
+      {
+        "asset_id": "bd2691e0-7aa5-43c8-ac9f-63147b5aaea6",
+        "asset_role": "input_asset",
+        "parameter_path": "params.input_images[0]",
+        "reference_element_id": null
+      },
+      {
+        "asset_id": "f718d065-9b4f-4a0a-9964-aa536d60dd86",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[3].medias[0]",
+        "reference_element_id": "9670a7fd-8efc-460c-aeb2-128f626e1704"
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [
+      {
+        "category": "auto:prop",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "04b18464-39bd-4ba7-a8da-9498c18f9891"
+      },
+      {
+        "category": "auto:environment",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "09c84326-15df-4ade-be4e-1ac22fdc5086"
+      },
+      {
+        "category": "auto:prop",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "61023363-aba1-414a-9c0d-ead258830e0d"
+      },
+      {
+        "category": "auto:prop",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "9670a7fd-8efc-460c-aeb2-128f626e1704"
+      },
+      {
+        "category": "auto:prop",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "a39f9496-fb88-48a4-8e08-84661c5bece5"
+      }
+    ],
+    "model_identifier": "nano_banana_2",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "2k"
+      }
+    },
+    "text_sha256": "1305d90aff9272276b8c7192e474fa270d2931df43f13ed008b2e2f29a692f07",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "the-last-transmission:04.1",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "03f596b0-23da-4312-9e58-2e1cc4582348",
+    "generation_id": "083272c6-2303-4ddd-87e3-27dd2531ee0e",
+    "generation_type": "video",
+    "inputs": [
+      {
+        "asset_id": "6640605c-455d-42cd-ab70-db0c327d7b20",
+        "asset_role": "input_video",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "seedance_2_5",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "scalar",
+        "value": 13
+      },
+      "generate_audio": {
+        "state": "scalar",
+        "value": true
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "scalar",
+        "value": "video_edit"
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "scalar",
+        "value": false
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "720p"
+      }
+    },
+    "text_sha256": "28a4198bf3e20838514e042c3b11b4f211b534a7a9305d1a038919cd1eaccb58",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "the-last-transmission:04.2",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "03f596b0-23da-4312-9e58-2e1cc4582348",
+    "generation_id": "0a5dad36-f81f-4a32-a38a-bc7bcd103e7f",
+    "generation_type": "video",
+    "inputs": [
+      {
+        "asset_id": "9264c44d-ad74-4ddc-91fc-4490b55a5b18",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "seedance_2_5",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "scalar",
+        "value": 12
+      },
+      "generate_audio": {
+        "state": "scalar",
+        "value": true
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "scalar",
+        "value": "default"
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "scalar",
+        "value": false
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "720p"
+      }
+    },
+    "text_sha256": "94fbd29a5aac67efad4b34155b1c593471924a4eed70362a4fe9a5a407ec87f1",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "the-last-transmission:04.3",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "03f596b0-23da-4312-9e58-2e1cc4582348",
+    "generation_id": "0a5dad36-f81f-4a32-a38a-bc7bcd103e7f",
+    "generation_type": "video",
+    "inputs": [
+      {
+        "asset_id": "9264c44d-ad74-4ddc-91fc-4490b55a5b18",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "seedance_2_5",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "scalar",
+        "value": 12
+      },
+      "generate_audio": {
+        "state": "scalar",
+        "value": true
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "scalar",
+        "value": "default"
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "scalar",
+        "value": false
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "720p"
+      }
+    },
+    "text_sha256": "94fbd29a5aac67efad4b34155b1c593471924a4eed70362a4fe9a5a407ec87f1",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "the-last-transmission:04.4",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "03f596b0-23da-4312-9e58-2e1cc4582348",
+    "generation_id": "0a5dad36-f81f-4a32-a38a-bc7bcd103e7f",
+    "generation_type": "video",
+    "inputs": [
+      {
+        "asset_id": "9264c44d-ad74-4ddc-91fc-4490b55a5b18",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "seedance_2_5",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "scalar",
+        "value": 12
+      },
+      "generate_audio": {
+        "state": "scalar",
+        "value": true
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "scalar",
+        "value": "default"
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "scalar",
+        "value": false
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "720p"
+      }
+    },
+    "text_sha256": "94fbd29a5aac67efad4b34155b1c593471924a4eed70362a4fe9a5a407ec87f1",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "the-last-transmission:04.5",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "03f596b0-23da-4312-9e58-2e1cc4582348",
+    "generation_id": "0a5dad36-f81f-4a32-a38a-bc7bcd103e7f",
+    "generation_type": "video",
+    "inputs": [
+      {
+        "asset_id": "9264c44d-ad74-4ddc-91fc-4490b55a5b18",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "seedance_2_5",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "scalar",
+        "value": 12
+      },
+      "generate_audio": {
+        "state": "scalar",
+        "value": true
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "scalar",
+        "value": "default"
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "scalar",
+        "value": false
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "720p"
+      }
+    },
+    "text_sha256": "94fbd29a5aac67efad4b34155b1c593471924a4eed70362a4fe9a5a407ec87f1",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "the-staff:04.1",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce",
+    "generation_id": "04b90dc8-b9f9-48cf-858f-1cdcc2dceecb",
+    "generation_type": "video",
+    "inputs": [
+      {
+        "asset_id": "3df9eabc-7827-4bb6-a2dd-83382158bed7",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[3].medias[0]",
+        "reference_element_id": "8c33f5ea-59a7-48bb-840d-8cee18401b64"
+      },
+      {
+        "asset_id": "7035b357-bcdc-4387-a228-7510c45a57e2",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[2].medias[0]",
+        "reference_element_id": "79788a03-ec45-4f32-a973-c8c64e057ec7"
+      },
+      {
+        "asset_id": "7c3eaced-de5f-4ef7-9158-3c4f5e13b1fe",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[1].medias[0]",
+        "reference_element_id": "5f573678-8b90-4dff-8b20-96207e2907ca"
+      },
+      {
+        "asset_id": "7da82d85-4503-476f-b9f1-a345744bb3ba",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "reference_element_id": "4e4fd145-5cd9-4768-a6ec-53d03b396356"
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [
+      {
+        "category": "character",
+        "description_state": "empty",
+        "name_state": "nonempty",
+        "reference_element_id": "4e4fd145-5cd9-4768-a6ec-53d03b396356"
+      },
+      {
+        "category": "prop",
+        "description_state": "empty",
+        "name_state": "nonempty",
+        "reference_element_id": "5f573678-8b90-4dff-8b20-96207e2907ca"
+      },
+      {
+        "category": "auto:character",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "79788a03-ec45-4f32-a973-c8c64e057ec7"
+      },
+      {
+        "category": "auto:environment",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "8c33f5ea-59a7-48bb-840d-8cee18401b64"
+      }
+    ],
+    "model_identifier": "seedance_2_5",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "scalar",
+        "value": 15
+      },
+      "generate_audio": {
+        "state": "scalar",
+        "value": true
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "scalar",
+        "value": "default"
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "scalar",
+        "value": false
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "1080p"
+      }
+    },
+    "text_sha256": "0ddee62120dfe81013d01d6d4c99c98be34c5ef3af2586112455d01e5b9b71d5",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "the-staff:04.2",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce",
+    "generation_id": "6d514bd2-9aa3-4543-89a2-8f547a5385bb",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "273e3cbf-77e6-4f48-b3c8-8eb6d40f379c",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "seedream_v5_pro",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "scalar",
+        "value": false
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "2k"
+      }
+    },
+    "text_sha256": "5b0d1d0be05842c0504674c15b62d12f531ad0309e247f0384b9d824722ff304",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "the-staff:04.3",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce",
+    "generation_id": "6d514bd2-9aa3-4543-89a2-8f547a5385bb",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "273e3cbf-77e6-4f48-b3c8-8eb6d40f379c",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "seedream_v5_pro",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "scalar",
+        "value": false
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "2k"
+      }
+    },
+    "text_sha256": "5b0d1d0be05842c0504674c15b62d12f531ad0309e247f0384b9d824722ff304",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "the-staff:04.4",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce",
+    "generation_id": "6d514bd2-9aa3-4543-89a2-8f547a5385bb",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "273e3cbf-77e6-4f48-b3c8-8eb6d40f379c",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "seedream_v5_pro",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "scalar",
+        "value": false
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "2k"
+      }
+    },
+    "text_sha256": "5b0d1d0be05842c0504674c15b62d12f531ad0309e247f0384b9d824722ff304",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "the-staff:04.5",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce",
+    "generation_id": "6d514bd2-9aa3-4543-89a2-8f547a5385bb",
+    "generation_type": "image",
+    "inputs": [
+      {
+        "asset_id": "273e3cbf-77e6-4f48-b3c8-8eb6d40f379c",
+        "asset_role": "input_image",
+        "parameter_path": "params.medias[0].data",
+        "reference_element_id": null
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [],
+    "model_identifier": "seedream_v5_pro",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "absent",
+        "value": null
+      },
+      "generate_audio": {
+        "state": "absent",
+        "value": null
+      },
+      "is_inpaint": {
+        "state": "scalar",
+        "value": false
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "absent",
+        "value": null
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "absent",
+        "value": null
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "2k"
+      }
+    },
+    "text_sha256": "5b0d1d0be05842c0504674c15b62d12f531ad0309e247f0384b9d824722ff304",
+    "text_state": "nonempty"
+  },
+  {
+    "evidence_id": "the-staff:04.6",
+    "evidence_label": "observed",
+    "field_path": "params.prompt",
+    "film_id": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce",
+    "generation_id": "46e851da-ea8f-45ea-8602-88660f0885e3",
+    "generation_type": "video",
+    "inputs": [
+      {
+        "asset_id": "3df9eabc-7827-4bb6-a2dd-83382158bed7",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[3].medias[0]",
+        "reference_element_id": "8c33f5ea-59a7-48bb-840d-8cee18401b64"
+      },
+      {
+        "asset_id": "7035b357-bcdc-4387-a228-7510c45a57e2",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[2].medias[0]",
+        "reference_element_id": "79788a03-ec45-4f32-a973-c8c64e057ec7"
+      },
+      {
+        "asset_id": "7c3eaced-de5f-4ef7-9158-3c4f5e13b1fe",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[1].medias[0]",
+        "reference_element_id": "5f573678-8b90-4dff-8b20-96207e2907ca"
+      },
+      {
+        "asset_id": "7da82d85-4503-476f-b9f1-a345744bb3ba",
+        "asset_role": "reference_image",
+        "parameter_path": "params.reference_elements[0].medias[0]",
+        "reference_element_id": "4e4fd145-5cd9-4768-a6ec-53d03b396356"
+      }
+    ],
+    "media_property_content": "unobservable",
+    "metadata": [
+      {
+        "category": "character",
+        "description_state": "empty",
+        "name_state": "nonempty",
+        "reference_element_id": "4e4fd145-5cd9-4768-a6ec-53d03b396356"
+      },
+      {
+        "category": "prop",
+        "description_state": "empty",
+        "name_state": "nonempty",
+        "reference_element_id": "5f573678-8b90-4dff-8b20-96207e2907ca"
+      },
+      {
+        "category": "auto:character",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "79788a03-ec45-4f32-a973-c8c64e057ec7"
+      },
+      {
+        "category": "auto:environment",
+        "description_state": "unavailable",
+        "name_state": "nonempty",
+        "reference_element_id": "8c33f5ea-59a7-48bb-840d-8cee18401b64"
+      }
+    ],
+    "model_identifier": "seedance_2_5",
+    "raw_controls": {
+      "aspect_ratio": {
+        "state": "scalar",
+        "value": "16:9"
+      },
+      "duration": {
+        "state": "scalar",
+        "value": 15
+      },
+      "generate_audio": {
+        "state": "scalar",
+        "value": true
+      },
+      "is_inpaint": {
+        "state": "absent",
+        "value": null
+      },
+      "mode": {
+        "state": "absent",
+        "value": null
+      },
+      "model": {
+        "state": "scalar",
+        "value": "default"
+      },
+      "model_version": {
+        "state": "absent",
+        "value": null
+      },
+      "multi_shots": {
+        "state": "scalar",
+        "value": false
+      },
+      "resolution": {
+        "state": "scalar",
+        "value": "1080p"
+      }
+    },
+    "text_sha256": "c10fffabc7499ec510ae00f88d6aa86045ee47b2dd03776eda797ce09b13cbbe",
+    "text_state": "nonempty"
+  }
+]
