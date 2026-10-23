@@ -1,0 +1,4552 @@
+{
+  "points": [
+    {
+      "id": "P01",
+      "kind": "pattern",
+      "rank": 1,
+      "title": "Video is made from images, not from text alone",
+      "finding": "Nearly every recorded video job is bound to an image or frame; a declared text-to-video route never appears, and explicit empty-media video requests are a small residue.",
+      "frequency": "Image-bound video jobs: {{p01a}} of the mean film's video jobs (pooled {{p01b}}, {{p01c}}/{{p01d}} jobs, {{p01h}} films). Empty-media candidates: {{p01e}} jobs in {{p01f}} films. Declared text-to-video: {{p01g}} jobs.",
+      "stage": "Video generation; image-to-video and reference-guided video",
+      "models": [
+        "seedance_2_5",
+        "cinematic_studio_video_4_0"
+      ],
+      "evidence_label": "observed",
+      "evidence_note": "Counts of recorded media bindings on video jobs.",
+      "strength": "strong: whole primary population, deterministic record counts",
+      "study04": "Study 08 conservative input route and direct candidate: confirmed. A job with no recorded input never establishes text-only production.",
+      "studies": [
+        "06",
+        "08"
+      ],
+      "sources": [
+        "studies/06-video/README.md",
+        "studies/06-video/outputs/summaries.csv",
+        "synthesis/outputs/model_stages.csv"
+      ],
+      "example": {
+        "film_id": "655325cc-46d9-4b0b-b03d-d177defa4b3f",
+        "entities": "655325cc-46d9-4b0b-b03d-d177defa4b3f/generation:0035469c-1e6e-4c3f-aad6-bb3ab0bb05ce; 655325cc-46d9-4b0b-b03d-d177defa4b3f/generation:122382c3-e873-4845-8a14-89ff9dfa215e; 655325cc-46d9-4b0b-b03d-d177defa4b3f/asset:0035469c-1e6e-4c3f-aad6-bb3ab0bb05ce",
+        "source_path": "studies/08-workflow/outputs/handoff_examples.csv (the-kiss:08.3)",
+        "excerpt": "[producer model] nano_banana_2 [consumer model] seedance_2_5 [explicit usage] asset_role reference_image"
+      },
+      "denominator": "{{p01d}} primary video jobs in {{p01h}} video-bearing films",
+      "competing_explanation": "The interface may encourage image upload first; unpublished text-only trials and history capture can shape routes; a bound image need not be the shot's start frame.",
+      "confidence": "Deterministic compound-key counts of released usage rows; attached contents are not inspected.",
+      "numbers": [
+        {
+          "id": "p01a",
+          "label": "image-bound video jobs, mean film share",
+          "file": "studies/06-video/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "image_bound"
+          },
+          "column": "equal_film_mean",
+          "value": 0.934,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "p01b",
+          "label": "image-bound video jobs, pooled",
+          "file": "studies/06-video/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "image_bound"
+          },
+          "column": "pooled_share",
+          "value": 0.9457,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "p01c",
+          "label": "image-bound video jobs",
+          "file": "studies/06-video/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "image_bound"
+          },
+          "column": "numerator",
+          "value": 36417,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p01d",
+          "label": "video jobs",
+          "file": "studies/06-video/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "image_bound"
+          },
+          "column": "denominator",
+          "value": 38508,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p01e",
+          "label": "empty-media video candidates",
+          "file": "studies/06-video/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "route_text_candidate"
+          },
+          "column": "numerator",
+          "value": 530,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p01f",
+          "label": "films with empty-media candidates",
+          "file": "studies/06-video/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "route_text_candidate"
+          },
+          "column": "films_with_numerator",
+          "value": 82,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p01g",
+          "label": "declared text-to-video jobs",
+          "file": "studies/06-video/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "route_text_to_video"
+          },
+          "column": "numerator",
+          "value": 0,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p01h",
+          "label": "video-bearing films",
+          "file": "studies/06-video/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "image_bound"
+          },
+          "column": "eligible_films",
+          "value": 156,
+          "round": 0,
+          "format": "int"
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "kind": "pattern",
+      "rank": 2,
+      "title": "Shots share sources and build on earlier outputs",
+      "finding": "Most jobs use a source that another job also uses, and about half take an earlier job's output, so a film's history is a web of reuse rather than one-off requests. Single sources can feed very many jobs.",
+      "frequency": "Mean film: shared-input jobs {{p02a}} (pooled {{p02b}}); chained jobs {{p02c}} (pooled {{p02d}}); both {{p02e}}. Material input assets used more than once: {{p02f}} per film ({{p02g}}/{{p02h}} assets). The largest hub, one APEIROPHOBIA asset, has {{p02i}} distinct consumers.",
+      "stage": "Across image and video work; inputs, references and chaining",
+      "models": [],
+      "evidence_label": "observed",
+      "evidence_note": "Structure of the disclosed lineage graph. What a shared source means (same shot, same character) is not observed.",
+      "strength": "strong for structure; meaning undecided",
+      "study04": "Study 07 raw compound input reuse or branch, and Study 08 branches, chains and convergence: undecided. Text labels cannot show that shared inputs serve the same shot or entity.",
+      "studies": [
+        "07",
+        "08",
+        "10"
+      ],
+      "sources": [
+        "studies/07-lineage/README.md",
+        "studies/07-lineage/outputs/summaries.csv",
+        "studies/07-lineage/outputs/hubs.csv"
+      ],
+      "example": {
+        "film_id": "c3d8ee5e-b119-4654-99f9-c6545f650635",
+        "entities": "c3d8ee5e-b119-4654-99f9-c6545f650635/asset:36b6dccd-9a13-4ecc-81ab-835e6333e15d",
+        "source_path": "studies/07-lineage/outputs/hubs.csv",
+        "excerpt": "distinct consumers=1602; total asset input nodes=669"
+      },
+      "denominator": "{{l01b}} primary jobs in {{l01a}} films; {{p02h}} material input assets in {{p02j}} films",
+      "competing_explanation": "Omitted external or private work and unresolved cross-ID aliases change the topology; a shared input need not represent the same shot or entity; reuse is not approval.",
+      "confidence": "Exact compound-key counts and deterministic traversal of released records; no media inspection.",
+      "numbers": [
+        {
+          "id": "p02a",
+          "label": "shared-input jobs, mean film share",
+          "file": "studies/07-lineage/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "shared_input_jobs"
+          },
+          "column": "equal_film_mean",
+          "value": 0.7089,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "p02b",
+          "label": "shared-input jobs, pooled",
+          "file": "studies/07-lineage/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "shared_input_jobs"
+          },
+          "column": "pooled_share",
+          "value": 0.702,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "p02c",
+          "label": "chained jobs, mean film share",
+          "file": "studies/07-lineage/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "chained_jobs"
+          },
+          "column": "equal_film_mean",
+          "value": 0.5271,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "p02d",
+          "label": "chained jobs, pooled",
+          "file": "studies/07-lineage/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "chained_jobs"
+          },
+          "column": "pooled_share",
+          "value": 0.5575,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "p02e",
+          "label": "shared and chained jobs, mean film share",
+          "file": "studies/07-lineage/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "hybrid_jobs"
+          },
+          "column": "equal_film_mean",
+          "value": 0.506,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "p02f",
+          "label": "reused material input assets, mean film share",
+          "file": "studies/07-lineage/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "reused_media_assets"
+          },
+          "column": "equal_film_mean",
+          "value": 0.6908,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "p02g",
+          "label": "reused material input assets",
+          "file": "studies/07-lineage/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "reused_media_assets"
+          },
+          "column": "numerator",
+          "value": 20383,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p02h",
+          "label": "material input assets",
+          "file": "studies/07-lineage/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "reused_media_assets"
+          },
+          "column": "denominator",
+          "value": 29321,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p02i",
+          "label": "consumers of the largest asset hub",
+          "file": "studies/07-lineage/outputs/hubs.csv",
+          "where": {
+            "node_kind": "asset",
+            "node_id": "36b6dccd-9a13-4ecc-81ab-835e6333e15d"
+          },
+          "column": "consumers",
+          "value": 1602,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p02j",
+          "label": "films with material input assets",
+          "file": "studies/07-lineage/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "reused_media_assets"
+          },
+          "column": "measured_films",
+          "value": 156,
+          "round": 0,
+          "format": "int"
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "kind": "pattern",
+      "rank": 3,
+      "title": "Work passes between models",
+      "finding": "A large share of jobs consume something a different model made, so films are assembled across several models rather than inside one. Handoffs are specific: most model pairs that appear in the same film never pass anything to each other.",
+      "frequency": "Mean film: {{p03a}} of jobs take an input made by a different literal model ({{p03b}} of {{l01a}} films). Resolved producer-consumer pairs crossing models: {{p03c}}/{{p03d}}. Largest route: seedream_v5_pro to seedance_2_5, {{p03e}} pairs in {{p03f}} films. Co-occurring model pairs with any actual handoff: {{p03g}}/{{p03h}}.",
+      "stage": "Between image generation, video generation and finishing",
+      "models": [
+        "seedream_v5_pro",
+        "seedance_2_5"
+      ],
+      "evidence_label": "observed",
+      "evidence_note": "Explicit producer-consumer bindings; co-occurrence alone is not a handoff.",
+      "strength": "strong for the bindings; motive undecided",
+      "study04": "Study 08 branches, chains, convergence and cross-model from explicit parents: undecided. Component overlap cannot prove a common shot or revision motive.",
+      "studies": [
+        "08"
+      ],
+      "sources": [
+        "studies/08-workflow/README.md",
+        "studies/08-workflow/outputs/summaries.csv",
+        "studies/08-workflow/outputs/summary_transitions.csv",
+        "studies/08-workflow/outputs/transitions.csv",
+        "studies/08-workflow/outputs/cooccurrence.csv"
+      ],
+      "example": {
+        "film_id": "d90fe8bd-3329-40b3-963c-d9b33075aec1",
+        "entities": "d90fe8bd-3329-40b3-963c-d9b33075aec1/generation:006dcc36-ec37-490f-9890-9524e3ed0ddd; d90fe8bd-3329-40b3-963c-d9b33075aec1/generation:011fbb97-732a-416b-825f-a9635b313b86; d90fe8bd-3329-40b3-963c-d9b33075aec1/asset:006dcc36-ec37-490f-9890-9524e3ed0ddd",
+        "source_path": "studies/08-workflow/outputs/handoff_examples.csv (detour:08.3)",
+        "excerpt": "[producer model] seedream_v5_pro [consumer model] gpt_image_2 [explicit usage] asset_role input_image"
+      },
+      "denominator": "{{l01b}} primary jobs in {{l01a}} films; {{p03d}} resolved producer-consumer job pairs in {{p03i}} films; {{p03h}} unordered co-occurring model pairs",
+      "competing_explanation": "Platform features may route outputs between models automatically; repeated requests and raw asset aliases change apparent handoffs; a binding is not approval.",
+      "confidence": "Deterministic released-record counts; one consumer with several parents counts in several pairs.",
+      "numbers": [
+        {
+          "id": "p03a",
+          "label": "cross-model consumer jobs, mean film share",
+          "file": "studies/08-workflow/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "cross_model"
+          },
+          "column": "equal_film_mean",
+          "value": 0.3692,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "p03b",
+          "label": "films with a cross-model consumer",
+          "file": "studies/08-workflow/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "cross_model"
+          },
+          "column": "positive_films",
+          "value": 146,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p03c",
+          "label": "cross-model resolved pairs",
+          "file": "studies/08-workflow/outputs/transitions.csv",
+          "where": {
+            "cross_model": "True"
+          },
+          "column": "pairs",
+          "aggregate": "sum",
+          "value": 140008,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p03d",
+          "label": "resolved pairs",
+          "file": "studies/08-workflow/outputs/transitions.csv",
+          "where": {},
+          "column": "pairs",
+          "aggregate": "sum",
+          "value": 198201,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p03e",
+          "label": "seedream_v5_pro to seedance_2_5 pairs",
+          "file": "studies/08-workflow/outputs/summary_transitions.csv",
+          "where": {
+            "dimension": "all",
+            "producer_model": "seedream_v5_pro",
+            "consumer_model": "seedance_2_5"
+          },
+          "column": "numerator",
+          "value": 30119,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p03f",
+          "label": "films with seedream_v5_pro to seedance_2_5",
+          "file": "studies/08-workflow/outputs/summary_transitions.csv",
+          "where": {
+            "dimension": "all",
+            "producer_model": "seedream_v5_pro",
+            "consumer_model": "seedance_2_5"
+          },
+          "column": "positive_films",
+          "value": 66,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p03g",
+          "label": "co-occurring model pairs with a transition",
+          "file": "studies/08-workflow/outputs/cooccurrence.csv",
+          "where": {
+            "transition_films": {
+              "gt": 0
+            }
+          },
+          "column": "model_a",
+          "aggregate": "count",
+          "value": 353,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p03h",
+          "label": "co-occurring model pairs",
+          "file": "studies/08-workflow/outputs/cooccurrence.csv",
+          "where": {},
+          "column": "model_a",
+          "aggregate": "count",
+          "value": 1472,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p03i",
+          "label": "films with resolved pairs",
+          "file": "studies/08-workflow/outputs/summary_transitions.csv",
+          "where": {
+            "dimension": "all",
+            "producer_model": "seedream_v5_pro",
+            "consumer_model": "seedance_2_5"
+          },
+          "column": "measured_films",
+          "value": 147,
+          "round": 0,
+          "format": "int"
+        }
+      ]
+    },
+    {
+      "id": "P04",
+      "kind": "pattern",
+      "rank": 4,
+      "title": "Video requests are long and written out in full",
+      "finding": "Video prompts are several times longer than image prompts and usually carry an attached input, a long description, camera wording and exclusion wording together. Provisional labels find most of the fourteen instruction components in a typical video text.",
+      "frequency": "Median of per-film median prompt length: video {{p04a}} characters, image {{p04b}}. All four traits together: {{p04c}} of the mean film's video prompts (pooled {{p04d}}; present in {{p04e}} of {{p01h}} films). Provisional components per text, mean film: video {{p04f}} of {{l07h}}, image {{p04g}}.",
+      "stage": "Video generation prompts; image prompts for comparison",
+      "models": [
+        "seedance_2_5"
+      ],
+      "evidence_label": "observed",
+      "evidence_note": "Lengths and the four-trait bundle are structural counts; the component counts are inferred from provisional 27B labels on a weighted sample.",
+      "strength": "strong for length and bundle; moderate for component counts",
+      "study04": "Study 06 lexical camera, lens, preservation and exclusion proxies: changed. The structural census stays; semantic components are a sampled, provisional addition.",
+      "studies": [
+        "04",
+        "06"
+      ],
+      "sources": [
+        "studies/04-prompts/README.md",
+        "synthesis/outputs/summaries.csv",
+        "synthesis/outputs/technique_by_film.csv",
+        "synthesis/outputs/semantic_breadth.csv"
+      ],
+      "example": {
+        "film_id": "9b38b885-bf92-484e-8f36-a890e4e10d61",
+        "entities": "9b38b885-bf92-484e-8f36-a890e4e10d61/generation:014a8505-858b-4b9a-9777-b4461d5957e2; 9b38b885-bf92-484e-8f36-a890e4e10d61/asset:65374a8b-bdfc-4f94-860d-9246879c82ee",
+        "source_path": "studies/06-video/outputs/case_evidence.csv (prophecy-in-2047:06.1)",
+        "excerpt": "Six separate shots joined by five hard cuts ... tracking with her, handheld tremor ... Heavy rain falls in every frame."
+      },
+      "denominator": "{{p04h}} nonempty primary video prompts in {{p01h}} films; {{p04i}} nonempty primary image prompts in {{p05g}} films; component counts over successfully labelled sampled primary texts",
+      "competing_explanation": "Templates, copied boilerplate and repeated batch text lengthen prompts without adding intent; the model or interface may reward long prompts; length is not quality.",
+      "confidence": "The census reproduces Study 04's per-film counts exactly; component counts carry the provisional label agreement in L07.",
+      "numbers": [
+        {
+          "id": "p04a",
+          "label": "video prompt characters, median of film medians",
+          "file": "synthesis/outputs/summaries.csv",
+          "where": {
+            "metric": "video_median_characters"
+          },
+          "column": "median",
+          "value": 5104,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p04b",
+          "label": "image prompt characters, median of film medians",
+          "file": "synthesis/outputs/summaries.csv",
+          "where": {
+            "metric": "image_median_characters"
+          },
+          "column": "median",
+          "value": 1549,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p04c",
+          "label": "four-trait video bundle, mean film share",
+          "file": "synthesis/outputs/summaries.csv",
+          "where": {
+            "metric": "video_full_request"
+          },
+          "column": "equal_film_mean",
+          "value": 0.7787,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "p04d",
+          "label": "four-trait video bundle, pooled",
+          "file": "synthesis/outputs/summaries.csv",
+          "where": {
+            "metric": "video_full_request"
+          },
+          "column": "pooled_share",
+          "value": 0.8148,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "p04e",
+          "label": "films with the four-trait bundle",
+          "file": "synthesis/outputs/summaries.csv",
+          "where": {
+            "metric": "video_full_request"
+          },
+          "column": "positive_films",
+          "value": 150,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p04f",
+          "label": "components per video text, mean film",
+          "file": "synthesis/outputs/summaries.csv",
+          "where": {
+            "metric": "semantic_components_per_text",
+            "task": "video"
+          },
+          "column": "equal_film_mean",
+          "value": 12.54,
+          "round": 1,
+          "format": "f1"
+        },
+        {
+          "id": "p04g",
+          "label": "components per image text, mean film",
+          "file": "synthesis/outputs/summaries.csv",
+          "where": {
+            "metric": "semantic_components_per_text",
+            "task": "image"
+          },
+          "column": "equal_film_mean",
+          "value": 8.22,
+          "round": 1,
+          "format": "f1"
+        },
+        {
+          "id": "p04h",
+          "label": "nonempty primary video prompts",
+          "file": "studies/06-video/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "prompt_nonempty"
+          },
+          "column": "numerator",
+          "value": 37079,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p04i",
+          "label": "nonempty primary image prompts",
+          "file": "studies/05-image/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "prompt_nonempty"
+          },
+          "column": "numerator",
+          "value": 87238,
+          "round": 0,
+          "format": "int"
+        }
+      ]
+    },
+    {
+      "id": "P05",
+      "kind": "pattern",
+      "rank": 5,
+      "title": "Stills are made as foundations for video",
+      "finding": "Some image jobs exist to be handed to video: their output is taken as an input by a video job. Separately, some jobs make images that are later attached as named references.",
+      "frequency": "Image jobs whose output a video job takes: {{p05a}} of the mean film's image jobs (pooled {{p05b}}; {{p05c}}/{{p05h}} jobs; {{p05d}} of {{p05g}} films). Jobs whose output becomes a named reference: {{p05e}} jobs in {{p05f}} of {{l01a}} films.",
+      "stage": "Image generation feeding video generation; reference preparation",
+      "models": [
+        "nano_banana_2",
+        "seedream_v5_pro",
+        "gpt_image_2"
+      ],
+      "evidence_label": "observed",
+      "evidence_note": "Recorded bindings from image outputs into video jobs.",
+      "strength": "strong",
+      "study04": "Study 08 reference preparation and foundation distinct from verified sheet or keyframe: confirmed. A foundation is a recorded binding, not a verified keyframe.",
+      "studies": [
+        "05",
+        "08"
+      ],
+      "sources": [
+        "studies/05-image/README.md",
+        "studies/05-image/outputs/summaries.csv",
+        "studies/08-workflow/outputs/summaries.csv"
+      ],
+      "example": {
+        "film_id": "6659c520-c88e-4ac7-a2c9-f28d8a40c954",
+        "entities": "6659c520-c88e-4ac7-a2c9-f28d8a40c954/generation:1cba062c-b6c5-456d-929d-b958859ae105; 6659c520-c88e-4ac7-a2c9-f28d8a40c954/generation:023fadcd-4fdd-46b9-98f4-1b940839b4c7; 6659c520-c88e-4ac7-a2c9-f28d8a40c954/asset:1cba062c-b6c5-456d-929d-b958859ae105",
+        "source_path": "studies/08-workflow/outputs/handoff_examples.csv (fallen-leaves:08.3)",
+        "excerpt": "[producer model] gpt_image_2 [consumer model] seedance_2_5 [explicit usage] asset_role reference_image"
+      },
+      "denominator": "{{p05h}} primary image jobs in {{p05g}} image-bearing films; {{l01b}} jobs in {{l01a}} films for reference preparation",
+      "competing_explanation": "A video job may take an image as a loose reference rather than a frame; images used in video outside the platform are not recorded.",
+      "confidence": "Deterministic binding counts; the role of the image inside the video is not inspected.",
+      "numbers": [
+        {
+          "id": "p05a",
+          "label": "image jobs used by video, mean film share",
+          "file": "studies/05-image/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "used_by_video"
+          },
+          "column": "equal_film_mean",
+          "value": 0.1491,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "p05b",
+          "label": "image jobs used by video, pooled",
+          "file": "studies/05-image/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "used_by_video"
+          },
+          "column": "pooled_share",
+          "value": 0.0877,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "p05c",
+          "label": "image jobs used by video",
+          "file": "studies/05-image/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "used_by_video"
+          },
+          "column": "numerator",
+          "value": 8076,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p05d",
+          "label": "films with image jobs used by video",
+          "file": "studies/05-image/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "used_by_video"
+          },
+          "column": "films_with_numerator",
+          "value": 143,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p05e",
+          "label": "reference preparation jobs",
+          "file": "studies/08-workflow/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "reference_preparation"
+          },
+          "column": "numerator",
+          "value": 3930,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p05f",
+          "label": "films with reference preparation",
+          "file": "studies/08-workflow/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "reference_preparation"
+          },
+          "column": "positive_films",
+          "value": 100,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p05g",
+          "label": "image-bearing films",
+          "file": "studies/05-image/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "used_by_video"
+          },
+          "column": "eligible_films",
+          "value": 155,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p05h",
+          "label": "primary image jobs",
+          "file": "studies/05-image/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "used_by_video"
+          },
+          "column": "denominator",
+          "value": 92058,
+          "round": 0,
+          "format": "int"
+        }
+      ]
+    },
+    {
+      "id": "P06",
+      "kind": "pattern",
+      "rank": 6,
+      "title": "Few outputs are taken further, and video outputs least",
+      "finding": "Only a minority of jobs have an output that any later job uses, and image outputs are taken further several times as often as video outputs.",
+      "frequency": "Jobs whose output a later job uses: {{p06a}} of the mean film's jobs (pooled {{p06b}}; {{p06c}}/{{l01b}}). Image {{p06d}} versus video {{p06e}} per film.",
+      "stage": "All generation; recorded further use",
+      "models": [],
+      "evidence_label": "observed",
+      "evidence_note": "Further use is a recorded binding, not approval or selection.",
+      "strength": "strong for the count; meaning limited",
+      "study04": "Study 09 adoption is a recorded use measure; Study 04 leaves rerun-candidate motives undecided.",
+      "studies": [
+        "09"
+      ],
+      "sources": [
+        "studies/09-iteration/README.md",
+        "studies/09-iteration/outputs/summaries.csv",
+        "studies/09-iteration/outputs/summary_generation_type.csv"
+      ],
+      "example": {
+        "film_id": "655325cc-46d9-4b0b-b03d-d177defa4b3f",
+        "entities": "655325cc-46d9-4b0b-b03d-d177defa4b3f/generation:6672ee33-d850-4db4-b78f-667905814400; 655325cc-46d9-4b0b-b03d-d177defa4b3f/generation:19f73675-b69e-4314-b3a1-f74802df1da2; 655325cc-46d9-4b0b-b03d-d177defa4b3f/asset:6672ee33-d850-4db4-b78f-667905814400",
+        "source_path": "studies/09-iteration/outputs/case_evidence.csv (The Kiss 09.3)",
+        "excerpt": "[consumer text] Move the entire title \"The Kiss\" UP"
+      },
+      "denominator": "{{l01b}} primary jobs in {{l01a}} films; {{p05h}} image and {{p01d}} video jobs",
+      "competing_explanation": "Video may be assembled outside the platform, so unused video outputs may still be in the film; final edits and sound can happen elsewhere; batches inflate denominators; unpublished work is missing.",
+      "confidence": "Deterministic counts over released bindings; no link from jobs to the final cut exists.",
+      "numbers": [
+        {
+          "id": "p06a",
+          "label": "adopted jobs, mean film share",
+          "file": "studies/09-iteration/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "adopted"
+          },
+          "column": "equal_film_mean",
+          "value": 0.1474,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "p06b",
+          "label": "adopted jobs, pooled",
+          "file": "studies/09-iteration/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "adopted"
+          },
+          "column": "pooled_share",
+          "value": 0.1207,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "p06c",
+          "label": "adopted jobs",
+          "file": "studies/09-iteration/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "adopted"
+          },
+          "column": "numerator",
+          "value": 15781,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p06d",
+          "label": "adopted image jobs, mean film share",
+          "file": "studies/09-iteration/outputs/summary_generation_type.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "adopted",
+            "generation_type": "image"
+          },
+          "column": "equal_film_mean",
+          "value": 0.2239,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "p06e",
+          "label": "adopted video jobs, mean film share",
+          "file": "studies/09-iteration/outputs/summary_generation_type.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "adopted",
+            "generation_type": "video"
+          },
+          "column": "equal_film_mean",
+          "value": 0.0553,
+          "round": 4,
+          "format": "pct"
+        }
+      ]
+    },
+    {
+      "id": "P07",
+      "kind": "pattern",
+      "rank": 7,
+      "title": "Batches repeat one request exactly",
+      "finding": "Jobs launched together as a batch are the same request run several times: same text, same inputs, same model, and almost always the same controls. Variation comes from sampling, not from rewording.",
+      "frequency": "Comparable batch pairs with identical text: {{p07a}}/{{p07b}}. Pairs with changed inputs: {{p07c}}; with changed controls: {{p07d}}/{{p07e}}. Batch members: {{p07f}} of the mean film's jobs (pooled {{p07g}}). Exact repeat excess, the nonempty primary prompts beyond the first copy of each exact string: {{p07h}} per film.",
+      "stage": "Image and video generation; candidate sampling",
+      "models": [
+        "soul_cinematic",
+        "seedream_v5_pro"
+      ],
+      "evidence_label": "observed",
+      "evidence_note": "Exact text, input, model and control comparisons within recorded batches.",
+      "strength": "strong",
+      "study04": "Study 10 exact-string repeat excess: changed. A semantic duplicate or waste rate remains unavailable. Study 09 rerun-candidate motives: undecided.",
+      "studies": [
+        "09",
+        "10"
+      ],
+      "sources": [
+        "studies/09-iteration/README.md",
+        "studies/09-iteration/outputs/summary_comparisons.csv",
+        "studies/09-iteration/outputs/summaries.csv",
+        "studies/10-organisation/outputs/summaries.csv"
+      ],
+      "example": {
+        "film_id": "2fd725ab-2604-4220-8cca-d332e9de53a2",
+        "entities": "2fd725ab-2604-4220-8cca-d332e9de53a2/generation:02650faf-bbfe-4b48-9b3c-3fade6421cd5; 2fd725ab-2604-4220-8cca-d332e9de53a2/generation:b1c1f22c-6350-408b-9501-d972afb3909e",
+        "source_path": "studies/09-iteration/outputs/comparison_examples.json (basis batch)",
+        "excerpt": "\"controls_changed\":0, \"inputs_changed\":0, \"model_changed\":0, \"text_equal\":1"
+      },
+      "denominator": "{{p07e}} batch pairs in {{p07i}} films; {{l01b}} jobs and {{p07j}} nonempty primary prompts in {{l01a}} films",
+      "competing_explanation": "The interface may create batches by default; a repeat may be a deliberate seed search, a retry after failure, or an accident; motives are not recorded.",
+      "confidence": "Deterministic pair comparisons of released fields; hidden seeds and defaults are unknown.",
+      "numbers": [
+        {
+          "id": "p07a",
+          "label": "batch pairs with equal text",
+          "file": "studies/09-iteration/outputs/summary_comparisons.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "text_equal",
+            "basis": "batch"
+          },
+          "column": "numerator",
+          "value": 32448,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p07b",
+          "label": "text-comparable batch pairs",
+          "file": "studies/09-iteration/outputs/summary_comparisons.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "text_equal",
+            "basis": "batch"
+          },
+          "column": "denominator",
+          "value": 32448,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p07c",
+          "label": "batch pairs with changed inputs",
+          "file": "studies/09-iteration/outputs/summary_comparisons.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "inputs_changed",
+            "basis": "batch"
+          },
+          "column": "numerator",
+          "value": 0,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p07d",
+          "label": "batch pairs with changed controls",
+          "file": "studies/09-iteration/outputs/summary_comparisons.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "controls_changed",
+            "basis": "batch"
+          },
+          "column": "numerator",
+          "value": 18,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p07e",
+          "label": "control-comparable batch pairs",
+          "file": "studies/09-iteration/outputs/summary_comparisons.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "controls_changed",
+            "basis": "batch"
+          },
+          "column": "denominator",
+          "value": 32980,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p07f",
+          "label": "batch members, mean film share",
+          "file": "studies/09-iteration/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "batch_member"
+          },
+          "column": "equal_film_mean",
+          "value": 0.2507,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "p07g",
+          "label": "batch members, pooled",
+          "file": "studies/09-iteration/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "batch_member"
+          },
+          "column": "pooled_share",
+          "value": 0.3866,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "p07h",
+          "label": "exact repeat share, mean film",
+          "file": "studies/10-organisation/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "repeat_share"
+          },
+          "column": "equal_film_mean",
+          "value": 0.3845,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "p07i",
+          "label": "films with batch pairs",
+          "file": "studies/09-iteration/outputs/summary_comparisons.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "controls_changed",
+            "basis": "batch"
+          },
+          "column": "measured_films",
+          "value": 111,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p07j",
+          "label": "nonempty primary prompts",
+          "file": "studies/09-iteration/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "prompt_nonempty"
+          },
+          "column": "numerator",
+          "value": 124449,
+          "round": 0,
+          "format": "int"
+        }
+      ]
+    },
+    {
+      "id": "P08",
+      "kind": "pattern",
+      "rank": 8,
+      "title": "Saying what must stay the same is far more common than keywords show",
+      "finding": "Keyword counts of preservation wording miss most of it: provisional semantic labels find a request to keep something unchanged in about twice as many prompts. The gap is largest in video prompts.",
+      "frequency": "Mean film: lexical preservation wording {{p08a}} of primary prompts; provisional semantic preservation {{p08b}}. Video: semantic {{p08c}} versus lexical {{p08d}}. Image: semantic {{p08e}} versus lexical {{p08f}}.",
+      "stage": "Image edits and video generation prompts",
+      "models": [],
+      "evidence_label": "inferred",
+      "evidence_note": "Semantic shares come from provisional 27B labels on a weighted sample; lexical shares are observed counts.",
+      "strength": "moderate: preservation agreement with the single-coder gold is high, but the sample excludes long texts",
+      "study04": "Preservation and reference regex meanings in Studies 03, 05, 06, 07, 08 and 09: changed. Lexical counts stay; 27B preservation is an additional sampled measure with agreement and missingness bounds.",
+      "studies": [
+        "04",
+        "07"
+      ],
+      "sources": [
+        "studies/04-prompts/README.md",
+        "studies/04-prompts/outputs/semantic_summary.csv",
+        "studies/04-prompts/outputs/semantic_summary_generation_type.csv",
+        "studies/07-lineage/outputs/summaries.csv",
+        "synthesis/outputs/summaries.csv"
+      ],
+      "example": {
+        "film_id": "d90fe8bd-3329-40b3-963c-d9b33075aec1",
+        "entities": "d90fe8bd-3329-40b3-963c-d9b33075aec1/generation:011fbb97-732a-416b-825f-a9635b313b86; d90fe8bd-3329-40b3-963c-d9b33075aec1/asset:006dcc36-ec37-490f-9890-9524e3ed0ddd",
+        "source_path": "studies/03-elements/outputs/case_evidence.csv (Detour 03.2)",
+        "excerpt": "The only change is a small mark of tomato ketchup on one side of his face ... EVERYTHING ELSE STAYS UNTOUCHED"
+      },
+      "denominator": "{{p07j}} nonempty primary prompts in {{l01a}} films (lexical); weighted successful sample with covered stratum mass {{p08g}} (semantic)",
+      "competing_explanation": "The labeller may read boilerplate continuity lines as preservation; the keyword list is English and narrow; long texts excluded from labelling may differ.",
+      "confidence": "Study 04 weighting reproduced exactly here; semantic values carry failure bounds in Study 04's tables.",
+      "numbers": [
+        {
+          "id": "p08a",
+          "label": "lexical preservation, mean film",
+          "file": "studies/07-lineage/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "preservation_words"
+          },
+          "column": "equal_film_mean",
+          "value": 0.3178,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "p08b",
+          "label": "semantic preservation, mean film",
+          "file": "studies/04-prompts/outputs/semantic_summary.csv",
+          "where": {
+            "dimension": "all",
+            "condition": "all",
+            "metric": "preservation_weighted"
+          },
+          "column": "equal_film_mean",
+          "value": 0.6313,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "p08c",
+          "label": "semantic preservation, video, mean film",
+          "file": "studies/04-prompts/outputs/semantic_summary_generation_type.csv",
+          "where": {
+            "dimension": "all",
+            "condition": "video",
+            "metric": "preservation_weighted"
+          },
+          "column": "equal_film_mean",
+          "value": 0.8269,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "p08d",
+          "label": "lexical preservation, video, mean film",
+          "file": "synthesis/outputs/summaries.csv",
+          "where": {
+            "metric": "preservation",
+            "task": "video"
+          },
+          "column": "equal_film_mean",
+          "value": 0.3695,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "p08e",
+          "label": "semantic preservation, image, mean film",
+          "file": "studies/04-prompts/outputs/semantic_summary_generation_type.csv",
+          "where": {
+            "dimension": "all",
+            "condition": "image",
+            "metric": "preservation_weighted"
+          },
+          "column": "equal_film_mean",
+          "value": 0.4721,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "p08f",
+          "label": "lexical preservation, image, mean film",
+          "file": "synthesis/outputs/summaries.csv",
+          "where": {
+            "metric": "preservation",
+            "task": "image"
+          },
+          "column": "equal_film_mean",
+          "value": 0.287,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "p08g",
+          "label": "covered stratum mass",
+          "file": "studies/04-prompts/outputs/semantic_summary.csv",
+          "where": {
+            "dimension": "all",
+            "condition": "all",
+            "metric": "preservation_weighted"
+          },
+          "column": "denominator",
+          "value": 55609,
+          "round": 0,
+          "format": "int"
+        }
+      ]
+    },
+    {
+      "id": "P09",
+      "kind": "pattern",
+      "rank": 9,
+      "title": "Several shots are asked for in words, not with the shot control",
+      "finding": "When a video prompt describes several shots, the multi-shot control is almost always off; the shots are written into the prompt instead. The control itself is used in only a handful of films.",
+      "frequency": "Video jobs with multi-shot wording and the control off: {{p09a}}/{{p09b}} ({{p09c}} per film, {{p09d}} films). Control on: {{p09e}} jobs in {{p09f}} films.",
+      "stage": "Video generation; shot structure",
+      "models": [
+        "seedance_2_5"
+      ],
+      "evidence_label": "observed",
+      "evidence_note": "Literal control values beside lexical shot wording.",
+      "strength": "strong for the control state; shot intent of the wording is lexical",
+      "study04": "Study 06 requested shots distinct from jobs and cuts: confirmed. Multi-shot lexical proxy: changed; no semantic label matches shot intent.",
+      "studies": [
+        "06",
+        "02"
+      ],
+      "sources": [
+        "studies/06-video/README.md",
+        "studies/06-video/outputs/summaries.csv"
+      ],
+      "example": {
+        "film_id": "c3d8ee5e-b119-4654-99f9-c6545f650635",
+        "entities": "c3d8ee5e-b119-4654-99f9-c6545f650635/generation:230fc3df-a3e7-4645-8116-561d321a70c5; c3d8ee5e-b119-4654-99f9-c6545f650635/asset:1ffe82b6-9d5e-41c0-a4e9-2e219a07a75e",
+        "source_path": "studies/06-video/outputs/case_evidence.csv (apeirophobia:06.1)",
+        "excerpt": "EXACTLY TWO SHOTS ONLY — ONE SINGLE CUT. [literal controls] \"multi_shots\": false"
+      },
+      "denominator": "{{p09b}} video jobs with multi-shot wording in {{p09d}} films; {{p01d}} video jobs in {{p01h}} films",
+      "competing_explanation": "The control may be unavailable for some models or versions, or defaults may hide its state; wording can describe one shot's internal moves.",
+      "confidence": "Literal control states and deterministic lexical matches; executed shots are not counted.",
+      "numbers": [
+        {
+          "id": "p09a",
+          "label": "multi-shot wording with control false",
+          "file": "studies/06-video/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "multi_words_false"
+          },
+          "column": "numerator",
+          "value": 8981,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p09b",
+          "label": "video jobs with multi-shot wording",
+          "file": "studies/06-video/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "multi_words_false"
+          },
+          "column": "denominator",
+          "value": 9060,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p09c",
+          "label": "control false given wording, mean film",
+          "file": "studies/06-video/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "multi_words_false"
+          },
+          "column": "equal_film_mean",
+          "value": 0.9905,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "p09d",
+          "label": "films with multi-shot wording",
+          "file": "studies/06-video/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "multi_words_false"
+          },
+          "column": "films_with_numerator",
+          "value": 122,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p09e",
+          "label": "jobs with multi-shot control true",
+          "file": "studies/06-video/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "multi_true"
+          },
+          "column": "numerator",
+          "value": 170,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p09f",
+          "label": "films with multi-shot control true",
+          "file": "studies/06-video/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "multi_true"
+          },
+          "column": "films_with_numerator",
+          "value": 9,
+          "round": 0,
+          "format": "int"
+        }
+      ]
+    },
+    {
+      "id": "P10",
+      "kind": "pattern",
+      "rank": 10,
+      "title": "Sound is asked of the video model; separate audio and finishing jobs are rare",
+      "finding": "Video jobs nearly always have sound generation switched on, while dedicated audio and voice jobs are rare. About half the films show finishing jobs such as editing or upscaling on the platform.",
+      "frequency": "generate_audio on: {{p10a}} of the mean film's video jobs ({{p10b}}/{{p01d}}). Audio jobs: {{p10c}} in {{p10d}} films. Voice adapters: {{p10e}} jobs in {{p10f}} films. Finishing jobs: {{p10g}} in {{p10h}} of {{l01a}} films.",
+      "stage": "Video generation controls; audio, voice and finishing",
+      "models": [
+        "seedance_2_5",
+        "cinematic_video_editor",
+        "voice_change_merge"
+      ],
+      "evidence_label": "observed",
+      "evidence_note": "Literal control values and job roles.",
+      "strength": "strong for what is recorded; external sound and editing are invisible",
+      "study04": "Study 06 subject, camera, environment, events, audio and invariants in named spans: confirmed, without a dedicated audio label. Study 08 adapter mapping: undecided.",
+      "studies": [
+        "06",
+        "08"
+      ],
+      "sources": [
+        "studies/06-video/outputs/summaries.csv",
+        "studies/08-workflow/README.md",
+        "studies/08-workflow/outputs/summaries.csv"
+      ],
+      "example": {
+        "film_id": "d51d6821-d191-40f7-949b-1086750a2e93",
+        "entities": "d51d6821-d191-40f7-949b-1086750a2e93/generation:0014cfd5-e8f9-4b5a-8ab3-f2f5b93d2452; d51d6821-d191-40f7-949b-1086750a2e93/asset:45285c82-bc05-4548-87a4-b7e865f697ae",
+        "source_path": "studies/06-video/outputs/case_evidence.csv (Birthdays 06.1)",
+        "excerpt": "Audio: Environmental SFX only. No music. No subtitles. [literal controls] \"generate_audio\": true"
+      },
+      "denominator": "{{p01d}} video jobs in {{p01h}} films; {{l01b}} jobs in {{l01a}} films",
+      "competing_explanation": "generate_audio may default to on; creators may discard generated sound and score externally; finishing done off-platform is not recorded.",
+      "confidence": "Literal control states and deterministic role counts; sound is not heard.",
+      "numbers": [
+        {
+          "id": "p10a",
+          "label": "generate_audio on, mean film share",
+          "file": "studies/06-video/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "audio_true"
+          },
+          "column": "equal_film_mean",
+          "value": 0.9155,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "p10b",
+          "label": "video jobs with generate_audio on",
+          "file": "studies/06-video/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "audio_true"
+          },
+          "column": "numerator",
+          "value": 35905,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p10c",
+          "label": "audio jobs",
+          "file": "studies/08-workflow/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "audio_job"
+          },
+          "column": "numerator",
+          "value": 132,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p10d",
+          "label": "films with audio jobs",
+          "file": "studies/08-workflow/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "audio_job"
+          },
+          "column": "positive_films",
+          "value": 10,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p10e",
+          "label": "voice adapter jobs",
+          "file": "studies/08-workflow/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "voice_adapter"
+          },
+          "column": "numerator",
+          "value": 61,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p10f",
+          "label": "films with voice adapters",
+          "file": "studies/08-workflow/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "voice_adapter"
+          },
+          "column": "positive_films",
+          "value": 14,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p10g",
+          "label": "finishing jobs",
+          "file": "studies/08-workflow/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "finishing_job"
+          },
+          "column": "numerator",
+          "value": 1358,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p10h",
+          "label": "films with finishing jobs",
+          "file": "studies/08-workflow/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "finishing_job"
+          },
+          "column": "positive_films",
+          "value": 80,
+          "round": 0,
+          "format": "int"
+        }
+      ]
+    },
+    {
+      "id": "P11",
+      "kind": "pattern",
+      "rank": 11,
+      "title": "Saved elements are reused",
+      "finding": "Most films use saved reference elements, and most elements, once used, are used again.",
+      "frequency": "Films using saved elements: {{p11a}} of {{l01a}}. Used elements reused: {{p11b}} per film (pooled {{p11c}}; {{p11d}}/{{p11e}}).",
+      "stage": "Reference elements attached to image and video jobs",
+      "models": [],
+      "evidence_label": "observed",
+      "evidence_note": "Recorded element attachments.",
+      "strength": "strong for reuse counts; element identity undecided",
+      "study04": "Study 03 disclosed record as element and semantic kind: undecided. Component presence cannot establish persistent identity or complete libraries.",
+      "studies": [
+        "03"
+      ],
+      "sources": [
+        "studies/03-elements/README.md",
+        "studies/03-elements/outputs/summaries.csv"
+      ],
+      "example": {
+        "film_id": "all element-using primary films",
+        "entities": "per-film reference:* counts",
+        "source_path": "studies/03-elements/outputs/film_metrics.csv",
+        "excerpt": "per-film used_elements and reused_elements"
+      },
+      "denominator": "{{p11e}} used elements in {{p11a}} films",
+      "competing_explanation": "Elements may be auto-attached by templates; the same character may live in several elements; libraries outside the workspace are not visible.",
+      "confidence": "Deterministic counts of released attachments.",
+      "numbers": [
+        {
+          "id": "p11a",
+          "label": "films using elements",
+          "file": "studies/03-elements/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "used_elements"
+          },
+          "column": "films_with_numerator",
+          "value": 120,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p11b",
+          "label": "reused elements, mean film share",
+          "file": "studies/03-elements/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "reused_elements"
+          },
+          "column": "equal_film_mean",
+          "value": 0.859,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "p11c",
+          "label": "reused elements, pooled",
+          "file": "studies/03-elements/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "reused_elements"
+          },
+          "column": "pooled_share",
+          "value": 0.8802,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "p11d",
+          "label": "reused elements",
+          "file": "studies/03-elements/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "reused_elements"
+          },
+          "column": "numerator",
+          "value": 4577,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p11e",
+          "label": "used elements",
+          "file": "studies/03-elements/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "reused_elements"
+          },
+          "column": "denominator",
+          "value": 5200,
+          "round": 0,
+          "format": "int"
+        }
+      ]
+    },
+    {
+      "id": "P12",
+      "kind": "pattern",
+      "rank": 12,
+      "title": "Folders do not follow what feeds what",
+      "finding": "Nearly half of the recorded input bindings link jobs that sit in different, non-overlapping workspace folders, so folders are not a reliable map of a film's lineage.",
+      "frequency": "Resolved input bindings across disjoint folders: {{p12a}} per film (pooled {{p12b}}; {{p12c}} films measured).",
+      "stage": "Workspace organisation",
+      "models": [],
+      "evidence_label": "observed",
+      "evidence_note": "Folder placement compared across recorded bindings.",
+      "strength": "moderate: folder meaning is creator-specific",
+      "study04": "No Study 04 dependency.",
+      "studies": [
+        "10"
+      ],
+      "sources": [
+        "studies/10-organisation/README.md",
+        "studies/10-organisation/outputs/summaries.csv"
+      ],
+      "example": {
+        "film_id": "all primary films with resolved bindings",
+        "entities": "per-film generation:* folder placements",
+        "source_path": "studies/10-organisation/outputs/film_metrics.csv",
+        "excerpt": "per-film disjoint-folder binding counts"
+      },
+      "denominator": "{{p12d}} resolved bindings in {{p12c}} films",
+      "competing_explanation": "Folders may group by scene, date or deliverable rather than lineage; moves after generation are not recorded.",
+      "confidence": "Deterministic counts of released placements.",
+      "numbers": [
+        {
+          "id": "p12a",
+          "label": "disjoint-folder bindings, mean film share",
+          "file": "studies/10-organisation/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "disjoint_folder_share"
+          },
+          "column": "equal_film_mean",
+          "value": 0.4669,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "p12b",
+          "label": "disjoint-folder bindings, pooled",
+          "file": "studies/10-organisation/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "disjoint_folder_share"
+          },
+          "column": "pooled_share",
+          "value": 0.5419,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "p12c",
+          "label": "films measured",
+          "file": "studies/10-organisation/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "disjoint_folder_share"
+          },
+          "column": "measured_films",
+          "value": 147,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "p12d",
+          "label": "resolved bindings",
+          "file": "studies/10-organisation/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "disjoint_folder_share"
+          },
+          "column": "denominator",
+          "value": 198201,
+          "round": 0,
+          "format": "int"
+        }
+      ]
+    },
+    {
+      "id": "M01",
+      "kind": "model",
+      "rank": 1,
+      "title": "One video model carries most video work: seedance_2_5",
+      "finding": "seedance_2_5 is the main video model in most films and usually makes nearly all of a film's video. It made every declared extension and most image-to-video jobs.",
+      "frequency": "Top video model in {{m01a}} of {{p01h}} video-bearing films. Share of a film's video jobs: median {{m01b}}, mean {{m01c}}, pooled {{m01d}}; at least 90% in {{m01e}} films. Extensions: {{m01f}} jobs, all seedance_2_5 ({{m01g}}). Image-to-video: {{m01h}} of the mean film's image-to-video jobs.",
+      "stage": "Video generation, extension and video-to-video",
+      "models": [
+        "seedance_2_5",
+        "cinematic_studio_video_4_0"
+      ],
+      "evidence_label": "observed",
+      "evidence_note": "Literal model identifiers on recorded jobs. A preference is not observed.",
+      "strength": "strong for the share; the reason is unknown (see L06)",
+      "study04": "No Study 04 dependency for literal model counts.",
+      "studies": [
+        "06",
+        "08"
+      ],
+      "sources": [
+        "synthesis/outputs/summaries.csv",
+        "synthesis/outputs/model_concentration.csv",
+        "synthesis/outputs/model_stages.csv",
+        "studies/08-workflow/outputs/model_inventory.csv"
+      ],
+      "example": {
+        "film_id": "all video-bearing primary films",
+        "entities": "per-film generation:* model counts",
+        "source_path": "synthesis/outputs/model_concentration.csv",
+        "excerpt": "per-film video jobs, models, top_model and seedance_2_5_jobs"
+      },
+      "denominator": "{{p01d}} video jobs in {{p01h}} films",
+      "competing_explanation": "Availability, defaults, price, release timing and contest rules can concentrate use without any judgement of quality.",
+      "confidence": "Deterministic counts over Study 08's model inventory.",
+      "numbers": [
+        {
+          "id": "m01a",
+          "label": "films where seedance_2_5 is the top video model",
+          "file": "synthesis/outputs/summaries.csv",
+          "where": {
+            "metric": "films_top_video_model_seedance_2_5"
+          },
+          "column": "numerator",
+          "value": 125,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "m01b",
+          "label": "seedance_2_5 video share, median film",
+          "file": "synthesis/outputs/summaries.csv",
+          "where": {
+            "metric": "seedance_2_5_video_share"
+          },
+          "column": "median",
+          "value": 0.9433,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "m01c",
+          "label": "seedance_2_5 video share, mean film",
+          "file": "synthesis/outputs/summaries.csv",
+          "where": {
+            "metric": "seedance_2_5_video_share"
+          },
+          "column": "equal_film_mean",
+          "value": 0.7575,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "m01d",
+          "label": "seedance_2_5 video share, pooled",
+          "file": "synthesis/outputs/summaries.csv",
+          "where": {
+            "metric": "seedance_2_5_video_share"
+          },
+          "column": "pooled_share",
+          "value": 0.8072,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "m01e",
+          "label": "films with seedance_2_5 at least 90%",
+          "file": "synthesis/outputs/summaries.csv",
+          "where": {
+            "metric": "films_seedance_2_5_at_least_90pct"
+          },
+          "column": "numerator",
+          "value": 90,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "m01f",
+          "label": "extension jobs",
+          "file": "synthesis/outputs/model_stages.csv",
+          "where": {
+            "stage": "video_extension",
+            "model_identifier": "seedance_2_5"
+          },
+          "column": "stage_jobs",
+          "value": 2260,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "m01g",
+          "label": "seedance_2_5 share of extension jobs, pooled",
+          "file": "synthesis/outputs/model_stages.csv",
+          "where": {
+            "stage": "video_extension",
+            "model_identifier": "seedance_2_5"
+          },
+          "column": "pooled_share",
+          "value": 1.0,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "m01h",
+          "label": "seedance_2_5 image-to-video share, mean film",
+          "file": "synthesis/outputs/model_stages.csv",
+          "where": {
+            "stage": "video_from_image",
+            "model_identifier": "seedance_2_5"
+          },
+          "column": "equal_film_mean",
+          "value": 0.7741,
+          "round": 4,
+          "format": "pct"
+        }
+      ]
+    },
+    {
+      "id": "M02",
+      "kind": "model",
+      "rank": 2,
+      "title": "Image work is spread over several models, led by three",
+      "finding": "Films use several image models, and no single one dominates image work the way seedance_2_5 dominates video. For image jobs with an input, three models lead: nano_banana_2, seedream_v5_pro and gpt_image_2.",
+      "frequency": "Image models per film: median {{m02a}} (IQR {{m02b}}-{{m02c}}). Top image model's share of a film's image jobs: median {{m02d}}. Image jobs with an input, mean film share and films where top: nano_banana_2 {{m02e}} ({{m02f}}), seedream_v5_pro {{m02g}} ({{m02h}}), gpt_image_2 {{m02i}} ({{m02j}}).",
+      "stage": "Image generation and editing",
+      "models": [
+        "nano_banana_2",
+        "seedream_v5_pro",
+        "gpt_image_2"
+      ],
+      "evidence_label": "observed",
+      "evidence_note": "Literal model identifiers on recorded image jobs.",
+      "strength": "strong",
+      "study04": "No Study 04 dependency for literal model counts.",
+      "studies": [
+        "05",
+        "08"
+      ],
+      "sources": [
+        "synthesis/outputs/summaries.csv",
+        "synthesis/outputs/model_stages.csv",
+        "studies/08-workflow/outputs/role_matrix.csv"
+      ],
+      "example": {
+        "film_id": "all image-bearing primary films",
+        "entities": "per-film generation:* model counts",
+        "source_path": "synthesis/outputs/model_concentration.csv",
+        "excerpt": "per-film image jobs, models and top_model"
+      },
+      "denominator": "{{p05h}} image jobs in {{p05g}} films; {{m02k}} image jobs with an input in {{m02l}} films",
+      "competing_explanation": "Model releases during the contest window, price and interface defaults shape the mix; films may switch models for reasons unrelated to the task.",
+      "confidence": "Deterministic counts over Study 08's role matrix.",
+      "numbers": [
+        {
+          "id": "m02a",
+          "label": "image models per film, median",
+          "file": "synthesis/outputs/summaries.csv",
+          "where": {
+            "metric": "image_models_per_film"
+          },
+          "column": "median",
+          "value": 5,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "m02b",
+          "label": "image models per film, lower quartile",
+          "file": "synthesis/outputs/summaries.csv",
+          "where": {
+            "metric": "image_models_per_film"
+          },
+          "column": "q25",
+          "value": 3,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "m02c",
+          "label": "image models per film, upper quartile",
+          "file": "synthesis/outputs/summaries.csv",
+          "where": {
+            "metric": "image_models_per_film"
+          },
+          "column": "q75",
+          "value": 8,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "m02d",
+          "label": "top image model share, median film",
+          "file": "synthesis/outputs/summaries.csv",
+          "where": {
+            "metric": "image_top_model_share"
+          },
+          "column": "median",
+          "value": 0.6061,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "m02e",
+          "label": "nano_banana_2 image-with-input share",
+          "file": "synthesis/outputs/model_stages.csv",
+          "where": {
+            "stage": "image_with_input",
+            "model_identifier": "nano_banana_2"
+          },
+          "column": "equal_film_mean",
+          "value": 0.3328,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "m02f",
+          "label": "nano_banana_2 top films",
+          "file": "synthesis/outputs/model_stages.csv",
+          "where": {
+            "stage": "image_with_input",
+            "model_identifier": "nano_banana_2"
+          },
+          "column": "top_films",
+          "value": 49,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "m02g",
+          "label": "seedream_v5_pro image-with-input share",
+          "file": "synthesis/outputs/model_stages.csv",
+          "where": {
+            "stage": "image_with_input",
+            "model_identifier": "seedream_v5_pro"
+          },
+          "column": "equal_film_mean",
+          "value": 0.2224,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "m02h",
+          "label": "seedream_v5_pro top films",
+          "file": "synthesis/outputs/model_stages.csv",
+          "where": {
+            "stage": "image_with_input",
+            "model_identifier": "seedream_v5_pro"
+          },
+          "column": "top_films",
+          "value": 44,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "m02i",
+          "label": "gpt_image_2 image-with-input share",
+          "file": "synthesis/outputs/model_stages.csv",
+          "where": {
+            "stage": "image_with_input",
+            "model_identifier": "gpt_image_2"
+          },
+          "column": "equal_film_mean",
+          "value": 0.2096,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "m02j",
+          "label": "gpt_image_2 top films",
+          "file": "synthesis/outputs/model_stages.csv",
+          "where": {
+            "stage": "image_with_input",
+            "model_identifier": "gpt_image_2"
+          },
+          "column": "top_films",
+          "value": 30,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "m02k",
+          "label": "image jobs with an input",
+          "file": "synthesis/outputs/model_stages.csv",
+          "where": {
+            "stage": "image_with_input",
+            "model_identifier": "nano_banana_2"
+          },
+          "column": "stage_jobs",
+          "value": 57717,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "m02l",
+          "label": "films with image jobs with an input",
+          "file": "synthesis/outputs/model_stages.csv",
+          "where": {
+            "stage": "image_with_input",
+            "model_identifier": "nano_banana_2"
+          },
+          "column": "films_with_stage",
+          "value": 153,
+          "round": 0,
+          "format": "int"
+        }
+      ]
+    },
+    {
+      "id": "M03",
+      "kind": "model",
+      "rank": 3,
+      "title": "Two roles for image models: start from nothing, or work from what you give",
+      "finding": "Two soul models, soul_cinematic and text2image_soul_v2, are almost always run without a recorded input and in batches, while nano_banana_2, seedream_v5_pro and gpt_image_2 usually receive an attached image and often combine several.",
+      "frequency": "Per film using each model, no recorded input: soul_cinematic {{m03a}}, text2image_soul_v2 {{m03b}}; batch members: {{m03c}} and {{m03d}}. Attached input: nano_banana_2 {{m03e}}, seedream_v5_pro {{m03f}}, gpt_image_2 {{m03g}}; two or more inputs: {{m03h}}, {{m03i}}, {{m03j}}.",
+      "stage": "Image generation: first looks versus edits and composites",
+      "models": [
+        "soul_cinematic",
+        "text2image_soul_v2",
+        "nano_banana_2",
+        "seedream_v5_pro",
+        "gpt_image_2"
+      ],
+      "evidence_label": "observed",
+      "evidence_note": "Recorded input bindings and batch membership per literal model.",
+      "strength": "strong",
+      "study04": "Study 08 conservative input route: confirmed. No recorded input never establishes text-only production.",
+      "studies": [
+        "08",
+        "09"
+      ],
+      "sources": [
+        "synthesis/outputs/model_profiles.csv",
+        "studies/08-workflow/outputs/role_matrix.csv",
+        "studies/09-iteration/outputs/by_model_identifier.csv"
+      ],
+      "example": {
+        "film_id": "all primary films using each model",
+        "entities": "per-film, per-model generation:* counts",
+        "source_path": "synthesis/outputs/model_profiles.csv",
+        "excerpt": "metric, model_identifier, films_using_model, equal_film_mean"
+      },
+      "denominator": "Jobs of each model in films using it: soul_cinematic {{m03k}} in {{m03l}} films; text2image_soul_v2 {{m03m}} in {{m03n}}; nano_banana_2 {{m03o}} in {{m03p}}; seedream_v5_pro {{m03q}} in {{m03r}}; gpt_image_2 {{m03s}} in {{m03t}}",
+      "competing_explanation": "Interfaces differ: a model may not accept inputs, or may batch by default; the role is an affordance as much as a choice.",
+      "confidence": "Deterministic counts per literal model; model versions and hidden defaults are not resolved.",
+      "numbers": [
+        {
+          "id": "m03a",
+          "label": "soul_cinematic no recorded input",
+          "file": "synthesis/outputs/model_profiles.csv",
+          "where": {
+            "metric": "no_recorded_input",
+            "generation_type": "image",
+            "model_identifier": "soul_cinematic"
+          },
+          "column": "equal_film_mean",
+          "value": 0.8887,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "m03b",
+          "label": "text2image_soul_v2 no recorded input",
+          "file": "synthesis/outputs/model_profiles.csv",
+          "where": {
+            "metric": "no_recorded_input",
+            "generation_type": "image",
+            "model_identifier": "text2image_soul_v2"
+          },
+          "column": "equal_film_mean",
+          "value": 0.8833,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "m03c",
+          "label": "soul_cinematic batch members",
+          "file": "synthesis/outputs/model_profiles.csv",
+          "where": {
+            "metric": "multi_job_batch",
+            "generation_type": "image",
+            "model_identifier": "soul_cinematic"
+          },
+          "column": "equal_film_mean",
+          "value": 0.6984,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "m03d",
+          "label": "text2image_soul_v2 batch members",
+          "file": "synthesis/outputs/model_profiles.csv",
+          "where": {
+            "metric": "multi_job_batch",
+            "generation_type": "image",
+            "model_identifier": "text2image_soul_v2"
+          },
+          "column": "equal_film_mean",
+          "value": 0.6276,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "m03e",
+          "label": "nano_banana_2 attached input",
+          "file": "synthesis/outputs/model_profiles.csv",
+          "where": {
+            "metric": "attached_input",
+            "generation_type": "image",
+            "model_identifier": "nano_banana_2"
+          },
+          "column": "equal_film_mean",
+          "value": 0.7701,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "m03f",
+          "label": "seedream_v5_pro attached input",
+          "file": "synthesis/outputs/model_profiles.csv",
+          "where": {
+            "metric": "attached_input",
+            "generation_type": "image",
+            "model_identifier": "seedream_v5_pro"
+          },
+          "column": "equal_film_mean",
+          "value": 0.7551,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "m03g",
+          "label": "gpt_image_2 attached input",
+          "file": "synthesis/outputs/model_profiles.csv",
+          "where": {
+            "metric": "attached_input",
+            "generation_type": "image",
+            "model_identifier": "gpt_image_2"
+          },
+          "column": "equal_film_mean",
+          "value": 0.7587,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "m03h",
+          "label": "nano_banana_2 multi-input",
+          "file": "synthesis/outputs/model_profiles.csv",
+          "where": {
+            "metric": "multi_input",
+            "generation_type": "image",
+            "model_identifier": "nano_banana_2"
+          },
+          "column": "equal_film_mean",
+          "value": 0.3415,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "m03i",
+          "label": "seedream_v5_pro multi-input",
+          "file": "synthesis/outputs/model_profiles.csv",
+          "where": {
+            "metric": "multi_input",
+            "generation_type": "image",
+            "model_identifier": "seedream_v5_pro"
+          },
+          "column": "equal_film_mean",
+          "value": 0.3588,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "m03j",
+          "label": "gpt_image_2 multi-input",
+          "file": "synthesis/outputs/model_profiles.csv",
+          "where": {
+            "metric": "multi_input",
+            "generation_type": "image",
+            "model_identifier": "gpt_image_2"
+          },
+          "column": "equal_film_mean",
+          "value": 0.3458,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "m03k",
+          "label": "soul_cinematic jobs in films using it",
+          "file": "synthesis/outputs/model_profiles.csv",
+          "where": {
+            "metric": "no_recorded_input",
+            "generation_type": "image",
+            "model_identifier": "soul_cinematic"
+          },
+          "column": "denominator",
+          "value": 7696,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "m03l",
+          "label": "films using soul_cinematic",
+          "file": "synthesis/outputs/model_profiles.csv",
+          "where": {
+            "metric": "no_recorded_input",
+            "generation_type": "image",
+            "model_identifier": "soul_cinematic"
+          },
+          "column": "films_using_model",
+          "value": 65,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "m03m",
+          "label": "text2image_soul_v2 jobs in films using it",
+          "file": "synthesis/outputs/model_profiles.csv",
+          "where": {
+            "metric": "no_recorded_input",
+            "generation_type": "image",
+            "model_identifier": "text2image_soul_v2"
+          },
+          "column": "denominator",
+          "value": 5809,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "m03n",
+          "label": "films using text2image_soul_v2",
+          "file": "synthesis/outputs/model_profiles.csv",
+          "where": {
+            "metric": "no_recorded_input",
+            "generation_type": "image",
+            "model_identifier": "text2image_soul_v2"
+          },
+          "column": "films_using_model",
+          "value": 56,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "m03o",
+          "label": "nano_banana_2 jobs in films using it",
+          "file": "synthesis/outputs/model_profiles.csv",
+          "where": {
+            "metric": "no_recorded_input",
+            "generation_type": "image",
+            "model_identifier": "nano_banana_2"
+          },
+          "column": "denominator",
+          "value": 25355,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "m03p",
+          "label": "films using nano_banana_2",
+          "file": "synthesis/outputs/model_profiles.csv",
+          "where": {
+            "metric": "no_recorded_input",
+            "generation_type": "image",
+            "model_identifier": "nano_banana_2"
+          },
+          "column": "films_using_model",
+          "value": 138,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "m03q",
+          "label": "seedream_v5_pro jobs in films using it",
+          "file": "synthesis/outputs/model_profiles.csv",
+          "where": {
+            "metric": "no_recorded_input",
+            "generation_type": "image",
+            "model_identifier": "seedream_v5_pro"
+          },
+          "column": "denominator",
+          "value": 21136,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "m03r",
+          "label": "films using seedream_v5_pro",
+          "file": "synthesis/outputs/model_profiles.csv",
+          "where": {
+            "metric": "no_recorded_input",
+            "generation_type": "image",
+            "model_identifier": "seedream_v5_pro"
+          },
+          "column": "films_using_model",
+          "value": 96,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "m03s",
+          "label": "gpt_image_2 jobs in films using it",
+          "file": "synthesis/outputs/model_profiles.csv",
+          "where": {
+            "metric": "no_recorded_input",
+            "generation_type": "image",
+            "model_identifier": "gpt_image_2"
+          },
+          "column": "denominator",
+          "value": 14397,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "m03t",
+          "label": "films using gpt_image_2",
+          "file": "synthesis/outputs/model_profiles.csv",
+          "where": {
+            "metric": "no_recorded_input",
+            "generation_type": "image",
+            "model_identifier": "gpt_image_2"
+          },
+          "column": "films_using_model",
+          "value": 120,
+          "round": 0,
+          "format": "int"
+        }
+      ]
+    },
+    {
+      "id": "M04",
+      "kind": "model",
+      "rank": 4,
+      "title": "Video foundations come from the three input-taking image models",
+      "finding": "When an image is handed to video generation, seedance_2_5 almost always receives it, and the image was usually made by nano_banana_2, gpt_image_2 or seedream_v5_pro. The text-first soul_cinematic rarely makes foundations.",
+      "frequency": "Image-to-video handoffs ({{m04a}} pairs, {{m04b}} films), mean film share: consumer seedance_2_5 {{m04c}}; producers nano_banana_2 {{m04d}}, gpt_image_2 {{m04e}}, seedream_v5_pro {{m04f}} (pooled {{m04g}}). soul_cinematic's share of image foundations: {{m04h}} per film.",
+      "stage": "Image-to-video handoff",
+      "models": [
+        "seedance_2_5",
+        "nano_banana_2",
+        "gpt_image_2",
+        "seedream_v5_pro",
+        "soul_cinematic"
+      ],
+      "evidence_label": "observed",
+      "evidence_note": "Explicit producer-consumer bindings by literal model.",
+      "strength": "strong",
+      "study04": "Study 08 foundation distinct from verified keyframe: confirmed.",
+      "studies": [
+        "08"
+      ],
+      "sources": [
+        "synthesis/outputs/model_handoffs.csv",
+        "synthesis/outputs/model_stages.csv",
+        "studies/08-workflow/outputs/transitions.csv"
+      ],
+      "example": {
+        "film_id": "655325cc-46d9-4b0b-b03d-d177defa4b3f",
+        "entities": "655325cc-46d9-4b0b-b03d-d177defa4b3f/generation:0035469c-1e6e-4c3f-aad6-bb3ab0bb05ce; 655325cc-46d9-4b0b-b03d-d177defa4b3f/generation:122382c3-e873-4845-8a14-89ff9dfa215e",
+        "source_path": "studies/08-workflow/outputs/handoff_examples.csv (the-kiss:08.3)",
+        "excerpt": "[producer model] nano_banana_2 [consumer model] seedance_2_5"
+      },
+      "denominator": "{{m04a}} image-to-video producer-consumer pairs in {{m04b}} films; {{p05c}} foundation image jobs in {{p05d}} films",
+      "competing_explanation": "Producers reflect which models a film used for images at all; a foundation may be one of many candidate images.",
+      "confidence": "Deterministic counts of Study 08's transitions by model type.",
+      "numbers": [
+        {
+          "id": "m04a",
+          "label": "image-to-video pairs",
+          "file": "synthesis/outputs/model_handoffs.csv",
+          "where": {
+            "handoff": "image_to_video_generation",
+            "side": "consumer",
+            "model_identifier": "seedance_2_5"
+          },
+          "column": "handoff_pairs",
+          "value": 111297,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "m04b",
+          "label": "films with image-to-video handoffs",
+          "file": "synthesis/outputs/model_handoffs.csv",
+          "where": {
+            "handoff": "image_to_video_generation",
+            "side": "consumer",
+            "model_identifier": "seedance_2_5"
+          },
+          "column": "films_with_handoff",
+          "value": 143,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "m04c",
+          "label": "seedance_2_5 consumer share",
+          "file": "synthesis/outputs/model_handoffs.csv",
+          "where": {
+            "handoff": "image_to_video_generation",
+            "side": "consumer",
+            "model_identifier": "seedance_2_5"
+          },
+          "column": "equal_film_mean",
+          "value": 0.793,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "m04d",
+          "label": "nano_banana_2 producer share",
+          "file": "synthesis/outputs/model_handoffs.csv",
+          "where": {
+            "handoff": "image_to_video_generation",
+            "side": "producer",
+            "model_identifier": "nano_banana_2"
+          },
+          "column": "equal_film_mean",
+          "value": 0.2741,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "m04e",
+          "label": "gpt_image_2 producer share",
+          "file": "synthesis/outputs/model_handoffs.csv",
+          "where": {
+            "handoff": "image_to_video_generation",
+            "side": "producer",
+            "model_identifier": "gpt_image_2"
+          },
+          "column": "equal_film_mean",
+          "value": 0.2473,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "m04f",
+          "label": "seedream_v5_pro producer share",
+          "file": "synthesis/outputs/model_handoffs.csv",
+          "where": {
+            "handoff": "image_to_video_generation",
+            "side": "producer",
+            "model_identifier": "seedream_v5_pro"
+          },
+          "column": "equal_film_mean",
+          "value": 0.2164,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "m04g",
+          "label": "seedream_v5_pro producer share, pooled",
+          "file": "synthesis/outputs/model_handoffs.csv",
+          "where": {
+            "handoff": "image_to_video_generation",
+            "side": "producer",
+            "model_identifier": "seedream_v5_pro"
+          },
+          "column": "pooled_share",
+          "value": 0.294,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "m04h",
+          "label": "soul_cinematic share of foundations",
+          "file": "synthesis/outputs/model_stages.csv",
+          "where": {
+            "stage": "image_foundation",
+            "model_identifier": "soul_cinematic"
+          },
+          "column": "equal_film_mean",
+          "value": 0.0353,
+          "round": 4,
+          "format": "pct"
+        }
+      ]
+    },
+    {
+      "id": "M05",
+      "kind": "model",
+      "rank": 5,
+      "title": "On-platform finishing runs through cinematic_video_editor",
+      "finding": "Where finishing jobs exist, cinematic_video_editor is the usual tool, mostly fed by seedance_2_5 clips; topaz_video appears in fewer films but handles large volumes where used.",
+      "frequency": "Of {{m05g}} films with finishing jobs, cinematic_video_editor is used in {{m05a}} and is the top finishing model in {{m05b}} ({{m05c}} mean film share). topaz_video: {{m05d}} films, {{m05e}} of pooled finishing jobs. seedance_2_5 produces {{m05f}} of the mean film's into-finishing pairs.",
+      "stage": "Finishing: editing and upscaling",
+      "models": [
+        "cinematic_video_editor",
+        "topaz_video",
+        "seedance_2_5"
+      ],
+      "evidence_label": "observed",
+      "evidence_note": "Literal model identifiers on finishing jobs and their recorded inputs.",
+      "strength": "moderate: about half the films show no on-platform finishing",
+      "study04": "Study 08 closed adapter role mapping: undecided. What the editor does is not validated.",
+      "studies": [
+        "08"
+      ],
+      "sources": [
+        "synthesis/outputs/model_stages.csv",
+        "synthesis/outputs/model_handoffs.csv",
+        "studies/08-workflow/outputs/handoff_examples.csv"
+      ],
+      "example": {
+        "film_id": "c3d8ee5e-b119-4654-99f9-c6545f650635",
+        "entities": "c3d8ee5e-b119-4654-99f9-c6545f650635/generation:88160a68-3dd4-4662-be7e-4fb5852634c5; c3d8ee5e-b119-4654-99f9-c6545f650635/generation:b6e44e77-d4a0-4821-9663-55a452fffc01",
+        "source_path": "studies/08-workflow/outputs/handoff_examples.csv (apeirophobia:08.3)",
+        "excerpt": "[producer model] seedance_2_5 [consumer model] cinematic_video_editor [explicit usage] asset_role input_video"
+      },
+      "denominator": "{{p10g}} finishing jobs in {{p10h}} films; {{m05h}} into-finishing pairs in {{m05i}} films",
+      "competing_explanation": "Most editing is said to happen in external editors, so on-platform finishing is a partial view.",
+      "confidence": "Deterministic counts; finishing content is not inspected.",
+      "numbers": [
+        {
+          "id": "m05a",
+          "label": "films using cinematic_video_editor for finishing",
+          "file": "synthesis/outputs/model_stages.csv",
+          "where": {
+            "stage": "finishing",
+            "model_identifier": "cinematic_video_editor"
+          },
+          "column": "films_using",
+          "value": 73,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "m05b",
+          "label": "films where it is the top finishing model",
+          "file": "synthesis/outputs/model_stages.csv",
+          "where": {
+            "stage": "finishing",
+            "model_identifier": "cinematic_video_editor"
+          },
+          "column": "top_films",
+          "value": 66,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "m05c",
+          "label": "cinematic_video_editor finishing share",
+          "file": "synthesis/outputs/model_stages.csv",
+          "where": {
+            "stage": "finishing",
+            "model_identifier": "cinematic_video_editor"
+          },
+          "column": "equal_film_mean",
+          "value": 0.8009,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "m05d",
+          "label": "films using topaz_video",
+          "file": "synthesis/outputs/model_stages.csv",
+          "where": {
+            "stage": "finishing",
+            "model_identifier": "topaz_video"
+          },
+          "column": "films_using",
+          "value": 17,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "m05e",
+          "label": "topaz_video pooled finishing share",
+          "file": "synthesis/outputs/model_stages.csv",
+          "where": {
+            "stage": "finishing",
+            "model_identifier": "topaz_video"
+          },
+          "column": "pooled_share",
+          "value": 0.3115,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "m05f",
+          "label": "seedance_2_5 into-finishing producer share",
+          "file": "synthesis/outputs/model_handoffs.csv",
+          "where": {
+            "handoff": "into_finishing",
+            "side": "producer",
+            "model_identifier": "seedance_2_5"
+          },
+          "column": "equal_film_mean",
+          "value": 0.6096,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "m05g",
+          "label": "films with finishing jobs",
+          "file": "synthesis/outputs/model_stages.csv",
+          "where": {
+            "stage": "finishing",
+            "model_identifier": "cinematic_video_editor"
+          },
+          "column": "films_with_stage",
+          "value": 80,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "m05h",
+          "label": "into-finishing pairs",
+          "file": "synthesis/outputs/model_handoffs.csv",
+          "where": {
+            "handoff": "into_finishing",
+            "side": "producer",
+            "model_identifier": "seedance_2_5"
+          },
+          "column": "handoff_pairs",
+          "value": 1367,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "m05i",
+          "label": "films with into-finishing pairs",
+          "file": "synthesis/outputs/model_handoffs.csv",
+          "where": {
+            "handoff": "into_finishing",
+            "side": "producer",
+            "model_identifier": "seedance_2_5"
+          },
+          "column": "films_with_handoff",
+          "value": 77,
+          "round": 0,
+          "format": "int"
+        }
+      ]
+    },
+    {
+      "id": "M06",
+      "kind": "model",
+      "rank": 6,
+      "title": "Recorded seedance_2_5 settings: 720p or 1080p, wide frames, varied lengths",
+      "finding": "seedance_2_5 jobs are mostly set to 720p or 1080p and to 16:9, with a large minority at 21:9. Clip lengths vary widely, with peaks at 20, 30 and 15 seconds.",
+      "frequency": "Mean film share among {{m06j}} films using seedance_2_5: 720p {{m06a}}, 1080p {{m06b}}, 480p {{m06c}}; 16:9 {{m06d}}, 21:9 {{m06e}} ({{m06f}} films use 21:9). Duration 20 s {{m06g}}, 30 s {{m06h}}, 15 s {{m06i}}.",
+      "stage": "Video generation controls",
+      "models": [
+        "seedance_2_5"
+      ],
+      "evidence_label": "observed",
+      "evidence_note": "Literal top-level control values.",
+      "strength": "strong for recorded values; defaults unknown",
+      "study04": "Study 09 top-level scalar control subset: confirmed. Hidden defaults and nested semantics remain unknown.",
+      "studies": [
+        "06"
+      ],
+      "sources": [
+        "studies/06-video/outputs/summary_controls_resolution.csv",
+        "studies/06-video/outputs/summary_controls_aspect_ratio.csv",
+        "studies/06-video/outputs/summary_controls_duration.csv"
+      ],
+      "example": {
+        "film_id": "all primary films using seedance_2_5",
+        "entities": "per-film generation:* control values",
+        "source_path": "studies/06-video/outputs/controls_resolution.csv",
+        "excerpt": "per-film seedance_2_5 resolution, aspect_ratio and duration states"
+      },
+      "denominator": "{{m06k}} seedance_2_5 jobs with valid control documents in {{m06j}} films",
+      "competing_explanation": "Defaults, credit cost per second and resolution, and contest delivery specs shape settings.",
+      "confidence": "Literal recorded values; jobs without a control value are kept separate in Study 06.",
+      "numbers": [
+        {
+          "id": "m06a",
+          "label": "720p share",
+          "file": "studies/06-video/outputs/summary_controls_resolution.csv",
+          "where": {
+            "model_identifier": "seedance_2_5",
+            "parameter": "resolution",
+            "raw_json": "\"720p\""
+          },
+          "column": "equal_film_mean",
+          "value": 0.4844,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "m06b",
+          "label": "1080p share",
+          "file": "studies/06-video/outputs/summary_controls_resolution.csv",
+          "where": {
+            "model_identifier": "seedance_2_5",
+            "parameter": "resolution",
+            "raw_json": "\"1080p\""
+          },
+          "column": "equal_film_mean",
+          "value": 0.4059,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "m06c",
+          "label": "480p share",
+          "file": "studies/06-video/outputs/summary_controls_resolution.csv",
+          "where": {
+            "model_identifier": "seedance_2_5",
+            "parameter": "resolution",
+            "raw_json": "\"480p\""
+          },
+          "column": "equal_film_mean",
+          "value": 0.1096,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "m06d",
+          "label": "16:9 share",
+          "file": "studies/06-video/outputs/summary_controls_aspect_ratio.csv",
+          "where": {
+            "model_identifier": "seedance_2_5",
+            "parameter": "aspect_ratio",
+            "raw_json": "\"16:9\""
+          },
+          "column": "equal_film_mean",
+          "value": 0.6294,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "m06e",
+          "label": "21:9 share",
+          "file": "studies/06-video/outputs/summary_controls_aspect_ratio.csv",
+          "where": {
+            "model_identifier": "seedance_2_5",
+            "parameter": "aspect_ratio",
+            "raw_json": "\"21:9\""
+          },
+          "column": "equal_film_mean",
+          "value": 0.3555,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "m06f",
+          "label": "films using 21:9",
+          "file": "studies/06-video/outputs/summary_controls_aspect_ratio.csv",
+          "where": {
+            "model_identifier": "seedance_2_5",
+            "parameter": "aspect_ratio",
+            "raw_json": "\"21:9\""
+          },
+          "column": "films_with_value",
+          "value": 65,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "m06g",
+          "label": "20 s share",
+          "file": "studies/06-video/outputs/summary_controls_duration.csv",
+          "where": {
+            "model_identifier": "seedance_2_5",
+            "parameter": "duration",
+            "raw_json": "20"
+          },
+          "column": "equal_film_mean",
+          "value": 0.1646,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "m06h",
+          "label": "30 s share",
+          "file": "studies/06-video/outputs/summary_controls_duration.csv",
+          "where": {
+            "model_identifier": "seedance_2_5",
+            "parameter": "duration",
+            "raw_json": "30"
+          },
+          "column": "equal_film_mean",
+          "value": 0.1387,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "m06i",
+          "label": "15 s share",
+          "file": "studies/06-video/outputs/summary_controls_duration.csv",
+          "where": {
+            "model_identifier": "seedance_2_5",
+            "parameter": "duration",
+            "raw_json": "15"
+          },
+          "column": "equal_film_mean",
+          "value": 0.1036,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "m06j",
+          "label": "films using seedance_2_5",
+          "file": "studies/06-video/outputs/summary_controls_resolution.csv",
+          "where": {
+            "model_identifier": "seedance_2_5",
+            "parameter": "resolution",
+            "raw_json": "\"720p\""
+          },
+          "column": "film_denominator",
+          "value": 145,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "m06k",
+          "label": "seedance_2_5 jobs with control documents",
+          "file": "studies/06-video/outputs/summary_controls_resolution.csv",
+          "where": {
+            "model_identifier": "seedance_2_5",
+            "parameter": "resolution",
+            "raw_json": "\"720p\""
+          },
+          "column": "video_job_denominator",
+          "value": 31080,
+          "round": 0,
+          "format": "int"
+        }
+      ]
+    },
+    {
+      "id": "M07",
+      "kind": "model",
+      "rank": 7,
+      "title": "Outputs of the input-taking image models are taken further most often",
+      "finding": "Outputs of gpt_image_2, seedream_v5_pro and nano_banana_2 are reused by later jobs more often than those of soul_cinematic or seedance_2_5.",
+      "frequency": "Jobs whose output a later job uses, mean film share among films using the model: gpt_image_2 {{m07a}}, seedream_v5_pro {{m07b}}, nano_banana_2 {{m07c}}, soul_cinematic {{m07d}}, seedance_2_5 {{m07e}}.",
+      "stage": "Recorded further use by model",
+      "models": [
+        "gpt_image_2",
+        "seedream_v5_pro",
+        "nano_banana_2",
+        "soul_cinematic",
+        "seedance_2_5"
+      ],
+      "evidence_label": "observed",
+      "evidence_note": "Recorded further use per literal model; not approval.",
+      "strength": "moderate: batches and external assembly shift denominators",
+      "study04": "Study 09 rerun-candidate motives: undecided.",
+      "studies": [
+        "09"
+      ],
+      "sources": [
+        "studies/09-iteration/outputs/summary_model_identifier.csv",
+        "synthesis/outputs/model_profiles.csv"
+      ],
+      "example": {
+        "film_id": "primary films using each model",
+        "entities": "per-film, per-model generation:* adoption counts",
+        "source_path": "studies/09-iteration/outputs/by_model_identifier.csv",
+        "excerpt": "adopted and jobs by film and model_identifier"
+      },
+      "denominator": "Jobs of each model in films using it: gpt_image_2 {{m03s}} in {{m03t}} films; seedream_v5_pro {{m03q}} in {{m03r}}; nano_banana_2 {{m03o}} in {{m03p}}; soul_cinematic {{m03k}} in {{m03l}}; seedance_2_5 {{m07f}} in {{m07g}}",
+      "competing_explanation": "Video outputs are assembled outside the platform; soul_cinematic runs in large batches, so most candidates are siblings; use is not quality.",
+      "confidence": "Deterministic counts from Study 09.",
+      "numbers": [
+        {
+          "id": "m07a",
+          "label": "gpt_image_2 adopted",
+          "file": "studies/09-iteration/outputs/summary_model_identifier.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "adopted",
+            "model_identifier": "gpt_image_2"
+          },
+          "column": "equal_film_mean",
+          "value": 0.2494,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "m07b",
+          "label": "seedream_v5_pro adopted",
+          "file": "studies/09-iteration/outputs/summary_model_identifier.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "adopted",
+            "model_identifier": "seedream_v5_pro"
+          },
+          "column": "equal_film_mean",
+          "value": 0.2257,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "m07c",
+          "label": "nano_banana_2 adopted",
+          "file": "studies/09-iteration/outputs/summary_model_identifier.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "adopted",
+            "model_identifier": "nano_banana_2"
+          },
+          "column": "equal_film_mean",
+          "value": 0.1872,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "m07d",
+          "label": "soul_cinematic adopted",
+          "file": "studies/09-iteration/outputs/summary_model_identifier.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "adopted",
+            "model_identifier": "soul_cinematic"
+          },
+          "column": "equal_film_mean",
+          "value": 0.1002,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "m07e",
+          "label": "seedance_2_5 adopted",
+          "file": "studies/09-iteration/outputs/summary_model_identifier.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "adopted",
+            "model_identifier": "seedance_2_5"
+          },
+          "column": "equal_film_mean",
+          "value": 0.0585,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "m07f",
+          "label": "seedance_2_5 jobs",
+          "file": "studies/09-iteration/outputs/summary_model_identifier.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "adopted",
+            "model_identifier": "seedance_2_5"
+          },
+          "column": "denominator",
+          "value": 31082,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "m07g",
+          "label": "films using seedance_2_5",
+          "file": "studies/09-iteration/outputs/summary_model_identifier.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "adopted",
+            "model_identifier": "seedance_2_5"
+          },
+          "column": "measured_films",
+          "value": 145,
+          "round": 0,
+          "format": "int"
+        }
+      ]
+    },
+    {
+      "id": "T01",
+      "kind": "technique",
+      "rank": 1,
+      "title": "Name the change, then name what must stay",
+      "finding": "Edit requests usually say both what to change and what to leave alone, often with a hard boundary such as \"ONLY\" and \"stays exactly unchanged\". What is protected is often identity.",
+      "frequency": "Image edit prompts with preservation wording: {{t01a}} of the mean film's edit prompts versus {{t01b}} of all its image prompts ({{t01c}} films; pooled {{t01d}} versus {{t01e}}). Provisional: image texts asking to preserve mention identity {{t01f}} of the time versus {{t01g}} overall.",
+      "stage": "Image edits and video edits",
+      "models": [
+        "nano_banana_2",
+        "gpt_image_2",
+        "seedream_v5_pro"
+      ],
+      "evidence_label": "associated",
+      "evidence_note": "Co-occurrence of edit and preservation wording within prompts; the case shows the wording; the identity pair uses provisional labels.",
+      "strength": "strong for the co-occurrence; benefit untested",
+      "study04": "Study 05 edit, preservation and short-edit proxies: changed. Semantic preservation is conditional on the weighted sample; edit intent is not a released component.",
+      "studies": [
+        "04",
+        "05",
+        "06"
+      ],
+      "sources": [
+        "synthesis/outputs/technique_pairs.csv",
+        "synthesis/outputs/semantic_pairs.csv",
+        "studies/06-video/outputs/revision_requests.json",
+        "studies/05-image/README.md"
+      ],
+      "example": {
+        "film_id": "03f596b0-23da-4312-9e58-2e1cc4582348",
+        "entities": "03f596b0-23da-4312-9e58-2e1cc4582348/generation:083272c6-2303-4ddd-87e3-27dd2531ee0e; 03f596b0-23da-4312-9e58-2e1cc4582348/asset:6640605c-455d-42cd-ab70-db0c327d7b20",
+        "source_path": "studies/06-video/outputs/case_evidence.csv (THE LAST TRANSMISSION 06.5)",
+        "excerpt": "Edit: inside the CRT screen ONLY ... EVERYTHING outside the screen glass stays exactly unchanged"
+      },
+      "denominator": "{{t01h}} image edit prompts in {{t01c}} films against {{p04i}} nonempty image prompts in {{p05g}} films; sampled successful image texts for the identity pair",
+      "competing_explanation": "Templates may bundle edit and keep phrases; the keyword lists overlap in wording; whether naming invariants helps is untested.",
+      "confidence": "Census-level co-occurrence reproduced from released features; provisional labels for the identity pair.",
+      "numbers": [
+        {
+          "id": "t01a",
+          "label": "preservation given edit, mean film",
+          "file": "synthesis/outputs/technique_pairs.csv",
+          "where": {
+            "task": "image",
+            "given": "edit",
+            "also": "preservation"
+          },
+          "column": "mean_share_given",
+          "value": 0.5671,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "t01b",
+          "label": "preservation in same films",
+          "file": "synthesis/outputs/technique_pairs.csv",
+          "where": {
+            "task": "image",
+            "given": "edit",
+            "also": "preservation"
+          },
+          "column": "mean_share_same_films",
+          "value": 0.3046,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "t01c",
+          "label": "films with edit prompts",
+          "file": "synthesis/outputs/technique_pairs.csv",
+          "where": {
+            "task": "image",
+            "given": "edit",
+            "also": "preservation"
+          },
+          "column": "films_with_given",
+          "value": 146,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "t01d",
+          "label": "preservation given edit, pooled",
+          "file": "synthesis/outputs/technique_pairs.csv",
+          "where": {
+            "task": "image",
+            "given": "edit",
+            "also": "preservation"
+          },
+          "column": "pooled_share_given",
+          "value": 0.6269,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "t01e",
+          "label": "preservation in same films, pooled",
+          "file": "synthesis/outputs/technique_pairs.csv",
+          "where": {
+            "task": "image",
+            "given": "edit",
+            "also": "preservation"
+          },
+          "column": "pooled_share_same_films",
+          "value": 0.3104,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "t01f",
+          "label": "identity given preservation, mean film",
+          "file": "synthesis/outputs/semantic_pairs.csv",
+          "where": {
+            "task": "image",
+            "given": "preservation",
+            "also": "identity"
+          },
+          "column": "mean_share_given",
+          "value": 0.7467,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "t01g",
+          "label": "identity in same films",
+          "file": "synthesis/outputs/semantic_pairs.csv",
+          "where": {
+            "task": "image",
+            "given": "preservation",
+            "also": "identity"
+          },
+          "column": "mean_share_same_films",
+          "value": 0.5885,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "t01h",
+          "label": "image edit prompts",
+          "file": "synthesis/outputs/technique_pairs.csv",
+          "where": {
+            "task": "image",
+            "given": "edit",
+            "also": "preservation"
+          },
+          "column": "given_mass",
+          "value": 23074,
+          "round": 0,
+          "format": "int"
+        }
+      ]
+    },
+    {
+      "id": "T02",
+      "kind": "technique",
+      "rank": 2,
+      "title": "Prepare a reference package, then attach it",
+      "finding": "Creators make dedicated reference images, typically several views of the same character or costume, and later attach them to image and video jobs. A prepared sheet can itself be edited for a variant.",
+      "frequency": "Panel films preparing multi-angle references: {{t02a}} of {{t02f}}, plus {{t02b}} that also prepared a location board. Jobs whose output becomes a named reference: {{t02c}} in {{t02d}} of {{l01a}} films. Jobs with a named reference attached: {{t02e}} of the mean film's jobs.",
+      "stage": "Reference preparation before image and video generation",
+      "models": [
+        "gpt_image_2_5",
+        "seedream_v5_pro",
+        "gpt_image_2"
+      ],
+      "evidence_label": "observed",
+      "evidence_note": "Panel prompts requesting sheets and recorded attachments; the sheet's form is not verified.",
+      "strength": "moderate: purposive panel of {{t02f}}; population counts are bindings only",
+      "study04": "Study 03 package request or attachment distinct from fulfilment: confirmed. No sheet form is verified.",
+      "studies": [
+        "03",
+        "08"
+      ],
+      "sources": [
+        "studies/03-elements/README.md",
+        "studies/03-elements/outputs/panel_assignments.csv",
+        "studies/03-elements/outputs/reference_packages.json",
+        "studies/08-workflow/outputs/summaries.csv"
+      ],
+      "example": {
+        "film_id": "aed4098b-3278-4e5d-a347-24fad9cfb9ae",
+        "entities": "aed4098b-3278-4e5d-a347-24fad9cfb9ae/generation:16536627-0f5a-4ac8-bdb8-b9d43902785a; aed4098b-3278-4e5d-a347-24fad9cfb9ae/asset:aec46fad-8f17-4e5f-94ab-166299a81706",
+        "source_path": "studies/03-elements/outputs/case_evidence.csv (SNAP 03.3)",
+        "excerpt": "Character reference sheet of the SAME person ... One FRONT view ... one BACK view"
+      },
+      "denominator": "{{t02f}} panel films; {{l01b}} jobs in {{l01a}} films",
+      "competing_explanation": "Sheets may be made for pitching or style exploration rather than consistency; whether a sheet beats a text description is untested.",
+      "confidence": "Single-coder panel coding with scoped excerpts; deterministic population counts.",
+      "numbers": [
+        {
+          "id": "t02a",
+          "label": "panel films coded multi_angle",
+          "file": "studies/03-elements/outputs/panel_assignments.csv",
+          "where": {
+            "code_id": "03.3",
+            "value": "multi_angle"
+          },
+          "column": "assignments",
+          "value": 10,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "t02b",
+          "label": "panel films coded multi_angle with location board",
+          "file": "studies/03-elements/outputs/panel_assignments.csv",
+          "where": {
+            "code_id": "03.3",
+            "value": "multi_angle|location_board"
+          },
+          "column": "assignments",
+          "value": 1,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "t02c",
+          "label": "reference preparation jobs",
+          "file": "studies/08-workflow/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "reference_preparation"
+          },
+          "column": "numerator",
+          "value": 3930,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "t02d",
+          "label": "films with reference preparation",
+          "file": "studies/08-workflow/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "reference_preparation"
+          },
+          "column": "positive_films",
+          "value": 100,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "t02e",
+          "label": "named-reference jobs, mean film share",
+          "file": "studies/03-elements/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "named_reference_jobs"
+          },
+          "column": "equal_film_mean",
+          "value": 0.3267,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "t02f",
+          "label": "panel films",
+          "file": "studies/03-elements/outputs/panel_assignments.csv",
+          "where": {
+            "code_id": "03.3",
+            "value": "multi_angle"
+          },
+          "column": "panel_denominator",
+          "value": 16,
+          "round": 0,
+          "format": "int"
+        }
+      ]
+    },
+    {
+      "id": "T03",
+      "kind": "technique",
+      "rank": 3,
+      "title": "Write cuts and timing into the prompt",
+      "finding": "Video prompts lay out shots and timings in words, with counted cuts and timestamps, even when the multi-shot control is off (see P09).",
+      "frequency": "Provisional timing component in {{t03a}} of the mean film's video texts. Lexical multi-shot wording in {{t03b}} of the mean film's video prompts (pooled {{t03c}}).",
+      "stage": "Video generation; shot structure",
+      "models": [
+        "seedance_2_5"
+      ],
+      "evidence_label": "observed",
+      "evidence_note": "Case wording is observed; the timing share is inferred from provisional labels.",
+      "strength": "moderate: instruction only; executed cuts are not counted",
+      "study04": "Study 06 requested shots distinct from jobs and cuts: confirmed. Study 06 possible conflicts between timing text and controls: confirmed, unadjudicated.",
+      "studies": [
+        "04",
+        "06",
+        "02"
+      ],
+      "sources": [
+        "studies/06-video/README.md",
+        "studies/06-video/outputs/motion_patterns.csv",
+        "studies/04-prompts/outputs/semantic_summary_generation_type.csv",
+        "synthesis/outputs/summaries.csv"
+      ],
+      "example": {
+        "film_id": "9b38b885-bf92-484e-8f36-a890e4e10d61",
+        "entities": "9b38b885-bf92-484e-8f36-a890e4e10d61/generation:014a8505-858b-4b9a-9777-b4461d5957e2",
+        "source_path": "studies/06-video/outputs/case_evidence.csv (prophecy-in-2047:06.1)",
+        "excerpt": "Six separate shots joined by five hard cuts ... 4.0s HARD CUT"
+      },
+      "denominator": "Sampled successful video texts in {{p01h}} films (timing); {{p04h}} nonempty video prompts in {{p01h}} films (lexical)",
+      "competing_explanation": "The model may ignore timings; writers may copy timing templates; timing text and the duration control may disagree.",
+      "confidence": "Provisional label agreement for timing is reported in Study 04; lexical counts are deterministic.",
+      "numbers": [
+        {
+          "id": "t03a",
+          "label": "timing component, video, mean film",
+          "file": "studies/04-prompts/outputs/semantic_summary_generation_type.csv",
+          "where": {
+            "dimension": "all",
+            "condition": "video",
+            "metric": "timing_weighted"
+          },
+          "column": "equal_film_mean",
+          "value": 0.8941,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "t03b",
+          "label": "multi-shot wording, video, mean film",
+          "file": "synthesis/outputs/summaries.csv",
+          "where": {
+            "metric": "multi_shot",
+            "task": "video"
+          },
+          "column": "equal_film_mean",
+          "value": 0.2501,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "t03c",
+          "label": "multi-shot wording, video, pooled",
+          "file": "synthesis/outputs/summaries.csv",
+          "where": {
+            "metric": "multi_shot",
+            "task": "video"
+          },
+          "column": "pooled_share",
+          "value": 0.2443,
+          "round": 4,
+          "format": "pct"
+        }
+      ]
+    },
+    {
+      "id": "T04",
+      "kind": "technique",
+      "rank": 4,
+      "title": "Give the camera, the subject and the world their own sentences",
+      "finding": "Detailed video prompts describe what the camera does, what the subject does and what the environment does in separate statements, rather than one blended description.",
+      "frequency": "Provisional components in the mean film's video texts: camera motion {{t04a}}, action {{t04b}}. Lexical camera wording: {{t04c}} of the mean film's video prompts (pooled {{t04d}}).",
+      "stage": "Video generation; motion description",
+      "models": [
+        "seedance_2_5"
+      ],
+      "evidence_label": "observed",
+      "evidence_note": "Case wording is observed; component shares are inferred from provisional labels.",
+      "strength": "moderate: separation is shown in cases; shares only show presence",
+      "study04": "Study 06 subject, camera, environment, events, audio and invariants in named spans: confirmed, without a dedicated environment-motion label.",
+      "studies": [
+        "04",
+        "06"
+      ],
+      "sources": [
+        "studies/06-video/README.md",
+        "studies/06-video/outputs/motion_patterns.csv",
+        "studies/04-prompts/outputs/semantic_summary_generation_type.csv"
+      ],
+      "example": {
+        "film_id": "9b38b885-bf92-484e-8f36-a890e4e10d61",
+        "entities": "9b38b885-bf92-484e-8f36-a890e4e10d61/generation:014a8505-858b-4b9a-9777-b4461d5957e2",
+        "source_path": "studies/06-video/outputs/case_evidence.csv (prophecy-in-2047:06.1)",
+        "excerpt": "tracking with her, handheld tremor ... Roopa hauls right to left ... Heavy rain falls in every frame."
+      },
+      "denominator": "Sampled successful video texts in {{p01h}} films; {{p04h}} nonempty video prompts in {{p01h}} films",
+      "competing_explanation": "Presence of both components does not show they were separated; separation may be a writing habit with no effect on output.",
+      "confidence": "Provisional labels; lexical counts deterministic.",
+      "numbers": [
+        {
+          "id": "t04a",
+          "label": "camera motion component, video",
+          "file": "studies/04-prompts/outputs/semantic_summary_generation_type.csv",
+          "where": {
+            "dimension": "all",
+            "condition": "video",
+            "metric": "camera_motion_weighted"
+          },
+          "column": "equal_film_mean",
+          "value": 0.9053,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "t04b",
+          "label": "action component, video",
+          "file": "studies/04-prompts/outputs/semantic_summary_generation_type.csv",
+          "where": {
+            "dimension": "all",
+            "condition": "video",
+            "metric": "action_weighted"
+          },
+          "column": "equal_film_mean",
+          "value": 0.9654,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "t04c",
+          "label": "camera wording, video, mean film",
+          "file": "synthesis/outputs/summaries.csv",
+          "where": {
+            "metric": "camera",
+            "task": "video"
+          },
+          "column": "equal_film_mean",
+          "value": 0.8628,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "t04d",
+          "label": "camera wording, video, pooled",
+          "file": "synthesis/outputs/summaries.csv",
+          "where": {
+            "metric": "camera",
+            "task": "video"
+          },
+          "column": "pooled_share",
+          "value": 0.8747,
+          "round": 4,
+          "format": "pct"
+        }
+      ]
+    },
+    {
+      "id": "T05",
+      "kind": "technique",
+      "rank": 5,
+      "title": "Say what each reference is allowed to decide",
+      "finding": "Some creators state the scope of a reference's authority, for example that one image governs the whole shot, instead of leaving the model to weigh several inputs.",
+      "frequency": "Panel films with a creator-declared reference authority: {{t05a}} of {{t02f}}.",
+      "stage": "Reference-guided image and video generation",
+      "models": [
+        "seedance_2_5"
+      ],
+      "evidence_label": "creator-stated",
+      "evidence_note": "The creator's own instruction about a reference; whether the model obeys is not observed.",
+      "strength": "weak to moderate: purposive panel only",
+      "study04": "Study 03 property location in prose or metadata with unknown media: confirmed.",
+      "studies": [
+        "03"
+      ],
+      "sources": [
+        "studies/03-elements/README.md",
+        "studies/03-elements/outputs/authority.json",
+        "studies/03-elements/outputs/panel_assignments.csv"
+      ],
+      "example": {
+        "film_id": "c3d8ee5e-b119-4654-99f9-c6545f650635",
+        "entities": "c3d8ee5e-b119-4654-99f9-c6545f650635/generation:4896743a-85d5-44df-8539-e08e0c8f7fdb; c3d8ee5e-b119-4654-99f9-c6545f650635/asset:288c7412-7e51-4301-af39-c1c460395c5c",
+        "source_path": "studies/03-elements/outputs/case_evidence.csv (APEIROPHOBIA 03.6)",
+        "excerpt": "This single reference image is authoritative for the entire shot."
+      },
+      "denominator": "{{t02f}} panel films",
+      "competing_explanation": "Authority wording may be boilerplate; panel selection is purposive; no population census of authority wording exists.",
+      "confidence": "Single-coder panel coding; {{t05b}} of {{t02f}} panel films could not be coded.",
+      "numbers": [
+        {
+          "id": "t05a",
+          "label": "panel films coded creator_declared",
+          "file": "studies/03-elements/outputs/panel_assignments.csv",
+          "where": {
+            "code_id": "03.6",
+            "value": "creator_declared"
+          },
+          "column": "assignments",
+          "value": 9,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "t05b",
+          "label": "panel films with authority uncoded",
+          "file": "studies/03-elements/outputs/panel_assignments.csv",
+          "where": {
+            "code_id": "03.6",
+            "status": "unknown"
+          },
+          "column": "assignments",
+          "value": 7,
+          "round": 0,
+          "format": "int"
+        }
+      ]
+    },
+    {
+      "id": "T06",
+      "kind": "technique",
+      "rank": 6,
+      "title": "Put exclusions inside the main prompt",
+      "finding": "The separate negative-prompt field is almost unused; creators write what they do not want, such as music, voices or subtitles, into the main prompt instead.",
+      "frequency": "Nonempty negative-prompt fields: {{t06a}} in {{t06b}} films. Exclusion wording in the mean film's prompts: video {{t06c}}, image {{t06d}}. Provisional exclusion component in video texts: {{t06e}}.",
+      "stage": "Image and video prompts",
+      "models": [
+        "seedance_2_5"
+      ],
+      "evidence_label": "observed",
+      "evidence_note": "Field states and lexical counts; the component share is inferred from provisional labels.",
+      "strength": "strong for field use; exclusion wording is broad",
+      "study04": "Study 06 lexical exclusion proxy: changed. It gains a provisional sampled semantic measure.",
+      "studies": [
+        "04",
+        "06"
+      ],
+      "sources": [
+        "studies/04-prompts/outputs/summary_text_role.csv",
+        "synthesis/outputs/summaries.csv",
+        "studies/04-prompts/outputs/semantic_summary_generation_type.csv"
+      ],
+      "example": {
+        "film_id": "03f596b0-23da-4312-9e58-2e1cc4582348",
+        "entities": "03f596b0-23da-4312-9e58-2e1cc4582348/generation:0a5dad36-f81f-4a32-a38a-bc7bcd103e7f; 03f596b0-23da-4312-9e58-2e1cc4582348/asset:9264c44d-ad74-4ddc-91fc-4490b55a5b18",
+        "source_path": "studies/04-prompts/outputs/case_evidence.csv (THE LAST TRANSMISSION 04.2)",
+        "excerpt": "\"camera\":\"locked frame on the dial and hands\" ... no voice, no music"
+      },
+      "denominator": "Negative-role fields in all {{l01a}} films; {{p04h}} nonempty video and {{p04i}} nonempty image prompts",
+      "competing_explanation": "The negative field may be hidden in the interface for most models; exclusion keywords include common words in other senses.",
+      "confidence": "Deterministic field and lexical counts; provisional semantic share.",
+      "numbers": [
+        {
+          "id": "t06a",
+          "label": "nonempty negative-prompt fields",
+          "file": "studies/04-prompts/outputs/summary_text_role.csv",
+          "where": {
+            "dimension": "all",
+            "text_role": "negative",
+            "metric": "exclusion"
+          },
+          "column": "denominator",
+          "value": 2,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "t06b",
+          "label": "films with a negative-prompt field",
+          "file": "studies/04-prompts/outputs/summary_text_role.csv",
+          "where": {
+            "dimension": "all",
+            "text_role": "negative",
+            "metric": "exclusion"
+          },
+          "column": "measured_films",
+          "value": 2,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "t06c",
+          "label": "exclusion wording, video",
+          "file": "synthesis/outputs/summaries.csv",
+          "where": {
+            "metric": "exclusion",
+            "task": "video"
+          },
+          "column": "equal_film_mean",
+          "value": 0.9087,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "t06d",
+          "label": "exclusion wording, image",
+          "file": "synthesis/outputs/summaries.csv",
+          "where": {
+            "metric": "exclusion",
+            "task": "image"
+          },
+          "column": "equal_film_mean",
+          "value": 0.6784,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "t06e",
+          "label": "exclusion component, video",
+          "file": "studies/04-prompts/outputs/semantic_summary_generation_type.csv",
+          "where": {
+            "dimension": "all",
+            "condition": "video",
+            "metric": "exclusion_weighted"
+          },
+          "column": "equal_film_mean",
+          "value": 0.9148,
+          "round": 4,
+          "format": "pct"
+        }
+      ]
+    },
+    {
+      "id": "T07",
+      "kind": "technique",
+      "rank": 7,
+      "title": "Continue from the previous clip",
+      "finding": "To carry action across clips, creators feed an earlier video back in, either guiding a new clip from it or declaring an extension, and say where to pick up.",
+      "frequency": "Films with video guided by an earlier video: {{t07a}} of {{p01h}} video-bearing films. Declared extensions: {{t07b}} jobs in {{t07c}} films.",
+      "stage": "Video-to-video and extension",
+      "models": [
+        "seedance_2_5"
+      ],
+      "evidence_label": "observed",
+      "evidence_note": "Recorded video inputs and declared extension mode.",
+      "strength": "strong for the routes; continuity achieved is not observed",
+      "study04": "Study 07 raw input reuse or branch: undecided.",
+      "studies": [
+        "06",
+        "07"
+      ],
+      "sources": [
+        "studies/06-video/outputs/summaries.csv",
+        "synthesis/outputs/model_stages.csv",
+        "studies/07-lineage/README.md"
+      ],
+      "example": {
+        "film_id": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce",
+        "entities": "3b09c7c2-3f0c-48e3-8304-fad569bf50ce/generation:1d963033-bc45-495d-9bfa-a05e4d0cf918; 3b09c7c2-3f0c-48e3-8304-fad569bf50ce/asset:0e619b88-43ef-4a45-84c3-b7b86ac96fe4",
+        "source_path": "studies/02-planning/outputs/case_evidence.csv (The Staff 02.4)",
+        "excerpt": "frame 1 same last frame from here <<<video_1>>>"
+      },
+      "denominator": "{{p01d}} video jobs in {{p01h}} films",
+      "competing_explanation": "Video inputs may be used for style or motion transfer rather than continuation; extension availability depends on the model.",
+      "confidence": "Deterministic route counts; the media are not inspected.",
+      "numbers": [
+        {
+          "id": "t07a",
+          "label": "films with video-guided video",
+          "file": "synthesis/outputs/model_stages.csv",
+          "where": {
+            "stage": "video_from_video",
+            "model_identifier": "seedance_2_5"
+          },
+          "column": "films_with_stage",
+          "value": 113,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "t07b",
+          "label": "extension jobs",
+          "file": "studies/06-video/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "route_extension"
+          },
+          "column": "numerator",
+          "value": 2260,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "t07c",
+          "label": "films with extensions",
+          "file": "studies/06-video/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "route_extension"
+          },
+          "column": "films_with_numerator",
+          "value": 53,
+          "round": 0,
+          "format": "int"
+        }
+      ]
+    },
+    {
+      "id": "T08",
+      "kind": "technique",
+      "rank": 8,
+      "title": "Combine source images and give each one a job",
+      "finding": "Composite image requests attach several images and say what to take from each, sometimes as an ordered checklist of properties to match.",
+      "frequency": "Image jobs combining two or more inputs: {{t08a}} of the mean film's image jobs (pooled {{t08b}}; {{t08c}} of {{p05g}} films).",
+      "stage": "Image compositing and integration",
+      "models": [
+        "seedream_v5_pro",
+        "nano_banana_2",
+        "gpt_image_2"
+      ],
+      "evidence_label": "observed",
+      "evidence_note": "Recorded multi-input bindings; the ordered checklist is case wording.",
+      "strength": "strong for multi-input use; checklist wording is case-scoped",
+      "study04": "Study 05 integration properties and sheet, plate or poster purpose in cases: confirmed.",
+      "studies": [
+        "05"
+      ],
+      "sources": [
+        "studies/05-image/README.md",
+        "studies/05-image/outputs/summaries.csv",
+        "studies/05-image/outputs/construction_recipes.json"
+      ],
+      "example": {
+        "film_id": "d305f6e5-b906-49a1-a0c6-75ef7f653ad8",
+        "entities": "d305f6e5-b906-49a1-a0c6-75ef7f653ad8/generation:5bc1268c-ccc1-419e-bd13-79344eadf228; d305f6e5-b906-49a1-a0c6-75ef7f653ad8/asset:4ebd698e-e1f7-479d-93b0-4043e5e61913; d305f6e5-b906-49a1-a0c6-75ef7f653ad8/asset:c16ce530-c7d1-461a-acc8-63b8d7de63b1",
+        "source_path": "studies/05-image/outputs/case_evidence.csv (Don't Poison Ivy 05.1)",
+        "excerpt": "TRANSPLANT THE PLANT FROM IMAGE 2 ONTO THE SHELF. FIRST, SCALE. SECOND, POSITION. THIRD, VIEWING ANGLE. FOURTH, LIGHTING."
+      },
+      "denominator": "{{p05h}} image jobs in {{p05g}} films",
+      "competing_explanation": "Multiple inputs may be alternative candidates rather than parts; masks and layers are not recorded (L08).",
+      "confidence": "Deterministic binding counts; single-coder case reading.",
+      "numbers": [
+        {
+          "id": "t08a",
+          "label": "multi-input image jobs, mean film share",
+          "file": "studies/05-image/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "multi_input_jobs"
+          },
+          "column": "equal_film_mean",
+          "value": 0.2894,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "t08b",
+          "label": "multi-input image jobs, pooled",
+          "file": "studies/05-image/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "multi_input_jobs"
+          },
+          "column": "pooled_share",
+          "value": 0.3063,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "t08c",
+          "label": "films with multi-input image jobs",
+          "file": "studies/05-image/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "multi_input_jobs"
+          },
+          "column": "films_with_numerator",
+          "value": 150,
+          "round": 0,
+          "format": "int"
+        }
+      ]
+    },
+    {
+      "id": "T09",
+      "kind": "technique",
+      "rank": 9,
+      "title": "Short edits ride on an attached image",
+      "finding": "Very short edit requests are almost always attached to an image and rarely use camera language; the image carries the context and the text names only the change.",
+      "frequency": "Short image edits ({{t09a}} prompts in {{t09b}} films) with an attached image: {{t09c}} per film versus {{t09d}} for all image prompts in those films (pooled {{t09e}}/{{t09a}}). With camera wording: {{t09f}} versus {{t09g}}.",
+      "stage": "Image edits",
+      "models": [
+        "nano_banana_2"
+      ],
+      "evidence_label": "associated",
+      "evidence_note": "Co-occurrence of the short-edit proxy with recorded attachments and camera wording.",
+      "strength": "strong for the association",
+      "study04": "Study 05 short-edit proxy: changed. Edit intent is not a released semantic component.",
+      "studies": [
+        "05",
+        "09"
+      ],
+      "sources": [
+        "synthesis/outputs/technique_pairs.csv",
+        "studies/09-iteration/outputs/revision_spans.csv",
+        "studies/05-image/README.md"
+      ],
+      "example": {
+        "film_id": "655325cc-46d9-4b0b-b03d-d177defa4b3f",
+        "entities": "655325cc-46d9-4b0b-b03d-d177defa4b3f/generation:19f73675-b69e-4314-b3a1-f74802df1da2; 655325cc-46d9-4b0b-b03d-d177defa4b3f/asset:6672ee33-d850-4db4-b78f-667905814400",
+        "source_path": "studies/09-iteration/outputs/case_evidence.csv (The Kiss 09.3)",
+        "excerpt": "Move the entire title \"The Kiss\" UP ... Reduce the title's size slightly"
+      },
+      "denominator": "{{t09a}} short-edit image prompts in {{t09b}} films",
+      "competing_explanation": "The proxy is defined by length and edit wording, so dropping camera language partly follows from its definition.",
+      "confidence": "Census-level association from released features.",
+      "numbers": [
+        {
+          "id": "t09a",
+          "label": "short-edit image prompts",
+          "file": "synthesis/outputs/technique_pairs.csv",
+          "where": {
+            "task": "image",
+            "given": "short_edit",
+            "also": "attached_input"
+          },
+          "column": "given_mass",
+          "value": 4116,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "t09b",
+          "label": "films with short edits",
+          "file": "synthesis/outputs/technique_pairs.csv",
+          "where": {
+            "task": "image",
+            "given": "short_edit",
+            "also": "attached_input"
+          },
+          "column": "films_with_given",
+          "value": 98,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "t09c",
+          "label": "attached input given short edit",
+          "file": "synthesis/outputs/technique_pairs.csv",
+          "where": {
+            "task": "image",
+            "given": "short_edit",
+            "also": "attached_input"
+          },
+          "column": "mean_share_given",
+          "value": 0.9839,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "t09d",
+          "label": "attached input in same films",
+          "file": "synthesis/outputs/technique_pairs.csv",
+          "where": {
+            "task": "image",
+            "given": "short_edit",
+            "also": "attached_input"
+          },
+          "column": "mean_share_same_films",
+          "value": 0.7122,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "t09e",
+          "label": "short edits with attached input",
+          "file": "synthesis/outputs/technique_pairs.csv",
+          "where": {
+            "task": "image",
+            "given": "short_edit",
+            "also": "attached_input"
+          },
+          "column": "both_mass",
+          "value": 4089,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "t09f",
+          "label": "camera wording given short edit",
+          "file": "synthesis/outputs/technique_pairs.csv",
+          "where": {
+            "task": "image",
+            "given": "short_edit",
+            "also": "camera"
+          },
+          "column": "mean_share_given",
+          "value": 0.0481,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "t09g",
+          "label": "camera wording in same films",
+          "file": "synthesis/outputs/technique_pairs.csv",
+          "where": {
+            "task": "image",
+            "given": "short_edit",
+            "also": "camera"
+          },
+          "column": "mean_share_same_films",
+          "value": 0.4049,
+          "round": 4,
+          "format": "pct"
+        }
+      ]
+    },
+    {
+      "id": "T10",
+      "kind": "technique",
+      "rank": 10,
+      "title": "Lay out the frame in labelled sections, in prose rather than code",
+      "finding": "About a third of prompts use section labels, such as foreground, middle ground and background, to organise a description. Machine-style JSON prompts are rare.",
+      "frequency": "Sectioned primary prompts: {{t10a}} per film (pooled {{t10b}}). JSON-structured prompts: image {{t10c}}, video {{t10d}} per film.",
+      "stage": "Image and video prompts",
+      "models": [
+        "nano_banana_2"
+      ],
+      "evidence_label": "observed",
+      "evidence_note": "Lexical section labels and JSON detection.",
+      "strength": "moderate: section detection is lexical",
+      "study04": "Study 02 section, reference and multi-shot lexical proxies: changed. The structural census stays; semantic components are a sampled addition.",
+      "studies": [
+        "02",
+        "04",
+        "05"
+      ],
+      "sources": [
+        "studies/02-planning/outputs/summaries.csv",
+        "synthesis/outputs/summaries.csv",
+        "studies/05-image/outputs/construction_recipes.json"
+      ],
+      "example": {
+        "film_id": "3777eda4-c15e-4531-9f04-4c02a900f3c3",
+        "entities": "3777eda4-c15e-4531-9f04-4c02a900f3c3/generation:3e7791d1-6165-4a81-bbaa-575811c1edd8",
+        "source_path": "studies/05-image/outputs/case_evidence.csv (Dry Aged Dreams 05.4)",
+        "excerpt": "FOREGROUND: ... MIDDLE GROUND: ... BACKGROUND:"
+      },
+      "denominator": "{{p07j}} nonempty primary prompts in {{l01a}} films; {{p04i}} image and {{p04h}} video prompts",
+      "competing_explanation": "Section labels may come from templates or prompt-writing tools; labels in other languages are missed.",
+      "confidence": "Deterministic lexical counts.",
+      "numbers": [
+        {
+          "id": "t10a",
+          "label": "sectioned prompts, mean film",
+          "file": "studies/02-planning/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "sectioned_jobs"
+          },
+          "column": "equal_film_mean",
+          "value": 0.3545,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "t10b",
+          "label": "sectioned prompts, pooled",
+          "file": "studies/02-planning/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "sectioned_jobs"
+          },
+          "column": "pooled_share",
+          "value": 0.3758,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "t10c",
+          "label": "JSON prompts, image",
+          "file": "synthesis/outputs/summaries.csv",
+          "where": {
+            "metric": "structured_json",
+            "task": "image"
+          },
+          "column": "equal_film_mean",
+          "value": 0.0055,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "t10d",
+          "label": "JSON prompts, video",
+          "file": "synthesis/outputs/summaries.csv",
+          "where": {
+            "metric": "structured_json",
+            "task": "video"
+          },
+          "column": "equal_film_mean",
+          "value": 0.0094,
+          "round": 4,
+          "format": "pct"
+        }
+      ]
+    },
+    {
+      "id": "T11",
+      "kind": "technique",
+      "rank": 11,
+      "title": "Revise a clip by naming the fix and keeping the rest",
+      "finding": "Video revisions bound to an earlier clip ask for a specific fix and say everything else stays; video edit wording comes with preservation wording more often than other video prompts do.",
+      "frequency": "Video edit prompts with preservation wording: {{t11a}} of the mean film's edit prompts versus {{t11b}} of its video prompts ({{t11c}} films).",
+      "stage": "Video revision",
+      "models": [
+        "seedance_2_5"
+      ],
+      "evidence_label": "associated",
+      "evidence_note": "Co-occurrence of lexical edit and preservation wording; the case shows the revision wording.",
+      "strength": "moderate",
+      "study04": "Study 09 local correction, derivative and specificity scoped to cases: confirmed. Study 09 preservation and edit markers: changed.",
+      "studies": [
+        "06",
+        "09"
+      ],
+      "sources": [
+        "synthesis/outputs/technique_pairs.csv",
+        "studies/09-iteration/README.md",
+        "studies/06-video/outputs/revision_requests.json"
+      ],
+      "example": {
+        "film_id": "e5ce8a79-9375-4e31-84a8-620bd4f07550",
+        "entities": "e5ce8a79-9375-4e31-84a8-620bd4f07550/generation:09925f84-295d-42ac-a3f2-d8dbf98a1740; e5ce8a79-9375-4e31-84a8-620bd4f07550/asset:66411159-7e3c-4216-8031-e096668d53a1",
+        "source_path": "studies/06-video/outputs/case_evidence.csv (Lost 06.5)",
+        "excerpt": "make everything the same but fix the sounds and color grading ... one continuous shot with no cuts"
+      },
+      "denominator": "{{t11d}} video edit prompts in {{t11c}} films",
+      "competing_explanation": "Edit words also describe in-scene actions; revisions outside the platform are invisible.",
+      "confidence": "Census-level association from released features; single-coder case reading.",
+      "numbers": [
+        {
+          "id": "t11a",
+          "label": "preservation given edit, video",
+          "file": "synthesis/outputs/technique_pairs.csv",
+          "where": {
+            "task": "video",
+            "given": "edit",
+            "also": "preservation"
+          },
+          "column": "mean_share_given",
+          "value": 0.5074,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "t11b",
+          "label": "preservation in same films, video",
+          "file": "synthesis/outputs/technique_pairs.csv",
+          "where": {
+            "task": "video",
+            "given": "edit",
+            "also": "preservation"
+          },
+          "column": "mean_share_same_films",
+          "value": 0.3833,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "t11c",
+          "label": "films with video edit prompts",
+          "file": "synthesis/outputs/technique_pairs.csv",
+          "where": {
+            "task": "video",
+            "given": "edit",
+            "also": "preservation"
+          },
+          "column": "films_with_given",
+          "value": 148,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "t11d",
+          "label": "video edit prompts",
+          "file": "synthesis/outputs/technique_pairs.csv",
+          "where": {
+            "task": "video",
+            "given": "edit",
+            "also": "preservation"
+          },
+          "column": "given_mass",
+          "value": 12676,
+          "round": 0,
+          "format": "int"
+        }
+      ]
+    },
+    {
+      "id": "L01",
+      "kind": "limit",
+      "rank": 1,
+      "title": "What separates top films from others",
+      "finding": "Only the selected cohort has detailed records, so nothing here says what distinguishes these films from films outside it. Study 11, waiting for the festival winners, can describe the winners' records but not why they won.",
+      "frequency": "Detailed histories exist for {{l01a}} primary films ({{l01b}} jobs); there is no comparison group of non-selected films.",
+      "stage": "Whole programme",
+      "models": [],
+      "evidence_label": "observed",
+      "evidence_note": "The scope of the published cohort.",
+      "strength": "certain: a design limit",
+      "study04": "No Study 04 dependency.",
+      "studies": [
+        "01",
+        "11"
+      ],
+      "sources": [
+        "PROGRAMME.md",
+        "studies/01-corpus/README.md",
+        "studies/10-organisation/outputs/summaries.csv"
+      ],
+      "example": {
+        "film_id": "all primary films",
+        "entities": "film:* in the published snapshot",
+        "source_path": "studies/01-corpus/outputs/eligibility.csv",
+        "excerpt": "primary population membership"
+      },
+      "denominator": "{{l01a}} primary workspaces; the supplemental Cosmic tracks pilot is excluded",
+      "competing_explanation": "None: the limit follows from the data's scope.",
+      "confidence": "Programme design and Study 01 populations.",
+      "numbers": [
+        {
+          "id": "l01a",
+          "label": "primary films",
+          "file": "studies/10-organisation/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "jobs"
+          },
+          "column": "denominator",
+          "value": 157,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "l01b",
+          "label": "primary jobs",
+          "file": "studies/10-organisation/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "jobs"
+          },
+          "column": "numerator",
+          "value": 130704,
+          "round": 0,
+          "format": "int"
+        }
+      ]
+    },
+    {
+      "id": "L02",
+      "kind": "limit",
+      "rank": 2,
+      "title": "Whether any technique works",
+      "finding": "Every technique above is an instruction or a binding, not an outcome: no output was watched or judged. Testing them needs Study 12's controlled experiments, for example a reference sheet against a text description of identity, staged against one-pass generation, a local edit against regeneration, and continuing from a last frame against re-referencing.",
+      "frequency": "Points in this synthesis labelled experimentally supported: {{points-experimentally-supported}} of {{points-total}}.",
+      "stage": "All techniques",
+      "models": [],
+      "evidence_label": "proposed",
+      "evidence_note": "The follow-up experiments are proposals.",
+      "strength": "certain for the gap",
+      "study04": "Study 04's confirmations concern definitions, not effects.",
+      "studies": [
+        "12"
+      ],
+      "sources": [
+        "PROGRAMME.md",
+        "studies/04-prompts/dependencies.csv"
+      ],
+      "example": {
+        "film_id": "not applicable",
+        "entities": "none",
+        "source_path": "synthesis/points.json",
+        "excerpt": "evidence_label values of all points"
+      },
+      "denominator": "All points in this synthesis",
+      "competing_explanation": "Adoption or reuse could be read as success, but use is not approval or quality.",
+      "confidence": "Follows from the evidence rules.",
+      "numbers": []
+    },
+    {
+      "id": "L03",
+      "kind": "limit",
+      "rank": 3,
+      "title": "Failure, retry and discard rates",
+      "finding": "The records hold no failure, rejection or approval state. Outputs that were not taken further are not failures, and rerun candidates have unknown motives.",
+      "frequency": "Only {{l03a}} of the mean film's jobs are taken further; the rest have no recorded use, which is not the same as failure. Rerun candidates: {{l03b}} of the mean film's jobs, motive unknown.",
+      "stage": "Iteration",
+      "models": [],
+      "evidence_label": "observed",
+      "evidence_note": "Absence of status fields in the released records.",
+      "strength": "certain for the gap",
+      "study04": "Study 09 equal-request rerun candidates: undecided. Motives need human validation.",
+      "studies": [
+        "09",
+        "12"
+      ],
+      "sources": [
+        "studies/09-iteration/README.md",
+        "studies/09-iteration/outputs/summaries.csv"
+      ],
+      "example": {
+        "film_id": "all primary films",
+        "entities": "generation:* per film",
+        "source_path": "studies/09-iteration/outputs/film_metrics.csv",
+        "excerpt": "adopted and rerun_candidate counts per film"
+      },
+      "denominator": "{{l01b}} jobs in {{l01a}} films",
+      "competing_explanation": "Unused outputs may be used outside the platform; batches make many siblings by design.",
+      "confidence": "Follows from the released fields; a study with creators or platform status data would be needed.",
+      "numbers": [
+        {
+          "id": "l03a",
+          "label": "adopted share, mean film",
+          "file": "studies/09-iteration/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "adopted"
+          },
+          "column": "equal_film_mean",
+          "value": 0.1474,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "l03b",
+          "label": "rerun candidates, mean film",
+          "file": "studies/09-iteration/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "rerun_candidate"
+          },
+          "column": "equal_film_mean",
+          "value": 0.3105,
+          "round": 4,
+          "format": "pct"
+        }
+      ]
+    },
+    {
+      "id": "L04",
+      "kind": "limit",
+      "rank": 4,
+      "title": "Labour, cost and speed",
+      "finding": "Timestamps show when recorded jobs ran, not how long anyone worked, and no credits or costs are recorded. Spans and active dates are not effort measures.",
+      "frequency": "Mean event span {{l04a}} days and {{l04b}} active UTC dates per film across {{l01a}} films; neither measures labour.",
+      "stage": "Whole production",
+      "models": [],
+      "evidence_label": "observed",
+      "evidence_note": "Timestamp summaries; no cost fields exist.",
+      "strength": "certain for the gap",
+      "study04": "No Study 04 dependency.",
+      "studies": [
+        "10"
+      ],
+      "sources": [
+        "studies/10-organisation/README.md",
+        "studies/10-organisation/outputs/summaries.csv"
+      ],
+      "example": {
+        "film_id": "all primary films",
+        "entities": "generation:* timestamps per film",
+        "source_path": "studies/10-organisation/outputs/film_metrics.csv",
+        "excerpt": "event_span_days and active_utc_dates per film"
+      },
+      "denominator": "{{l01a}} films",
+      "competing_explanation": "Work happens offline, in other tools and in unpublished workspaces.",
+      "confidence": "Follows from the released fields.",
+      "numbers": [
+        {
+          "id": "l04a",
+          "label": "event span days, mean film",
+          "file": "studies/10-organisation/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "event_span_days"
+          },
+          "column": "equal_film_mean",
+          "value": 21.71,
+          "round": 2,
+          "format": "f1"
+        },
+        {
+          "id": "l04b",
+          "label": "active UTC dates, mean film",
+          "file": "studies/10-organisation/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "active_utc_dates"
+          },
+          "column": "equal_film_mean",
+          "value": 16.64,
+          "round": 2,
+          "format": "f1"
+        }
+      ]
+    },
+    {
+      "id": "L05",
+      "kind": "limit",
+      "rank": 5,
+      "title": "Agents, scripts and hidden orchestration",
+      "finding": "Nothing in the records distinguishes a person clicking from a script or agent submitting jobs, and any planning outside the platform is invisible.",
+      "frequency": "Jobs recorded under the declared owner's author ID: {{l05a}} of the mean film's jobs; no field records what submitted a job.",
+      "stage": "Whole production",
+      "models": [],
+      "evidence_label": "observed",
+      "evidence_note": "Author and declared owner IDs only; an author ID is not a person, tool or labour measure.",
+      "strength": "certain for the gap",
+      "study04": "No Study 04 dependency.",
+      "studies": [
+        "10"
+      ],
+      "sources": [
+        "studies/10-organisation/README.md",
+        "studies/10-organisation/outputs/summaries.csv"
+      ],
+      "example": {
+        "film_id": "all primary films",
+        "entities": "generation:* author records per film",
+        "source_path": "studies/10-organisation/outputs/author_operations.csv",
+        "excerpt": "owner and author job counts"
+      },
+      "denominator": "{{l01b}} jobs in {{l01a}} films",
+      "competing_explanation": "Batch and repeat patterns could come from either people or automation.",
+      "confidence": "Follows from the released fields.",
+      "numbers": [
+        {
+          "id": "l05a",
+          "label": "owner job share, mean film",
+          "file": "studies/10-organisation/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "owner_job_share"
+          },
+          "column": "equal_film_mean",
+          "value": 0.9398,
+          "round": 4,
+          "format": "pct"
+        }
+      ]
+    },
+    {
+      "id": "L06",
+      "kind": "limit",
+      "rank": 6,
+      "title": "Why seedance_2_5 dominates",
+      "finding": "The concentration on one video model could reflect availability, defaults, price or timing as much as preference. Separating these needs the platform's model offer and default history over the contest window, or a controlled comparison.",
+      "frequency": "seedance_2_5 pooled share of video jobs: {{l06a}}; reasons recorded: none.",
+      "stage": "Video generation",
+      "models": [
+        "seedance_2_5"
+      ],
+      "evidence_label": "observed",
+      "evidence_note": "The share is observed; reasons are not.",
+      "strength": "certain for the gap",
+      "study04": "No Study 04 dependency.",
+      "studies": [
+        "06",
+        "08",
+        "12"
+      ],
+      "sources": [
+        "synthesis/outputs/summaries.csv"
+      ],
+      "example": {
+        "film_id": "all video-bearing primary films",
+        "entities": "per-film generation:* model counts",
+        "source_path": "synthesis/outputs/model_concentration.csv",
+        "excerpt": "seedance_2_5_jobs per film"
+      },
+      "denominator": "{{p01d}} video jobs in {{p01h}} films",
+      "competing_explanation": "See the finding: offer, defaults, price, timing.",
+      "confidence": "Follows from the released fields.",
+      "numbers": [
+        {
+          "id": "l06a",
+          "label": "seedance_2_5 pooled share",
+          "file": "synthesis/outputs/summaries.csv",
+          "where": {
+            "metric": "seedance_2_5_video_share"
+          },
+          "column": "pooled_share",
+          "value": 0.8072,
+          "round": 4,
+          "format": "pct"
+        }
+      ]
+    },
+    {
+      "id": "L07",
+      "kind": "limit",
+      "rank": 7,
+      "title": "Semantic findings rest on a provisional sample",
+      "finding": "The instruction-component findings come from one local model's provisional labels on a stratified sample, with long texts excluded and agreement measured against a single coder. A multilingual, adjudicated census would be needed to treat them as more than provisional.",
+      "frequency": "Labelled {{l07a}} of {{l07b}} sampled texts; {{l07c}} of {{l07d}} distinct texts ({{l07e}}) too long to label; pooled kappa {{l07f}} over {{l07g}} decisions against the single-coder gold.",
+      "stage": "All prompt interpretation",
+      "models": [],
+      "evidence_label": "observed",
+      "evidence_note": "Coverage and agreement of the label release.",
+      "strength": "certain for the limits",
+      "study04": "Each of Study 04's dependency assessments names a remaining Study 12 step, such as adjudicated semantic coding or validation.",
+      "studies": [
+        "04"
+      ],
+      "sources": [
+        "prompt-labels/RELEASE.md",
+        "studies/04-prompts/README.md",
+        "studies/04-prompts/outputs/coverage.json",
+        "studies/04-prompts/outputs/agreement.csv",
+        "synthesis/outputs/label_agreement.csv"
+      ],
+      "example": {
+        "film_id": "not applicable",
+        "entities": "text_id:* in prompt-labels-v2",
+        "source_path": "studies/04-prompts/outputs/coverage.json",
+        "excerpt": "long_texts.excluded_long_texts; sample.successes"
+      },
+      "denominator": "{{l07b}} sampled texts; {{l07d}} distinct texts; {{l07i}} gold texts by {{l07h}} components",
+      "competing_explanation": "Label errors may be systematic by language or task; the gold coder may share the labeller's blind spots.",
+      "confidence": "Agreement pooled here from Study 04's per-component counts.",
+      "numbers": [
+        {
+          "id": "l07a",
+          "label": "successfully labelled texts",
+          "file": "studies/04-prompts/outputs/coverage.json",
+          "key": "sample.successes",
+          "value": 4633,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "l07b",
+          "label": "sampled texts",
+          "file": "studies/04-prompts/outputs/coverage.json",
+          "key": "sample.sample_texts_denominator",
+          "value": 5000,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "l07c",
+          "label": "excluded long texts",
+          "file": "studies/04-prompts/outputs/coverage.json",
+          "key": "long_texts.excluded_long_texts",
+          "value": 5922,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "l07d",
+          "label": "distinct texts",
+          "file": "studies/04-prompts/outputs/coverage.json",
+          "key": "long_texts.distinct_texts_denominator",
+          "value": 61422,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "l07e",
+          "label": "excluded long-text share",
+          "file": "studies/04-prompts/outputs/coverage.json",
+          "key": "long_texts.excluded_share",
+          "value": 0.0964,
+          "round": 4,
+          "format": "pct"
+        },
+        {
+          "id": "l07f",
+          "label": "pooled kappa, 27B versus gold",
+          "file": "synthesis/outputs/label_agreement.csv",
+          "where": {
+            "comparison": "primary_vs_gold"
+          },
+          "column": "pooled_kappa",
+          "value": 0.7792,
+          "round": 3,
+          "format": "f3"
+        },
+        {
+          "id": "l07g",
+          "label": "gold decisions",
+          "file": "synthesis/outputs/label_agreement.csv",
+          "where": {
+            "comparison": "primary_vs_gold"
+          },
+          "column": "decisions",
+          "value": 3864,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "l07h",
+          "label": "components",
+          "file": "synthesis/outputs/label_agreement.csv",
+          "where": {
+            "comparison": "primary_vs_gold"
+          },
+          "column": "components",
+          "value": 14,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "l07i",
+          "label": "gold texts",
+          "file": "synthesis/outputs/label_agreement.csv",
+          "where": {
+            "comparison": "primary_vs_gold"
+          },
+          "column": "texts",
+          "value": 276,
+          "round": 0,
+          "format": "int"
+        }
+      ]
+    },
+    {
+      "id": "L08",
+      "kind": "limit",
+      "rank": 8,
+      "title": "What is in the media, where edits land and what reached the screen",
+      "finding": "Attached images and videos are never inspected, no mask or layer is recorded, and no job is linked to the final cut, so where an edit applied and which outputs appear in the film are unknown. External sound and editing pipelines are outside the records.",
+      "frequency": "Of {{l08c}} image jobs, {{l08a}} have the inpaint flag on and {{l08b}} have an active mask or layer.",
+      "stage": "Image edits; final assembly",
+      "models": [],
+      "evidence_label": "observed",
+      "evidence_note": "Literal control and field states.",
+      "strength": "certain for the gap",
+      "study04": "Study 03 property location with unknown media: confirmed.",
+      "studies": [
+        "05",
+        "08",
+        "12"
+      ],
+      "sources": [
+        "studies/05-image/README.md",
+        "studies/05-image/outputs/summaries.csv"
+      ],
+      "example": {
+        "film_id": "all image-bearing primary films",
+        "entities": "generation:* control states",
+        "source_path": "studies/05-image/outputs/mask_layer_paths.csv",
+        "excerpt": "mask and layer parameter paths"
+      },
+      "denominator": "{{l08c}} image jobs in {{p05g}} films",
+      "competing_explanation": "Masks may exist in interface state that is not exported.",
+      "confidence": "Follows from the released fields.",
+      "numbers": [
+        {
+          "id": "l08a",
+          "label": "inpaint true",
+          "file": "studies/05-image/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "inpaint_true"
+          },
+          "column": "numerator",
+          "value": 0,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "l08b",
+          "label": "mask or layer active",
+          "file": "studies/05-image/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "mask_layer_active"
+          },
+          "column": "numerator",
+          "value": 0,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "l08c",
+          "label": "image jobs",
+          "file": "studies/05-image/outputs/summaries.csv",
+          "where": {
+            "dimension": "all",
+            "metric": "mask_layer_active"
+          },
+          "column": "denominator",
+          "value": 92058,
+          "round": 0,
+          "format": "int"
+        }
+      ]
+    },
+    {
+      "id": "L09",
+      "kind": "limit",
+      "rank": 9,
+      "title": "Versions, aliases and approval",
+      "finding": "Versions of an element are inferred from lineage, not declared, and nothing marks an output as approved. Whether two records are the same asset under different IDs is undecided.",
+      "frequency": "Panel films with inferred versions: {{l09a}} of {{t02f}}; panel films where versions could not be coded: {{l09b}} of {{t02f}}.",
+      "stage": "Elements and lineage",
+      "models": [],
+      "evidence_label": "inferred",
+      "evidence_note": "Versions are inferred from recorded derivation.",
+      "strength": "moderate",
+      "study04": "Study 07 within-asset representations and zero cross-ID merges: undecided.",
+      "studies": [
+        "03",
+        "07"
+      ],
+      "sources": [
+        "studies/03-elements/outputs/panel_assignments.csv",
+        "studies/03-elements/outputs/versions.json",
+        "studies/07-lineage/outputs/alias_audit.csv"
+      ],
+      "example": {
+        "film_id": "d90fe8bd-3329-40b3-963c-d9b33075aec1",
+        "entities": "d90fe8bd-3329-40b3-963c-d9b33075aec1/generation:006dcc36-ec37-490f-9890-9524e3ed0ddd; d90fe8bd-3329-40b3-963c-d9b33075aec1/generation:011fbb97-732a-416b-825f-a9635b313b86",
+        "source_path": "studies/03-elements/outputs/case_evidence.csv (Detour 03.5)",
+        "excerpt": "[producer model] seedream_v5_pro [consumer model] gpt_image_2 [changed property excerpt] The only change is a small mark of tomato ketchup"
+      },
+      "denominator": "{{t02f}} panel films",
+      "competing_explanation": "A derived image may be a new element rather than a version.",
+      "confidence": "Single-coder panel coding.",
+      "numbers": [
+        {
+          "id": "l09a",
+          "label": "panel films with inferred versions",
+          "file": "studies/03-elements/outputs/panel_assignments.csv",
+          "where": {
+            "code_id": "03.5",
+            "value": "inferred_version"
+          },
+          "column": "assignments",
+          "value": 6,
+          "round": 0,
+          "format": "int"
+        },
+        {
+          "id": "l09b",
+          "label": "panel films with versions uncoded",
+          "file": "studies/03-elements/outputs/panel_assignments.csv",
+          "where": {
+            "code_id": "03.5",
+            "status": "unknown"
+          },
+          "column": "assignments",
+          "value": 10,
+          "round": 0,
+          "format": "int"
+        }
+      ]
+    },
+    {
+      "id": "L10",
+      "kind": "limit",
+      "rank": 10,
+      "title": "Whether longer or more structured prompts are better",
+      "finding": "Long, sectioned prompts are common, but nothing links length or structure to a better result; length is not quality. An optimal length or structure needs a controlled test.",
+      "frequency": "Median of per-film median video prompt length {{l10a}} characters; outcome measures available: none.",
+      "stage": "Prompt writing",
+      "models": [],
+      "evidence_label": "observed",
+      "evidence_note": "Lengths are observed; outcomes are absent.",
+      "strength": "certain for the gap",
+      "study04": "Study 09 exact, token and length deltas: confirmed as distinct from specificity.",
+      "studies": [
+        "04",
+        "09",
+        "12"
+      ],
+      "sources": [
+        "synthesis/outputs/summaries.csv",
+        "studies/04-prompts/README.md"
+      ],
+      "example": {
+        "film_id": "all video-bearing primary films",
+        "entities": "text_id:* per film",
+        "source_path": "synthesis/outputs/technique_by_film.csv",
+        "excerpt": "median_characters per film and task"
+      },
+      "denominator": "{{p04h}} nonempty video prompts in {{p01h}} films",
+      "competing_explanation": "Long prompts may be templates; short prompts may rely on attached images (T09).",
+      "confidence": "Follows from the released fields.",
+      "numbers": [
+        {
+          "id": "l10a",
+          "label": "video prompt characters, median of film medians",
+          "file": "synthesis/outputs/summaries.csv",
+          "where": {
+            "metric": "video_median_characters"
+          },
+          "column": "median",
+          "value": 5104,
+          "round": 0,
+          "format": "int"
+        }
+      ]
+    }
+  ]
+}
