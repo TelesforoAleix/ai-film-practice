@@ -19,6 +19,8 @@ Email addresses and local file paths have been redacted. See [DATA.md](DATA.md) 
 
 [Study 01: corpus, evidence map, panel and codebook](studies/01-corpus/README.md) follows the AF0 infrastructure milestone described above.
 
+[Findings synthesis of Studies 01–10](synthesis/README.md) gathers the studies' findings into small, ranked points, with a one-page summary for creators.
+
 ## Get the snapshot and query it
 
 Requires Python 3.11+ and [uv](https://docs.astral.sh/uv/). From the repository root:

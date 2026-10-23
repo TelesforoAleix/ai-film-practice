@@ -1,0 +1,5 @@
+comparison,components,texts,decisions,agreeing,accuracy,pooled_kappa
+jev_gold_run_vs_gold,14,300,4200,3726,0.887142857,0.743113034
+jev_vs_gold,14,300,4200,3735,0.889285714,0.747470960
+primary_vs_gold,14,276,3864,3503,0.906573499,0.779204753
+primary_vs_jev,14,4633,64862,57528,0.886929173,0.732228221
